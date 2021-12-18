@@ -49,10 +49,6 @@ Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.
 Greener, Joe G., Lewis Moffat, and David T. Jones.  
 [Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-34533-1)  
 
-**A general-purpose protein design framework based on mining sequence–structure relationships in known protein structures**  
-Zhou, Jianfu, Alexandra E. Panaitiu, and Gevorg Grigoryan.  
-[Proceedings of the National Academy of Sciences 117.2 (2020)](https://www.pnas.org/content/117/2/1059.short)  
-
 **Function-guided protein design by deep manifold sampling**  
 Vladimir Gligorijevic, Stephen Ra, Daniel Berenberg, Richard Bonneau, Kyunghyun Cho  
 [NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_Function-guided_protein_design_by.pdf)
@@ -62,6 +58,11 @@ Vladimir Gligorijevic, Stephen Ra, Daniel Berenberg, Richard Bonneau, Kyunghyun 
 **Deep learning methods for designing proteins scaffolding functional sites**  
 Wang, J., et al.  
 [bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387)  
+
+**Computational protein design with deep learning neural networks**  
+Wang, Jingxue, et al.  
+[Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-24760-x.pdf)
+
 
 ## Function to sequence
 
@@ -73,3 +74,8 @@ Madani, Ali, et al.
 **AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**
 Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai
 [NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)  
+
+## Basic NLP models
+**Recurrent neural network model for constructive peptide design**  
+Müller, Alex T., Jan A. Hiss, and Gisbert Schneider.  
+[Journal of chemical information and modeling 58.2 (2018)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.7b00414)  
