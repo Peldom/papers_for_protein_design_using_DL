@@ -10,6 +10,7 @@ Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://githu
 
 ## Menu
 
+* Hallucination
 * function to scaffold
 * scaffold to sequence
 * function to sequence
@@ -42,6 +43,16 @@ Petti, Samantha, et al.
 Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.10.11.463937.abstract)  
 
+## Function to scaffold
+
+**Design of metalloproteins and novel protein folds using variational autoencoders**
+Greener, Joe G., Lewis Moffat, and David T. Jones.  
+[Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-34533-1)
+
+**A general-purpose protein design framework based on mining sequence–structure relationships in known protein structures**
+Zhou, Jianfu, Alexandra E. Panaitiu, and Gevorg Grigoryan.  
+[Proceedings of the National Academy of Sciences 117.2 (2020)](https://www.pnas.org/content/117/2/1059.short)
+
 ## Scaffold to sequence
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
@@ -53,3 +64,8 @@ Wang, J., et al.
 **Deep neural language modeling enables functional protein generation across families**  
 Madani, Ali, et al.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.07.18.452833.abstract)  
+
+## CM-Align
+**AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**
+Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai
+[NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)
