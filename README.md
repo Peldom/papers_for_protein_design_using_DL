@@ -47,11 +47,15 @@ Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.
 
 **Design of metalloproteins and novel protein folds using variational autoencoders**
 Greener, Joe G., Lewis Moffat, and David T. Jones.  
-[Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-34533-1)
+[Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-34533-1)  
 
-**A general-purpose protein design framework based on mining sequence–structure relationships in known protein structures**
+**A general-purpose protein design framework based on mining sequence–structure relationships in known protein structures**  
 Zhou, Jianfu, Alexandra E. Panaitiu, and Gevorg Grigoryan.  
-[Proceedings of the National Academy of Sciences 117.2 (2020)](https://www.pnas.org/content/117/2/1059.short)
+[Proceedings of the National Academy of Sciences 117.2 (2020)](https://www.pnas.org/content/117/2/1059.short)  
+
+**Function-guided protein design by deep manifold sampling**  
+Vladimir Gligorijevic, Stephen Ra, Daniel Berenberg, Richard Bonneau, Kyunghyun Cho  
+[NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_Function-guided_protein_design_by.pdf)
 
 ## Scaffold to sequence
 
@@ -68,4 +72,4 @@ Madani, Ali, et al.
 ## CM-Align
 **AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**
 Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai
-[NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)
+[NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)  
