@@ -2,7 +2,7 @@
 
 ## About this repository
 
-Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of protein design in DL, the dynamic repository will be a record of papers for these newcomers to like me.  
+Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of protein design in DL, the dynamic repository will be a record of papers for these newcomers like me.  
 
 ## Background
 
