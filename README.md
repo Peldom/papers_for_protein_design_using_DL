@@ -1,9 +1,3 @@
----
-noteId: "ecfc74005fe511ec8d4d5fc031688e0c"
-tags: []
-
----
-
 # List of papers about Proteins Design using Deep Learning
 
 ## About this repository
@@ -80,11 +74,7 @@ Madani, Ali, et al.
 **AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**
 Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai
 [NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)  
-<<<<<<< HEAD
-
 ## Basic NLP models
 **Recurrent neural network model for constructive peptide design**  
 Müller, Alex T., Jan A. Hiss, and Gisbert Schneider.  
 [Journal of chemical information and modeling 58.2 (2018)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.7b00414)  
-=======
->>>>>>> 0929714232460f12eb1e8cacd8411cee892ff81e
