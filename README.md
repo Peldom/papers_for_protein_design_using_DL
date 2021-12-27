@@ -74,6 +74,12 @@ Madani, Ali, et al.
 **AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**
 Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai
 [NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)  
+
+## GAN
+**Conditional Generative Modeling for De Novo Protein Design with Hierarchical Functions**
+Kucera, Tim, Matteo Togninalli, and Laetitia Meng-Papaxanthos  
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.11.10.467885v1.abstract)  
+
 ## Basic NLP models
 **Recurrent neural network model for constructive peptide design**  
 Müller, Alex T., Jan A. Hiss, and Gisbert Schneider.  
