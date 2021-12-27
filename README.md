@@ -14,6 +14,7 @@ Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://githu
 * function to scaffold
 * scaffold to sequence
 * function to sequence
+* Generative Models
 
 ## Hallucination
 
@@ -63,24 +64,28 @@ Wang, J., et al.
 Wang, Jingxue, et al.  
 [Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-24760-x.pdf)
 
-
 ## Function to sequence
 
 **Deep neural language modeling enables functional protein generation across families**  
 Madani, Ali, et al.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.07.18.452833.abstract)  
 
-## CM-Align
-**AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**
+## Generative Models
+
+### CM-Align
+
+**AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**  
 Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai
 [NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)  
 
-## GAN
-**Conditional Generative Modeling for De Novo Protein Design with Hierarchical Functions**
+### GAN
+
+**Conditional Generative Modeling for De Novo Protein Design with Hierarchical Functions**  
 Kucera, Tim, Matteo Togninalli, and Laetitia Meng-Papaxanthos  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.11.10.467885v1.abstract)  
 
-## Basic NLP models
+### Basic NLP models
+
 **Recurrent neural network model for constructive peptide design**  
 Müller, Alex T., Jan A. Hiss, and Gisbert Schneider.  
 [Journal of chemical information and modeling 58.2 (2018)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.7b00414)  
