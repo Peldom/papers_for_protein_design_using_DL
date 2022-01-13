@@ -4,10 +4,6 @@
 
 Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of protein design in DL, the dynamic repository will be a record of papers for these newcomers like me.  
 
-## Background
-
-**There is a hallucination in protein design, that we believe DL could be an good answer to solve the hot potato.**
-
 ## Menu
 
 * Hallucination
@@ -17,6 +13,8 @@ Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://githu
 * Generative Models
 
 ## Hallucination
+
+### trRosetta/trDesign-based
 
  **Design of proteins presenting discontinuous functional sites using deep learning**  
 Tischer, Doug, et al.  
@@ -30,9 +28,9 @@ Anishchenko, I., Pellock, S.J., Chidyausiku, T.M. et al.
 Ovchinnikov, Sergey, and Po-Ssu Huang.  
 [Current opinion in chemical biology 65 (2021): 136-144.](https://www.sciencedirect.com/science/article/pii/S1367593121001125)  
 
-**Design of proteins presenting discontinuous functional sites using deep learning**  
-Tischer, Doug, et al.  
-[bioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.11.29.402743v1.abstract)  
+**Protein sequence design by conformational landscape optimization**
+Norn, Christoffer, et al.  
+[Proceedings of the National Academy of Sciences 118.11 (2021)](https://www.pnas.org/content/118/11/e2017228118)
 
 ### AlphaFold2-based
 
