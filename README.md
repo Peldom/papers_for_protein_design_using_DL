@@ -52,7 +52,23 @@ Greener, Joe G., Lewis Moffat, and David T. Jones.
 Vladimir Gligorijevic, Stephen Ra, Daniel Berenberg, Richard Bonneau, Kyunghyun Cho  
 [NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_Function-guided_protein_design_by.pdf)
 
-## Scaffold to sequence
+## Scaffold/Template to sequence
+
+**DenseCPD: improving the accuracy of neural-network-based computational protein sequence design with DenseNet**
+Qi, Yifei, and John ZH Zhang.  
+[Journal of chemical information and modeling 60.3 (2020)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.0c00043)
+
+**TERMinator: A Neural Framework for Structure-Based Protein Design using Tertiary Repeating Motifs**
+Li, Alex J., et al.  
+[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_TERMinator:_A_Neural_Framework.pdf)
+
+**Fast and flexible protein design using deep graph neural networks.**
+Strokach, Alexey, et al.  
+[Cell Systems 11.4 (2020)](https://www.sciencedirect.com/science/article/pii/S2405471220303276)
+
+**Computational generation of proteins with predetermined three-dimensional shapes using ProteinSolver.**
+Strokach, Alexey, et al.  
+[STAR protocols 2.2 (2021)](https://www.sciencedirect.com/science/article/pii/S2666166721002124)
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
 Wang, J., et al.  
@@ -82,8 +98,29 @@ Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai
 Kucera, Tim, Matteo Togninalli, and Laetitia Meng-Papaxanthos  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.11.10.467885v1.abstract)  
 
-### Basic NLP models
+**Expanding functional protein sequence spaces using generative adversarial networks**
+Repecka, Donatas, et al.  
+[Nature Machine Intelligence 3.4 (2021)](https://www.nature.com/articles/s42256-021-00310-5)
+
+### NLP-based
 
 **Recurrent neural network model for constructive peptide design**  
 Müller, Alex T., Jan A. Hiss, and Gisbert Schneider.  
 [Journal of chemical information and modeling 58.2 (2018)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.7b00414)  
+
+### GNN-based
+
+Generative models for graph-based protein design
+Ingraham, John, et al.  
+[NeurIPS2019](https://openreview.net/forum?id=ByMEAHrgLB)
+
+### Pretrained-based
+
+**Progen: Language modeling for protein generation**
+Madani, Ali, et al.  
+[arXiv preprint arXiv:2004.03497 (2020)](https://arxiv.org/abs/2004.03497)
+
+## Reviews
+**Deep generative modeling for protein design.**
+Strokach, Alexey, and Philip M. Kim.  
+[Current Opinion in Structural Biology 72 (2022)](https://www.sciencedirect.com/science/article/pii/S0959440X21001573)
