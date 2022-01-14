@@ -9,8 +9,10 @@ Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://githu
 * Hallucination
 * function to scaffold
 * scaffold to sequence
+* sequence to scaffold
 * function to sequence
 * Generative Models
+* Reviews
 
 ## Hallucination
 
@@ -78,6 +80,12 @@ Wang, J., et al.
 Wang, Jingxue, et al.  
 [Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-24760-x.pdf)
 
+## Sequence to scaffold
+
+**Protein sequence design with a learned potential**
+Anand-Achim, Namrata, et al.  
+[Biorxiv (2021)](https://www.biorxiv.org/content/10.1101/2020.01.06.895466v3.full.pdf)
+
 ## Function to sequence
 
 **Deep neural language modeling enables functional protein generation across families**  
@@ -89,10 +97,15 @@ Madani, Ali, et al.
 ### CM-Align
 
 **AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**  
-Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai
+Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai  
 [NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)  
 
-### GAN
+### VAE-based
+**Generating functional protein variants with variational autoencoders**
+Hawkins-Hooker, Alex, et al.  
+[PLoS computational biology 17.2 (2021)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008736)
+
+### GAN-based
 
 **Conditional Generative Modeling for De Novo Protein Design with Hierarchical Functions**  
 Kucera, Tim, Matteo Togninalli, and Laetitia Meng-Papaxanthos  
@@ -102,11 +115,23 @@ Kucera, Tim, Matteo Togninalli, and Laetitia Meng-Papaxanthos
 Repecka, Donatas, et al.  
 [Nature Machine Intelligence 3.4 (2021)](https://www.nature.com/articles/s42256-021-00310-5)
 
+**Generative modeling for protein structures**
+Anand, Namrata, and Possu Huang.  
+[NeurIPS 2018](https://proceedings.neurips.cc/paper/2018/file/afa299a4d1d8c52e75dd8a24c3ce534f-Paper.pdf)
+
 ### NLP-based
 
 **Recurrent neural network model for constructive peptide design**  
 Müller, Alex T., Jan A. Hiss, and Gisbert Schneider.  
 [Journal of chemical information and modeling 58.2 (2018)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.7b00414)  
+
+**Protein design and variant prediction using autoregressive generative models**
+Shin, Jung-Eun, et al.  
+[Nature communications 12.1 (2021)](https://www.nature.com/articles/s41467-021-22732-w.pdf)
+
+**ECNet is an evolutionary context-integrated deep learning framework for protein engineering**
+Luo, Yunan, et al.  
+[Nature communications 12.1 (2021)](https://www.nature.com/articles/s41467-021-25976-8)
 
 ### GNN-based
 
@@ -120,7 +145,17 @@ Ingraham, John, et al.
 Madani, Ali, et al.  
 [arXiv preprint arXiv:2004.03497 (2020)](https://arxiv.org/abs/2004.03497)
 
+### RL-based
+**Model-based reinforcement learning for biological sequence design**
+Angermueller, Christof, et al.  
+[International conference on learning representations. 2019](https://openreview.net/forum?id=HklxbgBKvr&fileGuid=3xgr169o12oUrbxS)
+
 ## Reviews
+
 **Deep generative modeling for protein design.**
 Strokach, Alexey, and Philip M. Kim.  
 [Current Opinion in Structural Biology 72 (2022)](https://www.sciencedirect.com/science/article/pii/S0959440X21001573)
+
+**Protein sequence design with deep generative models**
+Wu, Zachary, et al.  
+[Current Opinion in Chemical Biology 65 (2021)](https://www.sciencedirect.com/science/article/pii/S136759312100051X)
