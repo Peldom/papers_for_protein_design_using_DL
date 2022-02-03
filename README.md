@@ -6,13 +6,26 @@ Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://githu
 
 ## Menu
 
-* [Reviews](#Reviews)
-* [Hallucination](#Hallucination)
-* [Function to Scaffold](#Function-to-Scaffold)
-* [Scaffold to Sequence](#Scaffold/Template-to-Sequence)
-* [Sequence-to-Scaffold](#Sequence-to-Scaffold)
-* [Function to Sequence](#function-to-sequence)
-* [Generative Models](#generative-models)
+- [List of papers about Proteins Design using Deep Learning](#list-of-papers-about-proteins-design-using-deep-learning)
+  - [About this repository](#about-this-repository)
+  - [Menu](#menu)
+  - [Reviews](#reviews)
+  - [Hallucination](#hallucination)
+    - [trRosetta/trDesign-based](#trrosettatrdesign-based)
+    - [AlphaFold2-based](#alphafold2-based)
+  - [Function to Scaffold](#function-to-scaffold)
+  - [Scaffold/Template to Sequence](#scaffoldtemplate-to-sequence)
+  - [Sequence to Scaffold](#sequence-to-scaffold)
+  - [Function to Sequence](#function-to-sequence)
+  - [Generative Models](#generative-models)
+    - [CM-Align](#cm-align)
+    - [VAE-based](#vae-based)
+    - [GAN-based](#gan-based)
+    - [NLP-based](#nlp-based)
+    - [GNN-based](#gnn-based)
+    - [Pretrained-based](#pretrained-based)
+    - [RL-based](#rl-based)
+  - [Other models from **Molecular Design**](#other-models-from-molecular-design)
 
 ## Reviews
 
@@ -46,7 +59,9 @@ Ovchinnikov, Sergey, and Po-Ssu Huang.
 Norn, Christoffer, et al.  
 [Proceedings of the National Academy of Sciences 118.11 (2021)](https://www.pnas.org/content/118/11/e2017228118)
 
- 
+**Fast differentiable DNA and protein sequence optimization for molecular design**  
+Linder, Johannes, and Georg Seelig.  
+[arXiv preprint arXiv:2005.11275 (2020)](https://arxiv.org/abs/2005.11275)
 
 ### AlphaFold2-based
 
@@ -172,5 +187,15 @@ Madani, Ali, et al.
 
 **Model-based reinforcement learning for biological sequence design**  
 Angermueller, Christof, et al.  
-[International conference on learning representations. 2019](https://openreview.net/forum?id=HklxbgBKvr&fileGuid=3xgr169o12oUrbxS)
+[International conference on learning representations. 2019](https://openreview.net/forum?id=HklxbgBKvr&fileGuid=3xgr169o12oUrbxS)  
+
+## Other models from **Molecular Design**
+
+In consideration of learning more various of models for design, these are commended models from **Molecular Design** are helpful.
+
+**CELLS: Cost-Effective Evolution in Latent Space for Goal-Directed Molecular Generation**  
+Chen, Zhiyuan, et al.  
+[arXiv preprint arXiv:2112.00905 (2021)](https://arxiv.org/abs/2112.00905)  
+
+continue...
 
