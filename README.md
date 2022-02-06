@@ -143,7 +143,7 @@ Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai
 Hawkins-Hooker, Alex, et al.  
 [PLoS computational biology 17.2 (2021)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008736)
 
-**Therapeutic enzyme engineering using a generative neural network**
+**Therapeutic enzyme engineering using a generative neural network**  
 Giessel, Andrew, et al.  
 [Scientific Reports 12.1 (2022)](https://www.nature.com/articles/s41598-022-05195-x)
 
