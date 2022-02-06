@@ -25,7 +25,7 @@ Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://githu
     - [GNN-based](#gnn-based)
     - [Pretrained-based](#pretrained-based)
     - [RL-based](#rl-based)
-  - [Other models from **Molecular Design**](#other-models-from-molecular-design)
+  - [Molecular Design Models](#molecular-design-models)
 
 ## Reviews
 
@@ -143,6 +143,10 @@ Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai
 Hawkins-Hooker, Alex, et al.  
 [PLoS computational biology 17.2 (2021)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008736)
 
+**Therapeutic enzyme engineering using a generative neural network**
+Giessel, Andrew, et al.  
+[Scientific Reports 12.1 (2022)](https://www.nature.com/articles/s41598-022-05195-x)
+
 ### GAN-based
 
 **Conditional Generative Modeling for De Novo Protein Design with Hierarchical Functions**  
@@ -193,7 +197,7 @@ Madani, Ali, et al.
 Angermueller, Christof, et al.  
 [International conference on learning representations. 2019](https://openreview.net/forum?id=HklxbgBKvr&fileGuid=3xgr169o12oUrbxS)  
 
-## Other models from **Molecular Design**
+## Molecular Design Models
 
 In consideration of learning more various of models for design, these are commended models from **Molecular Design** are helpful.
 
