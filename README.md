@@ -175,7 +175,7 @@ Shin, Jung-Eun, et al.
 Luo, Yunan, et al.  
 [Nature communications 12.1 (2021)](https://www.nature.com/articles/s41467-021-25976-8)
 
-**Guided Generative Protein Design using Regularized Transformers**
+**Guided Generative Protein Design using Regularized Transformers**  
 Castro, Egbert, et al.  
 [arXiv preprint arXiv:2201.09948 (2022)](https://arxiv.org/abs/2201.09948)
 
