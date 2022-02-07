@@ -93,6 +93,10 @@ Vladimir Gligorijevic, Stephen Ra, Daniel Berenberg, Richard Bonneau, Kyunghyun 
 
 ## Scaffold/Template to Sequence
 
+**Rotamer-Free Protein Sequence Design Based on Deep Learning and Self-Consistency**  
+Liu, Yufeng, et al.  
+[Nature portfolio(2022)](https://www.researchsquare.com/article/rs-1209166/v1)
+
 **DenseCPD: improving the accuracy of neural-network-based computational protein sequence design with DenseNet**  
 Qi, Yifei, and John ZH Zhang.  
 [Journal of chemical information and modeling 60.3 (2020)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.0c00043)  
