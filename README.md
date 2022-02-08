@@ -23,6 +23,7 @@ Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://githu
     - [GAN-based](#gan-based)
     - [NLP-based](#nlp-based)
     - [GNN-based](#gnn-based)
+    - [Bayesian-based](#bayesian-based)
     - [Pretrained-based](#pretrained-based)
     - [RL-based](#rl-based)
   - [Molecular Design Models](#molecular-design-models)
@@ -188,6 +189,12 @@ Castro, Egbert, et al.
 **Generative models for graph-based protein design**  
 Ingraham, John, et al.  
 [NeurIPS2019](https://openreview.net/forum?id=ByMEAHrgLB)
+
+### Bayesian-based
+
+**AntBO: Towards Real-World Automated Antibody Design with Combinatorial Bayesian Optimisation**  
+Khan, Asif, et al.  
+[arXiv preprint(2022)](https://arxiv.org/abs/2201.12570)
 
 ### Pretrained-based
 
