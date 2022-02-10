@@ -176,6 +176,10 @@ Anand, Namrata, and Possu Huang.
 Müller, Alex T., Jan A. Hiss, and Gisbert Schneider.  
 [Journal of chemical information and modeling 58.2 (2018)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.7b00414)  
 
+**Deep learning to design nuclear-targeting abiotic miniproteins**  
+Schissel, Carly K., et al.  
+[Nature Chemistry 13.10 (2021)](https://www.nature.com/articles/s41557-021-00766-3)
+
 **Protein design and variant prediction using autoregressive generative models**  
 Shin, Jung-Eun, et al.  
 [Nature communications 12.1 (2021)](https://www.nature.com/articles/s41467-021-22732-w.pdf)
