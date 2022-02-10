@@ -92,6 +92,10 @@ Greener, Joe G., Lewis Moffat, and David T. Jones.
 Vladimir Gligorijevic, Stephen Ra, Daniel Berenberg, Richard Bonneau, Kyunghyun Cho  
 [NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_Function-guided_protein_design_by.pdf)
 
+**A backbone-centred energy function of neural networks for protein design**  
+Huang, B., Xu, Y., Hu, X. et al  
+[Nature (2022)](https://doi.org/10.1038/s41586-021-04383-5)
+
 ## Scaffold/Template to Sequence
 
 **Rotamer-Free Protein Sequence Design Based on Deep Learning and Self-Consistency**  
