@@ -2,7 +2,7 @@
 
 ## About this repository
 
-Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, the dynamic repository will be a record of papers for these newcomers like me.  
+Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, I started making this dynamic repository as a record of papers for these newcomers like me.  
 
 ## Menu
 
@@ -30,7 +30,7 @@ Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://githu
 
 ## Reviews
 
-**Deep generative modeling for protein design.**  
+**Deep generative modeling for protein design**  
 Strokach, Alexey, and Philip M. Kim.  
 [Current Opinion in Structural Biology 72 (2022)](https://www.sciencedirect.com/science/article/pii/S0959440X21001573)
 
@@ -156,6 +156,14 @@ Hawkins-Hooker, Alex, et al.
 Giessel, Andrew, et al.  
 [Scientific Reports 12.1 (2022)](https://www.nature.com/articles/s41598-022-05195-x)
 
+**Function-guided protein design by deep manifold sampling**  
+Gligorijevic, Vladimir, et al.  
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.12.22.473759v1)
+
+**Deep generative models create new and diverse protein structures**  
+Zeming, Tom, Yann and Alexander.  
+[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_Deep_generative_models_create.pdf)
+
 ### GAN-based
 
 **Conditional Generative Modeling for De Novo Protein Design with Hierarchical Functions**  
@@ -170,6 +178,9 @@ Repecka, Donatas, et al.
 Anand, Namrata, and Possu Huang.  
 [NeurIPS 2018](https://proceedings.neurips.cc/paper/2018/file/afa299a4d1d8c52e75dd8a24c3ce534f-Paper.pdf)
 
+**HelixGAN: A bidirectional Generative Adversarial Network with search in latent space for generation under constraints**
+Xie, Xuezhi, and Philip M. Kim.  
+[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_HelixGAN:_A_bidirectional_Generative.pdf)
 ### NLP-based
 
 **Recurrent neural network model for constructive peptide design**  
@@ -191,6 +202,10 @@ Luo, Yunan, et al.
 **Guided Generative Protein Design using Regularized Transformers**  
 Castro, Egbert, et al.  
 [arXiv preprint arXiv:2201.09948 (2022)](https://arxiv.org/abs/2201.09948)
+
+**Generative Language Modeling for Antibody Design**  
+Shuai, Richard W., Jeffrey A. Ruffolo, and Jeffrey J. Gray.  
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v1)
 
 ### GNN-based
 
