@@ -3,6 +3,7 @@
 ## About this repository
 
 Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, I started making this dynamic repository as a record of papers for these newcomers like me.  
+My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)**.  
 
 ## Menu
 
