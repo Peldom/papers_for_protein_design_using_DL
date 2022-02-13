@@ -208,6 +208,10 @@ Castro, Egbert, et al.
 Shuai, Richard W., Jeffrey A. Ruffolo, and Jeffrey J. Gray.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v1)
 
+**BioPhi: A platform for antibody design, humanization, and humanness evaluation based on natural antibody repertoires and deep learning**  
+Prihoda, David, et al.  
+[mAbs. Vol. 14. No. 1. Taylor & Francis, 2022](tandfonline.com/doi/full/10.1080/19420862.2021.2020203)
+
 ### GNN-based
 
 **Generative models for graph-based protein design**  
