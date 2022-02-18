@@ -3,7 +3,7 @@
 ## About this repository
 
 Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, I started making this dynamic repository as a record of papers in this field for these newcomers like me.  
-My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)**.  
+My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)**(simplified Chinese).  
 
 ## Menu
 
@@ -52,11 +52,13 @@ Strokach, Alexey, and Philip M. Kim.
 
 **Protein sequence design with deep generative models**  
 Wu, Zachary, et al.  
-[Current Opinion in Chemical Biology 65 (2021)](https://www.sciencedirect.com/science/article/pii/S136759312100051X)
+[Current Opinion in Chemical Biology 65 (2021)](https://www.sciencedirect.com/science/article/pii/S136759312100051X)  
+[Notes of mine](https://zhuanlan.zhihu.com/p/466616309)
 
 **Structure-based protein design with deep learning**  
 Ovchinnikov, Sergey, and Po-Ssu Huang.  
 [Current opinion in chemical biology 65 (2021)](https://www.sciencedirect.com/science/article/pii/S1367593121001125)  
+[Notes of mine](https://zhuanlan.zhihu.com/p/467001175)
 
 ## 2.Hallucination
 
@@ -85,6 +87,8 @@ Linder, Johannes, and Georg Seelig.
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
 Petti, Samantha, et al.  
 [bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/)  
+[Notes of mine](https://zhuanlan.zhihu.com/p/468219547)
+
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
 Wang, J., et al.  
@@ -349,7 +353,7 @@ Angermueller, Christof, et al.
 
 ## 6.Molecular Design Models
 
-> In consideration of learning more various of models for design, these are commended models from **Molecular Design** are helpful.
+> In consideration of learning more various of models for design, these recommended models from **Molecular Design** are helpful.
 
 **CELLS: Cost-Effective Evolution in Latent Space for Goal-Directed Molecular Generation**  
 Chen, Zhiyuan, et al.  
