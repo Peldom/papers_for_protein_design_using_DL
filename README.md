@@ -12,8 +12,8 @@ My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/
   - [Menu](#menu)
   - [1. Reviews](#1-reviews)
   - [2. Hallucination](#2-hallucination)
-    - [2.1.trRosetta-based](#21trrosetta-based)
-    - [2.2.AlphaFold2-based](#22alphafold2-based)
+    - [2.1. trRosetta-based](#21-trrosetta-based)
+    - [2.2. AlphaFold2-based](#22-alphafold2-based)
   - [3.Function to Scaffold](#3function-to-scaffold)
     - [3.1.GAN-based](#31gan-based)
     - [3.2.VAE-based](#32vae-based)
@@ -69,7 +69,7 @@ Qiang Shi, Weiya Chen, Siqi Huang, Yan Wang, Zhidong Xue
 
 > Hallucination is inverting prediction model for design
 
-### 2.1.trRosetta-based
+### 2.1. trRosetta-based
 
  **Design of proteins presenting discontinuous functional sites using deep learning**  
 Tischer, Doug, et al.  
@@ -77,17 +77,17 @@ Tischer, Doug, et al.
 
 **De novo protein design by deep network hallucination**  
 Anishchenko, I., Pellock, S.J., Chidyausiku, T.M. et al.  
-[Nature (2021)](https://doi.org/10.1038/s41586-021-04184-w)  
+[Nature (2021)](https://doi.org/10.1038/s41586-021-04184-w)  || [code](https://github.com/gjoni/trDesign) || [trRosetta](https://yanglab.nankai.edu.cn/trRosetta/download/) || 
 
 **Protein sequence design by conformational landscape optimization**  
 Norn, Christoffer, et al.  
-[Proceedings of the National Academy of Sciences 118.11 (2021)](https://www.pnas.org/content/118/11/e2017228118)
+[Proceedings of the National Academy of Sciences 118.11 (2021)](https://www.pnas.org/content/118/11/e2017228118) || [code](https://github.com/gjoni/trDesign) || 
 
 **Fast differentiable DNA and protein sequence optimization for molecular design**  
 Linder, Johannes, and Georg Seelig.  
 [arXiv preprint arXiv:2005.11275 (2020)](https://arxiv.org/abs/2005.11275)
 
-### 2.2.AlphaFold2-based
+### 2.2. AlphaFold2-based
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
 Petti, Samantha, et al.  
