@@ -10,8 +10,8 @@ My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/
 - [List of papers about Proteins Design using Deep Learning](#list-of-papers-about-proteins-design-using-deep-learning)
   - [About this repository](#about-this-repository)
   - [Menu](#menu)
-  - [1.Reviews](#1reviews)
-  - [2.Hallucination](#2hallucination)
+  - [1. Reviews](#1-reviews)
+  - [2. Hallucination](#2-hallucination)
     - [2.1.trRosetta-based](#21trrosetta-based)
     - [2.2.AlphaFold2-based](#22alphafold2-based)
   - [3.Function to Scaffold](#3function-to-scaffold)
@@ -40,27 +40,32 @@ My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/
   - [6.Molecular Design Models](#6molecular-design-models)
 
 
-## 1.Reviews
+## 1. Reviews
 
 **Deep learning in protein structural modeling and design**  
-Gao, Wenhao, et al.  
-[Patterns 1.9 (2020)](https://www.sciencedirect.com/science/article/pii/S2666389920301902)
+Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray  
+@Patterns 1.9  
+@2020  
+[paper](https://www.sciencedirect.com/science/article/pii/S2666389920301902)  
 
 **Deep generative modeling for protein design**  
 Strokach, Alexey, and Philip M. Kim.  
-[Current Opinion in Structural Biology 72 (2022)](https://www.sciencedirect.com/science/article/pii/S0959440X21001573)
+[paper](https://www.sciencedirect.com/science/article/pii/S0959440X21001573) || Current Opinion in Structural Biology || 2022  
 
 **Protein sequence design with deep generative models**  
 Wu, Zachary, et al.  
-[Current Opinion in Chemical Biology 65 (2021)](https://www.sciencedirect.com/science/article/pii/S136759312100051X)  
-[Notes of mine](https://zhuanlan.zhihu.com/p/466616309)
+@Current Opinion in Chemical Biology  
+@2021  
+[paper](https://www.sciencedirect.com/science/article/pii/S136759312100051X) || [note](https://zhuanlan.zhihu.com/p/466616309)
 
 **Structure-based protein design with deep learning**  
 Ovchinnikov, Sergey, and Po-Ssu Huang.  
-[Current opinion in chemical biology 65 (2021)](https://www.sciencedirect.com/science/article/pii/S1367593121001125)  
-[Notes of mine](https://zhuanlan.zhihu.com/p/467001175)
+[paper](https://www.sciencedirect.com/science/article/pii/S1367593121001125) || Current opinion in chemical biology || 2021 || [note](https://zhuanlan.zhihu.com/p/467001175)  
 
-## 2.Hallucination
+**deep learning for mining protein data**  
+Qiang Shi, Weiya Chen, Siqi Huang, Yan Wang, Zhidong Xue  
+[paper](https://academic.oup.com/bib/article-abstract/22/1/194/5681782?redirectedFrom=fulltext&login=true) || Briefings in Bioinformatics || Jan 2021  
+## 2. Hallucination
 
 > Hallucination is inverting prediction model for design
 
@@ -117,7 +122,7 @@ Sabban, Sari, and Mikhail Markovsky.
 [F1000Research 9 (2020)](http://f1000researchdata.s3.amazonaws.com/manuscripts/29106/f45e92eb-5d68-4da0-b918-91ded85d2e7d_22907_-_sari_sabban_v2.pdf)
 
 **Fully differentiable full-atom protein backbone generation**  
-Anand, Namrata, Raphael Eguchi, and Po-Ssu Huang.  
+Anand Namrata, Raphael Eguchi, and Po-Ssu Huang.  
 [OpenReview (2019)](https://openreview.net/forum?id=SJxnVL8YOV)
 
 ### 3.2.VAE-based
