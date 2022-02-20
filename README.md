@@ -42,6 +42,7 @@ My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/
 
 ## 1. Reviews
 
+
 **Deep learning in protein structural modeling and design**  
 Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray  
 [Patterns 1.9](https://www.sciencedirect.com/science/article/pii/S2666389920301902)  || 2020
@@ -84,12 +85,12 @@ Norn, Christoffer, et al.
 Linder, Johannes, and Georg Seelig.  
 [arXiv preprint arXiv:2005.11275 (2020)](https://arxiv.org/abs/2005.11275)
 
+
 ### 2.2. AlphaFold2-based
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
 Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey  
 [bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [Notes of mine](https://zhuanlan.zhihu.com/p/468219547)  
-
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
 Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
@@ -182,10 +183,6 @@ Shroff, Raghav, et al.
 **Protein sequence design with a learned potential**  
 Anand-Achim, Namrata, et al.  
 [Biorxiv (2021)](https://www.biorxiv.org/content/10.1101/2020.01.06.895466v3.full.pdf)
-
-**Protein sequence design by explicit energy landscape optimization**  
-Norn, Christoffer, et al.  
-[bioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.07.23.218917.abstract)
 
 ### 4.5.GNN-based
 
@@ -363,5 +360,9 @@ Chen, Zhiyuan, et al.
 **A 3D Generative Model for Structure-Based Drug Design**  
 Luo, Shitong, et al.  
 [Advances in Neural Information Processing Systems 34 (2021)](https://proceedings.neurips.cc/paper/2021/hash/314450613369e0ee72d0da7f6fee773c-Abstract.html)
+
+**Structure-based de novo drug design using 3D deep generative models**  
+Li, Yibo, Jianfeng Pei, and Luhua Lai.  
+[Chemical science 12.41 (2021)](https://pubs.rsc.org/en/content/articlehtml/2021/sc/d1sc04444c)
 
 to be continued...
