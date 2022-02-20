@@ -14,8 +14,8 @@ My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/
   - [2. Hallucination](#2-hallucination)
     - [2.1. trRosetta-based](#21-trrosetta-based)
     - [2.2. AlphaFold2-based](#22-alphafold2-based)
-  - [3.Function to Scaffold](#3function-to-scaffold)
-    - [3.1.GAN-based](#31gan-based)
+  - [3. Function to Scaffold](#3-function-to-scaffold)
+    - [3.1. GAN-based](#31-gan-based)
     - [3.2.VAE-based](#32vae-based)
     - [3.3.DAE-based](#33dae-based)
     - [3.4.MLP-based](#34mlp-based)
@@ -51,7 +51,7 @@ Strokach, Alexey, and Philip M. Kim.
 [Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/pii/S0959440X21001573)  || 2022  
 
 **Protein sequence design with deep generative models**  
-Zachary Wu, Kadina E. Johnston, Frances H. Arnold, Kevin K. Yang
+Zachary Wu, Kadina E. Johnston, Frances H. Arnold, Kevin K. Yang  
 [Current Opinion in Chemical Biology](https://www.sciencedirect.com/science/article/pii/S136759312100051X) || [note](https://zhuanlan.zhihu.com/p/466616309) || 2021  
 
 **Structure-based protein design with deep learning**  
@@ -78,7 +78,7 @@ Ivan Anishchenko, Samuel J. Pellock, Tamuka M. Chidyausiku, Theresa A. Ramelot, 
 
 **Protein sequence design by conformational landscape optimization**  
 Norn, Christoffer, et al.  
-[Proceedings of the National Academy of Sciences 118.11 (2021)](https://www.pnas.org/content/118/11/e2017228118) || [code](https://github.com/gjoni/trDesign) || 
+[Proceedings of the National Academy of Sciences 118.11 (2021)](https://www.pnas.org/content/118/11/e2017228118) || [code](https://github.com/gjoni/trDesign)   
 
 **Fast differentiable DNA and protein sequence optimization for molecular design**  
 Linder, Johannes, and Georg Seelig.  
@@ -87,7 +87,7 @@ Linder, Johannes, and Georg Seelig.
 ### 2.2. AlphaFold2-based
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
-Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey
+Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey  
 [bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [Notes of mine](https://zhuanlan.zhihu.com/p/468219547)  
 
 
@@ -103,29 +103,29 @@ Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.
 Moffat, Lewis, Joe G. Greener, and David T. Jones.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.08.24.457549v1)  
 
-## 3.Function to Scaffold
+## 3. Function to Scaffold
 
 > These models design backbone/scaffold/template.
 
-### 3.1.GAN-based
+### 3.1. GAN-based
 
 **Conditioning by adaptive sampling for robust design**  
 Brookes, David, Hahnbeom Park, and Jennifer Listgarten.  
-[International conference on machine learning. PMLR, 2019](http://proceedings.mlr.press/v97/brookes19a/brookes19a.pdf)
+[International conference on machine learning. PMLR, 2019](http://proceedings.mlr.press/v97/brookes19a/brookes19a.pdf)  || without code || 
 
 **RamaNet: Computational de novo helical protein backbone design using a long short-term memory generative neural network**  
 Sabban, Sari, and Mikhail Markovsky.  
-[F1000Research 9 (2020)](http://f1000researchdata.s3.amazonaws.com/manuscripts/29106/f45e92eb-5d68-4da0-b918-91ded85d2e7d_22907_-_sari_sabban_v2.pdf)
+[F1000Research 9 (2020)](http://f1000researchdata.s3.amazonaws.com/manuscripts/29106/f45e92eb-5d68-4da0-b918-91ded85d2e7d_22907_-_sari_sabban_v2.pdf) || [code](https://sarisabban.github.io/RamaNet/) || pyRosetta || tensorflow || maximizaing the fluorescence of a protein || 
 
 **Fully differentiable full-atom protein backbone generation**  
 Anand Namrata, Raphael Eguchi, and Po-Ssu Huang.  
-[OpenReview (2019)](https://openreview.net/forum?id=SJxnVL8YOV)
+[OpenReview ICLR 2019 workshop DeepGenStruct](https://openreview.net/forum?id=SJxnVL8YOV) || without code  
 
 ### 3.2.VAE-based
 
 **IG-VAE: generative modeling of immunoglobulin proteins by direct 3D coordinate generation**  
-Eguchi, Raphael R., et al.  
-[Biorxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.08.07.242347v2)
+Raphael R. Eguchi, Christian A. Choe, Po-Ssu Huang
+[Biorxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.08.07.242347v2) || without code ||  
 
 ### 3.3.DAE-based
 
@@ -207,11 +207,11 @@ Mostafa Karimi, Shaowen Zhu, Yue Cao, Yang Shen
 
 **Generative models for graph-based protein design**  
 [John Ingraham](https://openreview.net/profile?email=ingraham%40csail.mit.edu), Vikas K Garg, Dr.Regina Barzilay, Tommi Jaakkola  
-[NeurIPS2019](https://openreview.net/forum?id=ByMEAHrgLB) || [code](https://github.com/jingraham/neurips19-graph-protein-design)  
+[NeurIPS 2019](https://openreview.net/forum?id=ByMEAHrgLB) || [code](https://github.com/jingraham/neurips19-graph-protein-design)  
 
 **Rotamer-Free Protein Sequence Design Based on Deep Learning and Self-Consistency**  
 Liu, Yufeng, et al.  
-[Nature portfolio(2022)](https://www.researchsquare.com/article/rs-1209166/v1)
+[Nature portfolio (2022)](https://www.researchsquare.com/article/rs-1209166/v1)
 
 ### 4.8.ResNet-based
 
@@ -227,7 +227,7 @@ Qi, Yifei, and John ZH Zhang.
 
 **AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**  
 Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai  
-[NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)  
+[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)  
 
 ### 5.2.VAE-based
 
