@@ -61,6 +61,7 @@ Ovchinnikov, Sergey, and Po-Ssu Huang.
 **deep learning for mining protein data**  
 Qiang Shi, Weiya Chen, Siqi Huang, Yan Wang, Zhidong Xue  
 [Briefings in Bioinformatics](https://academic.oup.com/bib/article-abstract/22/1/194/5681782?redirectedFrom=fulltext&login=true) || Jan 2021  
+
 ## 2. Hallucination
 
 > Hallucination is inverting prediction model for design
@@ -130,7 +131,7 @@ Eguchi, Raphael R., et al.
 
 **Function-guided protein design by deep manifold sampling**  
 Vladimir Gligorijevic, Stephen Ra, Daniel Berenberg, Richard Bonneau, Kyunghyun Cho  
-[NeurIPS2021](https://www.mlsb.io/papers_2021/MLSB2021_Function-guided_protein_design_by.pdf)
+[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_Function-guided_protein_design_by.pdf)
 
 ### 3.4.MLP-based
 
@@ -199,14 +200,14 @@ Li, Alex J., et al.
 ### 4.6.GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
-Karimi, Mostafa, et al.  
-[Journal of chemical information and modeling 60.12 (2020)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00593)
+Mostafa Karimi, Shaowen Zhu, Yue Cao, Yang Shen
+[Journal of chemical information and modeling 60.12 (2020)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00593) || [code](https://github.com/Shen-Lab/gcWGAN) || gcWGAN
 
 ### 4.7.Transformer-based
 
 **Generative models for graph-based protein design**  
-Ingraham, John, et al.  
-[NeurIPS2019](https://openreview.net/forum?id=ByMEAHrgLB)
+[John Ingraham](https://openreview.net/profile?email=ingraham%40csail.mit.edu), Vikas K Garg, Dr.Regina Barzilay, Tommi Jaakkola  
+[NeurIPS2019](https://openreview.net/forum?id=ByMEAHrgLB) || [code](https://github.com/jingraham/neurips19-graph-protein-design)  
 
 **Rotamer-Free Protein Sequence Design Based on Deep Learning and Self-Consistency**  
 Liu, Yufeng, et al.  
