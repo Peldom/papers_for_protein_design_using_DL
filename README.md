@@ -49,7 +49,7 @@ Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray
 
 **Deep generative modeling for protein design**  
 Strokach, Alexey, and Philip M. Kim.  
-[Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/pii/S0959440X21001573)  || 2022  
+[Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/pii/S0959440X21001573) || 2022  
 
 **Protein sequence design with deep generative models**  
 Zachary Wu, Kadina E. Johnston, Frances H. Arnold, Kevin K. Yang  
@@ -57,11 +57,8 @@ Zachary Wu, Kadina E. Johnston, Frances H. Arnold, Kevin K. Yang
 
 **Structure-based protein design with deep learning**  
 Ovchinnikov, Sergey, and Po-Ssu Huang.  
-[Current opinion in chemical biology](https://www.sciencedirect.com/science/article/pii/S1367593121001125) || 2021 || [note](https://zhuanlan.zhihu.com/p/467001175)  
+[Current opinion in chemical biology](https://www.sciencedirect.com/science/article/pii/S1367593121001125) || [note](https://zhuanlan.zhihu.com/p/467001175) || 2021  
 
-**deep learning for mining protein data**  
-Qiang Shi, Weiya Chen, Siqi Huang, Yan Wang, Zhidong Xue  
-[Briefings in Bioinformatics](https://academic.oup.com/bib/article-abstract/22/1/194/5681782?redirectedFrom=fulltext&login=true) || Jan 2021  
 
 ## 2. Hallucination
 
@@ -112,11 +109,11 @@ Moffat, Lewis, Joe G. Greener, and David T. Jones.
 
 **Conditioning by adaptive sampling for robust design**  
 Brookes, David, Hahnbeom Park, and Jennifer Listgarten.  
-[International conference on machine learning. PMLR, 2019](http://proceedings.mlr.press/v97/brookes19a/brookes19a.pdf)  || without code || 
+[International conference on machine learning. PMLR, 2019](http://proceedings.mlr.press/v97/brookes19a/brookes19a.pdf)  || without code  
 
 **RamaNet: Computational de novo helical protein backbone design using a long short-term memory generative neural network**  
 Sabban, Sari, and Mikhail Markovsky.  
-[F1000Research 9 (2020)](http://f1000researchdata.s3.amazonaws.com/manuscripts/29106/f45e92eb-5d68-4da0-b918-91ded85d2e7d_22907_-_sari_sabban_v2.pdf) || [code](https://sarisabban.github.io/RamaNet/) || pyRosetta || tensorflow || maximizaing the fluorescence of a protein || 
+[F1000Research 9 (2020)](http://f1000researchdata.s3.amazonaws.com/manuscripts/29106/f45e92eb-5d68-4da0-b918-91ded85d2e7d_22907_-_sari_sabban_v2.pdf) || [code](https://sarisabban.github.io/RamaNet/) || pyRosetta || tensorflow || maximizaing the fluorescence of a protein  
 
 **Fully differentiable full-atom protein backbone generation**  
 Anand Namrata, Raphael Eguchi, and Po-Ssu Huang.  
@@ -132,7 +129,7 @@ Raphael R. Eguchi, Christian A. Choe, Po-Ssu Huang
 
 **Function-guided protein design by deep manifold sampling**  
 Vladimir Gligorijevic, Stephen Ra, Daniel Berenberg, Richard Bonneau, Kyunghyun Cho  
-[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_Function-guided_protein_design_by.pdf)
+[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_Function-guided_protein_design_by.pdf) || without code
 
 ### 3.4.MLP-based
 
@@ -148,7 +145,7 @@ Huang, B., Xu, Y., Hu, X. et al
 
 **3D representations of amino acids—applications to protein sequence comparison and classification**  
 Li, Jie, and Patrice Koehl.  
-[Computational and structural biotechnology journal 11.18 (2014)](https://www.sciencedirect.com/science/article/pii/S2001037014000270)
+[Computational and structural biotechnology journal 11.18 (2014)](https://www.sciencedirect.com/science/article/pii/S2001037014000270) || 2014  
 
 **SPIN2: Predicting sequence profiles from protein structures using deep neural networks**  
 O'Connell, James, et al.  
