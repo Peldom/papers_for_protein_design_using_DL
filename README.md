@@ -44,27 +44,23 @@ My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/
 
 **Deep learning in protein structural modeling and design**  
 Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray  
-@Patterns 1.9  
-@2020  
-[paper](https://www.sciencedirect.com/science/article/pii/S2666389920301902)  
+[Patterns 1.9](https://www.sciencedirect.com/science/article/pii/S2666389920301902)  || 2020
 
 **Deep generative modeling for protein design**  
 Strokach, Alexey, and Philip M. Kim.  
-[paper](https://www.sciencedirect.com/science/article/pii/S0959440X21001573) || Current Opinion in Structural Biology || 2022  
+[Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/pii/S0959440X21001573)  || 2022  
 
 **Protein sequence design with deep generative models**  
-Wu, Zachary, et al.  
-@Current Opinion in Chemical Biology  
-@2021  
-[paper](https://www.sciencedirect.com/science/article/pii/S136759312100051X) || [note](https://zhuanlan.zhihu.com/p/466616309)
+Zachary Wu, Kadina E. Johnston, Frances H. Arnold, Kevin K. Yang
+[Current Opinion in Chemical Biology](https://www.sciencedirect.com/science/article/pii/S136759312100051X) || [note](https://zhuanlan.zhihu.com/p/466616309) || 2021  
 
 **Structure-based protein design with deep learning**  
 Ovchinnikov, Sergey, and Po-Ssu Huang.  
-[paper](https://www.sciencedirect.com/science/article/pii/S1367593121001125) || Current opinion in chemical biology || 2021 || [note](https://zhuanlan.zhihu.com/p/467001175)  
+[Current opinion in chemical biology](https://www.sciencedirect.com/science/article/pii/S1367593121001125) || 2021 || [note](https://zhuanlan.zhihu.com/p/467001175)  
 
 **deep learning for mining protein data**  
 Qiang Shi, Weiya Chen, Siqi Huang, Yan Wang, Zhidong Xue  
-[paper](https://academic.oup.com/bib/article-abstract/22/1/194/5681782?redirectedFrom=fulltext&login=true) || Briefings in Bioinformatics || Jan 2021  
+[Briefings in Bioinformatics](https://academic.oup.com/bib/article-abstract/22/1/194/5681782?redirectedFrom=fulltext&login=true) || Jan 2021  
 ## 2. Hallucination
 
 > Hallucination is inverting prediction model for design
@@ -72,11 +68,11 @@ Qiang Shi, Weiya Chen, Siqi Huang, Yan Wang, Zhidong Xue
 ### 2.1. trRosetta-based
 
  **Design of proteins presenting discontinuous functional sites using deep learning**  
-Tischer, Doug, et al.  
+Doug Tischer, Sidney Lisanza, Jue Wang, Runze Dong,  View ORCID ProfileIvan Anishchenko, Lukas F. Milles, Sergey Ovchinnikov, David Baker  
 [bioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.11.29.402743v1.abstract)  
 
 **De novo protein design by deep network hallucination**  
-Anishchenko, I., Pellock, S.J., Chidyausiku, T.M. et al.  
+Ivan Anishchenko, Samuel J. Pellock, Tamuka M. Chidyausiku, Theresa A. Ramelot, Sergey Ovchinnikov, Jingzhou Hao, Khushboo Bafna, Christoffer Norn, Alex Kang, Asim K. Bera, Frank DiMaio, Lauren Carter, Cameron M. Chow, Gaetano T. Montelione & David Baker  
 [Nature (2021)](https://doi.org/10.1038/s41586-021-04184-w)  || [code](https://github.com/gjoni/trDesign) || [trRosetta](https://yanglab.nankai.edu.cn/trRosetta/download/) || 
 
 **Protein sequence design by conformational landscape optimization**  
@@ -90,18 +86,17 @@ Linder, Johannes, and Georg Seelig.
 ### 2.2. AlphaFold2-based
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
-Petti, Samantha, et al.  
-[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/)  
-[Notes of mine](https://zhuanlan.zhihu.com/p/468219547)
+Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey
+[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [Notes of mine](https://zhuanlan.zhihu.com/p/468219547)  
 
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
-Wang, J., et al.  
+Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
 [bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387)  
 
 **AlphaDesign: A de novo protein design framework based on AlphaFold**  
 Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.  
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.10.11.463937.abstract)  
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.10.11.463937.abstract) ||  
 
 **Using AlphaFold for Rapid and Accurate Fixed Backbone Protein Design**  
 Moffat, Lewis, Joe G. Greener, and David T. Jones.  
