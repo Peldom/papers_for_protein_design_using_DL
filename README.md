@@ -38,6 +38,8 @@ My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/
     - [5.7.Pretrained-based](#57pretrained-based)
     - [5.8.RL-based](#58rl-based)
   - [6.Molecular Design Models](#6molecular-design-models)
+  - [7. other tasks](#7-other-tasks)
+    - [7.1 fitness functions / landscape exploring using latent space](#71-fitness-functions--landscape-exploring-using-latent-space)
 
 
 ## 1. Reviews
@@ -296,11 +298,11 @@ Das, Payel, et al.
 
 **Deep learning to design nuclear-targeting abiotic miniproteins**  
 Schissel, Carly K., et al.  
-[Nature Chemistry 13.10 (2021)](https://www.nature.com/articles/s41557-021-00766-3)
+[Nature Chemistry 13.10 (2021)](https://www.nature.com/articles/s41557-021-00766-3)   
 
 **Protein design and variant prediction using autoregressive generative models**  
 Shin, Jung-Eun, et al.  
-[Nature communications 12.1 (2021)](https://www.nature.com/articles/s41467-021-22732-w.pdf)
+[Nature communications 12.1 (2021)](https://www.nature.com/articles/s41467-021-22732-w.pdf) || [code::SeqDesign](https://github.com/debbiemarkslab/SeqDesign) || mutation effect prediction || sequence generation || April 2021   
 
 **ECNet is an evolutionary context-integrated deep learning framework for protein engineering**  
 Luo, Yunan, et al.  
@@ -362,4 +364,21 @@ Luo, Shitong, et al.
 Li, Yibo, Jianfeng Pei, and Luhua Lai.  
 [Chemical science 12.41 (2021)](https://pubs.rsc.org/en/content/articlehtml/2021/sc/d1sc04444c)
 
-to be continued...
+## 7. other tasks
+
+### 7.1 fitness functions / landscape exploring using latent space
+**Deciphering protein evolution and fitness landscapes with latent space models**  
+Xinqiang Ding, Zhengting Zou & Charles L. Brooks III
+[Nature Communications](https://www.nature.com/articles/s41467-019-13633-0) || [code](https://github.com/xqding/PEVAE_Paper) || Dec 2019
+
+**The generative capacity of probabilistic protein sequence models**
+Francisco McGee, Sandro Hauri, Quentin Novinger, Slobodan Vucetic, Ronald M. Levy, Vincenzo Carnevale & Allan Haldane  
+[Nature Communications](https://www.nature.com/articles/s41467-021-26529-9) || [code::generation_capacity_metrics](https://github.com/alagauche/generative_capacity_metrics) || [code::sVAE](https://github.com/ahaldane/MSA_VAE) || Nov 2021  
+
+**Deep generative models of genetic variation capture the effects of mutations**  
+Adam J. Riesselman, John B. Ingraham & Debora S. Marks  
+[Nature Methods](https://www.nature.com/articles/s41592-018-0138-4) || [code](https://github.com/debbiemarkslab/DeepSequence) || Oct 2018
+
+**Epistatic Net allows the sparse spectral regularization of deep neural networks for inferring fitness functions**  
+Amirali Aghazadeh, Hunter Nisonoff, Orhan Ocal, David H. Brookes, Yijie Huang, O. Ozan Koyluoglu, Jennifer Listgarten & Kannan Ramchandran  
+[Nature Communications](https://www.nature.com/articles/s41467-021-25371-3) || [code](https://github.com/amirmohan/epistatic-net) || Sep 2021  
