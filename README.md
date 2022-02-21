@@ -124,7 +124,7 @@ Anand Namrata, Raphael Eguchi, and Po-Ssu Huang.
 ### 3.2.VAE-based
 
 **IG-VAE: generative modeling of immunoglobulin proteins by direct 3D coordinate generation**  
-Raphael R. Eguchi, Christian A. Choe, Po-Ssu Huang
+Raphael R. Eguchi, Christian A. Choe, Po-Ssu Huang  
 [Biorxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.08.07.242347v2) || without code ||  
 
 ### 3.3.DAE-based
