@@ -368,7 +368,7 @@ Li, Yibo, Jianfeng Pei, and Luhua Lai.
 
 ### 7.1 fitness functions / landscape exploring using latent space
 **Deciphering protein evolution and fitness landscapes with latent space models**  
-Xinqiang Ding, Zhengting Zou & Charles L. Brooks III
+Xinqiang Ding, Zhengting Zou & Charles L. Brooks III  
 [Nature Communications](https://www.nature.com/articles/s41467-019-13633-0) || [code](https://github.com/xqding/PEVAE_Paper) || Dec 2019
 
 **The generative capacity of probabilistic protein sequence models**
