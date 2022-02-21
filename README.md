@@ -196,7 +196,7 @@ Li, Alex J., et al.
 ### 4.6.GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
-Mostafa Karimi, Shaowen Zhu, Yue Cao, Yang Shen
+Mostafa Karimi, Shaowen Zhu, Yue Cao, Yang Shen  
 [Journal of chemical information and modeling 60.12 (2020)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00593) || [code](https://github.com/Shen-Lab/gcWGAN) || gcWGAN
 
 ### 4.7.Transformer-based
