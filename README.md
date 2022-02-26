@@ -107,6 +107,10 @@ Moffat, Lewis, Joe G. Greener, and David T. Jones.
 
 ### 3.1 GAN-based
 
+**HelixGAN: A bidirectional Generative Adversarial Network with search in latent space for generation under constraints**  
+Xuezhi Xie, Philip M. Kim  
+[Machine Learning for Structural Biology Workshop, NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_HelixGAN:_A_bidirectional_Generative.pdf) || without code  
+
 **Conditioning by adaptive sampling for robust design**  
 Brookes, David, Hahnbeom Park, and Jennifer Listgarten.  
 [International conference on machine learning. PMLR, 2019](http://proceedings.mlr.press/v97/brookes19a/brookes19a.pdf)  || without code  
