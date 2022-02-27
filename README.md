@@ -43,6 +43,33 @@ My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/
   - [7. Other tasks](#7-other-tasks)
     - [7.1 Fitness functions / Landscape exploring using latent space](#71-fitness-functions--landscape-exploring-using-latent-space)
 
+## 0. Benchmarks and datasets
+
+### 0.1 Function to sequence
+
+**FLIP: Benchmark tasks in fitness landscape inference for proteins**  
+Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattacharya, Samuel Goldman, Ali Madani, Kevin K Yang   
+[NeurIPS 2021 Datasets and Benchmarks Track (Round 2)](https://openreview.net/forum?id=p2dMLEwL8tF)
+
+### 0.2 Structure to sequence
+
+**AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**  
+Zhangyang Gao, Cheng Tan, Stan Z. Li  
+[BioRxiv](https://arxiv.org/abs/2202.01079)
+
+### 0.3 Others
+
+**Sequence Database**  
+[UniProt](https://www.uniprot.org/downloads)  
+
+**Structure Database**  
+1. [PDB](https://www.rcsb.org/)
+2. [AlphaFoldDB](https://alphafold.ebi.ac.uk/)
+
+> In terms of datasets and benchmarks, protein design is far less mature than drug discovery ([paperwithcode drug discovery benchmarks](https://paperswithcode.com/task/drug-discovery)). (Maybe should add the evaluation of protein design for deep learning method (especially deep generative model))
+> Difficulties and opportunities always coexist. Happy to see the work of [Christian Dallago, Jody Mou, Kadina E. Johnston, Bruce J. Wittmann, Nicholas Bhattacharya, Samuel Goldman, Ali Madani, Kevin K. Yang](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v1) and [Zhangyang Gao, Cheng Tan, Stan Z. Li](https://arxiv.org/abs/2202.01079). How grateful.
+
+
 ## 1. Reviews
 
 **Deep learning in protein structural modeling and design**  
