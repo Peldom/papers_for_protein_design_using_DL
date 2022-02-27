@@ -10,6 +10,10 @@ My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/
 - [List of papers about Proteins Design using Deep Learning](#list-of-papers-about-proteins-design-using-deep-learning)
   - [About this repository](#about-this-repository)
   - [Menu](#menu)
+  - [0. Benchmarks and datasets](#0-benchmarks-and-datasets)
+    - [0.1 Function to sequence](#01-function-to-sequence)
+    - [0.2 Structure to sequence](#02-structure-to-sequence)
+    - [0.3 Others](#03-others)
   - [1. Reviews](#1-reviews)
   - [2. Hallucination](#2-hallucination)
     - [2.1 trRosetta-based](#21-trrosetta-based)
@@ -63,6 +67,7 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 [UniProt](https://www.uniprot.org/downloads)  
 
 **Structure Database**  
+
 1. [PDB](https://www.rcsb.org/)
 2. [AlphaFoldDB](https://alphafold.ebi.ac.uk/)
 3. [PDBbind](http://www.pdbbind.org.cn/download.php)
@@ -223,6 +228,10 @@ Strokach, Alexey, et al.
 **TERMinator: A Neural Framework for Structure-Based Protein Design using Tertiary Repeating Motifs**  
 Li, Alex J., et al.  
 [NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_TERMinator:_A_Neural_Framework.pdf)  
+
+**Iterative refinement graph neural network for antibody sequence-structure co-design**  
+Jin, Wengong, et al.  
+[arXiv preprint arXiv:2110.04624 (2021)](https://arxiv.org/abs/2110.04624)
 
 ### 4.6 GAN-based
 
