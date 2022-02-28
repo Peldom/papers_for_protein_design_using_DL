@@ -53,7 +53,7 @@ My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/
 
 **FLIP: Benchmark tasks in fitness landscape inference for proteins**  
 Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattacharya, Samuel Goldman, Ali Madani, Kevin K Yang   
-[NeurIPS 2021 Datasets and Benchmarks Track (Round 2)](https://openreview.net/forum?id=p2dMLEwL8tF)
+[NeurIPS 2021 Datasets and Benchmarks Track](https://openreview.net/forum?id=p2dMLEwL8tF) || [website](https://benchmark.protein.properties/)   
 
 ### 0.2 Structure to sequence
 
@@ -64,6 +64,7 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 ### 0.3 Others
 
 **Sequence Database**  
+
 [UniProt](https://www.uniprot.org/downloads)  
 
 **Structure Database**  
