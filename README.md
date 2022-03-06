@@ -18,6 +18,7 @@ My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/
   - [2. Hallucination](#2-hallucination)
     - [2.1 trRosetta-based](#21-trrosetta-based)
     - [2.2 AlphaFold2-based](#22-alphafold2-based)
+    - [2.3 DMPfold2-based](#23-dmpfold2-based)
   - [3. Function to Scaffold](#3-function-to-scaffold)
     - [3.1 GAN-based](#31-gan-based)
     - [3.2 VAE-based](#32-vae-based)
@@ -130,11 +131,17 @@ Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun
 
 **AlphaDesign: A de novo protein design framework based on AlphaFold**  
 Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.  
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.10.11.463937.abstract) ||  
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.10.11.463937.abstract)  
 
 **Using AlphaFold for Rapid and Accurate Fixed Backbone Protein Design**  
 Moffat, Lewis, Joe G. Greener, and David T. Jones.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.08.24.457549v1)  
+
+### 2.3 DMPfold2-based
+
+**Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
+Moffat, Lewis, Shaun M. Kandathil, and David T. Jones.  
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1.abstract)
 
 ## 3. Function to Scaffold
 
