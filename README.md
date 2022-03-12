@@ -2,7 +2,7 @@
 
 ## About this repository
 
-Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, I started making this dynamic repository as a record of papers in this field for newcomers like me.
+Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, my colleagues and I started making this dynamic repository as a record of papers in this field for the newcomers like us.
 My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)**(simplified Chinese).  
 
 ## Menu
@@ -44,7 +44,7 @@ My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/
     - [5.8 RL-based](#58-rl-based)
   - [6.Molecular Design Models](#6molecular-design-models)
     - [6.1 Gradient optimization](#61-gradient-optimization)
-    - [6.2 Combinatorial optimized sampling](#62-combinatorial-optimized-sampling)
+    - [6.2 Optimized sampling](#62-optimized-sampling)
   - [7. Other tasks](#7-other-tasks)
     - [7.1 Fitness functions / Landscape exploring using latent space](#71-fitness-functions--landscape-exploring-using-latent-space)
 
@@ -77,7 +77,6 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 
 > In terms of datasets and benchmarks, protein design is far less mature than drug discovery ([paperwithcode drug discovery benchmarks](https://paperswithcode.com/task/drug-discovery)). (Maybe should add the evaluation of protein design for deep learning method (especially deep generative model))   
 > Difficulties and opportunities always coexist. Happy to see the work of [Christian Dallago, Jody Mou, Kadina E. Johnston, Bruce J. Wittmann, Nicholas Bhattacharya, Samuel Goldman, Ali Madani, Kevin K. Yang](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v1) and [Zhangyang Gao, Cheng Tan, Stan Z. Li](https://arxiv.org/abs/2202.01079). How grateful.
-
 
 ## 1. Reviews
 
@@ -123,7 +122,7 @@ Linder, Johannes, and Georg Seelig.
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
 Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey  
-[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [Notes of mine](https://zhuanlan.zhihu.com/p/468219547)  
+[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [My notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977)  
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
 Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
@@ -335,6 +334,10 @@ Xie, Xuezhi, and Philip M. Kim.
 
 ### 5.4 NLP-based
 
+**A deep unsupervised language model for protein design**
+Noelia Ferruz, Steffen Schmidt and Birte Höcker
+[bioRxiv 2022](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1)
+
 **Recurrent neural network model for constructive peptide design**  
 Müller, Alex T., Jan A. Hiss, and Gisbert Schneider.  
 [Journal of chemical information and modeling 58.2 (2018)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.7b00414)  
@@ -397,7 +400,8 @@ Angermueller, Christof, et al.
 
 ## 6.Molecular Design Models
 
-> In consideration of learning more various of generative models for design, these recommended models from **Molecular Design** might be helpful.
+> Unlike **function-scaffold-sequence** paradigm in protein design, major molecular design models based on paradigm form DL from 3 kinds of level: **atom-based**, **fragment-based**, **reaction-based**, and they can be categorized as [Gradient optimization](#61-gradient-optimization) or [Optimized sampling](#62-optimized-sampling)(gradient-free). [Click here for detail review](https://www.sciencedirect.com/science/article/pii/S1359644621002531)
+> In consideration of learning more various of generative models for design, these recommended latest models from **Molecular Design** might be helpful and even be able to be transplanted to protein design.
 
 ### 6.1 Gradient optimization
 
@@ -409,7 +413,7 @@ Gebauer, Niklas WA, et al.
 Fu, T., Gao, W., Xiao, C., Yasonik, J., Coley, C. W., & Sun, J.  
 [arXiv preprint arXiv:2109.10469](https://arxiv.org/abs/2109.10469) || [code](https://github.com/futianfan/DST) || Sept 21
 
-### 6.2 Combinatorial optimized sampling
+### 6.2 Optimized sampling
 
 **Structure-based de novo drug design using 3D deep generative models**  
 Li, Yibo, Jianfeng Pei, and Luhua Lai.  
@@ -433,7 +437,7 @@ Xinqiang Ding, Zhengting Zou & Charles L. Brooks III
 
 **The generative capacity of probabilistic protein sequence models**
 Francisco McGee, Sandro Hauri, Quentin Novinger, Slobodan Vucetic, Ronald M. Levy, Vincenzo Carnevale & Allan Haldane  
-[Nature Communications](https://www.nature.com/articles/s41467-021-26529-9) || [code::generation_capacity_metrics](https://github.com/alagauche/generative_capacity_metrics) || [code::sVAE](https://github.com/ahaldane/MSA_VAE) || Nov 2021  
+[Nature Communications](https://www.nature.com/articles/s41467-021-26529-9) || [code::generation_capacity_metrics](https://github.com/alagauche/genera tive_capacity_metrics) || [code::sVAE](https://github.com/ahaldane/MSA_VAE) || Nov 2021  
 
 **Deep generative models of genetic variation capture the effects of mutations**  
 Adam J. Riesselman, John B. Ingraham & Debora S. Marks  
