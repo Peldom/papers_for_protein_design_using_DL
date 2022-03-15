@@ -3,7 +3,7 @@
 ## About this repository
 
 Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, my colleagues and I started making this dynamic repository as a record of papers in this field for the newcomers like us.
-My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)**(simplified Chinese).  
+My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese).  
 
 ## Menu
 
@@ -75,6 +75,8 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 3. [PDBbind](http://www.pdbbind.org.cn/download.php)
 4. ...
 
+[TDC](https://tdcommons.ai/overview/) maintains a resource list that currently contains 22 tasks (and its datasets) related to small molecules and macromolecules, including PPI, DDI and so on.
+
 > In terms of datasets and benchmarks, protein design is far less mature than drug discovery ([paperwithcode drug discovery benchmarks](https://paperswithcode.com/task/drug-discovery)). (Maybe should add the evaluation of protein design for deep learning method (especially deep generative model))   
 > Difficulties and opportunities always coexist. Happy to see the work of [Christian Dallago, Jody Mou, Kadina E. Johnston, Bruce J. Wittmann, Nicholas Bhattacharya, Samuel Goldman, Ali Madani, Kevin K. Yang](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v1) and [Zhangyang Gao, Cheng Tan, Stan Z. Li](https://arxiv.org/abs/2202.01079). How grateful.
 
@@ -102,7 +104,7 @@ Ovchinnikov, Sergey, and Po-Ssu Huang.
 
 ### 2.1 trRosetta-based
 
- **Design of proteins presenting discontinuous functional sites using deep learning**  
+**Design of proteins presenting discontinuous functional sites using deep learning**  
 Doug Tischer, Sidney Lisanza, Jue Wang, Runze Dong,  View ORCID ProfileIvan Anishchenko, Lukas F. Milles, Sergey Ovchinnikov, David Baker  
 [bioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.11.29.402743v1.abstract)  
 
