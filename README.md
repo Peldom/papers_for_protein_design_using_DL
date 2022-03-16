@@ -62,6 +62,8 @@ Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattachary
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
 [BioRxiv](https://arxiv.org/abs/2202.01079)
 
+https://github.com/jonathanking/sidechainnet
+
 ### 0.3 Others
 
 **Sequence Database**  
@@ -73,7 +75,14 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 1. [PDB](https://www.rcsb.org/)
 2. [AlphaFoldDB](https://alphafold.ebi.ac.uk/)
 3. [PDBbind](http://www.pdbbind.org.cn/download.php)
-4. ...
+
+**Protein Structure Datasets**
+
+**SidechainNet: An All-Atom Protein Structure Dataset for Machine Learning**
+Jonathan E. King, David Ryan Koes  
+[arxiv](https://arxiv.org/abs/2010.08162) || [github::sidechainnet](https://github.com/jonathanking/sidechainnet) 
+
+
 
 [TDC](https://tdcommons.ai/overview/) maintains a resource list that currently contains 22 tasks (and its datasets) related to small molecules and macromolecules, including PPI, DDI and so on.
 
