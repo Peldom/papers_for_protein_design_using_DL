@@ -84,7 +84,7 @@ Jonathan E. King, David Ryan Koes
 
 
 
-[TDC](https://tdcommons.ai/overview/) maintains a resource list that currently contains 22 tasks (and its datasets) related to small molecules and macromolecules, including PPI, DDI and so on.
+[TDC](https://tdcommons.ai/overview/) maintains a resource list that currently contains 22 tasks (and its datasets) related to small molecules and macromolecules, including PPI, DDI and so on. [MoleculeNet](https://github.com/GLambard/Molecules_Dataset_Collection) published a small molecule related benchmark four years ago.
 
 > In terms of datasets and benchmarks, protein design is far less mature than drug discovery ([paperwithcode drug discovery benchmarks](https://paperswithcode.com/task/drug-discovery)). (Maybe should add the evaluation of protein design for deep learning method (especially deep generative model))   
 > Difficulties and opportunities always coexist. Happy to see the work of [Christian Dallago, Jody Mou, Kadina E. Johnston, Bruce J. Wittmann, Nicholas Bhattacharya, Samuel Goldman, Ali Madani, Kevin K. Yang](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v1) and [Zhangyang Gao, Cheng Tan, Stan Z. Li](https://arxiv.org/abs/2202.01079). How grateful.
@@ -398,6 +398,10 @@ Khan, Asif, et al.
 [arXiv preprint(2022)](https://arxiv.org/abs/2201.12570)
 
 ### 5.7 Pretrained-based
+
+**A deep unsupervised language model for protein design**  
+Noelia Ferruz,  View ProfileSteffen Schmidt,  View ProfileBirte Höcker  
+[bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.full) || [model::huggingface](https://huggingface.co/nferruz/ProtGPT2) [datasets::hugingface](https://huggingface.co/datasets/nferruz/UR50_2021_04) || March 12 2022
 
 **Progen: Language modeling for protein generation**  
 Madani, Ali, et al.  
