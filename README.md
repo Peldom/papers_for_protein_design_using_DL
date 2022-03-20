@@ -2,7 +2,7 @@
 
 ## About this repository
 
-Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, my colleagues and I started making this dynamic repository as a record of papers in this field for the newcomers like us.
+Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, my colleagues and I started making this dynamic repository as a record of papers in this field for the newcomers like us.  
 My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese).  
 
 ## Menu
@@ -62,7 +62,7 @@ Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattachary
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
 [BioRxiv](https://arxiv.org/abs/2202.01079)
 
-https://github.com/jonathanking/sidechainnet
+[https://github.com/jonathanking/sidechainnet](https://github.com/jonathanking/sidechainnet)
 
 ### 0.3 Others
 
@@ -80,9 +80,7 @@ https://github.com/jonathanking/sidechainnet
 
 **SidechainNet: An All-Atom Protein Structure Dataset for Machine Learning**
 Jonathan E. King, David Ryan Koes  
-[arxiv](https://arxiv.org/abs/2010.08162) || [github::sidechainnet](https://github.com/jonathanking/sidechainnet) 
-
-
+[arxiv](https://arxiv.org/abs/2010.08162) || [github::sidechainnet](https://github.com/jonathanking/sidechainnet)  
 
 [TDC](https://tdcommons.ai/overview/) maintains a resource list that currently contains 22 tasks (and its datasets) related to small molecules and macromolecules, including PPI, DDI and so on. [MoleculeNet](https://github.com/GLambard/Molecules_Dataset_Collection) published a small molecule related benchmark four years ago.
 
@@ -123,7 +121,7 @@ Ivan Anishchenko, Samuel J. Pellock, Tamuka M. Chidyausiku, Theresa A. Ramelot, 
 
 **Protein sequence design by conformational landscape optimization**  
 Norn, Christoffer, et al.  
-[Proceedings of the National Academy of Sciences 118.11 (2021)](https://www.pnas.org/content/118/11/e2017228118) || [code](https://github.com/gjoni/trDesign)   
+[Proceedings of the National Academy of Sciences 118.11 (2021)](https://www.pnas.org/content/118/11/e2017228118) || [code](https://github.com/gjoni/trDesign)
 
 **Fast differentiable DNA and protein sequence optimization for molecular design**  
 Linder, Johannes, and Georg Seelig.  
@@ -137,7 +135,7 @@ Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, 
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
 Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
-[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387)  
+[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387) || [code](https://github.com/sokrypton/ColabDesign) || [my notes](https://zhuanlan.zhihu.com/p/477854488)
 
 **AlphaDesign: A de novo protein design framework based on AlphaFold**  
 Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.  
@@ -345,9 +343,13 @@ Xie, Xuezhi, and Philip M. Kim.
 
 ### 5.4 NLP-based
 
-**A deep unsupervised language model for protein design**
+**A deep unsupervised language model for protein design**  
 Noelia Ferruz, Steffen Schmidt and Birte Höcker
 [bioRxiv 2022](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1)
+
+**Efficient generative modeling of protein sequences using simple autoregressive models**  
+Trinquier, Jeanne, et al.  
+[Nature communications 12.1 (2021)](https://www.nature.com/articles/s41467-021-25756-4)
 
 **Recurrent neural network model for constructive peptide design**  
 Müller, Alex T., Jan A. Hiss, and Gisbert Schneider.  
@@ -415,7 +417,7 @@ Angermueller, Christof, et al.
 
 ## 6.Molecular Design Models
 
-> Unlike **function-scaffold-sequence** paradigm in protein design, major molecular design models based on paradigm form DL from 3 kinds of level: **atom-based**, **fragment-based**, **reaction-based**, and they can be categorized as [Gradient optimization](#61-gradient-optimization) or [Optimized sampling](#62-optimized-sampling)(gradient-free). [Click here for detail review](https://www.sciencedirect.com/science/article/pii/S1359644621002531)
+> Unlike **function-scaffold-sequence** paradigm in protein design, major molecular design models based on paradigm form DL from 3 kinds of level: **atom-based**, **fragment-based**, **reaction-based**, and they can be categorized as [Gradient optimization](#61-gradient-optimization) or [Optimized sampling](#62-optimized-sampling)(gradient-free). [Click here for detail review](https://www.sciencedirect.com/science/article/pii/S1359644621002531)  
 > In consideration of learning more various of generative models for design, these recommended latest models from **Molecular Design** might be helpful and even be able to be transplanted to protein design.
 
 ### 6.1 Gradient optimization
