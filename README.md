@@ -4,6 +4,7 @@
 
 Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, my colleagues and I started making this dynamic repository as a record of papers in this field for the newcomers like us.  
 My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese).  
+Heading [3](#3-function-to-scaffold)&[4](#4scaffold-to-sequence) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946) from Baker lab, Heading [5](#5function-to-sequence)&[6](#6molecular-design-models) follow other ML/DL strategies.
 
 ## Menu
 
@@ -42,6 +43,7 @@ My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/
     - [5.6 Bayesian-based](#56-bayesian-based)
     - [5.7 Pretrained-based](#57-pretrained-based)
     - [5.8 RL-based](#58-rl-based)
+    - [5.9 Flow-based](#59-flow-based)
   - [6.Molecular Design Models](#6molecular-design-models)
     - [6.1 Gradient optimization](#61-gradient-optimization)
     - [6.2 Optimized sampling](#62-optimized-sampling)
@@ -414,6 +416,12 @@ Madani, Ali, et al.
 **Model-based reinforcement learning for biological sequence design**  
 Angermueller, Christof, et al.  
 [International conference on learning representations. 2019](https://openreview.net/forum?id=HklxbgBKvr&fileGuid=3xgr169o12oUrbxS)  
+
+### 5.9 Flow-based
+
+**Biological Sequence Design with GFlowNets**  
+Jain, Moksh, et al.  
+[arXiv preprint arXiv:2203.04115 (2022)](https://arxiv.org/abs/2203.04115)
 
 ## 6.Molecular Design Models
 
