@@ -49,6 +49,7 @@ Heading [3](#3-function-to-scaffold)&[4](#4scaffold-to-sequence) follow ["Inside
     - [6.2 Optimized sampling](#62-optimized-sampling)
   - [7. Other tasks](#7-other-tasks)
     - [7.1 Fitness functions / Landscape exploring using latent space](#71-fitness-functions--landscape-exploring-using-latent-space)
+    - [Upstream language models and representation learning](#upstream-language-models-and-representation-learning)
 
 ## 0. Benchmarks and datasets
 
@@ -471,3 +472,9 @@ Adam J. Riesselman, John B. Ingraham & Debora S. Marks
 **Epistatic Net allows the sparse spectral regularization of deep neural networks for inferring fitness functions**  
 Amirali Aghazadeh, Hunter Nisonoff, Orhan Ocal, David H. Brookes, Yijie Huang, O. Ozan Koyluoglu, Jennifer Listgarten & Kannan Ramchandran  
 [Nature Communications](https://www.nature.com/articles/s41467-021-25371-3) || [code](https://github.com/amirmohan/epistatic-net) || Sep 2021  
+
+### Upstream language models and representation learning
+
+**Protein Structure Representation Learning by Geometric Pretraining**  
+Zuobai Zhang, Minghao Xu, Arian Jamasb, Vijil Chenthamarakshan, Aurelie Lozano, Payel Das, Jian Tang  
+[arXiv](https://arxiv.org/abs/2203.06125) || Jan 2022
