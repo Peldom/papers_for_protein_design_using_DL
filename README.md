@@ -354,6 +354,10 @@ Xie, Xuezhi, and Philip M. Kim.
 
 ### 5.4 NLP-based
 
+**Generation of functional oligopeptides that promote osteogenesis based on unsupervised deep learning of protein IDRs**
+Cai, Mingxiang, et al.  
+[Bone research 10.1 (2022)](https://www.nature.com/articles/s41413-022-00193-1)
+
 **A deep unsupervised language model for protein design**  
 Noelia Ferruz, Steffen Schmidt and Birte Höcker
 [bioRxiv 2022](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1)
