@@ -4,7 +4,7 @@
 
 Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, my colleagues and I started making this dynamic repository as a record of papers in this field for the newcomers like us.  
 My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese).  
-Heading [3](#3-function-to-scaffold)&[4](#4scaffold-to-sequence) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946) from Baker lab, Heading [5](#5function-to-sequence)&[6](#6molecular-design-models) follow other ML/DL strategies.
+Heading [3](#3-function-to-scaffold)&[4](#4scaffold-to-sequence) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946) from Baker lab, Heading [5](#5function-to-sequence)&[6](#6molecular-design-models) follow other ML/DL strategies. Mini protein, metalloprotein, antibody, peptide & molecule designs are included.
 
 ## Menu
 
@@ -15,11 +15,15 @@ Heading [3](#3-function-to-scaffold)&[4](#4scaffold-to-sequence) follow ["Inside
     - [0.1 Function to sequence](#01-function-to-sequence)
     - [0.2 Structure to sequence](#02-structure-to-sequence)
     - [0.3 Others](#03-others)
+      - [0.3.1 Sequence Database](#031-sequence-database)
+      - [0.3.2 Structure Database](#032-structure-database)
+      - [0.3.3 Protein Structure Datasets](#033-protein-structure-datasets)
   - [1. Reviews](#1-reviews)
   - [2. Hallucination](#2-hallucination)
     - [2.1 trRosetta-based](#21-trrosetta-based)
     - [2.2 AlphaFold2-based](#22-alphafold2-based)
     - [2.3 DMPfold2-based](#23-dmpfold2-based)
+    - [2.4 CM-Align](#24-cm-align)
   - [3. Function to Scaffold](#3-function-to-scaffold)
     - [3.1 GAN-based](#31-gan-based)
     - [3.2 VAE-based](#32-vae-based)
@@ -35,15 +39,16 @@ Heading [3](#3-function-to-scaffold)&[4](#4scaffold-to-sequence) follow ["Inside
     - [4.7 Transformer-based](#47-transformer-based)
     - [4.8 ResNet-based](#48-resnet-based)
   - [5.Function to Sequence](#5function-to-sequence)
-    - [5.1 CM-Align](#51-cm-align)
+    - [5.1 CNN-based](#51-cnn-based)
     - [5.2 VAE-based](#52-vae-based)
     - [5.3 GAN-based](#53-gan-based)
-    - [5.4 NLP-based](#54-nlp-based)
+    - [5.4 Trasnformer-based](#54-trasnformer-based)
     - [5.5 ResNet-based](#55-resnet-based)
     - [5.6 Bayesian-based](#56-bayesian-based)
-    - [5.7 Pretrained-based](#57-pretrained-based)
-    - [5.8 RL-based](#58-rl-based)
-    - [5.9 Flow-based](#59-flow-based)
+    - [5.7 RL-based](#57-rl-based)
+    - [5.8 Flow-based](#58-flow-based)
+    - [5.9 RNN-based](#59-rnn-based)
+    - [5.10 LTSM-based](#510-ltsm-based)
   - [6. Other tasks](#6-other-tasks)
     - [6.1 Effects of mutation & Fitness Landscape](#61-effects-of-mutation--fitness-landscape)
     - [6.2 Protein Language Models (PTM) and representation learning](#62-protein-language-models-ptm-and-representation-learning)
@@ -65,21 +70,19 @@ Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattachary
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
 [BioRxiv](https://arxiv.org/abs/2202.01079)
 
-[https://github.com/jonathanking/sidechainnet](https://github.com/jonathanking/sidechainnet)
-
 ### 0.3 Others
 
-**Sequence Database**  
+#### 0.3.1 Sequence Database
 
 [UniProt](https://www.uniprot.org/downloads)  
 
-**Structure Database**  
+#### 0.3.2 Structure Database
 
 1. [PDB](https://www.rcsb.org/)
 2. [AlphaFoldDB](https://alphafold.ebi.ac.uk/)
 3. [PDBbind](http://www.pdbbind.org.cn/download.php)
 
-**Protein Structure Datasets**
+#### 0.3.3 Protein Structure Datasets
 
 **SidechainNet: An All-Atom Protein Structure Dataset for Machine Learning**
 Jonathan E. King, David Ryan Koes  
@@ -87,18 +90,10 @@ Jonathan E. King, David Ryan Koes
 
 [TDC](https://tdcommons.ai/overview/) maintains a resource list that currently contains 22 tasks (and its datasets) related to small molecules and macromolecules, including PPI, DDI and so on. [MoleculeNet](https://github.com/GLambard/Molecules_Dataset_Collection) published a small molecule related benchmark four years ago.
 
-> In terms of datasets and benchmarks, protein design is far less mature than drug discovery ([paperwithcode drug discovery benchmarks](https://paperswithcode.com/task/drug-discovery)). (Maybe should add the evaluation of protein design for deep learning method (especially deep generative model))   
+> In terms of datasets and benchmarks, protein design is far less mature than drug discovery ([paperwithcode drug discovery benchmarks](https://paperswithcode.com/task/drug-discovery)). (Maybe should add the evaluation of protein design for deep learning method (especially deep generative model))  
 > Difficulties and opportunities always coexist. Happy to see the work of [Christian Dallago, Jody Mou, Kadina E. Johnston, Bruce J. Wittmann, Nicholas Bhattacharya, Samuel Goldman, Ali Madani, Kevin K. Yang](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v1) and [Zhangyang Gao, Cheng Tan, Stan Z. Li](https://arxiv.org/abs/2202.01079). How grateful.
 
 ## 1. Reviews
-
-**Protein design via deep learning**  
-Wenze Ding, Kenta Nakai, Haipeng Gong  
-[Briefings in Bioinformatics](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac102/6554124) || 25 March 2022
-
-**Deep generative modeling for protein design**  
-Strokach, Alexey, and Philip M. Kim.  
-[Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/pii/S0959440X21001573) || 2022  
 
 **Deep learning in protein structural modeling and design**  
 Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray  
@@ -112,6 +107,18 @@ Zachary Wu, Kadina E. Johnston, Frances H. Arnold, Kevin K. Yang
 Ovchinnikov, Sergey, and Po-Ssu Huang.  
 [Current opinion in chemical biology](https://www.sciencedirect.com/science/article/pii/S1367593121001125) || [note](https://zhuanlan.zhihu.com/p/467001175) || 2021  
 
+**Protein design via deep learning**  
+Wenze Ding, Kenta Nakai, Haipeng Gong  
+[Briefings in Bioinformatics](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac102/6554124) || 25 March 2022
+
+**Deep generative modeling for protein design**  
+Strokach, Alexey, and Philip M. Kim.  
+[Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/pii/S0959440X21001573) || 2022  
+
+**Deep generative models for peptide design**  
+Wan, Fangping, Daphne Kontogiorgos-Heintz, and Cesar de la Fuente-Nunez  
+[Digital Discovery (2022)](https://pubs.rsc.org/en/content/articlehtml/2022/dd/d1dd00024a)
+
 ## 2. Hallucination
 
 > Hallucination is inverting prediction model for design.
@@ -122,6 +129,10 @@ Ovchinnikov, Sergey, and Po-Ssu Huang.
 Doug Tischer, Sidney Lisanza, Jue Wang, Runze Dong,  View ORCID ProfileIvan Anishchenko, Lukas F. Milles, Sergey Ovchinnikov, David Baker  
 [bioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.11.29.402743v1.abstract)  
 
+**Fast differentiable DNA and protein sequence optimization for molecular design**  
+Linder, Johannes, and Georg Seelig.  
+[arXiv preprint arXiv:2005.11275 (2020)](https://arxiv.org/abs/2005.11275)
+
 **De novo protein design by deep network hallucination**  
 Ivan Anishchenko, Samuel J. Pellock, Tamuka M. Chidyausiku, Theresa A. Ramelot, Sergey Ovchinnikov, Jingzhou Hao, Khushboo Bafna, Christoffer Norn, Alex Kang, Asim K. Bera, Frank DiMaio, Lauren Carter, Cameron M. Chow, Gaetano T. Montelione & David Baker  
 [Nature (2021)](https://doi.org/10.1038/s41586-021-04184-w)  || [code](https://github.com/gjoni/trDesign) || [trRosetta](https://yanglab.nankai.edu.cn/trRosetta/download/) || 
@@ -129,10 +140,6 @@ Ivan Anishchenko, Samuel J. Pellock, Tamuka M. Chidyausiku, Theresa A. Ramelot, 
 **Protein sequence design by conformational landscape optimization**  
 Norn, Christoffer, et al.  
 [Proceedings of the National Academy of Sciences 118.11 (2021)](https://www.pnas.org/content/118/11/e2017228118) || [code](https://github.com/gjoni/trDesign)
-
-**Fast differentiable DNA and protein sequence optimization for molecular design**  
-Linder, Johannes, and Georg Seelig.  
-[arXiv preprint arXiv:2005.11275 (2020)](https://arxiv.org/abs/2005.11275)
 
 ### 2.2 AlphaFold2-based
 
@@ -158,27 +165,33 @@ Moffat, Lewis, Joe G. Greener, and David T. Jones.
 Moffat, Lewis, Shaun M. Kandathil, and David T. Jones.  
 [bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1.abstract)
 
+### 2.4 CM-Align
+
+**AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**  
+Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai  
+[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)  
+
 ## 3. Function to Scaffold
 
 > These models design backbone/scaffold/template.
 
 ### 3.1 GAN-based
 
-**HelixGAN: A bidirectional Generative Adversarial Network with search in latent space for generation under constraints**  
-Xuezhi Xie, Philip M. Kim  
-[Machine Learning for Structural Biology Workshop, NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_HelixGAN:_A_bidirectional_Generative.pdf) || without code  
-
 **Conditioning by adaptive sampling for robust design**  
 Brookes, David, Hahnbeom Park, and Jennifer Listgarten.  
 [International conference on machine learning. PMLR, 2019](http://proceedings.mlr.press/v97/brookes19a/brookes19a.pdf)  || without code  
+
+**Fully differentiable full-atom protein backbone generation**  
+Anand Namrata, Raphael Eguchi, and Po-Ssu Huang.  
+[OpenReview ICLR 2019 workshop DeepGenStruct](https://openreview.net/forum?id=SJxnVL8YOV) || without code  
 
 **RamaNet: Computational de novo helical protein backbone design using a long short-term memory generative neural network**  
 Sabban, Sari, and Mikhail Markovsky.  
 [F1000Research 9 (2020)](http://f1000researchdata.s3.amazonaws.com/manuscripts/29106/f45e92eb-5d68-4da0-b918-91ded85d2e7d_22907_-_sari_sabban_v2.pdf) || [code](https://sarisabban.github.io/RamaNet/) || pyRosetta || tensorflow || maximizaing the fluorescence of a protein  
 
-**Fully differentiable full-atom protein backbone generation**  
-Anand Namrata, Raphael Eguchi, and Po-Ssu Huang.  
-[OpenReview ICLR 2019 workshop DeepGenStruct](https://openreview.net/forum?id=SJxnVL8YOV) || without code  
+**HelixGAN: A bidirectional Generative Adversarial Network with search in latent space for generation under constraints**  
+Xuezhi Xie, Philip M. Kim  
+[Machine Learning for Structural Biology Workshop, NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_HelixGAN:_A_bidirectional_Generative.pdf) || without code  
 
 ### 3.2 VAE-based
 
@@ -200,13 +213,17 @@ Huang, B., Xu, Y., Hu, X. et al
 
 ## 4.Scaffold to Sequence
 
-> Identify amino sequence from given backbone/scaffold/template.
+> Identify amino sequence from given backbone/scaffold/template constrains: torsion angles(φ & ψ), backbone angles(θ and τ), backbone dihedrals (φ, ψ & ω), backbone atoms (Cα, N, C, & O), Cα − Cα distance, unit direction vectors of Cα−Cα, Cα−N & Cα−C, etc. Referred from [here](https://arxiv.org/abs/2202.01079).
 
 ### 4.1 MLP-based
 
 **3D representations of amino acids—applications to protein sequence comparison and classification**  
 Li, Jie, and Patrice Koehl.  
 [Computational and structural biotechnology journal 11.18 (2014)](https://www.sciencedirect.com/science/article/pii/S2001037014000270) || 2014  
+
+**Direct prediction of profiles of sequences compatible with a protein structure by neural networks with fragment‐based local and energy‐based nonlocal profiles**  
+Li, Zhixiu, et al.  
+[Proteins: Structure, Function, and Bioinformatics 82.10 (2014)](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.24620)
 
 **SPIN2: Predicting sequence profiles from protein structures using deep neural networks**  
 O'Connell, James, et al.  
@@ -226,23 +243,27 @@ Greener, Joe G., Lewis Moffat, and David T. Jones.
 
 **To improve protein sequence profile prediction through image captioning on pairwise residue distance map**  
 Chen, Sheng, et al.  
-[Journal of chemical information and modeling 60.1 (2019)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00438)
+[Journal of chemical information and modeling 60.1 (2019)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00438) || [code](https://github.com/biomed-AI/SPROF)
 
 ### 4.4 CNN-based
-
-**ProDCoNN: Protein design using a convolutional neural network**  
-Zhang, Yuan, et al.  
-[Proteins: Structure, Function, and Bioinformatics 88.7 (2020)](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25868)
 
 **A structure-based deep learning framework for protein engineering**  
 Shroff, Raghav, et al.  
 [bioRxiv (2019)](https://www.biorxiv.org/content/10.1101/833905v1.abstract)
+
+**ProDCoNN: Protein design using a convolutional neural network**  
+Zhang, Yuan, et al.  
+[Proteins: Structure, Function, and Bioinformatics 88.7 (2020)](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25868)
 
 **Protein sequence design with a learned potential**  
 Anand-Achim, Namrata, et al.  
 [Biorxiv (2021)](https://www.biorxiv.org/content/10.1101/2020.01.06.895466v3.full.pdf)
 
 ### 4.5 GNN-based
+
+**Learning from protein structure with geometric vector perceptrons**  
+Jing, Bowen, et al.  
+[arXiv preprint arXiv:2009.01411 (2020)](https://arxiv.org/abs/2009.01411) || [code](https://github.com/drorlab/gvp-pytorch)
 
 **Fast and flexible protein design using deep graph neural networks.**  
 Alexey Strokach, David Becerra, Carles Corbi-Verge, Albert Perez-Riba, Philip M. Kim  
@@ -255,6 +276,10 @@ Li, Alex J., et al.
 **Iterative refinement graph neural network for antibody sequence-structure co-design**  
 Jin, Wengong, et al.  
 [arXiv preprint arXiv:2110.04624 (2021)](https://arxiv.org/abs/2110.04624)
+
+**AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**  
+Gao, Zhangyang, Cheng Tan, and Stan Li.  
+[arXiv preprint arXiv:2202.01079 (2022)](https://arxiv.org/abs/2202.01079) || [code](https://github.com/jonathanking/sidechainnet)
 
 ### 4.6 GAN-based
 
@@ -272,6 +297,10 @@ Mostafa Karimi, Shaowen Zhu, Yue Cao, Yang Shen
 Liu, Yufeng, et al.  
 [Nature portfolio (2022)](https://www.researchsquare.com/article/rs-1209166/v1)
 
+**Learning inverse folding from millions of predicted structures**  
+Chloe Hsu, Robert Verkuil, Jason Liu, Zeming Lin, Brian Hie, Tom Sercu, Adam Lerer, Alexander Rives  
+[bioRxiv (2022)](https://doi.org/10.1101/2022.04.10.487779) || [code](https://github.com/facebookresearch/esm)  
+
 ### 4.8 ResNet-based
 
 **DenseCPD: improving the accuracy of neural-network-based computational protein sequence design with DenseNet**  
@@ -282,17 +311,21 @@ Qi, Yifei, and John ZH Zhang.
 
 > These models generate sequences from expected function.
 
-### 5.1 CM-Align
+### 5.1 CNN-based
 
-**AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**  
-Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai  
-[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)  
+**Protein design and variant prediction using autoregressive generative models**  
+Shin, Jung-Eun, et al.  
+[Nature communications 12.1 (2021)](https://www.nature.com/articles/s41467-021-22732-w.pdf) || [code::SeqDesign](https://github.com/debbiemarkslab/SeqDesign) || mutation effect prediction || sequence generation || April 2021  
 
 ### 5.2 VAE-based
 
 **Variational auto-encoding of protein sequences**  
 Sinai, Sam, et al.  
 [arXiv preprint arXiv:1712.03346 (2017)](https://arxiv.org/abs/1712.03346)
+
+**Pepcvae: Semi-supervised targeted design of antimicrobial peptide sequences**  
+Das, Payel, et al.  
+[arXiv preprint arXiv:1810.07743 (2018)](https://arxiv.org/abs/1810.07743)
 
 **Deep generative models for T cell receptor protein sequences**  
 Davidsen, Kristian, et al.  
@@ -302,25 +335,25 @@ Davidsen, Kristian, et al.
 Costello, Zak, and Hector Garcia Martin.  
 [arXiv preprint arXiv:1903.00458 (2019)](https://arxiv.org/abs/1903.00458)
 
-**Conditioning by adaptive sampling for robust design**  
-Brookes, David, Hahnbeom Park, and Jennifer Listgarten.  
-[International conference on machine learning. PMLR, 2019](http://proceedings.mlr.press/v97/brookes19a.html)
+**Variational autoencoder for generation of antimicrobial peptides**  
+Dean, Scott N., and Scott A. Walper.  
+[ACS omega 5.33 (2020)](https://pubs.acs.org/doi/abs/10.1021/acsomega.0c00442)
 
 **Generating functional protein variants with variational autoencoders**  
 Hawkins-Hooker, Alex, et al.  
 [PLoS computational biology 17.2 (2021)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008736)
 
-**Therapeutic enzyme engineering using a generative neural network**  
-Giessel, Andrew, et al.  
-[Scientific Reports 12.1 (2022)](https://www.nature.com/articles/s41598-022-05195-x)
-
-**Function-guided protein design by deep manifold sampling**  
-Gligorijevic, Vladimir, et al.  
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.12.22.473759v1)
+**Accelerated antimicrobial discovery via deep generative models and molecular dynamics simulations**  
+Das, Payel, et al.  
+[Nature Biomedical Engineering 5.6 (2021)](https://www.nature.com/articles/s41551-021-00689-x)
 
 **Deep generative models create new and diverse protein structures**  
 Zeming, Tom, Yann and Alexander.  
 [NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_Deep_generative_models_create.pdf)
+
+**Therapeutic enzyme engineering using a generative neural network**  
+Giessel, Andrew, et al.  
+[Scientific Reports 12.1 (2022)](https://www.nature.com/articles/s41598-022-05195-x)
 
 ### 5.3 GAN-based
 
@@ -336,6 +369,14 @@ Chhibbar, Prabal, and Arpit Joshi.
 Han, Xi, et al.  
 [Computers & Chemical Engineering 131 (2019)](https://www.sciencedirect.com/science/article/abs/pii/S0098135419304922)
 
+**GANDALF: Peptide Generation for Drug Design using Sequential and Structural Generative Adversarial Networks**  
+Rossetto, Allison, and Wenjin Zhou.  
+[Proceedings of the 11th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics. 2020](https://dl.acm.org/doi/abs/10.1145/3388440.3412487)
+
+**Generating ampicillin-level antimicrobial peptides with activity-aware generative adversarial networks**  
+Tucs, Andrejs, et al.  
+[ACS omega 5.36 (2020)](https://pubs.acs.org/doi/abs/10.1021/acsomega.0c02088)
+
 **Conditional Generative Modeling for De Novo Protein Design with Hierarchical Functions**  
 Kucera, Tim, Matteo Togninalli, and Laetitia Meng-Papaxanthos  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.11.10.467885v1.abstract)  
@@ -348,39 +389,31 @@ Repecka, Donatas, et al.
 Xie, Xuezhi, and Philip M. Kim.  
 [NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_HelixGAN:_A_bidirectional_Generative.pdf)
 
-### 5.4 NLP-based
+**A Generative Approach toward Precision Antimicrobial Peptide Design.**  
+Ferrell, Jonathon B., et al.  
+[BioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2020.10.02.324087.abstract)
 
-**A deep unsupervised language model for protein design**  
-Noelia Ferruz, Steffen Schmidt and Birte Höcker
-[bioRxiv 2022](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1)
+**AMPGAN v2: Machine Learning-Guided Design of Antimicrobial Peptides**  
+Van Oort, Colin M., et al.  
+[Journal of chemical information and modeling 61.5 (2021)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c01441)
 
-**Efficient generative modeling of protein sequences using simple autoregressive models**  
-Trinquier, Jeanne, et al.  
-[Nature communications 12.1 (2021)](https://www.nature.com/articles/s41467-021-25756-4)
+**DeepImmuno: deep learning-empowered prediction and generation of immunogenic peptides for T-cell immunity**  
+Li, Guangyuan, et al.  
+[Briefings in bioinformatics 22.6 (2021)](https://academic.oup.com/bib/article-abstract/22/6/bbab160/6261914)
 
-**Recurrent neural network model for constructive peptide design**  
-Müller, Alex T., Jan A. Hiss, and Gisbert Schneider.  
-[Journal of chemical information and modeling 58.2 (2018)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.7b00414)  
+**PandoraGAN: Generating antiviral peptides using Generative Adversarial Network**  
+Surana, Shraddha, et al.  
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.02.15.431193.abstract)
 
-**Pepcvae: Semi-supervised targeted design of antimicrobial peptide sequences**  
-Das, Payel, et al.  
-[arXiv preprint arXiv:1810.07743 (2018)](https://arxiv.org/abs/1810.07743)
+### 5.4 Trasnformer-based
 
-**Deep learning to design nuclear-targeting abiotic miniproteins**  
-Schissel, Carly K., et al.  
-[Nature Chemistry 13.10 (2021)](https://www.nature.com/articles/s41557-021-00766-3)  
+**Progen: Language modeling for protein generation**  
+Madani, Ali, et al.  
+[arXiv preprint arXiv:2004.03497 (2020)](https://arxiv.org/abs/2004.03497)
 
-**Protein design and variant prediction using autoregressive generative models**  
-Shin, Jung-Eun, et al.  
-[Nature communications 12.1 (2021)](https://www.nature.com/articles/s41467-021-22732-w.pdf) || [code::SeqDesign](https://github.com/debbiemarkslab/SeqDesign) || mutation effect prediction || sequence generation || April 2021  
-
-**ECNet is an evolutionary context-integrated deep learning framework for protein engineering**  
-Luo, Yunan, et al.  
-[Nature communications 12.1 (2021)](https://www.nature.com/articles/s41467-021-25976-8)
-
-**Guided Generative Protein Design using Regularized Transformers**  
-Castro, Egbert, et al.  
-[arXiv preprint arXiv:2201.09948 (2022)](https://arxiv.org/abs/2201.09948)
+**Signal peptides generated by attention-based neural networks**  
+Wu, Zachary, et al.  
+[ACS Synthetic Biology 9.8 (2020)](https://pubs.acs.org/doi/full/10.1021/acssynbio.0c00219)
 
 **Generative Language Modeling for Antibody Design**  
 Shuai, Richard W., Jeffrey A. Ruffolo, and Jeffrey J. Gray.  
@@ -394,6 +427,14 @@ Madani, Ali, et al.
 Prihoda, David, et al.  
 [mAbs. Vol. 14. No. 1. Taylor & Francis, 2022](tandfonline.com/doi/full/10.1080/19420862.2021.2020203)
 
+**Guided Generative Protein Design using Regularized Transformers**  
+Castro, Egbert, et al.  
+[arXiv preprint arXiv:2201.09948 (2022)](https://arxiv.org/abs/2201.09948)
+
+**A deep unsupervised language model for protein design**  
+Noelia Ferruz,  View ProfileSteffen Schmidt,  View ProfileBirte Höcker  
+[bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.full) || [model::huggingface](https://huggingface.co/nferruz/ProtGPT2) [datasets::hugingface](https://huggingface.co/datasets/nferruz/UR50_2021_04) || March 12 2022
+
 ### 5.5 ResNet-based
 
 **Accelerating protein design using autoregressive generative models**  
@@ -406,27 +447,53 @@ Riesselman, Adam, et al.
 Khan, Asif, et al.  
 [arXiv preprint(2022)](https://arxiv.org/abs/2201.12570)
 
-### 5.7 Pretrained-based
-
-**A deep unsupervised language model for protein design**  
-Noelia Ferruz,  View ProfileSteffen Schmidt,  View ProfileBirte Höcker  
-[bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.full) || [model::huggingface](https://huggingface.co/nferruz/ProtGPT2) [datasets::hugingface](https://huggingface.co/datasets/nferruz/UR50_2021_04) || March 12 2022
-
-**Progen: Language modeling for protein generation**  
-Madani, Ali, et al.  
-[arXiv preprint arXiv:2004.03497 (2020)](https://arxiv.org/abs/2004.03497)
-
-### 5.8 RL-based
+### 5.7 RL-based
 
 **Model-based reinforcement learning for biological sequence design**  
 Angermueller, Christof, et al.  
 [International conference on learning representations. 2019](https://openreview.net/forum?id=HklxbgBKvr&fileGuid=3xgr169o12oUrbxS)  
 
-### 5.9 Flow-based
+### 5.8 Flow-based
 
 **Biological Sequence Design with GFlowNets**  
 Jain, Moksh, et al.  
 [arXiv preprint arXiv:2203.04115 (2022)](https://arxiv.org/abs/2203.04115)
+
+### 5.9 RNN-based
+
+**Recurrent neural network model for constructive peptide design**  
+Müller, Alex T., Jan A. Hiss, and Gisbert Schneider.  
+[Journal of chemical information and modeling 58.2 (2018)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.7b00414)
+
+**Machine learning designs non-hemolytic antimicrobial peptides**  
+Capecchi, Alice, et al.  
+[Chemical Science 12.26 (2021)](https://pubs.rsc.org/en/content/articlehtml/2021/sc/d1sc01713f)
+
+**Using molecular dynamics simulations to prioritize and understand AI-generated cell penetrating peptides**  
+Tran, Duy Phuoc, et al.  
+[Scientific reports 11.1 (2021)](https://www.nature.com/articles/s41598-021-90245-z)
+
+### 5.10 LTSM-based
+
+**Computational antimicrobial peptide design and evaluation against multidrug-resistant clinical isolates of bacteria**  
+Nagarajan, Deepesh, et al  
+[Journal of Biological Chemistry 293.10 (2018)](https://www.jbc.org/article/S0021-9258(20)40390-4/fulltext)
+
+**Deep learning enables the design of functional de novo antimicrobial proteins**  
+Caceres-Delpiano, Javier, et al.  
+[bioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.08.26.266940v1.full)
+
+**ECNet is an evolutionary context-integrated deep learning framework for protein engineering**  
+Luo, Yunan, et al.  
+[Nature communications 12.1 (2021)](https://www.nature.com/articles/s41467-021-25976-8)
+
+**Deep learning for novel antimicrobial peptide design**  
+Wang, Christina, Sam Garlick, and Mire Zloh.  
+[Biomolecules 11.3 (2021)](https://www.mdpi.com/2218-273X/11/3/471)
+
+**Deep learning to design nuclear-targeting abiotic miniproteins**  
+Schissel, Carly K., et al.  
+[Nature Chemistry 13.10 (2021)](https://www.nature.com/articles/s41557-021-00766-3)  
 
 ## 6. Other tasks
 
