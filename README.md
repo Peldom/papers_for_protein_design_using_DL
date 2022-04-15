@@ -446,6 +446,10 @@ Castro, Egbert, et al.
 Noelia Ferruz,  View ProfileSteffen Schmidt,  View ProfileBirte Höcker  
 [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.full) || [model::huggingface](https://huggingface.co/nferruz/ProtGPT2) [datasets::hugingface](https://huggingface.co/datasets/nferruz/UR50_2021_04) || March 12 2022
 
+**Few Shot Protein Generation**  
+Ram, Soumya, and Tristan Bepler.  
+[arXiv preprint arXiv:2204.01168 (2022)](https://arxiv.org/abs/2204.01168)
+
 ### 5.5 ResNet-based
 
 **Accelerating protein design using autoregressive generative models**  
@@ -510,9 +514,9 @@ Schissel, Carly K., et al.
 
 ### 6.1 Effects of mutation & Fitness Landscape
 
-**Proximal Exploration for Model-guided Protein Sequence Design**  
-Zhizhou Ren, Jiahan Li, Fan Ding, Yuan Zhou, Jianzhu Ma, Jian Peng  
-[BioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.04.12.487986v1)
+**Deep generative models of genetic variation capture the effects of mutations**  
+Adam J. Riesselman, John B. Ingraham & Debora S. Marks  
+[Nature Methods](https://www.nature.com/articles/s41592-018-0138-4) || [code::DeepSequence](https://github.com/debbiemarkslab/DeepSequence) || Oct 2018
 
 **Deciphering protein evolution and fitness landscapes with latent space models**  
 Xinqiang Ding, Zhengting Zou & Charles L. Brooks III  
@@ -520,15 +524,15 @@ Xinqiang Ding, Zhengting Zou & Charles L. Brooks III
 
 **The generative capacity of probabilistic protein sequence models**
 Francisco McGee, Sandro Hauri, Quentin Novinger, Slobodan Vucetic, Ronald M. Levy, Vincenzo Carnevale & Allan Haldane  
-[Nature Communications](https://www.nature.com/articles/s41467-021-26529-9) || [code::generation_capacity_metrics](https://github.com/alagauche/genera tive_capacity_metrics) || [code::sVAE](https://github.com/ahaldane/MSA_VAE) || Nov 2021  
-
-**Deep generative models of genetic variation capture the effects of mutations**  
-Adam J. Riesselman, John B. Ingraham & Debora S. Marks  
-[Nature Methods](https://www.nature.com/articles/s41592-018-0138-4) || [code::DeepSequence](https://github.com/debbiemarkslab/DeepSequence) || Oct 2018
+[Nature Communications](https://www.nature.com/articles/s41467-021-26529-9) || [code::generation_capacity_metrics](https://github.com/alagauche/generative_capacity_metrics) || [code::sVAE](https://github.com/ahaldane/MSA_VAE) || Nov 2021  
 
 **Epistatic Net allows the sparse spectral regularization of deep neural networks for inferring fitness functions**  
 Amirali Aghazadeh, Hunter Nisonoff, Orhan Ocal, David H. Brookes, Yijie Huang, O. Ozan Koyluoglu, Jennifer Listgarten & Kannan Ramchandran  
 [Nature Communications](https://www.nature.com/articles/s41467-021-25371-3) || [code](https://github.com/amirmohan/epistatic-net) || Sep 2021  
+
+**Proximal Exploration for Model-guided Protein Sequence Design**  
+Zhizhou Ren, Jiahan Li, Fan Ding, Yuan Zhou, Jianzhu Ma, Jian Peng  
+[BioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.04.12.487986v1)
 
 ### 6.2 Protein Language Models (PTM) and representation learning
 
