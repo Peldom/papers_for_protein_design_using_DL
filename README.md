@@ -4,7 +4,8 @@
 
 Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, my colleagues and I started making this dynamic repository as a record of papers in this field for the newcomers like us.  
 My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese).  
-Heading [3](#3-function-to-scaffold)&[4](#4scaffold-to-sequence) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946) from Baker lab, Heading [5](#5function-to-sequence)&[6](#6molecular-design-models) follow other ML/DL strategies. Mini protein, metalloprotein, antibody, peptide & molecule designs are included.
+Mini protein, metalloprotein, antibody, peptide & molecule designs are included.  
+Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer paradigm"**, Heading [[3]](#3-function-to-scaffold)&[[4]](#4scaffold-to-sequence) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [Baker lab](https://www.bakerlab.org/), Heading [[5]](#5function-to-sequence)&[[6]](#6molecular-design-models) follow other ML/DL strategies.  
 
 ## Menu
 
@@ -19,11 +20,13 @@ Heading [3](#3-function-to-scaffold)&[4](#4scaffold-to-sequence) follow ["Inside
       - [0.3.2 Structure Database](#032-structure-database)
       - [0.3.3 Protein Structure Datasets](#033-protein-structure-datasets)
   - [1. Reviews](#1-reviews)
-  - [2. Hallucination](#2-hallucination)
+  - [2. Model-based design](#2-model-based-design)
     - [2.1 trRosetta-based](#21-trrosetta-based)
     - [2.2 AlphaFold2-based](#22-alphafold2-based)
     - [2.3 DMPfold2-based](#23-dmpfold2-based)
-    - [2.4 CM-Align](#24-cm-align)
+    - [2.4 RoseTTAFold-based](#24-rosettafold-based)
+    - [2.5 CM-Align](#25-cm-align)
+    - [2.6 MSA-transformer-based](#26-msa-transformer-based)
   - [3. Function to Scaffold](#3-function-to-scaffold)
     - [3.1 GAN-based](#31-gan-based)
     - [3.2 VAE-based](#32-vae-based)
@@ -95,7 +98,6 @@ Jonathan E. King, David Ryan Koes
 
 ## 1. Reviews
 
->>>>>>> 73b093297423a7596f0a7c27f772fcddc83c9bb6
 **Deep learning in protein structural modeling and design**  
 Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray  
 [Patterns 1.9](https://www.sciencedirect.com/science/article/pii/S2666389920301902) || 2020  
@@ -120,9 +122,9 @@ Strokach, Alexey, and Philip M. Kim.
 Wan, Fangping, Daphne Kontogiorgos-Heintz, and Cesar de la Fuente-Nunez  
 [Digital Discovery (2022)](https://pubs.rsc.org/en/content/articlehtml/2022/dd/d1dd00024a)
 
-## 2. Hallucination
+## 2. Model-based design
 
-> Hallucination is inverting prediction model for design.
+> Invert trained models with optimize algorithms through iterations for sequence design. Inverted structure prediction models are known as **Hallucination**.
 
 ### 2.1 trRosetta-based
 
@@ -146,11 +148,7 @@ Norn, Christoffer, et al.
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
 Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey  
-[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [My notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977)  
-
-**Deep learning methods for designing proteins scaffolding functional sites**  
-Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
-[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387) || [code](https://github.com/sokrypton/ColabDesign) || [my notes](https://zhuanlan.zhihu.com/p/477854488)
+[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [ColabDesign](https://github.com/sokrypton/ColabDesign), [SMURF](https://github.com/spetti/SMURF), [AF2 back propagation](https://github.com/sokrypton/af_backprop) || [My notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977)  
 
 **AlphaDesign: A de novo protein design framework based on AlphaFold**  
 Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.  
@@ -164,13 +162,25 @@ Moffat, Lewis, Joe G. Greener, and David T. Jones.
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
 Moffat, Lewis, Shaun M. Kandathil, and David T. Jones.  
-[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1.abstract)
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1.abstract) || [DMPfold2](https://github.com/psipred/DMPfold2)
 
-### 2.4 CM-Align
+### 2.4 RoseTTAFold-based
+
+**Deep learning methods for designing proteins scaffolding functional sites**  
+Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
+[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387) || [RFDesign](https://github.com/RosettaCommons/RFDesign) || [my notes](https://zhuanlan.zhihu.com/p/477854488)
+
+### 2.5 CM-Align
 
 **AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**  
 Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai  
 [NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)  
+
+### 2.6 MSA-transformer-based
+
+**Protein language models trained on multiple sequence alignments learn phylogenetic relationships**  
+Lupo, Umberto, Damiano Sgarbossa, and Anne-Florence Bitbol.  
+[arXiv preprint arXiv:2203.15465 (2022)](https://arxiv.org/abs/2203.15465)
 
 ## 3. Function to Scaffold
 
@@ -224,15 +234,15 @@ Li, Jie, and Patrice Koehl.
 
 **Direct prediction of profiles of sequences compatible with a protein structure by neural networks with fragment‐based local and energy‐based nonlocal profiles**  
 Li, Zhixiu, et al.  
-[Proteins: Structure, Function, and Bioinformatics 82.10 (2014)](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.24620)
+[Proteins: Structure, Function, and Bioinformatics 82.10 (2014)](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.24620) || code unavailable
 
 **SPIN2: Predicting sequence profiles from protein structures using deep neural networks**  
 O'Connell, James, et al.  
-[Proteins: Structure, Function, and Bioinformatics 86.6 (2018)](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25489)
+[Proteins: Structure, Function, and Bioinformatics 86.6 (2018)](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25489) || code unavailable
 
 **Computational protein design with deep learning neural networks**  
 Wang, Jingxue, et al.  
-[Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-24760-x.pdf)  
+[Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-24760-x.pdf) || code unavailable
 
 ### 4.2 VAE-based
 
@@ -244,7 +254,7 @@ Greener, Joe G., Lewis Moffat, and David T. Jones.
 
 **To improve protein sequence profile prediction through image captioning on pairwise residue distance map**  
 Chen, Sheng, et al.  
-[Journal of chemical information and modeling 60.1 (2019)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00438) || [code](https://github.com/biomed-AI/SPROF)
+[Journal of chemical information and modeling 60.1 (2019)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00438) || [SPROF](https://github.com/biomed-AI/SPROF)
 
 ### 4.4 CNN-based
 
@@ -254,17 +264,17 @@ Shroff, Raghav, et al.
 
 **ProDCoNN: Protein design using a convolutional neural network**  
 Zhang, Yuan, et al.  
-[Proteins: Structure, Function, and Bioinformatics 88.7 (2020)](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25868)
+[Proteins: Structure, Function, and Bioinformatics 88.7 (2020)](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.25868) || code unavailable
 
 **Protein sequence design with a learned potential**  
-Namrata Anand, Raphael Eguchi, Irimpan I. Mathews, Carla P. Perez, Alexander Derry, Russ B. Altman & Po-Ssu Huang   
+Namrata Anand, Raphael Eguchi, Irimpan I. Mathews, Carla P. Perez, Alexander Derry, Russ B. Altman & Po-Ssu Huang  
 [Nacture Communications (2022)](https://www.nature.com/articles/s41467-022-28313-9) || [code](https://github.com/ProteinDesignLab/protein_seq_des)  
 
 ### 4.5 GNN-based
 
 **Learning from protein structure with geometric vector perceptrons**  
 Jing, Bowen, et al.  
-[arXiv preprint arXiv:2009.01411 (2020)](https://arxiv.org/abs/2009.01411) || [code](https://github.com/drorlab/gvp-pytorch)
+[arXiv preprint arXiv:2009.01411 (2020)](https://arxiv.org/abs/2009.01411) || [GVP](https://github.com/drorlab/gvp-pytorch)
 
 **Fast and flexible protein design using deep graph neural networks.**  
 Alexey Strokach, David Becerra, Carles Corbi-Verge, Albert Perez-Riba, Philip M. Kim  
@@ -286,13 +296,13 @@ Gao, Zhangyang, Cheng Tan, and Stan Li.
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
 Mostafa Karimi, Shaowen Zhu, Yue Cao, Yang Shen  
-[Journal of chemical information and modeling 60.12 (2020)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00593) || [code](https://github.com/Shen-Lab/gcWGAN) || gcWGAN
+[Journal of chemical information and modeling 60.12 (2020)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00593) || [gcWGAN](https://github.com/Shen-Lab/gcWGAN)
 
 ### 4.7 Transformer-based
 
 **Generative models for graph-based protein design**  
 [John Ingraham](https://openreview.net/profile?email=ingraham%40csail.mit.edu), Vikas K Garg, Dr.Regina Barzilay, Tommi Jaakkola  
-[NeurIPS 2019](https://openreview.net/forum?id=ByMEAHrgLB) || [code](https://github.com/jingraham/neurips19-graph-protein-design)  
+[NeurIPS 2019](https://openreview.net/forum?id=ByMEAHrgLB) || [GraphTrans](https://github.com/jingraham/neurips19-graph-protein-design)  
 
 **Rotamer-Free Protein Sequence Design Based on Deep Learning and Self-Consistency**  
 Liu, Yufeng, et al.  
@@ -300,13 +310,13 @@ Liu, Yufeng, et al.
 
 **Learning inverse folding from millions of predicted structures**  
 Chloe Hsu, Robert Verkuil, Jason Liu, Zeming Lin, Brian Hie, Tom Sercu, Adam Lerer, Alexander Rives  
-[bioRxiv (2022)](https://doi.org/10.1101/2022.04.10.487779) || [code](https://github.com/facebookresearch/esm)  
+[bioRxiv (2022)](https://doi.org/10.1101/2022.04.10.487779) || [esm](https://github.com/facebookresearch/esm)  
 
 ### 4.8 ResNet-based
 
 **DenseCPD: improving the accuracy of neural-network-based computational protein sequence design with DenseNet**  
 Qi, Yifei, and John ZH Zhang.  
-[Journal of chemical information and modeling 60.3 (2020)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.0c00043)  
+[Journal of chemical information and modeling 60.3 (2020)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.0c00043) || code unavailable
 
 ## 5.Function to Sequence
 
@@ -501,9 +511,9 @@ Schissel, Carly K., et al.
 ### 6.1 Effects of mutation & Fitness Landscape
 
 **Proximal Exploration for Model-guided Protein Sequence Design**  
-
-[BioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.04.12.487986v1)
 Zhizhou Ren, Jiahan Li, Fan Ding, Yuan Zhou, Jianzhu Ma, Jian Peng  
+[BioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.04.12.487986v1)
+
 **Deciphering protein evolution and fitness landscapes with latent space models**  
 Xinqiang Ding, Zhengting Zou & Charles L. Brooks III  
 [Nature Communications](https://www.nature.com/articles/s41467-019-13633-0) || [code::PEVAE](https://github.com/xqding/PEVAE_Paper) || Dec 2019
