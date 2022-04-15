@@ -95,16 +95,6 @@ Jonathan E. King, David Ryan Koes
 
 ## 1. Reviews
 
-<<<<<<< HEAD
-**Protein design via deep learning**  
-Wenze Ding, Kenta Nakai, Haipeng Gong  
-[Briefings in Bioinformatics](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac102/6554124) || 25 March 2022  
-
-**Deep generative modeling for protein design**  
-Strokach, Alexey, and Philip M. Kim.  
-[Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/pii/S0959440X21001573) || 2022  
-
-=======
 >>>>>>> 73b093297423a7596f0a7c27f772fcddc83c9bb6
 **Deep learning in protein structural modeling and design**  
 Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray  
