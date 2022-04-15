@@ -94,7 +94,7 @@ Jonathan E. King, David Ryan Koes
 
 **Protein design via deep learning**  
 Wenze Ding, Kenta Nakai, Haipeng Gong  
-[Briefings in Bioinformatics](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac102/6554124) || 25 March 2022
+[Briefings in Bioinformatics](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac102/6554124) || 25 March 2022  
 
 **Deep generative modeling for protein design**  
 Strokach, Alexey, and Philip M. Kim.  
@@ -102,7 +102,7 @@ Strokach, Alexey, and Philip M. Kim.
 
 **Deep learning in protein structural modeling and design**  
 Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray  
-[Patterns 1.9](https://www.sciencedirect.com/science/article/pii/S2666389920301902)  || 2020
+[Patterns 1.9](https://www.sciencedirect.com/science/article/pii/S2666389920301902) || 2020  
 
 **Protein sequence design with deep generative models**  
 Zachary Wu, Kadina E. Johnston, Frances H. Arnold, Kevin K. Yang  
@@ -239,8 +239,8 @@ Shroff, Raghav, et al.
 [bioRxiv (2019)](https://www.biorxiv.org/content/10.1101/833905v1.abstract)
 
 **Protein sequence design with a learned potential**  
-Anand-Achim, Namrata, et al.  
-[Biorxiv (2021)](https://www.biorxiv.org/content/10.1101/2020.01.06.895466v3.full.pdf)
+Namrata Anand, Raphael Eguchi, Irimpan I. Mathews, Carla P. Perez, Alexander Derry, Russ B. Altman & Po-Ssu Huang   
+[Nacture Communications (2022)](https://www.nature.com/articles/s41467-022-28313-9) || [code](https://github.com/ProteinDesignLab/protein_seq_des)  
 
 ### 4.5 GNN-based
 
@@ -432,6 +432,10 @@ Jain, Moksh, et al.
 
 ### 6.1 Effects of mutation & Fitness Landscape
 
+**Proximal Exploration for Model-guided Protein Sequence Design**  
+
+[BioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.04.12.487986v1)
+Zhizhou Ren, Jiahan Li, Fan Ding, Yuan Zhou, Jianzhu Ma, Jian Peng  
 **Deciphering protein evolution and fitness landscapes with latent space models**  
 Xinqiang Ding, Zhengting Zou & Charles L. Brooks III  
 [Nature Communications](https://www.nature.com/articles/s41467-019-13633-0) || [code::PEVAE](https://github.com/xqding/PEVAE_Paper) || Dec 2019
