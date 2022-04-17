@@ -308,6 +308,10 @@ Mostafa Karimi, Shaowen Zhu, Yue Cao, Yang Shen
 Liu, Yufeng, et al.  
 [Nature portfolio (2022)](https://www.researchsquare.com/article/rs-1209166/v1)
 
+**A Deep SE(3)-Equivariant Model for Learning Inverse Protein Folding**  
+Mmatthew McPartlon, Ben Lai, Jinbo Xu  
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.04.15.488492v1)
+
 **Learning inverse folding from millions of predicted structures**  
 Chloe Hsu, Robert Verkuil, Jason Liu, Zeming Lin, Brian Hie, Tom Sercu, Adam Lerer, Alexander Rives  
 [bioRxiv (2022)](https://doi.org/10.1101/2022.04.10.487779) || [esm](https://github.com/facebookresearch/esm)  
