@@ -27,6 +27,7 @@ Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer 
     - [2.4 RoseTTAFold-based](#24-rosettafold-based)
     - [2.5 CM-Align](#25-cm-align)
     - [2.6 MSA-transformer-based](#26-msa-transformer-based)
+    - [2.7 DeepAb-based](#27-deepab-based)
   - [3. Function to Scaffold](#3-function-to-scaffold)
     - [3.1 GAN-based](#31-gan-based)
     - [3.2 VAE-based](#32-vae-based)
@@ -71,7 +72,7 @@ Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattachary
 
 **AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**  
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
-[BioRxiv](https://arxiv.org/abs/2202.01079)
+[arxiv (2022)](https://arxiv.org/abs/2202.01079)
 
 ### 0.3 Others
 
@@ -181,6 +182,12 @@ Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai
 **Protein language models trained on multiple sequence alignments learn phylogenetic relationships**  
 Lupo, Umberto, Damiano Sgarbossa, and Anne-Florence Bitbol.  
 [arXiv preprint arXiv:2203.15465 (2022)](https://arxiv.org/abs/2203.15465)
+
+### 2.7 DeepAb-based
+
+**Towards deep learning models for target-specific antibody design**  
+Mahajan, Sai Pooja, et al.  
+[Biophysical Journal 121.3 (2022)](https://www.cell.com/biophysj/pdf/S0006-3495(21)03758-9.pdf) || [DeepAb](https://github.com/RosettaCommons/DeepAb)
 
 ## 3. Function to Scaffold
 
@@ -572,5 +579,9 @@ Luo, Shitong, et al.
 **CELLS: Cost-Effective Evolution in Latent Space for Goal-Directed Molecular Generation**  
 Chen, Zhiyuan, et al.  
 [arXiv preprint arXiv:2112.00905 (2021)](https://arxiv.org/abs/2112.00905)  
+
+**Generating 3D Molecules for Target Protein Binding**  
+Meng Liu, Youzhi Luo, Kanji Uchino, Koji Maruhashi, Shuiwang Ji  
+[arxiv (2022)](https://arxiv.org/abs/2204.09410) || [GraphBP](https://github.com/divelab/graphbp)
 
 <!-- ### 6.4  -->
