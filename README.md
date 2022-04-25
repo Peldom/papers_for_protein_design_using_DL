@@ -299,6 +299,10 @@ Jin, Wengong, et al.
 Gao, Zhangyang, Cheng Tan, and Stan Li.  
 [arXiv preprint arXiv:2202.01079 (2022)](https://arxiv.org/abs/2202.01079) || [code](https://github.com/jonathanking/sidechainnet)
 
+**Generative De Novo Protein Design with Global Context**  
+Cheng Tan, Zhangyao Gao, Jun Xia and Stan Z. Li  
+[arXiv](https://arxiv.org/abs/2204.10673) || Apr 2022
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -544,6 +548,10 @@ Amirali Aghazadeh, Hunter Nisonoff, Orhan Ocal, David H. Brookes, Yijie Huang, O
 **Proximal Exploration for Model-guided Protein Sequence Design**  
 Zhizhou Ren, Jiahan Li, Fan Ding, Yuan Zhou, Jianzhu Ma, Jian Peng  
 [BioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.04.12.487986v1)
+
+**Mutational paths in protein-sequence landscapes: from sampling to low-dimensional characterization**
+Eugenio Mauri, Simona Cocco, Rémi Monasson
+[arXiv](https://arxiv.org/abs/2204.10553) || Apr 2022
 
 ### 6.2 Protein Language Models (PTM) and representation learning
 
