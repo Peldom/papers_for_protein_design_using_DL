@@ -315,6 +315,10 @@ Mostafa Karimi, Shaowen Zhu, Yue Cao, Yang Shen
 [John Ingraham](https://openreview.net/profile?email=ingraham%40csail.mit.edu), Vikas K Garg, Dr.Regina Barzilay, Tommi Jaakkola  
 [NeurIPS 2019](https://openreview.net/forum?id=ByMEAHrgLB) || [GraphTrans](https://github.com/jingraham/neurips19-graph-protein-design)  
 
+**Fold2Seq: A Joint Sequence (1D)-Fold (3D) Embedding-based Generative Model for Protein Design**  
+Cao, Yue, et al.  
+[International Conference on Machine Learning. PMLR, 2021](https://arxiv.org/pdf/2106.13058)
+
 **Rotamer-Free Protein Sequence Design Based on Deep Learning and Self-Consistency**  
 Liu, Yufeng, et al.  
 [Nature portfolio (2022)](https://www.researchsquare.com/article/rs-1209166/v1)
