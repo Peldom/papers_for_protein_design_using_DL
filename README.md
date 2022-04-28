@@ -217,6 +217,10 @@ Xuezhi Xie, Philip M. Kim
 Raphael R. Eguchi, Christian A. Choe, Po-Ssu Huang  
 [Biorxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.08.07.242347v2) || without code ||  
 
+**Deep sharpening of topological features for de novo protein design**  
+Harteveld, Zander, et al.  
+[ICLR2022 Machine Learning for Drug Discovery. 2022](https://openreview.net/forum?id=DwN81YIXGQP)
+
 ### 3.3 DAE-based
 
 **Function-guided protein design by deep manifold sampling**  
@@ -289,7 +293,7 @@ Alexey Strokach, David Becerra, Carles Corbi-Verge, Albert Perez-Riba, Philip M.
 
 **TERMinator: A Neural Framework for Structure-Based Protein Design using Tertiary Repeating Motifs**  
 Li, Alex J., et al.  
-[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_TERMinator:_A_Neural_Framework.pdf)  
+[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_TERMinator:_A_Neural_Framework.pdf) / [arXiv (2022)](https://arxiv.org/pdf/2204.13048.pdf) 
 
 **Iterative refinement graph neural network for antibody sequence-structure co-design**  
 Jin, Wengong, et al.  
