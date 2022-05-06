@@ -299,6 +299,10 @@ Li, Alex J., et al.
 Jin, Wengong, et al.  
 [arXiv preprint arXiv:2110.04624 (2021)](https://arxiv.org/abs/2110.04624)
 
+**Exploration of novel αβ-protein folds through de novo design**  
+Minami, Shintaro, et al.  
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.08.06.455475v1.abstract) || [GCNdesgin](https://github.com/ShintaroMinami/GCNdesign)
+
 **AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**  
 Gao, Zhangyang, Cheng Tan, and Stan Li.  
 [arXiv preprint arXiv:2202.01079 (2022)](https://arxiv.org/abs/2202.01079) || [code](https://github.com/jonathanking/sidechainnet)
@@ -599,5 +603,9 @@ Chen, Zhiyuan, et al.
 **Generating 3D Molecules for Target Protein Binding**  
 Meng Liu, Youzhi Luo, Kanji Uchino, Koji Maruhashi, Shuiwang Ji  
 [arxiv (2022)](https://arxiv.org/abs/2204.09410) || [GraphBP](https://github.com/divelab/graphbp)
+
+**Optimizing molecules using efficient queries from property evaluations**  
+Hoffman, Samuel C., et al.  
+[Nature Machine Intelligence 4.1 (2022)](https://www.nature.com/articles/s42256-021-00422-y)
 
 <!-- ### 6.4  -->
