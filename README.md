@@ -147,6 +147,10 @@ Norn, Christoffer, et al.
 
 ### 2.2 AlphaFold2-based
 
+**Solubility-aware protein binding peptide design using AlphaFold**  
+Takatsugu Kosugi, Masahito Ohue  
+[bioRxiv 2022.05.14.491955](https://doi.org/10.1101/2022.05.14.491955) || [Supplemental Materials](https://www.biorxiv.org/content/biorxiv/early/2022/05/15/2022.05.14.491955/DC1/embed/media-1.pdf?download=true)
+
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
 Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey  
 [bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [ColabDesign](https://github.com/sokrypton/ColabDesign), [SMURF](https://github.com/spetti/SMURF), [AF2 back propagation](https://github.com/sokrypton/af_backprop) || [My notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977)  
@@ -489,6 +493,10 @@ Riesselman, Adam, et al.
 Khan, Asif, et al.  
 [arXiv preprint(2022)](https://arxiv.org/abs/2201.12570)
 
+**Discovering de novo peptide substrates for enzymes using machine learning**  
+Tallorin, Lorillee, et al.  
+[Nature communications 9.1 (2018)](https://www.nature.com/articles/s41467-018-07717-6) || [code](https://github.com/peter-i-frazier/pool)
+
 ### 5.7 RL-based
 
 **Model-based reinforcement learning for biological sequence design**  
@@ -502,6 +510,10 @@ Jain, Moksh, et al.
 [arXiv preprint arXiv:2203.04115 (2022)](https://arxiv.org/abs/2203.04115)
 
 ### 5.9 RNN-based
+
+**Deep learning to design nuclear-targeting abiotic miniproteins**  
+Schissel, Carly K., et al.  
+[Nature Chemistry 13.10 (2021)](https://www.nature.com/articles/s41557-021-00766-3) || [code](https://github.com/learningmatter-mit/peptimizer)
 
 **Recurrent neural network model for constructive peptide design**  
 Müller, Alex T., Jan A. Hiss, and Gisbert Schneider.  
@@ -561,10 +573,6 @@ Amirali Aghazadeh, Hunter Nisonoff, Orhan Ocal, David H. Brookes, Yijie Huang, O
 Zhizhou Ren, Jiahan Li, Fan Ding, Yuan Zhou, Jianzhu Ma, Jian Peng  
 [BioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.04.12.487986v1)
 
-**Mutational paths in protein-sequence landscapes: from sampling to low-dimensional characterization**
-Eugenio Mauri, Simona Cocco, Rémi Monasson
-[arXiv](https://arxiv.org/abs/2204.10553) || Apr 2022
-
 ### 6.2 Protein Language Models (PTM) and representation learning
 
 **Protein Structure Representation Learning by Geometric Pretraining**  
@@ -587,6 +595,10 @@ Fu, T., Gao, W., Xiao, C., Yasonik, J., Coley, C. W., & Sun, J.
 [arXiv preprint arXiv:2109.10469](https://arxiv.org/abs/2109.10469) || [code](https://github.com/futianfan/DST) || Sept 21
 
 #### 6.3.2 Optimized sampling
+
+**De novo drug design framework based on mathematical programming method and deep learning model**  
+Yujing Zhao, Qilei Liu*, Xinyuan Wu, Lei Zhang, Jian Du*, Qingwei Meng.  
+[AIChE Journal. 2022, e17748](https://doi.org/10.1002/aic.17748)
 
 **Structure-based de novo drug design using 3D deep generative models**  
 Li, Yibo, Jianfeng Pei, and Luhua Lai.  
