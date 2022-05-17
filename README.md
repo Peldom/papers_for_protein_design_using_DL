@@ -301,7 +301,7 @@ Li, Alex J., et al.
 
 **Iterative refinement graph neural network for antibody sequence-structure co-design**  
 Jin, Wengong, et al.  
-[arXiv preprint arXiv:2110.04624 (2021)](https://arxiv.org/abs/2110.04624)
+[arXiv preprint arXiv:2110.04624 (2021)](https://arxiv.org/abs/2110.04624) || [RefineGNN](https://github.com/wengong-jin/RefineGNN)
 
 **Exploration of novel αβ-protein folds through de novo design**  
 Minami, Shintaro, et al.  
