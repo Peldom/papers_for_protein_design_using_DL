@@ -397,6 +397,10 @@ Zeming, Tom, Yann and Alexander.
 Giessel, Andrew, et al.  
 [Scientific Reports 12.1 (2022)](https://www.nature.com/articles/s41598-022-05195-x)
 
+**GM-Pep: A High Efficiency Strategy to De Novo Design Functional Peptide Sequences**  
+Chen, Qushuo, et al.  
+[Journal of Chemical Information and Modeling (2022)](https://pubs.acs.org/doi/10.1021/acs.jcim.2c00089) || [code](https://github.com/TimothyChen225/GM-Pep)
+
 ### 5.3 GAN-based
 
 **Generative modeling for protein structures**  
@@ -573,6 +577,10 @@ Amirali Aghazadeh, Hunter Nisonoff, Orhan Ocal, David H. Brookes, Yijie Huang, O
 Zhizhou Ren, Jiahan Li, Fan Ding, Yuan Zhou, Jianzhu Ma, Jian Peng  
 [BioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.04.12.487986v1)
 
+**Efficient evolution of human antibodies from general protein language models and sequence information alone**  
+Hie, Brian L., et al.  
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.04.10.487811v1) || [code](https://github.com/brianhie/efficient-evolution)
+
 ### 6.2 Protein Language Models (PTM) and representation learning
 
 **Protein Structure Representation Learning by Geometric Pretraining**  
@@ -619,5 +627,9 @@ Meng Liu, Youzhi Luo, Kanji Uchino, Koji Maruhashi, Shuiwang Ji
 **Optimizing molecules using efficient queries from property evaluations**  
 Hoffman, Samuel C., et al.  
 [Nature Machine Intelligence 4.1 (2022)](https://www.nature.com/articles/s42256-021-00422-y)
+
+**Deep Evolutionary Learning for Molecular Design**  
+K. Grantham, M. Mukaidaisi, H. K. Ooi, M. S. Ghaemi, A. Tchagang and Y. Li  
+[IEEE Computational Intelligence Magazine, vol. 17, no. 2, pp. 14-28, May 2022](https://ieeexplore.ieee.org/document/9756593)
 
 <!-- ### 6.4  -->
