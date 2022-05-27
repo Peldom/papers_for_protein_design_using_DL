@@ -6,6 +6,7 @@ Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://githu
 My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese).  
 Mini protein, metalloprotein, antibody, peptide & molecule designs are included.  
 Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer paradigm"**, Heading [[3]](#3-function-to-scaffold)&[[4]](#4scaffold-to-sequence) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [Baker lab](https://www.bakerlab.org/), Heading [[5]](#5function-to-sequence)&[[6]](#6molecular-design-models) follow other ML/DL strategies.  
+Contributions are welcome!
 
 ## Menu
 
@@ -36,7 +37,7 @@ Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer 
   - [4.Scaffold to Sequence](#4scaffold-to-sequence)
     - [4.1 MLP-based](#41-mlp-based)
     - [4.2 VAE-based](#42-vae-based)
-    - [4.3 Bi-LSTM+2D-ResNet](#43-bi-lstm2d-resnet)
+    - [4.3 LSTM-based](#43-lstm-based)
     - [4.4 CNN-based](#44-cnn-based)
     - [4.5 GNN-based](#45-gnn-based)
     - [4.6 GAN-based](#46-gan-based)
@@ -46,26 +47,28 @@ Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer 
     - [5.1 CNN-based](#51-cnn-based)
     - [5.2 VAE-based](#52-vae-based)
     - [5.3 GAN-based](#53-gan-based)
-    - [5.4 Trasnformer-based](#54-trasnformer-based)
+    - [5.4 Transformer-based](#54-transformer-based)
     - [5.5 ResNet-based](#55-resnet-based)
     - [5.6 Bayesian-based](#56-bayesian-based)
     - [5.7 RL-based](#57-rl-based)
     - [5.8 Flow-based](#58-flow-based)
     - [5.9 RNN-based](#59-rnn-based)
-    - [5.10 LTSM-based](#510-ltsm-based)
-  - [6. Other tasks](#6-other-tasks)
-    - [6.1 Effects of mutation & Fitness Landscape](#61-effects-of-mutation--fitness-landscape)
-    - [6.2 Protein Language Models (PTM) and representation learning](#62-protein-language-models-ptm-and-representation-learning)
-    - [6.3 Molecular Design Models](#63-molecular-design-models)
-      - [6.3.1 Gradient optimization](#631-gradient-optimization)
-      - [6.3.2 Optimized sampling](#632-optimized-sampling)
+    - [5.10 LSTM-based](#510-lstm-based)
+  - [6. Function to Structure](#6-function-to-structure)
+    - [6.1 LSTM-based](#61-lstm-based)
+  - [7. Other tasks](#7-other-tasks)
+    - [7.1 Effects of mutation & Fitness Landscape](#71-effects-of-mutation--fitness-landscape)
+    - [7.2 Protein Language Models (PTM) and representation learning](#72-protein-language-models-ptm-and-representation-learning)
+    - [7.3 Molecular Design Models](#73-molecular-design-models)
+      - [7.3.1 Gradient optimization](#731-gradient-optimization)
+      - [7.3.2 Optimized sampling](#732-optimized-sampling)
 
 ## 0. Benchmarks and datasets
 
 ### 0.1 Function to sequence
 
 **FLIP: Benchmark tasks in fitness landscape inference for proteins**  
-Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattacharya, Samuel Goldman, Ali Madani, Kevin K Yang   
+Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattacharya, Samuel Goldman, Ali Madani, Kevin K Yang  
 [NeurIPS 2021 Datasets and Benchmarks Track](https://openreview.net/forum?id=p2dMLEwL8tF) || [website](https://benchmark.protein.properties/)   
 
 ### 0.2 Structure to sequence
@@ -265,11 +268,16 @@ Wang, Jingxue, et al.
 Greener, Joe G., Lewis Moffat, and David T. Jones.  
 [Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-34533-1)
 
-### 4.3 Bi-LSTM+2D-ResNet
+### 4.3 LSTM-based
 
 **To improve protein sequence profile prediction through image captioning on pairwise residue distance map**  
 Chen, Sheng, et al.  
 [Journal of chemical information and modeling 60.1 (2019)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.9b00438) || [SPROF](https://github.com/biomed-AI/SPROF)
+
+**Deep learning of Protein Sequence Design of Protein-protein Interactions**  
+Syrlybaeva, Raulia, and Eva-Maria Strauch.  
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.28.478262v1) || [code](https://github.com/strauchlab/iNNterfaceDesign)
+
 
 ### 4.4 CNN-based
 
@@ -306,6 +314,10 @@ Jin, Wengong, et al.
 **Exploration of novel αβ-protein folds through de novo design**  
 Minami, Shintaro, et al.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.08.06.455475v1.abstract) || [GCNdesgin](https://github.com/ShintaroMinami/GCNdesign)
+
+**XENet: Using a new graph convolution to accelerate the timeline for protein design on quantum computers**  
+Maguire, Jack B., et al.  
+[PLoS computational biology 17.9 (2021)](https://pdfs.semanticscholar.org/23bc/58424378d15fda91e9d427fb553728c38b8a.pdf)
 
 **AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**  
 Gao, Zhangyang, Cheng Tan, and Stan Li.  
@@ -451,7 +463,7 @@ Li, Guangyuan, et al.
 Surana, Shraddha, et al.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.02.15.431193.abstract)
 
-### 5.4 Trasnformer-based
+### 5.4 Transformer-based
 
 **Progen: Language modeling for protein generation**  
 Madani, Ali, et al.  
@@ -531,7 +543,7 @@ Capecchi, Alice, et al.
 Tran, Duy Phuoc, et al.  
 [Scientific reports 11.1 (2021)](https://www.nature.com/articles/s41598-021-90245-z)
 
-### 5.10 LTSM-based
+### 5.10 LSTM-based
 
 **Computational antimicrobial peptide design and evaluation against multidrug-resistant clinical isolates of bacteria**  
 Nagarajan, Deepesh, et al  
@@ -553,9 +565,19 @@ Wang, Christina, Sam Garlick, and Mire Zloh.
 Schissel, Carly K., et al.  
 [Nature Chemistry 13.10 (2021)](https://www.nature.com/articles/s41557-021-00766-3)  
 
-## 6. Other tasks
+## 6. Function to Structure
 
-### 6.1 Effects of mutation & Fitness Landscape
+> These models generate structures(including side chains) from expected function.
+
+### 6.1 LSTM-based
+
+**One-sided design of protein-protein interaction motifs using deep learning**  
+Syrlybaeva, Raulia, and Eva-Maria Strauch.  
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.03.30.486144v2) || [code](https://github.com/strauchlab/iNNterfaceDesign)
+
+## 7. Other tasks
+
+### 7.1 Effects of mutation & Fitness Landscape
 
 **Deep generative models of genetic variation capture the effects of mutations**  
 Adam J. Riesselman, John B. Ingraham & Debora S. Marks  
@@ -581,18 +603,18 @@ Zhizhou Ren, Jiahan Li, Fan Ding, Yuan Zhou, Jianzhu Ma, Jian Peng
 Hie, Brian L., et al.  
 [bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.04.10.487811v1) || [code](https://github.com/brianhie/efficient-evolution)
 
-### 6.2 Protein Language Models (PTM) and representation learning
+### 7.2 Protein Language Models (PTM) and representation learning
 
 **Protein Structure Representation Learning by Geometric Pretraining**  
 Zuobai Zhang, Minghao Xu, Arian Jamasb, Vijil Chenthamarakshan, Aurelie Lozano, Payel Das, Jian Tang  
 [arXiv](https://arxiv.org/abs/2203.06125) || Jan 2022
 
-### 6.3 Molecular Design Models
+### 7.3 Molecular Design Models
 
 > Unlike **function-scaffold-sequence** paradigm in protein design, major molecular design models based on paradigm form DL from 3 kinds of level: **atom-based**, **fragment-based**, **reaction-based**, and they can be categorized as [Gradient optimization](#61-gradient-optimization) or [Optimized sampling](#62-optimized-sampling)(gradient-free). [Click here for detail review](https://www.sciencedirect.com/science/article/pii/S1359644621002531)  
 > In consideration of learning more various of generative models for design, these recommended latest models from **Molecular Design** might be helpful and even be able to be transplanted to protein design.
 
-#### 6.3.1 Gradient optimization
+#### 7.3.1 Gradient optimization
 
 **Inverse design of 3d molecular structures with conditional generative neural networks**  
 Gebauer, Niklas WA, et al.  
@@ -602,7 +624,7 @@ Gebauer, Niklas WA, et al.
 Fu, T., Gao, W., Xiao, C., Yasonik, J., Coley, C. W., & Sun, J.  
 [arXiv preprint arXiv:2109.10469](https://arxiv.org/abs/2109.10469) || [code](https://github.com/futianfan/DST) || Sept 21
 
-#### 6.3.2 Optimized sampling
+#### 7.3.2 Optimized sampling
 
 **De novo drug design framework based on mathematical programming method and deep learning model**  
 Yujing Zhao, Qilei Liu*, Xinyuan Wu, Lei Zhang, Jian Du*, Qingwei Meng.  
@@ -632,4 +654,4 @@ Hoffman, Samuel C., et al.
 K. Grantham, M. Mukaidaisi, H. K. Ooi, M. S. Ghaemi, A. Tchagang and Y. Li  
 [IEEE Computational Intelligence Magazine, vol. 17, no. 2, pp. 14-28, May 2022](https://ieeexplore.ieee.org/document/9756593)
 
-<!-- ### 6.4  -->
+<!-- ### 7.4  -->
