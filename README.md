@@ -5,8 +5,8 @@
 Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, my colleagues and I started making this dynamic repository as a record of papers in this field for the newcomers like us.  
 My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese).  
 Mini protein, metalloprotein, antibody, peptide & molecule designs are included.  
-Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer paradigm"**, Heading [[3]](#3-function-to-scaffold)&[[4]](#4scaffold-to-sequence) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [Baker lab](https://www.bakerlab.org/), Heading [[5]](#5function-to-sequence)&[[6]](#6molecular-design-models) follow other ML/DL strategies.  
-Contributions are welcome!
+Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer paradigm"**, Heading [[3]](#3-function-to-scaffold)&[[4]](#4scaffold-to-sequence) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [Baker lab](https://www.bakerlab.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7molecular-design-models) follow other ML/DL strategies.  
+[Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) are welcome!
 
 ## Menu
 
