@@ -56,6 +56,7 @@ Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer 
     - [5.10 LSTM-based](#510-lstm-based)
   - [6. Function to Structure](#6-function-to-structure)
     - [6.1 LSTM-based](#61-lstm-based)
+    - [6.2 Diffusion-based](#62-diffusion-based)
   - [7. Other tasks](#7-other-tasks)
     - [7.1 Effects of mutation & Fitness Landscape](#71-effects-of-mutation--fitness-landscape)
     - [7.2 Protein Language Models (PTM) and representation learning](#72-protein-language-models-ptm-and-representation-learning)
@@ -497,6 +498,10 @@ Noelia Ferruz,  View ProfileSteffen Schmidt,  View ProfileBirte Höcker
 Ram, Soumya, and Tristan Bepler.  
 [arXiv preprint arXiv:2204.01168 (2022)](https://arxiv.org/abs/2204.01168)
 
+**Towards Controllable Protein design with Conditional Transformers**  
+Ferruz, Noelia, and Birte Höcker.  
+[arXiv preprint arXiv:2201.07338 (2022)](https://arxiv.org/abs/2201.07338) || review of [Heading 5.4](#54-transformer-based)
+
 ### 5.5 ResNet-based
 
 **Accelerating protein design using autoregressive generative models**  
@@ -574,6 +579,12 @@ Schissel, Carly K., et al.
 **One-sided design of protein-protein interaction motifs using deep learning**  
 Syrlybaeva, Raulia, and Eva-Maria Strauch.  
 [bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.03.30.486144v2) || [code](https://github.com/strauchlab/iNNterfaceDesign)
+
+### 6.2 Diffusion-based
+
+**Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models**  
+Namrata Anand, Tudor Achim  
+[GitHub (2022)](https://nanand2.github.io/proteins/)
 
 ## 7. Other tasks
 

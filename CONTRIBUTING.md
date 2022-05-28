@@ -1,15 +1,15 @@
-# Contribution Guidelines
+# Contribution guidelines
 
-Feel free to join us by make contributions if you have something related to this list!
+Feel free to join us by making contributions if you have something related to this list!
 
 ## Format of paper items
 
 Citation formats aren't restricted, MLA, APA, GB/T, ... , Chicago, et al.
 
-Paper items are written in **Markdown**:
->\*\***Paper name**\*\*(bold)  
+Paper items are written in **Markdown** and ranked by release date in ascending:
+>\*\***Title of paper**\*\*(bold)  
 Author names...  
-[Publishing platforms]\(url_links) || [any worthy things related to this paper(especially in source codes)]\(url_links) || ...  
+[Publishing platforms(including publishing time)]\(URL_links) || [any worthy things related to this paper(especially in source codes/supplementary)]\(URL_links) || ...  
 
 ## How-to
 
