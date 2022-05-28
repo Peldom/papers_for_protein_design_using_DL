@@ -3,7 +3,7 @@
 ## About this repository
 
 Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, my colleagues and I started making this dynamic repository as a record of papers in this field for the newcomers like us.  
-My notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese).  
+Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese).  
 Mini protein, metalloprotein, antibody, peptide & molecule designs are included.  
 Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer paradigm"**, Heading [[3]](#3-function-to-scaffold)&[[4]](#4scaffold-to-sequence) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [Baker lab](https://www.bakerlab.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7molecular-design-models) follow other ML/DL strategies.  
 [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) are welcome!
@@ -278,7 +278,6 @@ Chen, Sheng, et al.
 **Deep learning of Protein Sequence Design of Protein-protein Interactions**  
 Syrlybaeva, Raulia, and Eva-Maria Strauch.  
 [bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.28.478262v1) || [code](https://github.com/strauchlab/iNNterfaceDesign)
-
 
 ### 4.4 CNN-based
 
