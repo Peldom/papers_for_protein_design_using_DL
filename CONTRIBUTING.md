@@ -22,3 +22,12 @@ Author names...
 ## Become a Contributor
 
 Once your pull request is approved, your github ID will be in our contributor list.
+
+## Share notes in [Zhihu](https://www.zhihu.com/column/c_1475864742820929537)
+
+We shared our notes of these papers in a [Zhihu](https://www.zhihu.com/column/c_1475864742820929537) column (written in simplified Chinese), follow the instructions below to share your opinions or ideas on Zhihu!
+
+1. Log in your [Zhihu](https://www.zhihu.com/) account.
+2. Enter our [Zhihu](https://www.zhihu.com/column/c_1475864742820929537) column webpage.
+3. Click on `写文章(write paper)` button to write something you intend to share and then publish.
+4. Click on `推荐文章(recommend paper)` button to recommend the paper you just wrote.
