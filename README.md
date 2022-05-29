@@ -25,10 +25,9 @@ Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer 
     - [2.1 trRosetta-based](#21-trrosetta-based)
     - [2.2 AlphaFold2-based](#22-alphafold2-based)
     - [2.3 DMPfold2-based](#23-dmpfold2-based)
-    - [2.4 RoseTTAFold-based](#24-rosettafold-based)
-    - [2.5 CM-Align](#25-cm-align)
-    - [2.6 MSA-transformer-based](#26-msa-transformer-based)
-    - [2.7 DeepAb-based](#27-deepab-based)
+    - [2.4 CM-Align](#24-cm-align)
+    - [2.5 MSA-transformer-based](#25-msa-transformer-based)
+    - [2.6 DeepAb-based](#26-deepab-based)
   - [3. Function to Scaffold](#3-function-to-scaffold)
     - [3.1 GAN-based](#31-gan-based)
     - [3.2 VAE-based](#32-vae-based)
@@ -57,6 +56,7 @@ Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer 
   - [6. Function to Structure](#6-function-to-structure)
     - [6.1 LSTM-based](#61-lstm-based)
     - [6.2 Diffusion-based](#62-diffusion-based)
+    - [6.3 RoseTTAFold-based](#63-rosettafold-based)
   - [7. Other tasks](#7-other-tasks)
     - [7.1 Effects of mutation & Fitness Landscape](#71-effects-of-mutation--fitness-landscape)
     - [7.2 Protein Language Models (PTM) and representation learning](#72-protein-language-models-ptm-and-representation-learning)
@@ -157,7 +157,7 @@ Takatsugu Kosugi, Masahito Ohue
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
 Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey  
-[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [ColabDesign](https://github.com/sokrypton/ColabDesign), [SMURF](https://github.com/spetti/SMURF), [AF2 back propagation](https://github.com/sokrypton/af_backprop) || [My notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977)  
+[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [ColabDesign](https://github.com/sokrypton/ColabDesign), [SMURF](https://github.com/spetti/SMURF), [AF2 back propagation](https://github.com/sokrypton/af_backprop) || [our notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977)  
 
 **AlphaDesign: A de novo protein design framework based on AlphaFold**  
 Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.  
@@ -173,25 +173,19 @@ Moffat, Lewis, Joe G. Greener, and David T. Jones.
 Moffat, Lewis, Shaun M. Kandathil, and David T. Jones.  
 [bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1.abstract) || [DMPfold2](https://github.com/psipred/DMPfold2)
 
-### 2.4 RoseTTAFold-based
-
-**Deep learning methods for designing proteins scaffolding functional sites**  
-Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
-[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387) || [RFDesign](https://github.com/RosettaCommons/RFDesign) || [my notes](https://zhuanlan.zhihu.com/p/477854488)
-
-### 2.5 CM-Align
+### 2.4 CM-Align
 
 **AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**  
 Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai  
 [NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)  
 
-### 2.6 MSA-transformer-based
+### 2.5 MSA-transformer-based
 
 **Protein language models trained on multiple sequence alignments learn phylogenetic relationships**  
 Lupo, Umberto, Damiano Sgarbossa, and Anne-Florence Bitbol.  
 [arXiv preprint arXiv:2203.15465 (2022)](https://arxiv.org/abs/2203.15465)
 
-### 2.7 DeepAb-based
+### 2.6 DeepAb-based
 
 **Towards deep learning models for target-specific antibody design**  
 Mahajan, Sai Pooja, et al.  
@@ -277,7 +271,7 @@ Chen, Sheng, et al.
 
 **Deep learning of Protein Sequence Design of Protein-protein Interactions**  
 Syrlybaeva, Raulia, and Eva-Maria Strauch.  
-[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.28.478262v1) || [code](https://github.com/strauchlab/iNNterfaceDesign)
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.28.478262v1) || [Supplymentary](https://www.biorxiv.org/content/10.1101/2022.01.28.478262v1.supplementary-material) || [code](https://github.com/strauchlab/iNNterfaceDesign)
 
 ### 4.4 CNN-based
 
@@ -571,19 +565,25 @@ Schissel, Carly K., et al.
 
 ## 6. Function to Structure
 
-> These models generate structures(including side chains) from expected function.
+> These models generate structures(including side chains) from expected function or recover a part of structures(aka. **inpainting**)
 
 ### 6.1 LSTM-based
 
 **One-sided design of protein-protein interaction motifs using deep learning**  
 Syrlybaeva, Raulia, and Eva-Maria Strauch.  
-[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.03.30.486144v2) || [code](https://github.com/strauchlab/iNNterfaceDesign)
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.03.30.486144v2) || [code](https://github.com/strauchlab/iNNterfaceDesign) || [our notes](https://zhuanlan.zhihu.com/p/521613546)
 
 ### 6.2 Diffusion-based
 
 **Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models**  
 Namrata Anand, Tudor Achim  
-[GitHub (2022)](https://nanand2.github.io/proteins/)
+[GitHub (2022)](https://nanand2.github.io/proteins/) || [our notes](https://zhuanlan.zhihu.com/p/520488133)
+
+### 6.3 RoseTTAFold-based
+
+**Deep learning methods for designing proteins scaffolding functional sites**  
+Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
+[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387) || [RFDesign](https://github.com/RosettaCommons/RFDesign) || [our notes](https://zhuanlan.zhihu.com/p/477854488)
 
 ## 7. Other tasks
 
