@@ -157,7 +157,7 @@ Takatsugu Kosugi, Masahito Ohue
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
 Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey  
-[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [ColabDesign](https://github.com/sokrypton/ColabDesign), [SMURF](https://github.com/spetti/SMURF), [AF2 back propagation](https://github.com/sokrypton/af_backprop) || [our notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977)  
+[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [ColabDesign](https://github.com/sokrypton/ColabDesign), [SMURF](https://github.com/spetti/SMURF), [AF2 back propagation](https://github.com/sokrypton/af_backprop) || [our notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977) || [lecture](https://www.youtube.com/watch?v=2HmXwlKWMVs)
 
 **AlphaDesign: A de novo protein design framework based on AlphaFold**  
 Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.  
@@ -189,7 +189,7 @@ Lupo, Umberto, Damiano Sgarbossa, and Anne-Florence Bitbol.
 
 **Towards deep learning models for target-specific antibody design**  
 Mahajan, Sai Pooja, et al.  
-[Biophysical Journal 121.3 (2022)](https://www.cell.com/biophysj/pdf/S0006-3495(21)03758-9.pdf) || [DeepAb](https://github.com/RosettaCommons/DeepAb)
+[Biophysical Journal 121.3 (2022)](https://www.cell.com/biophysj/pdf/S0006-3495(21)03758-9.pdf) || [DeepAb](https://github.com/RosettaCommons/DeepAb) || [lecture](https://www.youtube.com/watch?v=LIo-1jPfrns)
 
 ## 3. Function to Scaffold
 
@@ -237,7 +237,7 @@ Huang, B., Xu, Y., Hu, X. et al
 
 ## 4.Scaffold to Sequence
 
-> Identify amino sequence from given backbone/scaffold/template constrains: torsion angles(φ & ψ), backbone angles(θ and τ), backbone dihedrals (φ, ψ & ω), backbone atoms (Cα, N, C, & O), Cα − Cα distance, unit direction vectors of Cα−Cα, Cα−N & Cα−C, etc. Referred from [here](https://arxiv.org/abs/2202.01079).
+> Identify amino sequence from given backbone/scaffold/template constrains: torsion angles(φ & ψ), backbone angles(θ and τ), backbone dihedrals (φ, ψ & ω), backbone atoms (Cα, N, C, & O), Cα − Cα distance, unit direction vectors of Cα−Cα, Cα−N & Cα−C, etc(aka. inverse folding). Referred from [here](https://arxiv.org/abs/2202.01079).  
 
 ### 4.1 MLP-based
 
@@ -303,7 +303,7 @@ Li, Alex J., et al.
 
 **Iterative refinement graph neural network for antibody sequence-structure co-design**  
 Jin, Wengong, et al.  
-[arXiv preprint arXiv:2110.04624 (2021)](https://arxiv.org/abs/2110.04624) || [RefineGNN](https://github.com/wengong-jin/RefineGNN)
+[arXiv preprint arXiv:2110.04624 (2021)](https://arxiv.org/abs/2110.04624) || [RefineGNN](https://github.com/wengong-jin/RefineGNN) || [lecture1](https://www.youtube.com/watch?v=uDTccbg_Ai4), [lecture2](https://www.youtube.com/watch?v=px5iC79jtfc)
 
 **Exploration of novel αβ-protein folds through de novo design**  
 Minami, Shintaro, et al.  
@@ -320,6 +320,10 @@ Gao, Zhangyang, Cheng Tan, and Stan Li.
 **Generative De Novo Protein Design with Global Context**  
 Cheng Tan, Zhangyao Gao, Jun Xia and Stan Z. Li  
 [arXiv](https://arxiv.org/abs/2204.10673) || Apr 2022
+
+**Masked inverse folding with sequence transfer for protein representation learning**  
+Kevin K Yang, Hugh Yeh, Niccolò Zanichelli  
+[bioRxiv 2022.05.25.493516](https://www.biorxiv.org/content/10.1101/2022.05.25.493516v1) || [code](https://github.com/microsoft/protein-sequence-models) || [model](https://doi.org/10.1234/mifst)
 
 ### 4.6 GAN-based
 
@@ -485,7 +489,7 @@ Castro, Egbert, et al.
 
 **A deep unsupervised language model for protein design**  
 Noelia Ferruz,  View ProfileSteffen Schmidt,  View ProfileBirte Höcker  
-[bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.full) || [model::huggingface](https://huggingface.co/nferruz/ProtGPT2) [datasets::hugingface](https://huggingface.co/datasets/nferruz/UR50_2021_04) || March 12 2022
+[bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.full) || [model::huggingface](https://huggingface.co/nferruz/ProtGPT2) [datasets::hugingface](https://huggingface.co/datasets/nferruz/UR50_2021_04) || March 12 2022 || [lecture](https://www.youtube.com/watch?v=BA5C0kLcErM)
 
 **Few Shot Protein Generation**  
 Ram, Soumya, and Tristan Bepler.  
@@ -571,7 +575,7 @@ Schissel, Carly K., et al.
 
 **One-sided design of protein-protein interaction motifs using deep learning**  
 Syrlybaeva, Raulia, and Eva-Maria Strauch.  
-[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.03.30.486144v2) || [code](https://github.com/strauchlab/iNNterfaceDesign) || [our notes](https://zhuanlan.zhihu.com/p/521613546)
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.03.30.486144v2) || [code](https://github.com/strauchlab/iNNterfaceDesign) || [our notes](https://zhuanlan.zhihu.com/p/521613546) || [lecture](https://www.youtube.com/watch?v=bSWkXy56rt8)
 
 ### 6.2 Diffusion-based
 
@@ -583,7 +587,7 @@ Namrata Anand, Tudor Achim
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
 Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
-[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387) || [RFDesign](https://github.com/RosettaCommons/RFDesign) || [our notes](https://zhuanlan.zhihu.com/p/477854488)
+[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387) || [RFDesign](https://github.com/RosettaCommons/RFDesign) || [our notes](https://zhuanlan.zhihu.com/p/477854488) || [lecture](https://www.youtube.com/watch?v=-EJ8SXTBin0)
 
 ## 7. Other tasks
 
@@ -612,6 +616,10 @@ Zhizhou Ren, Jiahan Li, Fan Ding, Yuan Zhou, Jianzhu Ma, Jian Peng
 **Efficient evolution of human antibodies from general protein language models and sequence information alone**  
 Hie, Brian L., et al.  
 [bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.04.10.487811v1) || [code](https://github.com/brianhie/efficient-evolution)
+
+**Tranception: protein fitness prediction with autoregressive transformers and inference-time retrieval**  
+Notin, P., Dias, M., Frazer, J., Marchena-Hurtado, J., Gomez, A., Marks, D.S., Gal, Y.  
+[ICML (2022)](https://arxiv.org/abs/2205.13760) || [code](https://github.com/OATML-Markslab/Tranception)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
