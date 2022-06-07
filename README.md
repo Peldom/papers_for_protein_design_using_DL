@@ -2,8 +2,8 @@
 
 ## About this repository
 
-Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast changing of **protein design in DL**, my colleagues and I started making this dynamic repository as a record of papers in this field for the newcomers like us.  
-Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese).  
+Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast developing of **protein design in DL**, we started making this dynamic repository as a record of papers in this field for the newcomers like us.  
+Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English).  
 Mini protein, metalloprotein, antibody, peptide & molecule designs are included.  
 Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7molecular-design-models) follow other ML/DL strategies.  
 [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) are welcome!
@@ -190,6 +190,10 @@ Lupo, Umberto, Damiano Sgarbossa, and Anne-Florence Bitbol.
 **Towards deep learning models for target-specific antibody design**  
 Mahajan, Sai Pooja, et al.  
 [Biophysical Journal 121.3 (2022)](https://www.cell.com/biophysj/pdf/S0006-3495(21)03758-9.pdf) || [DeepAb](https://github.com/RosettaCommons/DeepAb) || [lecture](https://www.youtube.com/watch?v=LIo-1jPfrns)
+
+**Hallucinating structure-conditioned antibody libraries for target-specific binders**  
+Sai Pooja Mahajan, Jeffrey A Ruffolo, Rahel Frick, Jeffrey J. Gray  
+[bioRxiv 2022.06.06.494991](https://www.biorxiv.org/content/10.1101/2022.06.06.494991v1) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/06/2022.06.06.494991/DC1/embed/media-1.pdf?download=true)
 
 ## 3. Function to Scaffold
 
@@ -511,13 +515,22 @@ Riesselman, Adam, et al.
 
 ### 5.6 Bayesian-based
 
-**AntBO: Towards Real-World Automated Antibody Design with Combinatorial Bayesian Optimisation**  
-Khan, Asif, et al.  
-[arXiv preprint(2022)](https://arxiv.org/abs/2201.12570)
-
 **Discovering de novo peptide substrates for enzymes using machine learning**  
 Tallorin, Lorillee, et al.  
 [Nature communications 9.1 (2018)](https://www.nature.com/articles/s41467-018-07717-6) || [code](https://github.com/peter-i-frazier/pool)
+
+**Lattice protein design using Bayesian learning**  
+Takahashi, Tomoei, George Chikenji, and Kei Tokita.  
+[arXiv:2003.06601](https://arxiv.org/abs/2003.06601)/[Physical Review E 104.1 (2021): 014404](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.104.014404)
+
+**AntBO: Towards Real-World Automated Antibody Design with Combinatorial Bayesian Optimisation**  
+Khan, Asif, et al.  
+[arXiv preprint (2022)](https://arxiv.org/abs/2201.12570)
+
+**Statistical Mechanics of Protein Design**  
+Takahashi, Tomoei, George Chikenji, and Kei Tokita.  
+[arXiv preprint arXiv:2205.03696 (2022)](https://arxiv.org/abs/2205.03696)
+
 
 ### 5.7 RL-based
 
@@ -529,7 +542,7 @@ Angermueller, Christof, et al.
 
 **Biological Sequence Design with GFlowNets**  
 Jain, Moksh, et al.  
-[arXiv preprint arXiv:2203.04115 (2022)](https://arxiv.org/abs/2203.04115)
+[arXiv preprint arXiv:2203.04115 (2022)](https://arxiv.org/abs/2203.04115) || [lecture](https://www.youtube.com/watch?v=YRbFDThaAmo)
 
 ### 5.9 RNN-based
 
@@ -663,6 +676,10 @@ Luo, Shitong, et al.
 **CELLS: Cost-Effective Evolution in Latent Space for Goal-Directed Molecular Generation**  
 Chen, Zhiyuan, et al.  
 [arXiv preprint arXiv:2112.00905 (2021)](https://arxiv.org/abs/2112.00905)  
+
+**DrugEx v2: de novo design of drug molecules by Pareto-based multi-objective reinforcement learning in polypharmacology**  
+Liu, Xuhan, et al.  
+[Journal of cheminformatics 13.1 (2021)](https://link.springer.com/article/10.1186/s13321-021-00561-9) || [DrugEx](https://github.com/XuhanLiu/DrugEx)
 
 **Generating 3D Molecules for Target Protein Binding**  
 Meng Liu, Youzhi Luo, Kanji Uchino, Koji Maruhashi, Shuiwang Ji  
