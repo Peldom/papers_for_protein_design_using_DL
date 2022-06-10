@@ -28,11 +28,13 @@ Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer"
     - [2.4 CM-Align](#24-cm-align)
     - [2.5 MSA-transformer-based](#25-msa-transformer-based)
     - [2.6 DeepAb-based](#26-deepab-based)
+    - [2.7 TRFold2-based](#27-trfold2-based)
   - [3. Function to Scaffold](#3-function-to-scaffold)
     - [3.1 GAN-based](#31-gan-based)
     - [3.2 VAE-based](#32-vae-based)
     - [3.3 DAE-based](#33-dae-based)
     - [3.4 MLP-based](#34-mlp-based)
+    - [3.5 Diffusion-based](#35-diffusion-based)
   - [4.Scaffold to Sequence](#4scaffold-to-sequence)
     - [4.1 MLP-based](#41-mlp-based)
     - [4.2 VAE-based](#42-vae-based)
@@ -167,6 +169,10 @@ Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.
 Moffat, Lewis, Joe G. Greener, and David T. Jones.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.08.24.457549v1)  
 
+**Hallucinating protein assemblies**  
+Basile I M Wicky, Lukas F Milles, Alexis Courbet, Robert J Ragotte, Justas Dauparas, Elias Kinfu, Sam Tipps, Ryan D Kibler, Minkyung Baek, Frank DiMaio, Xinting Li, Lauren Carter, Alex Kang, Hannah Nguyen, Asim K Bera, David Baker  
+[bioRxiv 2022.06.09.493773](https://www.biorxiv.org/content/10.1101/2022.06.09.493773v1)
+
 ### 2.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
@@ -194,6 +200,12 @@ Mahajan, Sai Pooja, et al.
 **Hallucinating structure-conditioned antibody libraries for target-specific binders**  
 Sai Pooja Mahajan, Jeffrey A Ruffolo, Rahel Frick, Jeffrey J. Gray  
 [bioRxiv 2022.06.06.494991](https://www.biorxiv.org/content/10.1101/2022.06.06.494991v1) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/06/2022.06.06.494991/DC1/embed/media-1.pdf?download=true)
+
+### 2.7 TRFold2-based
+
+[TRDesign](https://mp.weixin.qq.com/s/UIFXwk5H3Sb8Sxk_72ykPw)  
+[TIANRANG XLab](https://www.tianrang.com/xlab)  
+Unpublished yet (June 2022) || code unavailable
 
 ## 3. Function to Scaffold
 
@@ -238,6 +250,12 @@ Vladimir Gligorijevic, Stephen Ra, Daniel Berenberg, Richard Bonneau, Kyunghyun 
 **A backbone-centred energy function of neural networks for protein design**  
 Huang, B., Xu, Y., Hu, X. et al  
 [Nature (2022)](https://doi.org/10.1038/s41586-021-04383-5)
+
+### 3.5 Diffusion-based
+
+**Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem**  
+Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola  
+[arXiv:2206.04119](https://arxiv.org/abs/2206.04119)
 
 ## 4.Scaffold to Sequence
 
