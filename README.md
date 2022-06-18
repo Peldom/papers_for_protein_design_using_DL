@@ -2,9 +2,9 @@
 
 ## About this repository
 
-Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast developing of **protein design in DL**, we started making this dynamic repository as a record of papers in this field for the newcomers like us.  
+Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**, we started making this dynamic repository as a record of latest papers in this field for the newcomers like us.  
 Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English).  
-Mini protein, metalloprotein, antibody, peptide & molecule designs are included.  
+Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
 Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7molecular-design-models) follow other ML/DL strategies.  
 [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) are welcome!
 
@@ -59,6 +59,7 @@ Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer"
     - [6.1 LSTM-based](#61-lstm-based)
     - [6.2 Diffusion-based](#62-diffusion-based)
     - [6.3 RoseTTAFold-based](#63-rosettafold-based)
+    - [6.4 Masif-based](#64-masif-based)
   - [7. Other tasks](#7-other-tasks)
     - [7.1 Effects of mutation & Fitness Landscape](#71-effects-of-mutation--fitness-landscape)
     - [7.2 Protein Language Models (PTM) and representation learning](#72-protein-language-models-ptm-and-representation-learning)
@@ -129,6 +130,10 @@ Strokach, Alexey, and Philip M. Kim.
 Wan, Fangping, Daphne Kontogiorgos-Heintz, and Cesar de la Fuente-Nunez  
 [Digital Discovery (2022)](https://pubs.rsc.org/en/content/articlehtml/2022/dd/d1dd00024a)
 
+**Improving de novo Protein Binder Design with Deep Learning**  
+Nathaniel Bennett, Brian Coventry, Inna Goreshnik, Buwei Huang, Aza Allen, Dionne Vafeados, Ying Po Peng, Justas Dauparas, Minkyung Baek, Lance Stewart, Frank DiMaio, Steven De Munck, Savvas Savvides, David Baker  
+[bioRxiv 2022.06.15.495993](https://www.biorxiv.org/content/10.1101/2022.06.15.495993v1)
+
 ## 2. Model-based design
 
 > Invert trained models with optimize algorithms through iterations for sequence design. Inverted structure prediction models are known as **Hallucination**.
@@ -171,7 +176,7 @@ Moffat, Lewis, Joe G. Greener, and David T. Jones.
 
 **Hallucinating protein assemblies**  
 Basile I M Wicky, Lukas F Milles, Alexis Courbet, Robert J Ragotte, Justas Dauparas, Elias Kinfu, Sam Tipps, Ryan D Kibler, Minkyung Baek, Frank DiMaio, Xinting Li, Lauren Carter, Alex Kang, Hannah Nguyen, Asim K Bera, David Baker  
-[bioRxiv 2022.06.09.493773](https://www.biorxiv.org/content/10.1101/2022.06.09.493773v1)
+[bioRxiv 2022.06.09.493773](https://www.biorxiv.org/content/10.1101/2022.06.09.493773v1) || [related slides](https://docs.google.com/presentation/d/1_tvzLKks83sYOKemfFeImCPnWtCQ-CHqmKK_3IQI1so/) || [our notes](https://zhuanlan.zhihu.com/p/527152827)
 
 ### 2.3 DMPfold2-based
 
@@ -315,7 +320,7 @@ Namrata Anand, Raphael Eguchi, Irimpan I. Mathews, Carla P. Perez, Alexander Der
 Jing, Bowen, et al.  
 [arXiv preprint arXiv:2009.01411 (2020)](https://arxiv.org/abs/2009.01411) || [GVP](https://github.com/drorlab/gvp-pytorch)
 
-**Fast and flexible protein design using deep graph neural networks.**  
+**Fast and flexible protein design using deep graph neural networks**  
 Alexey Strokach, David Becerra, Carles Corbi-Verge, Albert Perez-Riba, Philip M. Kim  
 [Cell Systems (2020)](https://www.sciencedirect.com/science/article/pii/S2405471220303276) || [code::ProteinSolver](https://gitlab.com/ostrokach/proteinsolver)  
 
@@ -327,9 +332,9 @@ Li, Alex J., et al.
 Jin, Wengong, et al.  
 [arXiv preprint arXiv:2110.04624 (2021)](https://arxiv.org/abs/2110.04624) || [RefineGNN](https://github.com/wengong-jin/RefineGNN) || [lecture1](https://www.youtube.com/watch?v=uDTccbg_Ai4), [lecture2](https://www.youtube.com/watch?v=px5iC79jtfc)
 
-**Exploration of novel αβ-protein folds through de novo design**  
-Minami, Shintaro, et al.  
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.08.06.455475v1.abstract) || [GCNdesgin](https://github.com/ShintaroMinami/GCNdesign)
+**A neural network model for prediction of amino-acid probability from a protein backbone structure**  
+Koya Sakuma, Naoya Kobayashi  
+Unpublished yet (June 2021)|| [GCNdesgin](https://github.com/ShintaroMinami/GCNdesign)
 
 **XENet: Using a new graph convolution to accelerate the timeline for protein design on quantum computers**  
 Maguire, Jack B., et al.  
@@ -549,7 +554,6 @@ Khan, Asif, et al.
 Takahashi, Tomoei, George Chikenji, and Kei Tokita.  
 [arXiv preprint arXiv:2205.03696 (2022)](https://arxiv.org/abs/2205.03696)
 
-
 ### 5.7 RL-based
 
 **Model-based reinforcement learning for biological sequence design**  
@@ -622,7 +626,14 @@ Namrata Anand, Tudor Achim
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
 Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
-[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387) || [RFDesign](https://github.com/RosettaCommons/RFDesign) || [our notes](https://zhuanlan.zhihu.com/p/477854488) || [lecture](https://www.youtube.com/watch?v=-EJ8SXTBin0)
+[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387) || [RFDesign](https://github.com/RosettaCommons/RFDesign) || [our notes](https://zhuanlan.zhihu.com/p/477854488) || [lecture](https://www.youtube.com/watch?v=-EJ8SXTBin0) || [RoseTTAFold](https://github.com/RosettaCommons/RoseTTAFold)
+
+### 6.4 Masif-based
+
+**De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**  
+Wehrle, Sarah, et al.  
+[Protein Science 30.CONF (2021)](https://infoscience.epfl.ch/record/290120)/[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.16.496402v1) || [supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/17/2022.06.16.496402/DC1/embed/media-1.pdf?download=true) || [masif_seed](https://github.com/LPDI-EPFL/masif_seed) || [masif](https://github.com/LPDI-EPFL/masif)
+
 
 ## 7. Other tasks
 
