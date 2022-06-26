@@ -2,13 +2,17 @@
 
 ## About this repository
 
-Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**, we started making this dynamic repository as a record of latest papers in this field for the newcomers like us.  
-Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English).  
-Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
-Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7molecular-design-models) follow other ML/DL strategies.  
+> Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**, we started making this dynamic repository as a record of latest papers in this field for the newcomers like us:  
+> 
+>1. Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
+>2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design). 
+>3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).
+
 [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) are welcome!
 
 ## Menu
+
+> Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7molecular-design-models) follow other ML/DL strategies.  
 
 - [List of papers about Proteins Design using Deep Learning](#list-of-papers-about-proteins-design-using-deep-learning)
   - [About this repository](#about-this-repository)
@@ -354,7 +358,7 @@ Kevin K Yang, Hugh Yeh, Niccolò Zanichelli
 
 **Robust deep learning based protein sequence design using ProteinMPNN**  
 Justas Dauparas, Ivan Anishchenko, Nathaniel Bennett, Hua Bai, Robert J. Ragotte, Lukas F. Milles, Basile I. M. Wicky, Alexis Courbet, Robbert J. de Haas, Neville Bethel, Philip J. Y. Leung, Timothy F. Huddy, Sam Pellock, Doug Tischer, Frederick Chan, Brian Koepnick, Hannah Nguyen, Alex Kang, Banumathi Sankaran, Asim Bera, Neil P. King, David Baker  
-[bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics) || [code](https://github.com/dauparas/ProteinMPNN)
+[bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics)/ || [code](https://github.com/dauparas/ProteinMPNN)
 
 ### 4.6 GAN-based
 
@@ -527,8 +531,8 @@ Ram, Soumya, and Tristan Bepler.
 [arXiv preprint arXiv:2204.01168 (2022)](https://arxiv.org/abs/2204.01168)
 
 **Towards Controllable Protein design with Conditional Transformers**  
-Ferruz, Noelia, and Birte Höcker.  
-[arXiv preprint arXiv:2201.07338 (2022)](https://arxiv.org/abs/2201.07338) || review of [Heading 5.4](#54-transformer-based)
+Ferruz Noelia, and Birte Höcker.  
+[arXiv preprint arXiv:2201.07338 (2022)](https://arxiv.org/abs/2201.07338)/[Nature Machine Intelligence (2022)](https://www.nature.com/articles/s42256-022-00499-z) || review of [Heading 5.4](#54-transformer-based)
 
 ### 5.5 ResNet-based
 
@@ -634,7 +638,6 @@ Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun
 Wehrle, Sarah, et al.  
 [Protein Science 30.CONF (2021)](https://infoscience.epfl.ch/record/290120)/[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.16.496402v1) || [supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/17/2022.06.16.496402/DC1/embed/media-1.pdf?download=true) || [masif_seed](https://github.com/LPDI-EPFL/masif_seed) || [masif](https://github.com/LPDI-EPFL/masif)
 
-
 ## 7. Other tasks
 
 ### 7.1 Effects of mutation & Fitness Landscape
@@ -677,6 +680,7 @@ Zuobai Zhang, Minghao Xu, Arian Jamasb, Vijil Chenthamarakshan, Aurelie Lozano, 
 
 > Unlike **function-scaffold-sequence** paradigm in protein design, major molecular design models based on paradigm form DL from 3 kinds of level: **atom-based**, **fragment-based**, **reaction-based**, and they can be categorized as [Gradient optimization](#61-gradient-optimization) or [Optimized sampling](#62-optimized-sampling)(gradient-free). [Click here for detail review](https://www.sciencedirect.com/science/article/pii/S1359644621002531)  
 > In consideration of learning more various of generative models for design, these recommended latest models from **Molecular Design** might be helpful and even be able to be transplanted to protein design.
+> More paper list at [CondaPereira](https://github.com/CondaPereira)'s GitHub repo: [Essay_For_Molecular_Generation](https://github.com/CondaPereira/Essay_For_Molecular_Generation).
 
 #### 7.3.1 Gradient optimization
 
@@ -687,6 +691,10 @@ Gebauer, Niklas WA, et al.
 **Differentiable scaffolding tree for molecular optimization**  
 Fu, T., Gao, W., Xiao, C., Yasonik, J., Coley, C. W., & Sun, J.  
 [arXiv preprint arXiv:2109.10469](https://arxiv.org/abs/2109.10469) || [code](https://github.com/futianfan/DST) || Sept 21
+
+**LIMO: Latent Inceptionism for Targeted Molecule Generation**  
+Eckmann, Peter, et al.  
+[arXiv preprint arXiv:2206.09010 (2022)](https://arxiv.org/abs/2206.09010) || [code](https://github.com/rose-stl-lab/limo)
 
 #### 7.3.2 Optimized sampling
 
