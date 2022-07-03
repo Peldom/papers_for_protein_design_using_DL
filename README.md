@@ -2,7 +2,7 @@
 
 ## About this repository
 
-> Inspired by Kevin Kaichuang Yang's [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**, we started making this dynamic repository as a record of latest papers in this field for the newcomers like us:  
+> Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**, we started making this dynamic repository as a record of latest papers in this field for the newcomers like us:  
 > 
 >1. Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design). 
@@ -534,6 +534,10 @@ Ram, Soumya, and Tristan Bepler.
 Ferruz Noelia, and Birte Höcker.  
 [arXiv preprint arXiv:2201.07338 (2022)](https://arxiv.org/abs/2201.07338)/[Nature Machine Intelligence (2022)](https://www.nature.com/articles/s42256-022-00499-z) || review of [Heading 5.4](#54-transformer-based)
 
+**ProGen2: Exploring the Boundaries of Protein Language Models**  
+Erik Nijkamp, Jeffrey Ruffolo, Eli N. Weinstein, Nikhil Naik, Ali Madani  
+[arXiv:2206.13517](https://arxiv.org/abs/2206.13517) || [code](https://github.com/salesforce/progen)
+
 ### 5.5 ResNet-based
 
 **Accelerating protein design using autoregressive generative models**  
@@ -695,6 +699,10 @@ Fu, T., Gao, W., Xiao, C., Yasonik, J., Coley, C. W., & Sun, J.
 **LIMO: Latent Inceptionism for Targeted Molecule Generation**  
 Eckmann, Peter, et al.  
 [arXiv preprint arXiv:2206.09010 (2022)](https://arxiv.org/abs/2206.09010) || [code](https://github.com/rose-stl-lab/limo)
+
+**Improving de novo molecular design with curriculum learning**  
+Guo, Jeff, et al.  
+[Nature Machine Intelligence (2022)](https://www.nature.com/articles/s42256-022-00494-4) || [code](https://github.com/MolecularAI/Reinvent)
 
 #### 7.3.2 Optimized sampling
 
