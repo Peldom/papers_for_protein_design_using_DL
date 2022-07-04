@@ -738,4 +738,8 @@ Hoffman, Samuel C., et al.
 K. Grantham, M. Mukaidaisi, H. K. Ooi, M. S. Ghaemi, A. Tchagang and Y. Li  
 [IEEE Computational Intelligence Magazine, vol. 17, no. 2, pp. 14-28, May 2022](https://ieeexplore.ieee.org/document/9756593)
 
+**Evolutionary velocity with protein language models**  
+Brian L. Hie, Kevin K. Yang, and Peter S. Kim  
+[bioRxiv](https://www.biorxiv.org/content/10.1101/2021.06.07.447389v1.full.pdf)
+
 <!-- ### 7.4  -->
