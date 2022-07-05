@@ -3,10 +3,10 @@
 ## About this repository
 
 > Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**, we started making this dynamic repository as a record of latest papers in this field for the newcomers like us:  
-> 
+>
 >1. Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
->2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design). 
->3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).
+>2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
+>3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).  
 
 [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) are welcome!
 
@@ -388,6 +388,10 @@ Mmatthew McPartlon, Ben Lai, Jinbo Xu
 Chloe Hsu, Robert Verkuil, Jason Liu, Zeming Lin, Brian Hie, Tom Sercu, Adam Lerer, Alexander Rives  
 [bioRxiv (2022)](https://doi.org/10.1101/2022.04.10.487779) || [esm](https://github.com/facebookresearch/esm)  
 
+**Accurate and efficient protein sequence design through learning concise local environment of residues**  
+Huang, Bin, et al.  
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v2.abstract) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/30/2022.06.25.497605/DC1/embed/media-1.pdf?download=true)
+
 ### 4.8 ResNet-based
 
 **DenseCPD: improving the accuracy of neural-network-based computational protein sequence design with DenseNet**  
@@ -680,6 +684,10 @@ Notin, P., Dias, M., Frazer, J., Marchena-Hurtado, J., Gomez, A., Marks, D.S., G
 Zuobai Zhang, Minghao Xu, Arian Jamasb, Vijil Chenthamarakshan, Aurelie Lozano, Payel Das, Jian Tang  
 [arXiv](https://arxiv.org/abs/2203.06125) || Jan 2022
 
+**Evolutionary velocity with protein language models**  
+Brian L. Hie, Kevin K. Yang, and Peter S. Kim  
+[bioRxiv](https://www.biorxiv.org/content/10.1101/2021.06.07.447389v1.full.pdf)
+
 ### 7.3 Molecular Design Models
 
 > Unlike **function-scaffold-sequence** paradigm in protein design, major molecular design models based on paradigm form DL from 3 kinds of level: **atom-based**, **fragment-based**, **reaction-based**, and they can be categorized as [Gradient optimization](#61-gradient-optimization) or [Optimized sampling](#62-optimized-sampling)(gradient-free). [Click here for detail review](https://www.sciencedirect.com/science/article/pii/S1359644621002531)  
@@ -738,8 +746,12 @@ Hoffman, Samuel C., et al.
 K. Grantham, M. Mukaidaisi, H. K. Ooi, M. S. Ghaemi, A. Tchagang and Y. Li  
 [IEEE Computational Intelligence Magazine, vol. 17, no. 2, pp. 14-28, May 2022](https://ieeexplore.ieee.org/document/9756593)
 
-**Evolutionary velocity with protein language models**  
-Brian L. Hie, Kevin K. Yang, and Peter S. Kim  
-[bioRxiv](https://www.biorxiv.org/content/10.1101/2021.06.07.447389v1.full.pdf)
+**Fragment-Based Ligand Generation Guided by Geometric Deep Learning on Protein-Ligand Structure**  
+Powers, Alexander, et al.  
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.03.17.484653v2)
+
+**Pocket2Mol: Efficient Molecular Sampling Based on 3D Protein Pockets**  
+Peng, Xingang, et al.  
+[arXiv preprint arXiv:2205.07249 (2022)](https://arxiv.org/abs/2205.07249) || [code](https://github.com/pengxingang/Pocket2Mol)
 
 <!-- ### 7.4  -->
