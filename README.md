@@ -48,6 +48,7 @@
     - [4.6 GAN-based](#46-gan-based)
     - [4.7 Transformer-based](#47-transformer-based)
     - [4.8 ResNet-based](#48-resnet-based)
+    - [4.9 Diffusion-based](#49-diffusion-based)
   - [5.Function to Sequence](#5function-to-sequence)
     - [5.1 CNN-based](#51-cnn-based)
     - [5.2 VAE-based](#52-vae-based)
@@ -248,6 +249,10 @@ Raphael R. Eguchi, Christian A. Choe, Po-Ssu Huang
 Harteveld, Zander, et al.  
 [ICLR2022 Machine Learning for Drug Discovery. 2022](https://openreview.net/forum?id=DwN81YIXGQP)
 
+**End-to-End deep structure generative model for protein design**  
+Boqiao Lai, matthew McPartlon, Jinbo Xu  
+[bioRxiv 2022.07.09.499440](https://www.biorxiv.org/content/10.1101/2022.07.09.499440v1)
+
 ### 3.3 DAE-based
 
 **Function-guided protein design by deep manifold sampling**  
@@ -398,6 +403,12 @@ Huang, Bin, et al.
 Qi, Yifei, and John ZH Zhang.  
 [Journal of chemical information and modeling 60.3 (2020)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.0c00043) || code unavailable
 
+### 4.9 Diffusion-based
+
+**Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models**  
+Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma  
+[bioRxiv 2022.07.10.499510](https://www.biorxiv.org/content/10.1101/2022.07.10.499510v1)
+
 ## 5.Function to Sequence
 
 > These models generate sequences from expected function.
@@ -474,7 +485,7 @@ Tucs, Andrejs, et al.
 
 **Conditional Generative Modeling for De Novo Protein Design with Hierarchical Functions**  
 Kucera, Tim, Matteo Togninalli, and Laetitia Meng-Papaxanthos  
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.11.10.467885v1.abstract)  
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.11.10.467885v1.abstract)/[Bioinformatics 38.13 (2022)](https://academic.oup.com/bioinformatics/article/38/13/3454/6593486) || [code](https://github.com/timkucera/proteogan)
 
 **Expanding functional protein sequence spaces using generative adversarial networks**  
 Repecka, Donatas, et al.  
@@ -687,6 +698,10 @@ Zuobai Zhang, Minghao Xu, Arian Jamasb, Vijil Chenthamarakshan, Aurelie Lozano, 
 **Evolutionary velocity with protein language models**  
 Brian L. Hie, Kevin K. Yang, and Peter S. Kim  
 [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.06.07.447389v1.full.pdf)
+
+**Advancing protein language models with linguistics: a roadmap for improved interpretability**  
+Mai Ha Vu, Rahmad Akbar, Philippe A. Robert, Bartlomiej Swiatczak, Victor Greiff, Geir Kjetil Sandve, Dag Trygve Truslew Haug  
+[arXiv:2207.00982](https://arxiv.org/abs/2207.00982)
 
 ### 7.3 Molecular Design Models
 
