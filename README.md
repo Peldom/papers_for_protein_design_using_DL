@@ -39,6 +39,7 @@
     - [3.3 DAE-based](#33-dae-based)
     - [3.4 MLP-based](#34-mlp-based)
     - [3.5 Diffusion-based](#35-diffusion-based)
+    - [3.6 Score-based](#36-score-based)
   - [4.Scaffold to Sequence](#4scaffold-to-sequence)
     - [4.1 MLP-based](#41-mlp-based)
     - [4.2 VAE-based](#42-vae-based)
@@ -270,6 +271,12 @@ Huang, B., Xu, Y., Hu, X. et al
 **Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem**  
 Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola  
 [arXiv:2206.04119](https://arxiv.org/abs/2206.04119)
+
+### 3.6 Score-based
+
+**ProteinSGM: Score-based generative modeling for de novo protein design**  
+Jin Sub Lee, Philip M Kim  
+[bioRxiv 2022.07.13.499967](https://www.biorxiv.org/content/10.1101/2022.07.13.499967v1)
 
 ## 4.Scaffold to Sequence
 
