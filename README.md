@@ -186,7 +186,7 @@ Basile I M Wicky, Lukas F Milles, Alexis Courbet, Robert J Ragotte, Justas Daupa
 
 **EvoBind: in silico directed evolution of peptide binders with AlphaFold**  
 Patrick Bryant, Arne Elofsson  
-[bioRxiv 2022.07.23.501214](https://www.biorxiv.org/content/10.1101/2022.07.23.501214v1) || [jupyter notebook](https://colab.research.google.com/github/patrickbryant1/EvoBind/blob/master/EvoBind.ipynb)
+[bioRxiv 2022.07.23.501214](https://www.biorxiv.org/content/10.1101/2022.07.23.501214v1) || [code](https://github.com/patrickbryant1/EvoBind)
 
 ### 2.3 DMPfold2-based
 
@@ -374,7 +374,7 @@ Kevin K Yang, Hugh Yeh, Niccolò Zanichelli
 
 **Robust deep learning based protein sequence design using ProteinMPNN**  
 Justas Dauparas, Ivan Anishchenko, Nathaniel Bennett, Hua Bai, Robert J. Ragotte, Lukas F. Milles, Basile I. M. Wicky, Alexis Courbet, Robbert J. de Haas, Neville Bethel, Philip J. Y. Leung, Timothy F. Huddy, Sam Pellock, Doug Tischer, Frederick Chan, Brian Koepnick, Hannah Nguyen, Alex Kang, Banumathi Sankaran, Asim Bera, Neil P. King, David Baker  
-[bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics)/ || [code](https://github.com/dauparas/ProteinMPNN)
+[bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics)/ || [code](https://github.com/dauparas/ProteinMPNN) || [hugging face](https://huggingface.co/spaces/simonduerr/ProteinMPNN)
 
 ### 4.6 GAN-based
 
@@ -394,7 +394,7 @@ Cao, Yue, et al.
 
 **Rotamer-Free Protein Sequence Design Based on Deep Learning and Self-Consistency**  
 Liu, Yufeng, et al.  
-[Nature portfolio (2022)](https://www.researchsquare.com/article/rs-1209166/v1)/[Nature computational science(2022)](https://www.nature.com/articles/s43588-022-00273-6) || [Supplymentary](https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00273-6/MediaObjects/43588_2022_273_MOESM1_ESM.pdf)
+[Nature portfolio (2022)](https://www.researchsquare.com/article/rs-1209166/v1)/[Nature computational science(2022)](https://www.nature.com/articles/s43588-022-00273-6) || [Supplymentary](https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00273-6/MediaObjects/43588_2022_273_MOESM1_ESM.pdf) || [Comment](https://www.nature.com/articles/s43588-022-00274-5)
 
 **A Deep SE(3)-Equivariant Model for Learning Inverse Protein Folding**  
 Mmatthew McPartlon, Ben Lai, Jinbo Xu  
@@ -548,9 +548,9 @@ Prihoda, David, et al.
 Castro, Egbert, et al.  
 [arXiv preprint arXiv:2201.09948 (2022)](https://arxiv.org/abs/2201.09948)
 
-**A deep unsupervised language model for protein design**  
+**ProtGPT2 is a deep unsupervised language model for protein design**  
 Noelia Ferruz,  View ProfileSteffen Schmidt,  View ProfileBirte Höcker  
-[bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.full) || [model::huggingface](https://huggingface.co/nferruz/ProtGPT2) [datasets::hugingface](https://huggingface.co/datasets/nferruz/UR50_2021_04) || March 12 2022 || [lecture](https://www.youtube.com/watch?v=BA5C0kLcErM)
+[bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.full)/[Nature Communications](https://www.nature.com/articles/s41467-022-32007-7#citeas) || [model::huggingface](https://huggingface.co/nferruz/ProtGPT2) [datasets::hugingface](https://huggingface.co/datasets/nferruz/UR50_2021_04) || [lecture](https://www.youtube.com/watch?v=BA5C0kLcErM)
 
 **Few Shot Protein Generation**  
 Ram, Soumya, and Tristan Bepler.  
@@ -698,7 +698,7 @@ Hie, Brian L., et al.
 
 **Tranception: protein fitness prediction with autoregressive transformers and inference-time retrieval**  
 Notin, P., Dias, M., Frazer, J., Marchena-Hurtado, J., Gomez, A., Marks, D.S., Gal, Y.  
-[ICML (2022)](https://arxiv.org/abs/2205.13760) || [code](https://github.com/OATML-Markslab/Tranception)
+[ICML (2022)](https://arxiv.org/abs/2205.13760)/[arXiv:2205.13760](https://arxiv.org/abs/2205.13760) || [code](https://github.com/OATML-Markslab/Tranception) || [hugging face](https://huggingface.co/ICML2022/Tranception)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
