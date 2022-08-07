@@ -2,7 +2,7 @@
 
 ## About this repository
 
-> Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**, we started making this dynamic repository as a record of latest papers in this field for the newcomers like us:  
+> Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**, we started making this dynamic repository as a record of latest papers/projects in this field for the newcomers like us:  
 >
 >1. Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
@@ -79,7 +79,7 @@
 
 **FLIP: Benchmark tasks in fitness landscape inference for proteins**  
 Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattacharya, Samuel Goldman, Ali Madani, Kevin K Yang  
-[NeurIPS 2021 Datasets and Benchmarks Track](https://openreview.net/forum?id=p2dMLEwL8tF) || [website](https://benchmark.protein.properties/)   
+[NeurIPS 2021 Datasets and Benchmarks Track](https://openreview.net/forum?id=p2dMLEwL8tF) || [website](https://benchmark.protein.properties/)  
 
 ### 0.2 Structure to sequence
 
@@ -156,7 +156,7 @@ Linder, Johannes, and Georg Seelig.
 
 **De novo protein design by deep network hallucination**  
 Ivan Anishchenko, Samuel J. Pellock, Tamuka M. Chidyausiku, Theresa A. Ramelot, Sergey Ovchinnikov, Jingzhou Hao, Khushboo Bafna, Christoffer Norn, Alex Kang, Asim K. Bera, Frank DiMaio, Lauren Carter, Cameron M. Chow, Gaetano T. Montelione & David Baker  
-[Nature (2021)](https://doi.org/10.1038/s41586-021-04184-w)  || [code](https://github.com/gjoni/trDesign) || [trRosetta](https://yanglab.nankai.edu.cn/trRosetta/download/) || 
+[Nature (2021)](https://doi.org/10.1038/s41586-021-04184-w)  || [code](https://github.com/gjoni/trDesign) || [trRosetta](https://yanglab.nankai.edu.cn/trRosetta/download/)
 
 **Protein sequence design by conformational landscape optimization**  
 Norn, Christoffer, et al.  
@@ -170,7 +170,7 @@ Takatsugu Kosugi, Masahito Ohue
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
 Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey  
-[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [ColabDesign](https://github.com/sokrypton/ColabDesign), [SMURF](https://github.com/spetti/SMURF), [AF2 back propagation](https://github.com/sokrypton/af_backprop) || [our notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977) || [lecture](https://www.youtube.com/watch?v=2HmXwlKWMVs)
+[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [ColabDesign](https://github.com/sokrypton/ColabDesign), [SMURF](https://github.com/spetti/SMURF), [AF2 back propagation](https://github.com/sokrypton/af_backprop) || [our notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977) || [lecture](https://www.youtube.com/watch?v=2HmXwlKWMVs) || [Discord](https://discord.com/invite/FpYPneYB)
 
 **AlphaDesign: A de novo protein design framework based on AlphaFold**  
 Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.  
@@ -239,10 +239,6 @@ Anand Namrata, Raphael Eguchi, and Po-Ssu Huang.
 **RamaNet: Computational de novo helical protein backbone design using a long short-term memory generative neural network**  
 Sabban, Sari, and Mikhail Markovsky.  
 [F1000Research 9 (2020)](http://f1000researchdata.s3.amazonaws.com/manuscripts/29106/f45e92eb-5d68-4da0-b918-91ded85d2e7d_22907_-_sari_sabban_v2.pdf) || [code](https://sarisabban.github.io/RamaNet/) || pyRosetta || tensorflow || maximizaing the fluorescence of a protein  
-
-**HelixGAN: A bidirectional Generative Adversarial Network with search in latent space for generation under constraints**  
-Xuezhi Xie, Philip M. Kim  
-[Machine Learning for Structural Biology Workshop, NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_HelixGAN:_A_bidirectional_Generative.pdf) || without code  
 
 ### 3.2 VAE-based
 
@@ -334,6 +330,10 @@ Zhang, Yuan, et al.
 Namrata Anand, Raphael Eguchi, Irimpan I. Mathews, Carla P. Perez, Alexander Derry, Russ B. Altman & Po-Ssu Huang  
 [Nacture Communications (2022)](https://www.nature.com/articles/s41467-022-28313-9) || [code](https://github.com/ProteinDesignLab/protein_seq_des)  
 
+**Protein Sequence Design with Deep Learning and Tooling like Monte Carlo Sampling and Analysis**  
+Leonardo Castorina  
+paper not available || [code](https://github.com/wells-wood-research/timed-design)
+
 ### 4.5 GNN-based
 
 **Learning from protein structure with geometric vector perceptrons**  
@@ -346,7 +346,7 @@ Alexey Strokach, David Becerra, Carles Corbi-Verge, Albert Perez-Riba, Philip M.
 
 **TERMinator: A Neural Framework for Structure-Based Protein Design using Tertiary Repeating Motifs**  
 Li, Alex J., et al.  
-[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_TERMinator:_A_Neural_Framework.pdf) / [arXiv (2022)](https://arxiv.org/pdf/2204.13048.pdf) 
+[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_TERMinator:_A_Neural_Framework.pdf) / [arXiv (2022)](https://arxiv.org/pdf/2204.13048.pdf)
 
 **Iterative refinement graph neural network for antibody sequence-structure co-design**  
 Jin, Wengong, et al.  
@@ -376,11 +376,19 @@ Kevin K Yang, Hugh Yeh, Niccolò Zanichelli
 Justas Dauparas, Ivan Anishchenko, Nathaniel Bennett, Hua Bai, Robert J. Ragotte, Lukas F. Milles, Basile I. M. Wicky, Alexis Courbet, Robbert J. de Haas, Neville Bethel, Philip J. Y. Leung, Timothy F. Huddy, Sam Pellock, Doug Tischer, Frederick Chan, Brian Koepnick, Hannah Nguyen, Alex Kang, Banumathi Sankaran, Asim Bera, Neil P. King, David Baker  
 [bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics)/ || [code](https://github.com/dauparas/ProteinMPNN) || [hugging face](https://huggingface.co/spaces/simonduerr/ProteinMPNN)
 
+**Neural Network-Derived Potts Models for Structure-Based Protein Design using Backbone Atomic Coordinates and Tertiary Motifs**  
+Alex J. Li, Mindren Lu, Israel Desta, Vikram Sundar, Gevorg Grigoryan, and Amy E. Keating  
+[bioRxiv 2022.08.02.501736](https://www.biorxiv.org/content/10.1101/2022.08.02.501736v1.full.pdf)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
 Mostafa Karimi, Shaowen Zhu, Yue Cao, Yang Shen  
 [Journal of chemical information and modeling 60.12 (2020)](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00593) || [gcWGAN](https://github.com/Shen-Lab/gcWGAN)
+
+**HelixGAN: A bidirectional Generative Adversarial Network with search in latent space for generation under constraints**  
+Xuezhi Xie, Philip M. Kim  
+[Machine Learning for Structural Biology Workshop, NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_HelixGAN:_A_bidirectional_Generative.pdf) || without code  
 
 ### 4.7 Transformer-based
 
@@ -502,10 +510,6 @@ Kucera, Tim, Matteo Togninalli, and Laetitia Meng-Papaxanthos
 Repecka, Donatas, et al.  
 [Nature Machine Intelligence 3.4 (2021)](https://www.nature.com/articles/s42256-021-00310-5)
 
-**HelixGAN: A bidirectional Generative Adversarial Network with search in latent space for generation under constraints**  
-Xie, Xuezhi, and Philip M. Kim.  
-[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_HelixGAN:_A_bidirectional_Generative.pdf)
-
 **A Generative Approach toward Precision Antimicrobial Peptide Design.**  
 Ferrell, Jonathon B., et al.  
 [BioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2020.10.02.324087.abstract)
@@ -564,6 +568,10 @@ Ferruz Noelia, and Birte Höcker.
 Erik Nijkamp, Jeffrey Ruffolo, Eli N. Weinstein, Nikhil Naik, Ali Madani  
 [arXiv:2206.13517](https://arxiv.org/abs/2206.13517) || [code](https://github.com/salesforce/progen)
 
+**AbBERT: Learning Antibody Humanness via Masked Language Modeling**  
+Denis Vashchenko, Sam Nguyen, Andre Goncalves, Felipe Leno da Silva, Brenden Petersen, Thomas Desautels, Daniel Faissol  
+[bioRxiv 2022.08.02.502236](https://doi.org/10.1101/2022.08.02.502236)
+
 ### 5.5 ResNet-based
 
 **Accelerating protein design using autoregressive generative models**  
@@ -575,6 +583,10 @@ Riesselman, Adam, et al.
 **Discovering de novo peptide substrates for enzymes using machine learning**  
 Tallorin, Lorillee, et al.  
 [Nature communications 9.1 (2018)](https://www.nature.com/articles/s41467-018-07717-6) || [code](https://github.com/peter-i-frazier/pool)
+
+**Now What Sequence? Pre-trained Ensembles for Bayesian Optimization of Protein Sequences**  
+Ziyue Yang, Katarina A Milas, Andrew D White  
+[bioRxiv 2022.08.05.502972](https://www.biorxiv.org/content/10.1101/2022.08.05.502972v1) || [code](https://github.com/ur-whitelab/wazy) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/08/06/2022.08.05.502972/DC1/embed/media-1.pdf?download=true)
 
 **Lattice protein design using Bayesian learning**  
 Takahashi, Tomoei, George Chikenji, and Kei Tokita.  
@@ -654,7 +666,7 @@ Syrlybaeva, Raulia, and Eva-Maria Strauch.
 
 **Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models**  
 Namrata Anand, Tudor Achim  
-[GitHub (2022)](https://nanand2.github.io/proteins/)/[arXiv (2022)](https://arxiv.org/abs/2205.15019) || [our notes](https://zhuanlan.zhihu.com/p/520488133)
+[GitHub (2022)](https://nanand2.github.io/proteins/)/[arXiv (2022)](https://arxiv.org/abs/2205.15019) || [our notes](https://zhuanlan.zhihu.com/p/520488133) || [lecture](https://www.youtube.com/watch?v=i8fGzddGbU8)
 
 ### 6.3 RoseTTAFold-based
 
