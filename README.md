@@ -25,6 +25,10 @@
       - [0.3.2 Structure Database](#032-structure-database)
       - [0.3.3 Protein Structure Datasets](#033-protein-structure-datasets)
   - [1. Reviews](#1-reviews)
+    - [1.1 De novo protein design](#11-de-novo-protein-design)
+    - [1.2 Antibody design](#12-antibody-design)
+    - [1.3 Peptide design](#13-peptide-design)
+    - [1.4 Binder design](#14-binder-design)
   - [2. Model-based design](#2-model-based-design)
     - [2.1 trRosetta-based](#21-trrosetta-based)
     - [2.2 AlphaFold2-based](#22-alphafold2-based)
@@ -89,15 +93,25 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 
 ### 0.3 Others
 
+> A list of suggested protein databases, more lists at [CNCB](https://ngdc.cncb.ac.cn/databasecommons/).
+>
 #### 0.3.1 Sequence Database
 
-[UniProt](https://www.uniprot.org/downloads)  
+1. [UniProt](https://www.uniprot.org/downloads)
 
 #### 0.3.2 Structure Database
 
 1. [PDB](https://www.rcsb.org/)
 2. [AlphaFoldDB](https://alphafold.ebi.ac.uk/)
 3. [PDBbind](http://www.pdbbind.org.cn/download.php)
+4. [AB-Bind](https://github.com/sarahsirin/AB-Bind-Database)
+5. [AntigenDB](http://crdd.osdd.net/raghava/antigendb/)
+6. [CAMEO](https://www.cameo3d.org/)
+7. [CAPRI](https://www.ebi.ac.uk/msd-srv/capri/)
+8. [PDBbind](http://www.pdbbind.org.cn/)
+9. [PIFACE](http://prism.ccbb.ku.edu.tr/piface)
+10. [SAbDab](http://opig.stats.ox.ac.uk/webapps/newsabdab/sabdab/)
+11. [SKEMPI v2.0](https://life.bsc.es/pid/skempi2)
 
 #### 0.3.3 Protein Structure Datasets
 
@@ -108,9 +122,11 @@ Jonathan E. King, David Ryan Koes
 [TDC](https://tdcommons.ai/overview/) maintains a resource list that currently contains 22 tasks (and its datasets) related to small molecules and macromolecules, including PPI, DDI and so on. [MoleculeNet](https://github.com/GLambard/Molecules_Dataset_Collection) published a small molecule related benchmark four years ago.
 
 > In terms of datasets and benchmarks, protein design is far less mature than drug discovery ([paperwithcode drug discovery benchmarks](https://paperswithcode.com/task/drug-discovery)). (Maybe should add the evaluation of protein design for deep learning method (especially deep generative model))  
-> Difficulties and opportunities always coexist. Happy to see the work of [Christian Dallago, Jody Mou, Kadina E. Johnston, Bruce J. Wittmann, Nicholas Bhattacharya, Samuel Goldman, Ali Madani, Kevin K. Yang](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v1) and [Zhangyang Gao, Cheng Tan, Stan Z. Li](https://arxiv.org/abs/2202.01079). How grateful.
+> Difficulties and opportunities always coexist. Happy to see the work of [Christian Dallago, Jody Mou, Kadina E. Johnston, Bruce J. Wittmann, Nicholas Bhattacharya, Samuel Goldman, Ali Madani, Kevin K. Yang](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v1) and [Zhangyang Gao, Cheng Tan, Stan Z. Li](https://arxiv.org/abs/2202.01079).
 
 ## 1. Reviews
+
+### 1.1 De novo protein design
 
 **Deep learning in protein structural modeling and design**  
 Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray  
@@ -132,9 +148,19 @@ Wenze Ding, Kenta Nakai, Haipeng Gong
 Strokach, Alexey, and Philip M. Kim.  
 [Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/pii/S0959440X21001573) || 2022  
 
+### 1.2 Antibody design
+
+**A review of deep learning methods for antibodies**  
+Graves, Jordan, et al.  
+[Antibodies 9.2 (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7344881/pdf/antibodies-09-00012.pdf)
+
+### 1.3 Peptide design
+
 **Deep generative models for peptide design**  
 Wan, Fangping, Daphne Kontogiorgos-Heintz, and Cesar de la Fuente-Nunez  
 [Digital Discovery (2022)](https://pubs.rsc.org/en/content/articlehtml/2022/dd/d1dd00024a)
+
+### 1.4 Binder design
 
 **Improving de novo Protein Binder Design with Deep Learning**  
 Nathaniel Bennett, Brian Coventry, Inna Goreshnik, Buwei Huang, Aza Allen, Dionne Vafeados, Ying Po Peng, Justas Dauparas, Minkyung Baek, Lance Stewart, Frank DiMaio, Steven De Munck, Savvas Savvides, David Baker  
@@ -380,6 +406,10 @@ Justas Dauparas, Ivan Anishchenko, Nathaniel Bennett, Hua Bai, Robert J. Ragotte
 Alex J. Li, Mindren Lu, Israel Desta, Vikram Sundar, Gevorg Grigoryan, and Amy E. Keating  
 [bioRxiv 2022.08.02.501736](https://www.biorxiv.org/content/10.1101/2022.08.02.501736v1.full.pdf)
 
+**Conditional Antibody Design as 3D Equivariant Graph Translation**  
+Xiangzhe Kong, Wenbing Huang, Yang Liu  
+[arXiv:2208.06073](https://arxiv.org/abs/2208.06073)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -415,6 +445,10 @@ Chloe Hsu, Robert Verkuil, Jason Liu, Zeming Lin, Brian Hie, Tom Sercu, Adam Ler
 **Accurate and efficient protein sequence design through learning concise local environment of residues**  
 Huang, Bin, et al.  
 [bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v2.abstract) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/30/2022.06.25.497605/DC1/embed/media-1.pdf?download=true)
+
+**PeTriBERT : Augmenting BERT with tridimensional encoding for inverse protein folding and design**  
+Baldwin Dumortier, Antoine Liutkus, Clément Carré, Gabriel Krouk  
+[bioRxiv 2022.08.10.503344](https://www.biorxiv.org/content/10.1101/2022.08.10.503344v1)
 
 ### 4.8 ResNet-based
 
@@ -652,6 +686,10 @@ Wang, Christina, Sam Garlick, and Mire Zloh.
 Schissel, Carly K., et al.  
 [Nature Chemistry 13.10 (2021)](https://www.nature.com/articles/s41557-021-00766-3)  
 
+**In silico proof of principle of machine learning-based antibody design at unconstrained scale**  
+Akbar, Rahmad, et al.  
+[Mabs. Vol. 14. No. 1. Taylor & Francis, 2022](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8986205/pdf/KMAB_14_2031482.pdf) || [code](https://github.com/csi-greifflab/manuscript_insilico_antibody_generation)
+
 ## 6. Function to Structure
 
 > These models generate structures(including side chains) from expected function or recover a part of structures(aka. **inpainting**)
@@ -712,7 +750,15 @@ Hie, Brian L., et al.
 Notin, P., Dias, M., Frazer, J., Marchena-Hurtado, J., Gomez, A., Marks, D.S., Gal, Y.  
 [ICML (2022)](https://arxiv.org/abs/2205.13760)/[arXiv:2205.13760](https://arxiv.org/abs/2205.13760) || [code](https://github.com/OATML-Markslab/Tranception) || [hugging face](https://huggingface.co/ICML2022/Tranception)
 
+**Protein engineering via Bayesian optimization-guided evolutionary algorithm and robotic experiments**  
+Ruyun Hu, Lihao Fu, Yongcan Chen, Junyu Chen, Yu Qiao, Tong Si  
+[bioRxiv 2022.08.11.503535](https://www.biorxiv.org/content/10.1101/2022.08.11.503535v1)
+
 ### 7.2 Protein Language Models (PTM) and representation learning
+
+**Unified rational protein engineering with sequence-based deep representation learning**  
+Alley, Ethan C., et al.  
+[Nature methods 16.12 (2019)](https://www.nature.com/articles/s41592-019-0598-1)
 
 **Protein Structure Representation Learning by Geometric Pretraining**  
 Zuobai Zhang, Minghao Xu, Arian Jamasb, Vijil Chenthamarakshan, Aurelie Lozano, Payel Das, Jian Tang  
