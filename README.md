@@ -112,6 +112,7 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 9. [PIFACE](http://prism.ccbb.ku.edu.tr/piface)
 10. [SAbDab](http://opig.stats.ox.ac.uk/webapps/newsabdab/sabdab/)
 11. [SKEMPI v2.0](https://life.bsc.es/pid/skempi2)
+12. [ProtCAD](http://dunbrack2.fccc.edu/protcad/)
 
 #### 0.3.3 Protein Structure Datasets
 
@@ -753,6 +754,10 @@ Notin, P., Dias, M., Frazer, J., Marchena-Hurtado, J., Gomez, A., Marks, D.S., G
 **Protein engineering via Bayesian optimization-guided evolutionary algorithm and robotic experiments**  
 Ruyun Hu, Lihao Fu, Yongcan Chen, Junyu Chen, Yu Qiao, Tong Si  
 [bioRxiv 2022.08.11.503535](https://www.biorxiv.org/content/10.1101/2022.08.11.503535v1)
+
+**Antibody optimization enabled by artificial intelligence predictions of binding affinity and naturalness**  
+Sharrol Bachas, Goran Rakocevic, David Spencer, Anand V. Sastry, Robel Haile, John M. Sutton, George Kasun, Andrew Stachyra, Jahir M. Gutierrez, Edriss Yassine, Borka Medjo, Vincent Blay, Christa Kohnert, Jennifer T. Stanton, Alexander Brown, Nebojsa Tijanic, Cailen McCloskey, Rebecca Viazzo, Rebecca Consbruck, Hayley Carter, Simon Levine, Shaheed Abdulhaqq, Jacob Shaul, Abigail B. Ventura, Randal S. Olson, Engin Yapici, Joshua Meier, Sean McClain, Matthew Weinstock, Gregory Hannum, Ariel Schwartz, Miles Gander, Roberto Spreafico  
+[bioRxiv 2022.08.16.504181](https://www.biorxiv.org/content/10.1101/2022.08.16.504181v1)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
