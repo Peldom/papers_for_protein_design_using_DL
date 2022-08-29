@@ -2,7 +2,7 @@
 
 ## About this repository
 
-> Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**, we started making this dynamic repository as a record of latest papers/projects in this field for the newcomers like us:  
+> Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**(some ML model are also included), we started making this dynamic repository as a record of latest papers/projects in this field for the newcomers like us:  
 >
 >1. Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
@@ -37,6 +37,7 @@
     - [2.5 MSA-transformer-based](#25-msa-transformer-based)
     - [2.6 DeepAb-based](#26-deepab-based)
     - [2.7 TRFold2-based](#27-trfold2-based)
+    - [2.8 Related-algorithms](#28-related-algorithms)
   - [3. Function to Scaffold](#3-function-to-scaffold)
     - [3.1 GAN-based](#31-gan-based)
     - [3.2 VAE-based](#32-vae-based)
@@ -65,6 +66,8 @@
     - [5.8 Flow-based](#58-flow-based)
     - [5.9 RNN-based](#59-rnn-based)
     - [5.10 LSTM-based](#510-lstm-based)
+    - [5.11 Autoregressive-models](#511-autoregressive-models)
+    - [5.12 Boltzmann-machine-based](#512-boltzmann-machine-based)
   - [6. Function to Structure](#6-function-to-structure)
     - [6.1 LSTM-based](#61-lstm-based)
     - [6.2 Diffusion-based](#62-diffusion-based)
@@ -148,6 +151,14 @@ Wenze Ding, Kenta Nakai, Haipeng Gong
 **Deep generative modeling for protein design**  
 Strokach, Alexey, and Philip M. Kim.  
 [Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/pii/S0959440X21001573) || 2022  
+
+**Deep learning approaches for conformational flexibility and switching properties in protein design**  
+Rudden, Lucas SP, Mahdi Hijazi, and Patrick Barth  
+[Frontiers in Molecular Biosciences](https://www.frontiersin.org/articles/10.3389/fmolb.2022.928534/full)
+
+**proteindesignDLmethods**
+Noelia Ferruz, Christian Dallago, michaelheinzinger
+preprint coming soon || [accompanying list](https://github.com/hefeda/tmp/blob/main/proteindesignDLmethods.md)
 
 ### 1.2 Antibody design
 
@@ -249,11 +260,21 @@ Sai Pooja Mahajan, Jeffrey A Ruffolo, Rahel Frick, Jeffrey J. Gray
 [TIANRANG XLab](https://www.tianrang.com/xlab)  
 Unpublished yet (June 2022) || code unavailable
 
+### 2.8 Related-algorithms
+
+**Autofocused oracles for model-based design**
+Fannjiang, Clara, and Jennifer Listgarten.  
+[Advances in Neural Information Processing Systems 33 (2020)](https://proceedings.neurips.cc/paper/2020/file/972cda1e62b72640cb7ac702714a115f-Paper.pdf)
+
 ## 3. Function to Scaffold
 
-> These models design backbone/scaffold/template.
+> These models design backbone/scaffold/template in Cartesian coordinates, contact maps, distance maps or φ & ψ angles
 
 ### 3.1 GAN-based
+
+**Generative modeling for protein structures**  
+Anand, Namrata, and Possu Huang.  
+[NeurIPS 2018](https://proceedings.neurips.cc/paper/2018/file/afa299a4d1d8c52e75dd8a24c3ce534f-Paper.pdf)
 
 **Conditioning by adaptive sampling for robust design**  
 Brookes, David, Hahnbeom Park, and Jennifer Listgarten.  
@@ -273,9 +294,13 @@ Sabban, Sari, and Mikhail Markovsky.
 Raphael R. Eguchi, Christian A. Choe, Po-Ssu Huang  
 [Biorxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.08.07.242347v2) || without code ||  
 
+**Generating tertiary protein structures via an interpretative variational autoencoder**  
+Guo, Xiaojie, et al  
+[arXiv preprint arXiv:2004.07119 (2020)](https://arxiv.org/abs/2004.07119) || code not available
+
 **Deep sharpening of topological features for de novo protein design**  
 Harteveld, Zander, et al.  
-[ICLR2022 Machine Learning for Drug Discovery. 2022](https://openreview.net/forum?id=DwN81YIXGQP)
+[ICLR2022 Machine Learning for Drug Discovery. 2022](https://openreview.net/forum?id=DwN81YIXGQP) || code not available
 
 **End-to-End deep structure generative model for protein design**  
 Boqiao Lai, matthew McPartlon, Jinbo Xu  
@@ -291,7 +316,7 @@ Vladimir Gligorijevic, Stephen Ra, Daniel Berenberg, Richard Bonneau, Kyunghyun 
 
 **A backbone-centred energy function of neural networks for protein design**  
 Huang, B., Xu, Y., Hu, X. et al  
-[Nature (2022)](https://doi.org/10.1038/s41586-021-04383-5)
+[Nature (2022)](https://doi.org/10.1038/s41586-021-04383-5) || [code](https://zenodo.org/record/4533424#.YwP3UPFBwqs)
 
 ### 3.5 Diffusion-based
 
@@ -433,7 +458,7 @@ Cao, Yue, et al.
 
 **Rotamer-Free Protein Sequence Design Based on Deep Learning and Self-Consistency**  
 Liu, Yufeng, et al.  
-[Nature portfolio (2022)](https://www.researchsquare.com/article/rs-1209166/v1)/[Nature computational science(2022)](https://www.nature.com/articles/s43588-022-00273-6) || [Supplymentary](https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00273-6/MediaObjects/43588_2022_273_MOESM1_ESM.pdf) || [Comment](https://www.nature.com/articles/s43588-022-00274-5)
+[Nature portfolio (2022)](https://www.researchsquare.com/article/rs-1209166/v1)/[Nature computational science(2022)](https://www.nature.com/articles/s43588-022-00273-6) || [Supplymentary](https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00273-6/MediaObjects/43588_2022_273_MOESM1_ESM.pdf) || [Comment](https://www.nature.com/articles/s43588-022-00274-5) || [code](https://codeocean.com/capsule/6949436/tree/v1)
 
 **A Deep SE(3)-Equivariant Model for Learning Inverse Protein Folding**  
 Mmatthew McPartlon, Ben Lai, Jinbo Xu  
@@ -517,10 +542,6 @@ Chen, Qushuo, et al.
 
 ### 5.3 GAN-based
 
-**Generative modeling for protein structures**  
-Anand, Namrata, and Possu Huang.  
-[NeurIPS 2018](https://proceedings.neurips.cc/paper/2018/file/afa299a4d1d8c52e75dd8a24c3ce534f-Paper.pdf)
-
 **Generating protein sequences from antibiotic resistance genes data using Generative Adversarial Networks**  
 Chhibbar, Prabal, and Arpit Joshi.  
 [arXiv preprint arXiv:1904.13240 (2019)](https://arxiv.org/abs/1904.13240)
@@ -543,7 +564,7 @@ Kucera, Tim, Matteo Togninalli, and Laetitia Meng-Papaxanthos
 
 **Expanding functional protein sequence spaces using generative adversarial networks**  
 Repecka, Donatas, et al.  
-[Nature Machine Intelligence 3.4 (2021)](https://www.nature.com/articles/s42256-021-00310-5)
+[Nature Machine Intelligence 3.4 (2021)](https://www.nature.com/articles/s42256-021-00310-5) || [code](https://github.com/Biomatter-Designs/ProteinGAN)
 
 **A Generative Approach toward Precision Antimicrobial Peptide Design.**  
 Ferrell, Jonathon B., et al.  
@@ -565,7 +586,7 @@ Surana, Shraddha, et al.
 
 **Progen: Language modeling for protein generation**  
 Madani, Ali, et al.  
-[arXiv preprint arXiv:2004.03497 (2020)](https://arxiv.org/abs/2004.03497)
+[arXiv preprint arXiv:2004.03497 (2020)](https://arxiv.org/abs/2004.03497) || [code](https://github.com/salesforce/progen)
 
 **Signal peptides generated by attention-based neural networks**  
 Wu, Zachary, et al.  
@@ -579,6 +600,14 @@ Shuai, Richard W., Jeffrey A. Ruffolo, and Jeffrey J. Gray.
 Madani, Ali, et al.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.07.18.452833.abstract)  
 
+**ProtTrans: towards cracking the language of Life's code through self-supervised deep learning and high performance computing**  
+Elnaggar, Ahmed, et al.  
+[arXiv preprint arXiv:2007.06225 (2020)](https://ieeexplore.ieee.org/document/9477085)
+
+**Protein sequence sampling and prediction from structural data**  
+Gabriel A. Orellana, Javier Caceres-Delpiano, Roberto Ibañez, Michael P. Dunne, Leonardo Alvarez  
+[bioRxiv 2021.09.06.459171](https://www.biorxiv.org/content/10.1101/2021.09.06.459171v3)
+
 **BioPhi: A platform for antibody design, humanization, and humanness evaluation based on natural antibody repertoires and deep learning**  
 Prihoda, David, et al.  
 [mAbs. Vol. 14. No. 1. Taylor & Francis, 2022](tandfonline.com/doi/full/10.1080/19420862.2021.2020203)
@@ -586,6 +615,10 @@ Prihoda, David, et al.
 **Guided Generative Protein Design using Regularized Transformers**  
 Castro, Egbert, et al.  
 [arXiv preprint arXiv:2201.09948 (2022)](https://arxiv.org/abs/2201.09948)
+
+**Towards Controllable Protein design with Conditional Transformers**  
+Ferruz Noelia, and Birte Höcker.  
+[arXiv preprint arXiv:2201.07338 (2022)](https://arxiv.org/abs/2201.07338)/[Nature Machine Intelligence (2022)](https://www.nature.com/articles/s42256-022-00499-z) || review of [Heading 5.4](#54-transformer-based)
 
 **ProtGPT2 is a deep unsupervised language model for protein design**  
 Noelia Ferruz,  View ProfileSteffen Schmidt,  View ProfileBirte Höcker  
@@ -595,9 +628,9 @@ Noelia Ferruz,  View ProfileSteffen Schmidt,  View ProfileBirte Höcker
 Ram, Soumya, and Tristan Bepler.  
 [arXiv preprint arXiv:2204.01168 (2022)](https://arxiv.org/abs/2204.01168)
 
-**Towards Controllable Protein design with Conditional Transformers**  
-Ferruz Noelia, and Birte Höcker.  
-[arXiv preprint arXiv:2201.07338 (2022)](https://arxiv.org/abs/2201.07338)/[Nature Machine Intelligence (2022)](https://www.nature.com/articles/s42256-022-00499-z) || review of [Heading 5.4](#54-transformer-based)
+**RITA: a Study on Scaling Up Generative Protein Sequence Models**  
+Hesslow, Daniel, et al.  
+[arXiv preprint arXiv:2205.05789 (2022)](https://arxiv.org/abs/2205.05789) || [code](https://huggingface.co/lightonai/RITA_xl)
 
 **ProGen2: Exploring the Boundaries of Protein Language Models**  
 Erik Nijkamp, Jeffrey Ruffolo, Eli N. Weinstein, Nikhil Naik, Ali Madani  
@@ -691,6 +724,18 @@ Schissel, Carly K., et al.
 Akbar, Rahmad, et al.  
 [Mabs. Vol. 14. No. 1. Taylor & Francis, 2022](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8986205/pdf/KMAB_14_2031482.pdf) || [code](https://github.com/csi-greifflab/manuscript_insilico_antibody_generation)
 
+### 5.11 Autoregressive-models
+
+**Efficient generative modeling of protein sequences using simple autoregressive models**  
+Trinquier, Jeanne, et al.  
+[Nature communications 12.1 (2021): 1-11](https://www.nature.com/articles/s41467-021-25756-4) || [code](https://github.com/pagnani/ArDCA.jl)
+
+### 5.12 Boltzmann-machine-based
+
+**How pairwise coevolutionary models capture the collective residue variability in proteins?**  
+Figliuzzi, Matteo, Pierre Barrat-Charlaix, and Martin Weigt.  
+[Molecular biology and evolution 35.4 (2018): 1018-1027](https://academic.oup.com/mbe/article/35/4/1018/4815777) || [code](https://github.com/matteofigliuzzi/bmDCA)
+
 ## 6. Function to Structure
 
 > These models generate structures(including side chains) from expected function or recover a part of structures(aka. **inpainting**)
@@ -731,13 +776,17 @@ Adam J. Riesselman, John B. Ingraham & Debora S. Marks
 Xinqiang Ding, Zhengting Zou & Charles L. Brooks III  
 [Nature Communications](https://www.nature.com/articles/s41467-019-13633-0) || [code::PEVAE](https://github.com/xqding/PEVAE_Paper) || Dec 2019
 
+**Epistatic Net allows the sparse spectral regularization of deep neural networks for inferring fitness functions**  
+Amirali Aghazadeh, Hunter Nisonoff, Orhan Ocal, David H. Brookes, Yijie Huang, O. Ozan Koyluoglu, Jennifer Listgarten & Kannan Ramchandran  
+[Nature Communications](https://www.nature.com/articles/s41467-021-25371-3) || [code](https://github.com/amirmohan/epistatic-net) || Sep 2021  
+
 **The generative capacity of probabilistic protein sequence models**
 Francisco McGee, Sandro Hauri, Quentin Novinger, Slobodan Vucetic, Ronald M. Levy, Vincenzo Carnevale & Allan Haldane  
 [Nature Communications](https://www.nature.com/articles/s41467-021-26529-9) || [code::generation_capacity_metrics](https://github.com/alagauche/generative_capacity_metrics) || [code::sVAE](https://github.com/ahaldane/MSA_VAE) || Nov 2021  
 
-**Epistatic Net allows the sparse spectral regularization of deep neural networks for inferring fitness functions**  
-Amirali Aghazadeh, Hunter Nisonoff, Orhan Ocal, David H. Brookes, Yijie Huang, O. Ozan Koyluoglu, Jennifer Listgarten & Kannan Ramchandran  
-[Nature Communications](https://www.nature.com/articles/s41467-021-25371-3) || [code](https://github.com/amirmohan/epistatic-net) || Sep 2021  
+**Learning the local landscape of protein structures with convolutional neural networks**  
+Kulikova, Anastasiya V., et al  
+[Journal of Biological Physics 47.4 (2021)](https://link.springer.com/article/10.1007/s10867-021-09593-6)
 
 **Proximal Exploration for Model-guided Protein Sequence Design**  
 Zhizhou Ren, Jiahan Li, Fan Ding, Yuan Zhou, Jianzhu Ma, Jian Peng  
@@ -758,6 +807,10 @@ Ruyun Hu, Lihao Fu, Yongcan Chen, Junyu Chen, Yu Qiao, Tong Si
 **Antibody optimization enabled by artificial intelligence predictions of binding affinity and naturalness**  
 Sharrol Bachas, Goran Rakocevic, David Spencer, Anand V. Sastry, Robel Haile, John M. Sutton, George Kasun, Andrew Stachyra, Jahir M. Gutierrez, Edriss Yassine, Borka Medjo, Vincent Blay, Christa Kohnert, Jennifer T. Stanton, Alexander Brown, Nebojsa Tijanic, Cailen McCloskey, Rebecca Viazzo, Rebecca Consbruck, Hayley Carter, Simon Levine, Shaheed Abdulhaqq, Jacob Shaul, Abigail B. Ventura, Randal S. Olson, Engin Yapici, Joshua Meier, Sean McClain, Matthew Weinstock, Gregory Hannum, Ariel Schwartz, Miles Gander, Roberto Spreafico  
 [bioRxiv 2022.08.16.504181](https://www.biorxiv.org/content/10.1101/2022.08.16.504181v1)
+
+**Construction of a Deep Neural Network Energy Function for Protein Physics**  
+Yang, Huan, Zhaoping Xiong, and Francesco Zonta  
+[Journal of Chemical Theory and Computation (2022)](https://pubs.acs.org/doi/10.1021/acs.jctc.2c00069)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
