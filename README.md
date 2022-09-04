@@ -2,7 +2,7 @@
 
 ## About this repository
 
-> Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**(some ML model are also included), we started making this dynamic repository as a record of latest papers/projects in this field for the newcomers like us:  
+> Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**(some ML models are also included), we started making this dynamic repository as a record of latest papers/projects in this field for the newcomers like us:  
 >
 >1. Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
@@ -12,7 +12,7 @@
 
 ## Menu
 
-> Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7molecular-design-models) follow other ML/DL strategies.  
+> Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7-other-tasks) follow other ML/DL strategies.  
 
 - [List of papers about Proteins Design using Deep Learning](#list-of-papers-about-proteins-design-using-deep-learning)
   - [About this repository](#about-this-repository)
@@ -72,7 +72,8 @@
     - [6.1 LSTM-based](#61-lstm-based)
     - [6.2 Diffusion-based](#62-diffusion-based)
     - [6.3 RoseTTAFold-based](#63-rosettafold-based)
-    - [6.4 Masif-based](#64-masif-based)
+    - [6.4 CNN-based](#64-cnn-based)
+    - [6.5 GNN-based](#65-gnn-based)
   - [7. Other tasks](#7-other-tasks)
     - [7.1 Effects of mutation & Fitness Landscape](#71-effects-of-mutation--fitness-landscape)
     - [7.2 Protein Language Models (PTM) and representation learning](#72-protein-language-models-ptm-and-representation-learning)
@@ -136,6 +137,10 @@ Jonathan E. King, David Ryan Koes
 Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray  
 [Patterns 1.9](https://www.sciencedirect.com/science/article/pii/S2666389920301902) || 2020  
 
+**Deep learning techniques have significantly impacted protein structure prediction and protein design**  
+Pearce, Robin, and Yang Zhang.  
+[Current opinion in structural biology 68 (2021)](https://www.sciencedirect.com/science/article/pii/S0959440X21000142)
+
 **Protein sequence design with deep generative models**  
 Zachary Wu, Kadina E. Johnston, Frances H. Arnold, Kevin K. Yang  
 [Current Opinion in Chemical Biology](https://www.sciencedirect.com/science/article/pii/S136759312100051X) || [note](https://zhuanlan.zhihu.com/p/466616309) || 2021  
@@ -156,9 +161,9 @@ Strokach, Alexey, and Philip M. Kim.
 Rudden, Lucas SP, Mahdi Hijazi, and Patrick Barth  
 [Frontiers in Molecular Biosciences](https://www.frontiersin.org/articles/10.3389/fmolb.2022.928534/full)
 
-**proteindesignDLmethods**
-Noelia Ferruz, Christian Dallago, michaelheinzinger
-preprint coming soon || [accompanying list](https://github.com/hefeda/tmp/blob/main/proteindesignDLmethods.md)
+**From sequence to function through structure: deep learning for protein design**  
+Noelia Ferruz, Michael Heinzinger, Mehmet Akdel, Alexander Goncearenco, Luca Naef, Christian Dallago  
+[bioRxiv 2022.08.31.505981](https://www.biorxiv.org/content/10.1101/2022.08.31.505981v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/09/03/2022.08.31.505981/DC1/embed/media-1.pdf?download=true) || [accompanying list](https://github.com/hefeda/design_tools/blob/main/README.md)
 
 ### 1.2 Antibody design
 
@@ -262,13 +267,13 @@ Unpublished yet (June 2022) || code unavailable
 
 ### 2.8 Related-algorithms
 
-**Autofocused oracles for model-based design**
+**Autofocused oracles for model-based design**  
 Fannjiang, Clara, and Jennifer Listgarten.  
 [Advances in Neural Information Processing Systems 33 (2020)](https://proceedings.neurips.cc/paper/2020/file/972cda1e62b72640cb7ac702714a115f-Paper.pdf)
 
 ## 3. Function to Scaffold
 
-> These models design backbone/scaffold/template in Cartesian coordinates, contact maps, distance maps or φ & ψ angles
+> These models design backbone/scaffold/template in Cartesian coordinates, contact maps, distance maps and φ & ψ angles.
 
 ### 3.1 GAN-based
 
@@ -654,7 +659,7 @@ Tallorin, Lorillee, et al.
 
 **Now What Sequence? Pre-trained Ensembles for Bayesian Optimization of Protein Sequences**  
 Ziyue Yang, Katarina A Milas, Andrew D White  
-[bioRxiv 2022.08.05.502972](https://www.biorxiv.org/content/10.1101/2022.08.05.502972v1) || [code](https://github.com/ur-whitelab/wazy) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/08/06/2022.08.05.502972/DC1/embed/media-1.pdf?download=true)
+[bioRxiv 2022.08.05.502972](https://www.biorxiv.org/content/10.1101/2022.08.05.502972v2) || [code](https://github.com/ur-whitelab/wazy) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/08/06/2022.08.05.502972/DC1/embed/media-1.pdf?download=true) || [Colab](https://colab.research.google.com/github/ur-whitelab/wazy/blob/master/colab/WazyAlphaFold2.ipynb)
 
 **Lattice protein design using Bayesian learning**  
 Takahashi, Tomoei, George Chikenji, and Kei Tokita.  
@@ -758,11 +763,17 @@ Namrata Anand, Tudor Achim
 Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
 [bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387)/[Science(2022)](https://www.science.org/doi/10.1126/science.abn2100) || [RFDesign](https://github.com/RosettaCommons/RFDesign) || [our notes](https://zhuanlan.zhihu.com/p/477854488) || [lecture](https://www.youtube.com/watch?v=-EJ8SXTBin0) || [RoseTTAFold](https://github.com/RosettaCommons/RoseTTAFold) || [Supplymentary](https://www.science.org/doi/suppl/10.1126/science.abn2100/suppl_file/science.abn2100_sm.pdf), [Other supplymentary](https://www.science.org/doi/suppl/10.1126/science.abn2100/suppl_file/science.abn2100_data_s1_and_s2.zip)
 
-### 6.4 Masif-based
+### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**  
 Wehrle, Sarah, et al.  
 [Protein Science 30.CONF (2021)](https://infoscience.epfl.ch/record/290120)/[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.16.496402v1) || [supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/17/2022.06.16.496402/DC1/embed/media-1.pdf?download=true) || [masif_seed](https://github.com/LPDI-EPFL/masif_seed) || [masif](https://github.com/LPDI-EPFL/masif)
+
+### 6.5 GNN-based
+
+**Antibody Complementarity Determining Regions (CDRs) design using Constrained Energy Model**  
+Fu, Tianfan, and Jimeng Sun.  
+[Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 2022](https://dl.acm.org/doi/abs/10.1145/3534678.3539285) || [code](https://github.com/futianfan/energy_model4antibody_design)
 
 ## 7. Other tasks
 
