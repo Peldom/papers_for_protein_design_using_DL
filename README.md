@@ -231,6 +231,10 @@ Basile I M Wicky, Lukas F Milles, Alexis Courbet, Robert J Ragotte, Justas Daupa
 Patrick Bryant, Arne Elofsson  
 [bioRxiv 2022.07.23.501214](https://www.biorxiv.org/content/10.1101/2022.07.23.501214v1) || [code](https://github.com/patrickbryant1/EvoBind)
 
+**Hallucination of closed repeat proteins containing central pockets**  
+Linna An, Derrick R Hicks, Dmitri Zorine, Justas Dauparas, Basile I. M. Wicky, Lukas F Milles, Alexis Courbet, Asim K. Bera, Hannah Nguyen, Alex Kang, Lauren Carter, David Baker  
+[bioRxiv 2022.09.01.506251](https://www.biorxiv.org/content/10.1101/2022.09.01.506251v1)
+
 ### 2.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
@@ -246,8 +250,8 @@ Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai
 ### 2.5 MSA-transformer-based
 
 **Protein language models trained on multiple sequence alignments learn phylogenetic relationships**  
-Lupo, Umberto, Damiano Sgarbossa, and Anne-Florence Bitbol.  
-[arXiv preprint arXiv:2203.15465 (2022)](https://arxiv.org/abs/2203.15465)
+Damiano Sgarbossa, Umberto Lupo, Anne-Florence Bitbol  
+[arXiv preprint arXiv:2203.15465 (2022)](https://arxiv.org/abs/2203.15465)/[bioRxiv 2022.04.14.488405](https://www.biorxiv.org/content/10.1101/2022.04.14.488405v1)
 
 ### 2.6 DeepAb-based
 
@@ -261,9 +265,9 @@ Sai Pooja Mahajan, Jeffrey A Ruffolo, Rahel Frick, Jeffrey J. Gray
 
 ### 2.7 TRFold2-based
 
-[TRDesign](https://mp.weixin.qq.com/s/UIFXwk5H3Sb8Sxk_72ykPw)  
+[News of TRDesign](https://mp.weixin.qq.com/s/OQzKawtL9RdK9HzYsfu80g)  
 [TIANRANG XLab](https://www.tianrang.com/xlab)  
-Unpublished yet (June 2022) || code unavailable
+paper unavailable || [slides](https://pan.baidu.com/share/init?surl=4AOW_D9dwlvC7VGGZA2tmQ&pwd=ffui)
 
 ### 2.8 Related-algorithms
 
@@ -337,7 +341,7 @@ Jin Sub Lee, Philip M Kim
 
 ## 4.Scaffold to Sequence
 
-> Identify amino sequence from given backbone/scaffold/template constrains: torsion angles(φ & ψ), backbone angles(θ and τ), backbone dihedrals (φ, ψ & ω), backbone atoms (Cα, N, C, & O), Cα − Cα distance, unit direction vectors of Cα−Cα, Cα−N & Cα−C, etc(aka. inverse folding). Referred from [here](https://arxiv.org/abs/2202.01079).  
+> Identify amino sequence from given backbone/scaffold/template constrains: torsion angles(φ & ψ), backbone angles(θ and τ), backbone dihedrals (φ, ψ & ω), backbone atoms (Cα, N, C, & O), Cα − Cα distance, unit direction vectors of Cα−Cα, Cα−N & Cα−C, etc(aka. inverse folding). Referred from [here](https://arxiv.org/abs/2202.01079). Energy-based models are also inculded for task of rotamer conformation(χ angles or atom coordinates) recovery.  
 
 ### 4.1 MLP-based
 
@@ -440,6 +444,10 @@ Alex J. Li, Mindren Lu, Israel Desta, Vikram Sundar, Gevorg Grigoryan, and Amy E
 **Conditional Antibody Design as 3D Equivariant Graph Translation**  
 Xiangzhe Kong, Wenbing Huang, Yang Liu  
 [arXiv:2208.06073](https://arxiv.org/abs/2208.06073)
+
+**SE(3) Equivalent Graph Attention Network as an Energy-Based Model for Protein Side Chain Conformation**  
+Deqin Liu, Sheng Chen, Shuangjia Zheng, Sen Zhang, Yuedong Yang  
+[bioRxiv 2022.09.05.506704](https://www.biorxiv.org/content/10.1101/2022.09.05.506704v1) || [code](https://github.com/biomed-AI/GraphEBM)
 
 ### 4.6 GAN-based
 
@@ -822,6 +830,10 @@ Sharrol Bachas, Goran Rakocevic, David Spencer, Anand V. Sastry, Robel Haile, Jo
 **Construction of a Deep Neural Network Energy Function for Protein Physics**  
 Yang, Huan, Zhaoping Xiong, and Francesco Zonta  
 [Journal of Chemical Theory and Computation (2022)](https://pubs.acs.org/doi/10.1021/acs.jctc.2c00069)
+
+**Inferring protein fitness landscapes from laboratory evolution experiments**  
+Sameer D’Costa, Emily C. Hinds, Chase R. Freschlin, Hyebin Song, Philip A. Romero  
+[bioRxiv 2022.09.01.506224](https://www.biorxiv.org/content/10.1101/2022.09.01.506224v1) || [supplymentary](https://www.biorxiv.org/content/10.1101/2022.09.01.506224v1.supplementary-material)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
