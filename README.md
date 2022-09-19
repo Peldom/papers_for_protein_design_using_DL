@@ -225,7 +225,7 @@ Moffat, Lewis, Joe G. Greener, and David T. Jones.
 
 **Hallucinating protein assemblies**  
 Basile I M Wicky, Lukas F Milles, Alexis Courbet, Robert J Ragotte, Justas Dauparas, Elias Kinfu, Sam Tipps, Ryan D Kibler, Minkyung Baek, Frank DiMaio, Xinting Li, Lauren Carter, Alex Kang, Hannah Nguyen, Asim K Bera, David Baker  
-[bioRxiv 2022.06.09.493773](https://www.biorxiv.org/content/10.1101/2022.06.09.493773v1) || [related slides](https://docs.google.com/presentation/d/1_tvzLKks83sYOKemfFeImCPnWtCQ-CHqmKK_3IQI1so/) || [our notes](https://zhuanlan.zhihu.com/p/527152827)
+[bioRxiv 2022.06.09.493773](https://www.biorxiv.org/content/10.1101/2022.06.09.493773v1)/[Science (2022)](https://www.science.org/doi/10.1126/science.add1964) || [related slides](https://docs.google.com/presentation/d/1_tvzLKks83sYOKemfFeImCPnWtCQ-CHqmKK_3IQI1so/) || [our notes](https://zhuanlan.zhihu.com/p/527152827) || [news](https://www.nature.com/articles/d41586-022-02947-7)
 
 **EvoBind: in silico directed evolution of peptide binders with AlphaFold**  
 Patrick Bryant, Arne Elofsson  
@@ -435,7 +435,7 @@ Kevin K Yang, Hugh Yeh, Niccolò Zanichelli
 
 **Robust deep learning based protein sequence design using ProteinMPNN**  
 Justas Dauparas, Ivan Anishchenko, Nathaniel Bennett, Hua Bai, Robert J. Ragotte, Lukas F. Milles, Basile I. M. Wicky, Alexis Courbet, Robbert J. de Haas, Neville Bethel, Philip J. Y. Leung, Timothy F. Huddy, Sam Pellock, Doug Tischer, Frederick Chan, Brian Koepnick, Hannah Nguyen, Alex Kang, Banumathi Sankaran, Asim Bera, Neil P. King, David Baker  
-[bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics)/ || [code](https://github.com/dauparas/ProteinMPNN) || [hugging face](https://huggingface.co/spaces/simonduerr/ProteinMPNN)
+[bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics)/[Science (2022)](https://www.science.org/doi/10.1126/science.add2187) || [code](https://github.com/dauparas/ProteinMPNN) || [hugging face](https://huggingface.co/spaces/simonduerr/ProteinMPNN)
 
 **Neural Network-Derived Potts Models for Structure-Based Protein Design using Backbone Atomic Coordinates and Tertiary Motifs**  
 Alex J. Li, Mindren Lu, Israel Desta, Vikram Sundar, Gevorg Grigoryan, and Amy E. Keating  
@@ -597,6 +597,8 @@ Surana, Shraddha, et al.
 
 ### 5.4 Transformer-based
 
+> Including maked language models and autoregressive language models.
+
 **Progen: Language modeling for protein generation**  
 Madani, Ali, et al.  
 [arXiv preprint arXiv:2004.03497 (2020)](https://arxiv.org/abs/2004.03497) || [code](https://github.com/salesforce/progen)
@@ -652,6 +654,10 @@ Erik Nijkamp, Jeffrey Ruffolo, Eli N. Weinstein, Nikhil Naik, Ali Madani
 **AbBERT: Learning Antibody Humanness via Masked Language Modeling**  
 Denis Vashchenko, Sam Nguyen, Andre Goncalves, Felipe Leno da Silva, Brenden Petersen, Thomas Desautels, Daniel Faissol  
 [bioRxiv 2022.08.02.502236](https://doi.org/10.1101/2022.08.02.502236)
+
+**Accelerating Antibody Design with Active Learning**  
+Seung-woo Seo, Min Woo Kwak, Eunji Kang, Chaeun Kim, Eunyoung Park, Tae Hyun Kang, Jinhan Kim  
+[bioRxiv 2022.09.12.507690](https://www.biorxiv.org/content/10.1101/2022.09.12.507690v1)
 
 ### 5.5 ResNet-based
 
