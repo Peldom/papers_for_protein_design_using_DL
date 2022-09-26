@@ -285,10 +285,6 @@ Fannjiang, Clara, and Jennifer Listgarten.
 Anand, Namrata, and Possu Huang.  
 [NeurIPS 2018](https://proceedings.neurips.cc/paper/2018/file/afa299a4d1d8c52e75dd8a24c3ce534f-Paper.pdf)
 
-**Conditioning by adaptive sampling for robust design**  
-Brookes, David, Hahnbeom Park, and Jennifer Listgarten.  
-[International conference on machine learning. PMLR, 2019](http://proceedings.mlr.press/v97/brookes19a/brookes19a.pdf)  || without code  
-
 **Fully differentiable full-atom protein backbone generation**  
 Anand Namrata, Raphael Eguchi, and Po-Ssu Huang.  
 [OpenReview ICLR 2019 workshop DeepGenStruct](https://openreview.net/forum?id=SJxnVL8YOV) || without code  
@@ -298,6 +294,10 @@ Sabban, Sari, and Mikhail Markovsky.
 [F1000Research 9 (2020)](http://f1000researchdata.s3.amazonaws.com/manuscripts/29106/f45e92eb-5d68-4da0-b918-91ded85d2e7d_22907_-_sari_sabban_v2.pdf) || [code](https://sarisabban.github.io/RamaNet/) || pyRosetta || tensorflow || maximizaing the fluorescence of a protein  
 
 ### 3.2 VAE-based
+
+**Conditioning by adaptive sampling for robust design**  
+Brookes, David, Hahnbeom Park, and Jennifer Listgarten.  
+[International conference on machine learning. PMLR, 2019](http://proceedings.mlr.press/v97/brookes19a/brookes19a.pdf)  || without code  
 
 **IG-VAE: generative modeling of immunoglobulin proteins by direct 3D coordinate generation**  
 Raphael R. Eguchi, Christian A. Choe, Po-Ssu Huang  
@@ -435,7 +435,7 @@ Kevin K Yang, Hugh Yeh, Niccolò Zanichelli
 
 **Robust deep learning based protein sequence design using ProteinMPNN**  
 Justas Dauparas, Ivan Anishchenko, Nathaniel Bennett, Hua Bai, Robert J. Ragotte, Lukas F. Milles, Basile I. M. Wicky, Alexis Courbet, Robbert J. de Haas, Neville Bethel, Philip J. Y. Leung, Timothy F. Huddy, Sam Pellock, Doug Tischer, Frederick Chan, Brian Koepnick, Hannah Nguyen, Alex Kang, Banumathi Sankaran, Asim Bera, Neil P. King, David Baker  
-[bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics)/[Science (2022)](https://www.science.org/doi/10.1126/science.add2187) || [code](https://github.com/dauparas/ProteinMPNN) || [hugging face](https://huggingface.co/spaces/simonduerr/ProteinMPNN)
+[bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics)/[Science (2022)](https://www.science.org/doi/10.1126/science.add2187) || [code](https://github.com/dauparas/ProteinMPNN) || [hugging face](https://huggingface.co/spaces/simonduerr/ProteinMPNN) || [lecture](https://www.youtube.com/watch?v=aVQQuoToTJA)
 
 **Neural Network-Derived Potts Models for Structure-Based Protein Design using Backbone Atomic Coordinates and Tertiary Motifs**  
 Alex J. Li, Mindren Lu, Israel Desta, Vikram Sundar, Gevorg Grigoryan, and Amy E. Keating  
@@ -517,6 +517,10 @@ Shin, Jung-Eun, et al.
 Sinai, Sam, et al.  
 [arXiv preprint arXiv:1712.03346 (2017)](https://arxiv.org/abs/1712.03346)
 
+**Design by adaptive sampling**  
+Brookes, David H., and Jennifer Listgarten.  
+[arXiv preprint arXiv:1810.03714 (2018)](https://arxiv.org/abs/1810.03714)
+
 **Pepcvae: Semi-supervised targeted design of antimicrobial peptide sequences**  
 Das, Payel, et al.  
 [arXiv preprint arXiv:1810.07743 (2018)](https://arxiv.org/abs/1810.07743)
@@ -554,6 +558,10 @@ Chen, Qushuo, et al.
 [Journal of Chemical Information and Modeling (2022)](https://pubs.acs.org/doi/10.1021/acs.jcim.2c00089) || [code](https://github.com/TimothyChen225/GM-Pep)
 
 ### 5.3 GAN-based
+
+**Feedback GAN for DNA optimizes protein functions**  
+Gupta, Anvita, and James Zou.  
+[Nature Machine Intelligence 1.2 (2019)](https://www.nature.com/articles/s42256-019-0017-4) || [code](https://github.com/av1659/fbgan)
 
 **Generating protein sequences from antibiotic resistance genes data using Generative Adversarial Networks**  
 Chhibbar, Prabal, and Arpit Joshi.  
@@ -743,6 +751,10 @@ Schissel, Carly K., et al.
 Akbar, Rahmad, et al.  
 [Mabs. Vol. 14. No. 1. Taylor & Francis, 2022](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8986205/pdf/KMAB_14_2031482.pdf) || [code](https://github.com/csi-greifflab/manuscript_insilico_antibody_generation)
 
+**Large-scale design and refinement of stable proteins using sequence-only models**  
+Singer, Jedediah M., et al.  
+[PloS one 17.3 (2022)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0265020) || [code](https://zenodo.org/record/4906529)
+
 ### 5.11 Autoregressive-models
 
 **Efficient generative modeling of protein sequences using simple autoregressive models**  
@@ -830,7 +842,7 @@ Ruyun Hu, Lihao Fu, Yongcan Chen, Junyu Chen, Yu Qiao, Tong Si
 [bioRxiv 2022.08.11.503535](https://www.biorxiv.org/content/10.1101/2022.08.11.503535v1)
 
 **Antibody optimization enabled by artificial intelligence predictions of binding affinity and naturalness**  
-Sharrol Bachas, Goran Rakocevic, David Spencer, Anand V. Sastry, Robel Haile, John M. Sutton, George Kasun, Andrew Stachyra, Jahir M. Gutierrez, Edriss Yassine, Borka Medjo, Vincent Blay, Christa Kohnert, Jennifer T. Stanton, Alexander Brown, Nebojsa Tijanic, Cailen McCloskey, Rebecca Viazzo, Rebecca Consbruck, Hayley Carter, Simon Levine, Shaheed Abdulhaqq, Jacob Shaul, Abigail B. Ventura, Randal S. Olson, Engin Yapici, Joshua Meier, Sean McClain, Matthew Weinstock, Gregory Hannum, Ariel Schwartz, Miles Gander, Roberto Spreafico  
+Bachas, Sharrol, et al.   
 [bioRxiv 2022.08.16.504181](https://www.biorxiv.org/content/10.1101/2022.08.16.504181v1)
 
 **Construction of a Deep Neural Network Energy Function for Protein Physics**  
@@ -886,7 +898,7 @@ Guo, Jeff, et al.
 #### 7.3.2 Optimized sampling
 
 **De novo drug design framework based on mathematical programming method and deep learning model**  
-Yujing Zhao, Qilei Liu*, Xinyuan Wu, Lei Zhang, Jian Du*, Qingwei Meng.  
+Yujing Zhao, Qilei Liu, Xinyuan Wu, Lei Zhang, Jian Du, Qingwei Meng.  
 [AIChE Journal. 2022, e17748](https://doi.org/10.1002/aic.17748)
 
 **Structure-based de novo drug design using 3D deep generative models**  
