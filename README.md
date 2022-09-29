@@ -45,6 +45,7 @@
     - [3.4 MLP-based](#34-mlp-based)
     - [3.5 Diffusion-based](#35-diffusion-based)
     - [3.6 Score-based](#36-score-based)
+    - [3.7 RL-based](#37-rl-based)
   - [4.Scaffold to Sequence](#4scaffold-to-sequence)
     - [4.1 MLP-based](#41-mlp-based)
     - [4.2 VAE-based](#42-vae-based)
@@ -68,6 +69,7 @@
     - [5.10 LSTM-based](#510-lstm-based)
     - [5.11 Autoregressive-models](#511-autoregressive-models)
     - [5.12 Boltzmann-machine-based](#512-boltzmann-machine-based)
+    - [5.13 Diffusion-based](#513-diffusion-based)
   - [6. Function to Structure](#6-function-to-structure)
     - [6.1 LSTM-based](#61-lstm-based)
     - [6.2 Diffusion-based](#62-diffusion-based)
@@ -170,6 +172,10 @@ Noelia Ferruz, Michael Heinzinger, Mehmet Akdel, Alexander Goncearenco, Luca Nae
 **A review of deep learning methods for antibodies**  
 Graves, Jordan, et al.  
 [Antibodies 9.2 (2020)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7344881/pdf/antibodies-09-00012.pdf)
+
+**Progress and challenges for the machine learning-based design of fit-for-purpose monoclonal antibodies**  
+Akbar, Rahmad, et al.  
+[Mabs. Vol. 14. No. 1. Taylor & Francis, 2022](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8928824/)
 
 ### 1.3 Peptide design
 
@@ -339,6 +345,12 @@ Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina 
 Jin Sub Lee, Philip M Kim  
 [bioRxiv 2022.07.13.499967](https://www.biorxiv.org/content/10.1101/2022.07.13.499967v1)
 
+### 3.7 RL-based
+
+**Top-down design of protein nanomaterials with reinforcement learning**  
+Isaac D Lutz, Shunzhi Wang, Christoffer Norn, Andrew J Borst, Yan Ting Zhao, Annie Dosey, Longxing Cao, Zhe Li, Minkyung Baek, Neil P King, Hannele Ruohola-Baker, David Baker  
+[bioRxiv 2022.09.25.509419](https://www.biorxiv.org/content/10.1101/2022.09.25.509419v1)
+
 ## 4.Scaffold to Sequence
 
 > Identify amino sequence from given backbone/scaffold/template constrains: torsion angles(φ & ψ), backbone angles(θ and τ), backbone dihedrals (φ, ψ & ω), backbone atoms (Cα, N, C, & O), Cα − Cα distance, unit direction vectors of Cα−Cα, Cα−N & Cα−C, etc(aka. inverse folding). Referred from [here](https://arxiv.org/abs/2202.01079). Energy-based models are also inculded for task of rotamer conformation(χ angles or atom coordinates) recovery.  
@@ -449,6 +461,10 @@ Xiangzhe Kong, Wenbing Huang, Yang Liu
 Deqin Liu, Sheng Chen, Shuangjia Zheng, Sen Zhang, Yuedong Yang  
 [bioRxiv 2022.09.05.506704](https://www.biorxiv.org/content/10.1101/2022.09.05.506704v1) || [code](https://github.com/biomed-AI/GraphEBM)
 
+**ProDesign: Toward effective and efficient protein design**  
+Zhangyang Gao, Cheng Tan, Stan Z. Li  
+[arXiv:2209.12643](https://arxiv.org/abs/2209.12643) || [github](https://github.com/A4Bio/ProDesign)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -511,6 +527,10 @@ Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma
 Shin, Jung-Eun, et al.  
 [Nature communications 12.1 (2021)](https://www.nature.com/articles/s41467-021-22732-w.pdf) || [code::SeqDesign](https://github.com/debbiemarkslab/SeqDesign) || mutation effect prediction || sequence generation || April 2021  
 
+**Optimization of therapeutic antibodies by predicting antigen specificity from antibody sequence via deep learning**  
+Mason, Derek M., et al.  
+[Nature Biomedical Engineering 5.6 (2021)](https://www.nature.com/articles/s41551-021-00699-9) || [code](https://github.com/dahjan/DMS_opt)
+
 ### 5.2 VAE-based
 
 **Variational auto-encoding of protein sequences**  
@@ -532,6 +552,10 @@ Davidsen, Kristian, et al.
 **How to hallucinate functional proteins**  
 Costello, Zak, and Hector Garcia Martin.  
 [arXiv preprint arXiv:1903.00458 (2019)](https://arxiv.org/abs/1903.00458)
+
+**Convergent selection in antibody repertoires is revealed by deep learning**  
+Friedensohn, Simon, et al.  
+[BioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.02.25.965673v1) || [supplymentary](https://www.biorxiv.org/content/biorxiv/early/2020/02/26/2020.02.25.965673/DC1/embed/media-1.pdf?download=true) || code available after publication
 
 **Variational autoencoder for generation of antimicrobial peptides**  
 Dean, Scott N., and Scott A. Walper.  
@@ -578,6 +602,10 @@ Rossetto, Allison, and Wenjin Zhou.
 **Generating ampicillin-level antimicrobial peptides with activity-aware generative adversarial networks**  
 Tucs, Andrejs, et al.  
 [ACS omega 5.36 (2020)](https://pubs.acs.org/doi/abs/10.1021/acsomega.0c02088)
+
+**Designing feature-controlled humanoid antibody discovery libraries using generative adversarial networks**  
+Amimeur, Tileli, et al.  
+[BioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.04.12.024844v2)
 
 **Conditional Generative Modeling for De Novo Protein Design with Hierarchical Functions**  
 Kucera, Tim, Matteo Togninalli, and Laetitia Meng-Papaxanthos  
@@ -701,6 +729,10 @@ Takahashi, Tomoei, George Chikenji, and Kei Tokita.
 Angermueller, Christof, et al.  
 [International conference on learning representations. 2019](https://openreview.net/forum?id=HklxbgBKvr&fileGuid=3xgr169o12oUrbxS)  
 
+**Structured Q-learning For Antibody Design**  
+Cowen-Rivers, Alexander I., et al.  
+[arXiv preprint arXiv:2209.04698 (2022)](https://arxiv.org/abs/2209.04698)
+
 ### 5.8 Flow-based
 
 **Biological Sequence Design with GFlowNets**  
@@ -743,6 +775,10 @@ Luo, Yunan, et al.
 Wang, Christina, Sam Garlick, and Mire Zloh.  
 [Biomolecules 11.3 (2021)](https://www.mdpi.com/2218-273X/11/3/471)
 
+**Antibody design using LSTM based deep generative model from phage display library for affinity maturation**  
+Saka, Koichiro, et al.  
+[Scientific reports 11.1 (2021)](https://www.nature.com/articles/s41598-021-85274-7)
+
 **Deep learning to design nuclear-targeting abiotic miniproteins**  
 Schissel, Carly K., et al.  
 [Nature Chemistry 13.10 (2021)](https://www.nature.com/articles/s41557-021-00766-3)  
@@ -766,6 +802,12 @@ Trinquier, Jeanne, et al.
 **How pairwise coevolutionary models capture the collective residue variability in proteins?**  
 Figliuzzi, Matteo, Pierre Barrat-Charlaix, and Martin Weigt.  
 [Molecular biology and evolution 35.4 (2018): 1018-1027](https://academic.oup.com/mbe/article/35/4/1018/4815777) || [code](https://github.com/matteofigliuzzi/bmDCA)
+
+### 5.13 Diffusion-based
+
+**denoising-diffusion-protein-sequence**  
+Zhangzhi Peng  
+Paper unavailable || [github](https://github.com/pengzhangzhi/denoising-diffusion-protein-sequence)
 
 ## 6. Function to Structure
 
@@ -812,6 +854,10 @@ Adam J. Riesselman, John B. Ingraham & Debora S. Marks
 **Deciphering protein evolution and fitness landscapes with latent space models**  
 Xinqiang Ding, Zhengting Zou & Charles L. Brooks III  
 [Nature Communications](https://www.nature.com/articles/s41467-019-13633-0) || [code::PEVAE](https://github.com/xqding/PEVAE_Paper) || Dec 2019
+
+**Is transfer learning necessary for protein landscape prediction?**  
+Shanehsazzadeh, Amir, David Belanger, and David Dohan.  
+[arXiv preprint arXiv:2011.03443 (2020)](https://arxiv.org/abs/2011.03443)
 
 **Epistatic Net allows the sparse spectral regularization of deep neural networks for inferring fitness functions**  
 Amirali Aghazadeh, Hunter Nisonoff, Orhan Ocal, David H. Brookes, Yijie Huang, O. Ozan Koyluoglu, Jennifer Listgarten & Kannan Ramchandran  
@@ -871,9 +917,13 @@ Brian L. Hie, Kevin K. Yang, and Peter S. Kim
 Mai Ha Vu, Rahmad Akbar, Philippe A. Robert, Bartlomiej Swiatczak, Victor Greiff, Geir Kjetil Sandve, Dag Trygve Truslew Haug  
 [arXiv:2207.00982](https://arxiv.org/abs/2207.00982)
 
+**Deciphering the language of antibodies using self-supervised learning**  
+Leem, Jinwoo, et al.  
+[Patterns (2022): 100513](https://www.sciencedirect.com/science/article/pii/S2666389922001052) || [code](https://github.com/alchemab/antiberta)
+
 ### 7.3 Molecular Design Models
 
-> Unlike **function-scaffold-sequence** paradigm in protein design, major molecular design models based on paradigm form DL from 3 kinds of level: **atom-based**, **fragment-based**, **reaction-based**, and they can be categorized as [Gradient optimization](#61-gradient-optimization) or [Optimized sampling](#62-optimized-sampling)(gradient-free). [Click here for detail review](https://www.sciencedirect.com/science/article/pii/S1359644621002531)  
+> Unlike **function-scaffold-sequence** paradigm in protein design, major molecular design models based on paradigm form DL from 3 kinds of level: **atom-based**, **fragment-based**, **reaction-based**, and they can be categorized as [Gradient optimization](#731-gradient-optimization) or [Optimized sampling](#732-optimized-sampling)(gradient-free). [Click here for detail review](https://www.sciencedirect.com/science/article/pii/S1359644621002531)  
 > In consideration of learning more various of generative models for design, these recommended latest models from **Molecular Design** might be helpful and even be able to be transplanted to protein design.
 > More paper list at [CondaPereira](https://github.com/CondaPereira)'s GitHub repo: [Essay_For_Molecular_Generation](https://github.com/CondaPereira/Essay_For_Molecular_Generation).
 
