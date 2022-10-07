@@ -177,6 +177,10 @@ Graves, Jordan, et al.
 Akbar, Rahmad, et al.  
 [Mabs. Vol. 14. No. 1. Taylor & Francis, 2022](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8928824/)
 
+**Advances in computational structure-based antibody design**  
+Hummer, Alissa M., Brennan Abanades, and Charlotte M. Deane.  
+[Current Opinion in Structural Biology 74 (2022)](https://www.sciencedirect.com/science/article/pii/S0959440X22000586)
+
 ### 1.3 Peptide design
 
 **Deep generative models for peptide design**  
@@ -273,7 +277,7 @@ Sai Pooja Mahajan, Jeffrey A Ruffolo, Rahel Frick, Jeffrey J. Gray
 
 [News of TRDesign](https://mp.weixin.qq.com/s/OQzKawtL9RdK9HzYsfu80g)  
 [TIANRANG XLab](https://www.tianrang.com/xlab)  
-paper unavailable || [slides](https://pan.baidu.com/share/init?surl=4AOW_D9dwlvC7VGGZA2tmQ&pwd=ffui)
+paper unavailable || [slides](https://pan.baidu.com/share/init?surl=4AOW_D9dwlvC7VGGZA2tmQ&pwd=ffui) || [website](https://xcreator.tianrang.com/auth/login) || commercial
 
 ### 2.8 Related-algorithms
 
@@ -338,6 +342,10 @@ Huang, B., Xu, Y., Hu, X. et al
 **Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem**  
 Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola  
 [arXiv:2206.04119](https://arxiv.org/abs/2206.04119)
+
+**Protein structure generation via folding diffusion**  
+Kevin E. Wu, Kevin K. Yang, Rianne van den Berg, James Y. Zou, Alex X. Lu, Ava P. Amini  
+[arXiv:2209.15611](https://arxiv.org/abs/2209.15611) || [code](https://github.com/microsoft/foldingdiff)
 
 ### 3.6 Score-based
 
@@ -420,10 +428,6 @@ Alexey Strokach, David Becerra, Carles Corbi-Verge, Albert Perez-Riba, Philip M.
 **TERMinator: A Neural Framework for Structure-Based Protein Design using Tertiary Repeating Motifs**  
 Li, Alex J., et al.  
 [NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_TERMinator:_A_Neural_Framework.pdf) / [arXiv (2022)](https://arxiv.org/pdf/2204.13048.pdf)
-
-**Iterative refinement graph neural network for antibody sequence-structure co-design**  
-Jin, Wengong, et al.  
-[arXiv preprint arXiv:2110.04624 (2021)](https://arxiv.org/abs/2110.04624) || [RefineGNN](https://github.com/wengong-jin/RefineGNN) || [lecture1](https://www.youtube.com/watch?v=uDTccbg_Ai4), [lecture2](https://www.youtube.com/watch?v=px5iC79jtfc)
 
 **A neural network model for prediction of amino-acid probability from a protein backbone structure**  
 Koya Sakuma, Naoya Kobayashi  
@@ -659,6 +663,10 @@ Elnaggar, Ahmed, et al.
 Gabriel A. Orellana, Javier Caceres-Delpiano, Roberto Ibañez, Michael P. Dunne, Leonardo Alvarez  
 [bioRxiv 2021.09.06.459171](https://www.biorxiv.org/content/10.1101/2021.09.06.459171v3)
 
+**Transformer-based protein generation with regularized latent space optimization**  
+Castro, E., Godavarthi, A., Rubinfien, J. et al.  
+[Nat Mach Intell (2022)](https://www.nature.com/articles/s42256-022-00532-1)/[arXiv:2201.09948](https://arxiv.org/abs/2201.09948) || [code](https://github.com/KrishnaswamyLab/ReLSO-Guided-Generative-Protein-Design-using-Regularized-Transformers)
+
 **BioPhi: A platform for antibody design, humanization, and humanness evaluation based on natural antibody repertoires and deep learning**  
 Prihoda, David, et al.  
 [mAbs. Vol. 14. No. 1. Taylor & Francis, 2022](tandfonline.com/doi/full/10.1080/19420862.2021.2020203)
@@ -694,6 +702,10 @@ Denis Vashchenko, Sam Nguyen, Andre Goncalves, Felipe Leno da Silva, Brenden Pet
 **Accelerating Antibody Design with Active Learning**  
 Seung-woo Seo, Min Woo Kwak, Eunji Kang, Chaeun Kim, Eunyoung Park, Tae Hyun Kang, Jinhan Kim  
 [bioRxiv 2022.09.12.507690](https://www.biorxiv.org/content/10.1101/2022.09.12.507690v1)
+
+**Reprogramming Large Pretrained Language Models for Antibody Sequence Infilling**  
+Anonymous(Paper under double-blind review)  
+[ICLR 2023](https://openreview.net/forum?id=axFCgjTKP45)
 
 ### 5.5 ResNet-based
 
@@ -839,9 +851,17 @@ Wehrle, Sarah, et al.
 
 ### 6.5 GNN-based
 
+**Iterative refinement graph neural network for antibody sequence-structure co-design**  
+Jin, Wengong, et al.  
+[arXiv preprint arXiv:2110.04624 (2021)](https://arxiv.org/abs/2110.04624) || [RefineGNN](https://github.com/wengong-jin/RefineGNN) || [lecture1](https://www.youtube.com/watch?v=uDTccbg_Ai4), [lecture2](https://www.youtube.com/watch?v=px5iC79jtfc)
+
 **Antibody Complementarity Determining Regions (CDRs) design using Constrained Energy Model**  
 Fu, Tianfan, and Jimeng Sun.  
 [Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 2022](https://dl.acm.org/doi/abs/10.1145/3534678.3539285) || [code](https://github.com/futianfan/energy_model4antibody_design)
+
+**Conditional Antibody Design as 3D Equivariant Graph Translation**  
+Anonymous(Paper under double-blind review)  
+[ICLR 2023](https://openreview.net/forum?id=LFHFQbjxIiP)
 
 ## 7. Other tasks
 
@@ -921,6 +941,14 @@ Mai Ha Vu, Rahmad Akbar, Philippe A. Robert, Bartlomiej Swiatczak, Victor Greiff
 Leem, Jinwoo, et al.  
 [Patterns (2022): 100513](https://www.sciencedirect.com/science/article/pii/S2666389922001052) || [code](https://github.com/alchemab/antiberta)
 
+**On Pre-training Language Model for Antibody**  
+Anonymous(Paper under double-blind review)  
+[ICLR 2023](https://openreview.net/forum?id=zaq4LV55xHl)
+
+**Antibody Representation Learning for Drug Discovery**  
+Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Tristan Bepler, Rajmonda Sulo Caceres  
+[arXiv:2210.02881](https://arxiv.org/abs/2210.02881)
+
 ### 7.3 Molecular Design Models
 
 > Unlike **function-scaffold-sequence** paradigm in protein design, major molecular design models based on paradigm form DL from 3 kinds of level: **atom-based**, **fragment-based**, **reaction-based**, and they can be categorized as [Gradient optimization](#731-gradient-optimization) or [Optimized sampling](#732-optimized-sampling)(gradient-free). [Click here for detail review](https://www.sciencedirect.com/science/article/pii/S1359644621002531)  
@@ -944,6 +972,10 @@ Eckmann, Peter, et al.
 **Improving de novo molecular design with curriculum learning**  
 Guo, Jeff, et al.  
 [Nature Machine Intelligence (2022)](https://www.nature.com/articles/s42256-022-00494-4) || [code](https://github.com/MolecularAI/Reinvent)
+
+**Equivariant Energy-Guided SDE for Inverse Molecular Design**  
+Fan Bao, Min Zhao, Zhongkai Hao, Peiyao Li, Chongxuan Li, Jun Zhu  
+[arXiv:2209.15408](https://arxiv.org/abs/2209.15408)
 
 #### 7.3.2 Optimized sampling
 
