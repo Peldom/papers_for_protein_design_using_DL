@@ -271,7 +271,7 @@ Mahajan, Sai Pooja, et al.
 
 **Hallucinating structure-conditioned antibody libraries for target-specific binders**  
 Sai Pooja Mahajan, Jeffrey A Ruffolo, Rahel Frick, Jeffrey J. Gray  
-[bioRxiv 2022.06.06.494991](https://www.biorxiv.org/content/10.1101/2022.06.06.494991v1) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/06/2022.06.06.494991/DC1/embed/media-1.pdf?download=true)
+[bioRxiv 2022.06.06.494991](https://www.biorxiv.org/content/10.1101/2022.06.06.494991v1) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/06/2022.06.06.494991/DC1/embed/media-1.pdf?download=true) || [code](https://github.com/RosettaCommons/FvHallucinator)
 
 ### 2.7 TRFold2-based
 
@@ -681,7 +681,7 @@ Ferruz Noelia, and Birte Höcker.
 
 **ProtGPT2 is a deep unsupervised language model for protein design**  
 Noelia Ferruz,  View ProfileSteffen Schmidt,  View ProfileBirte Höcker  
-[bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.full)/[Nature Communications](https://www.nature.com/articles/s41467-022-32007-7#citeas) || [model::huggingface](https://huggingface.co/nferruz/ProtGPT2) [datasets::hugingface](https://huggingface.co/datasets/nferruz/UR50_2021_04) || [lecture](https://www.youtube.com/watch?v=BA5C0kLcErM)
+[bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.full)/[Nature Communications](https://www.nature.com/articles/s41467-022-32007-7#citeas) || [model::huggingface](https://huggingface.co/nferruz/ProtGPT2) [datasets::hugingface](https://huggingface.co/datasets/nferruz/UR50_2021_04) || [lecture](https://www.youtube.com/watch?v=BA5C0kLcErM) || [research highlights](https://www.nature.com/articles/s41587-022-01518-5)
 
 **Few Shot Protein Generation**  
 Ram, Soumya, and Tristan Bepler.  
@@ -704,8 +704,8 @@ Seung-woo Seo, Min Woo Kwak, Eunji Kang, Chaeun Kim, Eunyoung Park, Tae Hyun Kan
 [bioRxiv 2022.09.12.507690](https://www.biorxiv.org/content/10.1101/2022.09.12.507690v1)
 
 **Reprogramming Large Pretrained Language Models for Antibody Sequence Infilling**  
-Anonymous(Paper under double-blind review)  
-[ICLR 2023](https://openreview.net/forum?id=axFCgjTKP45)
+Igor Melnyk, Vijil Chenthamarakshan, Pin-Yu Chen, Payel Das, Amit Dhurandhar, Inkit Padhi, Devleena Das  
+[ICLR 2023](https://openreview.net/forum?id=axFCgjTKP45)/[arXiv:2210.07144](https://arxiv.org/abs/2210.07144)
 
 ### 5.5 ResNet-based
 
@@ -734,6 +734,10 @@ Khan, Asif, et al.
 **Statistical Mechanics of Protein Design**  
 Takahashi, Tomoei, George Chikenji, and Kei Tokita.  
 [arXiv preprint arXiv:2205.03696 (2022)](https://arxiv.org/abs/2205.03696)
+
+**PropertyDAG: Multi-objective Bayesian optimization of partially ordered, mixed-variable properties for biological sequence design**  
+Ji Won Park, Samuel Stanton, Saeed Saremi, Andrew Watkins, Henri Dwyer, Vladimir Gligorijevic, Richard Bonneau, Stephen Ra, Kyunghyun Cho  
+[arXiv:2210.04096](https://arxiv.org/abs/2210.04096)
 
 ### 5.7 RL-based
 
@@ -860,8 +864,8 @@ Fu, Tianfan, and Jimeng Sun.
 [Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 2022](https://dl.acm.org/doi/abs/10.1145/3534678.3539285) || [code](https://github.com/futianfan/energy_model4antibody_design)
 
 **Conditional Antibody Design as 3D Equivariant Graph Translation**  
-Anonymous(Paper under double-blind review)  
-[ICLR 2023](https://openreview.net/forum?id=LFHFQbjxIiP)
+Xiangzhe Kong, Wenbing Huang, Yang Liu  
+[ICLR 2023](https://openreview.net/forum?id=LFHFQbjxIiP)/[arXiv:2208.06073](https://arxiv.org/abs/2208.06073)
 
 ## 7. Other tasks
 
@@ -908,7 +912,7 @@ Ruyun Hu, Lihao Fu, Yongcan Chen, Junyu Chen, Yu Qiao, Tong Si
 [bioRxiv 2022.08.11.503535](https://www.biorxiv.org/content/10.1101/2022.08.11.503535v1)
 
 **Antibody optimization enabled by artificial intelligence predictions of binding affinity and naturalness**  
-Bachas, Sharrol, et al.   
+Bachas, Sharrol, et al.  
 [bioRxiv 2022.08.16.504181](https://www.biorxiv.org/content/10.1101/2022.08.16.504181v1)
 
 **Construction of a Deep Neural Network Energy Function for Protein Physics**  
@@ -976,6 +980,14 @@ Guo, Jeff, et al.
 **Equivariant Energy-Guided SDE for Inverse Molecular Design**  
 Fan Bao, Min Zhao, Zhongkai Hao, Peiyao Li, Chongxuan Li, Jun Zhu  
 [arXiv:2209.15408](https://arxiv.org/abs/2209.15408)
+
+**Equivariant Shape-Conditioned Generation of 3D Molecules for Ligand-Based Drug Design**  
+Keir Adams, Connor W. Coley  
+[arXiv:2210.04893](https://arxiv.org/abs/2210.04893) || [code](https://github.com/keiradams/SQUID)
+
+**Modular Flows: Differential Molecular Generation**  
+Yogesh Verma, Samuel Kaski, Markus Heinonen, Vikas Garg  
+[arXiv:2210.06032](https://arxiv.org/abs/2210.06032) || [code](https://github.com/yogeshverma1998/Modular-Flows-Neurips-2022)
 
 #### 7.3.2 Optimized sampling
 
