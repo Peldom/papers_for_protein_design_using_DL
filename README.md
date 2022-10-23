@@ -76,6 +76,7 @@
     - [6.3 RoseTTAFold-based](#63-rosettafold-based)
     - [6.4 CNN-based](#64-cnn-based)
     - [6.5 GNN-based](#65-gnn-based)
+    - [6.6 Transformer-based](#66-transformer-based)
   - [7. Other tasks](#7-other-tasks)
     - [7.1 Effects of mutation & Fitness Landscape](#71-effects-of-mutation--fitness-landscape)
     - [7.2 Protein Language Models (PTM) and representation learning](#72-protein-language-models-ptm-and-representation-learning)
@@ -451,7 +452,7 @@ Kevin K Yang, Hugh Yeh, Niccolò Zanichelli
 
 **Robust deep learning based protein sequence design using ProteinMPNN**  
 Justas Dauparas, Ivan Anishchenko, Nathaniel Bennett, Hua Bai, Robert J. Ragotte, Lukas F. Milles, Basile I. M. Wicky, Alexis Courbet, Robbert J. de Haas, Neville Bethel, Philip J. Y. Leung, Timothy F. Huddy, Sam Pellock, Doug Tischer, Frederick Chan, Brian Koepnick, Hannah Nguyen, Alex Kang, Banumathi Sankaran, Asim Bera, Neil P. King, David Baker  
-[bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics)/[Science (2022)](https://www.science.org/doi/10.1126/science.add2187) || [code](https://github.com/dauparas/ProteinMPNN) || [hugging face](https://huggingface.co/spaces/simonduerr/ProteinMPNN) || [lecture](https://www.youtube.com/watch?v=aVQQuoToTJA)
+[bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics)/[Science (2022)](https://www.science.org/doi/10.1126/science.add2187) || [code](https://github.com/dauparas/ProteinMPNN) || [hugging face](https://huggingface.co/spaces/simonduerr/ProteinMPNN) || [lecture](https://www.youtube.com/watch?v=aVQQuoToTJA) || [colab(in_jax)](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/v1.1.0/mpnn/examples/proteinmpnn_in_jax.ipynb)
 
 **Neural Network-Derived Potts Models for Structure-Based Protein Design using Backbone Atomic Coordinates and Tertiary Motifs**  
 Alex J. Li, Mindren Lu, Israel Desta, Vikram Sundar, Gevorg Grigoryan, and Amy E. Keating  
@@ -465,9 +466,9 @@ Xiangzhe Kong, Wenbing Huang, Yang Liu
 Deqin Liu, Sheng Chen, Shuangjia Zheng, Sen Zhang, Yuedong Yang  
 [bioRxiv 2022.09.05.506704](https://www.biorxiv.org/content/10.1101/2022.09.05.506704v1) || [code](https://github.com/biomed-AI/GraphEBM)
 
-**ProDesign: Toward effective and efficient protein design**  
+**PiFold: Toward effective and efficient protein inverse folding**  
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
-[arXiv:2209.12643](https://arxiv.org/abs/2209.12643) || [github](https://github.com/A4Bio/ProDesign)
+[arXiv:2209.12643v2](https://arxiv.org/abs/2209.12643v2) || [github](https://github.com/A4Bio/ProDesign)
 
 ### 4.6 GAN-based
 
@@ -707,6 +708,14 @@ Seung-woo Seo, Min Woo Kwak, Eunji Kang, Chaeun Kim, Eunyoung Park, Tae Hyun Kan
 Igor Melnyk, Vijil Chenthamarakshan, Pin-Yu Chen, Payel Das, Amit Dhurandhar, Inkit Padhi, Devleena Das  
 [ICLR 2023](https://openreview.net/forum?id=axFCgjTKP45)/[arXiv:2210.07144](https://arxiv.org/abs/2210.07144)
 
+**Machine Learning Optimization of Candidate Antibodies Yields Highly Diverse Sub-nanomolar Affinity Antibody Libraries**  
+Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Rafael Jaimes, Rajmonda Sulo Caceres, Tristan Bepler, Matthew E. Walsh  
+[bioRxiv 2022.10.07.502662](https://www.biorxiv.org/content/10.1101/2022.10.07.502662v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/10/07/2022.10.07.502662/DC1/embed/media-1.pdf?download=true) || code will be available
+
+**ZymCTRL: a conditional language model for the contollable generation of artificial enzymes**  
+Noelia Ferruz  
+preprint coming soon || [hugging face](https://huggingface.co/nferruz/ZymCTRL)
+
 ### 5.5 ResNet-based
 
 **Accelerating protein design using autoregressive generative models**  
@@ -813,17 +822,25 @@ Singer, Jedediah M., et al.
 Trinquier, Jeanne, et al.  
 [Nature communications 12.1 (2021): 1-11](https://www.nature.com/articles/s41467-021-25756-4) || [code](https://github.com/pagnani/ArDCA.jl)
 
+**Conformal prediction for the design problem**  
+Clara Fannjiang, Stephen Bates, Anastasios N. Angelopoulos, Jennifer Listgarten, Michael I. Jordan  
+[arXiv:2202.03613v4](https://arxiv.org/abs/2202.03613) || [code](https://github.com/clarafy/conformal-for-design)
+
 ### 5.12 Boltzmann-machine-based
 
 **How pairwise coevolutionary models capture the collective residue variability in proteins?**  
 Figliuzzi, Matteo, Pierre Barrat-Charlaix, and Martin Weigt.  
 [Molecular biology and evolution 35.4 (2018): 1018-1027](https://academic.oup.com/mbe/article/35/4/1018/4815777) || [code](https://github.com/matteofigliuzzi/bmDCA)
 
+**A Pareto-optimal compositional energy-based model for sampling and optimization of protein sequences**  
+Nataša Tagasovska, Nathan C. Frey, Andreas Loukas, Isidro Hötzel, Julien Lafrance-Vanasse, Ryan Lewis Kelly, Yan Wu, Arvind Rajpal, Richard Bonneau, Kyunghyun Cho, Stephen Ra, Vladimir Gligorijević  
+[arXiv:2210.10838](https://arxiv.org/abs/2210.10838)
+
 ### 5.13 Diffusion-based
 
 **denoising-diffusion-protein-sequence**  
 Zhangzhi Peng  
-Paper unavailable || [github](https://github.com/pengzhangzhi/denoising-diffusion-protein-sequence)
+Paper unavailable || [github](https://github.com/pengzhangzhi/protein-sequence-diffusion-model)
 
 ## 6. Function to Structure
 
@@ -840,6 +857,10 @@ Syrlybaeva, Raulia, and Eva-Maria Strauch.
 **Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models**  
 Namrata Anand, Tudor Achim  
 [GitHub (2022)](https://nanand2.github.io/proteins/)/[arXiv (2022)](https://arxiv.org/abs/2205.15019) || [our notes](https://zhuanlan.zhihu.com/p/520488133) || [lecture](https://www.youtube.com/watch?v=i8fGzddGbU8)
+
+**Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models for Protein Structures**  
+Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma  
+[bioRxiv 2022.07.10.499510](https://www.biorxiv.org/content/10.1101/2022.07.10.499510v5) || [code](https://github.com/luost26/diffab) || [hugging face](https://huggingface.co/spaces/luost26/DiffAb)
 
 ### 6.3 RoseTTAFold-based
 
@@ -866,6 +887,12 @@ Fu, Tianfan, and Jimeng Sun.
 **Conditional Antibody Design as 3D Equivariant Graph Translation**  
 Xiangzhe Kong, Wenbing Huang, Yang Liu  
 [ICLR 2023](https://openreview.net/forum?id=LFHFQbjxIiP)/[arXiv:2208.06073](https://arxiv.org/abs/2208.06073)
+
+### 6.6 Transformer-based
+
+**Protein Sequence and Structure Co-Design with Equivariant Translation**  
+Chence Shi, Chuanrui Wang, Jiarui Lu, Bozitao Zhong, Jian Tang  
+[arXiv:2210.08761](https://arxiv.org/abs/2210.08761)
 
 ## 7. Other tasks
 
