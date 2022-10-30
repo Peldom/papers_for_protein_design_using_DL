@@ -246,6 +246,10 @@ Patrick Bryant, Arne Elofsson
 Linna An, Derrick R Hicks, Dmitri Zorine, Justas Dauparas, Basile I. M. Wicky, Lukas F Milles, Alexis Courbet, Asim K. Bera, Hannah Nguyen, Alex Kang, Lauren Carter, David Baker  
 [bioRxiv 2022.09.01.506251](https://www.biorxiv.org/content/10.1101/2022.09.01.506251v1)
 
+**Predicting the structure of large protein complexes using AlphaFold and Monte Carlo tree search**  
+Bryant, Patrick, et al.  
+[Nature communications 13.1 (2022)](https://www.nature.com/articles/s41467-022-33729-4) || [gitlba](https://gitlab.com/patrickbryant1/molpc), [github](https://github.com/patrickbryant1/MoLPC) || [supplymentary data1](https://doi.org/10.5281/zenodo.6367019), [supplymentary data2](https://doi.org/10.17044/scilifelab.19375172)
+
 ### 2.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
@@ -950,6 +954,10 @@ Yang, Huan, Zhaoping Xiong, and Francesco Zonta
 Sameer D’Costa, Emily C. Hinds, Chase R. Freschlin, Hyebin Song, Philip A. Romero  
 [bioRxiv 2022.09.01.506224](https://www.biorxiv.org/content/10.1101/2022.09.01.506224v1) || [supplymentary](https://www.biorxiv.org/content/10.1101/2022.09.01.506224v1.supplementary-material)
 
+**BayeStab: Predicting Effects of Mutations on Protein Stability with Uncertainty Quantification**  
+Wang, Shuyu, et al.  
+[Protein Science (2022)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.4467) || [code](https://github.com/HongzhouTang/BayeStab) || [website](http://www.bayestab.com)
+
 ### 7.2 Protein Language Models (PTM) and representation learning
 
 **Unified rational protein engineering with sequence-based deep representation learning**  
@@ -1015,6 +1023,10 @@ Keir Adams, Connor W. Coley
 **Modular Flows: Differential Molecular Generation**  
 Yogesh Verma, Samuel Kaski, Markus Heinonen, Vikas Garg  
 [arXiv:2210.06032](https://arxiv.org/abs/2210.06032) || [code](https://github.com/yogeshverma1998/Modular-Flows-Neurips-2022)
+
+**Structure-based Drug Design with Equivariant Diffusion Models**  
+Arne Schneuing, Yuanqi Du, Charles Harris, Arian Jamasb, Ilia Igashov, Weitao Du, Tom Blundell, Pietro Lió, Carla Gomes, Max Welling, Michael Bronstein, Bruno Correia  
+[arXiv:2210.13695](https://arxiv.org/abs/2210.13695) || [code](https://github.com/arneschneuing/DiffSBDD)
 
 #### 7.3.2 Optimized sampling
 
