@@ -37,7 +37,8 @@
     - [2.5 MSA-transformer-based](#25-msa-transformer-based)
     - [2.6 DeepAb-based](#26-deepab-based)
     - [2.7 TRFold2-based](#27-trfold2-based)
-    - [2.8 Related-algorithms](#28-related-algorithms)
+    - [2.8 GPT-based](#28-gpt-based)
+    - [2.9 Related-algorithms](#29-related-algorithms)
   - [3. Function to Scaffold](#3-function-to-scaffold)
     - [3.1 GAN-based](#31-gan-based)
     - [3.2 VAE-based](#32-vae-based)
@@ -276,7 +277,7 @@ Mahajan, Sai Pooja, et al.
 
 **Hallucinating structure-conditioned antibody libraries for target-specific binders**  
 Sai Pooja Mahajan, Jeffrey A Ruffolo, Rahel Frick, Jeffrey J. Gray  
-[bioRxiv 2022.06.06.494991](https://www.biorxiv.org/content/10.1101/2022.06.06.494991v1) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/06/2022.06.06.494991/DC1/embed/media-1.pdf?download=true) || [code](https://github.com/RosettaCommons/FvHallucinator)
+[bioRxiv 2022.06.06.494991](https://www.biorxiv.org/content/10.1101/2022.06.06.494991v1)/[Front. Immunol. 13:999034](https://www.frontiersin.org/articles/10.3389/fimmu.2022.999034/full) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/06/2022.06.06.494991/DC1/embed/media-1.pdf?download=true) || [code](https://github.com/RosettaCommons/FvHallucinator)
 
 ### 2.7 TRFold2-based
 
@@ -284,7 +285,17 @@ Sai Pooja Mahajan, Jeffrey A Ruffolo, Rahel Frick, Jeffrey J. Gray
 [TIANRANG XLab](https://www.tianrang.com/xlab)  
 paper unavailable || [slides](https://pan.baidu.com/share/init?surl=4AOW_D9dwlvC7VGGZA2tmQ&pwd=ffui) || [website](https://xcreator.tianrang.com/auth/login) || commercial
 
-### 2.8 Related-algorithms
+### 2.8 GPT-based
+
+**Multi-segment preserving sampling for deep manifold sampler**  
+Berenberg, Daniel, et al.  
+[arXiv preprint arXiv:2205.04259 (2022)](https://arxiv.org/abs/2205.04259)
+
+### 2.9 Related-algorithms
+
+**AdaLead: A simple and robust adaptive greedy search algorithm for sequence design**  
+Sinai, Sam, et al.  
+[arXiv preprint arXiv:2010.02141 (2020)](https://arxiv.org/abs/2010.02141) || [code](https://github.com/samsinai/FLEXS)
 
 **Autofocused oracles for model-based design**  
 Fannjiang, Clara, and Jennifer Listgarten.  
@@ -762,6 +773,10 @@ Angermueller, Christof, et al.
 Cowen-Rivers, Alexander I., et al.  
 [arXiv preprint arXiv:2209.04698 (2022)](https://arxiv.org/abs/2209.04698)
 
+**Protein Sequence Design in a Latent Space via Model-based Reinforcement Learning**  
+Anonymous  
+[ICLR 2023](https://openreview.net/forum?id=OhjGzRE5N6o)
+
 ### 5.8 Flow-based
 
 **Biological Sequence Design with GFlowNets**  
@@ -957,6 +972,15 @@ Sameer D’Costa, Emily C. Hinds, Chase R. Freschlin, Hyebin Song, Philip A. Rom
 **BayeStab: Predicting Effects of Mutations on Protein Stability with Uncertainty Quantification**  
 Wang, Shuyu, et al.  
 [Protein Science (2022)](https://onlinelibrary.wiley.com/doi/abs/10.1002/pro.4467) || [code](https://github.com/HongzhouTang/BayeStab) || [website](http://www.bayestab.com)
+
+**Tuned Fitness Landscapes for Benchmarking Model-Guided Protein Design**  
+Neil Thomas, Atish Agarwala, David Belanger, Yun S. Song, Lucy Colwell  
+[bioRxiv 2022.10.28.514293](https://www.biorxiv.org/content/10.1101/2022.10.28.514293v1) || [code](https://github.com/google-research/slip)
+
+**Accurate Mutation Effect Prediction using RoseTTAFold**  
+Sanaa Mansoor, Minkyung Baek, David Juergens, Joseph L Watson, David Baker  
+[bioRxiv 2022.11.04.515218](https://www.biorxiv.org/content/10.1101/2022.11.04.515218v1)
+
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
