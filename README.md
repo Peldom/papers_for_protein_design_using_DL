@@ -38,7 +38,7 @@
     - [2.6 DeepAb-based](#26-deepab-based)
     - [2.7 TRFold2-based](#27-trfold2-based)
     - [2.8 GPT-based](#28-gpt-based)
-    - [2.9 Related-algorithms](#29-related-algorithms)
+    - [2.9 Sampling-algorithms](#29-sampling-algorithms)
   - [3. Function to Scaffold](#3-function-to-scaffold)
     - [3.1 GAN-based](#31-gan-based)
     - [3.2 VAE-based](#32-vae-based)
@@ -291,7 +291,7 @@ paper unavailable || [slides](https://pan.baidu.com/share/init?surl=4AOW_D9dwlvC
 Berenberg, Daniel, et al.  
 [arXiv preprint arXiv:2205.04259 (2022)](https://arxiv.org/abs/2205.04259)
 
-### 2.9 Related-algorithms
+### 2.9 Sampling-algorithms
 
 **AdaLead: A simple and robust adaptive greedy search algorithm for sequence design**  
 Sinai, Sam, et al.  
@@ -300,6 +300,10 @@ Sinai, Sam, et al.
 **Autofocused oracles for model-based design**  
 Fannjiang, Clara, and Jennifer Listgarten.  
 [Advances in Neural Information Processing Systems 33 (2020)](https://proceedings.neurips.cc/paper/2020/file/972cda1e62b72640cb7ac702714a115f-Paper.pdf)
+
+**An Efficient MCMC Approach to Energy Function Optimization in Protein Structure Prediction**  
+Lakshmi A. Ghantasala, Risi Jaiswal, Supriyo Datta  
+[arXiv:2211.03193](https://arxiv.org/abs/2211.03193)
 
 ## 3. Function to Scaffold
 
@@ -441,6 +445,10 @@ Jing, Bowen, et al.
 Alexey Strokach, David Becerra, Carles Corbi-Verge, Albert Perez-Riba, Philip M. Kim  
 [Cell Systems (2020)](https://www.sciencedirect.com/science/article/pii/S2405471220303276) || [code::ProteinSolver](https://gitlab.com/ostrokach/proteinsolver)  
 
+**Mimetic Neural Networks: A unified framework for Protein Design and Folding**  
+Moshe Eliasof, Tue Boesen, Eldad Haber, Chen Keasar, Eran Treister  
+[arXiv:2102.03881](https://arxiv.org/abs/2102.03881)/[Front. Bioinform. 2:715006](https://www.frontiersin.org/articles/10.3389/fbinf.2022.715006/full)
+
 **TERMinator: A Neural Framework for Structure-Based Protein Design using Tertiary Repeating Motifs**  
 Li, Alex J., et al.  
 [NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_TERMinator:_A_Neural_Framework.pdf) / [arXiv (2022)](https://arxiv.org/pdf/2204.13048.pdf)
@@ -467,7 +475,7 @@ Kevin K Yang, Hugh Yeh, Niccolò Zanichelli
 
 **Robust deep learning based protein sequence design using ProteinMPNN**  
 Justas Dauparas, Ivan Anishchenko, Nathaniel Bennett, Hua Bai, Robert J. Ragotte, Lukas F. Milles, Basile I. M. Wicky, Alexis Courbet, Robbert J. de Haas, Neville Bethel, Philip J. Y. Leung, Timothy F. Huddy, Sam Pellock, Doug Tischer, Frederick Chan, Brian Koepnick, Hannah Nguyen, Alex Kang, Banumathi Sankaran, Asim Bera, Neil P. King, David Baker  
-[bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics)/[Science (2022)](https://www.science.org/doi/10.1126/science.add2187) || [code](https://github.com/dauparas/ProteinMPNN) || [hugging face](https://huggingface.co/spaces/simonduerr/ProteinMPNN) || [lecture](https://www.youtube.com/watch?v=aVQQuoToTJA) || [colab(in_jax)](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/v1.1.0/mpnn/examples/proteinmpnn_in_jax.ipynb)
+[bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics)/[Science (2022)](https://www.science.org/doi/10.1126/science.add2187) || [code](https://github.com/dauparas/ProteinMPNN) || [hugging face](https://huggingface.co/spaces/simonduerr/ProteinMPNN) || [lecture](https://www.youtube.com/watch?v=aVQQuoToTJA) || [colab(in_jax)](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/v1.1.0/mpnn/examples/proteinmpnn_in_jax.ipynb) || [ProteinMPNN+ESMFold](https://huggingface.co/spaces/simonduerr/ProteinMPNNESM/blob/main/README.md)
 
 **Neural Network-Derived Potts Models for Structure-Based Protein Design using Backbone Atomic Coordinates and Tertiary Motifs**  
 Alex J. Li, Mindren Lu, Israel Desta, Vikram Sundar, Gevorg Grigoryan, and Amy E. Keating  
@@ -525,6 +533,10 @@ Huang, Bin, et al.
 Baldwin Dumortier, Antoine Liutkus, Clément Carré, Gabriel Krouk  
 [bioRxiv 2022.08.10.503344](https://www.biorxiv.org/content/10.1101/2022.08.10.503344v1)
 
+**Evolutionary-scale prediction of atomic level protein structure with a language model**  
+Zeming Lin, Halil Akin, Roshan Rao, Brian Hie, Zhongkai Zhu, Wenting Lu, Nikita Smetanin, Robert Verkuil, Ori Kabeli, Yaniv Shmueli, Allan dos Santos Costa, Maryam Fazel-Zarandi, Tom Sercu, Salvatore Candido, Alexander Rives  
+[bioRxiv 2022.07.20.500902](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v2) || [blog](https://ai.facebook.com/blog/protein-folding-esmfold-metagenomics/) || [github](https://github.com/facebookresearch/esm)
+
 ### 4.8 ResNet-based
 
 **DenseCPD: improving the accuracy of neural-network-based computational protein sequence design with DenseNet**  
@@ -542,6 +554,10 @@ Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma
 > These models generate sequences from expected function.
 
 ### 5.1 CNN-based
+
+**Antibody complementarity determining region design using high-capacity machine learning**  
+Liu, Ge, et al.  
+[Bioinformatics 36.7 (2020): 2126-2133](https://academic.oup.com/bioinformatics/article/36/7/2126/5645171) || [code](https://github.com/gifford-lab/antibody-2019)
 
 **Protein design and variant prediction using autoregressive generative models**  
 Shin, Jung-Eun, et al.  
@@ -853,7 +869,7 @@ Figliuzzi, Matteo, Pierre Barrat-Charlaix, and Martin Weigt.
 
 **A Pareto-optimal compositional energy-based model for sampling and optimization of protein sequences**  
 Nataša Tagasovska, Nathan C. Frey, Andreas Loukas, Isidro Hötzel, Julien Lafrance-Vanasse, Ryan Lewis Kelly, Yan Wu, Arvind Rajpal, Richard Bonneau, Kyunghyun Cho, Stephen Ra, Vladimir Gligorijević  
-[arXiv:2210.10838](https://arxiv.org/abs/2210.10838)
+[arXiv:2210.10838](https://arxiv.org/abs/2210.10838) || [slides](https://drive.google.com/file/d/1spTU-iZ4EEq8ZICRHBw8CstpYQXCxMy8/view)
 
 ### 5.13 Diffusion-based
 
@@ -981,6 +997,9 @@ Neil Thomas, Atish Agarwala, David Belanger, Yun S. Song, Lucy Colwell
 Sanaa Mansoor, Minkyung Baek, David Juergens, Joseph L Watson, David Baker  
 [bioRxiv 2022.11.04.515218](https://www.biorxiv.org/content/10.1101/2022.11.04.515218v1)
 
+**Learning the shape of protein micro-environments with a holographic convolutional neural network**  
+Pun, Michael N., et al.  
+[bioRxiv (2022)](https://arxiv.org/abs/2211.02936) || [code](https://github.com/StatPhysBio/protein_holography)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
