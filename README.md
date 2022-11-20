@@ -24,6 +24,7 @@
       - [0.3.1 Sequence Database](#031-sequence-database)
       - [0.3.2 Structure Database](#032-structure-database)
       - [0.3.3 Protein Structure Datasets](#033-protein-structure-datasets)
+    - [0.4 Similar List](#04-similar-list)
   - [1. Reviews](#1-reviews)
     - [1.1 De novo protein design](#11-de-novo-protein-design)
     - [1.2 Antibody design](#12-antibody-design)
@@ -133,6 +134,14 @@ Jonathan E. King, David Ryan Koes
 > In terms of datasets and benchmarks, protein design is far less mature than drug discovery ([paperwithcode drug discovery benchmarks](https://paperswithcode.com/task/drug-discovery)). (Maybe should add the evaluation of protein design for deep learning method (especially deep generative model))  
 > Difficulties and opportunities always coexist. Happy to see the work of [Christian Dallago, Jody Mou, Kadina E. Johnston, Bruce J. Wittmann, Nicholas Bhattacharya, Samuel Goldman, Ali Madani, Kevin K. Yang](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v1) and [Zhangyang Gao, Cheng Tan, Stan Z. Li](https://arxiv.org/abs/2202.01079).
 
+### 0.4 Similar List
+
+> Some other similar GitHub list that include papers about protein design using deep learning:
+
+1. [design_tools](https://github.com/hefeda/design_tools/blob/main/README.md)
+2. [awesome-AI-based-protein-design](https://github.com/opendilab/awesome-AI-based-protein-design)
+3. [ProteinStructureWithDL](https://github.com/Yang-J-LIN/ProteinStructureWithDL)
+
 ## 1. Reviews
 
 ### 1.1 De novo protein design
@@ -141,17 +150,21 @@ Jonathan E. King, David Ryan Koes
 Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray  
 [Patterns 1.9](https://www.sciencedirect.com/science/article/pii/S2666389920301902) || 2020  
 
-**Deep learning techniques have significantly impacted protein structure prediction and protein design**  
-Pearce, Robin, and Yang Zhang.  
-[Current opinion in structural biology 68 (2021)](https://www.sciencedirect.com/science/article/pii/S0959440X21000142)
+**100th anniversary of macromolecular science viewpoint: Data-driven protein design**  
+Ferguson, Andrew L., and Rama Ranganathan.  
+[ACS Macro Letters 10.3 (2021)](https://pubs.acs.org/doi/abs/10.1021/acsmacrolett.0c00885)
 
 **Protein sequence design with deep generative models**  
 Zachary Wu, Kadina E. Johnston, Frances H. Arnold, Kevin K. Yang  
-[Current Opinion in Chemical Biology](https://www.sciencedirect.com/science/article/pii/S136759312100051X) || [note](https://zhuanlan.zhihu.com/p/466616309) || 2021  
+[Current Opinion in Chemical Biology 65](https://www.sciencedirect.com/science/article/pii/S136759312100051X) || [note](https://zhuanlan.zhihu.com/p/466616309) || 2021  
 
 **Structure-based protein design with deep learning**  
 Ovchinnikov, Sergey, and Po-Ssu Huang.  
-[Current opinion in chemical biology](https://www.sciencedirect.com/science/article/pii/S1367593121001125) || [note](https://zhuanlan.zhihu.com/p/467001175) || 2021  
+[Current opinion in chemical biology 65](https://www.sciencedirect.com/science/article/pii/S1367593121001125) || [note](https://zhuanlan.zhihu.com/p/467001175) || 2021  
+
+**Deep learning techniques have significantly impacted protein structure prediction and protein design**  
+Pearce, Robin, and Yang Zhang.  
+[Current opinion in structural biology 68 (2021)](https://www.sciencedirect.com/science/article/pii/S0959440X21000142)
 
 **Protein design via deep learning**  
 Wenze Ding, Kenta Nakai, Haipeng Gong  
@@ -168,6 +181,10 @@ Rudden, Lucas SP, Mahdi Hijazi, and Patrick Barth
 **From sequence to function through structure: deep learning for protein design**  
 Noelia Ferruz, Michael Heinzinger, Mehmet Akdel, Alexander Goncearenco, Luca Naef, Christian Dallago  
 [bioRxiv 2022.08.31.505981](https://www.biorxiv.org/content/10.1101/2022.08.31.505981v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/09/03/2022.08.31.505981/DC1/embed/media-1.pdf?download=true) || [accompanying list](https://github.com/hefeda/design_tools/blob/main/README.md)
+
+**Computational protein design with data-driven approaches: Recent developments and perspectives**  
+Liu, H, Chen, Q.  
+[WIREs Comput Mol Sci. 2022. e1646](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1646)
 
 ### 1.2 Antibody design
 
@@ -415,7 +432,7 @@ Chen, Sheng, et al.
 
 **Deep learning of Protein Sequence Design of Protein-protein Interactions**  
 Syrlybaeva, Raulia, and Eva-Maria Strauch.  
-[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.28.478262v1) || [Supplymentary](https://www.biorxiv.org/content/10.1101/2022.01.28.478262v1.supplementary-material) || [code](https://github.com/strauchlab/iNNterfaceDesign)
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.28.478262v1)/[Bioinformatics, 2022;, btac733](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac733/6827796) || [Supplymentary](https://www.biorxiv.org/content/10.1101/2022.01.28.478262v1.supplementary-material) || [code](https://github.com/strauchlab/iNNterfaceDesign)
 
 ### 4.4 CNN-based
 
@@ -476,6 +493,10 @@ Kevin K Yang, Hugh Yeh, Niccolò Zanichelli
 **Robust deep learning based protein sequence design using ProteinMPNN**  
 Justas Dauparas, Ivan Anishchenko, Nathaniel Bennett, Hua Bai, Robert J. Ragotte, Lukas F. Milles, Basile I. M. Wicky, Alexis Courbet, Robbert J. de Haas, Neville Bethel, Philip J. Y. Leung, Timothy F. Huddy, Sam Pellock, Doug Tischer, Frederick Chan, Brian Koepnick, Hannah Nguyen, Alex Kang, Banumathi Sankaran, Asim Bera, Neil P. King, David Baker  
 [bioRxiv 2022.06.03.494563](https://www.biorxiv.org/content/10.1101/2022.06.03.494563v1.article-metrics)/[Science (2022)](https://www.science.org/doi/10.1126/science.add2187) || [code](https://github.com/dauparas/ProteinMPNN) || [hugging face](https://huggingface.co/spaces/simonduerr/ProteinMPNN) || [lecture](https://www.youtube.com/watch?v=aVQQuoToTJA) || [colab(in_jax)](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/v1.1.0/mpnn/examples/proteinmpnn_in_jax.ipynb) || [ProteinMPNN+ESMFold](https://huggingface.co/spaces/simonduerr/ProteinMPNNESM/blob/main/README.md)
+
+**Antibody-Antigen Docking and Design via Hierarchical Equivariant Refinement**  
+Jin, Wengong, Regina Barzilay, and Tommi Jaakkola.  
+[arXiv preprint arXiv:2207.06616 (2022)](https://arxiv.org/abs/2207.06616)/[International Conference on Machine Learning. PMLR, 2022](https://icml.cc/virtual/2022/poster/16625) || [code](https://github.com/wengong-jin/abdockgen) || [poster](https://icml.cc/media/PosterPDFs/ICML%202022/b7f520a55897b35e6eb462bbf80915c6.png)
 
 **Neural Network-Derived Potts Models for Structure-Based Protein Design using Backbone Atomic Coordinates and Tertiary Motifs**  
 Alex J. Li, Mindren Lu, Israel Desta, Vikram Sundar, Gevorg Grigoryan, and Amy E. Keating  
@@ -609,6 +630,14 @@ Das, Payel, et al.
 Zeming, Tom, Yann and Alexander.  
 [NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_Deep_generative_models_create.pdf)
 
+**PepVAE: variational autoencoder framework for antimicrobial peptide generation and activity prediction**  
+Dean, Scott N., et al.  
+[Frontiers in microbiology 12 (2021)](https://www.frontiersin.org/articles/10.3389/fmicb.2021.725727/full) || [code](https://github.com/zswitten/Antimicrobial-Peptides) || [Supplementary](https://www.frontiersin.org/articles/10.3389/fmicb.2021.725727/full#supplementary-material)
+
+**HydrAMP: a deep generative model for antimicrobial peptide discovery**  
+Szymczak, Paulina, et al.  
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.27.478054v1) || [code](https://github.com/szczurek-lab/hydramp)
+
 **Therapeutic enzyme engineering using a generative neural network**  
 Giessel, Andrew, et al.  
 [Scientific Reports 12.1 (2022)](https://www.nature.com/articles/s41598-022-05195-x)
@@ -643,6 +672,10 @@ Tucs, Andrejs, et al.
 Amimeur, Tileli, et al.  
 [BioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.04.12.024844v2)
 
+**Generating ampicillin-level antimicrobial peptides with activity-aware generative adversarial networks**  
+Tucs, Andrejs, et al.  
+[ACS omega 5.36 (2020)](https://pubs.acs.org/doi/10.1021/acsomega.0c02088) || [code](https://github.com/tsudalab/PepGAN)
+
 **Conditional Generative Modeling for De Novo Protein Design with Hierarchical Functions**  
 Kucera, Tim, Matteo Togninalli, and Laetitia Meng-Papaxanthos  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.11.10.467885v1.abstract)/[Bioinformatics 38.13 (2022)](https://academic.oup.com/bioinformatics/article/38/13/3454/6593486) || [code](https://github.com/timkucera/proteogan)
@@ -661,7 +694,7 @@ Van Oort, Colin M., et al.
 
 **DeepImmuno: deep learning-empowered prediction and generation of immunogenic peptides for T-cell immunity**  
 Li, Guangyuan, et al.  
-[Briefings in bioinformatics 22.6 (2021)](https://academic.oup.com/bib/article-abstract/22/6/bbab160/6261914)
+[Briefings in bioinformatics 22.6 (2021)](https://academic.oup.com/bib/article-abstract/22/6/bbab160/6261914) || [code](https://github.com/frankligy/DeepImmuno) || [web](https://deepimmuno.research.cchmc.org/)
 
 **PandoraGAN: Generating antiviral peptides using Generative Adversarial Network**  
 Surana, Shraddha, et al.  
@@ -851,6 +884,10 @@ Akbar, Rahmad, et al.
 Singer, Jedediah M., et al.  
 [PloS one 17.3 (2022)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0265020) || [code](https://zenodo.org/record/4906529)
 
+**Deep-learning based bioactive therapeutic peptides generation and screening**  
+Haiping Zhang, Konda Mani Saravanan, Yanjie Wei, Yang Jiao, Yang Yang, Yi Pan, Xuli Wu, John Z.H. Zhang  
+[bioRxiv 2022.11.14.516530](https://www.biorxiv.org/content/10.1101/2022.11.14.516530v1) || [code](https://github.com/haiping1010/New_peptide_iteration) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/11/16/2022.11.14.516530/DC1/embed/media-1.pdf?download=true)
+
 ### 5.11 Autoregressive-models
 
 **Efficient generative modeling of protein sequences using simple autoregressive models**  
@@ -922,6 +959,10 @@ Fu, Tianfan, and Jimeng Sun.
 **Conditional Antibody Design as 3D Equivariant Graph Translation**  
 Xiangzhe Kong, Wenbing Huang, Yang Liu  
 [ICLR 2023](https://openreview.net/forum?id=LFHFQbjxIiP)/[arXiv:2208.06073](https://arxiv.org/abs/2208.06073)
+
+**Incorporating Pre-training Paradigm for Antibody Sequence-Structure Co-design**  
+Kaiyuan Gao, Lijun Wu, Jinhua Zhu, Tianbo Peng, Yingce Xia, Liang He, Shufang Xie, Tao Qin, Haiguang Liu, Kun He, Tie-Yan Liu  
+[arXiv:2211.08406](https://arxiv.org/abs/2211.08406)
 
 ### 6.6 Transformer-based
 
