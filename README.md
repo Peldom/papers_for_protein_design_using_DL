@@ -384,6 +384,14 @@ Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina 
 Kevin E. Wu, Kevin K. Yang, Rianne van den Berg, James Y. Zou, Alex X. Lu, Ava P. Amini  
 [arXiv:2209.15611](https://arxiv.org/abs/2209.15611) || [code](https://github.com/microsoft/foldingdiff)
 
+**Illuminating protein space with a programmable generative model**  
+John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan Tie, Wujie Wang, Vincent Xue, Fritz Obermeyer, Andrew Beam, Gevorg Grigoryan  
+[Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf)
+
+**Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models**  
+Namrata Anand, Tudor Achim  
+[arXiv:2205.15019](https://arxiv.org/pdf/2205.15019)
+
 ### 3.6 Score-based
 
 **ProteinSGM: Score-based generative modeling for de novo protein design**  
@@ -392,7 +400,7 @@ Jin Sub Lee, Philip M Kim
 
 ### 3.7 RL-based
 
-**Top-down design of protein nanomaterials with reinforcement learning**  
+**Top-down design of protein nanomaterials with reinforcement learning**
 Isaac D Lutz, Shunzhi Wang, Christoffer Norn, Andrew J Borst, Yan Ting Zhao, Annie Dosey, Longxing Cao, Zhe Li, Minkyung Baek, Neil P King, Hannele Ruohola-Baker, David Baker  
 [bioRxiv 2022.09.25.509419](https://www.biorxiv.org/content/10.1101/2022.09.25.509419v1)
 
