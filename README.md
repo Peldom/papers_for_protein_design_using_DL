@@ -392,6 +392,10 @@ John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan T
 Namrata Anand, Tudor Achim  
 [arXiv:2205.15019](https://arxiv.org/pdf/2205.15019)
 
+**Broadly applicable and accurate protein design by integrating structure prediction networks and diffusion generative models**  
+Joseph L. et al.  
+[Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)
+
 ### 3.6 Score-based
 
 **ProteinSGM: Score-based generative modeling for de novo protein design**  
