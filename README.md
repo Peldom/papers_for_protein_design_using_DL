@@ -20,7 +20,7 @@
   - [0. Benchmarks and datasets](#0-benchmarks-and-datasets)
     - [0.1 Function to sequence](#01-function-to-sequence)
     - [0.2 Structure to sequence](#02-structure-to-sequence)
-    - [0.3 Others](#03-others)
+    - [0.3 Databases](#03-databases)
       - [0.3.1 Sequence Database](#031-sequence-database)
       - [0.3.2 Structure Database](#032-structure-database)
       - [0.3.3 Protein Structure Datasets](#033-protein-structure-datasets)
@@ -80,7 +80,7 @@
     - [6.5 GNN-based](#65-gnn-based)
     - [6.6 Transformer-based](#66-transformer-based)
   - [7. Other tasks](#7-other-tasks)
-    - [7.1 Effects of mutation & Fitness Landscape](#71-effects-of-mutation--fitness-landscape)
+    - [7.1 Effects of mutation \& Fitness Landscape](#71-effects-of-mutation--fitness-landscape)
     - [7.2 Protein Language Models (PTM) and representation learning](#72-protein-language-models-ptm-and-representation-learning)
     - [7.3 Molecular Design Models](#73-molecular-design-models)
       - [7.3.1 Gradient optimization](#731-gradient-optimization)
@@ -92,7 +92,11 @@
 
 **FLIP: Benchmark tasks in fitness landscape inference for proteins**  
 Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattacharya, Samuel Goldman, Ali Madani, Kevin K Yang  
-[NeurIPS 2021 Datasets and Benchmarks Track](https://openreview.net/forum?id=p2dMLEwL8tF) || [website](https://benchmark.protein.properties/)  
+[NeurIPS 2021 Datasets and Benchmarks Track](https://openreview.net/forum?id=p2dMLEwL8tF) || [website](https://benchmark.protein.properties/)
+
+**A Benchmark Framework for Evaluating Structure-to-Sequence Models for Protein Design**  
+Jeffrey Chan, Seyone Chithrananda, David Brookes, Sam Sinai  
+Paper ununavailable at [Machine Learning in Structural Biology Workshop 2022](https://nips.cc/Conferences/2022/ScheduleMultitrack?event=50005)
 
 ### 0.2 Structure to sequence
 
@@ -100,7 +104,7 @@ Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattachary
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
 [arxiv (2022)](https://arxiv.org/abs/2202.01079)
 
-### 0.3 Others
+### 0.3 Databases
 
 > A list of suggested protein databases, more lists at [CNCB](https://ngdc.cncb.ac.cn/databasecommons/).
 >
@@ -136,7 +140,7 @@ Jonathan E. King, David Ryan Koes
 
 ### 0.4 Similar List
 
-> Some other similar GitHub list that include papers about protein design using deep learning:
+> Some similar GitHub lists that include papers about protein design using deep learning:
 
 1. [design_tools](https://github.com/hefeda/design_tools/blob/main/README.md)
 2. [awesome-AI-based-protein-design](https://github.com/opendilab/awesome-AI-based-protein-design)
@@ -242,7 +246,7 @@ Takatsugu Kosugi, Masahito Ohue
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
 Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey  
-[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/) || [ColabDesign](https://github.com/sokrypton/ColabDesign), [SMURF](https://github.com/spetti/SMURF), [AF2 back propagation](https://github.com/sokrypton/af_backprop) || [our notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977) || [lecture](https://www.youtube.com/watch?v=2HmXwlKWMVs) || [Discord](https://discord.com/invite/FpYPneYB)
+[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/)/[Bioinformatics, 2022;, btac724](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac724/6820925) || [ColabDesign](https://github.com/sokrypton/ColabDesign), [SMURF](https://github.com/spetti/SMURF), [AF2 back propagation](https://github.com/sokrypton/af_backprop) || [our notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977) || [lecture](https://www.youtube.com/watch?v=2HmXwlKWMVs) || [Discord](https://discord.com/invite/FpYPneYB)
 
 **AlphaDesign: A de novo protein design framework based on AlphaFold**  
 Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.  
@@ -378,23 +382,11 @@ Huang, B., Xu, Y., Hu, X. et al
 
 **Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem**  
 Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola  
-[arXiv:2206.04119](https://arxiv.org/abs/2206.04119)
+[arXiv:2206.04119](https://arxiv.org/abs/2206.04119) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/d3d9446802a44259755d38e6d163e820.png?t=1667835607.0141048)
 
 **Protein structure generation via folding diffusion**  
 Kevin E. Wu, Kevin K. Yang, Rianne van den Berg, James Y. Zou, Alex X. Lu, Ava P. Amini  
 [arXiv:2209.15611](https://arxiv.org/abs/2209.15611) || [code](https://github.com/microsoft/foldingdiff)
-
-**Illuminating protein space with a programmable generative model**  
-John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan Tie, Wujie Wang, Vincent Xue, Fritz Obermeyer, Andrew Beam, Gevorg Grigoryan  
-[Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf)
-
-**Protein Structure and Sequence Generation with Equivariant Denoising Diffusion Probabilistic Models**  
-Namrata Anand, Tudor Achim  
-[arXiv:2205.15019](https://arxiv.org/pdf/2205.15019)
-
-**Broadly applicable and accurate protein design by integrating structure prediction networks and diffusion generative models**  
-Joseph L. et al.  
-[Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)
 
 ### 3.6 Score-based
 
@@ -790,7 +782,7 @@ Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Rafael Jaimes, Rajmonda Sulo Ca
 
 **ZymCTRL: a conditional language model for the contollable generation of artificial enzymes**  
 Noelia Ferruz  
-preprint coming soon || [hugging face](https://huggingface.co/nferruz/ZymCTRL)
+preprint coming soon || [hugging face](https://huggingface.co/nferruz/ZymCTRL) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/59047.png?t=1669864213.082831)
 
 ### 5.5 ResNet-based
 
@@ -835,8 +827,12 @@ Cowen-Rivers, Alexander I., et al.
 [arXiv preprint arXiv:2209.04698 (2022)](https://arxiv.org/abs/2209.04698)
 
 **Protein Sequence Design in a Latent Space via Model-based Reinforcement Learning**  
-Anonymous  
-[ICLR 2023](https://openreview.net/forum?id=OhjGzRE5N6o)
+Minji Lee, Luiz Felipe Vecchietti, Hyunkyu Jung, Hyunjoo Ro, Ho Min Kim, Meeyoung Cha  
+[ICLR 2023/Machine Learning in Structural Biology Workshop 2022](https://openreview.net/forum?id=OhjGzRE5N6o)
+
+**Designing Biological Sequences via Meta-Reinforcement Learning and Bayesian Optimization**  
+Leo Feng, Padideh Nouri, Aneri Muni, Yoshua Bengio, Pierre-Luc Bacon  
+[arXiv:2209.06259](https://arxiv.org/abs/2209.06259) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/58993.png?t=1669588933.2017226)
 
 ### 5.8 Flow-based
 
@@ -946,11 +942,19 @@ Namrata Anand, Tudor Achim
 Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma  
 [bioRxiv 2022.07.10.499510](https://www.biorxiv.org/content/10.1101/2022.07.10.499510v5) || [code](https://github.com/luost26/diffab) || [hugging face](https://huggingface.co/spaces/luost26/DiffAb)
 
+**Illuminating protein space with a programmable generative model**  
+John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan Tie, Wujie Wang, Vincent Xue, Fritz Obermeyer, Andrew Beam, Gevorg Grigoryan  
+[Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf) || [website](https://generatebiomedicines.com/chroma)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
 Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
 [bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387)/[Science(2022)](https://www.science.org/doi/10.1126/science.abn2100) || [RFDesign](https://github.com/RosettaCommons/RFDesign) || [our notes](https://zhuanlan.zhihu.com/p/477854488) || [lecture](https://www.youtube.com/watch?v=-EJ8SXTBin0) || [RoseTTAFold](https://github.com/RosettaCommons/RoseTTAFold) || [Supplymentary](https://www.science.org/doi/suppl/10.1126/science.abn2100/suppl_file/science.abn2100_sm.pdf), [Other supplymentary](https://www.science.org/doi/suppl/10.1126/science.abn2100/suppl_file/science.abn2100_data_s1_and_s2.zip)
+
+**Broadly applicable and accurate protein design by integrating structure prediction networks and diffusion generative models**  
+Joseph L. et al.  
+[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf) || [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/)
 
 ### 6.4 CNN-based
 
@@ -1028,7 +1032,7 @@ Ruyun Hu, Lihao Fu, Yongcan Chen, Junyu Chen, Yu Qiao, Tong Si
 
 **Antibody optimization enabled by artificial intelligence predictions of binding affinity and naturalness**  
 Bachas, Sharrol, et al.  
-[bioRxiv 2022.08.16.504181](https://www.biorxiv.org/content/10.1101/2022.08.16.504181v1)
+[bioRxiv 2022.08.16.504181](https://www.biorxiv.org/content/10.1101/2022.08.16.504181v1) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/58999.png?t=1668022673.3853557)
 
 **Construction of a Deep Neural Network Energy Function for Protein Physics**  
 Yang, Huan, Zhaoping Xiong, and Francesco Zonta  
