@@ -13,10 +13,10 @@ Following edits are **supportive**, but they should be **carefully considered**:
 1. Delete over-dated papers without much reference value(like those without source codes or solid data);
 2. Delete or combine sub-headings with papers kept;
 
-Following edits are not **allowed**:
+Following edits are **not allowed**:
 
 1. Add large media files(like large images or videos) into [README.md](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/README.md) for too many large files highly reduce loading speed;
-2. Add those with copyright protection that restricting re-link or reprint, those must be authorized by copyright owners before adding;
+2. Add those with copyright protection that restrict re-link or reprint, those must be authorized by copyright owners before adding;
 
 ## Format of paper items
 

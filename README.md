@@ -18,12 +18,11 @@
   - [About this repository](#about-this-repository)
   - [Menu](#menu)
   - [0. Benchmarks and datasets](#0-benchmarks-and-datasets)
-    - [0.1 Function to sequence](#01-function-to-sequence)
-    - [0.2 Structure to sequence](#02-structure-to-sequence)
+    - [0.1 Sequence Datasets](#01-sequence-datasets)
+    - [0.2 Structure Datasets](#02-structure-datasets)
     - [0.3 Databases](#03-databases)
       - [0.3.1 Sequence Database](#031-sequence-database)
       - [0.3.2 Structure Database](#032-structure-database)
-      - [0.3.3 Protein Structure Datasets](#033-protein-structure-datasets)
     - [0.4 Similar List](#04-similar-list)
   - [1. Reviews](#1-reviews)
     - [1.1 De novo protein design](#11-de-novo-protein-design)
@@ -88,21 +87,34 @@
 
 ## 0. Benchmarks and datasets
 
-### 0.1 Function to sequence
+### 0.1 Sequence Datasets
 
 **FLIP: Benchmark tasks in fitness landscape inference for proteins**  
 Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattacharya, Samuel Goldman, Ali Madani, Kevin K Yang  
-[NeurIPS 2021 Datasets and Benchmarks Track](https://openreview.net/forum?id=p2dMLEwL8tF) || [website](https://benchmark.protein.properties/)
+[NeurIPS 2021 Datasets and Benchmarks Track](https://openreview.net/forum?id=p2dMLEwL8tF)/[bioRxiv 2021](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2) || [website](https://benchmark.protein.properties/) || [code](https://github.com/J-SNACKKB/FLIP) || [supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/01/19/2021.11.09.467890/DC1/embed/media-1.pdf?download=true)
 
 **A Benchmark Framework for Evaluating Structure-to-Sequence Models for Protein Design**  
 Jeffrey Chan, Seyone Chithrananda, David Brookes, Sam Sinai  
-Paper ununavailable at [Machine Learning in Structural Biology Workshop 2022](https://nips.cc/Conferences/2022/ScheduleMultitrack?event=50005)
+Paper unavailable at [Machine Learning in Structural Biology Workshop 2022](https://nips.cc/Conferences/2022/ScheduleMultitrack?event=50005)
 
-### 0.2 Structure to sequence
+### 0.2 Structure Datasets
 
 **AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**  
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
 [arxiv (2022)](https://arxiv.org/abs/2202.01079)
+
+**SidechainNet: An All-Atom Protein Structure Dataset for Machine Learning**
+Jonathan E. King, David Ryan Koes  
+[arxiv](https://arxiv.org/abs/2010.08162) || [github::sidechainnet](https://github.com/jonathanking/sidechainnet)  
+
+[TDC](https://tdcommons.ai/overview/) maintains a resource list that currently contains 22 tasks (and its datasets) related to small molecules and macromolecules, including PPI, DDI and so on. [MoleculeNet](https://github.com/GLambard/Molecules_Dataset_Collection) published a small molecule related benchmark four years ago.
+
+> In terms of datasets and benchmarks, protein design is far less mature than drug discovery ([paperwithcode drug discovery benchmarks](https://paperswithcode.com/task/drug-discovery)). (Maybe should add the evaluation of protein design for deep learning method (especially deep generative model))  
+> Difficulties and opportunities always coexist. Happy to see the work of [Christian Dallago, Jody Mou, Kadina E. Johnston, Bruce J. Wittmann, Nicholas Bhattacharya, Samuel Goldman, Ali Madani, Kevin K. Yang](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v1) and [Zhangyang Gao, Cheng Tan, Stan Z. Li](https://arxiv.org/abs/2202.01079).
+
+**Sampling of structure and sequence space of small protein folds**  
+Linsky, T.W., Noble, K., Tobin, A.R. et al.  
+[Nat Commun 13, 7151 (2022)](https://www.nature.com/articles/s41467-022-34937-8) || [code](https://github.com/strauchlab/scaffold_design) || [Supplementary](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-34937-8/MediaObjects/41467_2022_34937_MOESM1_ESM.pdf)
 
 ### 0.3 Databases
 
@@ -126,17 +138,6 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 10. [SAbDab](http://opig.stats.ox.ac.uk/webapps/newsabdab/sabdab/)
 11. [SKEMPI v2.0](https://life.bsc.es/pid/skempi2)
 12. [ProtCAD](http://dunbrack2.fccc.edu/protcad/)
-
-#### 0.3.3 Protein Structure Datasets
-
-**SidechainNet: An All-Atom Protein Structure Dataset for Machine Learning**
-Jonathan E. King, David Ryan Koes  
-[arxiv](https://arxiv.org/abs/2010.08162) || [github::sidechainnet](https://github.com/jonathanking/sidechainnet)  
-
-[TDC](https://tdcommons.ai/overview/) maintains a resource list that currently contains 22 tasks (and its datasets) related to small molecules and macromolecules, including PPI, DDI and so on. [MoleculeNet](https://github.com/GLambard/Molecules_Dataset_Collection) published a small molecule related benchmark four years ago.
-
-> In terms of datasets and benchmarks, protein design is far less mature than drug discovery ([paperwithcode drug discovery benchmarks](https://paperswithcode.com/task/drug-discovery)). (Maybe should add the evaluation of protein design for deep learning method (especially deep generative model))  
-> Difficulties and opportunities always coexist. Happy to see the work of [Christian Dallago, Jody Mou, Kadina E. Johnston, Bruce J. Wittmann, Nicholas Bhattacharya, Samuel Goldman, Ali Madani, Kevin K. Yang](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v1) and [Zhangyang Gao, Cheng Tan, Stan Z. Li](https://arxiv.org/abs/2202.01079).
 
 ### 0.4 Similar List
 
@@ -256,6 +257,10 @@ Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.
 Moffat, Lewis, Joe G. Greener, and David T. Jones.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.08.24.457549v1)  
 
+**State-of-the-art estimation of protein model accuracy using AlphaFold**  
+James P. Roney, Sergey Ovchinnikov  
+[bioRxiv 2022.03.11.484043](https://www.biorxiv.org/content/10.1101/2022.03.11.484043v3) || [code](https://github.com/jproney/AF2Rank)
+
 **Hallucinating protein assemblies**  
 Basile I M Wicky, Lukas F Milles, Alexis Courbet, Robert J Ragotte, Justas Dauparas, Elias Kinfu, Sam Tipps, Ryan D Kibler, Minkyung Baek, Frank DiMaio, Xinting Li, Lauren Carter, Alex Kang, Hannah Nguyen, Asim K Bera, David Baker  
 [bioRxiv 2022.06.09.493773](https://www.biorxiv.org/content/10.1101/2022.06.09.493773v1)/[Science (2022)](https://www.science.org/doi/10.1126/science.add1964) || [related slides](https://docs.google.com/presentation/d/1_tvzLKks83sYOKemfFeImCPnWtCQ-CHqmKK_3IQI1so/) || [our notes](https://zhuanlan.zhihu.com/p/527152827) || [news](https://www.nature.com/articles/d41586-022-02947-7)
@@ -289,6 +294,10 @@ Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai
 **Protein language models trained on multiple sequence alignments learn phylogenetic relationships**  
 Damiano Sgarbossa, Umberto Lupo, Anne-Florence Bitbol  
 [arXiv preprint arXiv:2203.15465 (2022)](https://arxiv.org/abs/2203.15465)/[bioRxiv 2022.04.14.488405](https://www.biorxiv.org/content/10.1101/2022.04.14.488405v1)
+
+**EvoOpt: an MSA-guided, fully unsupervised sequence optimization pipeline for protein design**  
+Hideki Yamaguchi, Yutaka Saito  
+[NeurIPS 2022](https://www.mlsb.io/papers_2022/EvoOpt_an_MSA_guided_fully_unsupervised_sequence_optimization_pipeline_for_protein_design.pdf)
 
 ### 2.6 DeepAb-based
 
@@ -325,6 +334,10 @@ Fannjiang, Clara, and Jennifer Listgarten.
 **An Efficient MCMC Approach to Energy Function Optimization in Protein Structure Prediction**  
 Lakshmi A. Ghantasala, Risi Jaiswal, Supriyo Datta  
 [arXiv:2211.03193](https://arxiv.org/abs/2211.03193)
+
+**Plug & Play Directed Evolution of Proteins with Gradient-based Discrete MCMC**  
+Patrick Emami, Aidan Perreault, Jeffrey Law, David Biagioni, Peter St. Joh  
+[NeurIPS 2022](https://www.mlsb.io/papers_2022/Plug_Play_Directed_Evolution_of_Proteins_with_Gradient_based_Discrete_MCMC.pdf)
 
 ## 3. Function to Scaffold
 
@@ -382,7 +395,7 @@ Huang, B., Xu, Y., Hu, X. et al
 
 **Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem**  
 Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola  
-[arXiv:2206.04119](https://arxiv.org/abs/2206.04119) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/d3d9446802a44259755d38e6d163e820.png?t=1667835607.0141048)
+[arXiv:2206.04119](https://arxiv.org/abs/2206.04119)/[NeurIPS 2022](https://www.mlsb.io/papers_2022/Diffusion_probabilistic_modeling_of_protein_backbones_in_3D_for_the_motif_scaffolding_problem.pdf) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/d3d9446802a44259755d38e6d163e820.png?t=1667835607.0141048)
 
 **Protein structure generation via folding diffusion**  
 Kevin E. Wu, Kevin K. Yang, Rianne van den Berg, James Y. Zou, Alex X. Lu, Ava P. Amini  
@@ -396,7 +409,7 @@ Jin Sub Lee, Philip M Kim
 
 ### 3.7 RL-based
 
-**Top-down design of protein nanomaterials with reinforcement learning**
+**Top-down design of protein nanomaterials with reinforcement learning** 。
 Isaac D Lutz, Shunzhi Wang, Christoffer Norn, Andrew J Borst, Yan Ting Zhao, Annie Dosey, Longxing Cao, Zhe Li, Minkyung Baek, Neil P King, Hannele Ruohola-Baker, David Baker  
 [bioRxiv 2022.09.25.509419](https://www.biorxiv.org/content/10.1101/2022.09.25.509419v1)
 
@@ -421,6 +434,10 @@ O'Connell, James, et al.
 **Computational protein design with deep learning neural networks**  
 Wang, Jingxue, et al.  
 [Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-24760-x.pdf) || code unavailable
+
+**Ligand-aware protein sequence design using protein self contacts**  
+Jody Mou, Benjamin Fry, Chun-Chen Yao, Nicholas Polizzi  
+[NeurIPS 2022](https://www.dropbox.com/s/98ri2f9gverljcw/Ligand-aware_protein_sequence_design_using_protein_self_contacts.pdf?dl=0)
 
 ### 4.2 VAE-based
 
@@ -782,7 +799,7 @@ Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Rafael Jaimes, Rajmonda Sulo Ca
 
 **ZymCTRL: a conditional language model for the contollable generation of artificial enzymes**  
 Noelia Ferruz  
-preprint coming soon || [hugging face](https://huggingface.co/nferruz/ZymCTRL) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/59047.png?t=1669864213.082831)
+[NeurIPS 2022](https://www.mlsb.io/papers_2022/ZymCTRL_a_conditional_language_model_for_the_controllable_generation_of_artificial_enzymes.pdf) || [hugging face](https://huggingface.co/nferruz/ZymCTRL) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/59047.png?t=1669864213.082831)
 
 ### 5.5 ResNet-based
 
@@ -828,11 +845,11 @@ Cowen-Rivers, Alexander I., et al.
 
 **Protein Sequence Design in a Latent Space via Model-based Reinforcement Learning**  
 Minji Lee, Luiz Felipe Vecchietti, Hyunkyu Jung, Hyunjoo Ro, Ho Min Kim, Meeyoung Cha  
-[ICLR 2023/Machine Learning in Structural Biology Workshop 2022](https://openreview.net/forum?id=OhjGzRE5N6o)
+[ICLR 2023](https://openreview.net/forum?id=OhjGzRE5N6o)/[NeurIPS 2022](https://www.mlsb.io/papers_2022/Protein_Sequence_Design_in_a_Latent_Space_via_Model_based_Reinforcement_Learning.pdf) || [Supplementary](https://openreview.net/attachment?id=OhjGzRE5N6o&name=supplementary_material)
 
 **Designing Biological Sequences via Meta-Reinforcement Learning and Bayesian Optimization**  
 Leo Feng, Padideh Nouri, Aneri Muni, Yoshua Bengio, Pierre-Luc Bacon  
-[arXiv:2209.06259](https://arxiv.org/abs/2209.06259) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/58993.png?t=1669588933.2017226)
+[arXiv:2209.06259](https://arxiv.org/abs/2209.06259)/[NeurIPS 2022](https://www.mlsb.io/papers_2022/Designing_Biological_Sequences_via_Meta_Reinforcement_Learning_and_Bayesian_Optimization.pdf) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/58993.png?t=1669588933.2017226)
 
 ### 5.8 Flow-based
 
@@ -944,7 +961,7 @@ Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma
 
 **Illuminating protein space with a programmable generative model**  
 John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan Tie, Wujie Wang, Vincent Xue, Fritz Obermeyer, Andrew Beam, Gevorg Grigoryan  
-[Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf) || [website](https://generatebiomedicines.com/chroma)
+[Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf) || [code](https://github.com/lucidrains/chroma-pytorch) || [website](https://generatebiomedicines.com/chroma)
 
 ### 6.3 RoseTTAFold-based
 
@@ -1082,7 +1099,7 @@ Leem, Jinwoo, et al.
 
 **On Pre-training Language Model for Antibody**  
 Anonymous(Paper under double-blind review)  
-[ICLR 2023](https://openreview.net/forum?id=zaq4LV55xHl)
+[ICLR 2023](https://openreview.net/forum?id=zaq4LV55xHl) || [supplymentary](https://openreview.net/attachment?id=zaq4LV55xHl&name=supplementary_material)
 
 **Antibody Representation Learning for Drug Discovery**  
 Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Tristan Bepler, Rajmonda Sulo Caceres  
@@ -1126,7 +1143,7 @@ Yogesh Verma, Samuel Kaski, Markus Heinonen, Vikas Garg
 
 **Structure-based Drug Design with Equivariant Diffusion Models**  
 Arne Schneuing, Yuanqi Du, Charles Harris, Arian Jamasb, Ilia Igashov, Weitao Du, Tom Blundell, Pietro Lió, Carla Gomes, Max Welling, Michael Bronstein, Bruno Correia  
-[arXiv:2210.13695](https://arxiv.org/abs/2210.13695) || [code](https://github.com/arneschneuing/DiffSBDD)
+[NeurIPS 2022](https://www.mlsb.io/papers_2022/Structure_based_Drug_Design_with_Equivariant_Diffusion_Models.pdf)/[arXiv:2210.13695](https://arxiv.org/abs/2210.13695) || [code](https://github.com/arneschneuing/DiffSBDD)
 
 #### 7.3.2 Optimized sampling
 
@@ -1169,5 +1186,9 @@ Powers, Alexander, et al.
 **Pocket2Mol: Efficient Molecular Sampling Based on 3D Protein Pockets**  
 Peng, Xingang, et al.  
 [arXiv preprint arXiv:2205.07249 (2022)](https://arxiv.org/abs/2205.07249) || [code](https://github.com/pengxingang/Pocket2Mol)
+
+**Reinforced Genetic Algorithm for Structure-based Drug Design**  
+Fu, Tianfan, et al.  
+[arXiv preprint arXiv:2211.16508 (2022)](https://arxiv.org/abs/2211.16508)/[ICML22](https://openreview.net/forum?id=_Sfd-icezCa) || [code](https://github.com/futianfan/reinforced-genetic-algorithm) || [website](https://deepai.org/publication/reinforced-genetic-algorithm-for-structure-based-drug-design)
 
 <!-- ### 7.4  -->
