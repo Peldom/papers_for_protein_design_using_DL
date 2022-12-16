@@ -275,7 +275,11 @@ Linna An, Derrick R Hicks, Dmitri Zorine, Justas Dauparas, Basile I. M. Wicky, L
 
 **Predicting the structure of large protein complexes using AlphaFold and Monte Carlo tree search**  
 Bryant, Patrick, et al.  
-[Nature communications 13.1 (2022)](https://www.nature.com/articles/s41467-022-33729-4) || [gitlba](https://gitlab.com/patrickbryant1/molpc), [github](https://github.com/patrickbryant1/MoLPC) || [supplymentary data1](https://doi.org/10.5281/zenodo.6367019), [supplymentary data2](https://doi.org/10.17044/scilifelab.19375172)
+[Nature communications 13.1 (2022)](https://www.nature.com/articles/s41467-022-33729-4) || [gitlba](https://gitlab.com/patrickbryant1/molpc), [github](https://github.com/patrickbryant1/MoLPC) || [Supplementary data1](https://doi.org/10.5281/zenodo.6367019), [Supplementary data2](https://doi.org/10.17044/scilifelab.19375172)
+
+**De novo protein design by inversion of the AlphaFold structure prediction network**  
+Casper Goverde, Benedict Wolf, Hamed Khakzad, Stephane Rosset, Bruno E Correia  
+[bioRxiv 2022.12.13.520346](https://www.biorxiv.org/content/10.1101/2022.12.13.520346v1) || [code](https://github.com/bene837/af_gradmcmc)
 
 ### 2.3 DMPfold2-based
 
@@ -307,7 +311,7 @@ Mahajan, Sai Pooja, et al.
 
 **Hallucinating structure-conditioned antibody libraries for target-specific binders**  
 Sai Pooja Mahajan, Jeffrey A Ruffolo, Rahel Frick, Jeffrey J. Gray  
-[bioRxiv 2022.06.06.494991](https://www.biorxiv.org/content/10.1101/2022.06.06.494991v1)/[Front. Immunol. 13:999034](https://www.frontiersin.org/articles/10.3389/fimmu.2022.999034/full) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/06/2022.06.06.494991/DC1/embed/media-1.pdf?download=true) || [code](https://github.com/RosettaCommons/FvHallucinator)
+[bioRxiv 2022.06.06.494991](https://www.biorxiv.org/content/10.1101/2022.06.06.494991v1)/[Front. Immunol. 13:999034](https://www.frontiersin.org/articles/10.3389/fimmu.2022.999034/full) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/06/2022.06.06.494991/DC1/embed/media-1.pdf?download=true) || [code](https://github.com/RosettaCommons/FvHallucinator)
 
 ### 2.7 TRFold2-based
 
@@ -453,7 +457,7 @@ Chen, Sheng, et al.
 
 **Deep learning of Protein Sequence Design of Protein-protein Interactions**  
 Syrlybaeva, Raulia, and Eva-Maria Strauch.  
-[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.28.478262v1)/[Bioinformatics, 2022;, btac733](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac733/6827796) || [Supplymentary](https://www.biorxiv.org/content/10.1101/2022.01.28.478262v1.supplementary-material) || [code](https://github.com/strauchlab/iNNterfaceDesign)
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.28.478262v1)/[Bioinformatics, 2022;, btac733](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac733/6827796) || [Supplementary](https://www.biorxiv.org/content/10.1101/2022.01.28.478262v1.supplementary-material) || [code](https://github.com/strauchlab/iNNterfaceDesign)
 
 ### 4.4 CNN-based
 
@@ -557,7 +561,7 @@ Cao, Yue, et al.
 
 **Rotamer-Free Protein Sequence Design Based on Deep Learning and Self-Consistency**  
 Liu, Yufeng, et al.  
-[Nature portfolio (2022)](https://www.researchsquare.com/article/rs-1209166/v1)/[Nature computational science(2022)](https://www.nature.com/articles/s43588-022-00273-6) || [Supplymentary](https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00273-6/MediaObjects/43588_2022_273_MOESM1_ESM.pdf) || [Comment](https://www.nature.com/articles/s43588-022-00274-5) || [code](https://codeocean.com/capsule/6949436/tree/v1)
+[Nature portfolio (2022)](https://www.researchsquare.com/article/rs-1209166/v1)/[Nature computational science(2022)](https://www.nature.com/articles/s43588-022-00273-6) || [Supplementary](https://static-content.springer.com/esm/art%3A10.1038%2Fs43588-022-00273-6/MediaObjects/43588_2022_273_MOESM1_ESM.pdf) || [Comment](https://www.nature.com/articles/s43588-022-00274-5) || [code](https://codeocean.com/capsule/6949436/tree/v1)
 
 **A Deep SE(3)-Equivariant Model for Learning Inverse Protein Folding**  
 Mmatthew McPartlon, Ben Lai, Jinbo Xu  
@@ -569,7 +573,7 @@ Chloe Hsu, Robert Verkuil, Jason Liu, Zeming Lin, Brian Hie, Tom Sercu, Adam Ler
 
 **Accurate and efficient protein sequence design through learning concise local environment of residues**  
 Huang, Bin, et al.  
-[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v2.abstract) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/30/2022.06.25.497605/DC1/embed/media-1.pdf?download=true)
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v2.abstract) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/30/2022.06.25.497605/DC1/embed/media-1.pdf?download=true)
 
 **PeTriBERT : Augmenting BERT with tridimensional encoding for inverse protein folding and design**  
 Baldwin Dumortier, Antoine Liutkus, Clément Carré, Gabriel Krouk  
@@ -633,7 +637,7 @@ Costello, Zak, and Hector Garcia Martin.
 
 **Convergent selection in antibody repertoires is revealed by deep learning**  
 Friedensohn, Simon, et al.  
-[BioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.02.25.965673v1) || [supplymentary](https://www.biorxiv.org/content/biorxiv/early/2020/02/26/2020.02.25.965673/DC1/embed/media-1.pdf?download=true) || code available after publication
+[BioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.02.25.965673v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2020/02/26/2020.02.25.965673/DC1/embed/media-1.pdf?download=true) || code available after publication
 
 **Variational autoencoder for generation of antimicrobial peptides**  
 Dean, Scott N., and Scott A. Walper.  
@@ -666,6 +670,10 @@ Giessel, Andrew, et al.
 **GM-Pep: A High Efficiency Strategy to De Novo Design Functional Peptide Sequences**  
 Chen, Qushuo, et al.  
 [Journal of Chemical Information and Modeling (2022)](https://pubs.acs.org/doi/10.1021/acs.jcim.2c00089) || [code](https://github.com/TimothyChen225/GM-Pep)
+
+**Mean Dimension of Generative Models for Protein Sequences**  
+Christoph Feinauer, Emanuele Borgonovo  
+[bioRxiv 2022.12.12.520028](https://www.biorxiv.org/content/10.1101/2022.12.12.520028v1) || [code](https://github.com/christopfeinauer/ProteinMeanDimension)
 
 ### 5.3 GAN-based
 
@@ -815,7 +823,7 @@ Tallorin, Lorillee, et al.
 
 **Now What Sequence? Pre-trained Ensembles for Bayesian Optimization of Protein Sequences**  
 Ziyue Yang, Katarina A Milas, Andrew D White  
-[bioRxiv 2022.08.05.502972](https://www.biorxiv.org/content/10.1101/2022.08.05.502972v2) || [code](https://github.com/ur-whitelab/wazy) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/08/06/2022.08.05.502972/DC1/embed/media-1.pdf?download=true) || [Colab](https://colab.research.google.com/github/ur-whitelab/wazy/blob/master/colab/WazyAlphaFold2.ipynb)
+[bioRxiv 2022.08.05.502972](https://www.biorxiv.org/content/10.1101/2022.08.05.502972v2) || [code](https://github.com/ur-whitelab/wazy) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/08/06/2022.08.05.502972/DC1/embed/media-1.pdf?download=true) || [Colab](https://colab.research.google.com/github/ur-whitelab/wazy/blob/master/colab/WazyAlphaFold2.ipynb)
 
 **Lattice protein design using Bayesian learning**  
 Takahashi, Tomoei, George Chikenji, and Kei Tokita.  
@@ -911,7 +919,7 @@ Singer, Jedediah M., et al.
 
 **Deep-learning based bioactive therapeutic peptides generation and screening**  
 Haiping Zhang, Konda Mani Saravanan, Yanjie Wei, Yang Jiao, Yang Yang, Yi Pan, Xuli Wu, John Z.H. Zhang  
-[bioRxiv 2022.11.14.516530](https://www.biorxiv.org/content/10.1101/2022.11.14.516530v1) || [code](https://github.com/haiping1010/New_peptide_iteration) || [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/11/16/2022.11.14.516530/DC1/embed/media-1.pdf?download=true)
+[bioRxiv 2022.11.14.516530](https://www.biorxiv.org/content/10.1101/2022.11.14.516530v1) || [code](https://github.com/haiping1010/New_peptide_iteration) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/11/16/2022.11.14.516530/DC1/embed/media-1.pdf?download=true)
 
 ### 5.11 Autoregressive-models
 
@@ -961,23 +969,27 @@ Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma
 
 **Illuminating protein space with a programmable generative model**  
 John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan Tie, Wujie Wang, Vincent Xue, Fritz Obermeyer, Andrew Beam, Gevorg Grigoryan  
-[Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf) || [code](https://github.com/lucidrains/chroma-pytorch) || [website](https://generatebiomedicines.com/chroma)
+[Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf) || [plausible code](https://github.com/lucidrains/chroma-pytorch) || [website](https://generatebiomedicines.com/chroma)
 
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
 Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
-[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387)/[Science(2022)](https://www.science.org/doi/10.1126/science.abn2100) || [RFDesign](https://github.com/RosettaCommons/RFDesign) || [our notes](https://zhuanlan.zhihu.com/p/477854488) || [lecture](https://www.youtube.com/watch?v=-EJ8SXTBin0) || [RoseTTAFold](https://github.com/RosettaCommons/RoseTTAFold) || [Supplymentary](https://www.science.org/doi/suppl/10.1126/science.abn2100/suppl_file/science.abn2100_sm.pdf), [Other supplymentary](https://www.science.org/doi/suppl/10.1126/science.abn2100/suppl_file/science.abn2100_data_s1_and_s2.zip)
+[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387)/[Science(2022)](https://www.science.org/doi/10.1126/science.abn2100) || [RFDesign](https://github.com/RosettaCommons/RFDesign) || [our notes](https://zhuanlan.zhihu.com/p/477854488) || [lecture](https://www.youtube.com/watch?v=-EJ8SXTBin0) || [RoseTTAFold](https://github.com/RosettaCommons/RoseTTAFold) || [Supplementary](https://www.science.org/doi/suppl/10.1126/science.abn2100/suppl_file/science.abn2100_sm.pdf), [Other Supplementary](https://www.science.org/doi/suppl/10.1126/science.abn2100/suppl_file/science.abn2100_data_s1_and_s2.zip)
 
 **Broadly applicable and accurate protein design by integrating structure prediction networks and diffusion generative models**  
 Joseph L. et al.  
-[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf) || [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/)
+[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1) || [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf?download=true)
+
+**De novo design of high-affinity protein binders to bioactive helical peptides**  
+Susana Vázquez Torres, Philip J. Y. Leung, Isaac D. Lutz, Preetham Venkatesh, Joseph L Watson, Fabian Hink, Huu-Hien Huynh, Andy Hsien-Wei Yeh, David Juergens, Nathaniel R. Bennett, Andrew N. Hoofnagle, Eric Huang, Michael J. MacCoss, Marc Expòsit, Gyu Rie Lee, Elif Nihal Korkmaz, Jeff Nivala, Lance Stewart, Joseph M. Rodgers, David Baker  
+[bioRxiv 2022.12.10.519862](https://www.biorxiv.org/content/10.1101/2022.12.10.519862v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.10.519862/DC1/embed/media-1.pdf?download=true)
 
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**  
 Wehrle, Sarah, et al.  
-[Protein Science 30.CONF (2021)](https://infoscience.epfl.ch/record/290120)/[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.16.496402v1) || [supplymentary](https://www.biorxiv.org/content/biorxiv/early/2022/06/17/2022.06.16.496402/DC1/embed/media-1.pdf?download=true) || [masif_seed](https://github.com/LPDI-EPFL/masif_seed) || [masif](https://github.com/LPDI-EPFL/masif)
+[Protein Science 30.CONF (2021)](https://infoscience.epfl.ch/record/290120)/[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.16.496402v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/17/2022.06.16.496402/DC1/embed/media-1.pdf?download=true) || [masif_seed](https://github.com/LPDI-EPFL/masif_seed) || [masif](https://github.com/LPDI-EPFL/masif)
 
 ### 6.5 GNN-based
 
@@ -1057,7 +1069,7 @@ Yang, Huan, Zhaoping Xiong, and Francesco Zonta
 
 **Inferring protein fitness landscapes from laboratory evolution experiments**  
 Sameer D’Costa, Emily C. Hinds, Chase R. Freschlin, Hyebin Song, Philip A. Romero  
-[bioRxiv 2022.09.01.506224](https://www.biorxiv.org/content/10.1101/2022.09.01.506224v1) || [supplymentary](https://www.biorxiv.org/content/10.1101/2022.09.01.506224v1.supplementary-material)
+[bioRxiv 2022.09.01.506224](https://www.biorxiv.org/content/10.1101/2022.09.01.506224v1) || [Supplementary](https://www.biorxiv.org/content/10.1101/2022.09.01.506224v1.supplementary-material)
 
 **BayeStab: Predicting Effects of Mutations on Protein Stability with Uncertainty Quantification**  
 Wang, Shuyu, et al.  
@@ -1099,7 +1111,7 @@ Leem, Jinwoo, et al.
 
 **On Pre-training Language Model for Antibody**  
 Anonymous(Paper under double-blind review)  
-[ICLR 2023](https://openreview.net/forum?id=zaq4LV55xHl) || [supplymentary](https://openreview.net/attachment?id=zaq4LV55xHl&name=supplementary_material)
+[ICLR 2023](https://openreview.net/forum?id=zaq4LV55xHl) || [Supplementary](https://openreview.net/attachment?id=zaq4LV55xHl&name=supplementary_material)
 
 **Antibody Representation Learning for Drug Discovery**  
 Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Tristan Bepler, Rajmonda Sulo Caceres  
