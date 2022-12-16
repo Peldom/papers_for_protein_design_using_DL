@@ -673,7 +673,7 @@ Chen, Qushuo, et al.
 
 **Mean Dimension of Generative Models for Protein Sequences**  
 Christoph Feinauer, Emanuele Borgonovo  
-[bioRxiv 2022.12.12.520028](https://www.biorxiv.org/content/10.1101/2022.12.12.520028v1) || [code](https://github.com/christopfeinauer/ProteinMeanDimension)
+[bioRxiv 2022.12.12.520028](https://www.biorxiv.org/content/10.1101/2022.12.12.520028v1) || [code](https://github.com/christophfeinauer/ProteinMeanDimension)
 
 ### 5.3 GAN-based
 
