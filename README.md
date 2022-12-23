@@ -38,7 +38,8 @@
     - [2.6 DeepAb-based](#26-deepab-based)
     - [2.7 TRFold2-based](#27-trfold2-based)
     - [2.8 GPT-based](#28-gpt-based)
-    - [2.9 Sampling-algorithms](#29-sampling-algorithms)
+    - [2.9 ESM-based](#29-esm-based)
+    - [2.10 Sampling-algorithms](#210-sampling-algorithms)
   - [3. Function to Scaffold](#3-function-to-scaffold)
     - [3.1 GAN-based](#31-gan-based)
     - [3.2 VAE-based](#32-vae-based)
@@ -325,7 +326,17 @@ paper unavailable || [slides](https://pan.baidu.com/share/init?surl=4AOW_D9dwlvC
 Berenberg, Daniel, et al.  
 [arXiv preprint arXiv:2205.04259 (2022)](https://arxiv.org/abs/2205.04259)
 
-### 2.9 Sampling-algorithms
+### 2.9 ESM-based
+
+**A high-level programming language for generative protein design**  
+Brian Hie, Salvatore Candido, Zeming Lin, Ori Kabeli, Roshan Rao, Nikita Smetanin, Tom Sercu, Alexander Rives  
+[bioRxiv 2022.12.21.521526](https://www.biorxiv.org/content/10.1101/2022.12.21.521526v1)
+
+**Language models generalize beyond natural proteins**  
+Robert Verkuil, Ori Kabeli, Yilun Du, Basile IM Wicky, Lukas F Milles, Justas Dauparas, David Baker, Sergey Ovchinnikov, Tom Sercu, Alexander Rives  
+[bioRxiv 2022.12.21.521521](https://www.biorxiv.org/content/10.1101/2022.12.21.521521v1)
+
+### 2.10 Sampling-algorithms
 
 **AdaLead: A simple and robust adaptive greedy search algorithm for sequence design**  
 Sinai, Sam, et al.  
@@ -341,7 +352,7 @@ Lakshmi A. Ghantasala, Risi Jaiswal, Supriyo Datta
 
 **Plug & Play Directed Evolution of Proteins with Gradient-based Discrete MCMC**  
 Patrick Emami, Aidan Perreault, Jeffrey Law, David Biagioni, Peter St. Joh  
-[NeurIPS 2022](https://www.mlsb.io/papers_2022/Plug_Play_Directed_Evolution_of_Proteins_with_Gradient_based_Discrete_MCMC.pdf)
+[NeurIPS 2022](https://www.mlsb.io/papers_2022/Plug_Play_Directed_Evolution_of_Proteins_with_Gradient_based_Discrete_MCMC.pdf)/[arXiv:2212.09925](https://arxiv.org/abs/2212.09925)
 
 ## 3. Function to Scaffold
 
@@ -595,6 +606,10 @@ Qi, Yifei, and John ZH Zhang.
 Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma  
 [bioRxiv 2022.07.10.499510](https://www.biorxiv.org/content/10.1101/2022.07.10.499510v1)
 
+**De novo protein backbone generation based on diffusion with structured priors and adversarial training**  
+Yufeng Liu, Linghui Chen, Haiyan Liu  
+[bioRxiv 2022.12.17.520847](https://www.biorxiv.org/content/10.1101/2022.12.17.520847v1)
+
 ## 5.Function to Sequence
 
 > These models generate sequences from expected function.
@@ -728,6 +743,10 @@ Li, Guangyuan, et al.
 **PandoraGAN: Generating antiviral peptides using Generative Adversarial Network**  
 Surana, Shraddha, et al.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.02.15.431193.abstract)
+
+**Feedback-AVPGAN: Feedback-guided generative adversarial network for generating antiviral peptides**  
+Hasegawa, Kano, et al.  
+[Journal of Bioinformatics and Computational Biology (2022)](https://www.worldscientific.com/doi/10.1142/S0219720022500263) || [code](https://github.com/KanoHase/AVP-Generator)
 
 ### 5.4 Transformer-based
 
