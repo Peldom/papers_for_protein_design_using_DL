@@ -186,7 +186,8 @@ Rudden, Lucas SP, Mahdi Hijazi, and Patrick Barth
 
 **From sequence to function through structure: deep learning for protein design**  
 Noelia Ferruz, Michael Heinzinger, Mehmet Akdel, Alexander Goncearenco, Luca Naef, Christian Dallago  
-[bioRxiv 2022.08.31.505981](https://www.biorxiv.org/content/10.1101/2022.08.31.505981v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/09/03/2022.08.31.505981/DC1/embed/media-1.pdf?download=true) || [accompanying list](https://github.com/hefeda/design_tools/blob/main/README.md)
+[bioRxiv 2022.08.31.505981](https://www.biorxiv.org/content/10.1101/2022.08.31.505981v1)/[Computational and Structural Biotechnology Journal
+Volume 21, 2023](https://www.sciencedirect.com/science/article/pii/S2001037022005086) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/09/03/2022.08.31.505981/DC1/embed/media-1.pdf?download=true) || [accompanying list](https://github.com/hefeda/design_tools/blob/main/README.md)
 
 **Computational protein design with data-driven approaches: Recent developments and perspectives**  
 Liu, H, Chen, Q.  
@@ -393,6 +394,10 @@ Harteveld, Zander, et al.
 **End-to-End deep structure generative model for protein design**  
 Boqiao Lai, matthew McPartlon, Jinbo Xu  
 [bioRxiv 2022.07.09.499440](https://www.biorxiv.org/content/10.1101/2022.07.09.499440v1)
+
+**Deep Generative Design of Epitope-Specific Binding Proteins by Latent Conformation Optimization**  
+Raphael R Eguchi, Christian A Choe, Udit Parekh, Irene S Khalek, Michael D Ward, Neha Vithani, Gregory R Bowman, Joseph G Jardine, Possu Huang  
+[bioRxiv 2022.12.22.521698](https://www.biorxiv.org/content/10.1101/2022.12.22.521698v1)
 
 ### 3.3 DAE-based
 
