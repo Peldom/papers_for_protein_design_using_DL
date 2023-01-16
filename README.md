@@ -98,6 +98,10 @@ Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattachary
 Jeffrey Chan, Seyone Chithrananda, David Brookes, Sam Sinai  
 Paper unavailable at [Machine Learning in Structural Biology Workshop 2022](https://nips.cc/Conferences/2022/ScheduleMultitrack?event=50005)
 
+**PDBench: Evaluating Computational Methods for Protein-Sequence Design**  
+Leonardo V Castorina, Rokas Petrenas, Kartic Subr, Christopher W Wood  
+[Bioinformatics, 2023;, btad027](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btad027/6986968) || [code](https://github.com/wells-wood-research/PDBench)
+
 ### 0.2 Structure Datasets
 
 **AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**  
@@ -767,7 +771,7 @@ Wu, Zachary, et al.
 
 **Generative Language Modeling for Antibody Design**  
 Shuai, Richard W., Jeffrey A. Ruffolo, and Jeffrey J. Gray.  
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v1)
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v2)
 
 **Deep neural language modeling enables functional protein generation across families**  
 Madani, Ali, et al.  
@@ -855,7 +859,7 @@ Takahashi, Tomoei, George Chikenji, and Kei Tokita.
 
 **AntBO: Towards Real-World Automated Antibody Design with Combinatorial Bayesian Optimisation**  
 Khan, Asif, et al.  
-[arXiv preprint (2022)](https://arxiv.org/abs/2201.12570)
+[arXiv preprint (2022)](https://arxiv.org/abs/2201.12570)/[Cell Reports Methods (2023): 100374](https://www.sciencedirect.com/science/article/pii/S2667237522002764)
 
 **Statistical Mechanics of Protein Design**  
 Takahashi, Tomoei, George Chikenji, and Kei Tokita.  
@@ -944,6 +948,10 @@ Singer, Jedediah M., et al.
 **Deep-learning based bioactive therapeutic peptides generation and screening**  
 Haiping Zhang, Konda Mani Saravanan, Yanjie Wei, Yang Jiao, Yang Yang, Yi Pan, Xuli Wu, John Z.H. Zhang  
 [bioRxiv 2022.11.14.516530](https://www.biorxiv.org/content/10.1101/2022.11.14.516530v1) || [code](https://github.com/haiping1010/New_peptide_iteration) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/11/16/2022.11.14.516530/DC1/embed/media-1.pdf?download=true)
+
+**Deep-learning based bioactive peptides generation and screening against Xanthine oxidase**  
+Haiping Zhang, Konda Mani Saravanan, John Z.H. Zhang, Xuli Wu  
+[bioRxiv 2023.01.11.523536](https://www.biorxiv.org/content/10.1101/2023.01.11.523536v1)
 
 ### 5.11 Autoregressive-models
 
