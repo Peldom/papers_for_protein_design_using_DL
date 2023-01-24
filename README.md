@@ -211,6 +211,10 @@ Akbar, Rahmad, et al.
 Hummer, Alissa M., Brennan Abanades, and Charlotte M. Deane.  
 [Current Opinion in Structural Biology 74 (2022)](https://www.sciencedirect.com/science/article/pii/S0959440X22000586)
 
+**Computational and artificial intelligence-based methods for antibody development**  
+Kim, Jisun, et al.  
+[Trends in Pharmacological Sciences (2023)](https://www.sciencedirect.com/science/article/pii/S0165614722002796)
+
 ### 1.3 Peptide design
 
 **Deep generative models for peptide design**  
@@ -567,7 +571,7 @@ Mostafa Karimi, Shaowen Zhu, Yue Cao, Yang Shen
 
 **HelixGAN: A bidirectional Generative Adversarial Network with search in latent space for generation under constraints**  
 Xuezhi Xie, Philip M. Kim  
-[Machine Learning for Structural Biology Workshop, NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_HelixGAN:_A_bidirectional_Generative.pdf) || without code  
+[Machine Learning for Structural Biology Workshop, NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_HelixGAN:_A_bidirectional_Generative.pdf)/[Bioinformatics, 2023;, btad036](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btad036/6991169) || [code](https://github.com/xxiexuezhi/helix_gan)
 
 ### 4.7 Transformer-based
 
@@ -817,6 +821,10 @@ Hesslow, Daniel, et al.
 Erik Nijkamp, Jeffrey Ruffolo, Eli N. Weinstein, Nikhil Naik, Ali Madani  
 [arXiv:2206.13517](https://arxiv.org/abs/2206.13517) || [code](https://github.com/salesforce/progen)
 
+**AbLang: an antibody language model for completing antibody sequences**  
+Tobias H Olsen, Iain H Moal, Charlotte M Deane  
+[Bioinformatics Advances, Volume 2, Issue 1, 2022, vbac046](https://academic.oup.com/bioinformaticsadvances/article/2/1/vbac046/6609807)
+
 **AbBERT: Learning Antibody Humanness via Masked Language Modeling**  
 Denis Vashchenko, Sam Nguyen, Andre Goncalves, Felipe Leno da Silva, Brenden Petersen, Thomas Desautels, Daniel Faissol  
 [bioRxiv 2022.08.02.502236](https://doi.org/10.1101/2022.08.02.502236)
@@ -1045,7 +1053,7 @@ Kaiyuan Gao, Lijun Wu, Jinhua Zhu, Tianbo Peng, Yingce Xia, Liang He, Shufang Xi
 
 **Protein Sequence and Structure Co-Design with Equivariant Translation**  
 Chence Shi, Chuanrui Wang, Jiarui Lu, Bozitao Zhong, Jian Tang  
-[arXiv:2210.08761](https://arxiv.org/abs/2210.08761)
+[arXiv:2210.08761](https://arxiv.org/abs/2210.08761)/[ICLR 2023](https://openreview.net/forum?id=pRCMXcfdihq)
 
 ## 7. Other tasks
 
