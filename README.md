@@ -326,7 +326,7 @@ Sai Pooja Mahajan, Jeffrey A Ruffolo, Rahel Frick, Jeffrey J. Gray
 ### 2.7 TRFold2-based
 
 [News of TRDesign](https://mp.weixin.qq.com/s/OQzKawtL9RdK9HzYsfu80g)  
-[TIANRANG XLab](https://www.tianrang.com/xlab)  
+[TIANRANG XLab](https://xlab.tianrang.com/)  
 paper unavailable || [slides](https://pan.baidu.com/share/init?surl=4AOW_D9dwlvC7VGGZA2tmQ&pwd=ffui) || [website](https://xcreator.tianrang.com/auth/login) || commercial
 
 ### 2.8 GPT-based
@@ -432,6 +432,10 @@ Kevin E. Wu, Kevin K. Yang, Rianne van den Berg, James Y. Zou, Alex X. Lu, Ava P
 **DiffSDS: A language diffusion model for protein backbone inpainting under geometric conditions and constraints**  
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
 [arXiv:2301.09642](https://arxiv.org/abs/2301.09642)
+
+**Generating Novel, Designable, and Diverse Protein Structures by Equivariantly Diffusing Oriented Residue Clouds**  
+Yeqing Lin, Mohammed AlQuraishi  
+[arXiv:2301.12485](https://arxiv.org/abs/2301.12485)
 
 ### 3.6 Score-based
 
@@ -610,6 +614,10 @@ Baldwin Dumortier, Antoine Liutkus, Clément Carré, Gabriel Krouk
 **Evolutionary-scale prediction of atomic level protein structure with a language model**  
 Zeming Lin, Halil Akin, Roshan Rao, Brian Hie, Zhongkai Zhu, Wenting Lu, Nikita Smetanin, Robert Verkuil, Ori Kabeli, Yaniv Shmueli, Allan dos Santos Costa, Maryam Fazel-Zarandi, Tom Sercu, Salvatore Candido, Alexander Rives  
 [bioRxiv 2022.07.20.500902](https://www.biorxiv.org/content/10.1101/2022.07.20.500902v2) || [blog](https://ai.facebook.com/blog/protein-folding-esmfold-metagenomics/) || [github](https://github.com/facebookresearch/esm)
+
+**Structure-informed Language Models Are Protein Designers**  
+Zaixiang Zheng, Yifan Deng, Dongyu Xue, Yi Zhou, Fei YE, Quanquan Gu  
+[arXiv:2302.01649](https://arxiv.org/abs/2302.01649) || [code::ByProt](https://github.com/BytedProtein/ByProt)
 
 ### 4.8 ResNet-based
 
@@ -1023,6 +1031,10 @@ Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma
 John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan Tie, Wujie Wang, Vincent Xue, Fritz Obermeyer, Andrew Beam, Gevorg Grigoryan  
 [Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf) || [plausible code](https://github.com/lucidrains/chroma-pytorch) || [website](https://generatebiomedicines.com/chroma)
 
+**TRDiffusion**
+[TIANRANG XLab](https://xlab.tianrang.com/)  
+paper unavailable || [news](https://mp.weixin.qq.com/s/9rJ6IoJbf6cvz3UqE-rpIg) || [website](https://xlab.tianrang.com/xCREATOR) || commercial
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
@@ -1060,6 +1072,10 @@ Xiangzhe Kong, Wenbing Huang, Yang Liu
 **Incorporating Pre-training Paradigm for Antibody Sequence-Structure Co-design**  
 Kaiyuan Gao, Lijun Wu, Jinhua Zhu, Tianbo Peng, Yingce Xia, Liang He, Shufang Xie, Tao Qin, Haiguang Liu, Kun He, Tie-Yan Liu  
 [arXiv:2211.08406](https://arxiv.org/abs/2211.08406)
+
+**End-to-End Full-Atom Antibody Design**  
+Xiangzhe Kong, Wenbing Huang, Yang Liu  
+[arXiv:2302.00203](https://arxiv.org/abs/2302.00203)
 
 ### 6.6 Transformer-based
 
