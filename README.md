@@ -437,6 +437,10 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 Yeqing Lin, Mohammed AlQuraishi  
 [arXiv:2301.12485](https://arxiv.org/abs/2301.12485)
 
+**SE(3) diffusion model with application to protein backbone generation**  
+Jason Yim, Brian L. Trippe, Valentin De Bortoli, Emile Mathieu, Arnaud Doucet, Regina Barzilay, Tommi Jaakkola  
+[arXiv:2302.02277](https://arxiv.org/abs/2302.02277)
+
 ### 3.6 Score-based
 
 **ProteinSGM: Score-based generative modeling for de novo protein design**  
