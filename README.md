@@ -435,7 +435,7 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 
 **Generating Novel, Designable, and Diverse Protein Structures by Equivariantly Diffusing Oriented Residue Clouds**  
 Yeqing Lin, Mohammed AlQuraishi  
-[arXiv:2301.12485](https://arxiv.org/abs/2301.12485)
+[arXiv:2301.12485v2](https://arxiv.org/abs/2301.12485v2)
 
 **SE(3) diffusion model with application to protein backbone generation**  
 Jason Yim, Brian L. Trippe, Valentin De Bortoli, Emile Mathieu, Arnaud Doucet, Regina Barzilay, Tommi Jaakkola  
@@ -575,6 +575,10 @@ Deqin Liu, Sheng Chen, Shuangjia Zheng, Sen Zhang, Yuedong Yang
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
 [arXiv:2209.12643v2](https://arxiv.org/abs/2209.12643v2) || [github](https://github.com/A4Bio/ProDesign)
 
+**Protein Sequence Design by Entropy-based Iterative Refinement**  
+Xinyi Zhou, Guangyong Chen, Junjie Ye, Ercheng Wang, Jun Zhang, Cong Mao, Zhanwei Li, Jianye Hao, Xingxu Huang, Jin Tang, Pheng Ann Heng  
+[bioRxiv 2023.02.04.527099](https://www.biorxiv.org/content/10.1101/2023.02.04.527099v1)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -622,6 +626,10 @@ Zeming Lin, Halil Akin, Roshan Rao, Brian Hie, Zhongkai Zhu, Wenting Lu, Nikita 
 **Structure-informed Language Models Are Protein Designers**  
 Zaixiang Zheng, Yifan Deng, Dongyu Xue, Yi Zhou, Fei YE, Quanquan Gu  
 [arXiv:2302.01649](https://arxiv.org/abs/2302.01649) || [code::ByProt](https://github.com/BytedProtein/ByProt)
+
+**A Text-guided Protein Design Framework**  
+Shengchao Liu, Yutao Zhu, Jiarui Lu, Zhao Xu, Weili Nie, Anthony Gitter, Chaowei Xiao, Jian Tang, Hongyu Guo, Anima Anandkumar  
+[arXiv:2302.04611](https://arxiv.org/abs/2302.04611)
 
 ### 4.8 ResNet-based
 
