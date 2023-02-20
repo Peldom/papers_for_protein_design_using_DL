@@ -289,7 +289,7 @@ Bryant, Patrick, et al.
 
 **De novo protein design by inversion of the AlphaFold structure prediction network**  
 Casper Goverde, Benedict Wolf, Hamed Khakzad, Stephane Rosset, Bruno E Correia  
-[bioRxiv 2022.12.13.520346](https://www.biorxiv.org/content/10.1101/2022.12.13.520346v1) || [code](https://github.com/bene837/af_gradmcmc)
+[bioRxiv 2022.12.13.520346](https://www.biorxiv.org/content/10.1101/2022.12.13.520346v1) || [code](https://github.com/bene837/af_gradmcmc) || [lecture](https://www.youtube.com/watch?v=aUMGuogMZCA)
 
 ### 2.3 DMPfold2-based
 
@@ -312,6 +312,10 @@ Damiano Sgarbossa, Umberto Lupo, Anne-Florence Bitbol
 **EvoOpt: an MSA-guided, fully unsupervised sequence optimization pipeline for protein design**  
 Hideki Yamaguchi, Yutaka Saito  
 [NeurIPS 2022](https://www.mlsb.io/papers_2022/EvoOpt_an_MSA_guided_fully_unsupervised_sequence_optimization_pipeline_for_protein_design.pdf)
+
+**Generative power of a protein language model trained on multiple sequence alignments**  
+Sgarbossa, Damiano, Umberto Lupo, and Anne-Florence Bitbol  
+[Elife 12 (2023): e79854](https://elifesciences.org/articles/79854) || [code](https://github.com/Bitbol-Lab/Iterative_masking)
 
 ### 2.6 DeepAb-based
 
@@ -484,6 +488,8 @@ Jody Mou, Benjamin Fry, Chun-Chen Yao, Nicholas Polizzi
 **Design of metalloproteins and novel protein folds using variational autoencoders**  
 Greener, Joe G., Lewis Moffat, and David T. Jones.  
 [Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-34533-1)
+
+
 
 ### 4.3 LSTM-based
 
@@ -730,6 +736,14 @@ Christoph Feinauer, Emanuele Borgonovo
 **ProT-VAE: Protein Transformer Variational AutoEncoder for Functional Protein Design**  
 Emre Sevgen, Joshua Moller, Adrian Lange, John Parker, Sean Quigley, Jeff Mayer, Poonam Srivastava, Sitaram Gayatri, David Hosfield, Maria Korshunova, Micha Livne, Michelle Gill, Rama Ranganathan, Anthony B Costa, Andrew L Ferguson  
 [bioRxiv 2023.01.23.525232](https://www.biorxiv.org/content/10.1101/2023.01.23.525232v1)
+
+**Deep-learning generative models enable design of synthetic orthologs of a signaling protein**  
+Lian, Xinran, et al.  
+[Biophysical Journal 122.3 (2023): 311a](https://www.cell.com/biophysj/fulltext/S0006-3495(22)02664-9)
+
+**Designing a protein with emergent function by combined in silico, in vitro and in vivo screening**  
+Shunshi Kohyama, Bela Paul Frohn, Leon Babl, Petra Schwille  
+[bioRxiv 2023.02.16.528840](https://www.biorxiv.org/content/10.1101/2023.02.16.528840v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/02/19/2023.02.16.528840/DC1/embed/media-1.pdf?download=true)
 
 ### 5.3 GAN-based
 
@@ -1238,10 +1252,6 @@ Arne Schneuing, Yuanqi Du, Charles Harris, Arian Jamasb, Ilia Igashov, Weitao Du
 [NeurIPS 2022](https://www.mlsb.io/papers_2022/Structure_based_Drug_Design_with_Equivariant_Diffusion_Models.pdf)/[arXiv:2210.13695](https://arxiv.org/abs/2210.13695) || [code](https://github.com/arneschneuing/DiffSBDD)
 
 #### 7.3.2 Optimized sampling
-
-**De novo drug design framework based on mathematical programming method and deep learning model**  
-Yujing Zhao, Qilei Liu, Xinyuan Wu, Lei Zhang, Jian Du, Qingwei Meng.  
-[AIChE Journal. 2022, e17748](https://doi.org/10.1002/aic.17748)
 
 **Structure-based de novo drug design using 3D deep generative models**  
 Li, Yibo, Jianfeng Pei, and Luhua Lai.  
