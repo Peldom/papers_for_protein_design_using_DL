@@ -367,6 +367,10 @@ Lakshmi A. Ghantasala, Risi Jaiswal, Supriyo Datta
 Patrick Emami, Aidan Perreault, Jeffrey Law, David Biagioni, Peter St. Joh  
 [NeurIPS 2022](https://www.mlsb.io/papers_2022/Plug_Play_Directed_Evolution_of_Proteins_with_Gradient_based_Discrete_MCMC.pdf)/[arXiv:2212.09925](https://arxiv.org/abs/2212.09925)
 
+**De novo design of luciferases using deep learning**  
+Andy Hsien-Wei Yeh, Christoffer Norn, Yakov Kipnis, Doug Tischer, Samuel J. Pellock, Declan Evans, Pengchen Ma, Gyu Rie Lee, Jason Z. Zhang, Ivan Anishchenko, Brian Coventry, Longxing Cao, Justas Dauparas, Samer Halabiya, Michelle DeWitt, Lauren Carter, K. N. Houk & David Baker  
+[Nature](https://www.nature.com/articles/s41586-023-05696-3.pdf) || [Code](https://files.ipd.uw.edu/pub/luxSit/scaffold_generation.tar.gz) || [Supplementary Materials](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-023-05696-3/MediaObjects/41586_2023_5696_MOESM1_ESM.pdf) 
+
 ## 3. Function to Scaffold
 
 > These models design backbone/scaffold/template in Cartesian coordinates, contact maps, distance maps and φ & ψ angles.
