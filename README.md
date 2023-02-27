@@ -197,6 +197,10 @@ Volume 21, 2023](https://www.sciencedirect.com/science/article/pii/S200103702200
 Liu, H, Chen, Q.  
 [WIREs Comput Mol Sci. 2022. e1646](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1646)
 
+**Diffusion Models in Bioinformatics: A New Wave of Deep Learning Revolution in Action**  
+Zhiye Guo, Jian Liu, Yanli Wang, Mengrui Chen, Duolin Wang, Dong Xu, Jianlin Cheng  
+[arXiv:2302.10907](https://arxiv.org/abs/2302.10907)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
@@ -290,6 +294,10 @@ Bryant, Patrick, et al.
 **De novo protein design by inversion of the AlphaFold structure prediction network**  
 Casper Goverde, Benedict Wolf, Hamed Khakzad, Stephane Rosset, Bruno E Correia  
 [bioRxiv 2022.12.13.520346](https://www.biorxiv.org/content/10.1101/2022.12.13.520346v1) || [code](https://github.com/bene837/af_gradmcmc) || [lecture](https://www.youtube.com/watch?v=aUMGuogMZCA)
+
+**Efficient and scalable de novo protein design using a relaxed sequence space**  
+Christopher Josef Frank, Ali Khoshouei, Yosta de Stigter, Dominik Schiewitz, Shihao Feng, Sergey Ovchinnikov, Hendrik Dietz  
+[bioRxiv 2023.02.24.529906](https://www.biorxiv.org/content/10.1101/2023.02.24.529906v1) || [code](https://github.com/sokrypton/ColabDesign/blob/main/af/examples/af_relax_design.ipynb)
 
 ### 2.3 DMPfold2-based
 
@@ -447,7 +455,7 @@ Yeqing Lin, Mohammed AlQuraishi
 
 **SE(3) diffusion model with application to protein backbone generation**  
 Jason Yim, Brian L. Trippe, Valentin De Bortoli, Emile Mathieu, Arnaud Doucet, Regina Barzilay, Tommi Jaakkola  
-[arXiv:2302.02277](https://arxiv.org/abs/2302.02277)
+[arXiv:2302.02277](https://arxiv.org/abs/2302.02277v2) || [code](https://github.com/jasonkyuyim/se3_diffusion)
 
 ### 3.6 Score-based
 
@@ -811,7 +819,7 @@ Hasegawa, Kano, et al.
 
 > Including maked language models and autoregressive language models.
 
-**Progen: Language modeling for protein generation**  
+**Progen: Language modeling for protein generation** / **Large language models generate functional protein sequences across diverse families**  
 Madani, Ali, et al.  
 [arXiv preprint arXiv:2004.03497 (2020)](https://arxiv.org/abs/2004.03497)/[Nat Biotechnol (2023)](https://www.nature.com/articles/s41587-022-01618-2) || [ProGen](https://github.com/salesforce/progen), [CTRL](https://github.com/salesforce/ctrl)
 
@@ -1059,7 +1067,7 @@ Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma
 
 **Illuminating protein space with a programmable generative model**  
 John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan Tie, Wujie Wang, Vincent Xue, Fritz Obermeyer, Andrew Beam, Gevorg Grigoryan  
-[Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf) || [plausible code](https://github.com/lucidrains/chroma-pytorch) || [website](https://generatebiomedicines.com/chroma)
+[Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf) || [plausible code](https://github.com/lucidrains/chroma-pytorch) || [website](https://generatebiomedicines.com/chroma) || [news](https://www.nature.com/articles/s41587-023-01705-y)
 
 **TRDiffusion**
 [TIANRANG XLab](https://xlab.tianrang.com/)  
@@ -1073,7 +1081,7 @@ Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun
 
 **Broadly applicable and accurate protein design by integrating structure prediction networks and diffusion generative models**  
 Joseph L. et al.  
-[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1) || [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf?download=true)
+[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1) || [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf?download=true) || [lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI)
 
 **De novo design of high-affinity protein binders to bioactive helical peptides**  
 Susana Vázquez Torres, Philip J. Y. Leung, Isaac D. Lutz, Preetham Venkatesh, Joseph L Watson, Fabian Hink, Huu-Hien Huynh, Andy Hsien-Wei Yeh, David Juergens, Nathaniel R. Bennett, Andrew N. Hoofnagle, Eric Huang, Michael J. MacCoss, Marc Expòsit, Gyu Rie Lee, Elif Nihal Korkmaz, Jeff Nivala, Lance Stewart, Joseph M. Rodgers, David Baker  
@@ -1230,10 +1238,6 @@ Gebauer, Niklas WA, et al.
 **Differentiable scaffolding tree for molecular optimization**  
 Fu, T., Gao, W., Xiao, C., Yasonik, J., Coley, C. W., & Sun, J.  
 [arXiv preprint arXiv:2109.10469](https://arxiv.org/abs/2109.10469) || [code](https://github.com/futianfan/DST) || Sept 21
-
-**LIMO: Latent Inceptionism for Targeted Molecule Generation**  
-Eckmann, Peter, et al.  
-[arXiv preprint arXiv:2206.09010 (2022)](https://arxiv.org/abs/2206.09010) || [code](https://github.com/rose-stl-lab/limo)
 
 **Improving de novo molecular design with curriculum learning**  
 Guo, Jeff, et al.  
