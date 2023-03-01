@@ -299,8 +299,8 @@ Casper Goverde, Benedict Wolf, Hamed Khakzad, Stephane Rosset, Bruno E Correia
 Christopher Josef Frank, Ali Khoshouei, Yosta de Stigter, Dominik Schiewitz, Shihao Feng, Sergey Ovchinnikov, Hendrik Dietz  
 [bioRxiv 2023.02.24.529906](https://www.biorxiv.org/content/10.1101/2023.02.24.529906v1) || [code](https://github.com/sokrypton/ColabDesign/blob/main/af/examples/af_relax_design.ipynb)
 
-**Cyclic peptide structure prediction and design using AlphaFold** 
-Stephen A. Rettie, Katelyn V. Campbell, Asim K. Bera, Alex Kang, Simon Kozlov, Joshmyn De La Cruz, Victor Adebomi, Guangfeng Zhou, Frank DiMaio, Sergey Ovchinnikov, Gaurav Bhardwaj 
+**Cyclic peptide structure prediction and design using AlphaFold**  
+Stephen A. Rettie, Katelyn V. Campbell, Asim K. Bera, Alex Kang, Simon Kozlov, Joshmyn De La Cruz, Victor Adebomi, Guangfeng Zhou, Frank DiMaio, Sergey Ovchinnikov, Gaurav Bhardwaj  
 [bioRxiv](https://www.biorxiv.org/content/10.1101/2023.02.25.529956v1.full.pdf) || [Code](https://github.com/sokrypton/ColabDesign/blob/main/af/examples/af_cyc_design.ipynb) 
 
 ### 2.3 DMPfold2-based
