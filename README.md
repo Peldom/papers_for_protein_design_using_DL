@@ -301,7 +301,7 @@ Christopher Josef Frank, Ali Khoshouei, Yosta de Stigter, Dominik Schiewitz, Shi
 
 **Cyclic peptide structure prediction and design using AlphaFold**  
 Stephen A. Rettie, Katelyn V. Campbell, Asim K. Bera, Alex Kang, Simon Kozlov, Joshmyn De La Cruz, Victor Adebomi, Guangfeng Zhou, Frank DiMaio, Sergey Ovchinnikov, Gaurav Bhardwaj  
-[bioRxiv](https://www.biorxiv.org/content/10.1101/2023.02.25.529956v1.full.pdf) || [Code](https://github.com/sokrypton/ColabDesign/blob/main/af/examples/af_cyc_design.ipynb) 
+[bioRxiv](https://www.biorxiv.org/content/10.1101/2023.02.25.529956v1.full.pdf) || [Code](https://github.com/sokrypton/ColabDesign/blob/main/af/examples/af_cyc_design.ipynb) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/02/26/2023.02.25.529956/DC1/embed/media-1.xlsx?download=true) 
 
 ### 2.3 DMPfold2-based
 
@@ -443,7 +443,7 @@ Huang, B., Xu, Y., Hu, X. et al
 
 **Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem**  
 Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola  
-[arXiv:2206.04119](https://arxiv.org/abs/2206.04119)/[NeurIPS 2022](https://www.mlsb.io/papers_2022/Diffusion_probabilistic_modeling_of_protein_backbones_in_3D_for_the_motif_scaffolding_problem.pdf) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/d3d9446802a44259755d38e6d163e820.png?t=1667835607.0141048)
+[arXiv:2206.04119](https://arxiv.org/abs/2206.04119)/[NeurIPS 2022](https://www.mlsb.io/papers_2022/Diffusion_probabilistic_modeling_of_protein_backbones_in_3D_for_the_motif_scaffolding_problem.pdf) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/d3d9446802a44259755d38e6d163e820.png?t=1667835607.0141048) || [Supplementary](https://openreview.net/attachment?id=6TxBxqNME1Y&name=supplementary_material)
 
 **Protein structure generation via folding diffusion**  
 Kevin E. Wu, Kevin K. Yang, Rianne van den Berg, James Y. Zou, Alex X. Lu, Ava P. Amini  
@@ -906,6 +906,14 @@ Noelia Ferruz
 **A universal deep-learning model for zinc finger design enables transcription factor reprogramming**  
 Ichikawa, D.M., Abdin, O., Alerasool, N. et al.  
 [Nat Biotechnol (2023)](https://www.nature.com/articles/s41587-022-01624-4)
+ 
+**XuperNovo®/ProteinGPT**
+XtalPi  
+[news](https://mp.weixin.qq.com/s?__biz=MzI4MzUwNjI5OQ==&mid=2247499137&sn=d8c9e006cdb131dcf5639db6824bb0e3&chksm=eb8b1e95dcfc97835268d9e66636e63a4c6eb2f6fde780a4d45180872ea8d79bbd1d29363aff) || [website](https://www.xtalpi.com/en/macromolecular-drug-discovery) || commercial
+
+**Evaluating Prompt Tuning for Conditional Protein Sequence Generation**  
+Andrea Nathansen, Kevin Klein, Bernhard Y. Renard, Melania Nowicka, Jakub M. Bartoszewicz  
+[bioRxiv 2023.02.28.530492](https://www.biorxiv.org/content/10.1101/2023.02.28.530492v1) || [code](https://gitlab.com/dacs-hpi/protein-prompt-tuning)
 
 ### 5.5 ResNet-based
 
@@ -1071,7 +1079,7 @@ Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma
 
 **Illuminating protein space with a programmable generative model**  
 John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan Tie, Wujie Wang, Vincent Xue, Fritz Obermeyer, Andrew Beam, Gevorg Grigoryan  
-[Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf) || [plausible code](https://github.com/lucidrains/chroma-pytorch) || [website](https://generatebiomedicines.com/chroma) || [news](https://www.nature.com/articles/s41587-023-01705-y)
+[Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf) || [plausible code](https://github.com/lucidrains/chroma-pytorch) || [website](https://generatebiomedicines.com/chroma) || [news](https://www.nature.com/articles/s41587-023-01705-y) || commercial
 
 **TRDiffusion**
 [TIANRANG XLab](https://xlab.tianrang.com/)  
@@ -1123,7 +1131,7 @@ Xiangzhe Kong, Wenbing Huang, Yang Liu
 
 **Protein Sequence and Structure Co-Design with Equivariant Translation**  
 Chence Shi, Chuanrui Wang, Jiarui Lu, Bozitao Zhong, Jian Tang  
-[arXiv:2210.08761](https://arxiv.org/abs/2210.08761)/[ICLR 2023](https://openreview.net/forum?id=pRCMXcfdihq)
+[arXiv:2210.08761](https://arxiv.org/abs/2210.08761)/[ICLR 2023](https://openreview.net/forum?id=pRCMXcfdihq) || [Supplementary](https://openreview.net/attachment?id=pRCMXcfdihq&name=supplementary_material)
 
 ## 7. Other tasks
 
@@ -1231,7 +1239,10 @@ Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Tristan Bepler, Rajmonda Sulo C
 
 > Unlike **function-scaffold-sequence** paradigm in protein design, major molecular design models based on paradigm form DL from 3 kinds of level: **atom-based**, **fragment-based**, **reaction-based**, and they can be categorized as [Gradient optimization](#731-gradient-optimization) or [Optimized sampling](#732-optimized-sampling)(gradient-free). [Click here for detail review](https://www.sciencedirect.com/science/article/pii/S1359644621002531)  
 > In consideration of learning more various of generative models for design, these recommended latest models from **Molecular Design** might be helpful and even be able to be transplanted to protein design.
-> More paper list at [CondaPereira](https://github.com/CondaPereira)'s GitHub repo: [Essay_For_Molecular_Generation](https://github.com/CondaPereira/Essay_For_Molecular_Generation).
+> More paper list at :
+> 1. [CondaPereira](https://github.com/CondaPereira)'s GitHub repo: [Essay_For_Molecular_Generation](https://github.com/CondaPereira/Essay_For_Molecular_Generation).
+> 2. [AspirinCode](https://github.com/AspirinCode)'s :[papers-for-molecular-design-using-DL](https://github.com/AspirinCode/papers-for-molecular-design-using-DL)
+> 3. [Alex Morehead](https://github.com/amorehead)'s :[awesome-molecular-generation](https://github.com/amorehead/awesome-molecular-generation)
 
 #### 7.3.1 Gradient optimization
 
@@ -1289,14 +1300,6 @@ Meng Liu, Youzhi Luo, Kanji Uchino, Koji Maruhashi, Shuiwang Ji
 Hoffman, Samuel C., et al.  
 [Nature Machine Intelligence 4.1 (2022)](https://www.nature.com/articles/s42256-021-00422-y)
 
-**Deep Evolutionary Learning for Molecular Design**  
-K. Grantham, M. Mukaidaisi, H. K. Ooi, M. S. Ghaemi, A. Tchagang and Y. Li  
-[IEEE Computational Intelligence Magazine, vol. 17, no. 2, pp. 14-28, May 2022](https://ieeexplore.ieee.org/document/9756593)
-
-**Fragment-Based Ligand Generation Guided by Geometric Deep Learning on Protein-Ligand Structure**  
-Powers, Alexander, et al.  
-[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.03.17.484653v2)
-
 **Pocket2Mol: Efficient Molecular Sampling Based on 3D Protein Pockets**  
 Peng, Xingang, et al.  
 [arXiv preprint arXiv:2205.07249 (2022)](https://arxiv.org/abs/2205.07249) || [code](https://github.com/pengxingang/Pocket2Mol)
@@ -1304,5 +1307,3 @@ Peng, Xingang, et al.
 **Reinforced Genetic Algorithm for Structure-based Drug Design**  
 Fu, Tianfan, et al.  
 [arXiv preprint arXiv:2211.16508 (2022)](https://arxiv.org/abs/2211.16508)/[ICML22](https://openreview.net/forum?id=_Sfd-icezCa) || [code](https://github.com/futianfan/reinforced-genetic-algorithm) || [website](https://deepai.org/publication/reinforced-genetic-algorithm-for-structure-based-drug-design)
-
-<!-- ### 7.4  -->
