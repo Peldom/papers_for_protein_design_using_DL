@@ -92,7 +92,7 @@
 
 **FLIP: Benchmark tasks in fitness landscape inference for proteins**  
 Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattacharya, Samuel Goldman, Ali Madani, Kevin K Yang  
-[NeurIPS 2021 Datasets and Benchmarks Track](https://openreview.net/forum?id=p2dMLEwL8tF)/[bioRxiv 2021](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2) || [website](https://benchmark.protein.properties/) || [code](https://github.com/J-SNACKKB/FLIP) || [supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/01/19/2021.11.09.467890/DC1/embed/media-1.pdf?download=true)
+[NeurIPS 2021 Datasets and Benchmarks Track](https://openreview.net/forum?id=p2dMLEwL8tF)/[bioRxiv 2021](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2) || [website](https://benchmark.protein.properties/) || [code](https://github.com/J-SNACKKB/FLIP) || [supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/01/19/2021.11.09.467890/DC1/embed/media-1.pdf)
 
 **A Benchmark Framework for Evaluating Structure-to-Sequence Models for Protein Design**  
 Jeffrey Chan, Seyone Chithrananda, David Brookes, Sam Sinai  
@@ -191,7 +191,7 @@ Rudden, Lucas SP, Mahdi Hijazi, and Patrick Barth
 **From sequence to function through structure: deep learning for protein design**  
 Noelia Ferruz, Michael Heinzinger, Mehmet Akdel, Alexander Goncearenco, Luca Naef, Christian Dallago  
 [bioRxiv 2022.08.31.505981](https://www.biorxiv.org/content/10.1101/2022.08.31.505981v1)/[Computational and Structural Biotechnology Journal
-Volume 21, 2023](https://www.sciencedirect.com/science/article/pii/S2001037022005086) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/09/03/2022.08.31.505981/DC1/embed/media-1.pdf?download=true) || [accompanying list](https://github.com/hefeda/design_tools/blob/main/README.md)
+Volume 21, 2023](https://www.sciencedirect.com/science/article/pii/S2001037022005086) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/09/03/2022.08.31.505981/DC1/embed/media-1.pdf) || [accompanying list](https://github.com/hefeda/design_tools/blob/main/README.md)
 
 **Computational protein design with data-driven approaches: Recent developments and perspectives**  
 Liu, H, Chen, Q.  
@@ -239,7 +239,7 @@ Nathaniel Bennett, Brian Coventry, Inna Goreshnik, Buwei Huang, Aza Allen, Dionn
 
 **Design of proteins presenting discontinuous functional sites using deep learning**  
 Doug Tischer, Sidney Lisanza, Jue Wang, Runze Dong,  View ORCID ProfileIvan Anishchenko, Lukas F. Milles, Sergey Ovchinnikov, David Baker  
-[bioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.11.29.402743v1.abstract)  
+[bioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.11.29.402743v1)  
 
 **Fast differentiable DNA and protein sequence optimization for molecular design**  
 Linder, Johannes, and Georg Seelig.  
@@ -253,11 +253,15 @@ Ivan Anishchenko, Samuel J. Pellock, Tamuka M. Chidyausiku, Theresa A. Ramelot, 
 Norn, Christoffer, et al.  
 [Proceedings of the National Academy of Sciences 118.11 (2021)](https://www.pnas.org/content/118/11/e2017228118) || [code](https://github.com/gjoni/trDesign)
 
+**De novo design of small beta barrel proteins**  
+David E. Kim  and Davin R. Jensen  and David Feldman  and Doug Tischer  and Ayesha Saleem  and Cameron M. Chow  and Xinting Li  and Lauren Carter  and Lukas Milles  and Hannah Nguyen  and Alex Kang  and Asim K. Bera  and Francis C. Peterson  and Brian F. Volkman  and Sergey Ovchinnikov  and David Baker  
+[PNAS(2023),e2207974120](https://www.pnas.org/doi/10.1073/pnas.2207974120) || [code](https://github.com/sokrypton/TrDesign_partialhal)
+
 ### 2.2 AlphaFold2-based
 
 **Solubility-aware protein binding peptide design using AlphaFold**  
 Takatsugu Kosugi, Masahito Ohue  
-[bioRxiv 2022.05.14.491955](https://doi.org/10.1101/2022.05.14.491955) || [Supplemental Materials](https://www.biorxiv.org/content/biorxiv/early/2022/05/15/2022.05.14.491955/DC1/embed/media-1.pdf?download=true)
+[bioRxiv 2022.05.14.491955](https://doi.org/10.1101/2022.05.14.491955) || [Supplemental Materials](https://www.biorxiv.org/content/biorxiv/early/2022/05/15/2022.05.14.491955/DC1/embed/media-1.pdf)
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
 Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey  
@@ -265,7 +269,7 @@ Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, 
 
 **AlphaDesign: A de novo protein design framework based on AlphaFold**  
 Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.  
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.10.11.463937.abstract)  
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.10.11.463937v1)  
 
 **Using AlphaFold for Rapid and Accurate Fixed Backbone Protein Design**  
 Moffat, Lewis, Joe G. Greener, and David T. Jones.  
@@ -273,7 +277,7 @@ Moffat, Lewis, Joe G. Greener, and David T. Jones.
 
 **State-of-the-art estimation of protein model accuracy using AlphaFold**  
 James P. Roney, Sergey Ovchinnikov  
-[bioRxiv 2022.03.11.484043](https://www.biorxiv.org/content/10.1101/2022.03.11.484043v3) || [code](https://github.com/jproney/AF2Rank)
+[bioRxiv 2022.03.11.484043](https://www.biorxiv.org/content/10.1101/2022.03.11.484043v3)/[Physical Review Letters 129.23 (2022)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.238101) || [code](https://github.com/jproney/AF2Rank)
 
 **Hallucinating protein assemblies**  
 Basile I M Wicky, Lukas F Milles, Alexis Courbet, Robert J Ragotte, Justas Dauparas, Elias Kinfu, Sam Tipps, Ryan D Kibler, Minkyung Baek, Frank DiMaio, Xinting Li, Lauren Carter, Alex Kang, Hannah Nguyen, Asim K Bera, David Baker  
@@ -301,19 +305,19 @@ Christopher Josef Frank, Ali Khoshouei, Yosta de Stigter, Dominik Schiewitz, Shi
 
 **Cyclic peptide structure prediction and design using AlphaFold**  
 Stephen A. Rettie, Katelyn V. Campbell, Asim K. Bera, Alex Kang, Simon Kozlov, Joshmyn De La Cruz, Victor Adebomi, Guangfeng Zhou, Frank DiMaio, Sergey Ovchinnikov, Gaurav Bhardwaj  
-[bioRxiv](https://www.biorxiv.org/content/10.1101/2023.02.25.529956v1.full.pdf) || [Code](https://github.com/sokrypton/ColabDesign/blob/main/af/examples/af_cyc_design.ipynb) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/02/26/2023.02.25.529956/DC1/embed/media-1.xlsx?download=true) 
+[bioRxiv](https://www.biorxiv.org/content/10.1101/2023.02.25.529956v1.full.pdf) || [Code](https://github.com/sokrypton/ColabDesign/blob/main/af/examples/af_cyc_design.ipynb) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/02/26/2023.02.25.529956/DC1/embed/media-1.xlsx) 
 
 ### 2.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
 Moffat, Lewis, Shaun M. Kandathil, and David T. Jones.  
-[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1.abstract) || [DMPfold2](https://github.com/psipred/DMPfold2)
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.01.27.478087v1) || [DMPfold2](https://github.com/psipred/DMPfold2)
 
 ### 2.4 CM-Align
 
 **AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**  
 Shuhao Zhang, Youjun Xu, Jianfeng Pei, Luhua Lai  
-[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)  
+[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_AutoFoldFinder.pdf)
 
 ### 2.5 MSA-transformer-based
 
@@ -337,7 +341,7 @@ Mahajan, Sai Pooja, et al.
 
 **Hallucinating structure-conditioned antibody libraries for target-specific binders**  
 Sai Pooja Mahajan, Jeffrey A Ruffolo, Rahel Frick, Jeffrey J. Gray  
-[bioRxiv 2022.06.06.494991](https://www.biorxiv.org/content/10.1101/2022.06.06.494991v1)/[Front. Immunol. 13:999034](https://www.frontiersin.org/articles/10.3389/fimmu.2022.999034/full) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/06/2022.06.06.494991/DC1/embed/media-1.pdf?download=true) || [code](https://github.com/RosettaCommons/FvHallucinator)
+[bioRxiv 2022.06.06.494991](https://www.biorxiv.org/content/10.1101/2022.06.06.494991v1)/[Front. Immunol. 13:999034](https://www.frontiersin.org/articles/10.3389/fimmu.2022.999034/full) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/06/2022.06.06.494991/DC1/embed/media-1.pdf) || [code](https://github.com/RosettaCommons/FvHallucinator)
 
 ### 2.7 TRFold2-based
 
@@ -521,7 +525,7 @@ Syrlybaeva, Raulia, and Eva-Maria Strauch.
 
 **A structure-based deep learning framework for protein engineering**  
 Shroff, Raghav, et al.  
-[bioRxiv (2019)](https://www.biorxiv.org/content/10.1101/833905v1.abstract)
+[bioRxiv (2019)](https://www.biorxiv.org/content/10.1101/833905v1)
 
 **ProDCoNN: Protein design using a convolutional neural network**  
 Zhang, Yuan, et al.  
@@ -595,7 +599,7 @@ Deqin Liu, Sheng Chen, Shuangjia Zheng, Sen Zhang, Yuedong Yang
 
 **PiFold: Toward effective and efficient protein inverse folding**  
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
-[arXiv:2209.12643v2](https://arxiv.org/abs/2209.12643v2) || [github](https://github.com/A4Bio/ProDesign)
+[arXiv:2209.12643v2](https://arxiv.org/abs/2209.12643v3) || [github](https://github.com/A4Bio/ProDesign)
 
 **Protein Sequence Design by Entropy-based Iterative Refinement**  
 Xinyi Zhou, Guangyong Chen, Junjie Ye, Ercheng Wang, Jun Zhang, Cong Mao, Zhanwei Li, Jianye Hao, Xingxu Huang, Jin Tang, Pheng Ann Heng  
@@ -635,7 +639,7 @@ Chloe Hsu, Robert Verkuil, Jason Liu, Zeming Lin, Brian Hie, Tom Sercu, Adam Ler
 
 **Accurate and efficient protein sequence design through learning concise local environment of residues**  
 Huang, Bin, et al.  
-[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v2.abstract) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/30/2022.06.25.497605/DC1/embed/media-1.pdf?download=true)
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v4) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/30/2022.06.25.497605/DC1/embed/media-1.pdf) || [website](http://81.70.37.223)
 
 **PeTriBERT : Augmenting BERT with tridimensional encoding for inverse protein folding and design**  
 Baldwin Dumortier, Antoine Liutkus, Clément Carré, Gabriel Krouk  
@@ -711,7 +715,7 @@ Costello, Zak, and Hector Garcia Martin.
 
 **Convergent selection in antibody repertoires is revealed by deep learning**  
 Friedensohn, Simon, et al.  
-[BioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.02.25.965673v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2020/02/26/2020.02.25.965673/DC1/embed/media-1.pdf?download=true) || code available after publication
+[BioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.02.25.965673v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2020/02/26/2020.02.25.965673/DC1/embed/media-1.pdf) || code available after publication
 
 **Variational autoencoder for generation of antimicrobial peptides**  
 Dean, Scott N., and Scott A. Walper.  
@@ -759,7 +763,7 @@ Lian, Xinran, et al.
 
 **Designing a protein with emergent function by combined in silico, in vitro and in vivo screening**  
 Shunshi Kohyama, Bela Paul Frohn, Leon Babl, Petra Schwille  
-[bioRxiv 2023.02.16.528840](https://www.biorxiv.org/content/10.1101/2023.02.16.528840v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/02/19/2023.02.16.528840/DC1/embed/media-1.pdf?download=true)
+[bioRxiv 2023.02.16.528840](https://www.biorxiv.org/content/10.1101/2023.02.16.528840v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/02/19/2023.02.16.528840/DC1/embed/media-1.pdf)
 
 ### 5.3 GAN-based
 
@@ -793,7 +797,7 @@ Tucs, Andrejs, et al.
 
 **Conditional Generative Modeling for De Novo Protein Design with Hierarchical Functions**  
 Kucera, Tim, Matteo Togninalli, and Laetitia Meng-Papaxanthos  
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.11.10.467885v1.abstract)/[Bioinformatics 38.13 (2022)](https://academic.oup.com/bioinformatics/article/38/13/3454/6593486) || [code](https://github.com/timkucera/proteogan)
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.11.10.467885v1)/[Bioinformatics 38.13 (2022)](https://academic.oup.com/bioinformatics/article/38/13/3454/6593486) || [code](https://github.com/timkucera/proteogan)
 
 **Expanding functional protein sequence spaces using generative adversarial networks**  
 Repecka, Donatas, et al.  
@@ -801,7 +805,7 @@ Repecka, Donatas, et al.
 
 **A Generative Approach toward Precision Antimicrobial Peptide Design.**  
 Ferrell, Jonathon B., et al.  
-[BioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2020.10.02.324087.abstract)
+[BioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2020.10.02.324087v2)
 
 **AMPGAN v2: Machine Learning-Guided Design of Antimicrobial Peptides**  
 Van Oort, Colin M., et al.  
@@ -813,11 +817,15 @@ Li, Guangyuan, et al.
 
 **PandoraGAN: Generating antiviral peptides using Generative Adversarial Network**  
 Surana, Shraddha, et al.  
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.02.15.431193.abstract)
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.02.15.431193v2)
 
 **Feedback-AVPGAN: Feedback-guided generative adversarial network for generating antiviral peptides**  
 Hasegawa, Kano, et al.  
 [Journal of Bioinformatics and Computational Biology (2022)](https://www.worldscientific.com/doi/10.1142/S0219720022500263) || [code](https://github.com/KanoHase/AVP-Generator)
+
+**ProteinVAE: Variational AutoEncoder for Translational Protein Design**  
+Suyue Lyu, Shahin Sowlati-Hashjin, Michael Garton  
+[bioRxiv 2023.03.04.531110](https://www.biorxiv.org/content/10.1101/2023.03.04.531110v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/03/05/2023.03.04.531110/DC1/embed/media-1.pdf)
 
 ### 5.4 Transformer-based
 
@@ -837,7 +845,7 @@ Shuai, Richard W., Jeffrey A. Ruffolo, and Jeffrey J. Gray.
 
 **Deep neural language modeling enables functional protein generation across families**  
 Madani, Ali, et al.  
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.07.18.452833.abstract)  
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.07.18.452833v1)  
 
 **ProtTrans: towards cracking the language of Life's code through self-supervised deep learning and high performance computing**  
 Elnaggar, Ahmed, et al.  
@@ -897,7 +905,7 @@ Igor Melnyk, Vijil Chenthamarakshan, Pin-Yu Chen, Payel Das, Amit Dhurandhar, In
 
 **Machine Learning Optimization of Candidate Antibodies Yields Highly Diverse Sub-nanomolar Affinity Antibody Libraries**  
 Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Rafael Jaimes, Rajmonda Sulo Caceres, Tristan Bepler, Matthew E. Walsh  
-[bioRxiv 2022.10.07.502662](https://www.biorxiv.org/content/10.1101/2022.10.07.502662v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/10/07/2022.10.07.502662/DC1/embed/media-1.pdf?download=true) || code will be available
+[bioRxiv 2022.10.07.502662](https://www.biorxiv.org/content/10.1101/2022.10.07.502662v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/10/07/2022.10.07.502662/DC1/embed/media-1.pdf) || code will be available
 
 **ZymCTRL: a conditional language model for the contollable generation of artificial enzymes**  
 Noelia Ferruz  
@@ -929,7 +937,7 @@ Tallorin, Lorillee, et al.
 
 **Now What Sequence? Pre-trained Ensembles for Bayesian Optimization of Protein Sequences**  
 Ziyue Yang, Katarina A Milas, Andrew D White  
-[bioRxiv 2022.08.05.502972](https://www.biorxiv.org/content/10.1101/2022.08.05.502972v2) || [code](https://github.com/ur-whitelab/wazy) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/08/06/2022.08.05.502972/DC1/embed/media-1.pdf?download=true) || [Colab](https://colab.research.google.com/github/ur-whitelab/wazy/blob/master/colab/WazyAlphaFold2.ipynb)
+[bioRxiv 2022.08.05.502972](https://www.biorxiv.org/content/10.1101/2022.08.05.502972v2) || [code](https://github.com/ur-whitelab/wazy) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/08/06/2022.08.05.502972/DC1/embed/media-1.pdf) || [Colab](https://colab.research.google.com/github/ur-whitelab/wazy/blob/master/colab/WazyAlphaFold2.ipynb)
 
 **Lattice protein design using Bayesian learning**  
 Takahashi, Tomoei, George Chikenji, and Kei Tokita.  
@@ -1025,7 +1033,7 @@ Singer, Jedediah M., et al.
 
 **Deep-learning based bioactive therapeutic peptides generation and screening**  
 Haiping Zhang, Konda Mani Saravanan, Yanjie Wei, Yang Jiao, Yang Yang, Yi Pan, Xuli Wu, John Z.H. Zhang  
-[bioRxiv 2022.11.14.516530](https://www.biorxiv.org/content/10.1101/2022.11.14.516530v1) || [code](https://github.com/haiping1010/New_peptide_iteration) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/11/16/2022.11.14.516530/DC1/embed/media-1.pdf?download=true)
+[bioRxiv 2022.11.14.516530](https://www.biorxiv.org/content/10.1101/2022.11.14.516530v1) || [code](https://github.com/haiping1010/New_peptide_iteration) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/11/16/2022.11.14.516530/DC1/embed/media-1.pdf)
 
 **Deep-learning based bioactive peptides generation and screening against Xanthine oxidase**  
 Haiping Zhang, Konda Mani Saravanan, John Z.H. Zhang, Xuli Wu  
@@ -1093,17 +1101,17 @@ Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun
 
 **Broadly applicable and accurate protein design by integrating structure prediction networks and diffusion generative models**  
 Joseph L. et al.  
-[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1) || [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf?download=true) || [lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI)
+[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1) || [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf) || [lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI)
 
 **De novo design of high-affinity protein binders to bioactive helical peptides**  
 Susana Vázquez Torres, Philip J. Y. Leung, Isaac D. Lutz, Preetham Venkatesh, Joseph L Watson, Fabian Hink, Huu-Hien Huynh, Andy Hsien-Wei Yeh, David Juergens, Nathaniel R. Bennett, Andrew N. Hoofnagle, Eric Huang, Michael J. MacCoss, Marc Expòsit, Gyu Rie Lee, Elif Nihal Korkmaz, Jeff Nivala, Lance Stewart, Joseph M. Rodgers, David Baker  
-[bioRxiv 2022.12.10.519862](https://www.biorxiv.org/content/10.1101/2022.12.10.519862v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.10.519862/DC1/embed/media-1.pdf?download=true)
+[bioRxiv 2022.12.10.519862](https://www.biorxiv.org/content/10.1101/2022.12.10.519862v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.10.519862/DC1/embed/media-1.pdf)
 
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**  
 Wehrle, Sarah, et al.  
-[Protein Science 30.CONF (2021)](https://infoscience.epfl.ch/record/290120)/[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.16.496402v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/17/2022.06.16.496402/DC1/embed/media-1.pdf?download=true) || [masif_seed](https://github.com/LPDI-EPFL/masif_seed) || [masif](https://github.com/LPDI-EPFL/masif)
+[Protein Science 30.CONF (2021)](https://infoscience.epfl.ch/record/290120)/[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.16.496402v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/17/2022.06.16.496402/DC1/embed/media-1.pdf) || [masif_seed](https://github.com/LPDI-EPFL/masif_seed) || [masif](https://github.com/LPDI-EPFL/masif)
 
 ### 6.5 GNN-based
 
@@ -1253,10 +1261,6 @@ Gebauer, Niklas WA, et al.
 **Differentiable scaffolding tree for molecular optimization**  
 Fu, T., Gao, W., Xiao, C., Yasonik, J., Coley, C. W., & Sun, J.  
 [arXiv preprint arXiv:2109.10469](https://arxiv.org/abs/2109.10469) || [code](https://github.com/futianfan/DST) || Sept 21
-
-**Improving de novo molecular design with curriculum learning**  
-Guo, Jeff, et al.  
-[Nature Machine Intelligence (2022)](https://www.nature.com/articles/s42256-022-00494-4) || [code](https://github.com/MolecularAI/Reinvent)
 
 **Equivariant Energy-Guided SDE for Inverse Molecular Design**  
 Fan Bao, Min Zhao, Zhongkai Hao, Peiyao Li, Chongxuan Li, Jun Zhu  
