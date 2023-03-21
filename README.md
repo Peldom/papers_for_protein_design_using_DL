@@ -953,7 +953,11 @@ Takahashi, Tomoei, George Chikenji, and Kei Tokita.
 
 **PropertyDAG: Multi-objective Bayesian optimization of partially ordered, mixed-variable properties for biological sequence design**  
 Ji Won Park, Samuel Stanton, Saeed Saremi, Andrew Watkins, Henri Dwyer, Vladimir Gligorijevic, Richard Bonneau, Stephen Ra, Kyunghyun Cho  
-[arXiv:2210.04096](https://arxiv.org/abs/2210.04096)
+[arXiv:2210.04096](https://arxiv.org/abs/2210.04096)  
+  
+**A probabilistic view of protein stability, conformational specificity, and design**  
+Jacob A. Stern, Tyler J. Free, Kimberlee L. Stern, Spencer Gardiner, Nicholas A. Dalley, Bradley C. Bundy, Joshua L. Price, David Wingate, Dennis Della Corte  
+[bioRxiv](https://www.biorxiv.org/content/10.1101/2022.12.28.521825v1.full.pdf)  
 
 ### 5.7 RL-based
 
