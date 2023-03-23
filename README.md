@@ -200,6 +200,10 @@ Liu, H, Chen, Q.
 Zhiye Guo, Jian Liu, Yanli Wang, Mengrui Chen, Duolin Wang, Dong Xu, Jianlin Cheng  
 [arXiv:2302.10907](https://arxiv.org/abs/2302.10907)
 
+**Machine learning for evolutionary-based and physicsinspired protein design: Current and future synergies**  
+Cyril Malbranke, David Bikard, Simona Cocco, Rémi Monasson, Jérôme Tubiana  
+[Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/pii/S0959440X23000453)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
