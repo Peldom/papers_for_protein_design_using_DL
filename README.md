@@ -175,6 +175,10 @@ Ovchinnikov, Sergey, and Po-Ssu Huang.
 Pearce, Robin, and Yang Zhang.  
 [Current opinion in structural biology 68 (2021)](https://www.sciencedirect.com/science/article/pii/S0959440X21000142)
 
+**Recent advances in de novo protein design: Principles, methods, and applications**  
+Pan, Xingjie, and Tanja Kortemme.  
+[Journal of Biological Chemistry 296 (2021)](https://www.sciencedirect.com/science/article/pii/S0021925821003367)
+
 **Protein design via deep learning**  
 Wenze Ding, Kenta Nakai, Haipeng Gong  
 [Briefings in Bioinformatics](https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbac102/6554124) || 25 March 2022
@@ -186,6 +190,10 @@ Strokach, Alexey, and Philip M. Kim.
 **Deep learning approaches for conformational flexibility and switching properties in protein design**  
 Rudden, Lucas SP, Mahdi Hijazi, and Patrick Barth  
 [Frontiers in Molecular Biosciences](https://www.frontiersin.org/articles/10.3389/fmolb.2022.928534/full)
+
+**Computational protein design with evolutionary-based and physics-inspired modeling: current and future synergies**  
+Cyril Malbranke, David Bikard, Simona Cocco, Rémi Monasson, Jérôme Tubiana  
+[arXiv:2208.13616v2](https://arxiv.org/abs/2208.13616v2)
 
 **From sequence to function through structure: deep learning for protein design**  
 Noelia Ferruz, Michael Heinzinger, Mehmet Akdel, Alexander Goncearenco, Luca Naef, Christian Dallago  
@@ -450,7 +458,7 @@ Huang, B., Xu, Y., Hu, X. et al
 
 **Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem**  
 Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola  
-[arXiv:2206.04119](https://arxiv.org/abs/2206.04119v2)/[NeurIPS 2022](https://www.mlsb.io/papers_2022/Diffusion_probabilistic_modeling_of_protein_backbones_in_3D_for_the_motif_scaffolding_problem.pdf) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/d3d9446802a44259755d38e6d163e820.png?t=1667835607.0141048) || [Supplementary](https://openreview.net/attachment?id=6TxBxqNME1Y&name=supplementary_material) || [code](https://github.com/blt2114/ProtDiff_SMCDiff)
+[arXiv:2206.04119](https://arxiv.org/abs/2206.04119v2)/[NeurIPS 2022](https://www.mlsb.io/papers_2022/Diffusion_probabilistic_modeling_of_protein_backbones_in_3D_for_the_motif_scaffolding_problem.pdf)/[ICLR 2023](https://openreview.net/forum?id=6TxBxqNME1Y) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/d3d9446802a44259755d38e6d163e820.png?t=1667835607.0141048) || [Supplementary](https://openreview.net/attachment?id=6TxBxqNME1Y&name=supplementary_material) || [code](https://github.com/blt2114/ProtDiff_SMCDiff)
 
 **ProteinSGM: Score-based generative modeling for de novo protein design**  
 Jin Sub Lee, Philip M Kim  
@@ -470,11 +478,11 @@ Yeqing Lin, Mohammed AlQuraishi
 
 **SE(3) diffusion model with application to protein backbone generation**  
 Jason Yim, Brian L. Trippe, Valentin De Bortoli, Emile Mathieu, Arnaud Doucet, Regina Barzilay, Tommi Jaakkola  
-[arXiv:2302.02277](https://arxiv.org/abs/2302.02277v2) || [code](https://github.com/jasonkyuyim/se3_diffusion)
+[arXiv:2302.02277](https://arxiv.org/abs/2302.02277v2)/[ICLR 2023](https://openreview.net/forum?id=6TxBxqNME1Y) || [code](https://github.com/jasonkyuyim/se3_diffusion) || [Supplementary](https://openreview.net/attachment?id=6TxBxqNME1Y&name=supplementary_material)
 
 ### 3.6 RL-based
 
-**Top-down design of protein nanomaterials with reinforcement learning** 。
+**Top-down design of protein nanomaterials with reinforcement learning**  
 Isaac D Lutz, Shunzhi Wang, Christoffer Norn, Andrew J Borst, Yan Ting Zhao, Annie Dosey, Longxing Cao, Zhe Li, Minkyung Baek, Neil P King, Hannele Ruohola-Baker, David Baker  
 [bioRxiv 2022.09.25.509419](https://www.biorxiv.org/content/10.1101/2022.09.25.509419v1)
 
@@ -606,6 +614,10 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 Xinyi Zhou, Guangyong Chen, Junjie Ye, Ercheng Wang, Jun Zhang, Cong Mao, Zhanwei Li, Jianye Hao, Xingxu Huang, Jin Tang, Pheng Ann Heng  
 [bioRxiv 2023.02.04.527099](https://www.biorxiv.org/content/10.1101/2023.02.04.527099v1)
 
+**Lightweight Contrastive Protein Structure-Sequence Transformation**  
+Jiangbin Zheng, Ge Wang, Yufei Huang, Bozhen Hu, Siyuan Li, Cheng Tan, Xinwen Fan, Stan Z. Li  
+[arXiv:2303.11783](https://arxiv.org/abs/2303.11783)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -640,7 +652,7 @@ Chloe Hsu, Robert Verkuil, Jason Liu, Zeming Lin, Brian Hie, Tom Sercu, Adam Ler
 
 **Accurate and efficient protein sequence design through learning concise local environment of residues**  
 Huang, Bin, et al.  
-[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v4) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/30/2022.06.25.497605/DC1/embed/media-1.pdf) || [website](http://81.70.37.223)
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v4)/[Bioinformatics 39.3 (2023)](https://academic.oup.com/bioinformatics/article/39/3/btad122/7077134) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/30/2022.06.25.497605/DC1/embed/media-1.pdf) || [website](http://81.70.37.223)
 
 **PeTriBERT : Augmenting BERT with tridimensional encoding for inverse protein folding and design**  
 Baldwin Dumortier, Antoine Liutkus, Clément Carré, Gabriel Krouk  
@@ -846,7 +858,7 @@ Wu, Zachary, et al.
 
 **Generative Language Modeling for Antibody Design**  
 Shuai, Richard W., Jeffrey A. Ruffolo, and Jeffrey J. Gray.  
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v2)
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v2) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/20/2021.12.13.472419/DC1/embed/media-1.pdf)
 
 **Deep neural language modeling enables functional protein generation across families**  
 Madani, Ali, et al.  
@@ -927,6 +939,14 @@ XtalPi
 **Evaluating Prompt Tuning for Conditional Protein Sequence Generation**  
 Andrea Nathansen, Kevin Klein, Bernhard Y. Renard, Melania Nowicka, Jakub M. Bartoszewicz  
 [bioRxiv 2023.02.28.530492](https://www.biorxiv.org/content/10.1101/2023.02.28.530492v1) || [code](https://gitlab.com/dacs-hpi/protein-prompt-tuning)
+
+**AB-Gen: Antibody Library Design with Generative Pre-trained Transformer and Deep Reinforcement Learning**  
+Xiaopeng Xu, Tiantian Xu, Juexiao Zhou, Xingyu Liao, Ruochi Zhang, Yu Wang, Lu Zhang, Xin Gao  
+[bioRxiv 2023.03.17.533102](https://www.biorxiv.org/content/10.1101/2023.03.17.533102v1) || [code](https://github.com/charlesxu90/ab-gen) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/03/21/2023.03.17.533102/DC1/embed/media-1.docx) || [data](https://zenodo.org/record/7657016)
+
+**Unsupervised cross-domain translation via deep learning and adversarial attention neural networks and application to music-inspired protein designs**  
+Buehler, Markus J.  
+[Patterns 4.3 (2023)](https://www.cell.com/patterns/fulltext/S2666-3899(23)00023-5) || [code](https://github.com/lamm-mit/AttentionCrossTranslation)
 
 ### 5.5 ResNet-based
 
@@ -1072,6 +1092,10 @@ Figliuzzi, Matteo, Pierre Barrat-Charlaix, and Martin Weigt.
 Nataša Tagasovska, Nathan C. Frey, Andreas Loukas, Isidro Hötzel, Julien Lafrance-Vanasse, Ryan Lewis Kelly, Yan Wu, Arvind Rajpal, Richard Bonneau, Kyunghyun Cho, Stephen Ra, Vladimir Gligorijević  
 [arXiv:2210.10838](https://arxiv.org/abs/2210.10838) || [slides](https://drive.google.com/file/d/1spTU-iZ4EEq8ZICRHBw8CstpYQXCxMy8/view)
 
+**Computational design of novel Cas9 PAM-interacting domains using evolution-based modelling and structural quality assessment**  
+Cyril Malbranke, William Rostain, Florence Depardieu, Simona Cocco, Remi Monasson, David Bikard  
+[bioRxiv 2023.03.20.533501](https://www.biorxiv.org/content/10.1101/2023.03.20.533501v1) || [code](https://github.com/CyrilMa/DesignCas9WithCLD) || [Supplementary](https://www.biorxiv.org/content/10.1101/2023.03.20.533501v1.supplementary-material)
+
 ### 5.13 Diffusion-based
 
 **denoising-diffusion-protein-sequence**  
@@ -1114,7 +1138,7 @@ Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun
 
 **Broadly applicable and accurate protein design by integrating structure prediction networks and diffusion generative models**  
 Joseph L. et al.  
-[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1) || [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf) || [lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI)
+[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v2) || [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf) || [lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI)
 
 **De novo design of high-affinity protein binders to bioactive helical peptides**  
 Susana Vázquez Torres, Philip J. Y. Leung, Isaac D. Lutz, Preetham Venkatesh, Joseph L Watson, Fabian Hink, Huu-Hien Huynh, Andy Hsien-Wei Yeh, David Juergens, Nathaniel R. Bennett, Andrew N. Hoofnagle, Eric Huang, Michael J. MacCoss, Marc Expòsit, Gyu Rie Lee, Elif Nihal Korkmaz, Jeff Nivala, Lance Stewart, Joseph M. Rodgers, David Baker  
@@ -1270,10 +1294,6 @@ Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Tristan Bepler, Rajmonda Sulo C
 
 #### 7.3.1 Gradient optimization
 
-**Inverse design of 3d molecular structures with conditional generative neural networks**  
-Gebauer, Niklas WA, et al.  
-[arXiv preprint arXiv:2109.04824 (2021)](https://arxiv.org/abs/2109.04824) || [code](https://github.com/atomistic-machine-learning/cG-SchNet) || Sept 21
-
 **Differentiable scaffolding tree for molecular optimization**  
 Fu, T., Gao, W., Xiao, C., Yasonik, J., Coley, C. W., & Sun, J.  
 [arXiv preprint arXiv:2109.10469](https://arxiv.org/abs/2109.10469) || [code](https://github.com/futianfan/DST) || Sept 21
@@ -1286,35 +1306,19 @@ Fan Bao, Min Zhao, Zhongkai Hao, Peiyao Li, Chongxuan Li, Jun Zhu
 Keir Adams, Connor W. Coley  
 [arXiv:2210.04893](https://arxiv.org/abs/2210.04893) || [code](https://github.com/keiradams/SQUID)
 
-**Modular Flows: Differential Molecular Generation**  
-Yogesh Verma, Samuel Kaski, Markus Heinonen, Vikas Garg  
-[arXiv:2210.06032](https://arxiv.org/abs/2210.06032) || [code](https://github.com/yogeshverma1998/Modular-Flows-Neurips-2022)
-
 **Structure-based Drug Design with Equivariant Diffusion Models**  
 Arne Schneuing, Yuanqi Du, Charles Harris, Arian Jamasb, Ilia Igashov, Weitao Du, Tom Blundell, Pietro Lió, Carla Gomes, Max Welling, Michael Bronstein, Bruno Correia  
 [NeurIPS 2022](https://www.mlsb.io/papers_2022/Structure_based_Drug_Design_with_Equivariant_Diffusion_Models.pdf)/[arXiv:2210.13695](https://arxiv.org/abs/2210.13695) || [code](https://github.com/arneschneuing/DiffSBDD)
 
 #### 7.3.2 Optimized sampling
 
-**Structure-based de novo drug design using 3D deep generative models**  
-Li, Yibo, Jianfeng Pei, and Luhua Lai.  
-[Chemical science 12.41 (2021)](https://pubs.rsc.org/en/content/articlehtml/2021/sc/d1sc04444c)
-
 **A 3D Generative Model for Structure-Based Drug Design**  
 Luo, Shitong, et al.  
 [Advances in Neural Information Processing Systems 34 (2021)](https://proceedings.neurips.cc/paper/2021/hash/314450613369e0ee72d0da7f6fee773c-Abstract.html)
 
-**DrugEx v2: de novo design of drug molecules by Pareto-based multi-objective reinforcement learning in polypharmacology**  
-Liu, Xuhan, et al.  
-[Journal of cheminformatics 13.1 (2021)](https://link.springer.com/article/10.1186/s13321-021-00561-9) || [DrugEx](https://github.com/XuhanLiu/DrugEx)
-
 **Generating 3D Molecules for Target Protein Binding**  
 Meng Liu, Youzhi Luo, Kanji Uchino, Koji Maruhashi, Shuiwang Ji  
 [arxiv (2022)](https://arxiv.org/abs/2204.09410) || [GraphBP](https://github.com/divelab/graphbp)
-
-**Optimizing molecules using efficient queries from property evaluations**  
-Hoffman, Samuel C., et al.  
-[Nature Machine Intelligence 4.1 (2022)](https://www.nature.com/articles/s42256-021-00422-y)
 
 **Pocket2Mol: Efficient Molecular Sampling Based on 3D Protein Pockets**  
 Peng, Xingang, et al.  
