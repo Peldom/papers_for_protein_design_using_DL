@@ -1314,16 +1314,26 @@ Arne Schneuing, Yuanqi Du, Charles Harris, Arian Jamasb, Ilia Igashov, Weitao Du
 
 **A 3D Generative Model for Structure-Based Drug Design**  
 Luo, Shitong, et al.  
-[Advances in Neural Information Processing Systems 34 (2021)](https://proceedings.neurips.cc/paper/2021/hash/314450613369e0ee72d0da7f6fee773c-Abstract.html)
+[Advances in Neural Information Processing Systems 34 (2021)](https://proceedings.neurips.cc/paper/2021/hash/314450613369e0ee72d0da7f6fee773c-Abstract.html) || [code](https://github.com/luost26/3D-Generative-SBDD)
 
 **Generating 3D Molecules for Target Protein Binding**  
 Meng Liu, Youzhi Luo, Kanji Uchino, Koji Maruhashi, Shuiwang Ji  
-[arxiv (2022)](https://arxiv.org/abs/2204.09410) || [GraphBP](https://github.com/divelab/graphbp)
+[International Conference on Machine Learning 39 (2022)](https://proceedings.mlr.press/v162/liu22m.html) || [GraphBP](https://github.com/divelab/graphbp)
 
 **Pocket2Mol: Efficient Molecular Sampling Based on 3D Protein Pockets**  
 Peng, Xingang, et al.  
-[arXiv preprint arXiv:2205.07249 (2022)](https://arxiv.org/abs/2205.07249) || [code](https://github.com/pengxingang/Pocket2Mol)
+[International Conference on Machine Learning 39 (2022)](https://proceedings.mlr.press/v162/peng22b.html) || [code](https://github.com/pengxingang/Pocket2Mol)
 
 **Reinforced Genetic Algorithm for Structure-based Drug Design**  
 Fu, Tianfan, et al.  
 [arXiv preprint arXiv:2211.16508 (2022)](https://arxiv.org/abs/2211.16508)/[ICML22](https://openreview.net/forum?id=_Sfd-icezCa) || [code](https://github.com/futianfan/reinforced-genetic-algorithm) || [website](https://deepai.org/publication/reinforced-genetic-algorithm-for-structure-based-drug-design)
+
+**Molecule Generation For Target Protein Binding with Structural Motifs**  
+Zhang, Zaixi, et al.  
+[International Conference on Learning Representations 11 (2023)](https://openreview.net/forum?id=Rq13idF0F73) || [code](https://github.com/zaixizhang/FLAG)
+
+**3D Equivariant Diffusion for Target-Aware Molecule Generation and Affinity Prediction**
+
+Guan, Jiaqi, et al.  
+[International Conference on Learning Representations 11 (2023)](https://openreview.net/forum?id=kJqXEPXMsE0) || [code](https://github.com/guanjq/targetdiff)
+
