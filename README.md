@@ -1333,7 +1333,6 @@ Zhang, Zaixi, et al.
 [International Conference on Learning Representations 11 (2023)](https://openreview.net/forum?id=Rq13idF0F73) || [code](https://github.com/zaixizhang/FLAG)
 
 **3D Equivariant Diffusion for Target-Aware Molecule Generation and Affinity Prediction**
-
 Guan, Jiaqi, et al.  
 [International Conference on Learning Representations 11 (2023)](https://openreview.net/forum?id=kJqXEPXMsE0) || [code](https://github.com/guanjq/targetdiff)
 
