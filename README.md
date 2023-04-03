@@ -29,6 +29,7 @@
     - [1.2 Antibody design](#12-antibody-design)
     - [1.3 Peptide design](#13-peptide-design)
     - [1.4 Binder design](#14-binder-design)
+    - [1.5 Enzyme design](#15-Enzyme-design)
   - [2. Model-based design](#2-model-based-design)
     - [2.1 trRosetta-based](#21-trrosetta-based)
     - [2.2 AlphaFold2-based](#22-alphafold2-based)
@@ -230,6 +231,10 @@ Hummer, Alissa M., Brennan Abanades, and Charlotte M. Deane.
 Kim, Jisun, et al.  
 [Trends in Pharmacological Sciences (2023)](https://www.sciencedirect.com/science/article/pii/S0165614722002796)
 
+**Leveraging deep learning to improve vaccine design**  
+Hederman AP, Ackerman ME  
+[Trends in immunology (2023)](https://www.cell.com/trends/immunology/fulltext/S1471-4906(23)00046-7)
+
 ### 1.3 Peptide design
 
 **Deep generative models for peptide design**  
@@ -241,6 +246,12 @@ Wan, Fangping, Daphne Kontogiorgos-Heintz, and Cesar de la Fuente-Nunez
 **Improving de novo Protein Binder Design with Deep Learning**  
 Nathaniel Bennett, Brian Coventry, Inna Goreshnik, Buwei Huang, Aza Allen, Dionne Vafeados, Ying Po Peng, Justas Dauparas, Minkyung Baek, Lance Stewart, Frank DiMaio, Steven De Munck, Savvas Savvides, David Baker  
 [bioRxiv 2022.06.15.495993](https://www.biorxiv.org/content/10.1101/2022.06.15.495993v1)
+
+### 1.5 Enzyme design
+
+**A review of enzyme design in catalytic stability by artificial intelligence**  
+Yongfan Ming, Wenkang Wang, Rui Yin, Min Zeng, Li Tang, Shizhe Tang, Min Li  
+[Briefings in Bioinformatics, 2023](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbad065/7086816)
 
 ## 2. Model-based design
 
@@ -466,7 +477,7 @@ Jin Sub Lee, Philip M Kim
 
 **Protein structure generation via folding diffusion**  
 Kevin E. Wu, Kevin K. Yang, Rianne van den Berg, James Y. Zou, Alex X. Lu, Ava P. Amini  
-[arXiv:2209.15611](https://arxiv.org/abs/2209.15611) || [code](https://github.com/microsoft/foldingdiff)
+[arXiv:2209.15611](https://arxiv.org/abs/2209.15611v2) || [code](https://github.com/microsoft/foldingdiff)
 
 **DiffSDS: A language diffusion model for protein backbone inpainting under geometric conditions and constraints**  
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
@@ -928,6 +939,10 @@ Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Rafael Jaimes, Rajmonda Sulo Ca
 Noelia Ferruz  
 [NeurIPS 2022](https://www.mlsb.io/papers_2022/ZymCTRL_a_conditional_language_model_for_the_controllable_generation_of_artificial_enzymes.pdf) || [hugging face](https://huggingface.co/nferruz/ZymCTRL) || [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/59047.png?t=1669864213.082831)
 
+**Unlocking de novo antibody design with generative artificial intelligence**  
+Shanehsazzadeh, Amir, et al.  
+[bioRxiv (2023): 2023-01](https://www.biorxiv.org/content/10.1101/2023.01.08.523187v3) || [data](https://github.com/AbSciBio/unlocking-de-novo-antibody-design)
+
 **A universal deep-learning model for zinc finger design enables transcription factor reprogramming**  
 Ichikawa, D.M., Abdin, O., Alerasool, N. et al.  
 [Nat Biotechnol (2023)](https://www.nature.com/articles/s41587-022-01624-4)
@@ -947,6 +962,10 @@ Xiaopeng Xu, Tiantian Xu, Juexiao Zhou, Xingyu Liao, Ruochi Zhang, Yu Wang, Lu Z
 **Unsupervised cross-domain translation via deep learning and adversarial attention neural networks and application to music-inspired protein designs**  
 Buehler, Markus J.  
 [Patterns 4.3 (2023)](https://www.cell.com/patterns/fulltext/S2666-3899(23)00023-5) || [code](https://github.com/lamm-mit/AttentionCrossTranslation)
+
+**ProtFIM: Fill-in-Middle Protein Sequence Design via Protein Language Models**  
+Lee, Youhan, and Hasun Yu.  
+[arXiv preprint arXiv:2303.16452 (2023)](https://arxiv.org/pdf/2303.16452.pdf)/[ICLR 2023](https://openreview.net/forum?id=9XAZBUfnefS)
 
 ### 5.5 ResNet-based
 
@@ -1138,7 +1157,7 @@ Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun
 
 **Broadly applicable and accurate protein design by integrating structure prediction networks and diffusion generative models**  
 Joseph L. et al.  
-[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v2) || [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf) || [lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI)
+[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v2) || [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf) || [lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI) || [RFdiffusion:code](https://github.com/RosettaCommons/RFdiffusion), [Colab](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/v1.1.1/rf/examples/diffusion.ipynb)
 
 **De novo design of high-affinity protein binders to bioactive helical peptides**  
 Susana Vázquez Torres, Philip J. Y. Leung, Isaac D. Lutz, Preetham Venkatesh, Joseph L Watson, Fabian Hink, Huu-Hien Huynh, Andy Hsien-Wei Yeh, David Juergens, Nathaniel R. Bennett, Andrew N. Hoofnagle, Eric Huang, Michael J. MacCoss, Marc Expòsit, Gyu Rie Lee, Elif Nihal Korkmaz, Jeff Nivala, Lance Stewart, Joseph M. Rodgers, David Baker  
