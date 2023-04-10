@@ -213,6 +213,14 @@ Zhiye Guo, Jian Liu, Yanli Wang, Mengrui Chen, Duolin Wang, Dong Xu, Jianlin Che
 Cyril Malbranke, David Bikard, Simona Cocco, Rémi Monasson, Jérôme Tubiana  
 [Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/pii/S0959440X23000453)
 
+**De novo design of polyhedral protein assemblies: before and after the AI revolution**  
+Bhoomika Basu Mallik, Jenna Stanislaw, Tharindu Madhusankha Alawathurage, and Alena Khmelinskaia  
+[ChemBioChem 2023, e202300117](http://dx.doi.org/10.1002/cbic.202300117)
+
+**Research progress of artificial intelligence in protein design**  
+CHEN Zhihang, JI Menglin, QI Yifei  
+[Synthetic Biology Journal (2023)](https://synbioj.cip.com.cn/article/2023/2096-8280/2023-008.shtml)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
@@ -252,6 +260,10 @@ Nathaniel Bennett, Brian Coventry, Inna Goreshnik, Buwei Huang, Aza Allen, Dionn
 **A review of enzyme design in catalytic stability by artificial intelligence**  
 Yongfan Ming, Wenkang Wang, Rui Yin, Min Zeng, Li Tang, Shizhe Tang, Min Li  
 [Briefings in Bioinformatics, 2023](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbad065/7086816)
+
+**Application of "foldability" in the intelligent of enzymes engineering and design： take AlphaFold2 for example**  
+MENG Qiaozhen, GUO Fei  
+[Synthetic Biology Journal (2023)](https://synbioj.cip.com.cn/article/2023/2096-8280/2023-011.shtml)
 
 ## 2. Model-based design
 
@@ -619,7 +631,7 @@ Deqin Liu, Sheng Chen, Shuangjia Zheng, Sen Zhang, Yuedong Yang
 
 **PiFold: Toward effective and efficient protein inverse folding**  
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
-[arXiv:2209.12643v2](https://arxiv.org/abs/2209.12643v3) || [github](https://github.com/A4Bio/ProDesign)
+[arXiv:2209.12643v2](https://arxiv.org/abs/2209.12643v3)/[ICLR 2023](https://openreview.net/pdf?id=oMsN9TYwJ0j) || [github](https://github.com/A4Bio/PiFold)
 
 **Protein Sequence Design by Entropy-based Iterative Refinement**  
 Xinyi Zhou, Guangyong Chen, Junjie Ye, Ercheng Wang, Jun Zhang, Cong Mao, Zhanwei Li, Jianye Hao, Xingxu Huang, Jin Tang, Pheng Ann Heng  
@@ -663,7 +675,7 @@ Chloe Hsu, Robert Verkuil, Jason Liu, Zeming Lin, Brian Hie, Tom Sercu, Adam Ler
 
 **Accurate and efficient protein sequence design through learning concise local environment of residues**  
 Huang, Bin, et al.  
-[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v4)/[Bioinformatics 39.3 (2023)](https://academic.oup.com/bioinformatics/article/39/3/btad122/7077134) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/30/2022.06.25.497605/DC1/embed/media-1.pdf) || [website](http://81.70.37.223)
+[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.25.497605v4)/[Bioinformatics 39.3 (2023)](https://academic.oup.com/bioinformatics/article/39/3/btad122/7077134) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/30/2022.06.25.497605/DC1/embed/media-1.pdf) || [website](http://81.70.37.223) || [code](https://github.com/bigict/ProDESIGN-LE)
 
 **PeTriBERT : Augmenting BERT with tridimensional encoding for inverse protein folding and design**  
 Baldwin Dumortier, Antoine Liutkus, Clément Carré, Gabriel Krouk  

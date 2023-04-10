@@ -20,7 +20,8 @@ Following edits are **not allowed**:
 
 ## Format of paper items
 
-Citation formats aren't restricted, MLA, APA, GB/T, ... , Chicago, et al.
+1. The use of language is not restricted, English is preferred if possible
+2. Citation formats aren't restricted, MLA, APA, GB/T, ... , Chicago, et al.
 
 Paper items are written in **Markdown** and ranked by release date in ascending:
 >\*\***Title of paper**\*\*(bold)  
