@@ -156,6 +156,10 @@ Linsky, T.W., Noble, K., Tobin, A.R. et al.
 
 ### 1.1 De novo protein design
 
+**Protein design: from computer models to artificial intelligence**  
+Paladino, Antonella, et al.  
+[Wiley Interdisciplinary Reviews: Computational Molecular Science 7.5 (2017): e1318](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1318)
+
 **Deep learning in protein structural modeling and design**  
 Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray  
 [Patterns 1.9](https://www.sciencedirect.com/science/article/pii/S2666389920301902) || 2020  
@@ -541,8 +545,6 @@ Jody Mou, Benjamin Fry, Chun-Chen Yao, Nicholas Polizzi
 Greener, Joe G., Lewis Moffat, and David T. Jones.  
 [Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-34533-1)
 
-
-
 ### 4.3 LSTM-based
 
 **To improve protein sequence profile prediction through image captioning on pairwise residue distance map**  
@@ -709,6 +711,10 @@ Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma
 Yufeng Liu, Linghui Chen, Haiyan Liu  
 [bioRxiv 2022.12.17.520847](https://www.biorxiv.org/content/10.1101/2022.12.17.520847v1)
 
+**Generative design of de novo proteins based on secondary-structure constraints using an attention-based diffusion model**  
+Bo Ni, David L. Kaplan, Markus J. Buehler  
+[Chem,(2023)](https://www.cell.com/chem/fulltext/S2451-9294(23)00139-0) || [code](https://github.com/lamm-mit/ProteinDiffusionGenerator)
+
 ## 5.Function to Sequence
 
 > These models generate sequences from expected function.
@@ -804,6 +810,10 @@ Shunshi Kohyama, Bela Paul Frohn, Leon Babl, Petra Schwille
 **ProteinVAE: Variational AutoEncoder for Translational Protein Design**  
 Suyue Lyu, Shahin Sowlati-Hashjin, Michael Garton  
 [bioRxiv 2023.03.04.531110](https://www.biorxiv.org/content/10.1101/2023.03.04.531110v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/03/05/2023.03.04.531110/DC1/embed/media-1.pdf)
+
+**ProtWave-VAE: Integrating autoregressive sampling with latent-based inference for data-driven protein design**  
+Niksa Praljak, Xinran Lian, Rama Ranganathan, Andrew Ferguson  
+[bioRxiv 2023.04.23.537971](https://www.biorxiv.org/content/10.1101/2023.04.23.537971v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/04/23/2023.04.23.537971/DC1/embed/media-1.pdf?download=true) || [code](https://github.com/PraljakReps/ProtWaveVAE)
 
 ### 5.3 GAN-based
 
@@ -1179,7 +1189,7 @@ Susana Vázquez Torres, Philip J. Y. Leung, Isaac D. Lutz, Preetham Venkatesh, J
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**  
 Wehrle, Sarah, et al.  
-[Protein Science 30.CONF (2021)](https://infoscience.epfl.ch/record/290120)/[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.16.496402v1) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/17/2022.06.16.496402/DC1/embed/media-1.pdf) || [masif_seed](https://github.com/LPDI-EPFL/masif_seed) || [masif](https://github.com/LPDI-EPFL/masif)
+[Protein Science 30.CONF (2021)](https://infoscience.epfl.ch/record/290120)/[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.16.496402v2)/[Nature (2023)](https://www.nature.com/articles/s41586-023-05993-x) || [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/17/2022.06.16.496402/DC1/embed/media-1.pdf) || [masif_seed](https://github.com/LPDI-EPFL/masif_seed) || [masif](https://github.com/LPDI-EPFL/masif)
 
 ### 6.5 GNN-based
 
