@@ -26,11 +26,13 @@
 > Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7-other-tasks) follow other ML/DL strategies.  
 
 <p align='center'>
-  <a href='#0-benchmarks-and-datasets'>0. Benchmarks and datasets </a> •
+  <strong><a href='#0-benchmarks-and-datasets'>0) Benchmarks and datasets </a></strong> •
+  <br>
+  <a href="#01-sequence-datasets">Sequence datasets</a> •
+  <a href="#02-structure-datasets">Structure datasets</a> •
+  <a href="#03-databases">Public database</a> •
   <a href=""></a> •
-  <a href=""></a> •
-  <a href=""></a> •
-  <a href=""></a> •
+  <br>
   <a href=""></a> •
 </p>
 
