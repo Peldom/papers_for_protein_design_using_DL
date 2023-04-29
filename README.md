@@ -10,11 +10,11 @@
 
 *Updated at 2023-04-27:*
 + Protein design: from computer models to artificial intelligence
-    + [Wiley Interdisciplinary Reviews: Computational Molecular Science 7.5 (2017): e1318](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1318)
+    + [[Wiley Interdisciplinary Reviews: Computational Molecular Science 7.5 (2017): e1318](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1318)]
 + Generative design of de novo proteins based on secondary-structure constraints using an attention-based diffusion model
-    + [Chem,(2023)](https://www.cell.com/chem/fulltext/S2451-9294(23)00139-0) || [code](https://github.com/lamm-mit/ProteinDiffusionGenerator)
+    + [[Chem,(2023)](https://www.cell.com/chem/fulltext/S2451-9294(23)00139-0)] • [[code](https://github.com/lamm-mit/ProteinDiffusionGenerator)]
 + ProtWave-VAE: Integrating autoregressive sampling with latent-based inference for data-driven protein design
-    + [bioRxiv 2023.04.23.537971](https://www.biorxiv.org/content/10.1101/2023.04.23.537971v1) || [](https://www.biorxiv.org/content/biorxiv/early/2023/04/23/2023.04.23.537971/DC1/embed/media-1.pdf?download=true) || [code](https://github.com/PraljakReps/ProtWaveVAE)
+    + [[bioRxiv 2023.04.23.537971](https://www.biorxiv.org/content/10.1101/2023.04.23.537971v1)] • [[pdf](https://www.biorxiv.org/content/biorxiv/early/2023/04/23/2023.04.23.537971/DC1/embed/media-1.pdf?download=true)] • [[code](https://github.com/PraljakReps/ProtWaveVAE)]
 <p align="center">
   <br>
   <!-- <img src="dl_pd.png" alt="deep learning for protein design" width="500"> -->
