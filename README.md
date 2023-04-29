@@ -12,7 +12,8 @@
 
 <p align="center">
   <br>
-  <img src="dl_pd.png" alt="deep learning for protein design" width="500">
+  <!-- <img src="dl_pd.png" alt="deep learning for protein design" width="500"> -->
+  <img src="dl_pd.png" alt="deep learning for protein design">
 </p>
 
 ## Menu
