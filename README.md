@@ -1,11 +1,12 @@
 # List of papers about Proteins Design using Deep Learning
 
 > Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s awesome [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins), we established this repository with a sharper focus on **deep learning for protein design**, which is a rapidly evolving field.
+> [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) and [Suggestions](https://github.com/Peldom/papers_for_protein_design_using_DL/issues) are warmly welcome.
 <!-- >
 >1. Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
-> [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) and [Suggestions](https://github.com/Peldom/papers_for_protein_design_using_DL/issues) are warmly welcome.
+
 
 <!-- [***Updated at 2023-04-27:***]() -->
 *Updated at 2023-04-27:*
@@ -19,7 +20,7 @@
 <p align="center">
   <br>
   <!-- <img src="dl_pd.png" alt="deep learning for protein design" width="500"> -->
-  <img src="dl_pd.png" alt="deep learning for protein design">
+  <img src="cover.jpg" alt="deep learning for protein design">
 </p>
 
 <!-- ## Menu -->
@@ -57,7 +58,7 @@
   <a href="">TRFold2-based</a> •
   <a href="">GPT-based</a> •
   <a href="">ESM-based</a> •
-  <a href="">Sampling-based</a> •
+  <a href="">Sampling-based</a>
   <br>
   <strong><a href="">3) Function to Scaffold</a></strong>
   <br>
