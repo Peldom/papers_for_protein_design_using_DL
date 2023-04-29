@@ -1,6 +1,6 @@
 # List of papers about Proteins Design using Deep Learning
 
-## About this repository
+
 
 > Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**(some ML models are also included), we started making this dynamic repository as a record of latest papers/projects in this field for the newcomers like us:  
 >
@@ -10,12 +10,22 @@
 
 [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) are welcome!
 
+<p align="center">
+  <br>
+  <img src="dl_pd.png" alt="deep learning for protein design" width="500">
+</p>
+
 ## Menu
 
 > Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7-other-tasks) follow other ML/DL strategies.  
 
-- [List of papers about Proteins Design using Deep Learning](#list-of-papers-about-proteins-design-using-deep-learning)
-  - [About this repository](#about-this-repository)
+<p align='center'>
+  <a href=''> </a> •
+</p>
+
+------
+
+<!-- - [List of papers about Proteins Design using Deep Learning](#list-of-papers-about-proteins-design-using-deep-learning)
   - [Menu](#menu)
   - [0. Benchmarks and datasets](#0-benchmarks-and-datasets)
     - [0.1 Sequence Datasets](#01-sequence-datasets)
@@ -29,7 +39,7 @@
     - [1.2 Antibody design](#12-antibody-design)
     - [1.3 Peptide design](#13-peptide-design)
     - [1.4 Binder design](#14-binder-design)
-    - [1.5 Enzyme design](#15-Enzyme-design)
+    - [1.5 Enzyme design](#15-enzyme-design)
   - [2. Model-based design](#2-model-based-design)
     - [2.1 trRosetta-based](#21-trrosetta-based)
     - [2.2 AlphaFold2-based](#22-alphafold2-based)
@@ -84,7 +94,7 @@
     - [7.2 Protein Language Models (PTM) and representation learning](#72-protein-language-models-ptm-and-representation-learning)
     - [7.3 Molecular Design Models](#73-molecular-design-models)
       - [7.3.1 Gradient optimization](#731-gradient-optimization)
-      - [7.3.2 Optimized sampling](#732-optimized-sampling)
+      - [7.3.2 Optimized sampling](#732-optimized-sampling) -->
 
 ## 0. Benchmarks and datasets
 
