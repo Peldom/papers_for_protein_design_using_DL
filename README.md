@@ -28,18 +28,18 @@
 <p align='center'>
   <strong><a href='#0-benchmarks-and-datasets'>0) Benchmarks and datasets </a></strong>
   <br>
-  <a href="#01-sequence-datasets">Sequence datasets</a> •
-  <a href="#02-structure-datasets">Structure datasets</a> •
-  <a href="#03-databases">Public database</a> •
-  <a href="#04-similar-list">Other</a>
+  [<a href="#01-sequence-datasets">Sequence datasets</a>] •
+  [<a href="#02-structure-datasets">Structure datasets</a>] •
+  [<a href="#03-databases">Public database</a>] •
+  [<a href="#04-similar-list">Other</a>]
   <br>
   <strong><a href="#1-reviews">1) Reviews and surveys</a></strong>
   <br>
-  <a href="#11-de-novo-protein-design">De novo design</a> •
-  <a href="#12-antibody-design">Antibody design</a> •
-  <a href="#13-peptide-design">Peptide design</a> •
-  <a href="#14-binder-design">Binder design</a> •
-  <a href="#15-enzyme-design">Enzyme design</a>
+  [<a href="#11-de-novo-protein-design">De novo design</a>] •
+  [<a href="#12-antibody-design">Antibody design</a>] •
+  [<a href="#13-peptide-design">Peptide design</a>] •
+  [<a href="#14-binder-design">Binder design</a>] •
+  [<a href="#15-enzyme-design">Enzyme design</a>]
   <br>
   <strong><a href="">2) Model-based design</a></strong>
   <br>
@@ -54,7 +54,7 @@
   <a href="">ESM-based</a> •
   <a href="">sampling-based</a> •
   <br>
-  
+
 </p>
 
 ------
