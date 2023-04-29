@@ -29,7 +29,7 @@
 <!-- > Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7-other-tasks) follow other ML/DL strategies.   -->
 
 <p align='center'>
-  <strong><a href='#0-benchmarks-and-datasets' style="font-size:20px;">0) Benchmarks and datasets </a></strong>
+  <strong><a href='#0-benchmarks-and-datasets' style="font-size:35px;">0) Benchmarks and datasets </a></strong>
   <br>
   <!-- [<a href="#01-sequence-datasets">Sequence datasets</a>] •
   [<a href="#02-structure-datasets">Structure datasets</a>] •
@@ -40,7 +40,7 @@
   <a href="#03-databases">Public database</a> •
   <a href="#04-similar-list">Other</a>
   <br>
-  <strong><a href="#1-reviews" style="font-size:20px;">1) Reviews and surveys</a></strong>
+  <strong><a href="#1-reviews" style="font-size:30px;">1) Reviews and surveys</a></strong>
   <br>
   <a href="#11-de-novo-protein-design">De novo design</a> •
   <a href="#12-antibody-design">Antibody design</a> •
@@ -48,7 +48,7 @@
   <a href="#14-binder-design">Binder design</a> •
   <a href="#15-enzyme-design">Enzyme design</a>
   <br>
-  <strong><a href="" style="font-size:20px;">2) Model-based design</a></strong>
+  <strong><a href="" style="font-size:35px;">2) Model-based design</a></strong>
   <br>
   <a href="">trRosetta-based</a> •
   <a href="">AlphaFold2-based</a> •
