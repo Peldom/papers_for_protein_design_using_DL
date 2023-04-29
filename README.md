@@ -2,7 +2,7 @@
 
 > Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s awesome [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins), we established this repository with a sharper focus on **deep learning for protein design**, which is a rapidly evolving field.
 > 
-> [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) and [suggestions](https://github.com/Peldom/papers_for_protein_design_using_DL/issues) are warmly welcome.
+> And [contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) and [suggestions](https://github.com/Peldom/papers_for_protein_design_using_DL/issues) are warmly welcome.
 <!-- >
 >1. Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
@@ -29,7 +29,7 @@
 <!-- > Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7-other-tasks) follow other ML/DL strategies.   -->
 
 <p align='center'>
-  <strong><a href='#0-benchmarks-and-datasets' style="font-size:35px;">0) Benchmarks and datasets </a></strong>
+  <strong><a href='#0-benchmarks-and-datasets'>0) Benchmarks and datasets </a></strong>
   <br>
   <!-- [<a href="#01-sequence-datasets">Sequence datasets</a>] •
   [<a href="#02-structure-datasets">Structure datasets</a>] •
@@ -40,7 +40,7 @@
   <a href="#03-databases">Public database</a> •
   <a href="#04-similar-list">Other</a>
   <br>
-  <strong><a href="#1-reviews" style="font-size:30px;">1) Reviews and surveys</a></strong>
+  <strong><a href="#1-reviews">1) Reviews and surveys</a></strong>
   <br>
   <a href="#11-de-novo-protein-design">De novo design</a> •
   <a href="#12-antibody-design">Antibody design</a> •
@@ -48,7 +48,7 @@
   <a href="#14-binder-design">Binder design</a> •
   <a href="#15-enzyme-design">Enzyme design</a>
   <br>
-  <strong><a href="" style="font-size:35px;">2) Model-based design</a></strong>
+  <strong><a href="">2) Model-based design</a></strong>
   <br>
   <a href="">trRosetta-based</a> •
   <a href="">AlphaFold2-based</a> •
@@ -61,7 +61,7 @@
   <a href="">ESM-based</a> •
   <a href="">Sampling-based</a>
   <br>
-  <strong><a href="">3) Function to Scaffold</a></strong>
+  <strong><a href="" class="large-link">3) Function to Scaffold</a></strong>
   <br>
   <a href="">GAN (adversarial training)</a> •
   <a href="">VAE-based</a> •
@@ -70,33 +70,60 @@
   <a href="">Diffusion-based</a> •
   <a href="">RL-based</a>
   <br>
-  <strong><a href="">4) Scaffold to Sequence</a></strong>
+  <strong><a href="#4scaffold-to-sequence">4) Scaffold to Sequence</a></strong>
   <br>
-  <a href="">MLP</a> •
-  <a href="">VAE</a> •
-  <a href="">LSTM</a> •
-  <a href="">Conv</a> •
-  <a href="">Transformer</a> •
-  <a href="">ResNet</a> •
-  <a href="">Duffision model</a> •
+  <a href="#41-mlp-based">MLP</a> •
+  <a href="#42-vae-based">VAE</a> •
+  <a href="#43-lstm-based">LSTM</a> •
+  <a href="#44-cnn-based">Conv</a> •
+  <a href="#45-gnn-based">GNN</a> •
+  <a href="#46-gan-based">GAN</a> •
+  <a href="#47-transformer-based">Transformer</a> •
+  <a href="#48-resnet-based">ResNet</a> •
+  <a href="#49-diffusion-based">Duffision model</a>
   <br>
-  <strong><a href="">5) Function to Sequence</a></strong>
+  <strong><a href="#5function-to-sequence">5) Function to Sequence</a></strong>
   <br>
-  <a href="">Conv</a> •
-  <a href="">VAE</a> •
-  <a href="">GAN (adversarial training)</a> •
-  <a href="">Transformer</a> •
-  <a href="">ResNet</a> •
-  <a href="">Bayesian method</a> •
-  <a href="">Reinforcement Learning</a> •
-  <a href="">Flow model</a> •
-  <a href="">RNN</a> •
-  <a href="">LSTM</a> •
-  <a href="">Autoregressive</a> •
-  <a href="">Boltzmann machine</a> •
-  <a href="">Diffusion model</a>
+  <a href="#51-cnn-based">Conv</a> •
+  <a href="#52-vae-based">VAE</a> •
+  <a href="#53-gan-based">GAN (adversarial training)</a> •
+  <a href="#54-transformer-based">Transformer</a> •
+  <a href="#55-resnet-based">ResNet</a> •
+  <a href="#56-bayesian-based">Bayesian method</a> •
+  <a href="#57-rl-based">Reinforcement Learning</a> •
+  <a href="#58-flow-based">Flow model</a> •
+  <a href="#59-rnn-based">RNN</a> •
+  <a href="#510-lstm-based">LSTM</a> •
+  <a href="#511-autoregressive-models">Autoregressive</a> •
+  <a href="#512-boltzmann-machine-based">Boltzmann machine</a> •
+  <a href="#513-diffusion-based">Diffusion model</a>
   <br>
+  <strong><a href="#6-function-to-structure">6) Function to Structure</a></strong>
+  <br>
+  <a href="#61-lstm-based">LSTM</a> •
+  <a href="#62-diffusion-based">Diffusion model</a> •
+  <a href="#63-rosettafold-based">RoseTTAFold-based</a> •
+  <a href="#64-cnn-based">Conv</a> •
+  <a href="#65-gnn-based">GNN</a> •
+  <a href="#66-transformer-based">Transformer</a>
+  <br>
+  <strong><a href="#7-other-tasks">Other</a></strong>
+  <br>
+  <a href="#71-effects-of-mutation--fitness-landscape">Effects of mutations & Fitness Landscape</a>  •
+  <a href="#72-protein-language-models-ptm-and-representation-learning">Protein language models and representation learning</a>  •
+  <a href="#73-molecular-design-models">Molecular</a>
 </p>
+
+  <!-- - [4.Scaffold to Sequence](#4scaffold-to-sequence)
+    - [4.1 MLP-based](#41-mlp-based)
+    - [4.2 VAE-based]()
+    - [4.3 LSTM-based]()
+    - [4.4 CNN-based]()
+    - [4.5 GNN-based]()
+    - [4.6 GAN-based]()
+    - [4.7 Transformer-based]()
+    - [4.8 ResNet-based]()
+    - [4.9 Diffusion-based]() -->
 
 ------
 
@@ -216,18 +243,22 @@ Linsky, T.W., Noble, K., Tobin, A.R. et al.
 
 #### 0.3.2 Structure Database
 
-1. [PDB](https://www.rcsb.org/)
-2. [AlphaFoldDB](https://alphafold.ebi.ac.uk/)
-3. [PDBbind](http://www.pdbbind.org.cn/download.php)
-4. [AB-Bind](https://github.com/sarahsirin/AB-Bind-Database)
-5. [AntigenDB](http://crdd.osdd.net/raghava/antigendb/)
-6. [CAMEO](https://www.cameo3d.org/)
-7. [CAPRI](https://www.ebi.ac.uk/msd-srv/capri/)
-8. [PDBbind](http://www.pdbbind.org.cn/)
-9. [PIFACE](http://prism.ccbb.ku.edu.tr/piface)
-10. [SAbDab](http://opig.stats.ox.ac.uk/webapps/newsabdab/sabdab/)
-11. [SKEMPI v2.0](https://life.bsc.es/pid/skempi2)
-12. [ProtCAD](http://dunbrack2.fccc.edu/protcad/)
+
+Database | Description 
+---------|----------
+[PDB](https://www.rcsb.org/) | The Protein Data Bank (PDB) is a database of 3D structural data of large biological molecules, such as proteins and nucleic acids. These data are gathered using experimental methods such as X-ray crystallography, NMR spectroscopy, or cryo-electron microscopy.
+[AlphaFoldDB](https://alphafold.ebi.ac.uk/) | AlphaFoldDB is a database of protein structure predictions produced by DeepMind's AlphaFold system. It provides highly accurate predictions of protein 3D structures.
+[PDBbind](http://www.pdbbind.org.cn/download.php) | PDBbind is a comprehensive collection of the binding data of all types of biomolecular complexes in the PDB database. It is primarily used for the development and validation of computational methods for predicting molecular interactions.
+[AB-Bind](https://github.com/sarahsirin/AB-Bind-Database) | AB-Bind is a database for antibody binding affinity data. It offers a curated set of experimental binding data and corresponding antibody-protein complex structures.
+[AntigenDB](http://crdd.osdd.net/raghava/antigendb/) | AntigenDB is a manually curated database of experimentally verified antigens that includes detailed information about the antigen, the source organism, and the associated antibodies.
+[CAMEO](https://www.cameo3d.org/) | CAMEO (Continuous Automated Model EvaluatiOn) is a project for the automated evaluation of methods predicting macromolecular structure. It continuously assesses the performance of automated protein structure prediction servers.
+[CAPRI](https://www.ebi.ac.uk/msd-srv/capri/) | The Critical Assessment of PRediction of Interactions (CAPRI) is a community-wide experiment to evaluate protein-protein interaction prediction methods.
+[PIFACE](http://prism.ccbb.ku.edu.tr/piface) | PIFACE is a web server for the prediction of protein-protein interactions. It identifies potential interaction interfaces on protein surfaces.
+[SAbDab](http://opig.stats.ox.ac.uk/webapps/newsabdab/sabdab/) | The Structural Antibody Database (SAbDab) is an automatically updated resource for the structural information of antibodies from the PDB. It allows for easy access to curated, annotated, and classified antibody structures.
+[SKEMPI v2.0](https://life.bsc.es/pid/skempi2) | SKEMPI 2.0 is a database of experimental measurements of the change in binding free energy caused by mutations in protein-protein complexes.
+[ProtCAD](http://dunbrack2.fccc.edu/protcad/) | ProtCAD is a suite of tools for the design and engineering of novel protein structures, sequences, and functions. It allows users to build and manipulate complex protein structures, generate and evaluate sequence libraries, and simulate mutational effects.ProtCAD is a suite of tools for the design and engineering of novel protein structures, sequences, and functions. It allows users to build and manipulate complex protein structures, generate and evaluate sequence libraries, and simulate mutational effects.
+
+
 
 ### 0.4 Similar List
 
