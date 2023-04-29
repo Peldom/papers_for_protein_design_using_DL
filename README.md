@@ -1,14 +1,12 @@
 # List of papers about Proteins Design using Deep Learning
 
-
-
-> Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). In terms of the fast development of **protein design in DL**(some ML models are also included), we started making this dynamic repository as a record of latest papers/projects in this field for the newcomers like us:  
+> Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s awesome [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins), we established this repository with a sharper focus on **deep learning for protein design**, which is a rapidly evolving field.
 >
 >1. Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).  
 
-[Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) are welcome!
+[Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) and [Suggestions](https://github.com/Peldom/papers_for_protein_design_using_DL/issues) are warmly welcome.
 
 <p align="center">
   <br>
