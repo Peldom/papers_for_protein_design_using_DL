@@ -5,9 +5,9 @@
 >1. Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
+> [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) and [Suggestions](https://github.com/Peldom/papers_for_protein_design_using_DL/issues) are warmly welcome.
 
-[Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) and [Suggestions](https://github.com/Peldom/papers_for_protein_design_using_DL/issues) are warmly welcome.
-
+<!-- [***Updated at 2023-04-27:***]() -->
 *Updated at 2023-04-27:*
 + Protein design: from computer models to artificial intelligence
     + [[Wiley Interdisciplinary Reviews: Computational Molecular Science 7.5 (2017): e1318](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1318)]
@@ -15,6 +15,7 @@
     + [[Chem,(2023)](https://www.cell.com/chem/fulltext/S2451-9294(23)00139-0)] • [[code](https://github.com/lamm-mit/ProteinDiffusionGenerator)]
 + ProtWave-VAE: Integrating autoregressive sampling with latent-based inference for data-driven protein design
     + [[bioRxiv 2023.04.23.537971](https://www.biorxiv.org/content/10.1101/2023.04.23.537971v1)] • [[pdf](https://www.biorxiv.org/content/biorxiv/early/2023/04/23/2023.04.23.537971/DC1/embed/media-1.pdf?download=true)] • [[code](https://github.com/PraljakReps/ProtWaveVAE)]
+
 <p align="center">
   <br>
   <!-- <img src="dl_pd.png" alt="deep learning for protein design" width="500"> -->
@@ -28,18 +29,22 @@
 <p align='center'>
   <strong><a href='#0-benchmarks-and-datasets'>0) Benchmarks and datasets </a></strong>
   <br>
-  [<a href="#01-sequence-datasets">Sequence datasets</a>] •
+  <!-- [<a href="#01-sequence-datasets">Sequence datasets</a>] •
   [<a href="#02-structure-datasets">Structure datasets</a>] •
   [<a href="#03-databases">Public database</a>] •
-  [<a href="#04-similar-list">Other</a>]
+  [<a href="#04-similar-list">Other</a>] -->
+  <a href="#01-sequence-datasets">Sequence datasets</a> •
+  <a href="#02-structure-datasets">Structure datasets</a> •
+  <a href="#03-databases">Public database</a> •
+  <a href="#04-similar-list">Other</a>
   <br>
   <strong><a href="#1-reviews">1) Reviews and surveys</a></strong>
   <br>
-  [<a href="#11-de-novo-protein-design">De novo design</a>] •
-  [<a href="#12-antibody-design">Antibody design</a>] •
-  [<a href="#13-peptide-design">Peptide design</a>] •
-  [<a href="#14-binder-design">Binder design</a>] •
-  [<a href="#15-enzyme-design">Enzyme design</a>]
+  <a href="#11-de-novo-protein-design">De novo design</a> •
+  <a href="#12-antibody-design">Antibody design</a> •
+  <a href="#13-peptide-design">Peptide design</a> •
+  <a href="#14-binder-design">Binder design</a> •
+  <a href="#15-enzyme-design">Enzyme design</a>
   <br>
   <strong><a href="">2) Model-based design</a></strong>
   <br>
@@ -52,9 +57,43 @@
   <a href="">TRFold2-based</a> •
   <a href="">GPT-based</a> •
   <a href="">ESM-based</a> •
-  <a href="">sampling-based</a> •
+  <a href="">Sampling-based</a> •
   <br>
-
+  <strong><a href="">3) Function to Scaffold</a></strong>
+  <br>
+  <a href="">GAN (adversarial training)</a> •
+  <a href="">VAE-based</a> •
+  <a href="">DAE-based</a> •
+  <a href="">MLP-Align</a> •
+  <a href="">Diffusion-based</a> •
+  <a href="">RL-based</a>
+  <br>
+  <strong><a href="">4) Scaffold to Sequence</a></strong>
+  <br>
+  <a href="">MLP</a> •
+  <a href="">VAE</a> •
+  <a href="">LSTM</a> •
+  <a href="">Conv</a> •
+  <a href="">Transformer</a> •
+  <a href="">ResNet</a> •
+  <a href="">Duffision model</a> •
+  <br>
+  <strong><a href="">5) Function to Sequence</a></strong>
+  <br>
+  <a href="">Conv</a> •
+  <a href="">VAE</a> •
+  <a href="">GAN (adversarial training)</a> •
+  <a href="">Transformer</a> •
+  <a href="">ResNet</a> •
+  <a href="">Bayesian method</a> •
+  <a href="">Reinforcement Learning</a> •
+  <a href="">Flow model</a> •
+  <a href="">RNN</a> •
+  <a href="">LSTM</a> •
+  <a href="">Autoregressive</a> •
+  <a href="">Boltzmann machine</a> •
+  <a href="">Diffusion model</a>
+  <br>
 </p>
 
 ------
