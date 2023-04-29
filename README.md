@@ -1,13 +1,20 @@
 # List of papers about Proteins Design using Deep Learning
 
 > Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s awesome [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins), we established this repository with a sharper focus on **deep learning for protein design**, which is a rapidly evolving field.
->
+<!-- >
 >1. Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
->3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).  
+>3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) and [Suggestions](https://github.com/Peldom/papers_for_protein_design_using_DL/issues) are warmly welcome.
 
+*Updated at 2023-04-27:*
++ Protein design: from computer models to artificial intelligence
+    + [Wiley Interdisciplinary Reviews: Computational Molecular Science 7.5 (2017): e1318](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1318)
++ Generative design of de novo proteins based on secondary-structure constraints using an attention-based diffusion model
+    + [Chem,(2023)](https://www.cell.com/chem/fulltext/S2451-9294(23)00139-0) || [code](https://github.com/lamm-mit/ProteinDiffusionGenerator)
++ ProtWave-VAE: Integrating autoregressive sampling with latent-based inference for data-driven protein design
+    + [bioRxiv 2023.04.23.537971](https://www.biorxiv.org/content/10.1101/2023.04.23.537971v1) || [](https://www.biorxiv.org/content/biorxiv/early/2023/04/23/2023.04.23.537971/DC1/embed/media-1.pdf?download=true) || [code](https://github.com/PraljakReps/ProtWaveVAE)
 <p align="center">
   <br>
   <!-- <img src="dl_pd.png" alt="deep learning for protein design" width="500"> -->
