@@ -2,7 +2,7 @@
 
 > Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s awesome [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins), we established this repository with a sharper focus on **deep learning for protein design**, which is a rapidly evolving field.
 > 
-> And [contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) and [suggestions](https://github.com/Peldom/papers_for_protein_design_using_DL/issues) are warmly welcome.
+> [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) and [suggestions](https://github.com/Peldom/papers_for_protein_design_using_DL/issues) are warmly welcome!
 <!-- >
 >1. Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
@@ -28,6 +28,7 @@
 
 <!-- > Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7-other-tasks) follow other ML/DL strategies.   -->
 
+
 <p align='center'>
   <strong><a href='#0-benchmarks-and-datasets'>0) Benchmarks and datasets </a></strong>
   <br>
@@ -38,7 +39,7 @@
   <a href="#01-sequence-datasets">Sequence datasets</a> •
   <a href="#02-structure-datasets">Structure datasets</a> •
   <a href="#03-databases">Public database</a> •
-  <a href="#04-similar-list">Other</a>
+  <a href="#04-similar-list">Similar list</a>
   <br>
   <strong><a href="#1-reviews">1) Reviews and surveys</a></strong>
   <br>
@@ -48,34 +49,34 @@
   <a href="#14-binder-design">Binder design</a> •
   <a href="#15-enzyme-design">Enzyme design</a>
   <br>
-  <strong><a href="">2) Model-based design</a></strong>
+  <strong><a href="#2-model-based-design">2) Model-based design</a></strong>
   <br>
-  <a href="">trRosetta-based</a> •
-  <a href="">AlphaFold2-based</a> •
-  <a href="">DMPfold2-based</a> •
-  <a href="">CM-Align</a> •
-  <a href="">MSA transformer-based</a> •
-  <a href="">DeepAb-based</a> •
-  <a href="">TRFold2-based</a> •
-  <a href="">GPT-based</a> •
-  <a href="">ESM-based</a> •
-  <a href="">Sampling-based</a>
+  <a href="#21-trrosetta-based">trRosetta-based</a> •
+  <a href="#22-AlphaFold2-based">AlphaFold2-based</a> •
+  <a href="#23-dmpfold2-based">DMPfold2-based</a> •
+  <a href="#24-cm-align">CM-Align</a> •
+  <a href="#25-msa-transformer-based">MSA transformer-based</a> •
+  <a href="#26-deepab-based">DeepAb-based</a> •
+  <a href="#27-trfold2-based">TRFold2-based</a> •
+  <a href="#28-gpt-based">GPT-based</a> •
+  <a href="#29-esm-based">ESM-based</a> •
+  <a href="#210-sampling-algorithms">Sampling-based</a>
   <br>
-  <strong><a href="" class="large-link">3) Function to Scaffold</a></strong>
+  <strong><a href="#3-function-to-scaffold" class="large-link">3) Function to Scaffold</a></strong>
   <br>
-  <a href="">GAN (adversarial training)</a> •
-  <a href="">VAE-based</a> •
-  <a href="">DAE-based</a> •
-  <a href="">MLP-Align</a> •
-  <a href="">Diffusion-based</a> •
-  <a href="">RL-based</a>
+  <a href="#31-gan-based">GAN (adversarial training)</a> •
+  <a href="#32-vae-based">VAE-based</a> •
+  <a href="#33-dae-based">DAE-based</a> •
+  <a href="#34-mlp-based">MLP-Align</a> •
+  <a href="#35-diffusion-based">Diffusion-based</a> •
+  <a href="#36-rl-based">RL-based</a>
   <br>
   <strong><a href="#4scaffold-to-sequence">4) Scaffold to Sequence</a></strong>
   <br>
   <a href="#41-mlp-based">MLP</a> •
   <a href="#42-vae-based">VAE</a> •
   <a href="#43-lstm-based">LSTM</a> •
-  <a href="#44-cnn-based">Conv</a> •
+  <a href="#44-cnn-based">CNN</a> •
   <a href="#45-gnn-based">GNN</a> •
   <a href="#46-gan-based">GAN</a> •
   <a href="#47-transformer-based">Transformer</a> •
@@ -84,9 +85,9 @@
   <br>
   <strong><a href="#5function-to-sequence">5) Function to Sequence</a></strong>
   <br>
-  <a href="#51-cnn-based">Conv</a> •
+  <a href="#51-cnn-based">CNN</a> •
   <a href="#52-vae-based">VAE</a> •
-  <a href="#53-gan-based">GAN (adversarial training)</a> •
+  <a href="#53-gan-based">GAN</a> •
   <a href="#54-transformer-based">Transformer</a> •
   <a href="#55-resnet-based">ResNet</a> •
   <a href="#56-bayesian-based">Bayesian method</a> •
@@ -103,7 +104,7 @@
   <a href="#61-lstm-based">LSTM</a> •
   <a href="#62-diffusion-based">Diffusion model</a> •
   <a href="#63-rosettafold-based">RoseTTAFold-based</a> •
-  <a href="#64-cnn-based">Conv</a> •
+  <a href="#64-cnn-based">CNN</a> •
   <a href="#65-gnn-based">GNN</a> •
   <a href="#66-transformer-based">Transformer</a>
   <br>
@@ -111,7 +112,7 @@
   <br>
   <a href="#71-effects-of-mutation--fitness-landscape">Effects of mutations & Fitness Landscape</a>  •
   <a href="#72-protein-language-models-ptm-and-representation-learning">Protein language models and representation learning</a>  •
-  <a href="#73-molecular-design-models">Molecular</a>
+  <a href="#73-molecular-design-models">Molecular Design Models</a>
 </p>
 
   <!-- - [4.Scaffold to Sequence](#4scaffold-to-sequence)
