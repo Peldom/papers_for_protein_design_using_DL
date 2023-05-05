@@ -10,13 +10,13 @@
 
 
 <!-- [***Updated at 2023-04-27:***]() -->
-*Updated at 2023-04-27:*
-+ Protein design: from computer models to artificial intelligence
-    + [[Wiley Interdisciplinary Reviews: Computational Molecular Science 7.5 (2017): e1318](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1318)]
-+ Generative design of de novo proteins based on secondary-structure constraints using an attention-based diffusion model
-    + [[Chem,(2023)](https://www.cell.com/chem/fulltext/S2451-9294(23)00139-0)] • [[code](https://github.com/lamm-mit/ProteinDiffusionGenerator)]
-+ ProtWave-VAE: Integrating autoregressive sampling with latent-based inference for data-driven protein design
-    + [[bioRxiv 2023.04.23.537971](https://www.biorxiv.org/content/10.1101/2023.04.23.537971v1)] • [[pdf](https://www.biorxiv.org/content/biorxiv/early/2023/04/23/2023.04.23.537971/DC1/embed/media-1.pdf?download=true)] • [[code](https://github.com/PraljakReps/ProtWaveVAE)]
+*Updated at 2023-05-04:*
++ In silico evolution of protein binders with deep learning models for structure prediction and sequence design  
+    + [[bioRxiv 2023.05.03.539278](https://www.biorxiv.org/content/10.1101/2023.05.03.539278v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/03/2023.05.03.539278/DC1/embed/media-1.pdf)] • [[code](https://github.com/KuhlmanLab/evopro)]
++ Importance Weighted Expectation-Maximization for Protein Sequence Design
+    + [[arXiv:2305.00386](https://arxiv.org/abs/2305.00386)]
++ Exploring the Protein Sequence Space with Global Generative Models  
+    + [[arXiv:2305.01941](https://arxiv.org/abs/2305.01941)]
 
 <p align="center">
   <br>
@@ -52,7 +52,7 @@
   <strong><a href="#2-model-based-design">2) Model-based design</a></strong>
   <br>
   <a href="#21-trrosetta-based">trRosetta-based</a> •
-  <a href="#22-AlphaFold2-based">AlphaFold2-based</a> •
+  <a href="#22-alphafold2-based">AlphaFold2-based</a> •
   <a href="#23-dmpfold2-based">DMPfold2-based</a> •
   <a href="#24-cm-align">CM-Align</a> •
   <a href="#25-msa-transformer-based">MSA transformer-based</a> •
@@ -60,7 +60,7 @@
   <a href="#27-trfold2-based">TRFold2-based</a> •
   <a href="#28-gpt-based">GPT-based</a> •
   <a href="#29-esm-based">ESM-based</a> •
-  <a href="#210-sampling-algorithms">Sampling-based</a>
+  <a href="#210-sampling-algorithms">Sampling-algorithms</a>
   <br>
   <strong><a href="#3-function-to-scaffold" class="large-link">3) Function to Scaffold</a></strong>
   <br>
@@ -108,7 +108,7 @@
   <a href="#65-gnn-based">GNN</a> •
   <a href="#66-transformer-based">Transformer</a>
   <br>
-  <strong><a href="#7-other-tasks">Other</a></strong>
+  <strong><a href="#7-other-tasks">7) Other</a></strong>
   <br>
   <a href="#71-effects-of-mutation--fitness-landscape">Effects of mutations & Fitness Landscape</a>  •
   <a href="#72-protein-language-models-ptm-and-representation-learning">Protein language models and representation learning</a>  •
@@ -215,6 +215,10 @@ Paper unavailable at [Machine Learning in Structural Biology Workshop 2022](http
 Leonardo V Castorina, Rokas Petrenas, Kartic Subr, Christopher W Wood  
 [Bioinformatics, 2023;, btad027](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btad027/6986968) • [code](https://github.com/wells-wood-research/PDBench)
 
+**Benchmarking deep generative models for diverse antibody sequence design**  
+Igor Melnyk, Payel Das, Vijil Chenthamarakshan, Aurelie Lozano  
+[arXiv:2111.06801](https://arxiv.org/abs/2111.06801)
+
 ### 0.2 Structure Datasets
 
 **AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**  
@@ -259,8 +263,6 @@ Database | Description
 [SKEMPI v2.0](https://life.bsc.es/pid/skempi2) | SKEMPI 2.0 is a database of experimental measurements of the change in binding free energy caused by mutations in protein-protein complexes.
 [ProtCAD](http://dunbrack2.fccc.edu/protcad/) | ProtCAD is a suite of tools for the design and engineering of novel protein structures, sequences, and functions. It allows users to build and manipulate complex protein structures, generate and evaluate sequence libraries, and simulate mutational effects.ProtCAD is a suite of tools for the design and engineering of novel protein structures, sequences, and functions. It allows users to build and manipulate complex protein structures, generate and evaluate sequence libraries, and simulate mutational effects.
 
-
-
 ### 0.4 Similar List
 
 > Some similar GitHub lists that include papers about protein design using deep learning:
@@ -276,6 +278,10 @@ Database | Description
 **Protein design: from computer models to artificial intelligence**  
 Paladino, Antonella, et al.  
 [Wiley Interdisciplinary Reviews: Computational Molecular Science 7.5 (2017): e1318](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1318)
+
+**Advances in protein structure prediction and design**  
+Kuhlman, B., Bradley, P.  
+[Nat Rev Mol Cell Biol 20, 681–697 (2019)](https://www.nature.com/articles/s41580-019-0163-x)
 
 **Deep learning in protein structural modeling and design**  
 Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray  
@@ -341,6 +347,10 @@ Bhoomika Basu Mallik, Jenna Stanislaw, Tharindu Madhusankha Alawathurage, and Al
 **Research progress of artificial intelligence in protein design**  
 CHEN Zhihang, JI Menglin, QI Yifei  
 [Synthetic Biology Journal (2023)](https://synbioj.cip.com.cn/article/2023/2096-8280/2023-008.shtml)
+
+**Exploring the Protein Sequence Space with Global Generative Models**  
+Sergio Romero-Romero, Sebastian Lindner, Noelia Ferruz  
+[arXiv:2305.01941](https://arxiv.org/abs/2305.01941)
 
 ### 1.2 Antibody design
 
@@ -460,7 +470,15 @@ Christopher Josef Frank, Ali Khoshouei, Yosta de Stigter, Dominik Schiewitz, Shi
 
 **Cyclic peptide structure prediction and design using AlphaFold**  
 Stephen A. Rettie, Katelyn V. Campbell, Asim K. Bera, Alex Kang, Simon Kozlov, Joshmyn De La Cruz, Victor Adebomi, Guangfeng Zhou, Frank DiMaio, Sergey Ovchinnikov, Gaurav Bhardwaj  
-[bioRxiv](https://www.biorxiv.org/content/10.1101/2023.02.25.529956v1.full.pdf) • [Code](https://github.com/sokrypton/ColabDesign/blob/main/af/examples/af_cyc_design.ipynb) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/02/26/2023.02.25.529956/DC1/embed/media-1.xlsx) 
+[bioRxiv](https://www.biorxiv.org/content/10.1101/2023.02.25.529956v1.full.pdf) • [Code](https://github.com/sokrypton/ColabDesign/blob/main/af/examples/af_cyc_design.ipynb) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/02/26/2023.02.25.529956/DC1/embed/media-1.xlsx)
+
+**De novo design of luciferases using deep learning**  
+Andy Hsien-Wei Yeh, Christoffer Norn, Yakov Kipnis, Doug Tischer, Samuel J. Pellock, Declan Evans, Pengchen Ma, Gyu Rie Lee, Jason Z. Zhang, Ivan Anishchenko, Brian Coventry, Longxing Cao, Justas Dauparas, Samer Halabiya, Michelle DeWitt, Lauren Carter, K. N. Houk & David Baker  
+[Nature](https://www.nature.com/articles/s41586-023-05696-3) • [Code](https://files.ipd.uw.edu/pub/luxSit/scaffold_generation.tar.gz) • [Supplementary Materials](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-023-05696-3/MediaObjects/41586_2023_5696_MOESM1_ESM.pdf) 
+
+**In silico evolution of protein binders with deep learning models for structure prediction and sequence design**  
+Odessa J Goudy, Amrita Nallathambi, Tomoaki Kinjo, Nicholas Randolph, Brian Kuhlman  
+[bioRxiv 2023.05.03.539278](https://www.biorxiv.org/content/10.1101/2023.05.03.539278v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/03/2023.05.03.539278/DC1/embed/media-1.pdf) • [code](https://github.com/KuhlmanLab/evopro)
 
 ### 2.3 DMPfold2-based
 
@@ -538,9 +556,9 @@ Lakshmi A. Ghantasala, Risi Jaiswal, Supriyo Datta
 Patrick Emami, Aidan Perreault, Jeffrey Law, David Biagioni, Peter St. Joh  
 [NeurIPS 2022](https://www.mlsb.io/papers_2022/Plug_Play_Directed_Evolution_of_Proteins_with_Gradient_based_Discrete_MCMC.pdf)/[arXiv:2212.09925](https://arxiv.org/abs/2212.09925)
 
-**De novo design of luciferases using deep learning**  
-Andy Hsien-Wei Yeh, Christoffer Norn, Yakov Kipnis, Doug Tischer, Samuel J. Pellock, Declan Evans, Pengchen Ma, Gyu Rie Lee, Jason Z. Zhang, Ivan Anishchenko, Brian Coventry, Longxing Cao, Justas Dauparas, Samer Halabiya, Michelle DeWitt, Lauren Carter, K. N. Houk & David Baker  
-[Nature](https://www.nature.com/articles/s41586-023-05696-3.pdf) • [Code](https://files.ipd.uw.edu/pub/luxSit/scaffold_generation.tar.gz) • [Supplementary Materials](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-023-05696-3/MediaObjects/41586_2023_5696_MOESM1_ESM.pdf) 
+**Importance Weighted Expectation-Maximization for Protein Sequence Design**  
+Zhenqiao Song, Lei Li  
+[arXiv:2305.00386](https://arxiv.org/abs/2305.00386)
 
 ## 3. Function to Scaffold
 
@@ -606,7 +624,7 @@ Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina 
 
 **ProteinSGM: Score-based generative modeling for de novo protein design**  
 Jin Sub Lee, Philip M Kim  
-[bioRxiv 2022.07.13.499967](https://www.biorxiv.org/content/10.1101/2022.07.13.499967v2) • [code](https://gitlab.com/mjslee0921/proteinsgm)
+[bioRxiv 2022.07.13.499967](https://www.biorxiv.org/content/10.1101/2022.07.13.499967v2)/[Nat Comput Sci (2023)](https://www.nature.com/articles/s43588-023-00440-3) • [code](https://gitlab.com/mjslee0921/proteinsgm)
 
 **Protein structure generation via folding diffusion**  
 Kevin E. Wu, Kevin K. Yang, Rianne van den Berg, James Y. Zou, Alex X. Lu, Ava P. Amini  
