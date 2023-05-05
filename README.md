@@ -606,7 +606,7 @@ Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina 
 
 **ProteinSGM: Score-based generative modeling for de novo protein design**  
 Jin Sub Lee, Philip M Kim  
-[bioRxiv 2022.07.13.499967](https://www.biorxiv.org/content/10.1101/2022.07.13.499967v2) • [code](https://gitlab.com/mjslee0921/proteinsgm)
+[Nat Comput Sci (2023)](https://doi.org/10.1038/s43588-023-00440-3) • [code](https://gitlab.com/mjslee0921/proteinsgm)
 
 **Protein structure generation via folding diffusion**  
 Kevin E. Wu, Kevin K. Yang, Rianne van den Berg, James Y. Zou, Alex X. Lu, Ava P. Amini  
