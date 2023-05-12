@@ -10,13 +10,19 @@
 
 
 <!-- [***Updated at 2023-04-27:***]() -->
-*Updated at 2023-05-04:*
-+ In silico evolution of protein binders with deep learning models for structure prediction and sequence design  
-    + [[bioRxiv 2023.05.03.539278](https://www.biorxiv.org/content/10.1101/2023.05.03.539278v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/03/2023.05.03.539278/DC1/embed/media-1.pdf)] • [[code](https://github.com/KuhlmanLab/evopro)]
-+ Importance Weighted Expectation-Maximization for Protein Sequence Design
-    + [[arXiv:2305.00386](https://arxiv.org/abs/2305.00386)]
-+ Exploring the Protein Sequence Space with Global Generative Models  
-    + [[arXiv:2305.01941](https://arxiv.org/abs/2305.01941)]
+*Papers last week, updated at 2023.05.12:*
++ Improving de novo Protein Binder Design with Deep Learning  
+    + [[Nat Commun 14, 2625 (2023)](https://www.nature.com/articles/s41467-023-38328-5)] • [[code](https://github.com/nrbennet/dl_binder_design)]
++ A Latent Diffusion Model for Protein Structure Generation  
+    + [[arXiv:2305.04120 ](https://arxiv.org/abs/2305.04120)]
++ Joint Generation of Protein Sequence and Structure with RoseTTAFold Sequence Space Diffusion  
+    + [[bioRxiv 2023.05.08.539766](https://www.biorxiv.org/content/10.1101/2023.05.08.539766v1)] • [[code](https://github.com/RosettaCommons/protein_generator#proteingenerator-generate-sequence-structure-pairs-with-rosettafold)] • [[hugging face](https://huggingface.co/spaces/merle/PROTEIN_GENERATOR)]
++ Computational design of soluble analogues of integral membrane protein structures
+    + [[bioRxiv 2023.05.09.540044](https://www.biorxiv.org/content/10.1101/2023.05.09.540044v1)] • [[code](https://github.com/bene837/af2seq)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/09/2023.05.09.540044/DC1/embed/media-1.pdf)]
++ Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins  
+    + [[arXiv:2305.04934](https://arxiv.org/abs/2305.04934)] • [[code](https://github.com/lamm-mit/MateriomicTransformer)]
++ Modeling Protein Structure Using Geometric Vector Field Networks  
+    + [[bioRxiv 2023.05.07.539736](https://www.biorxiv.org/content/10.1101/2023.05.07.539736v1)]
 
 <p align="center">
   <br>
@@ -25,17 +31,11 @@
 </p>
 
 <!-- ## Menu -->
-
 <!-- > Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7-other-tasks) follow other ML/DL strategies.   -->
-
 
 <p align='center'>
   <strong><a href='#0-benchmarks-and-datasets'>0) Benchmarks and datasets </a></strong>
   <br>
-  <!-- [<a href="#01-sequence-datasets">Sequence datasets</a>] •
-  [<a href="#02-structure-datasets">Structure datasets</a>] •
-  [<a href="#03-databases">Public database</a>] •
-  [<a href="#04-similar-list">Other</a>] -->
   <a href="#01-sequence-datasets">Sequence datasets</a> •
   <a href="#02-structure-datasets">Structure datasets</a> •
   <a href="#03-databases">Public database</a> •
@@ -97,7 +97,8 @@
   <a href="#510-lstm-based">LSTM</a> •
   <a href="#511-autoregressive-models">Autoregressive</a> •
   <a href="#512-boltzmann-machine-based">Boltzmann machine</a> •
-  <a href="#513-diffusion-based">Diffusion model</a>
+  <a href="#513-diffusion-based">Diffusion model</a> •
+  <a href="#514-gnn-based">GNN</a>
   <br>
   <strong><a href="#6-function-to-structure">6) Function to Structure</a></strong>
   <br>
@@ -114,17 +115,6 @@
   <a href="#72-protein-language-models-ptm-and-representation-learning">Protein language models and representation learning</a>  •
   <a href="#73-molecular-design-models">Molecular Design Models</a>
 </p>
-
-  <!-- - [4.Scaffold to Sequence](#4scaffold-to-sequence)
-    - [4.1 MLP-based](#41-mlp-based)
-    - [4.2 VAE-based]()
-    - [4.3 LSTM-based]()
-    - [4.4 CNN-based]()
-    - [4.5 GNN-based]()
-    - [4.6 GAN-based]()
-    - [4.7 Transformer-based]()
-    - [4.8 ResNet-based]()
-    - [4.9 Diffusion-based]() -->
 
 ------
 
@@ -384,7 +374,7 @@ Wan, Fangping, Daphne Kontogiorgos-Heintz, and Cesar de la Fuente-Nunez
 
 **Improving de novo Protein Binder Design with Deep Learning**  
 Nathaniel Bennett, Brian Coventry, Inna Goreshnik, Buwei Huang, Aza Allen, Dionne Vafeados, Ying Po Peng, Justas Dauparas, Minkyung Baek, Lance Stewart, Frank DiMaio, Steven De Munck, Savvas Savvides, David Baker  
-[bioRxiv 2022.06.15.495993](https://www.biorxiv.org/content/10.1101/2022.06.15.495993v1)
+[bioRxiv 2022.06.15.495993](https://www.biorxiv.org/content/10.1101/2022.06.15.495993v1)/[Nat Commun 14, 2625 (2023)](https://www.nature.com/articles/s41467-023-38328-5) • [code](https://github.com/nrbennet/dl_binder_design)
 
 ### 1.5 Enzyme design
 
@@ -479,6 +469,10 @@ Andy Hsien-Wei Yeh, Christoffer Norn, Yakov Kipnis, Doug Tischer, Samuel J. Pell
 **In silico evolution of protein binders with deep learning models for structure prediction and sequence design**  
 Odessa J Goudy, Amrita Nallathambi, Tomoaki Kinjo, Nicholas Randolph, Brian Kuhlman  
 [bioRxiv 2023.05.03.539278](https://www.biorxiv.org/content/10.1101/2023.05.03.539278v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/03/2023.05.03.539278/DC1/embed/media-1.pdf) • [code](https://github.com/KuhlmanLab/evopro)
+
+**Computational design of soluble analogues of integral membrane protein structures**  
+Casper Alexander Goverde, Martin Pacesa, Lars Jeremy Dornfeld, Sandrine Georgeon, Stephane Rosset, Justas Dauparas, Christian Shellhaas, Simon Kozlov, David Baker, Sergey Ovchinnikov, Bruno Correia  
+[bioRxiv 2023.05.09.540044](https://www.biorxiv.org/content/10.1101/2023.05.09.540044v1) • [code]((https://github.com/bene837/af2seq) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/09/2023.05.09.540044/DC1/embed/media-1.pdf)
 
 ### 2.3 DMPfold2-based
 
@@ -642,6 +636,10 @@ Yeqing Lin, Mohammed AlQuraishi
 Jason Yim, Brian L. Trippe, Valentin De Bortoli, Emile Mathieu, Arnaud Doucet, Regina Barzilay, Tommi Jaakkola  
 [arXiv:2302.02277](https://arxiv.org/abs/2302.02277v2)/[ICLR 2023](https://openreview.net/forum?id=6TxBxqNME1Y) • [code](https://github.com/jasonkyuyim/se3_diffusion) • [Supplementary](https://openreview.net/attachment?id=6TxBxqNME1Y&name=supplementary_material)
 
+**A Latent Diffusion Model for Protein Structure Generation**  
+Cong Fu, Keqiang Yan, Limei Wang, Wing Yee Au, Michael McThrow, Tao Komikado, Koji Maruhashi, Kanji Uchino, Xiaoning Qian, Shuiwang Ji  
+[arXiv:2305.04120 ](https://arxiv.org/abs/2305.04120)
+
 ### 3.6 RL-based
 
 **Top-down design of protein nanomaterials with reinforcement learning**  
@@ -756,7 +754,7 @@ Jin, Wengong, Regina Barzilay, and Tommi Jaakkola.
 
 **Neural Network-Derived Potts Models for Structure-Based Protein Design using Backbone Atomic Coordinates and Tertiary Motifs**  
 Alex J. Li, Mindren Lu, Israel Desta, Vikram Sundar, Gevorg Grigoryan, and Amy E. Keating  
-[bioRxiv 2022.08.02.501736](https://www.biorxiv.org/content/10.1101/2022.08.02.501736v1.full.pdf)
+[bioRxiv 2022.08.02.501736](https://www.biorxiv.org/content/10.1101/2022.08.02.501736v1.full.pdf)/[Protein Science, 32(2)](https://onlinelibrary.wiley.com/doi/10.1002/pro.4554)
 
 **Conditional Antibody Design as 3D Equivariant Graph Translation**  
 Xiangzhe Kong, Wenbing Huang, Yang Liu  
@@ -777,6 +775,10 @@ Xinyi Zhou, Guangyong Chen, Junjie Ye, Ercheng Wang, Jun Zhang, Cong Mao, Zhanwe
 **Lightweight Contrastive Protein Structure-Sequence Transformation**  
 Jiangbin Zheng, Ge Wang, Yufei Huang, Bozhen Hu, Siyuan Li, Cheng Tan, Xinwen Fan, Stan Z. Li  
 [arXiv:2303.11783](https://arxiv.org/abs/2303.11783)
+
+**Modeling Protein Structure Using Geometric Vector Field Networks**  
+Weian Mao, Muzhi Zhu, Hao Chen, Chunhua Shen  
+[bioRxiv 2023.05.07.539736](https://www.biorxiv.org/content/10.1101/2023.05.07.539736v1)
 
 ### 4.6 GAN-based
 
@@ -1278,6 +1280,11 @@ Cyril Malbranke, William Rostain, Florence Depardieu, Simona Cocco, Remi Monasso
 Zhangzhi Peng  
 Paper unavailable • [github](https://github.com/pengzhangzhi/protein-sequence-diffusion-model)
 
+### 5.14 GNN-based
+**Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**  
+Markus J. Buehler  
+[arXiv:2305.04934](https://arxiv.org/abs/2305.04934) • [code](https://github.com/lamm-mit/MateriomicTransformer)
+
 ## 6. Function to Structure
 
 > These models generate structures(including side chains) from expected function or recover a part of structures(aka. **inpainting**)
@@ -1319,6 +1326,10 @@ Joseph L. et al.
 **De novo design of high-affinity protein binders to bioactive helical peptides**  
 Susana Vázquez Torres, Philip J. Y. Leung, Isaac D. Lutz, Preetham Venkatesh, Joseph L Watson, Fabian Hink, Huu-Hien Huynh, Andy Hsien-Wei Yeh, David Juergens, Nathaniel R. Bennett, Andrew N. Hoofnagle, Eric Huang, Michael J. MacCoss, Marc Expòsit, Gyu Rie Lee, Elif Nihal Korkmaz, Jeff Nivala, Lance Stewart, Joseph M. Rodgers, David Baker  
 [bioRxiv 2022.12.10.519862](https://www.biorxiv.org/content/10.1101/2022.12.10.519862v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.10.519862/DC1/embed/media-1.pdf)
+
+**Joint Generation of Protein Sequence and Structure with RoseTTAFold Sequence Space Diffusion**  
+Sidney Lyayuga Lisanza, Jacob Merle Gershon, Sam Wayne Kenmore Tipps, Lucas Arnoldt, Samuel Hendel, Jeremiah Nelson Sims, Xinting Li, David Baker  
+[bioRxiv 2023.05.08.539766](https://www.biorxiv.org/content/10.1101/2023.05.08.539766v1) • [code](https://github.com/RosettaCommons/protein_generator#proteingenerator-generate-sequence-structure-pairs-with-rosettafold) • [hugging face](https://huggingface.co/spaces/merle/PROTEIN_GENERATOR)
 
 ### 6.4 CNN-based
 
