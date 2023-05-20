@@ -10,19 +10,15 @@
 
 
 <!-- [***Updated at 2023-04-27:***]() -->
-*Papers last week, updated at 2023.05.12:*
+*Papers last week, updated at 2023.05.20:*
++ Protein Complex Invariant Embedding with Cross-Gate MLP is A One-Shot Antibody Designer  
+    + [[arXiv:2305.09480](https://arxiv.org/abs/2305.09480)]
 + Improving de novo Protein Binder Design with Deep Learning  
     + [[Nat Commun 14, 2625 (2023)](https://www.nature.com/articles/s41467-023-38328-5)] • [[code](https://github.com/nrbennet/dl_binder_design)]
-+ A Latent Diffusion Model for Protein Structure Generation  
-    + [[arXiv:2305.04120 ](https://arxiv.org/abs/2305.04120)]
-+ Joint Generation of Protein Sequence and Structure with RoseTTAFold Sequence Space Diffusion  
-    + [[bioRxiv 2023.05.08.539766](https://www.biorxiv.org/content/10.1101/2023.05.08.539766v1)] • [[code](https://github.com/RosettaCommons/protein_generator#proteingenerator-generate-sequence-structure-pairs-with-rosettafold)] • [[hugging face](https://huggingface.co/spaces/merle/PROTEIN_GENERATOR)]
-+ Computational design of soluble analogues of integral membrane protein structures
-    + [[bioRxiv 2023.05.09.540044](https://www.biorxiv.org/content/10.1101/2023.05.09.540044v1)] • [[code](https://github.com/bene837/af2seq)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/09/2023.05.09.540044/DC1/embed/media-1.pdf)]
-+ Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins  
-    + [[arXiv:2305.04934](https://arxiv.org/abs/2305.04934)] • [[code](https://github.com/lamm-mit/MateriomicTransformer)]
-+ Modeling Protein Structure Using Geometric Vector Field Networks  
-    + [[bioRxiv 2023.05.07.539736](https://www.biorxiv.org/content/10.1101/2023.05.07.539736v1)]
++ In Silico Approaches to Deliver Better Antibodies by Design: The Past, the Present and the Future  
+    + [[arXiv:2305.07488](https://arxiv.org/abs/2305.07488)]
++ Design of antimicrobial peptides containing non-proteinogenic amino acids using multi-objective Bayesian optimisation  
+    + [[ChemRxiv. Cambridge: Cambridge Open Engage; 2023](https://chemrxiv.org/engage/chemrxiv/article-details/645f192ef2112b41e97720f3)] • [[code](https://github.com/ycu-iil/MODAN)]
 
 <p align="center">
   <br>
@@ -64,50 +60,51 @@
   <br>
   <strong><a href="#3-function-to-scaffold" class="large-link">3) Function to Scaffold</a></strong>
   <br>
-  <a href="#31-gan-based">GAN (adversarial training)</a> •
+  <a href="#31-gan-based">GAN-based</a> •
   <a href="#32-vae-based">VAE-based</a> •
   <a href="#33-dae-based">DAE-based</a> •
-  <a href="#34-mlp-based">MLP-Align</a> •
+  <a href="#34-mlp-based">MLP-based</a> •
   <a href="#35-diffusion-based">Diffusion-based</a> •
   <a href="#36-rl-based">RL-based</a>
   <br>
   <strong><a href="#4scaffold-to-sequence">4) Scaffold to Sequence</a></strong>
   <br>
-  <a href="#41-mlp-based">MLP</a> •
-  <a href="#42-vae-based">VAE</a> •
-  <a href="#43-lstm-based">LSTM</a> •
-  <a href="#44-cnn-based">CNN</a> •
-  <a href="#45-gnn-based">GNN</a> •
-  <a href="#46-gan-based">GAN</a> •
-  <a href="#47-transformer-based">Transformer</a> •
-  <a href="#48-resnet-based">ResNet</a> •
-  <a href="#49-diffusion-based">Duffision model</a>
+  <a href="#41-mlp-based">MLP-based</a> •
+  <a href="#42-vae-based">VAE-based</a> •
+  <a href="#43-lstm-based">LSTM-based</a> •
+  <a href="#44-cnn-based">CNN-based</a> •
+  <a href="#45-gnn-based">GNN-based</a> •
+  <a href="#46-gan-based">GAN-based</a> •
+  <a href="#47-transformer-based">Transformer-based</a> •
+  <a href="#48-resnet-based">ResNet-based</a> •
+  <a href="#49-diffusion-based">Duffision-based</a>
   <br>
   <strong><a href="#5function-to-sequence">5) Function to Sequence</a></strong>
   <br>
-  <a href="#51-cnn-based">CNN</a> •
-  <a href="#52-vae-based">VAE</a> •
-  <a href="#53-gan-based">GAN</a> •
-  <a href="#54-transformer-based">Transformer</a> •
-  <a href="#55-resnet-based">ResNet</a> •
+  <a href="#51-cnn-based">CNN-based</a> •
+  <a href="#52-vae-based">VAE-based</a> •
+  <a href="#53-gan-based">GAN-based</a> •
+  <a href="#54-transformer-based">Transformer-based</a> •
+  <a href="#55-resnet-based">ResNet-based</a> •
   <a href="#56-bayesian-based">Bayesian method</a> •
   <a href="#57-rl-based">Reinforcement Learning</a> •
-  <a href="#58-flow-based">Flow model</a> •
-  <a href="#59-rnn-based">RNN</a> •
-  <a href="#510-lstm-based">LSTM</a> •
+  <a href="#58-flow-based">Flow-based</a> •
+  <a href="#59-rnn-based">RNN-based</a> •
+  <a href="#510-lstm-based">LSTM-based</a> •
   <a href="#511-autoregressive-models">Autoregressive</a> •
   <a href="#512-boltzmann-machine-based">Boltzmann machine</a> •
-  <a href="#513-diffusion-based">Diffusion model</a> •
-  <a href="#514-gnn-based">GNN</a>
+  <a href="#513-diffusion-based">Diffusion-based</a> •
+  <a href="#514-gnn-based">GNN-based</a>
   <br>
   <strong><a href="#6-function-to-structure">6) Function to Structure</a></strong>
   <br>
-  <a href="#61-lstm-based">LSTM</a> •
-  <a href="#62-diffusion-based">Diffusion model</a> •
+  <a href="#61-lstm-based">LSTM-based</a> •
+  <a href="#62-diffusion-based">Diffusion-based</a> •
   <a href="#63-rosettafold-based">RoseTTAFold-based</a> •
-  <a href="#64-cnn-based">CNN</a> •
-  <a href="#65-gnn-based">GNN</a> •
-  <a href="#66-transformer-based">Transformer</a>
+  <a href="#64-cnn-based">CNN-based</a> •
+  <a href="#65-gnn-based">GNN-based</a> •
+  <a href="#66-transformer-based">Transformer-based</a> •
+  <a href="#67-mlp-based">MLP-based</a>
   <br>
   <strong><a href="#7-other-tasks">7) Other</a></strong>
   <br>
@@ -322,6 +319,10 @@ Volume 21, 2023](https://www.sciencedirect.com/science/article/pii/S200103702200
 Liu, H, Chen, Q.  
 [WIREs Comput Mol Sci. 2022. e1646](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1646)
 
+**Understanding by design: Implementing deep learning from protein structure prediction to protein design**  
+Gao, Yuanxu, Jiangshan Zhan, and Albert CH Yu.  
+[MedComm–Future Medicine 1.2 (2022): e22](https://onlinelibrary.wiley.com/doi/full/10.1002/mef2.22)
+
 **Diffusion Models in Bioinformatics: A New Wave of Deep Learning Revolution in Action**  
 Zhiye Guo, Jian Liu, Yanli Wang, Mengrui Chen, Duolin Wang, Dong Xu, Jianlin Cheng  
 [arXiv:2302.10907](https://arxiv.org/abs/2302.10907)
@@ -337,6 +338,10 @@ Bhoomika Basu Mallik, Jenna Stanislaw, Tharindu Madhusankha Alawathurage, and Al
 **Research progress of artificial intelligence in protein design**  
 CHEN Zhihang, JI Menglin, QI Yifei  
 [Synthetic Biology Journal (2023)](https://synbioj.cip.com.cn/article/2023/2096-8280/2023-008.shtml)
+
+**A Survey on Graph Diffusion Models: Generative AI in Science for Molecule, Protein and Material**  
+Mengchun Zhang, Maryam Qamar, Taegoo Kang, Yuna Jung, Chenshuang Zhang, Sung-Ho Bae, Chaoning Zhang  
+[https://arxiv.org/abs/2304.01565](https://arxiv.org/pdf/2304.01565.pdf)
 
 **Exploring the Protein Sequence Space with Global Generative Models**  
 Sergio Romero-Romero, Sebastian Lindner, Noelia Ferruz  
@@ -363,6 +368,10 @@ Kim, Jisun, et al.
 **Leveraging deep learning to improve vaccine design**  
 Hederman AP, Ackerman ME  
 [Trends in immunology (2023)](https://www.cell.com/trends/immunology/fulltext/S1471-4906(23)00046-7)
+
+**In Silico Approaches to Deliver Better Antibodies by Design: The Past, the Present and the Future**  
+Andreas Evers, Shipra Malhotra, Vanita D. Sood  
+[arXiv:2305.07488](https://arxiv.org/abs/2305.07488)
 
 ### 1.3 Peptide design
 
@@ -710,7 +719,7 @@ paper not available • [code](https://github.com/wells-wood-research/timed-desi
 
 **Learning from protein structure with geometric vector perceptrons**  
 Jing, Bowen, et al.  
-[arXiv preprint arXiv:2009.01411 (2020)](https://arxiv.org/abs/2009.01411) • [GVP](https://github.com/drorlab/gvp-pytorch)
+[arXiv preprint arXiv:2009.01411 (2020)](https://arxiv.org/abs/2009.01411)/[ICLR(2021)](https://openreview.net/forum?id=1YLJDvSx6J4) • [GVP](https://github.com/drorlab/gvp-pytorch)
 
 **Fast and flexible protein design using deep graph neural networks**  
 Alexey Strokach, David Becerra, Carles Corbi-Verge, Albert Perez-Riba, Philip M. Kim  
@@ -1100,7 +1109,7 @@ Noelia Ferruz
 
 **Unlocking de novo antibody design with generative artificial intelligence**  
 Shanehsazzadeh, Amir, et al.  
-[bioRxiv (2023): 2023-01](https://www.biorxiv.org/content/10.1101/2023.01.08.523187v3) • [data](https://github.com/AbSciBio/unlocking-de-novo-antibody-design)
+[bioRxiv (2023): 2023-01](https://www.biorxiv.org/content/10.1101/2023.01.08.523187v3) • [data](https://github.com/AbSciBio/unlocking-de-novo-antibody-design) • [news](https://www.genengnews.com/topics/drug-discovery/antibodies/absci-eyes-ind-for-platforms-first-de-novo-antibody-within-two-years/) • commercial
 
 **A universal deep-learning model for zinc finger design enables transcription factor reprogramming**  
 Ichikawa, D.M., Abdin, O., Alerasool, N. et al.  
@@ -1157,7 +1166,7 @@ Takahashi, Tomoei, George Chikenji, and Kei Tokita.
 **PropertyDAG: Multi-objective Bayesian optimization of partially ordered, mixed-variable properties for biological sequence design**  
 Ji Won Park, Samuel Stanton, Saeed Saremi, Andrew Watkins, Henri Dwyer, Vladimir Gligorijevic, Richard Bonneau, Stephen Ra, Kyunghyun Cho  
 [arXiv:2210.04096](https://arxiv.org/abs/2210.04096)  
-  
+
 **A probabilistic view of protein stability, conformational specificity, and design**  
 Jacob A. Stern, Tyler J. Free, Kimberlee L. Stern, Spencer Gardiner, Nicholas A. Dalley, Bradley C. Bundy, Joshua L. Price, David Wingate, Dennis Della Corte  
 [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.12.28.521825v1.full.pdf)  
@@ -1165,6 +1174,10 @@ Jacob A. Stern, Tyler J. Free, Kimberlee L. Stern, Spencer Gardiner, Nicholas A.
 **A probabilistic view of protein stability, conformational specificity, and design**  
 Jacob A. Stern, Tyler J. Free, Kimberlee L. Stern, Spencer Gardiner, Nicholas A. Dalley, Bradley C. Bundy, Joshua L. Price, David Wingate, Dennis Della Corte  
 [bioRxiv 2022.12.28.521825](https://www.biorxiv.org/content/10.1101/2022.12.28.521825v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/30/2022.12.28.521825/DC1/embed/media-1.pdf)
+
+**Design of antimicrobial peptides containing non-proteinogenic amino acids using multi-objective Bayesian optimisation**  
+Murakami Y, Ishida S, Demizu Y, Terayama K.  
+[ChemRxiv. Cambridge: Cambridge Open Engage; 2023](https://chemrxiv.org/engage/chemrxiv/article-details/645f192ef2112b41e97720f3) • [code](https://github.com/ycu-iil/MODAN)
 
 ### 5.7 RL-based
 
@@ -1309,9 +1322,9 @@ Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma
 John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan Tie, Wujie Wang, Vincent Xue, Fritz Obermeyer, Andrew Beam, Gevorg Grigoryan  
 [Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf) • [plausible code](https://github.com/lucidrains/chroma-pytorch) • [website](https://generatebiomedicines.com/chroma) • [news](https://www.nature.com/articles/s41587-023-01705-y) • commercial
 
-**TRDiffusion**
+**TRDiffusion**  
 [TIANRANG XLab](https://xlab.tianrang.com/)  
-paper unavailable • [news](https://mp.weixin.qq.com/s/9rJ6IoJbf6cvz3UqE-rpIg) • [website](https://xlab.tianrang.com/xCREATOR) • commercial
+[news](https://mp.weixin.qq.com/s/9rJ6IoJbf6cvz3UqE-rpIg) • [website](https://xlab.tianrang.com/xCREATOR) • commercial
 
 ### 6.3 RoseTTAFold-based
 
@@ -1329,7 +1342,7 @@ Susana Vázquez Torres, Philip J. Y. Leung, Isaac D. Lutz, Preetham Venkatesh, J
 
 **Joint Generation of Protein Sequence and Structure with RoseTTAFold Sequence Space Diffusion**  
 Sidney Lyayuga Lisanza, Jacob Merle Gershon, Sam Wayne Kenmore Tipps, Lucas Arnoldt, Samuel Hendel, Jeremiah Nelson Sims, Xinting Li, David Baker  
-[bioRxiv 2023.05.08.539766](https://www.biorxiv.org/content/10.1101/2023.05.08.539766v1) • [code](https://github.com/RosettaCommons/protein_generator#proteingenerator-generate-sequence-structure-pairs-with-rosettafold) • [hugging face](https://huggingface.co/spaces/merle/PROTEIN_GENERATOR)
+[bioRxiv 2023.05.08.539766](https://www.biorxiv.org/content/10.1101/2023.05.08.539766v1) • [code](https://github.com/RosettaCommons/protein_generator#proteingenerator-generate-sequence-structure-pairs-with-rosettafold) • [hugging face](https://huggingface.co/spaces/merle/PROTEIN_GENERATOR) • [lecture](https://www.youtube.com/watch?v=bS71K2U0amA)
 
 ### 6.4 CNN-based
 
@@ -1364,6 +1377,12 @@ Xiangzhe Kong, Wenbing Huang, Yang Liu
 **Protein Sequence and Structure Co-Design with Equivariant Translation**  
 Chence Shi, Chuanrui Wang, Jiarui Lu, Bozitao Zhong, Jian Tang  
 [arXiv:2210.08761](https://arxiv.org/abs/2210.08761)/[ICLR 2023](https://openreview.net/forum?id=pRCMXcfdihq) • [Supplementary](https://openreview.net/attachment?id=pRCMXcfdihq&name=supplementary_material)
+
+### 6.6 MLP-based
+
+**Protein Complex Invariant Embedding with Cross-Gate MLP is A One-Shot Antibody Designer**  
+Cheng Tan, Zhangyang Gao, Stan Z. Li  
+[arXiv:2305.09480](https://arxiv.org/abs/2305.09480)
 
 ## 7. Other tasks
 
