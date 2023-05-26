@@ -9,16 +9,20 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-<!-- [***Updated at 2023-04-27:***]() -->
-*Papers last week, updated at 2023.05.20:*
-+ Protein Complex Invariant Embedding with Cross-Gate MLP is A One-Shot Antibody Designer  
-    + [[arXiv:2305.09480](https://arxiv.org/abs/2305.09480)]
-+ Improving de novo Protein Binder Design with Deep Learning  
-    + [[Nat Commun 14, 2625 (2023)](https://www.nature.com/articles/s41467-023-38328-5)] • [[code](https://github.com/nrbennet/dl_binder_design)]
-+ In Silico Approaches to Deliver Better Antibodies by Design: The Past, the Present and the Future  
-    + [[arXiv:2305.07488](https://arxiv.org/abs/2305.07488)]
-+ Design of antimicrobial peptides containing non-proteinogenic amino acids using multi-objective Bayesian optimisation  
-    + [[ChemRxiv. Cambridge: Cambridge Open Engage; 2023](https://chemrxiv.org/engage/chemrxiv/article-details/645f192ef2112b41e97720f3)] • [[code](https://github.com/ycu-iil/MODAN)]
+*Papers last week, updated on 2023.05.26:*
++ Vaxformer: Antigenicity-controlled Transformer for Vaccine Design Against SARS-CoV-2  
+    + [[arXiv:2305.11194](https://arxiv.org/abs/2305.11194)] • [[code](https://github.com/aryopg/vaxformer)]
++ REXzyme: A Translation Machine for the Generation of New-to-Nature Enzymes  
+    + paper coming soon • [[hugging face](https://huggingface.co/AI4PD/REXzyme)]
++ Knowledge-Design: Pushing the Limit of Protein Deign via Knowledge Refinement  
+    + [[arXiv:2305.15151](https://arxiv.org/abs/2305.15151)]
++ A Generative Model for Creating Path Delineated Helical Proteins  
+    + [[bioRxiv 2023.05.24.542095](https://www.biorxiv.org/content/10.1101/2023.05.24.542095v1)] • [[code](https://github.com/NickWoodall/HelixGen)]
++ ESMFold Hallucinates Native-Like Protein Sequences  
+    + [[bioRxiv 2023.05.23.541774](https://www.biorxiv.org/content/10.1101/2023.05.23.541774v1)]
++ An all-atom protein generative model  
+    + [[bioRxiv 2023.05.24.542194](https://www.biorxiv.org/content/10.1101/2023.05.24.542194v1)] • [[code](https://github.com/alexechu/protpardelle)]
+
 
 <p align="center">
   <br>
@@ -541,6 +545,10 @@ Brian Hie, Salvatore Candido, Zeming Lin, Ori Kabeli, Roshan Rao, Nikita Smetani
 Robert Verkuil, Ori Kabeli, Yilun Du, Basile IM Wicky, Lukas F Milles, Justas Dauparas, David Baker, Sergey Ovchinnikov, Tom Sercu, Alexander Rives  
 [bioRxiv 2022.12.21.521521](https://www.biorxiv.org/content/10.1101/2022.12.21.521521v1)
 
+**ESMFold Hallucinates Native-Like Protein Sequences**  
+Jeliazko R Jeliazkov, Diego del Alamo, Joel D Karpiak  
+[bioRxiv 2023.05.23.541774](https://www.biorxiv.org/content/10.1101/2023.05.23.541774v1)
+
 ### 2.10 Sampling-algorithms
 
 **AdaLead: A simple and robust adaptive greedy search algorithm for sequence design**  
@@ -580,6 +588,10 @@ Anand Namrata, Raphael Eguchi, and Po-Ssu Huang.
 **RamaNet: Computational de novo helical protein backbone design using a long short-term memory generative neural network**  
 Sabban, Sari, and Mikhail Markovsky.  
 [F1000Research 9 (2020)](http://f1000researchdata.s3.amazonaws.com/manuscripts/29106/f45e92eb-5d68-4da0-b918-91ded85d2e7d_22907_-_sari_sabban_v2.pdf) • [code](https://sarisabban.github.io/RamaNet/) • pyRosetta • tensorflow • maximizaing the fluorescence of a protein  
+
+**A Generative Model for Creating Path Delineated Helical Proteins**  
+Nicholas B. Woodall, Ryan Kibler, Basile Wicky, Brian Coventry  
+[bioRxiv 2023.05.24.542095](https://www.biorxiv.org/content/10.1101/2023.05.24.542095v1) • [code](https://github.com/NickWoodall/HelixGen)
 
 ### 3.2 VAE-based
 
@@ -789,6 +801,10 @@ Jiangbin Zheng, Ge Wang, Yufei Huang, Bozhen Hu, Siyuan Li, Cheng Tan, Xinwen Fa
 Weian Mao, Muzhi Zhu, Hao Chen, Chunhua Shen  
 [bioRxiv 2023.05.07.539736](https://www.biorxiv.org/content/10.1101/2023.05.07.539736v1)
 
+**Knowledge-Design: Pushing the Limit of Protein Deign via Knowledge Refinement**  
+Zhangyang Gao, Cheng Tan, Stan Z. Li  
+[arXiv:2305.15151](https://arxiv.org/abs/2305.15151)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -859,7 +875,7 @@ Yufeng Liu, Linghui Chen, Haiyan Liu
 
 **Generative design of de novo proteins based on secondary-structure constraints using an attention-based diffusion model**  
 Bo Ni, David L. Kaplan, Markus J. Buehler  
-[Chem,(2023)](https://www.cell.com/chem/fulltext/S2451-9294(23)00139-0) • [code](https://github.com/lamm-mit/ProteinDiffusionGenerator)
+[Chem,(2023)](https://www.cell.com/chem/fulltext/S2451-9294(23)00139-0) • [code](https://github.com/lamm-mit/ProteinDiffusionGenerator) • [news](https://news.mit.edu/2023/ai-system-can-generate-novel-proteins-structural-design-0420)
 
 ## 5.Function to Sequence
 
@@ -1135,6 +1151,10 @@ Buehler, Markus J.
 Lee, Youhan, and Hasun Yu.  
 [arXiv preprint arXiv:2303.16452 (2023)](https://arxiv.org/pdf/2303.16452.pdf)/[ICLR 2023](https://openreview.net/forum?id=9XAZBUfnefS)
 
+**REXzyme: A Translation Machine for the Generation of New-to-Nature Enzymes**  
+Sebastian Lindner, Michael Heinzinger, Noelia Ferruz  
+paper coming soon • [hugging face](https://huggingface.co/AI4PD/REXzyme)
+
 ### 5.5 ResNet-based
 
 **Accelerating protein design using autoregressive generative models**  
@@ -1178,6 +1198,10 @@ Jacob A. Stern, Tyler J. Free, Kimberlee L. Stern, Spencer Gardiner, Nicholas A.
 **Design of antimicrobial peptides containing non-proteinogenic amino acids using multi-objective Bayesian optimisation**  
 Murakami Y, Ishida S, Demizu Y, Terayama K.  
 [ChemRxiv. Cambridge: Cambridge Open Engage; 2023](https://chemrxiv.org/engage/chemrxiv/article-details/645f192ef2112b41e97720f3) • [code](https://github.com/ycu-iil/MODAN)
+
+**Vaxformer: Antigenicity-controlled Transformer for Vaccine Design Against SARS-CoV-2**  
+Aryo Pradipta Gema, Michał Kobiela, Achille Fraisse, Ajitha Rajan, Diego A. Oyarzún, Javier Antonio Alfaro  
+[arXiv:2305.11194](https://arxiv.org/abs/2305.11194) • [code](https://github.com/aryopg/vaxformer)
 
 ### 5.7 RL-based
 
@@ -1325,6 +1349,10 @@ John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan T
 **TRDiffusion**  
 [TIANRANG XLab](https://xlab.tianrang.com/)  
 [news](https://mp.weixin.qq.com/s/9rJ6IoJbf6cvz3UqE-rpIg) • [website](https://xlab.tianrang.com/xCREATOR) • commercial
+
+**An all-atom protein generative model**  
+Alexander E Chu, Lucy Cheng, Gina El Nesr, Minkai Xu, Po-Ssu Huang  
+[bioRxiv 2023.05.24.542194](https://www.biorxiv.org/content/10.1101/2023.05.24.542194v1) • [code](https://github.com/alexechu/protpardelle)
 
 ### 6.3 RoseTTAFold-based
 
