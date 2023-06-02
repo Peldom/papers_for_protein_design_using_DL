@@ -9,20 +9,15 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-*Papers last week, updated on 2023.05.26:*
-+ Vaxformer: Antigenicity-controlled Transformer for Vaccine Design Against SARS-CoV-2  
-    + [[arXiv:2305.11194](https://arxiv.org/abs/2305.11194)] • [[code](https://github.com/aryopg/vaxformer)]
-+ REXzyme: A Translation Machine for the Generation of New-to-Nature Enzymes  
-    + paper coming soon • [[hugging face](https://huggingface.co/AI4PD/REXzyme)]
-+ Knowledge-Design: Pushing the Limit of Protein Deign via Knowledge Refinement  
-    + [[arXiv:2305.15151](https://arxiv.org/abs/2305.15151)]
-+ A Generative Model for Creating Path Delineated Helical Proteins  
-    + [[bioRxiv 2023.05.24.542095](https://www.biorxiv.org/content/10.1101/2023.05.24.542095v1)] • [[code](https://github.com/NickWoodall/HelixGen)]
-+ ESMFold Hallucinates Native-Like Protein Sequences  
-    + [[bioRxiv 2023.05.23.541774](https://www.biorxiv.org/content/10.1101/2023.05.23.541774v1)]
-+ An all-atom protein generative model  
-    + [[bioRxiv 2023.05.24.542194](https://www.biorxiv.org/content/10.1101/2023.05.24.542194v1)] • [[code](https://github.com/alexechu/protpardelle)]
-
+*Papers last week, updated on 2023.06.02:*  
++   Inverse Protein Folding Using Deep Bayesian Optimization  
+    + [[arXiv:2305.18089](https://arxiv.org/abs/2305.18089)] • [[code](https://github.com/nataliemaus/bo-if)]
++ AI Models for Protein Design are Driving Antibody Engineering  
+    + [[Current Opinion in Biomedical Engineering (2023): 100473](https://www.sciencedirect.com/science/article/abs/pii/S2468451123000296)]
++ Protein Design with Guided Discrete Diffusion**  
+    + [[arXiv:2305.20009](https://arxiv.org/abs/2305.20009)] • [[code](https://github.com/ngruver/NOS)]
++ Is novelty predictable?  
+    + [[arXiv:2306.00872](https://arxiv.org/abs/2306.00872)]
 
 <p align="center">
   <br>
@@ -81,7 +76,8 @@
   <a href="#46-gan-based">GAN-based</a> •
   <a href="#47-transformer-based">Transformer-based</a> •
   <a href="#48-resnet-based">ResNet-based</a> •
-  <a href="#49-diffusion-based">Duffision-based</a>
+  <a href="#49-diffusion-based">Duffision-based</a> •
+    <a href="#410-bayesian-based">Bayesian method</a>
   <br>
   <strong><a href="#5function-to-sequence">5) Function to Sequence</a></strong>
   <br>
@@ -351,6 +347,10 @@ Mengchun Zhang, Maryam Qamar, Taegoo Kang, Yuna Jung, Chenshuang Zhang, Sung-Ho 
 Sergio Romero-Romero, Sebastian Lindner, Noelia Ferruz  
 [arXiv:2305.01941](https://arxiv.org/abs/2305.01941)
 
+**Is novelty predictable?**  
+Clara Fannjiang, Jennifer Listgarten  
+[arXiv:2306.00872](https://arxiv.org/abs/2306.00872)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
@@ -376,6 +376,10 @@ Hederman AP, Ackerman ME
 **In Silico Approaches to Deliver Better Antibodies by Design: The Past, the Present and the Future**  
 Andreas Evers, Shipra Malhotra, Vanita D. Sood  
 [arXiv:2305.07488](https://arxiv.org/abs/2305.07488)
+
+**AI Models for Protein Design are Driving Antibody Engineering**  
+Michael Chungyoun, Jeffrey J. Gray  
+[Current Opinion in Biomedical Engineering (2023): 100473](https://www.sciencedirect.com/science/article/abs/pii/S2468451123000296)
 
 ### 1.3 Peptide design
 
@@ -877,6 +881,12 @@ Yufeng Liu, Linghui Chen, Haiyan Liu
 Bo Ni, David L. Kaplan, Markus J. Buehler  
 [Chem,(2023)](https://www.cell.com/chem/fulltext/S2451-9294(23)00139-0) • [code](https://github.com/lamm-mit/ProteinDiffusionGenerator) • [news](https://news.mit.edu/2023/ai-system-can-generate-novel-proteins-structural-design-0420)
 
+### 4.10 Bayesian-based
+
+**Inverse Protein Folding Using Deep Bayesian Optimization**  
+Natalie Maus, Yimeng Zeng, Daniel Allen Anderson, Phillip Maffettone, Aaron Solomon, Peyton Greenside, Osbert Bastani, Jacob R. Gardner  
+[arXiv:2305.18089](https://arxiv.org/abs/2305.18089) • [code](https://github.com/nataliemaus/bo-if)
+
 ## 5.Function to Sequence
 
 > These models generate sequences from expected function.
@@ -1317,6 +1327,10 @@ Cyril Malbranke, William Rostain, Florence Depardieu, Simona Cocco, Remi Monasso
 Zhangzhi Peng  
 Paper unavailable • [github](https://github.com/pengzhangzhi/protein-sequence-diffusion-model)
 
+**Protein Design with Guided Discrete Diffusion**  
+Nate Gruver, Samuel Stanton, Nathan C. Frey, Tim G. J. Rudner, Isidro Hotzel, Julien Lafrance-Vanasse, Arvind Rajpal, Kyunghyun Cho, Andrew Gordon Wilson  
+[arXiv:2305.20009](https://arxiv.org/abs/2305.20009) • [code](https://github.com/ngruver/NOS)
+
 ### 5.14 GNN-based
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**  
 Markus J. Buehler  
@@ -1398,7 +1412,7 @@ Kaiyuan Gao, Lijun Wu, Jinhua Zhu, Tianbo Peng, Yingce Xia, Liang He, Shufang Xi
 
 **End-to-End Full-Atom Antibody Design**  
 Xiangzhe Kong, Wenbing Huang, Yang Liu  
-[arXiv:2302.00203](https://arxiv.org/abs/2302.00203)
+[arXiv:2302.00203](https://arxiv.org/abs/2302.00203) • [code](https://github.com/THUNLP-MT/dyMEAN)
 
 ### 6.6 Transformer-based
 
