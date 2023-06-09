@@ -9,15 +9,17 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-*Papers last week, updated on 2023.06.02:*  
-+   Inverse Protein Folding Using Deep Bayesian Optimization  
-    + [[arXiv:2305.18089](https://arxiv.org/abs/2305.18089)] • [[code](https://github.com/nataliemaus/bo-if)]
-+ AI Models for Protein Design are Driving Antibody Engineering  
-    + [[Current Opinion in Biomedical Engineering (2023): 100473](https://www.sciencedirect.com/science/article/abs/pii/S2468451123000296)]
-+ Protein Design with Guided Discrete Diffusion**  
-    + [[arXiv:2305.20009](https://arxiv.org/abs/2305.20009)] • [[code](https://github.com/ngruver/NOS)]
-+ Is novelty predictable?  
-    + [[arXiv:2306.00872](https://arxiv.org/abs/2306.00872)]
+*Papers last week, updated on 2023.06.09:*  
++   AbODE: Ab Initio Antibody Design using Conjoined ODEs  
+    + [[arXiv:2306.01005](https://arxiv.org/abs/2306.01005)]
++   Antibody Complementarity-Determining Region Sequence Design using AlphaFold2 and Binding Affinity Prediction Model  
+    + [[bioRxiv 2023.06.02.543382](https://www.biorxiv.org/content/10.1101/2023.06.02.543382v1)]
++   Bootstrapped Training of Score-Conditioned Generator for Offline Design of Biological Sequences  
+    + [[arXiv:2306.03111](https://arxiv.org/abs/2306.03111)] • [[code](https://github.com/kaist-silab/bootgen)]
++   An end-to-end deep learning method for protein side-chain packing and inverse folding  
+    + [[Proceedings of the National Academy of Sciences 120.23 (2023)](https://www.pnas.org/doi/10.1073/pnas.2216438120)] • [[code](https://github.com/MattMcPartlon/AttnPacker)] • [[Supplementary](https://www.pnas.org/doi/suppl/10.1073/pnas.2216438120/suppl_file/pnas.2216438120.sapp.pdf)]
++   Validation of de novo designed water-soluble and transmembrane proteins by in silico folding and melting  
+    + [[bioRxiv 2023.06.06.543955](https://www.biorxiv.org/content/10.1101/2023.06.06.543955v1)] • [[colab](https://colab.research.google.com/github/vorobieva/ColabFold/blob/main/beta/ESMFold_melting.ipynb)]
 
 <p align="center">
   <br>
@@ -77,7 +79,7 @@
   <a href="#47-transformer-based">Transformer-based</a> •
   <a href="#48-resnet-based">ResNet-based</a> •
   <a href="#49-diffusion-based">Duffision-based</a> •
-    <a href="#410-bayesian-based">Bayesian method</a>
+  <a href="#410-bayesian-based">Bayesian method</a>
   <br>
   <strong><a href="#5function-to-sequence">5) Function to Sequence</a></strong>
   <br>
@@ -94,7 +96,8 @@
   <a href="#511-autoregressive-models">Autoregressive</a> •
   <a href="#512-boltzmann-machine-based">Boltzmann machine</a> •
   <a href="#513-diffusion-based">Diffusion-based</a> •
-  <a href="#514-gnn-based">GNN-based</a>
+  <a href="#514-gnn-based">GNN-based</a> •
+  <a href="#515-score-based">Score-based</a>
   <br>
   <strong><a href="#6-function-to-structure">6) Function to Structure</a></strong>
   <br>
@@ -491,6 +494,10 @@ Odessa J Goudy, Amrita Nallathambi, Tomoaki Kinjo, Nicholas Randolph, Brian Kuhl
 Casper Alexander Goverde, Martin Pacesa, Lars Jeremy Dornfeld, Sandrine Georgeon, Stephane Rosset, Justas Dauparas, Christian Shellhaas, Simon Kozlov, David Baker, Sergey Ovchinnikov, Bruno Correia  
 [bioRxiv 2023.05.09.540044](https://www.biorxiv.org/content/10.1101/2023.05.09.540044v1) • [code]((https://github.com/bene837/af2seq) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/09/2023.05.09.540044/DC1/embed/media-1.pdf)
 
+**Antibody Complementarity-Determining Region Sequence Design using AlphaFold2 and Binding Affinity Prediction Model**  
+Takafumi Ueki, Masahito Ohue  
+[bioRxiv 2023.06.02.543382](https://www.biorxiv.org/content/10.1101/2023.06.02.543382v1)
+
 ### 2.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
@@ -531,7 +538,7 @@ Sai Pooja Mahajan, Jeffrey A Ruffolo, Rahel Frick, Jeffrey J. Gray
 
 [News of TRDesign](https://mp.weixin.qq.com/s/OQzKawtL9RdK9HzYsfu80g)  
 [TIANRANG XLab](https://xlab.tianrang.com/)  
-paper unavailable • [slides](https://pan.baidu.com/share/init?surl=4AOW_D9dwlvC7VGGZA2tmQ&pwd=ffui) • [website](https://xcreator.tianrang.com/auth/login) • commercial
+paper unavailable • [slides](https://pan.baidu.com/share/init?surl=4AOW_D9dwlvC7VGGZA2tmQ&pwd=ffui) • [website](https://xcreator.tianrang.com/auth/login) • commercial • [news](https://mp.weixin.qq.com/s/45Gz7GWOGxHl0i6LXxTUpw)
 
 ### 2.8 GPT-based
 
@@ -655,7 +662,7 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 
 **Generating Novel, Designable, and Diverse Protein Structures by Equivariantly Diffusing Oriented Residue Clouds**  
 Yeqing Lin, Mohammed AlQuraishi  
-[arXiv:2301.12485v2](https://arxiv.org/abs/2301.12485v2) • [code](https://github.com/aqlaboratory/genie)
+[arXiv:2301.12485v3](https://arxiv.org/abs/2301.12485v3) • [code](https://github.com/aqlaboratory/genie)
 
 **SE(3) diffusion model with application to protein backbone generation**  
 Jason Yim, Brian L. Trippe, Valentin De Bortoli, Emile Mathieu, Arnaud Doucet, Regina Barzilay, Tommi Jaakkola  
@@ -861,6 +868,10 @@ Zaixiang Zheng, Yifan Deng, Dongyu Xue, Yi Zhou, Fei YE, Quanquan Gu
 Shengchao Liu, Yutao Zhu, Jiarui Lu, Zhao Xu, Weili Nie, Anthony Gitter, Chaowei Xiao, Jian Tang, Hongyu Guo, Anima Anandkumar  
 [arXiv:2302.04611](https://arxiv.org/abs/2302.04611)
 
+**An end-to-end deep learning method for protein side-chain packing and inverse folding**  
+McPartlon, Matthew, and Jinbo Xu  
+[Proceedings of the National Academy of Sciences 120.23 (2023)](https://www.pnas.org/doi/10.1073/pnas.2216438120) • [code](https://github.com/MattMcPartlon/AttnPacker) • [Supplementary](https://www.pnas.org/doi/suppl/10.1073/pnas.2216438120/suppl_file/pnas.2216438120.sapp.pdf)
+
 ### 4.8 ResNet-based
 
 **DenseCPD: improving the accuracy of neural-network-based computational protein sequence design with DenseNet**  
@@ -966,6 +977,10 @@ Chen, Qushuo, et al.
 **Mean Dimension of Generative Models for Protein Sequences**  
 Christoph Feinauer, Emanuele Borgonovo  
 [bioRxiv 2022.12.12.520028](https://www.biorxiv.org/content/10.1101/2022.12.12.520028v1) • [code](https://github.com/christophfeinauer/ProteinMeanDimension)
+
+**Prediction of designer-recombinases for DNA editing with generative deep learning**  
+Schmitt, L.T., Paszkowski-Rogacz, M., Jug, F. et al.  
+[Nat Commun 13, 7966 (2022)](https://www.nature.com/articles/s41467-022-35614-6) • [code](https://github.com/ltschmitt/RecGen) • [Supplementary](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-35614-6/MediaObjects/41467_2022_35614_MOESM1_ESM.pdf)
 
 **ProT-VAE: Protein Transformer Variational AutoEncoder for Functional Protein Design**  
 Emre Sevgen, Joshua Moller, Adrian Lange, John Parker, Sean Quigley, Jeff Mayer, Poonam Srivastava, Sitaram Gayatri, David Hosfield, Maria Korshunova, Micha Livne, Michelle Gill, Rama Ranganathan, Anthony B Costa, Andrew L Ferguson  
@@ -1336,6 +1351,12 @@ Nate Gruver, Samuel Stanton, Nathan C. Frey, Tim G. J. Rudner, Isidro Hotzel, Ju
 Markus J. Buehler  
 [arXiv:2305.04934](https://arxiv.org/abs/2305.04934) • [code](https://github.com/lamm-mit/MateriomicTransformer)
 
+### 5.15 Score-based
+
+**Bootstrapped Training of Score-Conditioned Generator for Offline Design of Biological Sequences**  
+Minsu Kim, Federico Berto, Sungsoo Ahn, Jinkyoo Park  
+[arXiv:2306.03111](https://arxiv.org/abs/2306.03111)  • [code](https://github.com/kaist-silab/bootgen)
+
 ## 6. Function to Structure
 
 > These models generate structures(including side chains) from expected function or recover a part of structures(aka. **inpainting**)
@@ -1413,6 +1434,10 @@ Kaiyuan Gao, Lijun Wu, Jinhua Zhu, Tianbo Peng, Yingce Xia, Liang He, Shufang Xi
 **End-to-End Full-Atom Antibody Design**  
 Xiangzhe Kong, Wenbing Huang, Yang Liu  
 [arXiv:2302.00203](https://arxiv.org/abs/2302.00203) • [code](https://github.com/THUNLP-MT/dyMEAN)
+
+**AbODE: Ab Initio Antibody Design using Conjoined ODEs**  
+Yogesh Verma, Markus Heinonen, Vikas Garg  
+[arXiv:2306.01005](https://arxiv.org/abs/2306.01005)
 
 ### 6.6 Transformer-based
 
@@ -1497,6 +1522,10 @@ Sanaa Mansoor, Minkyung Baek, David Juergens, Joseph L Watson, David Baker
 **Learning the shape of protein micro-environments with a holographic convolutional neural network**  
 Pun, Michael N., et al.  
 [bioRxiv (2022)](https://arxiv.org/abs/2211.02936) • [code](https://github.com/StatPhysBio/protein_holography)
+
+**Validation of de novo designed water-soluble and transmembrane proteins by in silico folding and melting**  
+Alvaro Martin, Carolin Berner, Sergey Ovchinnikov, Anastassia Andreevna Vorobieva  
+[bioRxiv 2023.06.06.543955](https://www.biorxiv.org/content/10.1101/2023.06.06.543955v1) • [colab](https://colab.research.google.com/github/vorobieva/ColabFold/blob/main/beta/ESMFold_melting.ipynb)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
