@@ -9,17 +9,11 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-*Papers last week, updated on 2023.06.09:*  
-+   AbODE: Ab Initio Antibody Design using Conjoined ODEs  
-    + [[arXiv:2306.01005](https://arxiv.org/abs/2306.01005)]
-+   Antibody Complementarity-Determining Region Sequence Design using AlphaFold2 and Binding Affinity Prediction Model  
-    + [[bioRxiv 2023.06.02.543382](https://www.biorxiv.org/content/10.1101/2023.06.02.543382v1)]
-+   Bootstrapped Training of Score-Conditioned Generator for Offline Design of Biological Sequences  
-    + [[arXiv:2306.03111](https://arxiv.org/abs/2306.03111)] • [[code](https://github.com/kaist-silab/bootgen)]
-+   An end-to-end deep learning method for protein side-chain packing and inverse folding  
-    + [[Proceedings of the National Academy of Sciences 120.23 (2023)](https://www.pnas.org/doi/10.1073/pnas.2216438120)] • [[code](https://github.com/MattMcPartlon/AttnPacker)] • [[Supplementary](https://www.pnas.org/doi/suppl/10.1073/pnas.2216438120/suppl_file/pnas.2216438120.sapp.pdf)]
-+   Validation of de novo designed water-soluble and transmembrane proteins by in silico folding and melting  
-    + [[bioRxiv 2023.06.06.543955](https://www.biorxiv.org/content/10.1101/2023.06.06.543955v1)] • [[colab](https://colab.research.google.com/github/vorobieva/ColabFold/blob/main/beta/ESMFold_melting.ipynb)]
+*Papers last week, updated on 2023.06.17:*  
++   Computational protein design – where it goes?  
+    + [[Current Medicinal Chemistry 2023](https://www.eurekaselect.com/article/132267)]
++   PoET: A generative model of protein families as sequences-of-sequences  
+    + [[arXiv:2306.06156](https://arxiv.org/abs/2306.06156)]
 
 <p align="center">
   <br>
@@ -353,6 +347,10 @@ Sergio Romero-Romero, Sebastian Lindner, Noelia Ferruz
 **Is novelty predictable?**  
 Clara Fannjiang, Jennifer Listgarten  
 [arXiv:2306.00872](https://arxiv.org/abs/2306.00872)
+
+**Computational protein design – where it goes?**  
+Xu Binbin, Chen Yingjun and Xue Weiwei  
+[Current Medicinal Chemistry 2023](https://www.eurekaselect.com/article/132267)
 
 ### 1.2 Antibody design
 
@@ -1515,6 +1513,10 @@ Wang, Shuyu, et al.
 Neil Thomas, Atish Agarwala, David Belanger, Yun S. Song, Lucy Colwell  
 [bioRxiv 2022.10.28.514293](https://www.biorxiv.org/content/10.1101/2022.10.28.514293v1) • [code](https://github.com/google-research/slip)
 
+**Protein design using structure-based residue preferences**  
+David Ding, Ada Y Shaw, Sam Sinai, Nathan J Rollins, Noam Prywes, David Savage, Michael T Laub, Debora S Marks  
+[bioRxiv 2022.10.31.514613](https://www.biorxiv.org/content/10.1101/2022.10.31.514613v2) • [code](https://github.com/ddingding/CoVES)
+
 **Accurate Mutation Effect Prediction using RoseTTAFold**  
 Sanaa Mansoor, Minkyung Baek, David Juergens, Joseph L Watson, David Baker  
 [bioRxiv 2022.11.04.515218](https://www.biorxiv.org/content/10.1101/2022.11.04.515218v1)
@@ -1526,6 +1528,10 @@ Pun, Michael N., et al.
 **Validation of de novo designed water-soluble and transmembrane proteins by in silico folding and melting**  
 Alvaro Martin, Carolin Berner, Sergey Ovchinnikov, Anastassia Andreevna Vorobieva  
 [bioRxiv 2023.06.06.543955](https://www.biorxiv.org/content/10.1101/2023.06.06.543955v1) • [colab](https://colab.research.google.com/github/vorobieva/ColabFold/blob/main/beta/ESMFold_melting.ipynb)
+
+**PoET: A generative model of protein families as sequences-of-sequences**  
+Timothy F. Truong Jr, Tristan Bepler  
+[arXiv:2306.06156](https://arxiv.org/abs/2306.06156)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
