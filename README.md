@@ -9,11 +9,16 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-*Papers last week, updated on 2023.06.17:*  
-+   Computational protein design – where it goes?  
-    + [[Current Medicinal Chemistry 2023](https://www.eurekaselect.com/article/132267)]
-+   PoET: A generative model of protein families as sequences-of-sequences  
-    + [[arXiv:2306.06156](https://arxiv.org/abs/2306.06156)]
+*Papers last week, updated on 2023.06.23:*  
++   Context-aware geometric deep learning for protein sequence design  
+    + [[bioRxiv 2023.06.19.545381](https://www.biorxiv.org/content/10.1101/2023.06.19.545381v1)] • [[code](https://github.com/LBM-EPFL/CARBonARa)]
++   Protein Discovery with Discrete Walk-Jump Sampling  
+    + [[arXiv:2306.12360](https://arxiv.org/abs/2306.12360)] • [[code](https://github.com/Genentech/walk-jump)]
++   Reprogramming Pretrained Language Models for Antibody Sequence Infilling  
+    + [[arXiv:2210.07144](https://arxiv.org/abs/2210.07144)] • [[code](https://github.com/IBM/ReprogBERT)]
++   Designing meaningful continuous representations of T cell receptor sequences with deep generative models  
+    + [[bioRxiv 2023.06.17.545423](https://www.biorxiv.org/content/10.1101/2023.06.17.545423v1)] • [[code](https://github.com/peterghawkins-regn/tcrvalid)]
+
 
 <p align="center">
   <br>
@@ -870,6 +875,10 @@ Shengchao Liu, Yutao Zhu, Jiarui Lu, Zhao Xu, Weili Nie, Anthony Gitter, Chaowei
 McPartlon, Matthew, and Jinbo Xu  
 [Proceedings of the National Academy of Sciences 120.23 (2023)](https://www.pnas.org/doi/10.1073/pnas.2216438120) • [code](https://github.com/MattMcPartlon/AttnPacker) • [Supplementary](https://www.pnas.org/doi/suppl/10.1073/pnas.2216438120/suppl_file/pnas.2216438120.sapp.pdf)
 
+**Context-aware geometric deep learning for protein sequence design**  
+Lucien Krapp, Fernado Meireles, Luciano Abriata, Matteo Dal Peraro  
+[bioRxiv 2023.06.19.545381](https://www.biorxiv.org/content/10.1101/2023.06.19.545381v1) • [code](https://github.com/LBM-EPFL/CARBonARa)
+
 ### 4.8 ResNet-based
 
 **DenseCPD: improving the accuracy of neural-network-based computational protein sequence design with DenseNet**  
@@ -999,6 +1008,10 @@ Suyue Lyu, Shahin Sowlati-Hashjin, Michael Garton
 **ProtWave-VAE: Integrating autoregressive sampling with latent-based inference for data-driven protein design**  
 Niksa Praljak, Xinran Lian, Rama Ranganathan, Andrew Ferguson  
 [bioRxiv 2023.04.23.537971](https://www.biorxiv.org/content/10.1101/2023.04.23.537971v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/04/23/2023.04.23.537971/DC1/embed/media-1.pdf?download=true) • [code](https://github.com/PraljakReps/ProtWaveVAE)
+
+**Designing meaningful continuous representations of T cell receptor sequences with deep generative models**  
+Allen Y. Leary, Darius Scott, Namita T. Gupta, Janelle C. Waite, Dimitris Skokos, Gurinder S. Atwal, Peter G. Hawkins  
+[bioRxiv 2023.06.17.545423](https://www.biorxiv.org/content/10.1101/2023.06.17.545423v1) • [code](https://github.com/peterghawkins-regn/tcrvalid)
 
 ### 5.3 GAN-based
 
@@ -1153,7 +1166,7 @@ Shanehsazzadeh, Amir, et al.
 **A universal deep-learning model for zinc finger design enables transcription factor reprogramming**  
 Ichikawa, D.M., Abdin, O., Alerasool, N. et al.  
 [Nat Biotechnol (2023)](https://www.nature.com/articles/s41587-022-01624-4)
- 
+
 **XuperNovo®/ProteinGPT**
 XtalPi  
 [news](https://mp.weixin.qq.com/s?__biz=MzI4MzUwNjI5OQ==&mid=2247499137&sn=d8c9e006cdb131dcf5639db6824bb0e3&chksm=eb8b1e95dcfc97835268d9e66636e63a4c6eb2f6fde780a4d45180872ea8d79bbd1d29363aff) • [website](https://www.xtalpi.com/en/macromolecular-drug-discovery) • commercial
@@ -1177,6 +1190,10 @@ Lee, Youhan, and Hasun Yu.
 **REXzyme: A Translation Machine for the Generation of New-to-Nature Enzymes**  
 Sebastian Lindner, Michael Heinzinger, Noelia Ferruz  
 paper coming soon • [hugging face](https://huggingface.co/AI4PD/REXzyme)
+
+**Reprogramming Pretrained Language Models for Antibody Sequence Infilling**  
+Igor Melnyk, Vijil Chenthamarakshan, Pin-Yu Chen, Payel Das, Amit Dhurandhar, Inkit Padhi, Devleena Das  
+[arXiv:2210.07144](https://arxiv.org/abs/2210.07144) • [code](https://github.com/IBM/ReprogBERT)
 
 ### 5.5 ResNet-based
 
@@ -1333,6 +1350,10 @@ Nataša Tagasovska, Nathan C. Frey, Andreas Loukas, Isidro Hötzel, Julien Lafra
 **Computational design of novel Cas9 PAM-interacting domains using evolution-based modelling and structural quality assessment**  
 Cyril Malbranke, William Rostain, Florence Depardieu, Simona Cocco, Remi Monasson, David Bikard  
 [bioRxiv 2023.03.20.533501](https://www.biorxiv.org/content/10.1101/2023.03.20.533501v1) • [code](https://github.com/CyrilMa/DesignCas9WithCLD) • [Supplementary](https://www.biorxiv.org/content/10.1101/2023.03.20.533501v1.supplementary-material)
+
+**Protein Discovery with Discrete Walk-Jump Sampling**  
+Nathan C. Frey, Daniel Berenberg, Karina Zadorozhny, Joseph Kleinhenz, Julien Lafrance-Vanasse, Isidro Hotzel, Yan Wu, Stephen Ra, Richard Bonneau, Kyunghyun Cho, Andreas Loukas, Vladimir Gligorijevic, Saeed Saremi  
+[arXiv:2306.12360](https://arxiv.org/abs/2306.12360) • [code](https://github.com/Genentech/walk-jump)
 
 ### 5.13 Diffusion-based
 
