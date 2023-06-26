@@ -1219,6 +1219,10 @@ Takahashi, Tomoei, George Chikenji, and Kei Tokita.
 Khan, Asif, et al.  
 [arXiv preprint (2022)](https://arxiv.org/abs/2201.12570)/[Cell Reports Methods (2023): 100374](https://www.sciencedirect.com/science/article/pii/S2667237522002764)
 
+**Accelerating Bayesian Optimization for Biological Sequence Design with Denoising Autoencoders**   
+Samuel Stanton, Wesley Maddox, Nate Gruver, Phillip Maffettone, Emily Delaney, Peyton Greenside, Andrew Gordon Wilson  
+[ICML 2022](https://arxiv.org/abs/2203.12742) • [code](https://github.com/samuelstanton/lambo)
+
 **Statistical Mechanics of Protein Design**  
 Takahashi, Tomoei, George Chikenji, and Kei Tokita.  
 [arXiv preprint arXiv:2205.03696 (2022)](https://arxiv.org/abs/2205.03696)
