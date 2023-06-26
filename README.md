@@ -77,7 +77,7 @@
   <a href="#46-gan-based">GAN-based</a> •
   <a href="#47-transformer-based">Transformer-based</a> •
   <a href="#48-resnet-based">ResNet-based</a> •
-  <a href="#49-diffusion-based">Duffision-based</a> •
+  <a href="#49-diffusion-based">Diffusion-based</a> •
   <a href="#410-bayesian-based">Bayesian method</a>
   <br>
   <strong><a href="#5function-to-sequence">5) Function to Sequence</a></strong>
@@ -250,7 +250,7 @@ Database | Description
 [PIFACE](http://prism.ccbb.ku.edu.tr/piface) | PIFACE is a web server for the prediction of protein-protein interactions. It identifies potential interaction interfaces on protein surfaces.
 [SAbDab](http://opig.stats.ox.ac.uk/webapps/newsabdab/sabdab/) | The Structural Antibody Database (SAbDab) is an automatically updated resource for the structural information of antibodies from the PDB. It allows for easy access to curated, annotated, and classified antibody structures.
 [SKEMPI v2.0](https://life.bsc.es/pid/skempi2) | SKEMPI 2.0 is a database of experimental measurements of the change in binding free energy caused by mutations in protein-protein complexes.
-[ProtCAD](http://dunbrack2.fccc.edu/protcad/) | ProtCAD is a suite of tools for the design and engineering of novel protein structures, sequences, and functions. It allows users to build and manipulate complex protein structures, generate and evaluate sequence libraries, and simulate mutational effects.ProtCAD is a suite of tools for the design and engineering of novel protein structures, sequences, and functions. It allows users to build and manipulate complex protein structures, generate and evaluate sequence libraries, and simulate mutational effects.
+[ProtCAD](http://dunbrack2.fccc.edu/protcad/) | ProtCAD is a suite of tools for the design and engineering of novel protein structures, sequences, and functions. It allows users to build and manipulate complex protein structures, generate and evaluate sequence libraries, and simulate mutational effects. ProtCAD is a suite of tools for the design and engineering of novel protein structures, sequences, and functions. It allows users to build and manipulate complex protein structures, generate and evaluate sequence libraries, and simulate mutational effects.
 
 ### 0.4 Similar List
 
