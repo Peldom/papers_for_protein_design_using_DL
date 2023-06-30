@@ -9,15 +9,12 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-*Papers last week, updated on 2023.06.23:*  
-+   Context-aware geometric deep learning for protein sequence design  
-    + [[bioRxiv 2023.06.19.545381](https://www.biorxiv.org/content/10.1101/2023.06.19.545381v1)] • [[code](https://github.com/LBM-EPFL/CARBonARa)]
-+   Protein Discovery with Discrete Walk-Jump Sampling  
-    + [[arXiv:2306.12360](https://arxiv.org/abs/2306.12360)] • [[code](https://github.com/Genentech/walk-jump)]
-+   Reprogramming Pretrained Language Models for Antibody Sequence Infilling  
-    + [[arXiv:2210.07144](https://arxiv.org/abs/2210.07144)] • [[code](https://github.com/IBM/ReprogBERT)]
-+   Designing meaningful continuous representations of T cell receptor sequences with deep generative models  
-    + [[bioRxiv 2023.06.17.545423](https://www.biorxiv.org/content/10.1101/2023.06.17.545423v1)] • [[code](https://github.com/peterghawkins-regn/tcrvalid)]
+*Papers last week, updated on 2023.06.30:*  
++   De Novo Generation and Prioritization of Target-Binding Peptide Motifs from Sequence Alone  
+Suhaas Bhat, Kalyan Palepu, Vivian Yudistyra, Lauren Hong, Venkata Srikar Kavirayuni, Tianlai Chen, Lin Zhao, Tian Wang, Sophia Vincoff, Pranam Chatterjee  
+    + [[bioRxiv 2023.06.26.546591](https://www.biorxiv.org/content/10.1101/2023.06.26.546591v1)] • [[code](https://github.com/programmablebio/pepprclip)] • [[colab](https://drive.google.com/drive/u/0/folders/1A4kQXjsG5j3OrO0XQtzBWWZu9Zm7c0ak)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/06/28/2023.06.26.546591/DC1/embed/media-1.pdf)]
++   Graph Denoising Diffusion for Inverse Protein Folding  
+    + [[arXiv:2306.16819](https://arxiv.org/abs/2306.16819)]
 
 
 <p align="center">
@@ -116,7 +113,6 @@
 </p>
 
 ------
-
 <!-- - [List of papers about Proteins Design using Deep Learning](#list-of-papers-about-proteins-design-using-deep-learning)
   - [Menu](#menu)
   - [0. Benchmarks and datasets](#0-benchmarks-and-datasets)
@@ -879,6 +875,10 @@ McPartlon, Matthew, and Jinbo Xu
 Lucien Krapp, Fernado Meireles, Luciano Abriata, Matteo Dal Peraro  
 [bioRxiv 2023.06.19.545381](https://www.biorxiv.org/content/10.1101/2023.06.19.545381v1) • [code](https://github.com/LBM-EPFL/CARBonARa)
 
+**De Novo Generation and Prioritization of Target-Binding Peptide Motifs from Sequence Alone**  
+Suhaas Bhat, Kalyan Palepu, Vivian Yudistyra, Lauren Hong, Venkata Srikar Kavirayuni, Tianlai Chen, Lin Zhao, Tian Wang, Sophia Vincoff, Pranam Chatterjee  
+[bioRxiv 2023.06.26.546591](https://www.biorxiv.org/content/10.1101/2023.06.26.546591v1) • [code](https://github.com/programmablebio/pepprclip) • [colab](https://drive.google.com/drive/u/0/folders/1A4kQXjsG5j3OrO0XQtzBWWZu9Zm7c0ak) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/06/28/2023.06.26.546591/DC1/embed/media-1.pdf)
+
 ### 4.8 ResNet-based
 
 **DenseCPD: improving the accuracy of neural-network-based computational protein sequence design with DenseNet**  
@@ -898,6 +898,10 @@ Yufeng Liu, Linghui Chen, Haiyan Liu
 **Generative design of de novo proteins based on secondary-structure constraints using an attention-based diffusion model**  
 Bo Ni, David L. Kaplan, Markus J. Buehler  
 [Chem,(2023)](https://www.cell.com/chem/fulltext/S2451-9294(23)00139-0) • [code](https://github.com/lamm-mit/ProteinDiffusionGenerator) • [news](https://news.mit.edu/2023/ai-system-can-generate-novel-proteins-structural-design-0420)
+
+**Graph Denoising Diffusion for Inverse Protein Folding**  
+Kai Yi, Bingxin Zhou, Yiqing Shen, Pietro Liò, Yu Guang Wang  
+[arXiv:2306.16819](https://arxiv.org/abs/2306.16819)
 
 ### 4.10 Bayesian-based
 
@@ -1557,6 +1561,10 @@ Alvaro Martin, Carolin Berner, Sergey Ovchinnikov, Anastassia Andreevna Vorobiev
 **PoET: A generative model of protein families as sequences-of-sequences**  
 Timothy F. Truong Jr, Tristan Bepler  
 [arXiv:2306.06156](https://arxiv.org/abs/2306.06156)
+
+**Rapid protein stability prediction using deep learning representations**  
+Lasse M BlaabjergMaher M KassemLydia L GoodNicolas JonssonMatteo CagiadaKristoffer E JohanssonWouter BoomsmaAmelie SteinKresten Lindorff-Larsen  
+[eLife 12:e82593](https://elifesciences.org/articles/82593) • [code](https://github.com/KULL-Centre/_2022_ML-ddG-Blaabjerg/)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
