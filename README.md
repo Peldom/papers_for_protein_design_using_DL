@@ -14,6 +14,8 @@
     + [[JACS Au (2023)](https://pubs.acs.org/doi/10.1021/jacsau.3c00188)]
 +   xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein  
     + [[bioRxiv 2023.07.05.547496](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1)] • [[news](https://mp.weixin.qq.com/s/XQn8je49z23UYby8pR7fkA)] • commercial
++   Practical and Asymptotically Exact Conditional Sampling in Diffusion Models  
+    + [[arXiv:2306.17775](https://arxiv.org/abs/2306.17775)] • [[code](https://github.com/blt2114/twisted_diffusion_sampler)]
 
 
 <p align="center">
@@ -673,6 +675,11 @@ Jason Yim, Brian L. Trippe, Valentin De Bortoli, Emile Mathieu, Arnaud Doucet, R
 **A Latent Diffusion Model for Protein Structure Generation**  
 Cong Fu, Keqiang Yan, Limei Wang, Wing Yee Au, Michael McThrow, Tao Komikado, Koji Maruhashi, Kanji Uchino, Xiaoning Qian, Shuiwang Ji  
 [arXiv:2305.04120 ](https://arxiv.org/abs/2305.04120)
+
+**Practical and Asymptotically Exact Conditional Sampling in Diffusion Models**  
+Luhuan Wu, Brian L. Trippe, Christian A. Naesseth, David M. Blei, John P. Cunningham  
+[arXiv:2306.17775](https://arxiv.org/abs/2306.17775) • [code](https://github.com/blt2114/twisted_diffusion_sampler)
+
 
 ### 3.6 RL-based
 
