@@ -9,12 +9,11 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-*Papers last week, updated on 2023.06.30:*  
-+   De Novo Generation and Prioritization of Target-Binding Peptide Motifs from Sequence Alone  
-Suhaas Bhat, Kalyan Palepu, Vivian Yudistyra, Lauren Hong, Venkata Srikar Kavirayuni, Tianlai Chen, Lin Zhao, Tian Wang, Sophia Vincoff, Pranam Chatterjee  
-    + [[bioRxiv 2023.06.26.546591](https://www.biorxiv.org/content/10.1101/2023.06.26.546591v1)] • [[code](https://github.com/programmablebio/pepprclip)] • [[colab](https://drive.google.com/drive/u/0/folders/1A4kQXjsG5j3OrO0XQtzBWWZu9Zm7c0ak)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/06/28/2023.06.26.546591/DC1/embed/media-1.pdf)]
-+   Graph Denoising Diffusion for Inverse Protein Folding  
-    + [[arXiv:2306.16819](https://arxiv.org/abs/2306.16819)]
+*Papers last week, updated on 2023.07.07:*  
++   AlphaFold2 and Deep Learning for Elucidating Enzyme Conformational Flexibility and Its Application for Design  
+    + [[JACS Au (2023)](https://pubs.acs.org/doi/10.1021/jacsau.3c00188)]
++   xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein  
+    + [[bioRxiv 2023.07.05.547496](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1)] • [[news](https://mp.weixin.qq.com/s/XQn8je49z23UYby8pR7fkA)] • commercial
 
 
 <p align="center">
@@ -404,6 +403,10 @@ Yongfan Ming, Wenkang Wang, Rui Yin, Min Zeng, Li Tang, Shizhe Tang, Min Li
 **Application of "foldability" in the intelligent of enzymes engineering and design： take AlphaFold2 for example**  
 MENG Qiaozhen, GUO Fei  
 [Synthetic Biology Journal (2023)](https://synbioj.cip.com.cn/article/2023/2096-8280/2023-011.shtml)
+
+**AlphaFold2 and Deep Learning for Elucidating Enzyme Conformational Flexibility and Its Application for Design**  
+Casadevall, Guillem, Cristina Duran, and Sílvia Osuna.  
+[JACS Au (2023)](https://pubs.acs.org/doi/10.1021/jacsau.3c00188)
 
 ## 2. Model-based design
 
@@ -865,7 +868,7 @@ Zaixiang Zheng, Yifan Deng, Dongyu Xue, Yi Zhou, Fei YE, Quanquan Gu
 
 **A Text-guided Protein Design Framework**  
 Shengchao Liu, Yutao Zhu, Jiarui Lu, Zhao Xu, Weili Nie, Anthony Gitter, Chaowei Xiao, Jian Tang, Hongyu Guo, Anima Anandkumar  
-[arXiv:2302.04611](https://arxiv.org/abs/2302.04611)
+[arXiv:2302.04611](https://arxiv.org/abs/2302.04611) • [code](https://github.com/chao1224/ProteinDT)
 
 **An end-to-end deep learning method for protein side-chain packing and inverse folding**  
 McPartlon, Matthew, and Jinbo Xu  
@@ -1198,6 +1201,10 @@ paper coming soon • [hugging face](https://huggingface.co/AI4PD/REXzyme)
 **Reprogramming Pretrained Language Models for Antibody Sequence Infilling**  
 Igor Melnyk, Vijil Chenthamarakshan, Pin-Yu Chen, Payel Das, Amit Dhurandhar, Inkit Padhi, Devleena Das  
 [arXiv:2210.07144](https://arxiv.org/abs/2210.07144) • [code](https://github.com/IBM/ReprogBERT)
+
+**xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein**  
+Bo Chen, Xingyi Cheng, Li-ao Gengyang, Shen Li, Xin Zeng, Boyan Wang, Gong Jing, Chiming Liu, Aohan Zeng, Yuxiao Dong, Jie Tang, Le Song  
+[bioRxiv 2023.07.05.547496](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1) • [news](https://mp.weixin.qq.com/s/XQn8je49z23UYby8pR7fkA) • commercial
 
 ### 5.5 ResNet-based
 
