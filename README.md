@@ -9,14 +9,15 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-*Papers last week, updated on 2023.07.07:*  
-+   AlphaFold2 and Deep Learning for Elucidating Enzyme Conformational Flexibility and Its Application for Design  
-    + [[JACS Au (2023)](https://pubs.acs.org/doi/10.1021/jacsau.3c00188)]
-+   xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein  
-    + [[bioRxiv 2023.07.05.547496](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1)] • [[news](https://mp.weixin.qq.com/s/XQn8je49z23UYby8pR7fkA)] • commercial
-+   Practical and Asymptotically Exact Conditional Sampling in Diffusion Models  
-    + [[arXiv:2306.17775](https://arxiv.org/abs/2306.17775)] • [[code](https://github.com/blt2114/twisted_diffusion_sampler)]
-
+*Papers last week, updated on 2023.07.14:*  
++   SPIN-CGNN: Improved fixed backbone protein design with contact map-based graph construction and contact graph neural network  
+    + [[bioRxiv 2023.07.07.548080](https://www.biorxiv.org/content/10.1101/2023.07.07.548080v1)] • [[code](https://github.com/EricZhangSCUT/SPIN-CGNN)]
++   De novo design of protein structure and function with RFdiffusion  
+    + [[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)] / [[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v2)] / [[Nature (2023)](https://www.nature.com/articles/s41586-023-06415-8)] • [[news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/)], [[news2](https://www.ipd.uw.edu/2023/03/rf-diffusion-now-free-and-open-source/)], [[news3](https://www.nature.com/articles/d41586-023-02227-y)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf)] • [[lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI)] • [[RFdiffusion:code](https://github.com/RosettaCommons/RFdiffusion)], [[Colab](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/v1.1.1/rf/examples/diffusion.ipynb)]
++   ZetaDesign: an end-to-end deep learning method for protein sequence design and side-chain packing  
+    + [[Briefings in Bioinformatics, 2023](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbad257/7222295)] • [[code](https://github.com/JoreyYan/zetadesign)]
++   Utility of language model and physics-based approaches in modifying MHC Class-I immune-visibility for the design of vaccines and therapeutics  
+    + [[bioRxiv 2023.07.10.548300](https://www.biorxiv.org/content/10.1101/2023.07.10.548300v1)]
 
 <p align="center">
   <br>
@@ -825,6 +826,14 @@ Weian Mao, Muzhi Zhu, Hao Chen, Chunhua Shen
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
 [arXiv:2305.15151](https://arxiv.org/abs/2305.15151)
 
+**SPIN-CGNN: Improved fixed backbone protein design with contact map-based graph construction and contact graph neural network**  
+Xing Zhang, Hongmei Yin, Fei Ling, Jian Zhan, Yaoqi Zhou  
+[bioRxiv 2023.07.07.548080](https://www.biorxiv.org/content/10.1101/2023.07.07.548080v1) • [code](https://github.com/EricZhangSCUT/SPIN-CGNN)
+
+**ZetaDesign: an end-to-end deep learning method for protein sequence design and side-chain packing**  
+Junyu Yan and others  
+[Briefings in Bioinformatics, 2023](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbad257/7222295) • [code](https://github.com/JoreyYan/zetadesign)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1026,6 +1035,10 @@ Niksa Praljak, Xinran Lian, Rama Ranganathan, Andrew Ferguson
 **Designing meaningful continuous representations of T cell receptor sequences with deep generative models**  
 Allen Y. Leary, Darius Scott, Namita T. Gupta, Janelle C. Waite, Dimitris Skokos, Gurinder S. Atwal, Peter G. Hawkins  
 [bioRxiv 2023.06.17.545423](https://www.biorxiv.org/content/10.1101/2023.06.17.545423v1) • [code](https://github.com/peterghawkins-regn/tcrvalid)
+
+**Utility of language model and physics-based approaches in modifying MHC Class-I immune-visibility for the design of vaccines and therapeutics**  
+Hans-Christof Gasser, Diego Oyarzun, Ajitha Rajan, Javier Alfaro  
+[bioRxiv 2023.07.10.548300](https://www.biorxiv.org/content/10.1101/2023.07.10.548300v1)
 
 ### 5.3 GAN-based
 
@@ -1422,6 +1435,10 @@ Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma
 John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan Tie, Wujie Wang, Vincent Xue, Fritz Obermeyer, Andrew Beam, Gevorg Grigoryan  
 [Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf) • [plausible code](https://github.com/lucidrains/chroma-pytorch) • [website](https://generatebiomedicines.com/chroma) • [news](https://www.nature.com/articles/s41587-023-01705-y) • commercial
 
+**Physics-Inspired Protein Encoder Pre-Training via Siamese Sequence-Structure Diffusion Trajectory Prediction**  
+Zuobai Zhang, Minghao Xu, Aurélie Lozano, Vijil Chenthamarakshan, Payel Das, Jian Tang  
+[arXiv:2301.12068](https://arxiv.org/abs/2301.12068) • [code](https://github.com/DeepGraphLearning/SiamDiff)
+
 **TRDiffusion**  
 [TIANRANG XLab](https://xlab.tianrang.com/)  
 [news](https://mp.weixin.qq.com/s/9rJ6IoJbf6cvz3UqE-rpIg) • [website](https://xlab.tianrang.com/xCREATOR) • commercial
@@ -1436,9 +1453,9 @@ Alexander E Chu, Lucy Cheng, Gina El Nesr, Minkai Xu, Po-Ssu Huang
 Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun JH, Milles LF, Dauparas J, Expòsit M, Yang W, Saragovi A, Ovchinnikov S, Baker D  
 [bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387)/[Science(2022)](https://www.science.org/doi/10.1126/science.abn2100) • [RFDesign](https://github.com/RosettaCommons/RFDesign) • [our notes](https://zhuanlan.zhihu.com/p/477854488) • [lecture](https://www.youtube.com/watch?v=-EJ8SXTBin0) • [RoseTTAFold](https://github.com/RosettaCommons/RoseTTAFold) • [Supplementary](https://www.science.org/doi/suppl/10.1126/science.abn2100/suppl_file/science.abn2100_sm.pdf), [Other Supplementary](https://www.science.org/doi/suppl/10.1126/science.abn2100/suppl_file/science.abn2100_data_s1_and_s2.zip)
 
-**Broadly applicable and accurate protein design by integrating structure prediction networks and diffusion generative models**  
-Joseph L. et al.  
-[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v2) • [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf) • [lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI) • [RFdiffusion:code](https://github.com/RosettaCommons/RFdiffusion), [Colab](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/v1.1.1/rf/examples/diffusion.ipynb) • [news](https://www.ipd.uw.edu/2023/03/rf-diffusion-now-free-and-open-source/)
+**Broadly applicable and accurate protein design by integrating structure prediction networks and diffusion generative models** / **De novo design of protein structure and function with RFdiffusion**  
+Watson, J.L., Juergens, D., Bennett, N.R. et al.
+[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v2)/[Nature (2023)](https://www.nature.com/articles/s41586-023-06415-8) • [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/), [news2](https://www.ipd.uw.edu/2023/03/rf-diffusion-now-free-and-open-source/), [news3](https://www.nature.com/articles/d41586-023-02227-y) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf) • [lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI) • [RFdiffusion:code](https://github.com/RosettaCommons/RFdiffusion), [Colab](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/v1.1.1/rf/examples/diffusion.ipynb)
 
 **De novo design of high-affinity protein binders to bioactive helical peptides**  
 Susana Vázquez Torres, Philip J. Y. Leung, Isaac D. Lutz, Preetham Venkatesh, Joseph L Watson, Fabian Hink, Huu-Hien Huynh, Andy Hsien-Wei Yeh, David Juergens, Nathaniel R. Bennett, Andrew N. Hoofnagle, Eric Huang, Michael J. MacCoss, Marc Expòsit, Gyu Rie Lee, Elif Nihal Korkmaz, Jeff Nivala, Lance Stewart, Joseph M. Rodgers, David Baker  
