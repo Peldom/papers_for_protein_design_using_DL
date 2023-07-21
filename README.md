@@ -9,15 +9,9 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-*Papers last week, updated on 2023.07.14:*  
-+   SPIN-CGNN: Improved fixed backbone protein design with contact map-based graph construction and contact graph neural network  
-    + [[bioRxiv 2023.07.07.548080](https://www.biorxiv.org/content/10.1101/2023.07.07.548080v1)] • [[code](https://github.com/EricZhangSCUT/SPIN-CGNN)]
-+   De novo design of protein structure and function with RFdiffusion  
-    + [[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)] / [[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v2)] / [[Nature (2023)](https://www.nature.com/articles/s41586-023-06415-8)] • [[news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/)], [[news2](https://www.ipd.uw.edu/2023/03/rf-diffusion-now-free-and-open-source/)], [[news3](https://www.nature.com/articles/d41586-023-02227-y)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf)] • [[lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI)] • [[RFdiffusion:code](https://github.com/RosettaCommons/RFdiffusion)], [[Colab](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/v1.1.1/rf/examples/diffusion.ipynb)]
-+   ZetaDesign: an end-to-end deep learning method for protein sequence design and side-chain packing  
-    + [[Briefings in Bioinformatics, 2023](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbad257/7222295)] • [[code](https://github.com/JoreyYan/zetadesign)]
-+   Utility of language model and physics-based approaches in modifying MHC Class-I immune-visibility for the design of vaccines and therapeutics  
-    + [[bioRxiv 2023.07.10.548300](https://www.biorxiv.org/content/10.1101/2023.07.10.548300v1)]
+*Papers last week, updated on 2023.07.21:*  
++   ULIP - a Transformer based Unsupervised Language model for Interacting Peptides and T-cell receptors that generalizes to unseen epitopes  
+    + [[bioRxiv 2023.07.19.549669](https://www.biorxiv.org/content/10.1101/2023.07.19.549669v1)] • [[code](https://github.com/barthelemymp/TULIP-TCR/)]
 
 <p align="center">
   <br>
@@ -1225,6 +1219,10 @@ Igor Melnyk, Vijil Chenthamarakshan, Pin-Yu Chen, Payel Das, Amit Dhurandhar, In
 **xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein**  
 Bo Chen, Xingyi Cheng, Li-ao Gengyang, Shen Li, Xin Zeng, Boyan Wang, Gong Jing, Chiming Liu, Aohan Zeng, Yuxiao Dong, Jie Tang, Le Song  
 [bioRxiv 2023.07.05.547496](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1) • [news](https://mp.weixin.qq.com/s/XQn8je49z23UYby8pR7fkA) • commercial
+
+**TULIP - a Transformer based Unsupervised Language model for Interacting Peptides and T-cell receptors that generalizes to unseen epitopes**  
+Barthelemy Meynard-Piganeau, Christoph Feinauer, Martin Weigt, Aleksandra M Walczak, Thierry Mora  
+[bioRxiv 2023.07.19.549669](https://www.biorxiv.org/content/10.1101/2023.07.19.549669v1) • [code](https://github.com/barthelemymp/TULIP-TCR/)
 
 ### 5.5 ResNet-based
 
