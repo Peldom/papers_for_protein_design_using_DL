@@ -12,7 +12,8 @@
 *Papers last week, updated on 2023.07.21:*  
 +   ULIP - a Transformer based Unsupervised Language model for Interacting Peptides and T-cell receptors that generalizes to unseen epitopes  
     + [[bioRxiv 2023.07.19.549669](https://www.biorxiv.org/content/10.1101/2023.07.19.549669v1)] • [[code](https://github.com/barthelemymp/TULIP-TCR/)]
-
++   Diffpack - a diffusion model to predict the sidechain rotamers
+    + [[arxiv 2023.06.01](https://arxiv.org/abs/2306.01794)] • [[code](https://github.com/DeepGraphLearning/DiffPack)]
 <p align="center">
   <br>
   <!-- <img src="dl_pd.png" alt="deep learning for protein design" width="500"> -->
@@ -1444,6 +1445,10 @@ Zuobai Zhang, Minghao Xu, Aurélie Lozano, Vijil Chenthamarakshan, Payel Das, Ji
 **An all-atom protein generative model**  
 Alexander E Chu, Lucy Cheng, Gina El Nesr, Minkai Xu, Po-Ssu Huang  
 [bioRxiv 2023.05.24.542194](https://www.biorxiv.org/content/10.1101/2023.05.24.542194v1) • [code](https://github.com/alexechu/protpardelle)
+
+**DiffPack**  
+Yangtian Zhan, Zuobai Zhang, Bozitao Zhong, Sanchit Misra, Jian Tang  
+[arxiv 2023.06.01](https://arxiv.org/abs/2306.01794) • [code](https://github.com/DeepGraphLearning/DiffPack)
 
 ### 6.3 RoseTTAFold-based
 
