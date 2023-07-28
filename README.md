@@ -9,11 +9,14 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-*Papers last week, updated on 2023.07.21:*  
-+   ULIP - a Transformer based Unsupervised Language model for Interacting Peptides and T-cell receptors that generalizes to unseen epitopes  
-    + [[bioRxiv 2023.07.19.549669](https://www.biorxiv.org/content/10.1101/2023.07.19.549669v1)] • [[code](https://github.com/barthelemymp/TULIP-TCR/)]
-+   Diffpack - a diffusion model to predict the sidechain rotamers
-    + [[arxiv 2023.06.01](https://arxiv.org/abs/2306.01794)] • [[code](https://github.com/DeepGraphLearning/DiffPack)]
+*Papers last week, updated on 2023.07.28:*  
++   A general Temperature-Guided Language model to engineer enhanced Stability and Activity in Proteins  
+    + [[arXiv:2307.12682](https://arxiv.org/abs/2307.12682)]
++   Contextual protein encodings from equivariant graph transformers  
+    + [[bioRxiv 2023.07.15.549154](https://www.biorxiv.org/content/10.1101/2023.07.15.549154v1)] • [[code](https://github.com/GrayLab/MaskedProteinEnT)]
++   ProstT5: Bilingual Language Model for Protein Sequence and Structure Michael Heinzinger  
+    + [[bioRxiv 2023.07.23.550085](https://www.biorxiv.org/content/10.1101/2023.07.23.550085v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/07/25/2023.07.23.550085/DC1/embed/media-1.pdf)] • [[code](https://github.com/mheinzinger/ProstT5)]
+
 <p align="center">
   <br>
   <!-- <img src="dl_pd.png" alt="deep learning for protein design" width="500"> -->
@@ -829,6 +832,10 @@ Xing Zhang, Hongmei Yin, Fei Ling, Jian Zhan, Yaoqi Zhou
 Junyu Yan and others  
 [Briefings in Bioinformatics, 2023](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbad257/7222295) • [code](https://github.com/JoreyYan/zetadesign)
 
+**Contextual protein encodings from equivariant graph transformers**  
+Sai Pooja Mahajan, Jeffrey A. Ruffolo, Jeffrey J. Gray  
+[bioRxiv 2023.07.15.549154](https://www.biorxiv.org/content/10.1101/2023.07.15.549154v1) • [code](https://github.com/GrayLab/MaskedProteinEnT)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -892,6 +899,10 @@ Lucien Krapp, Fernado Meireles, Luciano Abriata, Matteo Dal Peraro
 **De Novo Generation and Prioritization of Target-Binding Peptide Motifs from Sequence Alone**  
 Suhaas Bhat, Kalyan Palepu, Vivian Yudistyra, Lauren Hong, Venkata Srikar Kavirayuni, Tianlai Chen, Lin Zhao, Tian Wang, Sophia Vincoff, Pranam Chatterjee  
 [bioRxiv 2023.06.26.546591](https://www.biorxiv.org/content/10.1101/2023.06.26.546591v1) • [code](https://github.com/programmablebio/pepprclip) • [colab](https://drive.google.com/drive/u/0/folders/1A4kQXjsG5j3OrO0XQtzBWWZu9Zm7c0ak) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/06/28/2023.06.26.546591/DC1/embed/media-1.pdf)
+
+**ProstT5: Bilingual Language Model for Protein Sequence and Structure Michael Heinzinger**  
+Konstantin Weissenow, Joaquin Gomez Sanchez, Adrian Henkel, Martin Steinegger, Burkhard Rost  
+[bioRxiv 2023.07.23.550085](https://www.biorxiv.org/content/10.1101/2023.07.23.550085v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/07/25/2023.07.23.550085/DC1/embed/media-1.pdf) • [code](https://github.com/mheinzinger/ProstT5)
 
 ### 4.8 ResNet-based
 
@@ -1506,6 +1517,10 @@ Yogesh Verma, Markus Heinonen, Vikas Garg
 Chence Shi, Chuanrui Wang, Jiarui Lu, Bozitao Zhong, Jian Tang  
 [arXiv:2210.08761](https://arxiv.org/abs/2210.08761)/[ICLR 2023](https://openreview.net/forum?id=pRCMXcfdihq) • [Supplementary](https://openreview.net/attachment?id=pRCMXcfdihq&name=supplementary_material)
 
+**Deep Learning for Flexible and Site-Specific Protein Docking and Design**  
+Matt McPartlon, Jinbo Xu  
+[bioRxiv 2023.04.01.535079](https://www.biorxiv.org/content/10.1101/2023.04.01.535079v1) • [Title](https://github.com/drorlab/DIPS)
+
 ### 6.6 MLP-based
 
 **Protein Complex Invariant Embedding with Cross-Gate MLP is A One-Shot Antibody Designer**  
@@ -1599,6 +1614,11 @@ Timothy F. Truong Jr, Tristan Bepler
 **Rapid protein stability prediction using deep learning representations**  
 Lasse M BlaabjergMaher M KassemLydia L GoodNicolas JonssonMatteo CagiadaKristoffer E JohanssonWouter BoomsmaAmelie SteinKresten Lindorff-Larsen  
 [eLife 12:e82593](https://elifesciences.org/articles/82593) • [code](https://github.com/KULL-Centre/_2022_ML-ddG-Blaabjerg/)
+
+**A general Temperature-Guided Language model to engineer enhanced Stability and Activity in Proteins**  
+Pan Tan, Mingchen Li, Yuanxi Yu, Fan Jiang, Lirong Zheng, Banghao Wu, Xinyu Sun, Liqi Kang, Jie Song, Liang Zhang, Yi Xiong, Wanli Ouyang, Zhiqiang Hu, Guisheng Fan, Yufeng Pei, Liang Hong  
+[arXiv:2307.12682](https://arxiv.org/abs/2307.12682)
+
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
