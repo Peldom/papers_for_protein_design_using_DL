@@ -9,14 +9,15 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-*Papers last week, updated on 2023.07.28:*  
-+   A general Temperature-Guided Language model to engineer enhanced Stability and Activity in Proteins  
-    + [[arXiv:2307.12682](https://arxiv.org/abs/2307.12682)]
-+   Contextual protein encodings from equivariant graph transformers  
-    + [[bioRxiv 2023.07.15.549154](https://www.biorxiv.org/content/10.1101/2023.07.15.549154v1)] • [[code](https://github.com/GrayLab/MaskedProteinEnT)]
-+   ProstT5: Bilingual Language Model for Protein Sequence and Structure Michael Heinzinger  
-    + [[bioRxiv 2023.07.23.550085](https://www.biorxiv.org/content/10.1101/2023.07.23.550085v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/07/25/2023.07.23.550085/DC1/embed/media-1.pdf)] • [[code](https://github.com/mheinzinger/ProstT5)]
-
+*Papers last week, updated on 2023.08.04:*  
++   Context-Dependent Design of Induced-fit Enzymes using Deep Learning Generates Well Expressed, Thermally Stable and Active Enzymes  
+    + [[bioRxiv 2023.07.27.550799](https://www.biorxiv.org/content/10.1101/2023.07.27.550799v2)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/07/31/2023.07.27.550799/DC1/embed/media-1.xlsx)]
++   De novo Protein Sequence Design Based on Deep Learning and Validation on CalB Hydrolase  
+    + [[bioRxiv 2023.08.01.551444](https://www.biorxiv.org/content/10.1101/2023.08.01.551444v1)]
++   Computational Methods in Immunology and Vaccinology: Design and Development of Antibodies and Immunogens  
+    + [[Journal of Chemical Theory and Computation (2023)](https://pubs.acs.org/doi/10.1021/acs.jctc.3c00513)]
++   Invariant point message passing for protein side chain packing and design  
+    + [[bioRxiv 2023.08.03.551328](https://www.biorxiv.org/content/10.1101/2023.08.03.551328v1)] • [[code](https://github.com/Kuhlman-Lab/PIPPack)]
 <p align="center">
   <br>
   <!-- <img src="dl_pd.png" alt="deep learning for protein design" width="500"> -->
@@ -383,6 +384,10 @@ Andreas Evers, Shipra Malhotra, Vanita D. Sood
 Michael Chungyoun, Jeffrey J. Gray  
 [Current Opinion in Biomedical Engineering (2023): 100473](https://www.sciencedirect.com/science/article/abs/pii/S2468451123000296)
 
+**Computational Methods in Immunology and Vaccinology: Design and Development of Antibodies and Immunogens**  
+Federica Guarra and Giorgio Colombo  
+[Journal of Chemical Theory and Computation (2023)](https://pubs.acs.org/doi/10.1021/acs.jctc.3c00513)
+
 ### 1.3 Peptide design
 
 **Deep generative models for peptide design**  
@@ -500,6 +505,10 @@ Casper Alexander Goverde, Martin Pacesa, Lars Jeremy Dornfeld, Sandrine Georgeon
 **Antibody Complementarity-Determining Region Sequence Design using AlphaFold2 and Binding Affinity Prediction Model**  
 Takafumi Ueki, Masahito Ohue  
 [bioRxiv 2023.06.02.543382](https://www.biorxiv.org/content/10.1101/2023.06.02.543382v1)
+
+**Context-Dependent Design of Induced-fit Enzymes using Deep Learning Generates Well Expressed, Thermally Stable and Active Enzymes**  
+Lior Zimmerman, Noga Alon, Itay Levin, Anna Koganitsky, Nufar Shpigel, Chen Brestel, Gideon David Lapidoth  
+[bioRxiv 2023.07.27.550799](https://www.biorxiv.org/content/10.1101/2023.07.27.550799v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/07/31/2023.07.27.550799/DC1/embed/media-1.xlsx)
 
 ### 2.3 DMPfold2-based
 
@@ -665,7 +674,7 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 
 **Generating Novel, Designable, and Diverse Protein Structures by Equivariantly Diffusing Oriented Residue Clouds**  
 Yeqing Lin, Mohammed AlQuraishi  
-[arXiv:2301.12485v3](https://arxiv.org/abs/2301.12485v3) • [code](https://github.com/aqlaboratory/genie)
+[arXiv:2301.12485v3](https://arxiv.org/abs/2301.12485v3) • [code](https://github.com/aqlaboratory/genie) • [news](https://www.dw.com/en/generative-ai-inventing-proteins-is-changing-medicine/a-66356415)
 
 **SE(3) diffusion model with application to protein backbone generation**  
 Jason Yim, Brian L. Trippe, Valentin De Bortoli, Emile Mathieu, Arnaud Doucet, Regina Barzilay, Tommi Jaakkola  
@@ -903,6 +912,14 @@ Suhaas Bhat, Kalyan Palepu, Vivian Yudistyra, Lauren Hong, Venkata Srikar Kavira
 **ProstT5: Bilingual Language Model for Protein Sequence and Structure Michael Heinzinger**  
 Konstantin Weissenow, Joaquin Gomez Sanchez, Adrian Henkel, Martin Steinegger, Burkhard Rost  
 [bioRxiv 2023.07.23.550085](https://www.biorxiv.org/content/10.1101/2023.07.23.550085v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/07/25/2023.07.23.550085/DC1/embed/media-1.pdf) • [code](https://github.com/mheinzinger/ProstT5)
+
+**De novo Protein Sequence Design Based on Deep Learning and Validation on CalB Hydrolase**  
+Junxi Mu, ZhenXin Li, Bo Zhang, Qi Zhang, Jamshed Iqbal, Abdul Wadood, Ting Wei, Yan Feng, Haifeng Chen  
+[bioRxiv 2023.08.01.551444](https://www.biorxiv.org/content/10.1101/2023.08.01.551444v1)
+
+**Invariant point message passing for protein side chain packing and design**  
+Nicholas Z Randolph, Brian Kuhlman  
+[bioRxiv 2023.08.03.551328](https://www.biorxiv.org/content/10.1101/2023.08.03.551328v1) • [code](https://github.com/Kuhlman-Lab/PIPPack)
 
 ### 4.8 ResNet-based
 
