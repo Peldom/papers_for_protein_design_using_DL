@@ -9,15 +9,17 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-*Papers last week, updated on 2023.08.04:*  
-+   Context-Dependent Design of Induced-fit Enzymes using Deep Learning Generates Well Expressed, Thermally Stable and Active Enzymes  
-    + [[bioRxiv 2023.07.27.550799](https://www.biorxiv.org/content/10.1101/2023.07.27.550799v2)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/07/31/2023.07.27.550799/DC1/embed/media-1.xlsx)]
-+   De novo Protein Sequence Design Based on Deep Learning and Validation on CalB Hydrolase  
-    + [[bioRxiv 2023.08.01.551444](https://www.biorxiv.org/content/10.1101/2023.08.01.551444v1)]
-+   Computational Methods in Immunology and Vaccinology: Design and Development of Antibodies and Immunogens  
-    + [[Journal of Chemical Theory and Computation (2023)](https://pubs.acs.org/doi/10.1021/acs.jctc.3c00513)]
-+   Invariant point message passing for protein side chain packing and design  
-    + [[bioRxiv 2023.08.03.551328](https://www.biorxiv.org/content/10.1101/2023.08.03.551328v1)] • [[code](https://github.com/Kuhlman-Lab/PIPPack)]
+*Papers last week, updated on 2023.08.11:*  
++   Transfer learning to leverage larger datasets for improved prediction of protein stability changes  
+    + [[bioRxiv 2023.07.27.550881](https://www.biorxiv.org/content/10.1101/2023.07.27.550881v1)] • [[code](https://github.com/Kuhlman-Lab/ThermoMPNN)] • [[Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/07/30/2023.07.27.550881/DC1/embed/media-1.docx)]
++   Efficient and accurate sequence generation with small-scale protein language models  
+    + [[bioRxiv 2023.08.04.551626](https://www.biorxiv.org/content/10.1101/2023.08.04.551626v1)]
++   Highly accurate and robust protein sequence design with CarbonDesign  
+    + [[bioRxiv 2023.08.07.552204](https://www.biorxiv.org/content/10.1101/2023.08.07.552204v1)]
++   AbDiffuser: Full-Atom Generation of In-Vitro Functioning Antibodies  
+    + [[arXiv:2308.05027](https://arxiv.org/abs/2308.05027)]
++   OpenProteinSet: Training data for structural biology at scale  
+    + [[arXiv:2308.05326](https://arxiv.org/abs/2308.05326)] • [[OpenFold](https://github.com/aqlaboratory/openfold)]
 <p align="center">
   <br>
   <!-- <img src="dl_pd.png" alt="deep learning for protein design" width="500"> -->
@@ -223,6 +225,10 @@ Jonathan E. King, David Ryan Koes
 **Sampling of structure and sequence space of small protein folds**  
 Linsky, T.W., Noble, K., Tobin, A.R. et al.  
 [Nat Commun 13, 7151 (2022)](https://www.nature.com/articles/s41467-022-34937-8) • [code](https://github.com/strauchlab/scaffold_design) • [Supplementary](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-34937-8/MediaObjects/41467_2022_34937_MOESM1_ESM.pdf)
+
+**OpenProteinSet: Training data for structural biology at scale**  
+Gustaf Ahdritz, Nazim Bouatta, Sachin Kadyan, Lukas Jarosch, Daniel Berenberg, Ian Fisk, Andrew M. Watkins, Stephen Ra, Richard Bonneau, Mohammed AlQuraishi
+[arXiv:2308.05326](https://arxiv.org/abs/2308.05326) • [OpenFold](https://github.com/aqlaboratory/openfold)
 
 ### 0.3 Databases
 
@@ -509,6 +515,10 @@ Takafumi Ueki, Masahito Ohue
 **Context-Dependent Design of Induced-fit Enzymes using Deep Learning Generates Well Expressed, Thermally Stable and Active Enzymes**  
 Lior Zimmerman, Noga Alon, Itay Levin, Anna Koganitsky, Nufar Shpigel, Chen Brestel, Gideon David Lapidoth  
 [bioRxiv 2023.07.27.550799](https://www.biorxiv.org/content/10.1101/2023.07.27.550799v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/07/31/2023.07.27.550799/DC1/embed/media-1.xlsx)
+
+**Highly accurate and robust protein sequence design with CarbonDesign**  
+Milong Ren, Chungong Yu, Dongbo Bu, Haicang Zhang  
+[bioRxiv 2023.08.07.552204](https://www.biorxiv.org/content/10.1101/2023.08.07.552204v1)
 
 ### 2.3 DMPfold2-based
 
@@ -931,7 +941,7 @@ Qi, Yifei, and John ZH Zhang.
 
 **Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models**  
 Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma  
-[bioRxiv 2022.07.10.499510](https://www.biorxiv.org/content/10.1101/2022.07.10.499510v1)
+[bioRxiv 2022.07.10.499510](https://www.biorxiv.org/content/10.1101/2022.07.10.499510v1)/[ICML (2023)](https://icml-compbio.github.io/2023/papers/WCBICML2023_paper143.pdf)
 
 **De novo protein backbone generation based on diffusion with structured priors and adversarial training**  
 Yufeng Liu, Linghui Chen, Haiyan Liu  
@@ -1253,6 +1263,10 @@ Bo Chen, Xingyi Cheng, Li-ao Gengyang, Shen Li, Xin Zeng, Boyan Wang, Gong Jing,
 Barthelemy Meynard-Piganeau, Christoph Feinauer, Martin Weigt, Aleksandra M Walczak, Thierry Mora  
 [bioRxiv 2023.07.19.549669](https://www.biorxiv.org/content/10.1101/2023.07.19.549669v1) • [code](https://github.com/barthelemymp/TULIP-TCR/)
 
+**Efficient and accurate sequence generation with small-scale protein language models**  
+Yaiza Serrano, Sergi Roda, Victor Guallar, Alexis Molina  
+[bioRxiv 2023.08.04.551626](https://www.biorxiv.org/content/10.1101/2023.08.04.551626v1)
+
 ### 5.5 ResNet-based
 
 **Accelerating protein design using autoregressive generative models**  
@@ -1474,9 +1488,13 @@ Zuobai Zhang, Minghao Xu, Aurélie Lozano, Vijil Chenthamarakshan, Payel Das, Ji
 Alexander E Chu, Lucy Cheng, Gina El Nesr, Minkai Xu, Po-Ssu Huang  
 [bioRxiv 2023.05.24.542194](https://www.biorxiv.org/content/10.1101/2023.05.24.542194v1) • [code](https://github.com/alexechu/protpardelle)
 
-**DiffPack**  
+**DiffPack: A Torsional Diffusion Model for Autoregressive Protein Side-Chain Packing**  
 Yangtian Zhan, Zuobai Zhang, Bozitao Zhong, Sanchit Misra, Jian Tang  
 [arxiv 2023.06.01](https://arxiv.org/abs/2306.01794) • [code](https://github.com/DeepGraphLearning/DiffPack)
+
+**AbDiffuser: Full-Atom Generation of In-Vitro Functioning Antibodies**  
+Karolis Martinkus, Jan Ludwiczak, Kyunghyun Cho, Wei-Ching Lian, Julien Lafrance-Vanasse, Isidro Hotzel, Arvind Rajpal, Yan Wu, Richard Bonneau, Vladimir Gligorijevic, Andreas Loukas  
+[arXiv:2308.05027](https://arxiv.org/abs/2308.05027)
 
 ### 6.3 RoseTTAFold-based
 
@@ -1636,6 +1654,9 @@ Lasse M BlaabjergMaher M KassemLydia L GoodNicolas JonssonMatteo CagiadaKristoff
 Pan Tan, Mingchen Li, Yuanxi Yu, Fan Jiang, Lirong Zheng, Banghao Wu, Xinyu Sun, Liqi Kang, Jie Song, Liang Zhang, Yi Xiong, Wanli Ouyang, Zhiqiang Hu, Guisheng Fan, Yufeng Pei, Liang Hong  
 [arXiv:2307.12682](https://arxiv.org/abs/2307.12682)
 
+**Transfer learning to leverage larger datasets for improved prediction of protein stability changes**  
+Henry Dieckhaus, Michael Brocidiacono, Nicholas Randolph, Brian Kuhlman  
+[bioRxiv 2023.07.27.550881](https://www.biorxiv.org/content/10.1101/2023.07.27.550881v1) • [code](https://github.com/Kuhlman-Lab/ThermoMPNN) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/07/30/2023.07.27.550881/DC1/embed/media-1.docx)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
