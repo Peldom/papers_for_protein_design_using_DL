@@ -9,17 +9,12 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-*Papers last week, updated on 2023.08.11:*  
-+   Transfer learning to leverage larger datasets for improved prediction of protein stability changes  
-    + [[bioRxiv 2023.07.27.550881](https://www.biorxiv.org/content/10.1101/2023.07.27.550881v1)] • [[code](https://github.com/Kuhlman-Lab/ThermoMPNN)] • [[Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/07/30/2023.07.27.550881/DC1/embed/media-1.docx)]
-+   Efficient and accurate sequence generation with small-scale protein language models  
-    + [[bioRxiv 2023.08.04.551626](https://www.biorxiv.org/content/10.1101/2023.08.04.551626v1)]
-+   Highly accurate and robust protein sequence design with CarbonDesign  
-    + [[bioRxiv 2023.08.07.552204](https://www.biorxiv.org/content/10.1101/2023.08.07.552204v1)]
-+   AbDiffuser: Full-Atom Generation of In-Vitro Functioning Antibodies  
-    + [[arXiv:2308.05027](https://arxiv.org/abs/2308.05027)]
-+   OpenProteinSet: Training data for structural biology at scale  
-    + [[arXiv:2308.05326](https://arxiv.org/abs/2308.05326)] • [[OpenFold](https://github.com/aqlaboratory/openfold)]
+*Papers last week, updated on 2023.08.19:*  
++   Conditional Protein Denoising Diffusion Generates Programmable Endonucleases  
+    + [[bioRxiv 2023.08.10.552783](https://www.biorxiv.org/content/10.1101/2023.08.10.552783v1)]
++   Robust Design of Effective Allosteric Activators for Rsp5 E3 Ligase Using the Machine Learning Tool ProteinMPNN  
+    + [[ACS Synthetic Biology (2023)](https://pubs.acs.org/doi/10.1021/acssynbio.3c00042)] • [[Supplymentary](https://pubs.acs.org/doi/suppl/10.1021/acssynbio.3c00042/suppl_file/sb3c00042_si_001.pdf)]
+
 <p align="center">
   <br>
   <!-- <img src="dl_pd.png" alt="deep learning for protein design" width="500"> -->
@@ -954,6 +949,14 @@ Bo Ni, David L. Kaplan, Markus J. Buehler
 **Graph Denoising Diffusion for Inverse Protein Folding**  
 Kai Yi, Bingxin Zhou, Yiqing Shen, Pietro Liò, Yu Guang Wang  
 [arXiv:2306.16819](https://arxiv.org/abs/2306.16819)
+
+**Conditional Protein Denoising Diffusion Generates Programmable Endonucleases**  
+Bingxin Zhou, Lirong Zheng, Banghao Wu, Kai Yi, Bozitao Zhong, Pietro Lio, Liang Hong  
+[bioRxiv 2023.08.10.552783](https://www.biorxiv.org/content/10.1101/2023.08.10.552783v1)
+
+**Robust Design of Effective Allosteric Activators for Rsp5 E3 Ligase Using the Machine Learning Tool ProteinMPNN**  
+Kao, Hsi-Wen, et al.  
+[ACS Synthetic Biology (2023)](https://pubs.acs.org/doi/10.1021/acssynbio.3c00042) • [Supplymentary](https://pubs.acs.org/doi/suppl/10.1021/acssynbio.3c00042/suppl_file/sb3c00042_si_001.pdf)
 
 ### 4.10 Bayesian-based
 
