@@ -9,11 +9,17 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
 
-*Papers last week, updated on 2023.08.19:*  
-+   Conditional Protein Denoising Diffusion Generates Programmable Endonucleases  
-    + [[bioRxiv 2023.08.10.552783](https://www.biorxiv.org/content/10.1101/2023.08.10.552783v1)]
-+   Robust Design of Effective Allosteric Activators for Rsp5 E3 Ligase Using the Machine Learning Tool ProteinMPNN  
-    + [[ACS Synthetic Biology (2023)](https://pubs.acs.org/doi/10.1021/acssynbio.3c00042)] • [[Supplymentary](https://pubs.acs.org/doi/suppl/10.1021/acssynbio.3c00042/suppl_file/sb3c00042_si_001.pdf)]
+*Papers last week, updated on 2023.08.25:*  
++   How can the protein design community best support biologists who want to harness AI tools for protein structure prediction and design?  
+    + [[Cell Systems 14.8 (2023)](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00212-0)]
++   Simplifying complex antibody engineering using machine learning  
+    + [[Cell Systems 14.8 (2023)](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00118-7)]/[[2022 AIChE Annual Meeting. AIChE, 2022.](https://aiche.confex.com/aiche/2022/meetingapp.cgi/Paper/650993)]
++   Atom-by-atom protein generation and beyond with language models  
+    + [[arXiv:2308.09482](https://arxiv.org/abs/2308.09482)]
++   Design of Cyclic Peptides Targeting Protein-Protein Interactions using AlphaFold  
+    + [[bioRxiv 2023.08.20.554056](https://www.biorxiv.org/content/10.1101/2023.08.20.554056v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/08/21/2023.08.20.554056/DC1/embed/media-1.pdf)] • [[code](https://github.com/YoshitakaMo/localcolabfold/)]
++   PRO-LDM: Protein Sequence Generation with Conditional Latent Diffusion Models  
+    + [[bioRxiv 2023.08.22.554145](https://www.biorxiv.org/content/10.1101/2023.08.22.554145v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/08/23/2023.08.22.554145/DC1/embed/media-1.pdf)]
 
 <p align="center">
   <br>
@@ -355,6 +361,10 @@ Clara Fannjiang, Jennifer Listgarten
 Xu Binbin, Chen Yingjun and Xue Weiwei  
 [Current Medicinal Chemistry 2023](https://www.eurekaselect.com/article/132267)
 
+**How can the protein design community best support biologists who want to harness AI tools for protein structure prediction and design?**  
+Höcker, Birte, et al.  
+[Cell Systems 14.8 (2023)](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00212-0)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
@@ -388,6 +398,10 @@ Michael Chungyoun, Jeffrey J. Gray
 **Computational Methods in Immunology and Vaccinology: Design and Development of Antibodies and Immunogens**  
 Federica Guarra and Giorgio Colombo  
 [Journal of Chemical Theory and Computation (2023)](https://pubs.acs.org/doi/10.1021/acs.jctc.3c00513)
+
+**Simplifying complex antibody engineering using machine learning**  
+Makowski, Emily K., Hsin-Ting Chen, and Peter M. Tessier.  
+[Cell Systems 14.8 (2023)](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00118-7)/[2022 AIChE Annual Meeting. AIChE, 2022.](https://aiche.confex.com/aiche/2022/meetingapp.cgi/Paper/650993)
 
 ### 1.3 Peptide design
 
@@ -515,6 +529,10 @@ Lior Zimmerman, Noga Alon, Itay Levin, Anna Koganitsky, Nufar Shpigel, Chen Bres
 Milong Ren, Chungong Yu, Dongbo Bu, Haicang Zhang  
 [bioRxiv 2023.08.07.552204](https://www.biorxiv.org/content/10.1101/2023.08.07.552204v1)
 
+**Design of Cyclic Peptides Targeting Protein-Protein Interactions using AlphaFold**  
+Takatsugu Kosugi, Masahito Ohue  
+[bioRxiv 2023.08.20.554056](https://www.biorxiv.org/content/10.1101/2023.08.20.554056v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/08/21/2023.08.20.554056/DC1/embed/media-1.pdf) • [code](https://github.com/YoshitakaMo/localcolabfold/)
+
 ### 2.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
@@ -598,6 +616,10 @@ Patrick Emami, Aidan Perreault, Jeffrey Law, David Biagioni, Peter St. Joh
 **Importance Weighted Expectation-Maximization for Protein Sequence Design**  
 Zhenqiao Song, Lei Li  
 [arXiv:2305.00386](https://arxiv.org/abs/2305.00386)
+
+**Optimizing protein fitness using Gibbs sampling with Graph-based Smoothing**  
+Andrew Kirjner, Jason Yim, Raman Samusevich, Tommi Jaakkola, Regina Barzilay, Ila Fiete  
+[arXiv:2307.00494](https://arxiv.org/abs/2307.00494) • [code](https://github.com/kirjner/GGS)
 
 ## 3. Function to Scaffold
 
@@ -850,6 +872,10 @@ Junyu Yan and others
 Sai Pooja Mahajan, Jeffrey A. Ruffolo, Jeffrey J. Gray  
 [bioRxiv 2023.07.15.549154](https://www.biorxiv.org/content/10.1101/2023.07.15.549154v1) • [code](https://github.com/GrayLab/MaskedProteinEnT)
 
+**Robust Design of Effective Allosteric Activators for Rsp5 E3 Ligase Using the Machine Learning Tool ProteinMPNN**  
+Kao, Hsi-Wen, et al.  
+[ACS Synthetic Biology (2023)](https://pubs.acs.org/doi/10.1021/acssynbio.3c00042) • [Supplymentary](https://pubs.acs.org/doi/suppl/10.1021/acssynbio.3c00042/suppl_file/sb3c00042_si_001.pdf)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -926,6 +952,10 @@ Junxi Mu, ZhenXin Li, Bo Zhang, Qi Zhang, Jamshed Iqbal, Abdul Wadood, Ting Wei,
 Nicholas Z Randolph, Brian Kuhlman  
 [bioRxiv 2023.08.03.551328](https://www.biorxiv.org/content/10.1101/2023.08.03.551328v1) • [code](https://github.com/Kuhlman-Lab/PIPPack)
 
+**Atom-by-atom protein generation and beyond with language models**  
+Daniel Flam-Shepherd, Kevin Zhu, Alán Aspuru-Guzik  
+[arXiv:2308.09482](https://arxiv.org/abs/2308.09482)
+
 ### 4.8 ResNet-based
 
 **DenseCPD: improving the accuracy of neural-network-based computational protein sequence design with DenseNet**  
@@ -953,10 +983,6 @@ Kai Yi, Bingxin Zhou, Yiqing Shen, Pietro Liò, Yu Guang Wang
 **Conditional Protein Denoising Diffusion Generates Programmable Endonucleases**  
 Bingxin Zhou, Lirong Zheng, Banghao Wu, Kai Yi, Bozitao Zhong, Pietro Lio, Liang Hong  
 [bioRxiv 2023.08.10.552783](https://www.biorxiv.org/content/10.1101/2023.08.10.552783v1)
-
-**Robust Design of Effective Allosteric Activators for Rsp5 E3 Ligase Using the Machine Learning Tool ProteinMPNN**  
-Kao, Hsi-Wen, et al.  
-[ACS Synthetic Biology (2023)](https://pubs.acs.org/doi/10.1021/acssynbio.3c00042) • [Supplymentary](https://pubs.acs.org/doi/suppl/10.1021/acssynbio.3c00042/suppl_file/sb3c00042_si_001.pdf)
 
 ### 4.10 Bayesian-based
 
@@ -1443,6 +1469,10 @@ Paper unavailable • [github](https://github.com/pengzhangzhi/protein-sequence-
 **Protein Design with Guided Discrete Diffusion**  
 Nate Gruver, Samuel Stanton, Nathan C. Frey, Tim G. J. Rudner, Isidro Hotzel, Julien Lafrance-Vanasse, Arvind Rajpal, Kyunghyun Cho, Andrew Gordon Wilson  
 [arXiv:2305.20009](https://arxiv.org/abs/2305.20009) • [code](https://github.com/ngruver/NOS)
+
+**PRO-LDM: Protein Sequence Generation with Conditional Latent Diffusion Models**  
+Zixuan Jiang, Sitao Zhang, Rundong Huang, Shaoxun Mo, Letao Zhu, Peiheng Li, Ziyi Zhang, Xi Chen, Yunfei Long, Renjing Xu, Rui Qing  
+[bioRxiv 2023.08.22.554145](https://www.biorxiv.org/content/10.1101/2023.08.22.554145v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/08/23/2023.08.22.554145/DC1/embed/media-1.pdf)
 
 ### 5.14 GNN-based
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**  
