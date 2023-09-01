@@ -8,25 +8,18 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
+*Papers last week, updated on 2023.09.01:*  
++   Design of protein segments and peptides for binding to protein targets  
+    + [[BioDesign Research 2022 (2022)](https://spj.science.org/doi/10.34133/2022/9783197)]
++   De novo 設計ナノポアの創製  
+    + [[生物工学会誌 101.8 (2023)](https://www.jstage.jst.go.jp/article/seibutsukogaku/101/8/101_101.8_431/_article/-char/ja/)]
 
-*Papers last week, updated on 2023.08.25:*  
-+   How can the protein design community best support biologists who want to harness AI tools for protein structure prediction and design?  
-    + [[Cell Systems 14.8 (2023)](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00212-0)]
-+   Simplifying complex antibody engineering using machine learning  
-    + [[Cell Systems 14.8 (2023)](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00118-7)]/[[2022 AIChE Annual Meeting. AIChE, 2022.](https://aiche.confex.com/aiche/2022/meetingapp.cgi/Paper/650993)]
-+   Atom-by-atom protein generation and beyond with language models  
-    + [[arXiv:2308.09482](https://arxiv.org/abs/2308.09482)]
-+   Design of Cyclic Peptides Targeting Protein-Protein Interactions using AlphaFold  
-    + [[bioRxiv 2023.08.20.554056](https://www.biorxiv.org/content/10.1101/2023.08.20.554056v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/08/21/2023.08.20.554056/DC1/embed/media-1.pdf)] • [[code](https://github.com/YoshitakaMo/localcolabfold/)]
-+   PRO-LDM: Protein Sequence Generation with Conditional Latent Diffusion Models  
-    + [[bioRxiv 2023.08.22.554145](https://www.biorxiv.org/content/10.1101/2023.08.22.554145v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/08/23/2023.08.22.554145/DC1/embed/media-1.pdf)]
-
+------
 <p align="center">
   <br>
   <!-- <img src="dl_pd.png" alt="deep learning for protein design" width="500"> -->
   <img src="cover.jpg" alt="deep learning for protein design">
 </p>
-
 <!-- ## Menu -->
 <!-- > Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7-other-tasks) follow other ML/DL strategies.   -->
 
@@ -241,8 +234,7 @@ Gustaf Ahdritz, Nazim Bouatta, Sachin Kadyan, Lukas Jarosch, Daniel Berenberg, I
 
 #### 0.3.2 Structure Database
 
-
-Database | Description 
+Database | Description
 ---------|----------
 [PDB](https://www.rcsb.org/) | The Protein Data Bank (PDB) is a database of 3D structural data of large biological molecules, such as proteins and nucleic acids. These data are gathered using experimental methods such as X-ray crystallography, NMR spectroscopy, or cryo-electron microscopy.
 [AlphaFoldDB](https://alphafold.ebi.ac.uk/) | AlphaFoldDB is a database of protein structure predictions produced by DeepMind's AlphaFold system. It provides highly accurate predictions of protein 3D structures.
@@ -283,6 +275,10 @@ Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray
 **100th anniversary of macromolecular science viewpoint: Data-driven protein design**  
 Ferguson, Andrew L., and Rama Ranganathan.  
 [ACS Macro Letters 10.3 (2021)](https://pubs.acs.org/doi/abs/10.1021/acsmacrolett.0c00885)
+
+**Artificial intelligence in early drug discovery enabling precision medicine**  
+Boniolo, Fabio, et al.  
+[Expert Opinion on Drug Discovery 16.9 (2021)](https://www.tandfonline.com/doi/full/10.1080/17460441.2021.1918096)
 
 **Protein sequence design with deep generative models**  
 Zachary Wu, Kadina E. Johnston, Frances H. Arnold, Kevin K. Yang  
@@ -365,6 +361,10 @@ Xu Binbin, Chen Yingjun and Xue Weiwei
 Höcker, Birte, et al.  
 [Cell Systems 14.8 (2023)](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00212-0)
 
+**De novo 設計ナノポアの創製**  
+新津藍  
+[生物工学会誌 101.8 (2023)](https://www.jstage.jst.go.jp/article/seibutsukogaku/101/8/101_101.8_431/_article/-char/ja/)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
@@ -408,6 +408,10 @@ Makowski, Emily K., Hsin-Ting Chen, and Peter M. Tessier.
 **Deep generative models for peptide design**  
 Wan, Fangping, Daphne Kontogiorgos-Heintz, and Cesar de la Fuente-Nunez  
 [Digital Discovery (2022)](https://pubs.rsc.org/en/content/articlehtml/2022/dd/d1dd00024a)
+
+**Design of protein segments and peptides for binding to protein targets**  
+Gupta, Suchetana, Noora Azadvari, and Parisa Hosseinzadeh.  
+[BioDesign Research 2022 (2022)](https://spj.science.org/doi/10.34133/2022/9783197)
 
 ### 1.4 Binder design
 
@@ -463,7 +467,7 @@ Takatsugu Kosugi, Masahito Ohue
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
 Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey  
-[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/)/[Bioinformatics, 2022;, btac724](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac724/6820925) • [ColabDesign](https://github.com/sokrypton/ColabDesign), [SMURF](https://github.com/spetti/SMURF), [AF2 back propagation](https://github.com/sokrypton/af_backprop) • [our notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977) • [lecture1](https://www.youtube.com/watch?v=2HmXwlKWMVs), [lecture2](https://www.youtube.com/watch?v=BJdRvODiDnk) • [Discord](https://discord.com/invite/FpYPneYB) |
+[bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/)/[Bioinformatics, 2022;, btac724](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac724/6820925) • [ColabDesign](https://github.com/sokrypton/ColabDesign), [SMURF](https://github.com/spetti/SMURF), [AF2 back propagation](https://github.com/sokrypton/af_backprop) • [our notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977) • [lecture1](https://www.youtube.com/watch?v=2HmXwlKWMVs), [lecture2](https://www.youtube.com/watch?v=BJdRvODiDnk) • [Discord](https://discord.com/invite/FpYPneYB)
 
 **AlphaDesign: A de novo protein design framework based on AlphaFold**  
 Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq.  
@@ -507,7 +511,7 @@ Stephen A. Rettie, Katelyn V. Campbell, Asim K. Bera, Alex Kang, Simon Kozlov, J
 
 **De novo design of luciferases using deep learning**  
 Andy Hsien-Wei Yeh, Christoffer Norn, Yakov Kipnis, Doug Tischer, Samuel J. Pellock, Declan Evans, Pengchen Ma, Gyu Rie Lee, Jason Z. Zhang, Ivan Anishchenko, Brian Coventry, Longxing Cao, Justas Dauparas, Samer Halabiya, Michelle DeWitt, Lauren Carter, K. N. Houk & David Baker  
-[Nature](https://www.nature.com/articles/s41586-023-05696-3) • [Code](https://files.ipd.uw.edu/pub/luxSit/scaffold_generation.tar.gz) • [Supplementary Materials](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-023-05696-3/MediaObjects/41586_2023_5696_MOESM1_ESM.pdf) 
+[Nature](https://www.nature.com/articles/s41586-023-05696-3) • [Code](https://files.ipd.uw.edu/pub/luxSit/scaffold_generation.tar.gz) • [Supplementary Materials](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-023-05696-3/MediaObjects/41586_2023_5696_MOESM1_ESM.pdf)
 
 **In silico evolution of protein binders with deep learning models for structure prediction and sequence design**  
 Odessa J Goudy, Amrita Nallathambi, Tomoaki Kinjo, Nicholas Randolph, Brian Kuhlman  
@@ -515,7 +519,7 @@ Odessa J Goudy, Amrita Nallathambi, Tomoaki Kinjo, Nicholas Randolph, Brian Kuhl
 
 **Computational design of soluble analogues of integral membrane protein structures**  
 Casper Alexander Goverde, Martin Pacesa, Lars Jeremy Dornfeld, Sandrine Georgeon, Stephane Rosset, Justas Dauparas, Christian Shellhaas, Simon Kozlov, David Baker, Sergey Ovchinnikov, Bruno Correia  
-[bioRxiv 2023.05.09.540044](https://www.biorxiv.org/content/10.1101/2023.05.09.540044v1) • [code]((https://github.com/bene837/af2seq) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/09/2023.05.09.540044/DC1/embed/media-1.pdf)
+[bioRxiv 2023.05.09.540044](https://www.biorxiv.org/content/10.1101/2023.05.09.540044v1) • [code](https://github.com/bene837/af2seq) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/09/2023.05.09.540044/DC1/embed/media-1.pdf)
 
 **Antibody Complementarity-Determining Region Sequence Design using AlphaFold2 and Binding Affinity Prediction Model**  
 Takafumi Ueki, Masahito Ohue  
@@ -709,12 +713,11 @@ Jason Yim, Brian L. Trippe, Valentin De Bortoli, Emile Mathieu, Arnaud Doucet, R
 
 **A Latent Diffusion Model for Protein Structure Generation**  
 Cong Fu, Keqiang Yan, Limei Wang, Wing Yee Au, Michael McThrow, Tao Komikado, Koji Maruhashi, Kanji Uchino, Xiaoning Qian, Shuiwang Ji  
-[arXiv:2305.04120 ](https://arxiv.org/abs/2305.04120)
+[arXiv:2305.04120](https://arxiv.org/abs/2305.04120)
 
 **Practical and Asymptotically Exact Conditional Sampling in Diffusion Models**  
 Luhuan Wu, Brian L. Trippe, Christian A. Naesseth, David M. Blei, John P. Cunningham  
 [arXiv:2306.17775](https://arxiv.org/abs/2306.17775) • [code](https://github.com/blt2114/twisted_diffusion_sampler)
-
 
 ### 3.6 RL-based
 
@@ -1320,7 +1323,7 @@ Takahashi, Tomoei, George Chikenji, and Kei Tokita.
 Khan, Asif, et al.  
 [arXiv preprint (2022)](https://arxiv.org/abs/2201.12570)/[Cell Reports Methods (2023): 100374](https://www.sciencedirect.com/science/article/pii/S2667237522002764)
 
-**Accelerating Bayesian Optimization for Biological Sequence Design with Denoising Autoencoders**   
+**Accelerating Bayesian Optimization for Biological Sequence Design with Denoising Autoencoders**  
 Samuel Stanton, Wesley Maddox, Nate Gruver, Phillip Maffettone, Emily Delaney, Peyton Greenside, Andrew Gordon Wilson  
 [ICML 2022](https://arxiv.org/abs/2203.12742) • [code](https://github.com/samuelstanton/lambo)
 
@@ -1475,6 +1478,7 @@ Zixuan Jiang, Sitao Zhang, Rundong Huang, Shaoxun Mo, Letao Zhu, Peiheng Li, Ziy
 [bioRxiv 2023.08.22.554145](https://www.biorxiv.org/content/10.1101/2023.08.22.554145v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/08/23/2023.08.22.554145/DC1/embed/media-1.pdf)
 
 ### 5.14 GNN-based
+
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**  
 Markus J. Buehler  
 [arXiv:2305.04934](https://arxiv.org/abs/2305.04934) • [code](https://github.com/lamm-mit/MateriomicTransformer)
