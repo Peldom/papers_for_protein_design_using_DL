@@ -949,6 +949,10 @@ Zeming Lin, Halil Akin, Roshan Rao, Brian Hie, Zhongkai Zhu, Wenting Lu, Nikita 
 Zaixiang Zheng, Yifan Deng, Dongyu Xue, Yi Zhou, Fei YE, Quanquan Gu  
 [arXiv:2302.01649](https://arxiv.org/abs/2302.01649) • [code::ByProt](https://github.com/BytedProtein/ByProt)
 
+**Incorporating Pre-training Paradigm for Antibody Sequence-Structure Co-design**  
+Kaiyuan Gao, Lijun Wu, Jinhua Zhu, Tianbo Peng, Yingce Xia, Liang He, Shufang Xie, Tao Qin, Haiguang Liu, Kun He, Tie-Yan Liu 
+[arXiv:2211.08406](https://arxiv.org/abs/2211.08406) • [code](https://github.com/KyGao/ABGNN)
+
 **A Text-guided Protein Design Framework**  
 Shengchao Liu, Yutao Zhu, Jiarui Lu, Zhao Xu, Weili Nie, Anthony Gitter, Chaowei Xiao, Jian Tang, Hongyu Guo, Anima Anandkumar  
 [arXiv:2302.04611](https://arxiv.org/abs/2302.04611) • [code](https://github.com/chao1224/ProteinDT)
