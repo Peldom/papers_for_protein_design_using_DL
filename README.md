@@ -8,14 +8,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.09.08:*  
-+   Boosting AND/OR-Based Computational Protein Design: Dynamic Heuristics and Generalizable UFO  
-    + [[arXiv:2309.00408](https://arxiv.org/abs/2309.00408)]
-+   AI driven B-cell Immunotherapy Design  
-    + [[arXiv:2309.01122](https://arxiv.org/abs/2309.01122)]
-+   Rationally seeded computational protein design  
-    + [[bioRxiv 2023.08.25.554789](https://www.biorxiv.org/content/10.1101/2023.08.25.554789v1)] • [[code](https://github.com/polizzilab/design_tools)]
-
+*Papers last week, updated on 2023.09.15:*  
++   Protein generation with evolutionary diffusion: sequence is all you need  
+    + [[bioRxiv 2023.09.11.556673](https://www.biorxiv.org/content/10.1101/2023.09.11.556673v1)] • [[code](https://github.com/microsoft/evodiff)] • [[data](https://zenodo.org/record/8045076)]
++   Zero-shot Mutation Effect Prediction on Protein Stability and Function using RoseTTAFold  
+    + [[Protein Science](https://onlinelibrary.wiley.com/doi/10.1002/pro.4780)] • [[dissertation](https://www.proquest.com/openview/dba5569e5efd0dc60fc7bedccb6afee3/)]
++   IMPROVING ANTIBODY AFFINITY USING LABORATORY DATA WITH LANGUAGE MODEL GUIDED DESIGN  
+    + [[bioRxiv 2023.09.13.557505](https://www.biorxiv.org/content/10.1101/2023.09.13.557505v1)]
 ------
 <p align="center">
   <br>
@@ -637,7 +636,11 @@ Patrick Emami, Aidan Perreault, Jeffrey Law, David Biagioni, Peter St. Joh
 
 **Importance Weighted Expectation-Maximization for Protein Sequence Design**  
 Zhenqiao Song, Lei Li  
-[arXiv:2305.00386](https://arxiv.org/abs/2305.00386)
+[arXiv:2305.00386](https://arxiv.org/abs/2305.00386) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/09/2023.05.09.539914/DC1/embed/media-1.pdf?download=true)
+
+**Simultaneous enhancement of multiple functional properties using evolution-informed protein design**  
+Fram, Benjamin, et al.  
+[bioRxiv (2023): 2023-05](https://www.biorxiv.org/content/10.1101/2023.05.09.539914v1)
 
 **Optimizing protein fitness using Gibbs sampling with Graph-based Smoothing**  
 Andrew Kirjner, Jason Yim, Raman Samusevich, Tommi Jaakkola, Regina Barzilay, Ila Fiete  
@@ -1325,6 +1328,10 @@ Barthelemy Meynard-Piganeau, Christoph Feinauer, Martin Weigt, Aleksandra M Walc
 Yaiza Serrano, Sergi Roda, Victor Guallar, Alexis Molina  
 [bioRxiv 2023.08.04.551626](https://www.biorxiv.org/content/10.1101/2023.08.04.551626v1)
 
+**IMPROVING ANTIBODY AFFINITY USING LABORATORY DATA WITH LANGUAGE MODEL GUIDED DESIGN**  
+Ben Krause, Subu Subramanian, Tom Yuan, Marisa Yang, Aaron Sato, Nikhil Naik  
+[bioRxiv 2023.09.13.557505](https://www.biorxiv.org/content/10.1101/2023.09.13.557505v1)
+
 ### 5.5 ResNet-based
 
 **Accelerating protein design using autoregressive generative models**  
@@ -1394,6 +1401,10 @@ Minji Lee, Luiz Felipe Vecchietti, Hyunkyu Jung, Hyunjoo Ro, Ho Min Kim, Meeyoun
 **Designing Biological Sequences via Meta-Reinforcement Learning and Bayesian Optimization**  
 Leo Feng, Padideh Nouri, Aneri Muni, Yoshua Bengio, Pierre-Luc Bacon  
 [arXiv:2209.06259](https://arxiv.org/abs/2209.06259)/[NeurIPS 2022](https://www.mlsb.io/papers_2022/Designing_Biological_Sequences_via_Meta_Reinforcement_Learning_and_Bayesian_Optimization.pdf) • [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/58993.png?t=1669588933.2017226)
+
+**Self-play reinforcement learning guides protein engineering**  
+Wang, Yi, et al.  
+[Nature Machine Intelligence (2023)](https://www.nature.com/articles/s42256-023-00691-9) • [code](https://github.com/melobio/EvoPlay)
 
 ### 5.8 Flow-based
 
@@ -1506,6 +1517,10 @@ Nate Gruver, Samuel Stanton, Nathan C. Frey, Tim G. J. Rudner, Isidro Hotzel, Ju
 **PRO-LDM: Protein Sequence Generation with Conditional Latent Diffusion Models**  
 Zixuan Jiang, Sitao Zhang, Rundong Huang, Shaoxun Mo, Letao Zhu, Peiheng Li, Ziyi Zhang, Xi Chen, Yunfei Long, Renjing Xu, Rui Qing  
 [bioRxiv 2023.08.22.554145](https://www.biorxiv.org/content/10.1101/2023.08.22.554145v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/08/23/2023.08.22.554145/DC1/embed/media-1.pdf)
+
+**Protein generation with evolutionary diffusion: sequence is all you need**  
+Sarah Alamdari, Nitya Thakkar, Rianne van den Berg, Alex Xijie Lu, Nicolo Fusi, Ava Pardis Amini, Kevin K Yang  
+[bioRxiv 2023.09.11.556673](https://www.biorxiv.org/content/10.1101/2023.09.11.556673v1) • [code](https://github.com/microsoft/evodiff) • [data](https://zenodo.org/record/8045076)
 
 ### 5.14 GNN-based
 
@@ -1705,6 +1720,10 @@ Sanaa Mansoor, Minkyung Baek, David Juergens, Joseph L Watson, David Baker
 Pun, Michael N., et al.  
 [bioRxiv (2022)](https://arxiv.org/abs/2211.02936) • [code](https://github.com/StatPhysBio/protein_holography)
 
+**Infer global, predict local: quantity-quality trade-off in protein fitness predictions from sequence data**  
+Lorenzo Posani, Francesca Rizzato, Rémi Monasson, Simona Cocco  
+[bioRxiv 2022.12.12.520004](https://www.biorxiv.org/content/10.1101/2022.12.12.520004v1)
+
 **Validation of de novo designed water-soluble and transmembrane proteins by in silico folding and melting**  
 Alvaro Martin, Carolin Berner, Sergey Ovchinnikov, Anastassia Andreevna Vorobieva  
 [bioRxiv 2023.06.06.543955](https://www.biorxiv.org/content/10.1101/2023.06.06.543955v1) • [colab](https://colab.research.google.com/github/vorobieva/ColabFold/blob/main/beta/ESMFold_melting.ipynb)
@@ -1728,6 +1747,10 @@ Henry Dieckhaus, Michael Brocidiacono, Nicholas Randolph, Brian Kuhlman
 **Boosting AND/OR-Based Computational Protein Design: Dynamic Heuristics and Generalizable UFO**  
 Bobak Pezeshki, Radu Marinescu, Alexander Ihler, Rina Dechter  
 [arXiv:2309.00408](https://arxiv.org/abs/2309.00408)
+
+**Zero-shot Mutation Effect Prediction on Protein Stability and Function using RoseTTAFold**  
+Sanaa Mansoor, Minkyung Baek, David Juergens, Joseph L. Watson, David Baker  
+[Protein Science](https://onlinelibrary.wiley.com/doi/10.1002/pro.4780) • [dissertation](https://www.proquest.com/openview/dba5569e5efd0dc60fc7bedccb6afee3/)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
