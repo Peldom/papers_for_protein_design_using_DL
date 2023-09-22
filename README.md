@@ -8,13 +8,14 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.09.15:*  
-+   Protein generation with evolutionary diffusion: sequence is all you need  
-    + [[bioRxiv 2023.09.11.556673](https://www.biorxiv.org/content/10.1101/2023.09.11.556673v1)] • [[code](https://github.com/microsoft/evodiff)] • [[data](https://zenodo.org/record/8045076)]
-+   Zero-shot Mutation Effect Prediction on Protein Stability and Function using RoseTTAFold  
-    + [[Protein Science](https://onlinelibrary.wiley.com/doi/10.1002/pro.4780)] • [[dissertation](https://www.proquest.com/openview/dba5569e5efd0dc60fc7bedccb6afee3/)]
-+   IMPROVING ANTIBODY AFFINITY USING LABORATORY DATA WITH LANGUAGE MODEL GUIDED DESIGN  
-    + [[bioRxiv 2023.09.13.557505](https://www.biorxiv.org/content/10.1101/2023.09.13.557505v1)]
+*Papers last week, updated on 2023.09.22:*  
++   The Protein Engineering Tournament: An Open Science Benchmark for Protein Modeling and Design  
+    + [[arXiv:2309.09955](https://arxiv.org/abs/2309.09955v2)]
++   Accurate proteome-wide missense variant effect prediction with AlphaMissense  
+    + [[Science0,eadg7492DOI:10.1126/science.adg7492](https://www.science.org/doi/10.1126/science.adg7492)] • [[code](https://github.com/deepmind/alphamissense)] • [[data](https://console.cloud.google.com/storage/browser/dm_alphamissense)]
++   Computational design of sequence-specific DNA-binding proteins  
+    + [[bioRxiv 2023.09.20.558720](https://www.biorxiv.org/content/10.1101/2023.09.20.558720v1)] • [[Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/09/21/2023.09.20.558720/DC1/embed/media-1.docx)]
+  
 ------
 <p align="center">
   <br>
@@ -202,6 +203,10 @@ Leonardo V Castorina, Rokas Petrenas, Kartic Subr, Christopher W Wood
 Igor Melnyk, Payel Das, Vijil Chenthamarakshan, Aurelie Lozano  
 [arXiv:2111.06801](https://arxiv.org/abs/2111.06801)
 
+**The Protein Engineering Tournament: An Open Science Benchmark for Protein Modeling and Design**  
+Chase Armer, Hassan Kane, Dana Cortade, Dave Estell, Adil Yusuf, Radhakrishna Sanka, Henning Redestig, TJ Brunette, Pete Kelly, Erika DeBenedictis  
+[arXiv:2309.09955](https://arxiv.org/abs/2309.09955v2)
+
 ### 0.2 Structure Datasets
 
 **AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**  
@@ -224,6 +229,10 @@ Linsky, T.W., Noble, K., Tobin, A.R. et al.
 **OpenProteinSet: Training data for structural biology at scale**  
 Gustaf Ahdritz, Nazim Bouatta, Sachin Kadyan, Lukas Jarosch, Daniel Berenberg, Ian Fisk, Andrew M. Watkins, Stephen Ra, Richard Bonneau, Mohammed AlQuraishi
 [arXiv:2308.05326](https://arxiv.org/abs/2308.05326) • [OpenFold](https://github.com/aqlaboratory/openfold)
+
+**ProteinInvBench: Benchmarking Protein Design on Diverse Tasks, Models, and Metrics**  
+Zhangyang Gao, Cheng Tan, Yijie Zhang, Xingran Chen, Stan Z. Li  
+[GitHub](https://github.com/A4Bio/ProteinInvBench)
 
 ### 0.3 Databases
 
@@ -882,7 +891,7 @@ Weian Mao, Muzhi Zhu, Hao Chen, Chunhua Shen
 
 **Knowledge-Design: Pushing the Limit of Protein Deign via Knowledge Refinement**  
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
-[arXiv:2305.15151](https://arxiv.org/abs/2305.15151)
+[arXiv:2305.15151](https://arxiv.org/abs/2305.15151) • [code](https://github.com/A4Bio/ProteinInvBench)
 
 **SPIN-CGNN: Improved fixed backbone protein design with contact map-based graph construction and contact graph neural network**  
 Xing Zhang, Hongmei Yin, Fei Ling, Jian Zhan, Yaoqi Zhou  
@@ -903,6 +912,10 @@ Kao, Hsi-Wen, et al.
 **Rationally seeded computational protein design**  
 Katherine I. Albanese, Rokas Petrenas, Fabio Pirro, Elise A. Naudin, Ufuk Borucu, William M. Dawson, D. Arne Scott, Graham J. Leggett, Orion D. Weiner, Thomas A. A. Oliver, Derek N. Woolfson  
 [bioRxiv 2023.08.25.554789](https://www.biorxiv.org/content/10.1101/2023.08.25.554789v1) • [code](https://github.com/polizzilab/design_tools)
+
+**Computational design of sequence-specific DNA-binding proteins**  
+Cameron J Glasscock, Robert Pecoraro, Ryan McHugh, Lindsey A. Doyle, Wei Chen, Olivier Boivin, Beau Lonnquist, Emily Na, Yuliya Politanska, Hugh K Haddox, David Cox, Christoffer Norn, Brian Coventry, Inna Goreshnik, Dionne Vafeados, Gyu Rie Lee, Raluca Gordan, Barry L Stoddard, Frank DiMaio, David Baker  
+[bioRxiv 2023.09.20.558720](https://www.biorxiv.org/content/10.1101/2023.09.20.558720v1) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/09/21/2023.09.20.558720/DC1/embed/media-1.docx)
 
 ### 4.6 GAN-based
 
@@ -1751,6 +1764,10 @@ Bobak Pezeshki, Radu Marinescu, Alexander Ihler, Rina Dechter
 **Zero-shot Mutation Effect Prediction on Protein Stability and Function using RoseTTAFold**  
 Sanaa Mansoor, Minkyung Baek, David Juergens, Joseph L. Watson, David Baker  
 [Protein Science](https://onlinelibrary.wiley.com/doi/10.1002/pro.4780) • [dissertation](https://www.proquest.com/openview/dba5569e5efd0dc60fc7bedccb6afee3/)
+
+**Accurate proteome-wide missense variant effect prediction with AlphaMissense**  
+Jun Cheng et al.  
+[Science0,eadg7492DOI:10.1126/science.adg7492](https://www.science.org/doi/10.1126/science.adg7492) • [code](https://github.com/deepmind/alphamissense) • [data](https://console.cloud.google.com/storage/browser/dm_alphamissense)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
