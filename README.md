@@ -8,14 +8,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.09.22:*  
-+   The Protein Engineering Tournament: An Open Science Benchmark for Protein Modeling and Design  
-    + [[arXiv:2309.09955](https://arxiv.org/abs/2309.09955v2)]
-+   Accurate proteome-wide missense variant effect prediction with AlphaMissense  
-    + [[Science0,eadg7492DOI:10.1126/science.adg7492](https://www.science.org/doi/10.1126/science.adg7492)] • [[code](https://github.com/deepmind/alphamissense)] • [[data](https://console.cloud.google.com/storage/browser/dm_alphamissense)]
-+   Computational design of sequence-specific DNA-binding proteins  
-    + [[bioRxiv 2023.09.20.558720](https://www.biorxiv.org/content/10.1101/2023.09.20.558720v1)] • [[Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/09/21/2023.09.20.558720/DC1/embed/media-1.docx)]
-  
+*Papers last week, updated on 2023.09.29:*  
++   What makes the effect of protein mutations difficult to predict?  
+    + [[bioRxiv 2023.09.25.559319](https://www.biorxiv.org/content/10.1101/2023.09.25.559319v1)] • [[code](https://github.com/florisvdf/mutation-predictability)]
++   Generative Diffusion Models for Antibody Design, Docking, and Optimization  
+    + [[bioRxiv 2023.09.25.559190](https://www.biorxiv.org/content/10.1101/2023.09.25.559190v1)] • [[code](https://github.com/pengzhangzhi/ab_opt)] • [[website](https://pengzhangzhi.github.io/ab_opt_homepage/)]
++   AntiBARTy Diffusion for Property Guided Antibody Design  
+    + [[arXiv:2309.13129](https://arxiv.org/abs/2309.13129)]
 ------
 <p align="center">
   <br>
@@ -290,6 +289,10 @@ Ferguson, Andrew L., and Rama Ranganathan.
 Boniolo, Fabio, et al.  
 [Expert Opinion on Drug Discovery 16.9 (2021)](https://www.tandfonline.com/doi/full/10.1080/17460441.2021.1918096)
 
+**Protein design with deep learning**  
+Defresne, Marianne, Sophie Barbe, and Thomas Schiex.  
+[International Journal of Molecular Sciences 22.21 (2021)](https://www.mdpi.com/1422-0067/22/21/11741)
+
 **Protein sequence design with deep generative models**  
 Zachary Wu, Kadina E. Johnston, Frances H. Arnold, Kevin K. Yang  
 [Current Opinion in Chemical Biology 65](https://www.sciencedirect.com/science/article/pii/S136759312100051X) • [note](https://zhuanlan.zhihu.com/p/466616309) • 2021  
@@ -358,6 +361,10 @@ Mengchun Zhang, Maryam Qamar, Taegoo Kang, Yuna Jung, Chenshuang Zhang, Sung-Ho 
 **Exploring the Protein Sequence Space with Global Generative Models**  
 Sergio Romero-Romero, Sebastian Lindner, Noelia Ferruz  
 [arXiv:2305.01941](https://arxiv.org/abs/2305.01941)
+
+**The Era of Machine Learning for Protein Design, Summarized in Four Key Methods**  
+LucianoSphere  
+[Towards Data Science](https://towardsdatascience.com/the-era-of-machine-learning-for-protein-design-summarized-in-four-key-methods-d6f1dac5de96)
 
 **Is novelty predictable?**  
 Clara Fannjiang, Jennifer Listgarten  
@@ -431,7 +438,7 @@ Gupta, Suchetana, Noora Azadvari, and Parisa Hosseinzadeh.
 
 **Improving de novo Protein Binder Design with Deep Learning**  
 Nathaniel Bennett, Brian Coventry, Inna Goreshnik, Buwei Huang, Aza Allen, Dionne Vafeados, Ying Po Peng, Justas Dauparas, Minkyung Baek, Lance Stewart, Frank DiMaio, Steven De Munck, Savvas Savvides, David Baker  
-[bioRxiv 2022.06.15.495993](https://www.biorxiv.org/content/10.1101/2022.06.15.495993v1)/[Nat Commun 14, 2625 (2023)](https://www.nature.com/articles/s41467-023-38328-5) • [code](https://github.com/nrbennet/dl_binder_design)
+[bioRxiv 2022.06.15.495993](https://www.biorxiv.org/content/10.1101/2022.06.15.495993v1)/[Nat Commun 14, 2625 (2023)](https://www.nature.com/articles/s41467-023-38328-5) • [code](https://github.com/nrbennet/dl_binder_design) • [news](https://phys.org/news/2023-08-deep-protein.html)
 
 ### 1.5 Enzyme design
 
@@ -948,6 +955,10 @@ Mmatthew McPartlon, Ben Lai, Jinbo Xu
 **Learning inverse folding from millions of predicted structures**  
 Chloe Hsu, Robert Verkuil, Jason Liu, Zeming Lin, Brian Hie, Tom Sercu, Adam Lerer, Alexander Rives  
 [bioRxiv (2022)](https://doi.org/10.1101/2022.04.10.487779) • [esm](https://github.com/facebookresearch/esm)  
+
+**Breaking boundaries in protein design with a new AI model that understands interactions with any kind of molecule**  
+LucianoSphere  
+[Towards Data Science](https://towardsdatascience.com/breaking-boundaries-in-protein-design-with-a-new-ai-model-that-understands-interactions-with-any-388fd747ee40)
 
 **Accurate and efficient protein sequence design through learning concise local environment of residues**  
 Huang, Bin, et al.  
@@ -1535,6 +1546,10 @@ Zixuan Jiang, Sitao Zhang, Rundong Huang, Shaoxun Mo, Letao Zhu, Peiheng Li, Ziy
 Sarah Alamdari, Nitya Thakkar, Rianne van den Berg, Alex Xijie Lu, Nicolo Fusi, Ava Pardis Amini, Kevin K Yang  
 [bioRxiv 2023.09.11.556673](https://www.biorxiv.org/content/10.1101/2023.09.11.556673v1) • [code](https://github.com/microsoft/evodiff) • [data](https://zenodo.org/record/8045076)
 
+**AntiBARTy Diffusion for Property Guided Antibody Design**  
+Jordan Venderley  
+[arXiv:2309.13129](https://arxiv.org/abs/2309.13129)
+
 ### 5.14 GNN-based
 
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**  
@@ -1591,6 +1606,10 @@ Yangtian Zhan, Zuobai Zhang, Bozitao Zhong, Sanchit Misra, Jian Tang
 Karolis Martinkus, Jan Ludwiczak, Kyunghyun Cho, Wei-Ching Lian, Julien Lafrance-Vanasse, Isidro Hotzel, Arvind Rajpal, Yan Wu, Richard Bonneau, Vladimir Gligorijevic, Andreas Loukas  
 [arXiv:2308.05027](https://arxiv.org/abs/2308.05027)
 
+**Generative Diffusion Models for Antibody Design, Docking, and Optimization**  
+Zhangzhi Peng, Chenchen Han, Xiaohan Wang, Dapeng Li, Fajiie Yuan  
+[bioRxiv 2023.09.25.559190](https://www.biorxiv.org/content/10.1101/2023.09.25.559190v1) • [code](https://github.com/pengzhangzhi/ab_opt) • [website](https://pengzhangzhi.github.io/ab_opt_homepage/)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
@@ -1645,7 +1664,7 @@ Yogesh Verma, Markus Heinonen, Vikas Garg
 
 **Protein Sequence and Structure Co-Design with Equivariant Translation**  
 Chence Shi, Chuanrui Wang, Jiarui Lu, Bozitao Zhong, Jian Tang  
-[arXiv:2210.08761](https://arxiv.org/abs/2210.08761)/[ICLR 2023](https://openreview.net/forum?id=pRCMXcfdihq) • [Supplementary](https://openreview.net/attachment?id=pRCMXcfdihq&name=supplementary_material)
+[arXiv:2210.08761](https://arxiv.org/abs/2210.08761)/[ICLR 2023](https://openreview.net/forum?id=pRCMXcfdihq) • [Supplementary](https://openreview.net/attachment?id=pRCMXcfdihq&name=supplementary_material) • [code](https://github.com/shichence/ProtSeed)
 
 **Deep Learning for Flexible and Site-Specific Protein Docking and Design**  
 Matt McPartlon, Jinbo Xu  
@@ -1769,6 +1788,10 @@ Sanaa Mansoor, Minkyung Baek, David Juergens, Joseph L. Watson, David Baker
 Jun Cheng et al.  
 [Science0,eadg7492DOI:10.1126/science.adg7492](https://www.science.org/doi/10.1126/science.adg7492) • [code](https://github.com/deepmind/alphamissense) • [data](https://console.cloud.google.com/storage/browser/dm_alphamissense)
 
+**What makes the effect of protein mutations difficult to predict?**  
+Floris Julian van der Flier, Dave Estell, Sina Pricelius, Lydia Dankmeyer, Sander van Stigt Thans, Harm Mulder, Rei Otsuka, Frits Goedegebuur, Laurens Lammerts, Diego Staphorst, Aalt D.J. van Dijk, Dick de Ridder, Henning Redestig  
+[bioRxiv 2023.09.25.559319](https://www.biorxiv.org/content/10.1101/2023.09.25.559319v1) • [code](https://github.com/florisvdf/mutation-predictability)
+
 ### 7.2 Protein Language Models (PTM) and representation learning
 
 > More detailed protein representation learning list:  
@@ -1830,10 +1853,6 @@ Arne Schneuing, Yuanqi Du, Charles Harris, Arian Jamasb, Ilia Igashov, Weitao Du
 [NeurIPS 2022](https://www.mlsb.io/papers_2022/Structure_based_Drug_Design_with_Equivariant_Diffusion_Models.pdf)/[arXiv:2210.13695](https://arxiv.org/abs/2210.13695) • [code](https://github.com/arneschneuing/DiffSBDD)
 
 #### 7.3.2 Optimized sampling
-
-**A 3D Generative Model for Structure-Based Drug Design**  
-Luo, Shitong, et al.  
-[Advances in Neural Information Processing Systems 34 (2021)](https://proceedings.neurips.cc/paper/2021/hash/314450613369e0ee72d0da7f6fee773c-Abstract.html) • [code](https://github.com/luost26/3D-Generative-SBDD)
 
 **Generating 3D Molecules for Target Protein Binding**  
 Meng Liu, Youzhi Luo, Kanji Uchino, Koji Maruhashi, Shuiwang Ji  
