@@ -8,13 +8,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.09.29:*  
-+   What makes the effect of protein mutations difficult to predict?  
-    + [[bioRxiv 2023.09.25.559319](https://www.biorxiv.org/content/10.1101/2023.09.25.559319v1)] • [[code](https://github.com/florisvdf/mutation-predictability)]
-+   Generative Diffusion Models for Antibody Design, Docking, and Optimization  
-    + [[bioRxiv 2023.09.25.559190](https://www.biorxiv.org/content/10.1101/2023.09.25.559190v1)] • [[code](https://github.com/pengzhangzhi/ab_opt)] • [[website](https://pengzhangzhi.github.io/ab_opt_homepage/)]
-+   AntiBARTy Diffusion for Property Guided Antibody Design  
-    + [[arXiv:2309.13129](https://arxiv.org/abs/2309.13129)]
+*Papers last week, updated on 2023.10.06:*  
++   Hallucination of closed repeat proteins containing central pockets  
+    + [[Nat Struct Mol Biol (2023)](https://www.nature.com/articles/s41594-023-01112-6)] • [[code](https://github.com/dmitropher/af2_multistate_hallucination)]
++   Improving protein expression, stability, and function with ProteinMPNN  
+    + [[bioRxiv 2023.10.03.560713](https://www.biorxiv.org/content/10.1101/2023.10.03.560713v1)] • [[Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/10/03/2023.10.03.560713/DC1/embed/media-1.pdf)]
++   The structural landscape of the immunoglobulin fold by large-scale de novo design  
+    + [[bioRxiv 2023.10.03.560637](https://www.biorxiv.org/content/10.1101/2023.10.03.560637v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/04/2023.10.03.560637/DC1/embed/media-1.pdf)] • [[code](https://github.com/JorgeRoel/betasandwich)] • [[data](https://zenodo.org/record/8380285)]
++   Joint Design of Protein Sequence and Structure based on Motifs  
+    + [[arXiv:2310.02546](https://arxiv.org/abs/2310.02546)]
++ Full-Atom Protein Pocket Design via Iterative Refinement  
+    + [[arXiv:2310.02553](https://arxiv.org/abs/2310.02553)] • [[code](https://github.com/zaixizhang/FAIR)]
 ------
 <p align="center">
   <br>
@@ -570,6 +574,10 @@ Takatsugu Kosugi, Masahito Ohue
 neoxbio  
 [website](https://www.neoxbio.com/platform-technology.html) • [news](https://mp.weixin.qq.com/s/Kb4EQ0YvYDvoLZ_cnAlUPw) • masif-based • commercial
 
+**Hallucination of closed repeat proteins containing central pockets**  
+An, L., Hicks, D.R., Zorine, D. et al.  
+[Nat Struct Mol Biol (2023)](https://www.nature.com/articles/s41594-023-01112-6) • [code](https://github.com/dmitropher/af2_multistate_hallucination)
+
 ### 2.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
@@ -918,11 +926,15 @@ Kao, Hsi-Wen, et al.
 
 **Rationally seeded computational protein design**  
 Katherine I. Albanese, Rokas Petrenas, Fabio Pirro, Elise A. Naudin, Ufuk Borucu, William M. Dawson, D. Arne Scott, Graham J. Leggett, Orion D. Weiner, Thomas A. A. Oliver, Derek N. Woolfson  
-[bioRxiv 2023.08.25.554789](https://www.biorxiv.org/content/10.1101/2023.08.25.554789v1) • [code](https://github.com/polizzilab/design_tools)
+[bioRxiv 2023.08.25.554789](https://www.biorxiv.orxg/content/10.1101/2023.08.25.554789v1) • [code](https://github.com/polizzilab/design_tools)
 
 **Computational design of sequence-specific DNA-binding proteins**  
 Cameron J Glasscock, Robert Pecoraro, Ryan McHugh, Lindsey A. Doyle, Wei Chen, Olivier Boivin, Beau Lonnquist, Emily Na, Yuliya Politanska, Hugh K Haddox, David Cox, Christoffer Norn, Brian Coventry, Inna Goreshnik, Dionne Vafeados, Gyu Rie Lee, Raluca Gordan, Barry L Stoddard, Frank DiMaio, David Baker  
 [bioRxiv 2023.09.20.558720](https://www.biorxiv.org/content/10.1101/2023.09.20.558720v1) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/09/21/2023.09.20.558720/DC1/embed/media-1.docx)
+
+**Improving protein expression, stability, and function with ProteinMPNN**  
+Kiera H. Sumida, Reyes Núñez Franco, Indrek Kalvet, Samuel J. Pellock, Basile I. M. Wicky, Lukas F. Milles, Justas Dauparas, Jue Wang, Yakov Kipnis, Noel Jameson, Alex Kang, Joshmyn De La Cruz, Banumathi Sankaran, Asim K Bera, Gonzalo Jimenez Oses, David Baker  
+[bioRxiv 2023.10.03.560713](https://www.biorxiv.org/content/10.1101/2023.10.03.560713v1) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/10/03/2023.10.03.560713/DC1/embed/media-1.pdf)
 
 ### 4.6 GAN-based
 
@@ -1368,13 +1380,17 @@ Riesselman, Adam, et al.
 Tallorin, Lorillee, et al.  
 [Nature communications 9.1 (2018)](https://www.nature.com/articles/s41467-018-07717-6) • [code](https://github.com/peter-i-frazier/pool)
 
-**Now What Sequence? Pre-trained Ensembles for Bayesian Optimization of Protein Sequences**  
-Ziyue Yang, Katarina A Milas, Andrew D White  
-[bioRxiv 2022.08.05.502972](https://www.biorxiv.org/content/10.1101/2022.08.05.502972v2) • [code](https://github.com/ur-whitelab/wazy) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/08/06/2022.08.05.502972/DC1/embed/media-1.pdf) • [Colab](https://colab.research.google.com/github/ur-whitelab/wazy/blob/master/colab/WazyAlphaFold2.ipynb)
+**Biological Sequences Design using Batched Bayesian Optimization**  
+Belanger, David, et al.  
+[Machine Learning and the Physical Sciences Workshop (NeurIPS 2019)](https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_141.pdf)
 
 **Lattice protein design using Bayesian learning**  
 Takahashi, Tomoei, George Chikenji, and Kei Tokita.  
 [arXiv:2003.06601](https://arxiv.org/abs/2003.06601)/[Physical Review E 104.1 (2021): 014404](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.104.014404)
+
+**Now What Sequence? Pre-trained Ensembles for Bayesian Optimization of Protein Sequences**  
+Ziyue Yang, Katarina A Milas, Andrew D White  
+[bioRxiv 2022.08.05.502972](https://www.biorxiv.org/content/10.1101/2022.08.05.502972v2) • [code](https://github.com/ur-whitelab/wazy) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/08/06/2022.08.05.502972/DC1/embed/media-1.pdf) • [Colab](https://colab.research.google.com/github/ur-whitelab/wazy/blob/master/colab/WazyAlphaFold2.ipynb)
 
 **AntBO: Towards Real-World Automated Antibody Design with Combinatorial Bayesian Optimisation**  
 Khan, Asif, et al.  
@@ -1628,6 +1644,10 @@ Susana Vázquez Torres, Philip J. Y. Leung, Isaac D. Lutz, Preetham Venkatesh, J
 Sidney Lyayuga Lisanza, Jacob Merle Gershon, Sam Wayne Kenmore Tipps, Lucas Arnoldt, Samuel Hendel, Jeremiah Nelson Sims, Xinting Li, David Baker  
 [bioRxiv 2023.05.08.539766](https://www.biorxiv.org/content/10.1101/2023.05.08.539766v1) • [code](https://github.com/RosettaCommons/protein_generator#proteingenerator-generate-sequence-structure-pairs-with-rosettafold) • [hugging face](https://huggingface.co/spaces/merle/PROTEIN_GENERATOR) • [lecture](https://www.youtube.com/watch?v=bS71K2U0amA)
 
+**The structural landscape of the immunoglobulin fold by large-scale de novo design**  
+Jorge Roel-Touris, Lourdes Carcelen, Enrique Marcos  
+[bioRxiv 2023.10.03.560637](https://www.biorxiv.org/content/10.1101/2023.10.03.560637v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/04/2023.10.03.560637/DC1/embed/media-1.pdf) • [code](https://github.com/JorgeRoel/betasandwich) • [data](https://zenodo.org/record/8380285)
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**  
@@ -1660,6 +1680,10 @@ Xiangzhe Kong, Wenbing Huang, Yang Liu
 Yogesh Verma, Markus Heinonen, Vikas Garg  
 [arXiv:2306.01005](https://arxiv.org/abs/2306.01005)
 
+**Joint Design of Protein Sequence and Structure based on Motifs**  
+Zhenqiao Song, Yunlong Zhao, Yufei Song, Wenxian Shi, Yang Yang, Lei Li  
+[arXiv:2310.02546](https://arxiv.org/abs/2310.02546)
+
 ### 6.6 Transformer-based
 
 **Protein Sequence and Structure Co-Design with Equivariant Translation**  
@@ -1669,6 +1693,10 @@ Chence Shi, Chuanrui Wang, Jiarui Lu, Bozitao Zhong, Jian Tang
 **Deep Learning for Flexible and Site-Specific Protein Docking and Design**  
 Matt McPartlon, Jinbo Xu  
 [bioRxiv 2023.04.01.535079](https://www.biorxiv.org/content/10.1101/2023.04.01.535079v1) • [Title](https://github.com/drorlab/DIPS)
+
+**Full-Atom Protein Pocket Design via Iterative Refinement**  
+Zaixi Zhang, Zepu Lu, Zhongkai Hao, Marinka Zitnik, Qi Liu  
+[arXiv:2310.02553](https://arxiv.org/abs/2310.02553) • [code](https://github.com/zaixizhang/FAIR)
 
 ### 6.6 MLP-based
 
