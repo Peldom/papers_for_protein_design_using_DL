@@ -1,6 +1,6 @@
 # List of papers about Proteins Design using Deep Learning
 
-> Inspired by [Kevin Kaichuang Yang](https://github.com/yangkky)'s awesome [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins), we established this repository with a sharper focus on **deep learning for protein design**, which is a rapidly evolving field.
+> This repository is inspired by the remarkable work of [Kevin Kaichuang Yang](https://github.com/yangkky) and their outstanding project [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). We have established this repository to provide a specialized and focused platform for the field of **Deep Learning for Protein Design**, a rapidly advancing domain in computational biology.
 > 
 > [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) and [suggestions](https://github.com/Peldom/papers_for_protein_design_using_DL/issues) are warmly welcome!
 <!-- >
@@ -17,8 +17,13 @@
     + [[bioRxiv 2023.10.03.560637](https://www.biorxiv.org/content/10.1101/2023.10.03.560637v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/04/2023.10.03.560637/DC1/embed/media-1.pdf)] • [[code](https://github.com/JorgeRoel/betasandwich)] • [[data](https://zenodo.org/record/8380285)]
 +   Joint Design of Protein Sequence and Structure based on Motifs  
     + [[arXiv:2310.02546](https://arxiv.org/abs/2310.02546)]
-+ Full-Atom Protein Pocket Design via Iterative Refinement  
++   Full-Atom Protein Pocket Design via Iterative Refinement  
     + [[arXiv:2310.02553](https://arxiv.org/abs/2310.02553)] • [[code](https://github.com/zaixizhang/FAIR)]
++   SeqPredNN: a neural network that generates protein sequences that fold into specified tertiary structures  
+    + [[BMC bioinformatics 24.1 (2023)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05498-4)] • [[code](https://github.com/falategan/SeqPredNN)]
++   SE(3)-Stochastic Flow Matching for Protein Backbone Generation  
+    + [[arXiv:2310.02391](https://arxiv.org/abs/2310.02391)]
+
 ------
 <p align="center">
   <br>
@@ -64,7 +69,8 @@
   <a href="#33-dae-based">DAE-based</a> •
   <a href="#34-mlp-based">MLP-based</a> •
   <a href="#35-diffusion-based">Diffusion-based</a> •
-  <a href="#36-rl-based">RL-based</a>
+  <a href="#36-rl-based">RL-based</a> •
+  <a href="#37-flow-based">Flow-based</a>
   <br>
   <strong><a href="#4scaffold-to-sequence">4) Scaffold to Sequence</a></strong>
   <br>
@@ -770,6 +776,12 @@ Luhuan Wu, Brian L. Trippe, Christian A. Naesseth, David M. Blei, John P. Cunnin
 Isaac D Lutz, Shunzhi Wang, Christoffer Norn, Andrew J Borst, Yan Ting Zhao, Annie Dosey, Longxing Cao, Zhe Li, Minkyung Baek, Neil P King, Hannele Ruohola-Baker, David Baker  
 [bioRxiv 2022.09.25.509419](https://www.biorxiv.org/content/10.1101/2022.09.25.509419v1)/[Science380, 266-273(2023)](https://www.science.org/doi/10.1126/science.adf6591) • [code](https://github.com/idlutz/protein-backbone-MCTS),[code2](https://files.ipd.uw.edu/pub/2023_RL_capsid_design/sequence_design_pipeline.tar)
 
+### 3.7 Flow-based
+
+**SE(3)-Stochastic Flow Matching for Protein Backbone Generation**  
+Avishek Joey Bose, Tara Akhound-Sadegh, Kilian Fatras, Guillaume Huguet, Jarrid Rector-Brooks, Cheng-Hao Liu, Andrei Cristian Nica, Maksym Korablyov, Michael Bronstein, Alexander Tong  
+[arXiv:2310.02391](https://arxiv.org/abs/2310.02391)
+
 ## 4.Scaffold to Sequence
 
 > Identify amino sequence from given backbone/scaffold/template constrains: torsion angles(φ & ψ), backbone angles(θ and τ), backbone dihedrals (φ, ψ & ω), backbone atoms (Cα, N, C, & O), Cα − Cα distance, unit direction vectors of Cα−Cα, Cα−N & Cα−C, etc(aka. inverse folding). Referred from [here](https://arxiv.org/abs/2202.01079). Energy-based models are also inculded for task of rotamer conformation(χ angles or atom coordinates) recovery.  
@@ -795,6 +807,10 @@ Wang, Jingxue, et al.
 **Ligand-aware protein sequence design using protein self contacts**  
 Jody Mou, Benjamin Fry, Chun-Chen Yao, Nicholas Polizzi  
 [NeurIPS 2022](https://www.dropbox.com/s/98ri2f9gverljcw/Ligand-aware_protein_sequence_design_using_protein_self_contacts.pdf?dl=0)
+
+**SeqPredNN: a neural network that generates protein sequences that fold into specified tertiary structures**  
+Lategan, F. Adriaan, Caroline Schreiber, and Hugh G. Patterton.  
+[BMC bioinformatics 24.1 (2023)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05498-4) • [code](https://github.com/falategan/SeqPredNN)
 
 ### 4.2 VAE-based
 
