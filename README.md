@@ -8,22 +8,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.10.06:*  
-+   Hallucination of closed repeat proteins containing central pockets  
-    + [[Nat Struct Mol Biol (2023)](https://www.nature.com/articles/s41594-023-01112-6)] • [[code](https://github.com/dmitropher/af2_multistate_hallucination)]
-+   Improving protein expression, stability, and function with ProteinMPNN  
-    + [[bioRxiv 2023.10.03.560713](https://www.biorxiv.org/content/10.1101/2023.10.03.560713v1)] • [[Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/10/03/2023.10.03.560713/DC1/embed/media-1.pdf)]
-+   The structural landscape of the immunoglobulin fold by large-scale de novo design  
-    + [[bioRxiv 2023.10.03.560637](https://www.biorxiv.org/content/10.1101/2023.10.03.560637v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/04/2023.10.03.560637/DC1/embed/media-1.pdf)] • [[code](https://github.com/JorgeRoel/betasandwich)] • [[data](https://zenodo.org/record/8380285)]
-+   Joint Design of Protein Sequence and Structure based on Motifs  
-    + [[arXiv:2310.02546](https://arxiv.org/abs/2310.02546)]
-+   Full-Atom Protein Pocket Design via Iterative Refinement  
-    + [[arXiv:2310.02553](https://arxiv.org/abs/2310.02553)] • [[code](https://github.com/zaixizhang/FAIR)]
-+   SeqPredNN: a neural network that generates protein sequences that fold into specified tertiary structures  
-    + [[BMC bioinformatics 24.1 (2023)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05498-4)] • [[code](https://github.com/falategan/SeqPredNN)]
-+   SE(3)-Stochastic Flow Matching for Protein Backbone Generation  
-    + [[arXiv:2310.02391](https://arxiv.org/abs/2310.02391)]
-
+*Papers last week, updated on 2023.10.13:*  
++   A Suite of Designed Protein Cages Using Machine Learning Algorithms and Protein Fragment-Based Protocols  
+    + [[bioRxiv 2023.10.09.561468](https://www.biorxiv.org/content/10.1101/2023.10.09.561468v1)]
++   Fast protein backbone generation with SE(3) flow matching  
+    + [[arXiv:2310.05297](https://arxiv.org/abs/2310.05297)] • [[code](https://github.com/kylemeador/symdesign)] • [[colab](https://bit.ly/symdesign-colab)]
++   Generalized Biomolecular Modeling and Design with RoseTTAFold All-Atom  
+    + [[bioRxiv 2023.10.09.561603](https://www.biorxiv.org/content/10.1101/2023.10.09.561603v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/09/2023.10.09.561603/DC1/embed/media-1.pdf)]
++   Harmonic Self-Conditioned Flow Matching for Multi-Ligand Docking and Binding Site Design  
+    + [[arXiv:2310.05764](https://arxiv.org/abs/2310.05764)] • [[code](https://github.com/HannesStark/FlowSite)]
 ------
 <p align="center">
   <br>
@@ -83,7 +76,8 @@
   <a href="#47-transformer-based">Transformer-based</a> •
   <a href="#48-resnet-based">ResNet-based</a> •
   <a href="#49-diffusion-based">Diffusion-based</a> •
-  <a href="#410-bayesian-based">Bayesian method</a>
+  <a href="#410-bayesian-based">Bayesian method</a> •
+  <a href="#411-flow-based">Flow-based</a>
   <br>
   <strong><a href="#5function-to-sequence">5) Function to Sequence</a></strong>
   <br>
@@ -782,6 +776,10 @@ Isaac D Lutz, Shunzhi Wang, Christoffer Norn, Andrew J Borst, Yan Ting Zhao, Ann
 Avishek Joey Bose, Tara Akhound-Sadegh, Kilian Fatras, Guillaume Huguet, Jarrid Rector-Brooks, Cheng-Hao Liu, Andrei Cristian Nica, Maksym Korablyov, Michael Bronstein, Alexander Tong  
 [arXiv:2310.02391](https://arxiv.org/abs/2310.02391)
 
+**Fast protein backbone generation with SE(3) flow matching**  
+Jason Yim, Andrew Campbell, Andrew Y. K. Foong, Michael Gastegger, José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling, Regina Barzilay, Tommi Jaakkola, Frank Noé  
+[arXiv:2310.05297](https://arxiv.org/abs/2310.05297)
+
 ## 4.Scaffold to Sequence
 
 > Identify amino sequence from given backbone/scaffold/template constrains: torsion angles(φ & ψ), backbone angles(θ and τ), backbone dihedrals (φ, ψ & ω), backbone atoms (Cα, N, C, & O), Cα − Cα distance, unit direction vectors of Cα−Cα, Cα−N & Cα−C, etc(aka. inverse folding). Referred from [here](https://arxiv.org/abs/2202.01079). Energy-based models are also inculded for task of rotamer conformation(χ angles or atom coordinates) recovery.  
@@ -952,6 +950,10 @@ Cameron J Glasscock, Robert Pecoraro, Ryan McHugh, Lindsey A. Doyle, Wei Chen, O
 Kiera H. Sumida, Reyes Núñez Franco, Indrek Kalvet, Samuel J. Pellock, Basile I. M. Wicky, Lukas F. Milles, Justas Dauparas, Jue Wang, Yakov Kipnis, Noel Jameson, Alex Kang, Joshmyn De La Cruz, Banumathi Sankaran, Asim K Bera, Gonzalo Jimenez Oses, David Baker  
 [bioRxiv 2023.10.03.560713](https://www.biorxiv.org/content/10.1101/2023.10.03.560713v1) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/10/03/2023.10.03.560713/DC1/embed/media-1.pdf)
 
+**A Suite of Designed Protein Cages Using Machine Learning Algorithms and Protein Fragment-Based Protocols**  
+Kyle Meador, Roger Castells-Graells, Roman Aguirre, Michael R. Sawaya, Mark A. Arbing, Trent Sherman, Chethaka Senarathne, Todd O. Yeates  
+[bioRxiv 2023.10.09.561468](https://www.biorxiv.org/content/10.1101/2023.10.09.561468v1) • [code](https://github.com/kylemeador/symdesign) • [colab](https://bit.ly/symdesign-colab)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1073,6 +1075,12 @@ Bingxin Zhou, Lirong Zheng, Banghao Wu, Kai Yi, Bozitao Zhong, Pietro Lio, Liang
 **Inverse Protein Folding Using Deep Bayesian Optimization**  
 Natalie Maus, Yimeng Zeng, Daniel Allen Anderson, Phillip Maffettone, Aaron Solomon, Peyton Greenside, Osbert Bastani, Jacob R. Gardner  
 [arXiv:2305.18089](https://arxiv.org/abs/2305.18089) • [code](https://github.com/nataliemaus/bo-if)
+
+### 4.11 Flow-based
+
+**Harmonic Self-Conditioned Flow Matching for Multi-Ligand Docking and Binding Site Design**  
+Hannes Stärk, Bowen Jing, Regina Barzilay, Tommi Jaakkola  
+[arXiv:2310.05764](https://arxiv.org/abs/2310.05764) • [code](https://github.com/HannesStark/FlowSite)
 
 ## 5.Function to Sequence
 
@@ -1596,7 +1604,7 @@ Minsu Kim, Federico Berto, Sungsoo Ahn, Jinkyoo Park
 
 ## 6. Function to Structure
 
-> These models generate structures(including side chains) from expected function or recover a part of structures(aka. **inpainting**)
+> These models generate protein structures(including side chains) from expected function or recover a part of protein structures(aka. **inpainting**)
 
 ### 6.1 LSTM-based
 
@@ -1663,6 +1671,10 @@ Sidney Lyayuga Lisanza, Jacob Merle Gershon, Sam Wayne Kenmore Tipps, Lucas Arno
 **The structural landscape of the immunoglobulin fold by large-scale de novo design**  
 Jorge Roel-Touris, Lourdes Carcelen, Enrique Marcos  
 [bioRxiv 2023.10.03.560637](https://www.biorxiv.org/content/10.1101/2023.10.03.560637v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/04/2023.10.03.560637/DC1/embed/media-1.pdf) • [code](https://github.com/JorgeRoel/betasandwich) • [data](https://zenodo.org/record/8380285)
+
+**Generalized Biomolecular Modeling and Design with RoseTTAFold All-Atom**  
+Rohith Krishna, Jue Wang, Woody Ahern, Pascal Sturmfels, Preetham Venkatesh, Indrek Kalvet, Gyu Rie Lee, Felix S Morey-Burrows, Ivan Anishchenko, Ian R Humphreys, Ryan McHugh, Dionne Vafeados, Xinting Li, George A Sutherland, Andrew Hitchcock, C Neil Hunter, Minkyung Baek, Frank DiMaio, David Baker  
+[bioRxiv 2023.10.09.561603](https://www.biorxiv.org/content/10.1101/2023.10.09.561603v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/09/2023.10.09.561603/DC1/embed/media-1.pdf)
 
 ### 6.4 CNN-based
 
