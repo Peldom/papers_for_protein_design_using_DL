@@ -734,7 +734,7 @@ Huang, B., Xu, Y., Hu, X. et al
 
 **ForceGen: End-to-end de novo protein generation based on nonlinear mechanical unfolding responses using a protein language diffusion model**  
 Bo Ni and David L. Kaplan and M. Buehler  
-[arXiv:2310.10605](https://arxiv.org/abs/2310.10605) • [Supplementary]([https://openreview.net/attachment?id=6TxBxqNME1Y&name=supplementary_material](https://www.dropbox.com/scl/fi/33tnpd6u2xwermlvj22y9/SI_3_unfolding_movies_from_dataset.zip?rlkey=qno7rcitcdree8t9cj8wzg9sf&dl=0) • [code](https://github.com/lamm-mit/ProteinMechanicsDiffusionDesign)
+[arXiv:2310.10605](https://arxiv.org/abs/2310.10605) • [Supplementary](https://www.dropbox.com/scl/fi/33tnpd6u2xwermlvj22y9/SI_3_unfolding_movies_from_dataset.zip?rlkey=qno7rcitcdree8t9cj8wzg9sf&dl=0) • [code](https://github.com/lamm-mit/ProteinMechanicsDiffusionDesign)
 
 **Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem**  
 Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola  
