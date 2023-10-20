@@ -8,15 +8,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.10.13:*  
-+   A Suite of Designed Protein Cages Using Machine Learning Algorithms and Protein Fragment-Based Protocols  
-    + [[bioRxiv 2023.10.09.561468](https://www.biorxiv.org/content/10.1101/2023.10.09.561468v1)]
-+   Fast protein backbone generation with SE(3) flow matching  
-    + [[arXiv:2310.05297](https://arxiv.org/abs/2310.05297)] • [[code](https://github.com/kylemeador/symdesign)] • [[colab](https://bit.ly/symdesign-colab)]
-+   Generalized Biomolecular Modeling and Design with RoseTTAFold All-Atom  
-    + [[bioRxiv 2023.10.09.561603](https://www.biorxiv.org/content/10.1101/2023.10.09.561603v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/09/2023.10.09.561603/DC1/embed/media-1.pdf)]
-+   Harmonic Self-Conditioned Flow Matching for Multi-Ligand Docking and Binding Site Design  
-    + [[arXiv:2310.05764](https://arxiv.org/abs/2310.05764)] • [[code](https://github.com/HannesStark/FlowSite)]
+*Papers last week, updated on 2023.10.20:*  
++   Generative artificial intelligence for de novo protein design  
+    + [[arXiv:2310.09685](https://arxiv.org/abs/2310.09685)]
++   ForceGen: End-to-end de novo protein generation based on nonlinear mechanical unfolding responses using a protein language diffusion model  
+    + [[arXiv:2310.10605](https://arxiv.org/abs/2310.10605)] • [[code](https://github.com/lammmit/ProteinMechanicsDiffusionDesign)]
++   De novo generation of antibody CDRH3 with a pre-trained generative large language model  
+    + [[bioRxiv 2023.10.17.562827](https://www.biorxiv.org/content/10.1101/2023.10.17.562827v1)] • [[code](https://github.com/TencentAILabHealthcare/PALM)] • [[data](https://doi.org/10.5281/zenodo.7794583)]
++   De novo protein design using geometric vector field networks  
+    + [[arXiv:2310.11802](https://arxiv.org/abs/2310.11802)]
 ------
 <p align="center">
   <br>
@@ -386,6 +386,10 @@ Höcker, Birte, et al.
 新津藍  
 [生物工学会誌 101.8 (2023)](https://www.jstage.jst.go.jp/article/seibutsukogaku/101/8/101_101.8_431/_article/-char/ja/)
 
+**Generative artificial intelligence for de novo protein design**  
+Adam Winnifrith, Carlos Outeiral, Brian Hie  
+[arXiv:2310.09685](https://arxiv.org/abs/2310.09685)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
@@ -528,7 +532,7 @@ Bryant, Patrick, et al.
 
 **De novo protein design by inversion of the AlphaFold structure prediction network**  
 Casper Goverde, Benedict Wolf, Hamed Khakzad, Stephane Rosset, Bruno E Correia  
-[bioRxiv 2022.12.13.520346](https://www.biorxiv.org/content/10.1101/2022.12.13.520346v1) • [code](https://github.com/bene837/af_gradmcmc) • [lecture](https://www.youtube.com/watch?v=aUMGuogMZCA)
+[bioRxiv 2022.12.13.520346](https://www.biorxiv.org/content/10.1101/2022.12.13.520346v1) • [code](https://github.com/bene837/af_gradmcmc) • [lecture1](https://www.youtube.com/watch?v=aUMGuogMZCA) • [lecture2](https://www.youtube.com/watch?v=4S4J7gbhAa0)
 
 **Code of OpenComplex**  
 Jingcheng, Yu and Zhaoming, Chen and Zhaoqun, Li and Mingliang, Zeng and Wenjun, Lin and He, Huang and Qiwei, Ye  
@@ -552,7 +556,7 @@ Odessa J Goudy, Amrita Nallathambi, Tomoaki Kinjo, Nicholas Randolph, Brian Kuhl
 
 **Computational design of soluble analogues of integral membrane protein structures**  
 Casper Alexander Goverde, Martin Pacesa, Lars Jeremy Dornfeld, Sandrine Georgeon, Stephane Rosset, Justas Dauparas, Christian Shellhaas, Simon Kozlov, David Baker, Sergey Ovchinnikov, Bruno Correia  
-[bioRxiv 2023.05.09.540044](https://www.biorxiv.org/content/10.1101/2023.05.09.540044v1) • [code](https://github.com/bene837/af2seq) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/09/2023.05.09.540044/DC1/embed/media-1.pdf)
+[bioRxiv 2023.05.09.540044](https://www.biorxiv.org/content/10.1101/2023.05.09.540044v2) • [code](https://github.com/bene837/af2seq) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/09/2023.05.09.540044/DC1/embed/media-1.pdf)
 
 **Antibody Complementarity-Determining Region Sequence Design using AlphaFold2 and Binding Affinity Prediction Model**  
 Takafumi Ueki, Masahito Ohue  
@@ -1070,6 +1074,10 @@ Kai Yi, Bingxin Zhou, Yiqing Shen, Pietro Liò, Yu Guang Wang
 Bingxin Zhou, Lirong Zheng, Banghao Wu, Kai Yi, Bozitao Zhong, Pietro Lio, Liang Hong  
 [bioRxiv 2023.08.10.552783](https://www.biorxiv.org/content/10.1101/2023.08.10.552783v1)
 
+**ForceGen: End-to-end de novo protein generation based on nonlinear mechanical unfolding responses using a protein language diffusion model**  
+Bo Ni, David L. Kaplan, Markus J. Buehler  
+[arXiv:2310.10605](https://arxiv.org/abs/2310.10605) • [code](https://github.com/lammmit/ProteinMechanicsDiffusionDesign)
+
 ### 4.10 Bayesian-based
 
 **Inverse Protein Folding Using Deep Bayesian Optimization**  
@@ -1392,6 +1400,10 @@ Yaiza Serrano, Sergi Roda, Victor Guallar, Alexis Molina
 Ben Krause, Subu Subramanian, Tom Yuan, Marisa Yang, Aaron Sato, Nikhil Naik  
 [bioRxiv 2023.09.13.557505](https://www.biorxiv.org/content/10.1101/2023.09.13.557505v1)
 
+**De novo generation of antibody CDRH3 with a pre-trained generative large language model**  
+HaoHuai He, Bing He, Lei Guan, Yu Zhao, Guanxing Chen, Qingge Zhu, Calvin Yu-Chian Chen, Ting Li, Jianhua Yao  
+[bioRxiv 2023.10.17.562827](https://www.biorxiv.org/content/10.1101/2023.10.17.562827v1) • [code](https://github.com/TencentAILabHealthcare/PALM) • [data](https://doi.org/10.5281/zenodo.7794583)
+
 ### 5.5 ResNet-based
 
 **Accelerating protein design using autoregressive generative models**  
@@ -1566,7 +1578,7 @@ Cyril Malbranke, William Rostain, Florence Depardieu, Simona Cocco, Remi Monasso
 
 **Protein Discovery with Discrete Walk-Jump Sampling**  
 Nathan C. Frey, Daniel Berenberg, Karina Zadorozhny, Joseph Kleinhenz, Julien Lafrance-Vanasse, Isidro Hotzel, Yan Wu, Stephen Ra, Richard Bonneau, Kyunghyun Cho, Andreas Loukas, Vladimir Gligorijevic, Saeed Saremi  
-[arXiv:2306.12360](https://arxiv.org/abs/2306.12360) • [code](https://github.com/Genentech/walk-jump)
+[arXiv:2306.12360](https://arxiv.org/abs/2306.12360) • [code](https://github.com/Genentech/walk-jump) • [lecture](https://www.youtube.com/watch?v=r28m5Vk77Wk)
 
 ### 5.13 Diffusion-based
 
@@ -1644,7 +1656,7 @@ Yangtian Zhan, Zuobai Zhang, Bozitao Zhong, Sanchit Misra, Jian Tang
 
 **AbDiffuser: Full-Atom Generation of In-Vitro Functioning Antibodies**  
 Karolis Martinkus, Jan Ludwiczak, Kyunghyun Cho, Wei-Ching Lian, Julien Lafrance-Vanasse, Isidro Hotzel, Arvind Rajpal, Yan Wu, Richard Bonneau, Vladimir Gligorijevic, Andreas Loukas  
-[arXiv:2308.05027](https://arxiv.org/abs/2308.05027)
+[arXiv:2308.05027](https://arxiv.org/abs/2308.05027) • [lecture](https://www.youtube.com/watch?v=95w0Ht3m0JY)
 
 **Generative Diffusion Models for Antibody Design, Docking, and Optimization**  
 Zhangzhi Peng, Chenchen Han, Xiaohan Wang, Dapeng Li, Fajiie Yuan  
@@ -1680,7 +1692,7 @@ Rohith Krishna, Jue Wang, Woody Ahern, Pascal Sturmfels, Preetham Venkatesh, Ind
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**  
 Wehrle, Sarah, et al.  
-[Protein Science 30.CONF (2021)](https://infoscience.epfl.ch/record/290120)/[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.16.496402v2)/[Nature (2023)](https://www.nature.com/articles/s41586-023-05993-x) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/17/2022.06.16.496402/DC1/embed/media-1.pdf) • [masif_seed](https://github.com/LPDI-EPFL/masif_seed) • [masif](https://github.com/LPDI-EPFL/masif)
+[Protein Science 30.CONF (2021)](https://infoscience.epfl.ch/record/290120)/[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.16.496402v2)/[Nature (2023)](https://www.nature.com/articles/s41586-023-05993-x) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/17/2022.06.16.496402/DC1/embed/media-1.pdf) • [masif_seed](https://github.com/LPDI-EPFL/masif_seed) • [masif](https://github.com/LPDI-EPFL/masif) • [lecture](https://www.youtube.com/watch?v=4S4J7gbhAa0)
 
 ### 6.5 GNN-based
 
@@ -1711,6 +1723,10 @@ Yogesh Verma, Markus Heinonen, Vikas Garg
 **Joint Design of Protein Sequence and Structure based on Motifs**  
 Zhenqiao Song, Yunlong Zhao, Yufei Song, Wenxian Shi, Yang Yang, Lei Li  
 [arXiv:2310.02546](https://arxiv.org/abs/2310.02546)
+
+**De novo protein design using geometric vector field networks**  
+Weian Mao, Muzhi Zhu, Zheng Sun, Shuaike Shen, Lin Yuanbo Wu, Hao Chen, Chunhua Shen  
+[arXiv:2310.11802](https://arxiv.org/abs/2310.11802)
 
 ### 6.6 Transformer-based
 
