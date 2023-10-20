@@ -12,7 +12,7 @@
 +   Generative artificial intelligence for de novo protein design  
     + [[arXiv:2310.09685](https://arxiv.org/abs/2310.09685)]
 +   ForceGen: End-to-end de novo protein generation based on nonlinear mechanical unfolding responses using a protein language diffusion model  
-    + [[arXiv:2310.10605](https://arxiv.org/abs/2310.10605)] • [[code](https://github.com/lammmit/ProteinMechanicsDiffusionDesign)]
+    + [[arXiv:2310.10605](https://arxiv.org/abs/2310.10605)] • [[code](https://github.com/lammmit/ProteinMechanicsDiffusionDesign)] • [[Supplementary](https://www.dropbox.com/scl/fi/33tnpd6u2xwermlvj22y9/SI_3_unfolding_movies_from_dataset.zip?rlkey=qno7rcitcdree8t9cj8wzg9sf&dl=0)]
 +   De novo generation of antibody CDRH3 with a pre-trained generative large language model  
     + [[bioRxiv 2023.10.17.562827](https://www.biorxiv.org/content/10.1101/2023.10.17.562827v1)] • [[code](https://github.com/TencentAILabHealthcare/PALM)] • [[data](https://doi.org/10.5281/zenodo.7794583)]
 +   De novo protein design using geometric vector field networks  
@@ -1077,10 +1077,6 @@ Kai Yi, Bingxin Zhou, Yiqing Shen, Pietro Liò, Yu Guang Wang
 **Conditional Protein Denoising Diffusion Generates Programmable Endonucleases**  
 Bingxin Zhou, Lirong Zheng, Banghao Wu, Kai Yi, Bozitao Zhong, Pietro Lio, Liang Hong  
 [bioRxiv 2023.08.10.552783](https://www.biorxiv.org/content/10.1101/2023.08.10.552783v1)
-
-**ForceGen: End-to-end de novo protein generation based on nonlinear mechanical unfolding responses using a protein language diffusion model**  
-Bo Ni, David L. Kaplan, Markus J. Buehler  
-[arXiv:2310.10605](https://arxiv.org/abs/2310.10605) • [code](https://github.com/lammmit/ProteinMechanicsDiffusionDesign)
 
 ### 4.10 Bayesian-based
 
