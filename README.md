@@ -8,31 +8,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.10.20:*  
-+   Generative artificial intelligence for de novo protein design  
-    + [[arXiv:2310.09685](https://arxiv.org/abs/2310.09685)]
-+   ForceGen: End-to-end de novo protein generation based on nonlinear mechanical unfolding responses using a protein language diffusion model  
-    + [[arXiv:2310.10605](https://arxiv.org/abs/2310.10605)] • [[code](https://github.com/lammmit/ProteinMechanicsDiffusionDesign)] • [[Supplementary](https://www.dropbox.com/scl/fi/33tnpd6u2xwermlvj22y9/SI_3_unfolding_movies_from_dataset.zip?rlkey=qno7rcitcdree8t9cj8wzg9sf&dl=0)]
-+   De novo generation of antibody CDRH3 with a pre-trained generative large language model  
-    + [[bioRxiv 2023.10.17.562827](https://www.biorxiv.org/content/10.1101/2023.10.17.562827v1)] • [[code](https://github.com/TencentAILabHealthcare/PALM)] • [[data](https://doi.org/10.5281/zenodo.7794583)]
-+   De novo protein design using geometric vector field networks  
-    + [[arXiv:2310.11802](https://arxiv.org/abs/2310.11802)]/[[ICLR 2024 under review](https://openreview.net/forum?id=9UIGyJJpay)]
-+   Dynamics-Informed Protein Design with Structure Conditioning  
-    + [[ICLR 2024 under review](https://openreview.net/forum?id=jZPqf2G9Sw)]
-+   Functional Geometry Guided Protein Sequence and Backbone Structure Co-Design  
-    + [[ICLR 2024 under review](https://openreview.net/forum?id=Dr4qD9bzZd)]
-+   PROTEIN DESIGNER BASED ON SEQUENCE PROFILE USING ULTRAFAST SHAPE RECOGNITION  
-    + [[ICLR 2024 under review](https://openreview.net/forum?id=s4mPCrSNUZ)]
-+   AlphaFold Distillation for Protein Design  
-    + [[ICLR 2024 under review](https://openreview.net/forum?id=3pgJNIx3gc)] • [[code](https://anonymous.4open.science/r/AFDistill-28C3)]
-+   Bridging Sequence and Structure: Latent Diffusion for Conditional Protein Generation  
-    + [[ICLR 2024 under review](https://openreview.net/forum?id=DP4NkPZOpD)]
-+   NL2ProGPT: Taming Large Language Model for Conversational Protein Design  
-    + [[ICLR 2024 under review](https://openreview.net/forum?id=sFJr7okOBi)]
-+   Curiosity Driven Protein Sequence Generation via Reinforcement Learning 
-    + [[ICLR 2024 under review](https://openreview.net/forum?id=tPjVRmHqCg)]
-+   DiffSDS: A geometric sequence diffusion model for protein backbone inpainting  
-    + [[ICLR 2024 under review](https://openreview.net/forum?id=2xYO9oxh0y)]
+*Papers last week, updated on 2023.10.27:*  
++   Generative models for protein sequence modeling: recent advances and future directions  
+    + [[Briefings in Bioinformatics](https://academic.oup.com/bib/article/24/6/bbad358/7325909)]
++   SaLT&PepPr is an interface-predicting language model for designing peptide-guided protein degraders  
+    + [[Commun Biol 6, 1081 (2023)](https://www.nature.com/articles/s42003-023-05464-z)] • [[code](https://github.com/programmablebio/saltnpeppr)]
++   Accelerating Biocatalysis Discovery with Machine Learning: A Paradigm Shift in Enzyme Engineering, Discovery, and Design  
+    + [[ACS Catal. 2023](https://pubs.acs.org/doi/10.1021/acscatal.3c03417)]
 ------
 <p align="center">
   <br>
@@ -264,6 +246,8 @@ Zhangyang Gao, Cheng Tan, Yijie Zhang, Xingran Chen, Stan Z. Li
 #### 0.3.1 Sequence Database
 
 1. [UniProt](https://www.uniprot.org/downloads)
+2. [DisProt](https://disprot.org)
+3. [MobiDB](https://mobidb.bio.unipd.it/)
 
 #### 0.3.2 Structure Database
 
@@ -410,6 +394,10 @@ Höcker, Birte, et al.
 Adam Winnifrith, Carlos Outeiral, Brian Hie  
 [arXiv:2310.09685](https://arxiv.org/abs/2310.09685)
 
+**Generative models for protein sequence modeling: recent advances and future directions**  
+Mehrsa Mardikoraem, Zirui Wang, Nathaniel Pascual, Daniel Woldring  
+[Briefings in Bioinformatics](https://academic.oup.com/bib/article/24/6/bbad358/7325909)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
@@ -481,6 +469,10 @@ MENG Qiaozhen, GUO Fei
 **AlphaFold2 and Deep Learning for Elucidating Enzyme Conformational Flexibility and Its Application for Design**  
 Casadevall, Guillem, Cristina Duran, and Sílvia Osuna.  
 [JACS Au (2023)](https://pubs.acs.org/doi/10.1021/jacsau.3c00188)
+
+**Accelerating Biocatalysis Discovery with Machine Learning: A Paradigm Shift in Enzyme Engineering, Discovery, and Design**  
+Braun Markus, Gruber Christian C, Krassnigg Andreas, Kummer Arkadij, Lutz Stefan, Oberdorfer Gustav, Siirola Elina, and Snajdrova Radka  
+[ACS Catal. 2023](https://pubs.acs.org/doi/10.1021/acscatal.3c03417)
 
 ## 2. Model-based design
 
@@ -1443,6 +1435,10 @@ HaoHuai He, Bing He, Lei Guan, Yu Zhao, Guanxing Chen, Qingge Zhu, Calvin Yu-Chi
 **NL2ProGPT: Taming Large Language Model for Conversational Protein Design**  
 Anonymous  
 [ICLR 2024 under review](https://openreview.net/forum?id=sFJr7okOBi)
+
+**SaLT&PepPr is an interface-predicting language model for designing peptide-guided protein degraders**  
+Brixi, G., Ye, T., Hong, L. et al.  
+[Commun Biol 6, 1081 (2023)](https://www.nature.com/articles/s42003-023-05464-z) • [code](https://github.com/programmablebio/saltnpeppr)
 
 ### 5.5 ResNet-based
 
