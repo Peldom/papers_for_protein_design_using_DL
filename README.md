@@ -8,13 +8,12 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.10.27:*  
-+   Generative models for protein sequence modeling: recent advances and future directions  
-    + [[Briefings in Bioinformatics](https://academic.oup.com/bib/article/24/6/bbad358/7325909)]
-+   SaLT&PepPr is an interface-predicting language model for designing peptide-guided protein degraders  
-    + [[Commun Biol 6, 1081 (2023)](https://www.nature.com/articles/s42003-023-05464-z)] • [[code](https://github.com/programmablebio/saltnpeppr)]
-+   Accelerating Biocatalysis Discovery with Machine Learning: A Paradigm Shift in Enzyme Engineering, Discovery, and Design  
-    + [[ACS Catal. 2023](https://pubs.acs.org/doi/10.1021/acscatal.3c03417)]
+*Papers last week, updated on 2023.11.03:*  
++   Protein Language Model Supervised Precise and Efficient Protein Backbone Design Method  
+    + [[bioRxiv 2023.10.26.564121](https://www.biorxiv.org/content/10.1101/2023.10.26.564121v1)] • [[code](https://github.com/sirius777coder/GPDL)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/30/2023.10.26.564121/DC1/embed/media-1.pdf)]
++   Inverse folding for antibody sequence design using deep learning  
+    + [[arXiv:2310.19513](https://arxiv.org/abs/2310.19513)]
+
 ------
 <p align="center">
   <br>
@@ -474,6 +473,10 @@ Casadevall, Guillem, Cristina Duran, and Sílvia Osuna.
 Braun Markus, Gruber Christian C, Krassnigg Andreas, Kummer Arkadij, Lutz Stefan, Oberdorfer Gustav, Siirola Elina, and Snajdrova Radka  
 [ACS Catal. 2023](https://pubs.acs.org/doi/10.1021/acscatal.3c03417)
 
+**Building Enzymes through Design and Evolution**  
+Hossack, Euan J., Florence J. Hardy, and Anthony P. Green.  
+[ACS Catalysis 13.19 (2023)](https://pubs.acs.org/doi/10.1021/acscatal.3c02746)
+
 ## 2. Model-based design
 
 > Invert trained models with optimize algorithms through iterations for sequence design. Inverted structure prediction models are known as **Hallucination**.
@@ -597,6 +600,10 @@ An, L., Hicks, D.R., Zorine, D. et al.
 **AlphaFold Distillation for Protein Design**  
 Anonymous  
 [ICLR 2024 under review](https://openreview.net/forum?id=3pgJNIx3gc) • [code](https://anonymous.4open.science/r/AFDistill-28C3)
+
+**Protein Language Model Supervised Precise and Efficient Protein Backbone Design Method**  
+Bo Zhang, Kexin Liu, Zhuoqi Zheng, Yunfeiyang Liu, Junxi Mu, Ting Wei, Hai-Feng Chen  
+[bioRxiv 2023.10.26.564121](https://www.biorxiv.org/content/10.1101/2023.10.26.564121v1) • [code](https://github.com/sirius777coder/GPDL) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/30/2023.10.26.564121/DC1/embed/media-1.pdf)
 
 ### 2.3 DMPfold2-based
 
@@ -789,8 +796,8 @@ Luhuan Wu, Brian L. Trippe, Christian A. Naesseth, David M. Blei, John P. Cunnin
 [arXiv:2306.17775](https://arxiv.org/abs/2306.17775) • [code](https://github.com/blt2114/twisted_diffusion_sampler)
 
 **Dynamics-Informed Protein Design with Structure Conditioning**  
-Anonymous  
-[ICLR 2024 under review](https://openreview.net/forum?id=jZPqf2G9Sw)
+Simon V. Mathis, Urszula Julia Komorowska, Mateja Jamnik, Pietro Lió  
+[WCBICML2023](https://icml-compbio.github.io/2023/papers/WCBICML2023_paper121.pdf)/[ICLR 2024 under review](https://openreview.net/forum?id=jZPqf2G9Sw)
 
 **DiffSDS: A geometric sequence diffusion model for protein backbone inpainting**  
 Anonymous  
@@ -990,6 +997,10 @@ Kyle Meador, Roger Castells-Graells, Roman Aguirre, Michael R. Sawaya, Mark A. A
 Anonymous  
 [ICLR 2024 under review](https://openreview.net/forum?id=s4mPCrSNUZ)
 
+**Inverse folding for antibody sequence design using deep learning**  
+Frédéric A. Dreyer, Daniel Cutting, Constantin Schneider, Henry Kenlay, Charlotte M. Deane  
+[arXiv:2310.19513](https://arxiv.org/abs/2310.19513)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1085,10 +1096,6 @@ Qi, Yifei, and John ZH Zhang.
 [Journal of chemical information and modeling 60.3 (2020)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.0c00043) • code unavailable
 
 ### 4.9 Diffusion-based
-
-**Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models**  
-Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma  
-[bioRxiv 2022.07.10.499510](https://www.biorxiv.org/content/10.1101/2022.07.10.499510v1)/[ICML (2023)](https://icml-compbio.github.io/2023/papers/WCBICML2023_paper143.pdf)
 
 **De novo protein backbone generation based on diffusion with structured priors and adversarial training**  
 Yufeng Liu, Linghui Chen, Haiyan Liu  
@@ -1306,7 +1313,7 @@ Wu, Zachary, et al.
 
 **Generative Language Modeling for Antibody Design**  
 Shuai, Richard W., Jeffrey A. Ruffolo, and Jeffrey J. Gray.  
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/20/2021.12.13.472419/DC1/embed/media-1.pdf)
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v2)/[Cell Systems](https://www.cell.com/cell-systems/pdf/S2405-4712(23)00271-5.pdf) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/20/2021.12.13.472419/DC1/embed/media-1.pdf) • [code](https://github.com/Graylab/IgLM)
 
 **Deep neural language modeling enables functional protein generation across families**  
 Madani, Ali, et al.  
@@ -1672,7 +1679,7 @@ Namrata Anand, Tudor Achim
 
 **Antigen-Specific Antibody Design and Optimization with Diffusion-Based Generative Models for Protein Structures**  
 Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma  
-[bioRxiv 2022.07.10.499510](https://www.biorxiv.org/content/10.1101/2022.07.10.499510v5) • [code](https://github.com/luost26/diffab) • [hugging face](https://huggingface.co/spaces/luost26/DiffAb)
+[bioRxiv 2022.07.10.499510](https://www.biorxiv.org/content/10.1101/2022.07.10.499510v5)/[ICML (2023)](https://icml-compbio.github.io/2023/papers/WCBICML2023_paper143.pdf) • [code](https://github.com/luost26/diffab) • [hugging face](https://huggingface.co/spaces/luost26/DiffAb)
 
 **Illuminating protein space with a programmable generative model**  
 John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan Tie, Wujie Wang, Vincent Xue, Fritz Obermeyer, Andrew Beam, Gevorg Grigoryan  
