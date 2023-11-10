@@ -8,12 +8,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.11.03:*  
-+   Protein Language Model Supervised Precise and Efficient Protein Backbone Design Method  
-    + [[bioRxiv 2023.10.26.564121](https://www.biorxiv.org/content/10.1101/2023.10.26.564121v1)] • [[code](https://github.com/sirius777coder/GPDL)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/30/2023.10.26.564121/DC1/embed/media-1.pdf)]
-+   Inverse folding for antibody sequence design using deep learning  
-    + [[arXiv:2310.19513](https://arxiv.org/abs/2310.19513)]
-
+*Papers last week, updated on 2023.11.10:*  
++   Advances in generative modeling methods and datasets to design novel enzymes for renewable chemicals and fuels  
+    + [[Current Opinion in Biotechnology, Volume 84, 2023](https://www.sciencedirect.com/science/article/abs/pii/S0958166923001179)]
++   AntiFold: Improved antibody structure design using inverse folding  
+    + [[GenBio@NeurIPS2023 Spotlight](https://openreview.net/forum?id=bxZMKHtlL6)] • [[code](https://opig.stats.ox.ac.uk/data/downloads/AntiFold/)] • [[colab](https://colab.research.google.com/drive/1TTfgjoZx3mzF5u4e9b4Un9Y7b_rqXc_4)]
++   Sample-efficient Antibody Design through Protein Language Model for Risk-aware Batch Bayesian Optimization  
+    + [[bioRxiv 2023.11.06.565922](https://www.biorxiv.org/content/10.1101/2023.11.06.565922v1)]
++   Amalga: Designable Protein Backbone Generation with Folding and Inverse Folding Guidance  
+    + [[bioRxiv 2023.11.07.565939](https://www.biorxiv.org/content/10.1101/2023.11.07.565939v1)]
 ------
 <p align="center">
   <br>
@@ -271,6 +274,7 @@ Database | Description
 1. [design_tools](https://github.com/hefeda/design_tools/blob/main/README.md)
 2. [awesome-AI-based-protein-design](https://github.com/opendilab/awesome-AI-based-protein-design)
 3. [ProteinStructureWithDL](https://github.com/Yang-J-LIN/ProteinStructureWithDL)
+4. [List of available bioinformatic tools and services](https://neurosnap.ai/services)
 
 ## 1. Reviews
 
@@ -476,6 +480,10 @@ Braun Markus, Gruber Christian C, Krassnigg Andreas, Kummer Arkadij, Lutz Stefan
 **Building Enzymes through Design and Evolution**  
 Hossack, Euan J., Florence J. Hardy, and Anthony P. Green.  
 [ACS Catalysis 13.19 (2023)](https://pubs.acs.org/doi/10.1021/acscatal.3c02746)
+
+**Advances in generative modeling methods and datasets to design novel enzymes for renewable chemicals and fuels**  
+Rana A Barghout, Zhiqing Xu, Siddharth Betala, Radhakrishnan Mahadevan  
+[Current Opinion in Biotechnology, Volume 84, 2023](https://www.sciencedirect.com/science/article/abs/pii/S0958166923001179)
 
 ## 2. Model-based design
 
@@ -817,7 +825,7 @@ Avishek Joey Bose, Tara Akhound-Sadegh, Kilian Fatras, Guillaume Huguet, Jarrid 
 
 **Fast protein backbone generation with SE(3) flow matching**  
 Jason Yim, Andrew Campbell, Andrew Y. K. Foong, Michael Gastegger, José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling, Regina Barzilay, Tommi Jaakkola, Frank Noé  
-[arXiv:2310.05297](https://arxiv.org/abs/2310.05297)
+[arXiv:2310.05297](https://arxiv.org/abs/2310.05297) • [code](https://github.com/microsoft/frame-flow)
 
 ## 4.Scaffold to Sequence
 
@@ -1088,6 +1096,10 @@ Nicholas Z Randolph, Brian Kuhlman
 **Atom-by-atom protein generation and beyond with language models**  
 Daniel Flam-Shepherd, Kevin Zhu, Alán Aspuru-Guzik  
 [arXiv:2308.09482](https://arxiv.org/abs/2308.09482)
+
+**AntiFold: Improved antibody structure design using inverse folding**  
+Magnus Høie, Alissa Hummer, Tobias Olsen, Morten Nielsen, Charlotte Deane  
+[GenBio@NeurIPS2023 Spotlight](https://openreview.net/forum?id=bxZMKHtlL6) • [code](https://opig.stats.ox.ac.uk/data/downloads/AntiFold/) • [colab](https://colab.research.google.com/drive/1TTfgjoZx3mzF5u4e9b4Un9Y7b_rqXc_4)
 
 ### 4.8 ResNet-based
 
@@ -1503,6 +1515,10 @@ Murakami Y, Ishida S, Demizu Y, Terayama K.
 Aryo Pradipta Gema, Michał Kobiela, Achille Fraisse, Ajitha Rajan, Diego A. Oyarzún, Javier Antonio Alfaro  
 [arXiv:2305.11194](https://arxiv.org/abs/2305.11194) • [code](https://github.com/aryopg/vaxformer)
 
+**Sample-efficient Antibody Design through Protein Language Model for Risk-aware Batch Bayesian Optimization**  
+Yanzheng Wang, Boyue Wang, Tianyu Shi, Jie Fu, Yi Zhou, Zhizhuo Zhang  
+[bioRxiv 2023.11.06.565922](https://www.biorxiv.org/content/10.1101/2023.11.06.565922v1)
+
 ### 5.7 RL-based
 
 **Model-based reinforcement learning for biological sequence design**  
@@ -1739,6 +1755,10 @@ Jorge Roel-Touris, Lourdes Carcelen, Enrique Marcos
 Rohith Krishna, Jue Wang, Woody Ahern, Pascal Sturmfels, Preetham Venkatesh, Indrek Kalvet, Gyu Rie Lee, Felix S Morey-Burrows, Ivan Anishchenko, Ian R Humphreys, Ryan McHugh, Dionne Vafeados, Xinting Li, George A Sutherland, Andrew Hitchcock, C Neil Hunter, Minkyung Baek, Frank DiMaio, David Baker  
 [bioRxiv 2023.10.09.561603](https://www.biorxiv.org/content/10.1101/2023.10.09.561603v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/09/2023.10.09.561603/DC1/embed/media-1.pdf)
 
+**Amalga: Designable Protein Backbone Generation with Folding and Inverse Folding Guidance**  
+Shugao Chen, Ziyao Li, Xiangxiang Zeng, Guolin Ke  
+[bioRxiv 2023.11.07.565939](https://www.biorxiv.org/content/10.1101/2023.11.07.565939v1)
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**  
@@ -1889,7 +1909,7 @@ Alvaro Martin, Carolin Berner, Sergey Ovchinnikov, Anastassia Andreevna Vorobiev
 
 **PoET: A generative model of protein families as sequences-of-sequences**  
 Timothy F. Truong Jr, Tristan Bepler  
-[arXiv:2306.06156](https://arxiv.org/abs/2306.06156)
+[arXiv:2306.06156](https://arxiv.org/abs/2306.06156) • [code](https://github.com/OpenProteinAI/PoET)
 
 **Rapid protein stability prediction using deep learning representations**  
 Lasse M BlaabjergMaher M KassemLydia L GoodNicolas JonssonMatteo CagiadaKristoffer E JohanssonWouter BoomsmaAmelie SteinKresten Lindorff-Larsen  
