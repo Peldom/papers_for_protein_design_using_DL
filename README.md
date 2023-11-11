@@ -1939,6 +1939,10 @@ Jun Cheng et al.
 Floris Julian van der Flier, Dave Estell, Sina Pricelius, Lydia Dankmeyer, Sander van Stigt Thans, Harm Mulder, Rei Otsuka, Frits Goedegebuur, Laurens Lammerts, Diego Staphorst, Aalt D.J. van Dijk, Dick de Ridder, Henning Redestig  
 [bioRxiv 2023.09.25.559319](https://www.biorxiv.org/content/10.1101/2023.09.25.559319v1) • [code](https://github.com/florisvdf/mutation-predictability)
 
+**Structure-based self-supervised learning enables ultrafast prediction of stability changes upon mutation at the protein universe scale**
+Jinyuan Sun, Tong Zhu, Yinglu Cui, Bian Wu  
+[bioRxiv 2023.08.09.552725](https://www.biorxiv.org/content/10.1101/2023.08.09.552725v1) • [code](https://github.com/Wublab/Pythia)
+
 ### 7.2 Protein Language Models (PTM) and representation learning
 
 > More detailed protein representation learning list:  
