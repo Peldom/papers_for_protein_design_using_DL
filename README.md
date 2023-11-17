@@ -8,15 +8,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.11.10:*  
-+   Advances in generative modeling methods and datasets to design novel enzymes for renewable chemicals and fuels  
-    + [[Current Opinion in Biotechnology, Volume 84, 2023](https://www.sciencedirect.com/science/article/abs/pii/S0958166923001179)]
-+   AntiFold: Improved antibody structure design using inverse folding  
-    + [[GenBio@NeurIPS2023 Spotlight](https://openreview.net/forum?id=bxZMKHtlL6)] • [[code](https://opig.stats.ox.ac.uk/data/downloads/AntiFold/)] • [[colab](https://colab.research.google.com/drive/1TTfgjoZx3mzF5u4e9b4Un9Y7b_rqXc_4)]
-+   Sample-efficient Antibody Design through Protein Language Model for Risk-aware Batch Bayesian Optimization  
-    + [[bioRxiv 2023.11.06.565922](https://www.biorxiv.org/content/10.1101/2023.11.06.565922v1)]
-+   Amalga: Designable Protein Backbone Generation with Folding and Inverse Folding Guidance  
-    + [[bioRxiv 2023.11.07.565939](https://www.biorxiv.org/content/10.1101/2023.11.07.565939v1)]
+*Papers last week, updated on 2023.11.17:*  
++   A new age in protein design empowered by deep learning  
+    + [[Cell Systems, Volume 14, Issue 11](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00298-3)]
++   Revolutionizing peptide‐based drug discovery: Advances in the post‐AlphaFold era  
+    + [[Wiley Interdisciplinary Reviews: Computational Molecular Science](https://wires.onlinelibrary.wiley.com/doi/epdf/10.1002/wcms.1693)]
++   Accelerating protein engineering with fitness landscape modeling and reinforcement learning  
+    + [[bioRxiv 2023.11.16.565910](https://www.biorxiv.org/content/10.1101/2023.11.16.565910v1)]
 ------
 <p align="center">
   <br>
@@ -401,6 +399,10 @@ Adam Winnifrith, Carlos Outeiral, Brian Hie
 Mehrsa Mardikoraem, Zirui Wang, Nathaniel Pascual, Daniel Woldring  
 [Briefings in Bioinformatics](https://academic.oup.com/bib/article/24/6/bbad358/7325909)
 
+**A new age in protein design empowered by deep learning**  
+Khakzad, Hamed et al  
+[Cell Systems, Volume 14, Issue 11](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00298-3)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
@@ -452,6 +454,10 @@ Wan, Fangping, Daphne Kontogiorgos-Heintz, and Cesar de la Fuente-Nunez
 **Design of protein segments and peptides for binding to protein targets**  
 Gupta, Suchetana, Noora Azadvari, and Parisa Hosseinzadeh.  
 [BioDesign Research 2022 (2022)](https://spj.science.org/doi/10.34133/2022/9783197)
+
+**Revolutionizing peptide‐based drug discovery: Advances in the post‐AlphaFold era**  
+Chang, Liwei, et al.  
+[Wiley Interdisciplinary Reviews: Computational Molecular Science](https://wires.onlinelibrary.wiley.com/doi/epdf/10.1002/wcms.1693)
 
 ### 1.4 Binder design
 
@@ -1699,7 +1705,7 @@ Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma
 
 **Illuminating protein space with a programmable generative model**  
 John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan Tie, Wujie Wang, Vincent Xue, Fritz Obermeyer, Andrew Beam, Gevorg Grigoryan  
-[Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf) • [plausible code](https://github.com/lucidrains/chroma-pytorch) • [website](https://generatebiomedicines.com/chroma) • [news](https://www.nature.com/articles/s41587-023-01705-y) • commercial
+[Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf)/[bioRxiv 2022.12.01.518682](https://www.biorxiv.org/content/10.1101/2022.12.01.518682v1)/[Nature (2023)](https://www.nature.com/articles/s41586-023-06728-8) • [website](https://generatebiomedicines.com/chroma) • [news](https://www.nature.com/articles/s41587-023-01705-y) • [code](https://github.com/generatebio/chroma) • commercial
 
 **Physics-Inspired Protein Encoder Pre-Training via Siamese Sequence-Structure Diffusion Trajectory Prediction**  
 Zuobai Zhang, Minghao Xu, Aurélie Lozano, Vijil Chenthamarakshan, Payel Das, Jian Tang  
@@ -1938,6 +1944,14 @@ Jun Cheng et al.
 **What makes the effect of protein mutations difficult to predict?**  
 Floris Julian van der Flier, Dave Estell, Sina Pricelius, Lydia Dankmeyer, Sander van Stigt Thans, Harm Mulder, Rei Otsuka, Frits Goedegebuur, Laurens Lammerts, Diego Staphorst, Aalt D.J. van Dijk, Dick de Ridder, Henning Redestig  
 [bioRxiv 2023.09.25.559319](https://www.biorxiv.org/content/10.1101/2023.09.25.559319v1) • [code](https://github.com/florisvdf/mutation-predictability)
+
+**Neural network extrapolation to distant regions of the protein fitness landscape**  
+Sarah A Fahlberg, Chase R Freschlin, Pete Heinzelman, Philip A Romero  
+[bioRxiv 2023.11.08.566287](https://www.biorxiv.org/content/10.1101/2023.11.08.566287v1) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/11/09/2023.11.08.566287/DC1/embed/media-1.pdf)
+
+**Accelerating protein engineering with fitness landscape modeling and reinforcement learning**  
+Haoran Sun, Liang He, Pan Deng, Guoqing Liu, Haiguang Liu, Chuan Cao, Fusong Ju, Lijun Wu, Tao Qin, Tie-Yan Liu  
+[bioRxiv 2023.11.16.565910](https://www.biorxiv.org/content/10.1101/2023.11.16.565910v1)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
