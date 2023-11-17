@@ -1929,6 +1929,10 @@ Pan Tan, Mingchen Li, Yuanxi Yu, Fan Jiang, Lirong Zheng, Banghao Wu, Xinyu Sun,
 Henry Dieckhaus, Michael Brocidiacono, Nicholas Randolph, Brian Kuhlman  
 [bioRxiv 2023.07.27.550881](https://www.biorxiv.org/content/10.1101/2023.07.27.550881v1) • [code](https://github.com/Kuhlman-Lab/ThermoMPNN) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/07/30/2023.07.27.550881/DC1/embed/media-1.docx)
 
+**Structure-based self-supervised learning enables ultrafast prediction of stability changes upon mutation at the protein universe scale**
+Jinyuan Sun, Tong Zhu, Yinglu Cui, Bian Wu  
+[bioRxiv 2023.08.09.552725](https://www.biorxiv.org/content/10.1101/2023.08.09.552725v1) • [code](https://github.com/Wublab/Pythia)
+
 **Boosting AND/OR-Based Computational Protein Design: Dynamic Heuristics and Generalizable UFO**  
 Bobak Pezeshki, Radu Marinescu, Alexander Ihler, Rina Dechter  
 [arXiv:2309.00408](https://arxiv.org/abs/2309.00408)
