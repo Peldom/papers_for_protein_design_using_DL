@@ -8,13 +8,12 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.11.17:*  
-+   A new age in protein design empowered by deep learning  
-    + [[Cell Systems, Volume 14, Issue 11](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00298-3)]
-+   Revolutionizing peptide‐based drug discovery: Advances in the post‐AlphaFold era  
-    + [[Wiley Interdisciplinary Reviews: Computational Molecular Science](https://wires.onlinelibrary.wiley.com/doi/epdf/10.1002/wcms.1693)]
-+   Accelerating protein engineering with fitness landscape modeling and reinforcement learning  
-    + [[bioRxiv 2023.11.16.565910](https://www.biorxiv.org/content/10.1101/2023.11.16.565910v1)]
+*Papers last week, updated on 2023.11.24:*  
++   Diffusion in a quantized vector space generates non-idealized protein structures and predicts conformational distributions  
+    + [[bioRxiv 2023.11.18.567666](https://www.biorxiv.org/content/10.1101/2023.11.18.567666v1)]
++   Guiding diffusion models for antibody sequence and structure co-design with developability properties  
+    + [[bioRxiv 2023.11.22.568230](https://www.biorxiv.org/content/10.1101/2023.11.22.568230v1)]/[[NeurIPS 2023 Generative AI and Biology Workshop](https://openreview.net/forum?id=bPcgbKDCUQ)] • [[code](https://github.com/amelvim/antibody-diffusion-properties)]
+
 ------
 <p align="center">
   <br>
@@ -1131,6 +1130,10 @@ Kai Yi, Bingxin Zhou, Yiqing Shen, Pietro Liò, Yu Guang Wang
 Bingxin Zhou, Lirong Zheng, Banghao Wu, Kai Yi, Bozitao Zhong, Pietro Lio, Liang Hong  
 [bioRxiv 2023.08.10.552783](https://www.biorxiv.org/content/10.1101/2023.08.10.552783v1)
 
+**Diffusion in a quantized vector space generates non-idealized protein structures and predicts conformational distributions**  
+Liu Haiyan, Liu Yufeng, Chen Linghui  
+[bioRxiv 2023.11.18.567666](https://www.biorxiv.org/content/10.1101/2023.11.18.567666v1)
+
 ### 4.10 Bayesian-based
 
 **Inverse Protein Folding Using Deep Bayesian Optimization**  
@@ -1231,6 +1234,10 @@ Schmitt, L.T., Paszkowski-Rogacz, M., Jug, F. et al.
 Emre Sevgen, Joshua Moller, Adrian Lange, John Parker, Sean Quigley, Jeff Mayer, Poonam Srivastava, Sitaram Gayatri, David Hosfield, Maria Korshunova, Micha Livne, Michelle Gill, Rama Ranganathan, Anthony B Costa, Andrew L Ferguson  
 [bioRxiv 2023.01.23.525232](https://www.biorxiv.org/content/10.1101/2023.01.23.525232v1)
 
+**Target specific peptide design using latent space approximate trajectory collector**  
+Tong Lin, Sijie Chen, Ruchira Basu, Dehu Pei, Xiaolin Cheng, Levent Burak Kara  
+[arXiv:2302.01435](https://arxiv.org/abs/2302.01435)
+
 **Deep-learning generative models enable design of synthetic orthologs of a signaling protein**  
 Lian, Xinran, et al.  
 [Biophysical Journal 122.3 (2023): 311a](https://www.cell.com/biophysj/fulltext/S0006-3495(22)02664-9)
@@ -1254,6 +1261,10 @@ Allen Y. Leary, Darius Scott, Namita T. Gupta, Janelle C. Waite, Dimitris Skokos
 **Utility of language model and physics-based approaches in modifying MHC Class-I immune-visibility for the design of vaccines and therapeutics**  
 Hans-Christof Gasser, Diego Oyarzun, Ajitha Rajan, Javier Alfaro  
 [bioRxiv 2023.07.10.548300](https://www.biorxiv.org/content/10.1101/2023.07.10.548300v1)
+
+**Cell-free biosynthesis combined with deep learning accelerates de novo-development of antimicrobial peptides**  
+Pandi, Amir, et al.  
+[Nature Communications 14.1 (2023)](https://www.nature.com/articles/s41467-023-42434-9) • [code](https://github.com/amirpandi/Deep_AMP)
 
 ### 5.3 GAN-based
 
@@ -1401,6 +1412,10 @@ Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Rafael Jaimes, Rajmonda Sulo Ca
 Noelia Ferruz  
 [NeurIPS 2022](https://www.mlsb.io/papers_2022/ZymCTRL_a_conditional_language_model_for_the_controllable_generation_of_artificial_enzymes.pdf) • [hugging face](https://huggingface.co/nferruz/ZymCTRL) • [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/59047.png?t=1669864213.082831)
 
+**Generative Antibody Design for Complementary Chain Pairing Sequences through Encoder-Decoder Language Model**  
+Chu, Simon, and Kathy Wei.  
+[NeurIPS 2023 Generative AI and Biology (GenBio) Workshop. 2023](https://openreview.net/forum?id=QrH4bhWhwY)/[arXiv:2301.02748](https://arxiv.org/abs/2301.02748)
+
 **Unlocking de novo antibody design with generative artificial intelligence**  
 Shanehsazzadeh, Amir, et al.  
 [bioRxiv (2023): 2023-01](https://www.biorxiv.org/content/10.1101/2023.01.08.523187v3) • [data](https://github.com/AbSciBio/unlocking-de-novo-antibody-design) • [news](https://www.genengnews.com/topics/drug-discovery/antibodies/absci-eyes-ind-for-platforms-first-de-novo-antibody-within-two-years/) • [blog](https://www.science.org/content/blog-post/computing-our-way-antibodies) • commercial
@@ -1452,6 +1467,10 @@ Yaiza Serrano, Sergi Roda, Victor Guallar, Alexis Molina
 **IMPROVING ANTIBODY AFFINITY USING LABORATORY DATA WITH LANGUAGE MODEL GUIDED DESIGN**  
 Ben Krause, Subu Subramanian, Tom Yuan, Marisa Yang, Aaron Sato, Nikhil Naik  
 [bioRxiv 2023.09.13.557505](https://www.biorxiv.org/content/10.1101/2023.09.13.557505v1)
+
+**PepMLM: Target Sequence-Conditioned Generation of Peptide Binders via Masked Language Modeling**  
+Tianlai Chen, Sarah Pertsemlidis, Rio Watson, Venkata Srikar Kavirayuni, Ashley Hsu, Pranay Vure, Rishab Pulugurta, Sophia Vincoff, Lauren Hong, Tian Wang, Vivian Yudistyra, Elena Haarer, Lin Zhao, Pranam Chatterjee  
+[arXiv:2310.03842](https://arxiv.org/abs/2310.03842) • [code](https://github.com/programmablebio/pepmlm)
 
 **De novo generation of antibody CDRH3 with a pre-trained generative large language model**  
 HaoHuai He, Bing He, Lei Guan, Yu Zhao, Guanxing Chen, Qingge Zhu, Calvin Yu-Chian Chen, Ting Li, Jianhua Yao  
@@ -1734,6 +1753,10 @@ Zhangzhi Peng, Chenchen Han, Xiaohan Wang, Dapeng Li, Fajiie Yuan
 **Bridging Sequence and Structure: Latent Diffusion for Conditional Protein Generation**  
 Anonymous  
 [ICLR 2024 under review](https://openreview.net/forum?id=DP4NkPZOpD)
+
+**Guiding diffusion models for antibody sequence and structure co-design with developability properties**  
+Amelia Villegas-Morcillo, Jana M. Weber, Marcel J.T. Reinders  
+[bioRxiv 2023.11.22.568230](https://www.biorxiv.org/content/10.1101/2023.11.22.568230v1)/[NeurIPS 2023 Generative AI and Biology Workshop](https://openreview.net/forum?id=bPcgbKDCUQ) • [code](https://github.com/amelvim/antibody-diffusion-properties)
 
 ### 6.3 RoseTTAFold-based
 
