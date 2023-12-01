@@ -8,11 +8,11 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.11.24:*  
-+   Diffusion in a quantized vector space generates non-idealized protein structures and predicts conformational distributions  
-    + [[bioRxiv 2023.11.18.567666](https://www.biorxiv.org/content/10.1101/2023.11.18.567666v1)]
-+   Guiding diffusion models for antibody sequence and structure co-design with developability properties  
-    + [[bioRxiv 2023.11.22.568230](https://www.biorxiv.org/content/10.1101/2023.11.22.568230v1)]/[[NeurIPS 2023 Generative AI and Biology Workshop](https://openreview.net/forum?id=bPcgbKDCUQ)] • [[code](https://github.com/amelvim/antibody-diffusion-properties)]
+*Papers last week, updated on 2023.12.01:*  
++   Protein design by directed evolution guided by large language models  
+    + [[bioRxiv 2023.11.29.568945](https://www.biorxiv.org/content/10.1101/2023.11.28.568945v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/11/29/2023.11.28.568945/DC1/embed/media-1.pdf?download=true)] • [[code](https://github.com/HySonLab/Directed_Evolution)]  
++   ProRefiner: An entropy-based refining strategy for inverse protein folding with global graph attention  
+    + [[Nature Communications](https://www.nature.com/articles/s41467-023-43166-6)] • [[Supplementary](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-023-43166-6/MediaObjects/41467_2023_43166_MOESM1_ESM.pdf)] • [[code](https://zenodo.org/records/10030882)]  
 
 ------
 <p align="center">
@@ -614,10 +614,6 @@ An, L., Hicks, D.R., Zorine, D. et al.
 Anonymous  
 [ICLR 2024 under review](https://openreview.net/forum?id=3pgJNIx3gc) • [code](https://anonymous.4open.science/r/AFDistill-28C3)
 
-**Protein Language Model Supervised Precise and Efficient Protein Backbone Design Method**  
-Bo Zhang, Kexin Liu, Zhuoqi Zheng, Yunfeiyang Liu, Junxi Mu, Ting Wei, Hai-Feng Chen  
-[bioRxiv 2023.10.26.564121](https://www.biorxiv.org/content/10.1101/2023.10.26.564121v1) • [code](https://github.com/sirius777coder/GPDL) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/30/2023.10.26.564121/DC1/embed/media-1.pdf)
-
 ### 2.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
@@ -679,6 +675,10 @@ Robert Verkuil, Ori Kabeli, Yilun Du, Basile IM Wicky, Lukas F Milles, Justas Da
 **ESMFold Hallucinates Native-Like Protein Sequences**  
 Jeliazko R Jeliazkov, Diego del Alamo, Joel D Karpiak  
 [bioRxiv 2023.05.23.541774](https://www.biorxiv.org/content/10.1101/2023.05.23.541774v1)
+
+**Protein Language Model Supervised Precise and Efficient Protein Backbone Design Method**  
+Bo Zhang, Kexin Liu, Zhuoqi Zheng, Yunfeiyang Liu, Junxi Mu, Ting Wei, Hai-Feng Chen  
+[bioRxiv 2023.10.26.564121](https://www.biorxiv.org/content/10.1101/2023.10.26.564121v1) • [code](https://github.com/sirius777coder/GPDL) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/30/2023.10.26.564121/DC1/embed/media-1.pdf)
 
 ### 2.10 Sampling-algorithms
 
@@ -1014,6 +1014,10 @@ Anonymous
 Frédéric A. Dreyer, Daniel Cutting, Constantin Schneider, Henry Kenlay, Charlotte M. Deane  
 [arXiv:2310.19513](https://arxiv.org/abs/2310.19513)
 
+**ProRefiner: an entropy-based refining strategy for inverse protein folding with global graph attention**  
+Xinyi Zhou, Guangyong Chen, Junjie Ye, Ercheng Wang, Jun Zhang, Cong Mao, Zhanwei Li, Jianye Hao, Xingxu Huang, Jin Tang, Pheng Ann Heng  
+[Nature Communications](https://www.nature.com/articles/s41467-023-43166-6) • [Supplementary](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-023-43166-6/MediaObjects/41467_2023_43166_MOESM1_ESM.pdf) • [code](https://zenodo.org/records/10030882)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1091,8 +1095,8 @@ Konstantin Weissenow, Joaquin Gomez Sanchez, Adrian Henkel, Martin Steinegger, B
 [bioRxiv 2023.07.23.550085](https://www.biorxiv.org/content/10.1101/2023.07.23.550085v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/07/25/2023.07.23.550085/DC1/embed/media-1.pdf) • [code](https://github.com/mheinzinger/ProstT5)
 
 **De novo Protein Sequence Design Based on Deep Learning and Validation on CalB Hydrolase**  
-Junxi Mu, ZhenXin Li, Bo Zhang, Qi Zhang, Jamshed Iqbal, Abdul Wadood, Ting Wei, Yan Feng, Haifeng Chen  
-[bioRxiv 2023.08.01.551444](https://www.biorxiv.org/content/10.1101/2023.08.01.551444v1)
+Junxi Mu, ZhengXin Li, Bo Zhang, Qi Zhang, Jamshed Iqbal, Abdul Wadood, Ting Wei, Yan Feng, Haifeng Chen  
+[bioRxiv 2023.08.01.551444](https://www.biorxiv.org/content/10.1101/2023.08.01.551444v1) • [code](https://github.com/weitinging/GPD)
 
 **Invariant point message passing for protein side chain packing and design**  
 Nicholas Z Randolph, Brian Kuhlman  
@@ -1684,7 +1688,7 @@ Zixuan Jiang, Sitao Zhang, Rundong Huang, Shaoxun Mo, Letao Zhu, Peiheng Li, Ziy
 
 **Protein generation with evolutionary diffusion: sequence is all you need**  
 Sarah Alamdari, Nitya Thakkar, Rianne van den Berg, Alex Xijie Lu, Nicolo Fusi, Ava Pardis Amini, Kevin K Yang  
-[bioRxiv 2023.09.11.556673](https://www.biorxiv.org/content/10.1101/2023.09.11.556673v1) • [code](https://github.com/microsoft/evodiff) • [data](https://zenodo.org/record/8045076)
+[bioRxiv 2023.09.11.556673](https://www.biorxiv.org/content/10.1101/2023.09.11.556673v1) • [code](https://github.com/microsoft/evodiff) • [data](https://zenodo.org/record/8045076) • [lecture](https://www.youtube.com/watch?v=e1e-_SkyNjw)
 
 **AntiBARTy Diffusion for Property Guided Antibody Design**  
 Jordan Venderley  
@@ -1978,7 +1982,11 @@ Sarah A Fahlberg, Chase R Freschlin, Pete Heinzelman, Philip A Romero
 
 **Accelerating protein engineering with fitness landscape modeling and reinforcement learning**  
 Haoran Sun, Liang He, Pan Deng, Guoqing Liu, Haiguang Liu, Chuan Cao, Fusong Ju, Lijun Wu, Tao Qin, Tie-Yan Liu  
-[bioRxiv 2023.11.16.565910](https://www.biorxiv.org/content/10.1101/2023.11.16.565910v1)
+[bioRxiv 2023.11.16.565910](https://www.biorxiv.org/content/10.1101/2023.11.16.565910v1)  
+
+**Protein Design by Directed Evolution Guided by Large Language Models**  
+Trong Thanh Tran, Truong Son Hy  
+[bioRxiv 2023.11.29.568945](https://www.biorxiv.org/content/10.1101/2023.11.28.568945v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/11/29/2023.11.28.568945/DC1/embed/media-1.pdf?download=true) • [code](https://github.com/HySonLab/Directed_Evolution)  
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
