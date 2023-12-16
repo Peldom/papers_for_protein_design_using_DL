@@ -8,17 +8,29 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.12.09:*  
-+   Engineered immunogens to elicit antibodies against conserved coronavirus epitopes  
-    + [[Nat Commun 14, 7897 (2023)](https://www.nature.com/articles/s41467-023-43638-9)] • [[code](https://github.com/AzoiteiLab/S2-scaffold-scripts)]
-+   High-throughput ML-guided design of diverse single-domain antibodies against SARS-CoV-2  
-    + [[bioRxiv 2023.12.01.569227](https://www.biorxiv.org/content/10.1101/2023.12.01.569227v1)]
-+   Fast non-autoregressive inverse folding with discrete diffusion
-    + [[arXiv:2312.02447](https://arxiv.org/abs/2312.02447)] • [[code](https://github.com/johnyang101/pmpnndiff)]
-+   ProteinNPT: Improving Protein Property Prediction and Design with Non-Parametric Transformers  
-    + [[bioRxiv 2023.12.06.570473](https://www.biorxiv.org/content/10.1101/2023.12.06.570473v1)] • [[code](https://github.com/OATML-Markslab/ProteinNPT)]
-+   ProteinGym: Large-Scale Benchmarks for Protein Design and Fitness Prediction  
-    + [[bioRxiv 2023.12.07.570727](https://biorxiv.org/content/10.1101/2023.12.07.570727v1)] • [[code](https://github.com/OATML-Markslab/ProteinGym)]
+*Papers last week, updated on 2023.12.16:*  
++   In vitro validated antibody design against multiple therapeutic antigens using generative inverse folding  
+    + [[bioRxiv 2023.12.08.570889](https://www.biorxiv.org/content/10.1101/2023.12.08.570889v1)]
++   The promises of large language models for protein design and modeling  
+    + [[Frontiers in Bioinformatics 3 (2023)](https://www.frontiersin.org/articles/10.3389/fbinf.2023.1304099/full)]
++   MMDesign: Multi-Modality Transfer Learning for Generative Protein Design  
+    + [[arXiv preprint arXiv:2312.06297 (2023)](https://arxiv.org/abs/2312.06297)]
++   ShapeProt: Top-down Protein Design with 3D Protein Shape Generative Model  
+    + [[bioRxiv (2023): 2023-12](https://www.biorxiv.org/content/10.1101/2023.12.03.567710v2)]
++   Efficiently Predicting Protein Stability Changes Upon Single-point Mutation with Large Language Models  
+    + [[arXiv preprint arXiv:2312.04019 (2023)](https://arxiv.org/abs/2312.04019)]
++   PDB-Struct: A Comprehensive Benchmark for Structure-based Protein Design  
+    + [[arXiv preprint arXiv:2312.00080 (2023)](https://arxiv.org/abs/2312.00080)] • [[code](https://github.com/WANG-CR/PDB-Struct)]
++   A framework for conditional diffusion modelling with applications in motif scaffolding for protein design  
+    + [[arXiv:2312.09236](https://arxiv.org/abs/2312.09236)]
++   Best practices for machine learning in antibody discovery and development  
+    + [[arXiv:2312.08470](https://arxiv.org/abs/2312.08470)]
++   SPDesign: protein sequence designer based on structural sequence profile using ultrafast shape recognition  
+    + [[bioRxiv 2023.12.14.571651](https://www.biorxiv.org/content/10.1101/2023.12.14.571651v1)]
++   DNDesign: Enhancing Physical Understanding of Protein Inverse Folding Model via Denoising  
+    + [[bioRxiv 2023.12.05.570298](https://www.biorxiv.org/content/10.1101/2023.12.05.570298v1)]
++   DSMBind: SE(3) denoising score matching for unsupervised binding energy prediction and nanobody design  
+    + [[bioRxiv 2023.12.10.570461](https://www.biorxiv.org/content/10.1101/2023.12.10.570461v1)] • [[Supplementary1](https://www.biorxiv.org/content/biorxiv/early/2023/12/10/2023.12.10.570461/DC1/embed/media-1.xlsx)] • [[Supplementary2](https://www.biorxiv.org/content/biorxiv/early/2023/12/10/2023.12.10.570461/DC2/embed/media-2.pdf)]
 ------
 <p align="center">
   <br>
@@ -247,6 +259,10 @@ Gustaf Ahdritz, Nazim Bouatta, Sachin Kadyan, Lukas Jarosch, Daniel Berenberg, I
 Zhangyang Gao, Cheng Tan, Yijie Zhang, Xingran Chen, Stan Z. Li  
 [GitHub](https://github.com/A4Bio/ProteinInvBench)
 
+**PDB-Struct: A Comprehensive Benchmark for Structure-based Protein Design**  
+Wang, Chuanrui, et al.  
+[arXiv preprint arXiv:2312.00080 (2023)](https://arxiv.org/abs/2312.00080) • [code](https://github.com/WANG-CR/PDB-Struct)
+
 ### 0.3 Databases
 
 > A list of suggested protein databases, more lists at [CNCB](https://ngdc.cncb.ac.cn/databasecommons/).
@@ -452,6 +468,10 @@ Makowski, Emily K., Hsin-Ting Chen, and Peter M. Tessier.
 **AI driven B-cell Immunotherapy Design**  
 Bruna Moreira da Silva, David B. Ascher, Nicholas Geard, Douglas E. V. Pires  
 [arXiv:2309.01122](https://arxiv.org/abs/2309.01122)
+
+**Best practices for machine learning in antibody discovery and development**  
+Leonard Wossnig, Norbert Furtmann, Andrew Buchanan, Sandeep Kumar, Victor Greiff  
+[arXiv:2312.08470](https://arxiv.org/abs/2312.08470)
 
 ### 1.3 Peptide design
 
@@ -825,6 +845,14 @@ Simon V. Mathis, Urszula Julia Komorowska, Mateja Jamnik, Pietro Lió
 Anonymous  
 [ICLR 2024 under review](https://openreview.net/forum?id=2xYO9oxh0y)
 
+**A framework for conditional diffusion modelling with applications in motif scaffolding for protein design**  
+Kieran Didi, Francisco Vargas, Simon V Mathis, Vincent Dutordoir, Emile Mathieu, Urszula J Komorowska, Pietro Lio
+[arXiv:2312.09236](https://arxiv.org/abs/2312.09236)
+
+**TopoDiff: Improving Protein Backbone Generation with Topology-aware Latent Encoding**  
+Yuyang Zhang, Zihui (Zinnia) Ma, Haipeng Gong  
+[bioRxiv 2023.12.13.571602](https://www.biorxiv.org/content/10.1101/2023.12.13.571602v1)
+
 ### 3.6 RL-based
 
 **Top-down design of protein nanomaterials with reinforcement learning**  
@@ -1031,6 +1059,18 @@ Xinyi Zhou, Guangyong Chen, Junjie Ye, Ercheng Wang, Jun Zhang, Cong Mao, 
 Kapingidza, A.B., Marston, D.J., Harris, C. et al.  
 [Nat Commun 14, 7897 (2023)](https://www.nature.com/articles/s41467-023-43638-9) • [code](https://github.com/AzoiteiLab/S2-scaffold-scripts)
 
+**DNDesign: Enhancing Physical Understanding of Protein Inverse Folding Model via Denoising**  
+Youhan Lee, Jaehoon Kim  
+[bioRxiv 2023.12.05.570298](https://www.biorxiv.org/content/10.1101/2023.12.05.570298v1)
+
+**In vitro validated antibody design against multiple therapeutic antigens using generative inverse folding**  
+Amir Shanehsazzadeh, Julian Alverio, George Kasun, Simon Levine, Jibran A Khan, Chelsea Chung, Nicolas Diaz, Breanna K Luton, Ysis Tarter, Cailen McCloskey, Katherine B Bateman, Hayley Carter, Dalton Chapman, Rebecca Consbruck, Alec Jaeger, Christa Kohnert, Gaelin Kopec-Belliveau, John M Sutton, Zheyuan Guo, Gustavo Canales, Kai Ejan, Emily Marsh, Alyssa Ruelos, Rylee Ripley, Brooke Stoddard, Rodante Caguiat, Kyra Chapman, Matthew Saunders, Jared Sharp, Douglas Ganini da Silva, Audree Feltner, Jake Ripley, Megan E Bryant, Danni Castillo, Joshua Meier, Christian M Stegmann, Katherine Moran, Christine Lemke, Shaheed Abdulhaqq, Lillian R Klug, Sharrol Bachas
+[bioRxiv 2023.12.08.570889](https://www.biorxiv.org/content/10.1101/2023.12.08.570889v1)
+
+**SPDesign: protein sequence designer based on structural sequence profile using ultrafast shape recognition**  
+Hui Wang, Dong Liu, Kailong Zhao, Yajun Wang, Guijun Zhang  
+[bioRxiv 2023.12.14.571651](https://www.biorxiv.org/content/10.1101/2023.12.14.571651v1)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1122,6 +1162,14 @@ Daniel Flam-Shepherd, Kevin Zhu, Alán Aspuru-Guzik
 **AntiFold: Improved antibody structure design using inverse folding**  
 Magnus Høie, Alissa Hummer, Tobias Olsen, Morten Nielsen, Charlotte Deane  
 [GenBio@NeurIPS2023 Spotlight](https://openreview.net/forum?id=bxZMKHtlL6) • [code](https://opig.stats.ox.ac.uk/data/downloads/AntiFold/) • [colab](https://colab.research.google.com/drive/1TTfgjoZx3mzF5u4e9b4Un9Y7b_rqXc_4)
+
+**MMDesign: Multi-Modality Transfer Learning for Generative Protein Design**  
+Zheng, Jiangbin, et al.  
+[arXiv preprint arXiv:2312.06297 (2023)](https://arxiv.org/abs/2312.06297)
+
+**ShapeProt: Top-down Protein Design with 3D Protein Shape Generative Model**  
+Lee, Youhan, and Jaehoon Kim.  
+[bioRxiv (2023): 2023-12](https://www.biorxiv.org/content/10.1101/2023.12.03.567710v2)
 
 ### 4.8 ResNet-based
 
@@ -1508,6 +1556,10 @@ Brixi, G., Ye, T., Hong, L. et al.
 **ProteinNPT: Improving Protein Property Prediction and Design with Non-Parametric Transformers**  
 Pascal Notin, Ruben Weitzman, Debora S Marks, Yarin Gal  
 [bioRxiv 2023.12.06.570473](https://www.biorxiv.org/content/10.1101/2023.12.06.570473v1) • [code](https://github.com/OATML-Markslab/ProteinNPT)
+
+**The promises of large language models for protein design and modeling**  
+Valentini, Giorgio, et al.  
+[Frontiers in Bioinformatics 3 (2023)](https://www.frontiersin.org/articles/10.3389/fbinf.2023.1304099/full)
 
 ### 5.5 ResNet-based
 
@@ -2012,6 +2064,14 @@ Trong Thanh Tran, Truong Son Hy
 **High-throughput ML-guided design of diverse single-domain antibodies against SARS-CoV-2**  
 Christof Angermueller, Zelda Marie, Benjamin Jester, Emily Engelhart, Ryan Emerson, Babak Alipanahi, Zachary Ryan McCaw, Jim Roberts, Randolph M Lopez, David Younger, Lucy Colwell  
 [bioRxiv 2023.12.01.569227](https://www.biorxiv.org/content/10.1101/2023.12.01.569227v1)
+
+**Efficiently Predicting Protein Stability Changes Upon Single-point Mutation with Large Language Models**  
+Zhang, Yijie, et al.  
+[arXiv preprint arXiv:2312.04019 (2023)](https://arxiv.org/abs/2312.04019)
+
+**DSMBind: SE(3) denoising score matching for unsupervised binding energy prediction and nanobody design**  
+Wengong Jin, Xun Chen, Amrita Vetticaden, Siranush Sarzikova, Raktima Raychowdhury, Caroline Uhler, Nir Hacohen  
+[bioRxiv 2023.12.10.570461](https://www.biorxiv.org/content/10.1101/2023.12.10.570461v1) • [Supplementary1](https://www.biorxiv.org/content/biorxiv/early/2023/12/10/2023.12.10.570461/DC1/embed/media-1.xlsx) • [Supplementary2](https://www.biorxiv.org/content/biorxiv/early/2023/12/10/2023.12.10.570461/DC2/embed/media-2.pdf)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
