@@ -8,29 +8,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.12.16:*  
-+   In vitro validated antibody design against multiple therapeutic antigens using generative inverse folding  
-    + [[bioRxiv 2023.12.08.570889](https://www.biorxiv.org/content/10.1101/2023.12.08.570889v1)]
-+   The promises of large language models for protein design and modeling  
-    + [[Frontiers in Bioinformatics 3 (2023)](https://www.frontiersin.org/articles/10.3389/fbinf.2023.1304099/full)]
-+   MMDesign: Multi-Modality Transfer Learning for Generative Protein Design  
-    + [[arXiv preprint arXiv:2312.06297 (2023)](https://arxiv.org/abs/2312.06297)]
-+   ShapeProt: Top-down Protein Design with 3D Protein Shape Generative Model  
-    + [[bioRxiv (2023): 2023-12](https://www.biorxiv.org/content/10.1101/2023.12.03.567710v2)]
-+   Efficiently Predicting Protein Stability Changes Upon Single-point Mutation with Large Language Models  
-    + [[arXiv preprint arXiv:2312.04019 (2023)](https://arxiv.org/abs/2312.04019)]
-+   PDB-Struct: A Comprehensive Benchmark for Structure-based Protein Design  
-    + [[arXiv preprint arXiv:2312.00080 (2023)](https://arxiv.org/abs/2312.00080)] • [[code](https://github.com/WANG-CR/PDB-Struct)]
-+   A framework for conditional diffusion modelling with applications in motif scaffolding for protein design  
-    + [[arXiv:2312.09236](https://arxiv.org/abs/2312.09236)]
-+   Best practices for machine learning in antibody discovery and development  
-    + [[arXiv:2312.08470](https://arxiv.org/abs/2312.08470)]
-+   SPDesign: protein sequence designer based on structural sequence profile using ultrafast shape recognition  
-    + [[bioRxiv 2023.12.14.571651](https://www.biorxiv.org/content/10.1101/2023.12.14.571651v1)]
-+   DNDesign: Enhancing Physical Understanding of Protein Inverse Folding Model via Denoising  
-    + [[bioRxiv 2023.12.05.570298](https://www.biorxiv.org/content/10.1101/2023.12.05.570298v1)]
-+   DSMBind: SE(3) denoising score matching for unsupervised binding energy prediction and nanobody design  
-    + [[bioRxiv 2023.12.10.570461](https://www.biorxiv.org/content/10.1101/2023.12.10.570461v1)] • [[Supplementary1](https://www.biorxiv.org/content/biorxiv/early/2023/12/10/2023.12.10.570461/DC1/embed/media-1.xlsx)] • [[Supplementary2](https://www.biorxiv.org/content/biorxiv/early/2023/12/10/2023.12.10.570461/DC2/embed/media-2.pdf)]
+*Papers last week, updated on 2023.12.22:*  
++   Inverse folding of protein complexes with a structure-informed language model enables unsupervised antibody evolution  
+    + [[bioRxiv 2023.12.19.572475](https://www.biorxiv.org/content/10.1101/2023.12.19.572475v2)]
++   High-throughput computational discovery of inhibitory protein fragments with AlphaFold  
+    + [[bioRxiv 2023.12.19.572389](https://www.biorxiv.org/content/10.1101/2023.12.19.572389v1)] • [[code](https://github.com/swanss/FragFold)]
++   De novo design of diverse small molecule binders and sensors using Shape Complementary Pseudocycles  
+    + [[bioRxiv 2023.12.20.572602](https://www.biorxiv.org/content/10.1101/2023.12.20.572602v1)] • [[code1](https://github.com/LAnAlchemist/Pseudocycle_small_molecule_binder)], [[code2](https://github.com/iamlongtran/pseudocycle_paper)], [[code3](https://github.com/feldman4/ngs_app)]
 ------
 <p align="center">
   <br>
@@ -581,7 +565,7 @@ Patrick Bryant, Arne Elofsson
 
 **Hallucination of closed repeat proteins containing central pockets**  
 Linna An, Derrick R Hicks, Dmitri Zorine, Justas Dauparas, Basile I. M. Wicky, Lukas F Milles, Alexis Courbet, Asim K. Bera, Hannah Nguyen, Alex Kang, Lauren Carter, David Baker  
-[bioRxiv 2022.09.01.506251](https://www.biorxiv.org/content/10.1101/2022.09.01.506251v1)
+[bioRxiv 2022.09.01.506251](https://www.biorxiv.org/content/10.1101/2022.09.01.506251v1)/[Nat Struct Mol Biol 30, 1755–1760 (2023)](https://www.nature.com/articles/s41594-023-01112-6) • [Supplementary data](https://static-content.springer.com/esm/art%3A10.1038%2Fs41594-023-01112-6/MediaObjects/41594_2023_1112_MOESM1_ESM.pdf)
 
 **Predicting the structure of large protein complexes using AlphaFold and Monte Carlo tree search**  
 Bryant, Patrick, et al.  
@@ -642,6 +626,10 @@ An, L., Hicks, D.R., Zorine, D. et al.
 **AlphaFold Distillation for Protein Design**  
 Anonymous  
 [ICLR 2024 under review](https://openreview.net/forum?id=3pgJNIx3gc) • [code](https://anonymous.4open.science/r/AFDistill-28C3)
+
+**High-throughput computational discovery of inhibitory protein fragments with AlphaFold**  
+Andrew Savinov, Sebastian Swanson, Amy E. Keating, Gene-Wei Li  
+[bioRxiv 2023.12.19.572389](https://www.biorxiv.org/content/10.1101/2023.12.19.572389v1) • [code](https://github.com/swanss/FragFold)
 
 ### 2.3 DMPfold2-based
 
@@ -801,10 +789,6 @@ Huang, B., Xu, Y., Hu, X. et al
 
 ### 3.5 Diffusion-based
 
-**ForceGen: End-to-end de novo protein generation based on nonlinear mechanical unfolding responses using a protein language diffusion model**  
-Bo Ni and David L. Kaplan and M. Buehler  
-[arXiv:2310.10605](https://arxiv.org/abs/2310.10605) • [Supplementary](https://www.dropbox.com/scl/fi/33tnpd6u2xwermlvj22y9/SI_3_unfolding_movies_from_dataset.zip?rlkey=qno7rcitcdree8t9cj8wzg9sf&dl=0) • [code](https://github.com/lamm-mit/ProteinMechanicsDiffusionDesign)
-
 **Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem**  
 Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola  
 [arXiv:2206.04119](https://arxiv.org/abs/2206.04119v2)/[NeurIPS 2022](https://www.mlsb.io/papers_2022/Diffusion_probabilistic_modeling_of_protein_backbones_in_3D_for_the_motif_scaffolding_problem.pdf)/[ICLR 2023](https://openreview.net/forum?id=6TxBxqNME1Y) • [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/d3d9446802a44259755d38e6d163e820.png?t=1667835607.0141048) • [Supplementary](https://openreview.net/attachment?id=6TxBxqNME1Y&name=supplementary_material) • [code](https://github.com/blt2114/ProtDiff_SMCDiff)
@@ -840,6 +824,10 @@ Luhuan Wu, Brian L. Trippe, Christian A. Naesseth, David M. Blei, John P. Cunnin
 **Dynamics-Informed Protein Design with Structure Conditioning**  
 Simon V. Mathis, Urszula Julia Komorowska, Mateja Jamnik, Pietro Lió  
 [WCBICML2023](https://icml-compbio.github.io/2023/papers/WCBICML2023_paper121.pdf)/[ICLR 2024 under review](https://openreview.net/forum?id=jZPqf2G9Sw)
+
+**ForceGen: End-to-end de novo protein generation based on nonlinear mechanical unfolding responses using a protein language diffusion model**  
+Bo Ni and David L. Kaplan and M. Buehler  
+[arXiv:2310.10605](https://arxiv.org/abs/2310.10605) • [Supplementary](https://www.dropbox.com/scl/fi/33tnpd6u2xwermlvj22y9/SI_3_unfolding_movies_from_dataset.zip?rlkey=qno7rcitcdree8t9cj8wzg9sf&dl=0) • [code](https://github.com/lamm-mit/ProteinMechanicsDiffusionDesign)
 
 **DiffSDS: A geometric sequence diffusion model for protein backbone inpainting**  
 Anonymous  
@@ -1070,6 +1058,10 @@ Amir Shanehsazzadeh, Julian Alverio, George Kasun, Simon Levine, Jibran A Khan, 
 **SPDesign: protein sequence designer based on structural sequence profile using ultrafast shape recognition**  
 Hui Wang, Dong Liu, Kailong Zhao, Yajun Wang, Guijun Zhang  
 [bioRxiv 2023.12.14.571651](https://www.biorxiv.org/content/10.1101/2023.12.14.571651v1)
+
+**De novo design of diverse small molecule binders and sensors using Shape Complementary Pseudocycles**  
+Linna An, Meerit Said, Long Tran, Sagardip Majumder, Inna Goreshnik, Gyu Rie Lee, David Juergens, Justas Dauparas, Ivan Anishchenko, Brian Coventry, Asim K Bera, Alex Kang, Paul M Levine, Valentina Alvarez, Arvindd Pillai, Christoffer Norn, David Feldman, Dmitri Zorine, Derrick R Hicks, Xinting Li, Mariana Garcia Sanchez, Dionne K Vafeados, Patrick J Salveson, Anastassia A Vorobieva, David Baker  
+[bioRxiv 2023.12.20.572602](https://www.biorxiv.org/content/10.1101/2023.12.20.572602v1) • [code1](https://github.com/LAnAlchemist/Pseudocycle_small_molecule_binder), [code2](https://github.com/iamlongtran/pseudocycle_paper), [code3](https://github.com/feldman4/ngs_app)
 
 ### 4.6 GAN-based
 
@@ -1842,12 +1834,12 @@ Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun
 [bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387)/[Science(2022)](https://www.science.org/doi/10.1126/science.abn2100) • [RFDesign](https://github.com/RosettaCommons/RFDesign) • [our notes](https://zhuanlan.zhihu.com/p/477854488) • [lecture](https://www.youtube.com/watch?v=-EJ8SXTBin0) • [RoseTTAFold](https://github.com/RosettaCommons/RoseTTAFold) • [Supplementary](https://www.science.org/doi/suppl/10.1126/science.abn2100/suppl_file/science.abn2100_sm.pdf), [Other Supplementary](https://www.science.org/doi/suppl/10.1126/science.abn2100/suppl_file/science.abn2100_data_s1_and_s2.zip)
 
 **Broadly applicable and accurate protein design by integrating structure prediction networks and diffusion generative models** / **De novo design of protein structure and function with RFdiffusion**  
-Watson, J.L., Juergens, D., Bennett, N.R. et al.
+Watson, J.L., Juergens, D., Bennett, N.R. et al.  
 [Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v2)/[Nature (2023)](https://www.nature.com/articles/s41586-023-06415-8) • [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/), [news2](https://www.ipd.uw.edu/2023/03/rf-diffusion-now-free-and-open-source/), [news3](https://www.nature.com/articles/d41586-023-02227-y) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf) • [lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI) • [RFdiffusion:code](https://github.com/RosettaCommons/RFdiffusion), [Colab](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/v1.1.1/rf/examples/diffusion.ipynb) • [blog](https://www.science.org/content/blog-post/protein-design-ai-way)
 
 **De novo design of high-affinity protein binders to bioactive helical peptides**  
 Susana Vázquez Torres, Philip J. Y. Leung, Isaac D. Lutz, Preetham Venkatesh, Joseph L Watson, Fabian Hink, Huu-Hien Huynh, Andy Hsien-Wei Yeh, David Juergens, Nathaniel R. Bennett, Andrew N. Hoofnagle, Eric Huang, Michael J. MacCoss, Marc Expòsit, Gyu Rie Lee, Elif Nihal Korkmaz, Jeff Nivala, Lance Stewart, Joseph M. Rodgers, David Baker  
-[bioRxiv 2022.12.10.519862](https://www.biorxiv.org/content/10.1101/2022.12.10.519862v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.10.519862/DC1/embed/media-1.pdf)
+[bioRxiv 2022.12.10.519862](https://www.biorxiv.org/content/10.1101/2022.12.10.519862v1)/[Nature (2023)](https://www.nature.com/articles/s41586-023-06953-1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.10.519862/DC1/embed/media-1.pdf)
 
 **Joint Generation of Protein Sequence and Structure with RoseTTAFold Sequence Space Diffusion**  
 Sidney Lyayuga Lisanza, Jacob Merle Gershon, Sam Wayne Kenmore Tipps, Lucas Arnoldt, Samuel Hendel, Jeremiah Nelson Sims, Xinting Li, David Baker  
@@ -2072,6 +2064,10 @@ Zhang, Yijie, et al.
 **DSMBind: SE(3) denoising score matching for unsupervised binding energy prediction and nanobody design**  
 Wengong Jin, Xun Chen, Amrita Vetticaden, Siranush Sarzikova, Raktima Raychowdhury, Caroline Uhler, Nir Hacohen  
 [bioRxiv 2023.12.10.570461](https://www.biorxiv.org/content/10.1101/2023.12.10.570461v1) • [Supplementary1](https://www.biorxiv.org/content/biorxiv/early/2023/12/10/2023.12.10.570461/DC1/embed/media-1.xlsx) • [Supplementary2](https://www.biorxiv.org/content/biorxiv/early/2023/12/10/2023.12.10.570461/DC2/embed/media-2.pdf)
+
+**Inverse folding of protein complexes with a structure-informed language model enables unsupervised antibody evolution**  
+Varun R. Shanker, Theodora U.J. Bruun, Brian L. Hie, Peter S. Kim  
+[bioRxiv 2023.12.19.572475](https://www.biorxiv.org/content/10.1101/2023.12.19.572475v2)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
