@@ -8,13 +8,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.12.22:*  
-+   Inverse folding of protein complexes with a structure-informed language model enables unsupervised antibody evolution  
-    + [[bioRxiv 2023.12.19.572475](https://www.biorxiv.org/content/10.1101/2023.12.19.572475v2)]
-+   High-throughput computational discovery of inhibitory protein fragments with AlphaFold  
-    + [[bioRxiv 2023.12.19.572389](https://www.biorxiv.org/content/10.1101/2023.12.19.572389v1)] • [[code](https://github.com/swanss/FragFold)]
-+   De novo design of diverse small molecule binders and sensors using Shape Complementary Pseudocycles  
-    + [[bioRxiv 2023.12.20.572602](https://www.biorxiv.org/content/10.1101/2023.12.20.572602v1)] • [[code1](https://github.com/LAnAlchemist/Pseudocycle_small_molecule_binder)], [[code2](https://github.com/iamlongtran/pseudocycle_paper)], [[code3](https://github.com/feldman4/ngs_app)]
+*Papers last week, updated on 2023.12.29:*  
++   Structure-conditioned masked language models for protein sequence design generalize beyond the native sequence space  
+    + [[bioRxiv 2023.12.15.571823](https://www.biorxiv.org/content/10.1101/2023.12.15.571823v1)] • [[code](https://github.com/dakpinaroglu/Frame2seq)]
++   Atomic context-conditioned protein sequence design using LigandMPNN  
+    + [[bioRxiv 2023.12.22.573103](https://www.biorxiv.org/content/10.1101/2023.12.22.573103v1)] • [[code](https://github.com/dauparas/LigandMPNN)]
++   A Multi-Modal Contrastive Diffusion Model for Therapeutic Peptide Generation  
+    + [[arXiv:2312.15665](https://arxiv.org/abs/2312.15665)] • [[code](https://github.com/wyky481l/MMCD)]
 ------
 <p align="center">
   <br>
@@ -1063,6 +1063,14 @@ Hui Wang, Dong Liu, Kailong Zhao, Yajun Wang, Guijun Zhang
 Linna An, Meerit Said, Long Tran, Sagardip Majumder, Inna Goreshnik, Gyu Rie Lee, David Juergens, Justas Dauparas, Ivan Anishchenko, Brian Coventry, Asim K Bera, Alex Kang, Paul M Levine, Valentina Alvarez, Arvindd Pillai, Christoffer Norn, David Feldman, Dmitri Zorine, Derrick R Hicks, Xinting Li, Mariana Garcia Sanchez, Dionne K Vafeados, Patrick J Salveson, Anastassia A Vorobieva, David Baker  
 [bioRxiv 2023.12.20.572602](https://www.biorxiv.org/content/10.1101/2023.12.20.572602v1) • [code1](https://github.com/LAnAlchemist/Pseudocycle_small_molecule_binder), [code2](https://github.com/iamlongtran/pseudocycle_paper), [code3](https://github.com/feldman4/ngs_app)
 
+**Atomic context-conditioned protein sequence design using LigandMPNN**  
+Justas Dauparas, Gyu Rie Lee, Robert Pecoraro, Linna An, Ivan Anishchenko, Cameron Glasscock, D. Baker  
+[bioRxiv 2023.12.22.573103](https://www.biorxiv.org/content/10.1101/2023.12.22.573103v1) • [code](https://github.com/dauparas/LigandMPNN)
+
+**Structure-conditioned masked language models for protein sequence design generalize beyond the native sequence space**  
+Deniz Akpinaroglu, Kosuke Seki, Amy Guo, Eleanor Zhu, Mark J. S. Kelly, Tanja Kortemme  
+[bioRxiv 2023.12.15.571823](https://www.biorxiv.org/content/10.1101/2023.12.15.571823v1) • [code](https://github.com/dakpinaroglu/Frame2seq)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1826,6 +1834,10 @@ Anonymous
 **Guiding diffusion models for antibody sequence and structure co-design with developability properties**  
 Amelia Villegas-Morcillo, Jana M. Weber, Marcel J.T. Reinders  
 [bioRxiv 2023.11.22.568230](https://www.biorxiv.org/content/10.1101/2023.11.22.568230v1)/[NeurIPS 2023 Generative AI and Biology Workshop](https://openreview.net/forum?id=bPcgbKDCUQ) • [code](https://github.com/amelvim/antibody-diffusion-properties)
+
+**A Multi-Modal Contrastive Diffusion Model for Therapeutic Peptide Generation**  
+Yongkang Wang, Xuan Liu, Feng Huang, Zhankun Xiong, Wen Zhang  
+[arXiv:2312.15665](https://arxiv.org/abs/2312.15665) • [code](https://github.com/wyky481l/MMCD)
 
 ### 6.3 RoseTTAFold-based
 
