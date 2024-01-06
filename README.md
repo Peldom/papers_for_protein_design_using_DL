@@ -8,13 +8,12 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2023.12.29:*  
-+   Structure-conditioned masked language models for protein sequence design generalize beyond the native sequence space  
-    + [[bioRxiv 2023.12.15.571823](https://www.biorxiv.org/content/10.1101/2023.12.15.571823v1)] • [[code](https://github.com/dakpinaroglu/Frame2seq)]
-+   Atomic context-conditioned protein sequence design using LigandMPNN  
-    + [[bioRxiv 2023.12.22.573103](https://www.biorxiv.org/content/10.1101/2023.12.22.573103v1)] • [[code](https://github.com/dauparas/LigandMPNN)]
-+   A Multi-Modal Contrastive Diffusion Model for Therapeutic Peptide Generation  
-    + [[arXiv:2312.15665](https://arxiv.org/abs/2312.15665)] • [[code](https://github.com/wyky481l/MMCD)]
+*Papers last week, updated on 2024.01.06:*  
++   Protein sequence design on given backbones with deep learning  
+    + [[Protein Engineering, Design and Selection, 2023](https://academic.oup.com/peds/advance-article-abstract/doi/10.1093/protein/gzad024/7503843)]
++   Masked inverse folding with sequence transfer for protein representation learning  
+    + [[Protein Engineering, Design and Selection 36 (2023)](https://academic.oup.com/peds/article/doi/10.1093/protein/gzad015/7330543)] • [[code](https://github.com/microsoft/protein-sequence-models)]
+
 ------
 <p align="center">
   <br>
@@ -65,6 +64,7 @@
   <br>
   <strong><a href="#4scaffold-to-sequence">4) Scaffold to Sequence</a></strong>
   <br>
+  <a href="#40-review">Review</a> •
   <a href="#41-mlp-based">MLP-based</a> •
   <a href="#42-vae-based">VAE-based</a> •
   <a href="#43-lstm-based">LSTM-based</a> •
@@ -292,7 +292,7 @@ Paladino, Antonella, et al.
 
 **Advances in protein structure prediction and design**  
 Kuhlman, B., Bradley, P.  
-[Nat Rev Mol Cell Biol 20, 681–697 (2019)](https://www.nature.com/articles/s41580-019-0163-x)
+[Nat Rev Mol Cell Biol 20, 681-697 (2019)](https://www.nature.com/articles/s41580-019-0163-x)
 
 **Deep learning in protein structural modeling and design**  
 Wenhao Gao, Sai Pooja Mahajan, Jeremias Sulam, and Jeffrey J. Gray  
@@ -353,7 +353,7 @@ Liu, H, Chen, Q.
 
 **Understanding by design: Implementing deep learning from protein structure prediction to protein design**  
 Gao, Yuanxu, Jiangshan Zhan, and Albert CH Yu.  
-[MedComm–Future Medicine 1.2 (2022): e22](https://onlinelibrary.wiley.com/doi/full/10.1002/mef2.22)
+[MedComm-Future Medicine 1.2 (2022): e22](https://onlinelibrary.wiley.com/doi/full/10.1002/mef2.22)
 
 **Diffusion Models in Bioinformatics: A New Wave of Deep Learning Revolution in Action**  
 Zhiye Guo, Jian Liu, Yanli Wang, Mengrui Chen, Duolin Wang, Dong Xu, Jianlin Cheng  
@@ -387,7 +387,7 @@ LucianoSphere
 Clara Fannjiang, Jennifer Listgarten  
 [arXiv:2306.00872](https://arxiv.org/abs/2306.00872)
 
-**Computational protein design – where it goes?**  
+**Computational protein design - where it goes?**  
 Xu Binbin, Chen Yingjun and Xue Weiwei  
 [Current Medicinal Chemistry 2023](https://www.eurekaselect.com/article/132267)
 
@@ -467,7 +467,7 @@ Wan, Fangping, Daphne Kontogiorgos-Heintz, and Cesar de la Fuente-Nunez
 Gupta, Suchetana, Noora Azadvari, and Parisa Hosseinzadeh.  
 [BioDesign Research 2022 (2022)](https://spj.science.org/doi/10.34133/2022/9783197)
 
-**Revolutionizing peptide‐based drug discovery: Advances in the post‐AlphaFold era**  
+**Revolutionizing peptide-based drug discovery: Advances in the post-AlphaFold era**  
 Chang, Liwei, et al.  
 [Wiley Interdisciplinary Reviews: Computational Molecular Science](https://wires.onlinelibrary.wiley.com/doi/epdf/10.1002/wcms.1693)
 
@@ -483,12 +483,12 @@ Nathaniel Bennett, Brian Coventry, Inna Goreshnik, Buwei Huang, Aza Allen, Dionn
 Yongfan Ming, Wenkang Wang, Rui Yin, Min Zeng, Li Tang, Shizhe Tang, Min Li  
 [Briefings in Bioinformatics, 2023](https://academic.oup.com/bib/advance-article-abstract/doi/10.1093/bib/bbad065/7086816)
 
-**Application of "foldability" in the intelligent of enzymes engineering and design： take AlphaFold2 for example**  
+**Application of "foldability" in the intelligent of enzymes engineering and design: take AlphaFold2 for example**  
 MENG Qiaozhen, GUO Fei  
 [Synthetic Biology Journal (2023)](https://synbioj.cip.com.cn/article/2023/2096-8280/2023-011.shtml)
 
 **AlphaFold2 and Deep Learning for Elucidating Enzyme Conformational Flexibility and Its Application for Design**  
-Casadevall, Guillem, Cristina Duran, and Sílvia Osuna.  
+Casadevall, Guillem, Cristina Duran, and Sí­lvia Osuna.  
 [JACS Au (2023)](https://pubs.acs.org/doi/10.1021/jacsau.3c00188)
 
 **Accelerating Biocatalysis Discovery with Machine Learning: A Paradigm Shift in Enzyme Engineering, Discovery, and Design**  
@@ -565,7 +565,7 @@ Patrick Bryant, Arne Elofsson
 
 **Hallucination of closed repeat proteins containing central pockets**  
 Linna An, Derrick R Hicks, Dmitri Zorine, Justas Dauparas, Basile I. M. Wicky, Lukas F Milles, Alexis Courbet, Asim K. Bera, Hannah Nguyen, Alex Kang, Lauren Carter, David Baker  
-[bioRxiv 2022.09.01.506251](https://www.biorxiv.org/content/10.1101/2022.09.01.506251v1)/[Nat Struct Mol Biol 30, 1755–1760 (2023)](https://www.nature.com/articles/s41594-023-01112-6) • [Supplementary data](https://static-content.springer.com/esm/art%3A10.1038%2Fs41594-023-01112-6/MediaObjects/41594_2023_1112_MOESM1_ESM.pdf)
+[bioRxiv 2022.09.01.506251](https://www.biorxiv.org/content/10.1101/2022.09.01.506251v1)/[Nat Struct Mol Biol 30, 1755-1760 (2023)](https://www.nature.com/articles/s41594-023-01112-6) • [Supplementary data](https://static-content.springer.com/esm/art%3A10.1038%2Fs41594-023-01112-6/MediaObjects/41594_2023_1112_MOESM1_ESM.pdf)
 
 **Predicting the structure of large protein complexes using AlphaFold and Monte Carlo tree search**  
 Bryant, Patrick, et al.  
@@ -861,13 +861,19 @@ Jason Yim, Andrew Campbell, Andrew Y. K. Foong, Michael Gastegger, José Jiméne
 
 > Identify amino sequence from given backbone/scaffold/template constrains: torsion angles(φ & ψ), backbone angles(θ and τ), backbone dihedrals (φ, ψ & ω), backbone atoms (Cα, N, C, & O), Cα − Cα distance, unit direction vectors of Cα−Cα, Cα−N & Cα−C, etc(aka. inverse folding). Referred from [here](https://arxiv.org/abs/2202.01079). Energy-based models are also inculded for task of rotamer conformation(χ angles or atom coordinates) recovery.  
 
+### 4.0 Review
+
+**Protein sequence design on given backbones with deep learning**  
+Yufeng Liu, Haiyan Liu  
+[Protein Engineering, Design and Selection, 2023](https://academic.oup.com/peds/advance-article-abstract/doi/10.1093/protein/gzad024/7503843)
+
 ### 4.1 MLP-based
 
-**3D representations of amino acids—applications to protein sequence comparison and classification**  
+**3D representations of amino acids-applications to protein sequence comparison and classification**  
 Li, Jie, and Patrice Koehl.  
 [Computational and structural biotechnology journal 11.18 (2014)](https://www.sciencedirect.com/science/article/pii/S2001037014000270) • 2014  
 
-**Direct prediction of profiles of sequences compatible with a protein structure by neural networks with fragment‐based local and energy‐based nonlocal profiles**  
+**Direct prediction of profiles of sequences compatible with a protein structure by neural networks with fragment-based local and energy-based nonlocal profiles**  
 Li, Zhixiu, et al.  
 [Proteins: Structure, Function, and Bioinformatics 82.10 (2014)](https://onlinelibrary.wiley.com/doi/abs/10.1002/prot.24620) • code unavailable
 
@@ -1040,7 +1046,7 @@ Frédéric A. Dreyer, Daniel Cutting, Constantin Schneider, Henry Kenlay, Charlo
 [arXiv:2310.19513](https://arxiv.org/abs/2310.19513)
 
 **ProRefiner: an entropy-based refining strategy for inverse protein folding with global graph attention**  
-Xinyi Zhou, Guangyong Chen, Junjie Ye, Ercheng Wang, Jun Zhang, Cong Mao, Zhanwei Li, Jianye Hao, Xingxu Huang, Jin Tang, Pheng Ann Heng  
+Xinyi Zhou, Guangyong Chen, Junjie Ye, Ercheng Wang, Jun Zhang, Cong Mao, Zhanwei Li, Jianye Hao, Xingxu Huang, Jin Tang, Pheng Ann Heng  
 [Nature Communications](https://www.nature.com/articles/s41467-023-43166-6) • [Supplementary](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-023-43166-6/MediaObjects/41467_2023_43166_MOESM1_ESM.pdf) • [code](https://zenodo.org/records/10030882)
 
 **Engineered immunogens to elicit antibodies against conserved coronavirus epitopes**  
@@ -1643,7 +1649,7 @@ Leo Feng, Padideh Nouri, Aneri Muni, Yoshua Bengio, Pierre-Luc Bacon
 Wang, Yi, et al.  
 [Nature Machine Intelligence (2023)](https://www.nature.com/articles/s42256-023-00691-9) • [code](https://github.com/melobio/EvoPlay)
 
-**Curiosity Driven Protein Sequence Generation via Reinforcement Learning** 
+**Curiosity Driven Protein Sequence Generation via Reinforcement Learning**  
 Anonymous  
 [ICLR 2024 under review](https://openreview.net/forum?id=tPjVRmHqCg)
 
@@ -2113,6 +2119,10 @@ Anonymous(Paper under double-blind review)
 **Antibody Representation Learning for Drug Discovery**  
 Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Tristan Bepler, Rajmonda Sulo Caceres  
 [arXiv:2210.02881](https://arxiv.org/abs/2210.02881)
+
+**Masked inverse folding with sequence transfer for protein representation learning**  
+Kevin K Yang, Niccolâ Zanichelli, Hugh Yeh  
+[Protein Engineering, Design and Selection 36 (2023)](https://academic.oup.com/peds/article/doi/10.1093/protein/gzad015/7330543) • [code](https://github.com/microsoft/protein-sequence-models)
 
 ### 7.3 Molecular Design Models
 
