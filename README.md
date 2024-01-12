@@ -8,12 +8,11 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.01.06:*  
-+   Protein sequence design on given backbones with deep learning  
-    + [[Protein Engineering, Design and Selection, 2023](https://academic.oup.com/peds/advance-article-abstract/doi/10.1093/protein/gzad024/7503843)]
-+   Masked inverse folding with sequence transfer for protein representation learning  
-    + [[Protein Engineering, Design and Selection 36 (2023)](https://academic.oup.com/peds/article/doi/10.1093/protein/gzad015/7330543)] • [[code](https://github.com/microsoft/protein-sequence-models)]
-
+*Papers last week, updated on 2024.01.12:*  
++   Improved motif-scaffolding with SE(3) flow matching  
+    + [[arXiv:2401.04082](https://arxiv.org/abs/2401.04082)] • [[code](https://github.com/microsoft/frame-flow)]
++   Stable Online and Offline Reinforcement Learning for Antibody CDRH3 Design  
+    + [[arXiv:2401.05341](https://arxiv.org/abs/2401.05341)]
 ------
 <p align="center">
   <br>
@@ -841,6 +840,10 @@ Kieran Didi, Francisco Vargas, Simon V Mathis, Vincent Dutordoir, Emile Mathieu,
 Yuyang Zhang, Zihui (Zinnia) Ma, Haipeng Gong  
 [bioRxiv 2023.12.13.571602](https://www.biorxiv.org/content/10.1101/2023.12.13.571602v1)
 
+**Improved motif-scaffolding with SE(3) flow matching**  
+Jason Yim, Andrew Campbell, Emile Mathieu, Andrew Y. K. Foong, Michael Gastegger, José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling, Frank Noé, Regina Barzilay, Tommi S. Jaakkola  
+[arXiv:2401.04082](https://arxiv.org/abs/2401.04082) • [code](https://github.com/microsoft/frame-flow)
+
 ### 3.6 RL-based
 
 **Top-down design of protein nanomaterials with reinforcement learning**  
@@ -1031,7 +1034,7 @@ Cameron J Glasscock, Robert Pecoraro, Ryan McHugh, Lindsey A. Doyle, Wei Chen, O
 
 **Improving protein expression, stability, and function with ProteinMPNN**  
 Kiera H. Sumida, Reyes Núñez Franco, Indrek Kalvet, Samuel J. Pellock, Basile I. M. Wicky, Lukas F. Milles, Justas Dauparas, Jue Wang, Yakov Kipnis, Noel Jameson, Alex Kang, Joshmyn De La Cruz, Banumathi Sankaran, Asim K Bera, Gonzalo Jimenez Oses, David Baker  
-[bioRxiv 2023.10.03.560713](https://www.biorxiv.org/content/10.1101/2023.10.03.560713v1) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/10/03/2023.10.03.560713/DC1/embed/media-1.pdf)
+[bioRxiv 2023.10.03.560713](https://www.biorxiv.org/content/10.1101/2023.10.03.560713v1)/[J. Am. Chem. Soc. 2024](https://pubs.acs.org/doi/full/10.1021/jacs.3c10941) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/10/03/2023.10.03.560713/DC1/embed/media-1.pdf)
 
 **A Suite of Designed Protein Cages Using Machine Learning Algorithms and Protein Fragment-Based Protocols**  
 Kyle Meador, Roger Castells-Graells, Roman Aguirre, Michael R. Sawaya, Mark A. Arbing, Trent Sherman, Chethaka Senarathne, Todd O. Yeates  
@@ -1130,7 +1133,7 @@ Zaixiang Zheng, Yifan Deng, Dongyu Xue, Yi Zhou, Fei YE, Quanquan Gu
 [arXiv:2302.01649](https://arxiv.org/abs/2302.01649) • [code::ByProt](https://github.com/BytedProtein/ByProt)
 
 **Incorporating Pre-training Paradigm for Antibody Sequence-Structure Co-design**  
-Kaiyuan Gao, Lijun Wu, Jinhua Zhu, Tianbo Peng, Yingce Xia, Liang He, Shufang Xie, Tao Qin, Haiguang Liu, Kun He, Tie-Yan Liu 
+Kaiyuan Gao, Lijun Wu, Jinhua Zhu, Tianbo Peng, Yingce Xia, Liang He, Shufang Xie, Tao Qin, Haiguang Liu, Kun He, Tie-Yan Liu  
 [arXiv:2211.08406](https://arxiv.org/abs/2211.08406) • [code](https://github.com/KyGao/ABGNN)
 
 **A Text-guided Protein Design Framework**  
@@ -1493,7 +1496,7 @@ Chu, Simon, and Kathy Wei.
 
 **Unlocking de novo antibody design with generative artificial intelligence**  
 Shanehsazzadeh, Amir, et al.  
-[bioRxiv (2023): 2023-01](https://www.biorxiv.org/content/10.1101/2023.01.08.523187v3) • [data](https://github.com/AbSciBio/unlocking-de-novo-antibody-design) • [news](https://www.genengnews.com/topics/drug-discovery/antibodies/absci-eyes-ind-for-platforms-first-de-novo-antibody-within-two-years/) • [blog](https://www.science.org/content/blog-post/computing-our-way-antibodies) • commercial
+[bioRxiv (2023): 2023-01](https://www.biorxiv.org/content/10.1101/2023.01.08.523187v4) • [data](https://github.com/AbSciBio/unlocking-de-novo-antibody-design) • [news](https://www.genengnews.com/topics/drug-discovery/antibodies/absci-eyes-ind-for-platforms-first-de-novo-antibody-within-two-years/) • [blog](https://www.science.org/content/blog-post/computing-our-way-antibodies) • commercial
 
 **A universal deep-learning model for zinc finger design enables transcription factor reprogramming**  
 Ichikawa, D.M., Abdin, O., Alerasool, N. et al.  
@@ -1558,6 +1561,10 @@ Anonymous
 **SaLT&PepPr is an interface-predicting language model for designing peptide-guided protein degraders**  
 Brixi, G., Ye, T., Hong, L. et al.  
 [Commun Biol 6, 1081 (2023)](https://www.nature.com/articles/s42003-023-05464-z) • [code](https://github.com/programmablebio/saltnpeppr)
+
+**Binary Discriminator Facilitates GPT-based Protein Design**  
+Zishuo Zeng, Rufang Xu, Jin Guo, Xiaozhou Luo  
+[bioRxiv 2023.11.20.567789](https://www.biorxiv.org/content/10.1101/2023.11.20.567789v2) • [code](https://github.com/zishuozeng/GPT_protein_design) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/12/21/2023.11.20.567789/DC1/embed/media-1.xlsx)
 
 **ProteinNPT: Improving Protein Property Prediction and Design with Non-Parametric Transformers**  
 Pascal Notin, Ruben Weitzman, Debora S Marks, Yarin Gal  
@@ -1652,6 +1659,10 @@ Wang, Yi, et al.
 **Curiosity Driven Protein Sequence Generation via Reinforcement Learning**  
 Anonymous  
 [ICLR 2024 under review](https://openreview.net/forum?id=tPjVRmHqCg)
+
+**Stable Online and Offline Reinforcement Learning for Antibody CDRH3 Design**  
+Yannick Vogt, Mehdi Naouar, Maria Kalweit, Christoph Cornelius Miething, Justus Duyster, Roland Mertelsmann, Gabriel Kalweit, Joschka Boedecker  
+[arXiv:2401.05341](https://arxiv.org/abs/2401.05341)
 
 ### 5.8 Flow-based
 
