@@ -8,11 +8,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.01.12:*  
-+   Improved motif-scaffolding with SE(3) flow matching  
-    + [[arXiv:2401.04082](https://arxiv.org/abs/2401.04082)] • [[code](https://github.com/microsoft/frame-flow)]
-+   Stable Online and Offline Reinforcement Learning for Antibody CDRH3 Design  
-    + [[arXiv:2401.05341](https://arxiv.org/abs/2401.05341)]
+*Papers last week, updated on 2024.01.19:*  
++   Towards Joint Sequence-Structure Generation of Nucleic Acid and Protein Complexes with SE(3)-Discrete Diffusion  
+    + [[arXiv:2401.06151](https://arxiv.org/abs/2401.06151)] • [[code](https://github.com/Profluent-Internships/MMDiff)]
++   xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein  
+    + [[arXiv:2401.06199](https://arxiv.org/pdf/2401.06199.pdf)]
++   ProteinMPNN Recovers Complex Sequence Properties of Transmembrane β-Barrels
+    + [[bioRxiv 2024.01.16.575764](https://www.biorxiv.org/content/10.1101/2024.01.16.575764v1)] • [[code](https://github.com/marissadolorfino2024/ProteinMPNN-TMB-Design.git)]
++   Conversational Drug Editing Using Retrieval and Domain Feedback  
+    + [[ICLR (2024)](https://openreview.net/forum?id=yRrPfKyJQ2)] • [[code](https://github.com/chao1224/ChatDrug)] • [[website](https://chao1224.github.io/ChatDrug)]
 ------
 <p align="center">
   <br>
@@ -456,6 +460,10 @@ Bruna Moreira da Silva, David B. Ascher, Nicholas Geard, Douglas E. V. Pires
 Leonard Wossnig, Norbert Furtmann, Andrew Buchanan, Sandeep Kumar, Victor Greiff  
 [arXiv:2312.08470](https://arxiv.org/abs/2312.08470)
 
+**Next generation of multispecific antibody engineering**  
+Daniel Keri, Matt Walker, Isha Singh, Kyle Nishikawa, Fernando Garces  
+[Antibody Therapeutics (2023): tbad027](https://academic.oup.com/abt/article/7/1/37/7463325)
+
 ### 1.3 Peptide design
 
 **Deep generative models for peptide design**  
@@ -854,7 +862,7 @@ Isaac D Lutz, Shunzhi Wang, Christoffer Norn, Andrew J Borst, Yan Ting Zhao, Ann
 
 **SE(3)-Stochastic Flow Matching for Protein Backbone Generation**  
 Avishek Joey Bose, Tara Akhound-Sadegh, Kilian Fatras, Guillaume Huguet, Jarrid Rector-Brooks, Cheng-Hao Liu, Andrei Cristian Nica, Maksym Korablyov, Michael Bronstein, Alexander Tong  
-[arXiv:2310.02391](https://arxiv.org/abs/2310.02391)/[ICLR 2024 under review](https://openreview.net/forum?id=kJFIH23hXb)
+[arXiv:2310.02391](https://arxiv.org/abs/2310.02391)/[ICLR 2024](https://openreview.net/forum?id=kJFIH23hXb)
 
 **Fast protein backbone generation with SE(3) flow matching**  
 Jason Yim, Andrew Campbell, Andrew Y. K. Foong, Michael Gastegger, José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling, Regina Barzilay, Tommi Jaakkola, Frank Noé  
@@ -1079,6 +1087,10 @@ Justas Dauparas, Gyu Rie Lee, Robert Pecoraro, Linna An, Ivan Anishchenko, Camer
 **Structure-conditioned masked language models for protein sequence design generalize beyond the native sequence space**  
 Deniz Akpinaroglu, Kosuke Seki, Amy Guo, Eleanor Zhu, Mark J. S. Kelly, Tanja Kortemme  
 [bioRxiv 2023.12.15.571823](https://www.biorxiv.org/content/10.1101/2023.12.15.571823v1) • [code](https://github.com/dakpinaroglu/Frame2seq)
+
+**ProteinMPNN Recovers Complex Sequence Properties of Transmembrane β-Barrels**  
+Marissa D Dolorfino, Anastassia A Vorobieva  
+[bioRxiv 2024.01.16.575764](https://www.biorxiv.org/content/10.1101/2024.01.16.575764v1) • [code](https://github.com/marissadolorfino2024/ProteinMPNN-TMB-Design.git)
 
 ### 4.6 GAN-based
 
@@ -1418,6 +1430,10 @@ Madani, Ali, et al.
 Wu, Zachary, et al.  
 [ACS Synthetic Biology 9.8 (2020)](https://pubs.acs.org/doi/full/10.1021/acssynbio.0c00219)
 
+**ProtTrans: towards cracking the language of Life's code through self-supervised deep learning and high performance computing**  
+Elnaggar, Ahmed, et al.  
+[arXiv preprint arXiv:2007.06225 (2020)](https://ieeexplore.ieee.org/document/9477085)
+
 **Generative Language Modeling for Antibody Design**  
 Shuai, Richard W., Jeffrey A. Ruffolo, and Jeffrey J. Gray.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.12.13.472419v2)/[Cell Systems](https://www.cell.com/cell-systems/pdf/S2405-4712(23)00271-5.pdf) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/20/2021.12.13.472419/DC1/embed/media-1.pdf) • [code](https://github.com/Graylab/IgLM)
@@ -1425,10 +1441,6 @@ Shuai, Richard W., Jeffrey A. Ruffolo, and Jeffrey J. Gray.
 **Deep neural language modeling enables functional protein generation across families**  
 Madani, Ali, et al.  
 [bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.07.18.452833v1)  
-
-**ProtTrans: towards cracking the language of Life's code through self-supervised deep learning and high performance computing**  
-Elnaggar, Ahmed, et al.  
-[arXiv preprint arXiv:2007.06225 (2020)](https://ieeexplore.ieee.org/document/9477085)
 
 **Protein sequence sampling and prediction from structural data**  
 Gabriel A. Orellana, Javier Caceres-Delpiano, Roberto Ibañez, Michael P. Dunne, Leonardo Alvarez  
@@ -1469,6 +1481,10 @@ Erik Nijkamp, Jeffrey Ruffolo, Eli N. Weinstein, Nikhil Naik, Ali Madani
 **AbLang: an antibody language model for completing antibody sequences**  
 Tobias H Olsen, Iain H Moal, Charlotte M Deane  
 [Bioinformatics Advances, Volume 2, Issue 1, 2022, vbac046](https://academic.oup.com/bioinformaticsadvances/article/2/1/vbac046/6609807)
+
+**Reprogramming Pretrained Language Models for Antibody Sequence Infilling**  
+Igor Melnyk, Vijil Chenthamarakshan, Pin-Yu Chen, Payel Das, Amit Dhurandhar, Inkit Padhi, Devleena Das  
+[arXiv:2210.07144](https://arxiv.org/abs/2210.07144) • [code](https://github.com/IBM/ReprogBERT)
 
 **AbBERT: Learning Antibody Humanness via Masked Language Modeling**  
 Denis Vashchenko, Sam Nguyen, Andre Goncalves, Felipe Leno da Silva, Brenden Petersen, Thomas Desautels, Daniel Faissol  
@@ -1526,10 +1542,6 @@ Lee, Youhan, and Hasun Yu.
 Sebastian Lindner, Michael Heinzinger, Noelia Ferruz  
 paper coming soon • [hugging face](https://huggingface.co/AI4PD/REXzyme)
 
-**Reprogramming Pretrained Language Models for Antibody Sequence Infilling**  
-Igor Melnyk, Vijil Chenthamarakshan, Pin-Yu Chen, Payel Das, Amit Dhurandhar, Inkit Padhi, Devleena Das  
-[arXiv:2210.07144](https://arxiv.org/abs/2210.07144) • [code](https://github.com/IBM/ReprogBERT)
-
 **xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein**  
 Bo Chen, Xingyi Cheng, Li-ao Gengyang, Shen Li, Xin Zeng, Boyan Wang, Gong Jing, Chiming Liu, Aohan Zeng, Yuxiao Dong, Jie Tang, Le Song  
 [bioRxiv 2023.07.05.547496](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1) • [news](https://mp.weixin.qq.com/s/XQn8je49z23UYby8pR7fkA) • [website](https://www.biomap.com/aigp-light-beta/form) • commercial
@@ -1573,6 +1585,14 @@ Pascal Notin, Ruben Weitzman, Debora S Marks, Yarin Gal
 **The promises of large language models for protein design and modeling**  
 Valentini, Giorgio, et al.  
 [Frontiers in Bioinformatics 3 (2023)](https://www.frontiersin.org/articles/10.3389/fbinf.2023.1304099/full)
+
+**xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein**  
+Bo Chen, Xingyi Cheng, Pan Li, Yangli-ao Geng, Jing Gong, Shen Li, Zhilei Bei, Xu Tan, Boyan Wang, Xin Zeng, Chiming Liu, Aohan Zeng, Yuxiao Dong, Jie Tang, Le Song  
+[arXiv:2401.06199](https://arxiv.org/pdf/2401.06199.pdf)
+
+**Conversational Drug Editing Using Retrieval and Domain Feedback**  
+Shengchao Liu, Jiongxiao Wang, Yijin Yang, Chengpeng Wang, Ling Liu, Hongyu Guo, Chaowei Xiao  
+[ICLR (2024)](https://openreview.net/forum?id=yRrPfKyJQ2) • [code](https://github.com/chao1224/ChatDrug) • [website](https://chao1224.github.io/ChatDrug)
 
 ### 5.5 ResNet-based
 
@@ -1770,7 +1790,7 @@ Paper unavailable • [github](https://github.com/pengzhangzhi/protein-sequence-
 
 **Protein Design with Guided Discrete Diffusion**  
 Nate Gruver, Samuel Stanton, Nathan C. Frey, Tim G. J. Rudner, Isidro Hotzel, Julien Lafrance-Vanasse, Arvind Rajpal, Kyunghyun Cho, Andrew Gordon Wilson  
-[arXiv:2305.20009](https://arxiv.org/abs/2305.20009) • [code](https://github.com/ngruver/NOS)
+[arXiv:2305.20009](https://arxiv.org/abs/2305.20009) • [code](https://github.com/ngruver/NOS) • [lecture](https://www.youtube.com/watch?v=Hm8Z0SIyLqw)
 
 **PRO-LDM: Protein Sequence Generation with Conditional Latent Diffusion Models**  
 Zixuan Jiang, Sitao Zhang, Rundong Huang, Shaoxun Mo, Letao Zhu, Peiheng Li, Ziyi Zhang, Xi Chen, Yunfei Long, Renjing Xu, Rui Qing  
@@ -1855,6 +1875,10 @@ Amelia Villegas-Morcillo, Jana M. Weber, Marcel J.T. Reinders
 **A Multi-Modal Contrastive Diffusion Model for Therapeutic Peptide Generation**  
 Yongkang Wang, Xuan Liu, Feng Huang, Zhankun Xiong, Wen Zhang  
 [arXiv:2312.15665](https://arxiv.org/abs/2312.15665) • [code](https://github.com/wyky481l/MMCD)
+
+**Towards Joint Sequence-Structure Generation of Nucleic Acid and Protein Complexes with SE(3)-Discrete Diffusion**  
+Alex Morehead, Jeffrey Ruffolo, Aadyot Bhatnagar, Ali Madani  
+[arXiv:2401.06151](https://arxiv.org/abs/2401.06151) • [code](https://github.com/Profluent-Internships/MMDiff)
 
 ### 6.3 RoseTTAFold-based
 
