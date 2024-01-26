@@ -8,15 +8,9 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.01.19:*  
-+   Towards Joint Sequence-Structure Generation of Nucleic Acid and Protein Complexes with SE(3)-Discrete Diffusion  
-    + [[arXiv:2401.06151](https://arxiv.org/abs/2401.06151)] • [[code](https://github.com/Profluent-Internships/MMDiff)]
-+   xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein  
-    + [[arXiv:2401.06199](https://arxiv.org/pdf/2401.06199.pdf)]
-+   ProteinMPNN Recovers Complex Sequence Properties of Transmembrane β-Barrels
-    + [[bioRxiv 2024.01.16.575764](https://www.biorxiv.org/content/10.1101/2024.01.16.575764v1)] • [[code](https://github.com/marissadolorfino2024/ProteinMPNN-TMB-Design.git)]
-+   Conversational Drug Editing Using Retrieval and Domain Feedback  
-    + [[ICLR (2024)](https://openreview.net/forum?id=yRrPfKyJQ2)] • [[code](https://github.com/chao1224/ChatDrug)] • [[website](https://chao1224.github.io/ChatDrug)]
+*Papers last week, updated on 2024.01.26:*  
++   Multi-indicator comparative evaluation for deep Learning-Based protein sequence design methods  
+    + [[Bioinformatics, 2024;, btae037](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae037/7585533)]
 ------
 <p align="center">
   <br>
@@ -878,6 +872,10 @@ Jason Yim, Andrew Campbell, Andrew Y. K. Foong, Michael Gastegger, José Jiméne
 Yufeng Liu, Haiyan Liu  
 [Protein Engineering, Design and Selection, 2023](https://academic.oup.com/peds/advance-article-abstract/doi/10.1093/protein/gzad024/7503843)
 
+**Multi-indicator comparative evaluation for deep Learning-Based protein sequence design methods**  
+Jinyu Yu, Junxi Mu, Ting Wei, Hai-Feng Chen  
+[Bioinformatics, 2024;, btae037](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae037/7585533)
+
 ### 4.1 MLP-based
 
 **3D representations of amino acids-applications to protein sequence comparison and classification**  
@@ -1338,7 +1336,7 @@ Shunshi Kohyama, Bela Paul Frohn, Leon Babl, Petra Schwille
 
 **ProteinVAE: Variational AutoEncoder for Translational Protein Design**  
 Suyue Lyu, Shahin Sowlati-Hashjin, Michael Garton  
-[bioRxiv 2023.03.04.531110](https://www.biorxiv.org/content/10.1101/2023.03.04.531110v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/03/05/2023.03.04.531110/DC1/embed/media-1.pdf)
+[bioRxiv 2023.03.04.531110](https://www.biorxiv.org/content/10.1101/2023.03.04.531110v1)/[Nat Mach Intell (2024)](https://www.nature.com/articles/s42256-023-00787-2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/03/05/2023.03.04.531110/DC1/embed/media-1.pdf) • [code](https://huggingface.co/Rostlab/prot_bert)
 
 **ProtWave-VAE: Integrating autoregressive sampling with latent-based inference for data-driven protein design**  
 Niksa Praljak, Xinran Lian, Rama Ranganathan, Andrew Ferguson  
@@ -1838,7 +1836,7 @@ Shitong Luo, Yufeng Su, Xingang Peng, Sheng Wang, Jian Peng, Jianzhu Ma
 
 **Illuminating protein space with a programmable generative model**  
 John Ingraham, Max Baranov, Zak Costello, Vincent Frappier, Ahmed Ismail, Shan Tie, Wujie Wang, Vincent Xue, Fritz Obermeyer, Andrew Beam, Gevorg Grigoryan  
-[Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf)/[bioRxiv 2022.12.01.518682](https://www.biorxiv.org/content/10.1101/2022.12.01.518682v1)/[Nature (2023)](https://www.nature.com/articles/s41586-023-06728-8) • [website](https://generatebiomedicines.com/chroma) • [news](https://www.nature.com/articles/s41587-023-01705-y) • [code](https://github.com/generatebio/chroma) • commercial
+[Generate Biomedicines Preprint](https://cdn.generatebiomedicines.com/assets/ingraham2022.pdf)/[bioRxiv 2022.12.01.518682](https://www.biorxiv.org/content/10.1101/2022.12.01.518682v1)/[Nature (2023)](https://www.nature.com/articles/s41586-023-06728-8) • [website](https://generatebiomedicines.com/chroma) • [news](https://www.nature.com/articles/s41587-023-01705-y) • [code](https://github.com/generatebio/chroma) • [colab](https://colab.research.google.com/github/generatebio/chroma/blob/main/notebooks/ChromaTutorial.ipynb) • commercial
 
 **Physics-Inspired Protein Encoder Pre-Training via Siamese Sequence-Structure Diffusion Trajectory Prediction**  
 Zuobai Zhang, Minghao Xu, Aurélie Lozano, Vijil Chenthamarakshan, Payel Das, Jian Tang  
