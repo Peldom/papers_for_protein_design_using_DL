@@ -8,9 +8,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.01.26:*  
-+   Multi-indicator comparative evaluation for deep Learning-Based protein sequence design methods  
-    + [[Bioinformatics, 2024;, btae037](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae037/7585533)]
+*Papers last week, updated on 2024.02.02:*  
++   Deep learning for protein structure prediction and design—progress and applications  
+    + [[Mol Syst Biol(2024)](https://www.embopress.org/doi/full/10.1038/s44320-024-00016-x)]
++   Transfer learning to leverage larger datasets for improved prediction of protein stability changes  
+    + [[Proceedings of the National Academy of Sciences 121.6 (2024)](https://www.pnas.org/doi/10.1073/pnas.2314853121)] • [[code](https://github.com/Kuhlman-Lab/ThermoMPNN)]
++   Generative β-Hairpin Design Using a Residue-Based Physicochemical Property Landscape  
+    + [[Biophysical Journal(2024)](https://www.sciencedirect.com/science/article/pii/S0006349524000705)] • [[code](https://github.com/juliecmitchell/beGAN)]
 ------
 <p align="center">
   <br>
@@ -407,6 +411,10 @@ Mehrsa Mardikoraem, Zirui Wang, Nathaniel Pascual, Daniel Woldring
 **A new age in protein design empowered by deep learning**  
 Khakzad, Hamed et al  
 [Cell Systems, Volume 14, Issue 11](https://www.cell.com/cell-systems/fulltext/S2405-4712(23)00298-3)
+
+**Deep learning for protein structure prediction and design—progress and applications**  
+Jürgen Jänes and Pedro Beltrao  
+[Mol Syst Biol(2024)](https://www.embopress.org/doi/full/10.1038/s44320-024-00016-x)
 
 ### 1.2 Antibody design
 
@@ -1416,6 +1424,10 @@ Hasegawa, Kano, et al.
 Cao, Qiushi, et al.  
 [Briefings in Bioinformatics (2023)](https://academic.oup.com/bib/article-abstract/24/2/bbad058/7066348)
 
+**Generative β-Hairpin Design Using a Residue-Based Physicochemical Property Landscape**  
+Vardhan Satalkar and Gemechis D. Degaga and Wei Li and Yui Tik Pang and Andrew C. McShan and James C. Gumbart and Julie C. Mitchell and Matthew P. Torres  
+[Biophysical Journal(2024)](https://www.sciencedirect.com/science/article/pii/S0006349524000705) • [code](https://github.com/juliecmitchell/beGAN)
+
 ### 5.4 Transformer-based
 
 > Including maked language models and autoregressive language models.
@@ -2119,6 +2131,10 @@ Wengong Jin, Xun Chen, Amrita Vetticaden, Siranush Sarzikova, Raktima Raychowdhu
 **Inverse folding of protein complexes with a structure-informed language model enables unsupervised antibody evolution**  
 Varun R. Shanker, Theodora U.J. Bruun, Brian L. Hie, Peter S. Kim  
 [bioRxiv 2023.12.19.572475](https://www.biorxiv.org/content/10.1101/2023.12.19.572475v2)
+
+**Transfer learning to leverage larger datasets for improved prediction of protein stability changes**  
+Henry Dieckhaus, Michael Brocidiacono, Nicholas Z. Randolph, and Brian Kuhlman  
+[Proceedings of the National Academy of Sciences 121.6 (2024)](https://www.pnas.org/doi/10.1073/pnas.2314853121) • [code](https://github.com/Kuhlman-Lab/ThermoMPNN)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
