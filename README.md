@@ -8,13 +8,19 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.02.02:*  
-+   Deep learning for protein structure prediction and design—progress and applications  
-    + [[Mol Syst Biol(2024)](https://www.embopress.org/doi/full/10.1038/s44320-024-00016-x)]
-+   Transfer learning to leverage larger datasets for improved prediction of protein stability changes  
-    + [[Proceedings of the National Academy of Sciences 121.6 (2024)](https://www.pnas.org/doi/10.1073/pnas.2314853121)] • [[code](https://github.com/Kuhlman-Lab/ThermoMPNN)]
-+   Generative β-Hairpin Design Using a Residue-Based Physicochemical Property Landscape  
-    + [[Biophysical Journal(2024)](https://www.sciencedirect.com/science/article/pii/S0006349524000705)] • [[code](https://github.com/juliecmitchell/beGAN)]
+*Papers last week, updated on 2024.02.09:*  
++   De novo protein design—From new structures to programmable functions  
+    + [[Cell 187.3 (2024)](https://www.cell.com/cell/fulltext/S0092-8674(23)01402-2)]
++   TIMED-Design: Flexible and Accessible Protein Sequence 
+    + [[Protein Engineering, Design and Selection, 2024][(](https://academic.oup.com/peds/advance-article/doi/10.1093/protein/gzae002/7591701))] • [[code](https://github.com/wells-wood-research/timed-design)] • [[website](https://pragmaticproteindesign.bio.ed.ac.uk/timed/)]
++   DiffTopo: Fold exploration using coarse grained protein topology representations  
+    + [[bioRxiv 2024.02.01.578456](https://www.biorxiv.org/content/10.1101/2024.02.01.578456v1)]/ICLR 2024
++   ProtAgents: Protein discovery via large language model multi-agent collaborations combining physics and machine learning  
+    + [[arXiv:2402.04268](https://arxiv.org/abs/2402.04268)] • [[code](https://github.com/lamm-mit/ProtAgents)]
++   Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design  
+    + [[arXiv:2402.04997](https://arxiv.org/abs/2402.04997)] • [[code](https://github.com/andrew-cr/discrete_flow_models)]
++   De novo Design of Cavity-Containing Proteins with a Backbone-Centered Neural Network Energy Function  
+    + [[Structure (2024)](https://www.cell.com/structure/fulltext/S0969-2126(24)00007-8)]
 ------
 <p align="center">
   <br>
@@ -105,6 +111,7 @@
   <a href="#65-gnn-based">GNN-based</a> •
   <a href="#66-transformer-based">Transformer-based</a> •
   <a href="#67-mlp-based">MLP-based</a>
+  <a href="#68-flow-based">Flow-based</a>
   <br>
   <strong><a href="#7-other-tasks">7) Other</a></strong>
   <br>
@@ -415,6 +422,10 @@ Khakzad, Hamed et al
 **Deep learning for protein structure prediction and design—progress and applications**  
 Jürgen Jänes and Pedro Beltrao  
 [Mol Syst Biol(2024)](https://www.embopress.org/doi/full/10.1038/s44320-024-00016-x)
+
+**De novo protein design—From new structures to programmable functions**  
+Kortemme, Tanja.  
+[Cell 187.3 (2024)](https://www.cell.com/cell/fulltext/S0092-8674(23)01402-2)
 
 ### 1.2 Antibody design
 
@@ -796,6 +807,10 @@ Vladimir Gligorijevic, Stephen Ra, Daniel Berenberg, Richard Bonneau, Kyunghyun 
 Huang, B., Xu, Y., Hu, X. et al  
 [Nature (2022)](https://doi.org/10.1038/s41586-021-04383-5) • [code](https://zenodo.org/record/4533424#.YwP3UPFBwqs)
 
+**De novo Design of Cavity-Containing Proteins with a Backbone-Centered Neural Network Energy Function**  
+Xu, Yang, et al.  
+[Structure (2024)](https://www.cell.com/structure/fulltext/S0969-2126(24)00007-8)
+
 ### 3.5 Diffusion-based
 
 **Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem**  
@@ -808,7 +823,7 @@ Jin Sub Lee, Philip M Kim
 
 **Protein structure generation via folding diffusion**  
 Kevin E. Wu, Kevin K. Yang, Rianne van den Berg, James Y. Zou, Alex X. Lu, Ava P. Amini  
-[arXiv:2209.15611](https://arxiv.org/abs/2209.15611v2) • [code](https://github.com/microsoft/foldingdiff)
+[arXiv:2209.15611](https://arxiv.org/abs/2209.15611v2)/[Nat Commun 15, 1059 (2024)](https://www.nature.com/articles/s41467-024-45051-2) • [code](https://github.com/microsoft/foldingdiff)
 
 **DiffSDS: A language diffusion model for protein backbone inpainting under geometric conditions and constraints**  
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
@@ -853,6 +868,10 @@ Yuyang Zhang, Zihui (Zinnia) Ma, Haipeng Gong
 **Improved motif-scaffolding with SE(3) flow matching**  
 Jason Yim, Andrew Campbell, Emile Mathieu, Andrew Y. K. Foong, Michael Gastegger, José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling, Frank Noé, Regina Barzilay, Tommi S. Jaakkola  
 [arXiv:2401.04082](https://arxiv.org/abs/2401.04082) • [code](https://github.com/microsoft/frame-flow)
+
+**DiffTopo: Fold exploration using coarse grained protein topology representations**  
+Yangyang Miao, Bruno Correia  
+[bioRxiv 2024.02.01.578456](https://www.biorxiv.org/content/10.1101/2024.02.01.578456v1)/ICLR 2024
 
 ### 3.6 RL-based
 
@@ -940,9 +959,9 @@ Zhang, Yuan, et al.
 Namrata Anand, Raphael Eguchi, Irimpan I. Mathews, Carla P. Perez, Alexander Derry, Russ B. Altman & Po-Ssu Huang  
 [Nacture Communications (2022)](https://www.nature.com/articles/s41467-022-28313-9) • [code](https://github.com/ProteinDesignLab/protein_seq_des)  
 
-**Protein Sequence Design with Deep Learning and Tooling like Monte Carlo Sampling and Analysis**  
-Leonardo Castorina  
-paper not available • [code](https://github.com/wells-wood-research/timed-design)
+**TIMED-Design: Flexible and Accessible Protein Sequence Design with Convolutional Neural Networks**  
+Leonardo V Castorina, Suleyman Mert Ünal, Kartic Subr, Christopher W Wood  
+[Protein Engineering, Design and Selection, 2024]((https://academic.oup.com/peds/advance-article/doi/10.1093/protein/gzae002/7591701)) • [code](https://github.com/wells-wood-research/timed-design) • [website](https://pragmaticproteindesign.bio.ed.ac.uk/timed/)
 
 ### 4.5 GNN-based
 
@@ -1604,6 +1623,10 @@ Bo Chen, Xingyi Cheng, Pan Li, Yangli-ao Geng, Jing Gong, Shen Li, Zhilei Bei, X
 Shengchao Liu, Jiongxiao Wang, Yijin Yang, Chengpeng Wang, Ling Liu, Hongyu Guo, Chaowei Xiao  
 [ICLR (2024)](https://openreview.net/forum?id=yRrPfKyJQ2) • [code](https://github.com/chao1224/ChatDrug) • [website](https://chao1224.github.io/ChatDrug)
 
+**ProtAgents: Protein discovery via large language model multi-agent collaborations combining physics and machine learning**  
+A. Ghafarollahi, M.J. Buehler  
+[arXiv:2402.04268](https://arxiv.org/abs/2402.04268) • [code](https://github.com/lamm-mit/ProtAgents)
+
 ### 5.5 ResNet-based
 
 **Accelerating protein design using autoregressive generative models**  
@@ -1978,11 +2001,17 @@ Zaixi Zhang, Zepu Lu, Zhongkai Hao, Marinka Zitnik, Qi Liu
 Anonymous  
 [ICLR 2024 under review](https://openreview.net/forum?id=Dr4qD9bzZd)
 
-### 6.6 MLP-based
+### 6.7 MLP-based
 
 **Protein Complex Invariant Embedding with Cross-Gate MLP is A One-Shot Antibody Designer**  
 Cheng Tan, Zhangyang Gao, Stan Z. Li  
 [arXiv:2305.09480](https://arxiv.org/abs/2305.09480)
+
+### 6.8 Flow-based
+
+**Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design**  
+Andrew Campbell, Jason Yim, Regina Barzilay, Tom Rainforth, Tommi Jaakkola  
+[arXiv:2402.04997](https://arxiv.org/abs/2402.04997) • [code](https://github.com/andrew-cr/discrete_flow_models)
 
 ## 7. Other tasks
 
