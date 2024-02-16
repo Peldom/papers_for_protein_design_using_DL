@@ -8,19 +8,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.02.09:*  
-+   De novo protein design—From new structures to programmable functions  
-    + [[Cell 187.3 (2024)](https://www.cell.com/cell/fulltext/S0092-8674(23)01402-2)]
-+   TIMED-Design: Flexible and Accessible Protein Sequence 
-    + [[Protein Engineering, Design and Selection, 2024][(](https://academic.oup.com/peds/advance-article/doi/10.1093/protein/gzae002/7591701))] • [[code](https://github.com/wells-wood-research/timed-design)] • [[website](https://pragmaticproteindesign.bio.ed.ac.uk/timed/)]
-+   DiffTopo: Fold exploration using coarse grained protein topology representations  
-    + [[bioRxiv 2024.02.01.578456](https://www.biorxiv.org/content/10.1101/2024.02.01.578456v1)]/ICLR 2024
-+   ProtAgents: Protein discovery via large language model multi-agent collaborations combining physics and machine learning  
-    + [[arXiv:2402.04268](https://arxiv.org/abs/2402.04268)] • [[code](https://github.com/lamm-mit/ProtAgents)]
-+   Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design  
-    + [[arXiv:2402.04997](https://arxiv.org/abs/2402.04997)] • [[code](https://github.com/andrew-cr/discrete_flow_models)]
-+   De novo Design of Cavity-Containing Proteins with a Backbone-Centered Neural Network Energy Function  
-    + [[Structure (2024)](https://www.cell.com/structure/fulltext/S0969-2126(24)00007-8)]
+*Papers last week, updated on 2024.02.17:*  
++   Proteus: exploring protein structure generation for enhanced designability and efficiency  
+    + [[bioRxiv 2024.02.10.579791](https://www.biorxiv.org/content/10.1101/2024.02.10.579791v2)]
++   Scaffold-Lab: Critical Evaluation and Ranking of Protein Backbone Generation Methods in A Unified Framework  
+    + [[bioRxiv 2024.02.10.579743](https://www.biorxiv.org/content/10.1101/2024.02.10.579743v1)] • [[code](https://github.com/Immortals-33/Scaffold-Lab)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/02/12/2024.02.10.579743/DC1/embed/media-1.pdf)]
++   Generative models for protein structures and sequences  
+    + [[Nat Biotechnol 42, 196–199 (2024)](https://www.nature.com/articles/s41587-023-02115-w)]
++   Designing proteins with language models  
+    + [[Nat Biotechnol 42, 200–202 (2024)](https://www.nature.com/articles/s41587-024-02123-4)]
++   X-LoRA: Mixture of Low-Rank Adapter Experts, a Flexible Framework for Large Language Models with Applications in Protein Mechanics and Design  
+    + [[arXiv:2402.07148](https://arxiv.org/abs/2402.07148)] • [[code](https://github.com/EricLBuehler/xlora)] • [[Model & weights](https://huggingface.co/lamm-mit/x-lora)]
 ------
 <p align="center">
   <br>
@@ -255,6 +253,10 @@ Zhangyang Gao, Cheng Tan, Yijie Zhang, Xingran Chen, Stan Z. Li
 Wang, Chuanrui, et al.  
 [arXiv preprint arXiv:2312.00080 (2023)](https://arxiv.org/abs/2312.00080) • [code](https://github.com/WANG-CR/PDB-Struct)
 
+**Scaffold-Lab: Critical Evaluation and Ranking of Protein Backbone Generation Methods in A Unified Framework**  
+Zhuoqi Zheng, Bo Zhang, Bozitao Zhong, Kexin Liu, Jinyu Yu, Zhengxin Li, JunJie Zhu, Ting Wei, Hai-Feng Chen  
+[bioRxiv 2024.02.10.579743](https://www.biorxiv.org/content/10.1101/2024.02.10.579743v1) • [code](https://github.com/Immortals-33/Scaffold-Lab) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/02/12/2024.02.10.579743/DC1/embed/media-1.pdf)
+
 ### 0.3 Databases
 
 > A list of suggested protein databases, more lists at [CNCB](https://ngdc.cncb.ac.cn/databasecommons/).
@@ -427,6 +429,10 @@ Jürgen Jänes and Pedro Beltrao
 Kortemme, Tanja.  
 [Cell 187.3 (2024)](https://www.cell.com/cell/fulltext/S0092-8674(23)01402-2)
 
+**Generative models for protein structures and sequences**  
+Hsu, C., Fannjiang, C. & Listgarten, J.  
+[Nat Biotechnol 42, 196–199 (2024)](https://www.nature.com/articles/s41587-023-02115-w)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
@@ -552,6 +558,10 @@ David E. Kim  and Davin R. Jensen  and David Feldman  and Doug Tischer  and Ayes
 **Exploring "dark matter" protein folds using deep learning**  
 Zander Harteveld, Alexandra Van Hall-Beauvais, Irina Morozova, Joshua Southern, Casper Alexander Goverde, Sandrine Georgeon, Stephane Rosset, Andreas Loukas, Pierre Vandergheynst, Michael Bronstein, Bruno Correia  
 [bioRxiv 2023.08.30.555621](https://www.biorxiv.org/content/10.1101/2023.08.30.555621v1) • [Suppplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/09/01/2023.08.30.555621/DC1/embed/media-1.pdf) • [code](https://github.com/zanderharteveld/genesis)
+
+**Carving out a Glycoside Hydrolase Active Site for Incorporation into a New Protein Scaffold Using Deep Network Hallucination**  
+Anders Lønstrup Hansen, Frederik Friis Theisen, Ramon Crehuet, Enrique Marcos, Nushin Aghajari, and Martin Willemoës  
+[ACS Synth. Biol. 2024](https://pubs.acs.org/doi/10.1021/acssynbio.3c00674)
 
 ### 2.2 AlphaFold2-based
 
@@ -851,7 +861,7 @@ Simon V. Mathis, Urszula Julia Komorowska, Mateja Jamnik, Pietro Lió
 
 **ForceGen: End-to-end de novo protein generation based on nonlinear mechanical unfolding responses using a protein language diffusion model**  
 Bo Ni and David L. Kaplan and M. Buehler  
-[arXiv:2310.10605](https://arxiv.org/abs/2310.10605) • [Supplementary](https://www.dropbox.com/scl/fi/33tnpd6u2xwermlvj22y9/SI_3_unfolding_movies_from_dataset.zip?rlkey=qno7rcitcdree8t9cj8wzg9sf&dl=0) • [code](https://github.com/lamm-mit/ProteinMechanicsDiffusionDesign)
+[arXiv:2310.10605](https://arxiv.org/abs/2310.10605)/[Science Advances 10.6 (2024)](https://www.science.org/doi/10.1126/sciadv.adl4000) • [Supplementary](https://www.dropbox.com/scl/fi/33tnpd6u2xwermlvj22y9/SI_3_unfolding_movies_from_dataset.zip?rlkey=qno7rcitcdree8t9cj8wzg9sf&dl=0) • [code](https://github.com/lamm-mit/ProteinMechanicsDiffusionDesign)
 
 **DiffSDS: A geometric sequence diffusion model for protein backbone inpainting**  
 Anonymous  
@@ -1217,6 +1227,10 @@ Zheng, Jiangbin, et al.
 Lee, Youhan, and Jaehoon Kim.  
 [bioRxiv (2023): 2023-12](https://www.biorxiv.org/content/10.1101/2023.12.03.567710v2)
 
+**X-LoRA: Mixture of Low-Rank Adapter Experts, a Flexible Framework for Large Language Models with Applications in Protein Mechanics and Design**  
+Eric L. Buehler, Markus J. Buehler  
+[arXiv:2402.07148](https://arxiv.org/abs/2402.07148) • [code](https://github.com/EricLBuehler/xlora) • [Model & weights](https://huggingface.co/lamm-mit/x-lora)
+
 ### 4.8 ResNet-based
 
 **DenseCPD: improving the accuracy of neural-network-based computational protein sequence design with DenseNet**  
@@ -1449,7 +1463,7 @@ Vardhan Satalkar and Gemechis D. Degaga and Wei Li and Yui Tik Pang and Andrew C
 
 ### 5.4 Transformer-based
 
-> Including maked language models and autoregressive language models.
+> Including protein large language models(pLLM) and autoregressive language models.
 
 **Progen: Language modeling for protein generation** / **Large language models generate functional protein sequences across diverse families**  
 Madani, Ali, et al.  
@@ -1626,6 +1640,10 @@ Shengchao Liu, Jiongxiao Wang, Yijin Yang, Chengpeng Wang, Ling Liu, Hongyu Guo,
 **ProtAgents: Protein discovery via large language model multi-agent collaborations combining physics and machine learning**  
 A. Ghafarollahi, M.J. Buehler  
 [arXiv:2402.04268](https://arxiv.org/abs/2402.04268) • [code](https://github.com/lamm-mit/ProtAgents)
+
+**Designing proteins with language models**  
+Ruffolo, J.A., Madani, A.  
+[Nat Biotechnol 42, 200–202 (2024)](https://www.nature.com/articles/s41587-024-02123-4) • review
 
 ### 5.5 ResNet-based
 
@@ -1912,6 +1930,10 @@ Yongkang Wang, Xuan Liu, Feng Huang, Zhankun Xiong, Wen Zhang
 **Towards Joint Sequence-Structure Generation of Nucleic Acid and Protein Complexes with SE(3)-Discrete Diffusion**  
 Alex Morehead, Jeffrey Ruffolo, Aadyot Bhatnagar, Ali Madani  
 [arXiv:2401.06151](https://arxiv.org/abs/2401.06151) • [code](https://github.com/Profluent-Internships/MMDiff)
+
+**Proteus: exploring protein structure generation for enhanced designability and efficiency**  
+Chentong Wang, Yannan Qu, Zhangzhi Peng, Yukai Wang, Hongli Zhu, Dachuan Chen, Longxing Cao  
+[bioRxiv 2024.02.10.579791](https://www.biorxiv.org/content/10.1101/2024.02.10.579791v2)
 
 ### 6.3 RoseTTAFold-based
 
