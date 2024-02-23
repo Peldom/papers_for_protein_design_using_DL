@@ -8,17 +8,23 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.02.17:*  
-+   Proteus: exploring protein structure generation for enhanced designability and efficiency  
-    + [[bioRxiv 2024.02.10.579791](https://www.biorxiv.org/content/10.1101/2024.02.10.579791v2)]
-+   Scaffold-Lab: Critical Evaluation and Ranking of Protein Backbone Generation Methods in A Unified Framework  
-    + [[bioRxiv 2024.02.10.579743](https://www.biorxiv.org/content/10.1101/2024.02.10.579743v1)] • [[code](https://github.com/Immortals-33/Scaffold-Lab)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/02/12/2024.02.10.579743/DC1/embed/media-1.pdf)]
-+   Generative models for protein structures and sequences  
-    + [[Nat Biotechnol 42, 196–199 (2024)](https://www.nature.com/articles/s41587-023-02115-w)]
-+   Designing proteins with language models  
-    + [[Nat Biotechnol 42, 200–202 (2024)](https://www.nature.com/articles/s41587-024-02123-4)]
-+   X-LoRA: Mixture of Low-Rank Adapter Experts, a Flexible Framework for Large Language Models with Applications in Protein Mechanics and Design  
-    + [[arXiv:2402.07148](https://arxiv.org/abs/2402.07148)] • [[code](https://github.com/EricLBuehler/xlora)] • [[Model & weights](https://huggingface.co/lamm-mit/x-lora)]
+*Papers last week, updated on 2024.02.23:*  
++   Generative AI for Controllable Protein Sequence Design: A Survey
+    + [[arXiv:2402.10516](https://arxiv.org/abs/2402.10516)]
++   What does it take for an ‘AlphaFold Moment’ in functional protein engineering and design?  
+    + [[Nat Biotechnol 42, 173–174 (2024)](https://www.nature.com/articles/s41587-023-02120-z)]
++   Protein design: the experts speak
+    + [[Nat Biotechnol 42, 175–178 (2024)](https://www.nature.com/articles/s41587-023-02111-0)]
++   Machine learning for functional protein design
+    + [[Nat Biotechnol 42, 216–228 (2024)](https://www.nature.com/articles/s41587-024-02127-0)]
++   Sparks of function by de novo protein design  
+    + [[Nat Biotechnol 42, 203–215 (2024)](https://www.nature.com/articles/s41587-024-02133-2)]
++   A Survey of Generative AI for De Novo Drug Design: New Frontiers in Molecule and Protein Generation  
+    + [[arXiv:2402.08703](https://arxiv.org/abs/2402.08703)]
++   Full-Atom Peptide Design with Geometric Latent Diffusion  
+    + [[arXiv:2402.13555](https://arxiv.org/abs/2402.13555)]
++   EvolMPNN: Predicting Mutational Effect on Homologous Proteins by Evolution Encoding  
+    + [[arXiv:2402.13418](https://arxiv.org/abs/2402.13418)]
 ------
 <p align="center">
   <br>
@@ -432,6 +438,26 @@ Kortemme, Tanja.
 **Generative models for protein structures and sequences**  
 Hsu, C., Fannjiang, C. & Listgarten, J.  
 [Nat Biotechnol 42, 196–199 (2024)](https://www.nature.com/articles/s41587-023-02115-w)
+
+**What does it take for an ‘AlphaFold Moment’ in functional protein engineering and design?**  
+Chica, R.A., Ferruz, N.  
+[Nat Biotechnol 42, 173–174 (2024)](https://www.nature.com/articles/s41587-023-02120-z)
+
+**Protein design: the experts speak**
+Doerr, A.  
+[Nat Biotechnol 42, 175–178 (2024)](https://www.nature.com/articles/s41587-023-02111-0)
+
+**Machine learning for functional protein design**
+Notin, P., Rollins, N., Gal, Y. et al.  
+[Nat Biotechnol 42, 216–228 (2024)](https://www.nature.com/articles/s41587-024-02127-0)
+
+**Sparks of function by de novo protein design**  
+Chu, A.E., Lu, T. & Huang, PS.  
+[Nat Biotechnol 42, 203–215 (2024)](https://www.nature.com/articles/s41587-024-02133-2)
+
+**A Survey of Generative AI for De Novo Drug Design: New Frontiers in Molecule and Protein Generation**  
+Xiangru Tang, Howard Dai, Elizabeth Knight, Fang Wu, Yunyang Li, Tianxiao Li, Mark Gerstein  
+[arXiv:2402.08703](https://arxiv.org/abs/2402.08703)
 
 ### 1.2 Antibody design
 
@@ -912,6 +938,10 @@ Yufeng Liu, Haiyan Liu
 **Multi-indicator comparative evaluation for deep Learning-Based protein sequence design methods**  
 Jinyu Yu, Junxi Mu, Ting Wei, Hai-Feng Chen  
 [Bioinformatics, 2024;, btae037](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae037/7585533)
+
+**Generative AI for Controllable Protein Sequence Design: A Survey**  
+Yiheng Zhu, Zitai Kong, Jialu Wu, Weize Liu, Yuqiang Han, Mingze Yin, Hongxia Xu, Chang-Yu Hsieh, Tingjun Hou  
+[arXiv:2402.10516](https://arxiv.org/abs/2402.10516)
 
 ### 4.1 MLP-based
 
@@ -1935,6 +1965,10 @@ Alex Morehead, Jeffrey Ruffolo, Aadyot Bhatnagar, Ali Madani
 Chentong Wang, Yannan Qu, Zhangzhi Peng, Yukai Wang, Hongli Zhu, Dachuan Chen, Longxing Cao  
 [bioRxiv 2024.02.10.579791](https://www.biorxiv.org/content/10.1101/2024.02.10.579791v2)
 
+**Full-Atom Peptide Design with Geometric Latent Diffusion**  
+Xiangzhe Kong, Wenbing Huang, Yang Liu  
+[arXiv:2402.13555](https://arxiv.org/abs/2402.13555)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
@@ -2186,6 +2220,10 @@ Varun R. Shanker, Theodora U.J. Bruun, Brian L. Hie, Peter S. Kim
 **Transfer learning to leverage larger datasets for improved prediction of protein stability changes**  
 Henry Dieckhaus, Michael Brocidiacono, Nicholas Z. Randolph, and Brian Kuhlman  
 [Proceedings of the National Academy of Sciences 121.6 (2024)](https://www.pnas.org/doi/10.1073/pnas.2314853121) • [code](https://github.com/Kuhlman-Lab/ThermoMPNN)
+
+**EvolMPNN: Predicting Mutational Effect on Homologous Proteins by Evolution Encoding**  
+Zhiqiang Zhong, Davide Mottin  
+[arXiv:2402.13418](https://arxiv.org/abs/2402.13418)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
