@@ -8,23 +8,21 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.02.23:*  
-+   Generative AI for Controllable Protein Sequence Design: A Survey
-    + [[arXiv:2402.10516](https://arxiv.org/abs/2402.10516)]
-+   What does it take for an ‘AlphaFold Moment’ in functional protein engineering and design?  
-    + [[Nat Biotechnol 42, 173–174 (2024)](https://www.nature.com/articles/s41587-023-02120-z)]
-+   Protein design: the experts speak
-    + [[Nat Biotechnol 42, 175–178 (2024)](https://www.nature.com/articles/s41587-023-02111-0)]
-+   Machine learning for functional protein design
-    + [[Nat Biotechnol 42, 216–228 (2024)](https://www.nature.com/articles/s41587-024-02127-0)]
-+   Sparks of function by de novo protein design  
-    + [[Nat Biotechnol 42, 203–215 (2024)](https://www.nature.com/articles/s41587-024-02133-2)]
-+   A Survey of Generative AI for De Novo Drug Design: New Frontiers in Molecule and Protein Generation  
-    + [[arXiv:2402.08703](https://arxiv.org/abs/2402.08703)]
-+   Full-Atom Peptide Design with Geometric Latent Diffusion  
-    + [[arXiv:2402.13555](https://arxiv.org/abs/2402.13555)]
-+   EvolMPNN: Predicting Mutational Effect on Homologous Proteins by Evolution Encoding  
-    + [[arXiv:2402.13418](https://arxiv.org/abs/2402.13418)]
+*Papers last week, updated on 2024.03.01:*  
++   DIProT: A deep learning based interactive toolkit for efficient and effective Protein design  
+    + [[Synthetic and Systems Biotechnology (2024)](https://www.sciencedirect.com/science/article/pii/S2405805X24000115)]
++   ProT-Diff: A Modularized and Efficient Approach to De Novo Generation of Antimicrobial Peptide Sequences through Integration of Protein Language Model and Diffusion Model  
+    + [[bioRxiv 2024.02.22.581480](https://www.biorxiv.org/content/10.1101/2024.02.22.581480v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/02/23/2024.02.22.581480/DC1/embed/media-1.docx)]
++   Unexplored regions of the protein sequence-structure map revealed at scale by a library of foldtuned language models  
+    + [[bioRxiv 2023.12.22.573145](https://www.biorxiv.org/content/10.1101/2023.12.22.573145v1)]
++   ProLLaMA: A Protein Large Language Model for Multi-Task Protein Language Processing  
+    + [[arXiv:2402.16445](https://arxiv.org/abs/2402.16445)] • [[code](https://arxiv.org/pdf/2402.16445.pdf)]
++   TaxDiff: Taxonomic-Guided Diffusion Model for Protein Sequence Generation  
+    + [[arXiv:2402.17156](https://arxiv.org/abs/2402.17156)] • [[code](https://github.com/Linzy19/TaxDiff)]
++   Diffusion Language Models Are Versatile Protein Learners  
+    + [[arXiv:2402.18567](https://arxiv.org/abs/2402.18567)]
++   PocketGen: Generating Full-Atom Ligand-Binding Protein Pockets  
+    + [[bioRxiv 2024.02.25.581968](https://www.biorxiv.org/content/10.1101/2024.02.25.581968v1)] • [[code](https://github.com/zaixizhang/PocketGen)] • [[website](https://zitniklab.hms.harvard.edu/projects/PocketGen/)]
 ------
 <p align="center">
   <br>
@@ -443,17 +441,17 @@ Hsu, C., Fannjiang, C. & Listgarten, J.
 Chica, R.A., Ferruz, N.  
 [Nat Biotechnol 42, 173–174 (2024)](https://www.nature.com/articles/s41587-023-02120-z)
 
-**Protein design: the experts speak**
+**Protein design: the experts speak**  
 Doerr, A.  
 [Nat Biotechnol 42, 175–178 (2024)](https://www.nature.com/articles/s41587-023-02111-0)
 
-**Machine learning for functional protein design**
+**Machine learning for functional protein design**  
 Notin, P., Rollins, N., Gal, Y. et al.  
 [Nat Biotechnol 42, 216–228 (2024)](https://www.nature.com/articles/s41587-024-02127-0)
 
 **Sparks of function by de novo protein design**  
 Chu, A.E., Lu, T. & Huang, PS.  
-[Nat Biotechnol 42, 203–215 (2024)](https://www.nature.com/articles/s41587-024-02133-2)
+[Nat Biotechnol 42, 203–215 (2024)](https://www.nature.com/articles/s41587-024-02133-2) • [poster](https://drive.google.com/file/d/1sG3OlEWvhHcWAdtf7RTcCawAapDmyeEx/view)
 
 **A Survey of Generative AI for De Novo Drug Design: New Frontiers in Molecule and Protein Generation**  
 Xiangru Tang, Howard Dai, Elizabeth Knight, Fang Wu, Yunyang Li, Tianxiao Li, Mark Gerstein  
@@ -752,6 +750,10 @@ Jeliazko R Jeliazkov, Diego del Alamo, Joel D Karpiak
 **Protein Language Model Supervised Precise and Efficient Protein Backbone Design Method**  
 Bo Zhang, Kexin Liu, Zhuoqi Zheng, Yunfeiyang Liu, Junxi Mu, Ting Wei, Hai-Feng Chen  
 [bioRxiv 2023.10.26.564121](https://www.biorxiv.org/content/10.1101/2023.10.26.564121v1) • [code](https://github.com/sirius777coder/GPDL) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/30/2023.10.26.564121/DC1/embed/media-1.pdf)
+
+**Unexplored regions of the protein sequence-structure map revealed at scale by a library of foldtuned language models**  
+Arjuna M. Subramanian, Matt Thomson  
+[bioRxiv 2023.12.22.573145](https://www.biorxiv.org/content/10.1101/2023.12.22.573145v1)
 
 ### 2.10 Sampling-algorithms
 
@@ -1134,7 +1136,7 @@ Youhan Lee, Jaehoon Kim
 [bioRxiv 2023.12.05.570298](https://www.biorxiv.org/content/10.1101/2023.12.05.570298v1)
 
 **In vitro validated antibody design against multiple therapeutic antigens using generative inverse folding**  
-Amir Shanehsazzadeh, Julian Alverio, George Kasun, Simon Levine, Jibran A Khan, Chelsea Chung, Nicolas Diaz, Breanna K Luton, Ysis Tarter, Cailen McCloskey, Katherine B Bateman, Hayley Carter, Dalton Chapman, Rebecca Consbruck, Alec Jaeger, Christa Kohnert, Gaelin Kopec-Belliveau, John M Sutton, Zheyuan Guo, Gustavo Canales, Kai Ejan, Emily Marsh, Alyssa Ruelos, Rylee Ripley, Brooke Stoddard, Rodante Caguiat, Kyra Chapman, Matthew Saunders, Jared Sharp, Douglas Ganini da Silva, Audree Feltner, Jake Ripley, Megan E Bryant, Danni Castillo, Joshua Meier, Christian M Stegmann, Katherine Moran, Christine Lemke, Shaheed Abdulhaqq, Lillian R Klug, Sharrol Bachas
+Amir Shanehsazzadeh, Julian Alverio, George Kasun, Simon Levine, Jibran A Khan, Chelsea Chung, Nicolas Diaz, Breanna K Luton, Ysis Tarter, Cailen McCloskey, Katherine B Bateman, Hayley Carter, Dalton Chapman, Rebecca Consbruck, Alec Jaeger, Christa Kohnert, Gaelin Kopec-Belliveau, John M Sutton, Zheyuan Guo, Gustavo Canales, Kai Ejan, Emily Marsh, Alyssa Ruelos, Rylee Ripley, Brooke Stoddard, Rodante Caguiat, Kyra Chapman, Matthew Saunders, Jared Sharp, Douglas Ganini da Silva, Audree Feltner, Jake Ripley, Megan E Bryant, Danni Castillo, Joshua Meier, Christian M Stegmann, Katherine Moran, Christine Lemke, Shaheed Abdulhaqq, Lillian R Klug, Sharrol Bachas  
 [bioRxiv 2023.12.08.570889](https://www.biorxiv.org/content/10.1101/2023.12.08.570889v1)
 
 **SPDesign: protein sequence designer based on structural sequence profile using ultrafast shape recognition**  
@@ -1156,6 +1158,10 @@ Deniz Akpinaroglu, Kosuke Seki, Amy Guo, Eleanor Zhu, Mark J. S. Kelly, Tanja Ko
 **ProteinMPNN Recovers Complex Sequence Properties of Transmembrane β-Barrels**  
 Marissa D Dolorfino, Anastassia A Vorobieva  
 [bioRxiv 2024.01.16.575764](https://www.biorxiv.org/content/10.1101/2024.01.16.575764v1) • [code](https://github.com/marissadolorfino2024/ProteinMPNN-TMB-Design.git)
+
+**DIProT: A deep learning based interactive toolkit for efficient and effective Protein design**  
+He, Jieling, Wenxu Wu, and Xiaowo Wang.  
+[Synthetic and Systems Biotechnology (2024)](https://www.sciencedirect.com/science/article/pii/S2405805X24000115)
 
 ### 4.6 GAN-based
 
@@ -1292,6 +1298,10 @@ Liu Haiyan, Liu Yufeng, Chen Linghui
 **Fast non-autoregressive inverse folding with discrete diffusion**  
 John J. Yang, Jason Yim, Regina Barzilay, Tommi Jaakkola  
 [arXiv:2312.02447](https://arxiv.org/abs/2312.02447) • [code](https://github.com/johnyang101/pmpnndiff)
+
+**Diffusion Language Models Are Versatile Protein Learners**  
+Xinyou Wang, Zaixiang Zheng, Fei Ye, Dongyu Xue, Shujian Huang, Quanquan Gu  
+[arXiv:2402.18567](https://arxiv.org/abs/2402.18567)
 
 ### 4.10 Bayesian-based
 
@@ -1675,6 +1685,10 @@ A. Ghafarollahi, M.J. Buehler
 Ruffolo, J.A., Madani, A.  
 [Nat Biotechnol 42, 200–202 (2024)](https://www.nature.com/articles/s41587-024-02123-4) • review
 
+**ProLLaMA: A Protein Large Language Model for Multi-Task Protein Language Processing**  
+Liuzhenghao Lv, Zongying Lin, Hao Li, Yuyang Liu, Jiaxi Cui, Calvin Yu-Chian Chen, Li Yuan, Yonghong Tian  
+[arXiv:2402.16445](https://arxiv.org/abs/2402.16445) • [code](https://arxiv.org/pdf/2402.16445.pdf)
+
 ### 5.5 ResNet-based
 
 **Accelerating protein design using autoregressive generative models**  
@@ -1885,6 +1899,14 @@ Sarah Alamdari, Nitya Thakkar, Rianne van den Berg, Alex Xijie Lu, Nicolo Fusi, 
 Jordan Venderley  
 [arXiv:2309.13129](https://arxiv.org/abs/2309.13129)
 
+**ProT-Diff: A Modularized and Efficient Approach to De Novo Generation of Antimicrobial Peptide Sequences through Integration of Protein Language Model and Diffusion Model**  
+Xue-Fei Wang, Jing-Ya Tang, Han Liang, Jing Sun, Sonam Dorje, Bo Peng, Xu-Wo Ji, Zhe Li, Xian-En Zhang, Dian-Bing Wang  
+[bioRxiv 2024.02.22.581480](https://www.biorxiv.org/content/10.1101/2024.02.22.581480v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/02/23/2024.02.22.581480/DC1/embed/media-1.docx)
+
+**TaxDiff: Taxonomic-Guided Diffusion Model for Protein Sequence Generation**  
+Lin Zongying, Li Hao, Lv Liuzhenghao, Lin Bin, Zhang Junwu, Chen Calvin Yu-Chian, Yuan Li, Tian Yonghong  
+[arXiv:2402.17156](https://arxiv.org/abs/2402.17156) • [code](https://github.com/Linzy19/TaxDiff)
+
 ### 5.14 GNN-based
 
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**  
@@ -2056,6 +2078,10 @@ Zaixi Zhang, Zepu Lu, Zhongkai Hao, Marinka Zitnik, Qi Liu
 **Functional Geometry Guided Protein Sequence and Backbone Structure Co-Design**  
 Anonymous  
 [ICLR 2024 under review](https://openreview.net/forum?id=Dr4qD9bzZd)
+
+**PocketGen: Generating Full-Atom Ligand-Binding Protein Pockets**  
+Zhang Zaixi, Wanxiang Shen, Qi Liu, Marinka Zitnik  
+[bioRxiv 2024.02.25.581968](https://www.biorxiv.org/content/10.1101/2024.02.25.581968v1) • [code](https://github.com/zaixizhang/PocketGen) • [website](https://zitniklab.hms.harvard.edu/projects/PocketGen/)
 
 ### 6.7 MLP-based
 
@@ -2307,6 +2333,6 @@ Fu, Tianfan, et al.
 Zhang, Zaixi, et al.  
 [International Conference on Learning Representations 11 (2023)](https://openreview.net/forum?id=Rq13idF0F73) • [code](https://github.com/zaixizhang/FLAG)
 
-**3D Equivariant Diffusion for Target-Aware Molecule Generation and Affinity Prediction**
+**3D Equivariant Diffusion for Target-Aware Molecule Generation and Affinity Prediction**  
 Guan, Jiaqi, et al.  
 [International Conference on Learning Representations 11 (2023)](https://openreview.net/forum?id=kJqXEPXMsE0) • [code](https://github.com/guanjq/targetdiff)
