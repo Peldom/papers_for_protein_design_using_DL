@@ -1335,6 +1335,10 @@ Mason, Derek M., et al.
 
 ### 5.2 VAE-based
 
+**Machine learning-aided design and screening of an emergent protein function in synthetic cells**  
+Kohyama, S., Frohn, B.P., Babl, L. et al.  
+[Nature Communications 15, 2010 (2024)](https://doi.org/10.1038/s41467-024-46203-0) • [code](https://github.com/BelaFrohn/synMinE)
+
 **Variational auto-encoding of protein sequences**  
 Sinai, Sam, et al.  
 [arXiv preprint arXiv:1712.03346 (2017)](https://arxiv.org/abs/1712.03346)
