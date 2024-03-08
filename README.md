@@ -8,21 +8,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.03.01:*  
-+   DIProT: A deep learning based interactive toolkit for efficient and effective Protein design  
-    + [[Synthetic and Systems Biotechnology (2024)](https://www.sciencedirect.com/science/article/pii/S2405805X24000115)]
-+   ProT-Diff: A Modularized and Efficient Approach to De Novo Generation of Antimicrobial Peptide Sequences through Integration of Protein Language Model and Diffusion Model  
-    + [[bioRxiv 2024.02.22.581480](https://www.biorxiv.org/content/10.1101/2024.02.22.581480v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/02/23/2024.02.22.581480/DC1/embed/media-1.docx)]
-+   Unexplored regions of the protein sequence-structure map revealed at scale by a library of foldtuned language models  
-    + [[bioRxiv 2023.12.22.573145](https://www.biorxiv.org/content/10.1101/2023.12.22.573145v1)]
-+   ProLLaMA: A Protein Large Language Model for Multi-Task Protein Language Processing  
-    + [[arXiv:2402.16445](https://arxiv.org/abs/2402.16445)] • [[code](https://arxiv.org/pdf/2402.16445.pdf)]
-+   TaxDiff: Taxonomic-Guided Diffusion Model for Protein Sequence Generation  
-    + [[arXiv:2402.17156](https://arxiv.org/abs/2402.17156)] • [[code](https://github.com/Linzy19/TaxDiff)]
-+   Diffusion Language Models Are Versatile Protein Learners  
-    + [[arXiv:2402.18567](https://arxiv.org/abs/2402.18567)]
-+   PocketGen: Generating Full-Atom Ligand-Binding Protein Pockets  
-    + [[bioRxiv 2024.02.25.581968](https://www.biorxiv.org/content/10.1101/2024.02.25.581968v1)] • [[code](https://github.com/zaixizhang/PocketGen)] • [[website](https://zitniklab.hms.harvard.edu/projects/PocketGen/)]
+*Papers last week, updated on 2024.03.08:*  
++   An integrative approach to protein sequence design through multiobjective optimization  
+    + [[bioRxiv 2024.03.01.582670](https://www.biorxiv.org/content/10.1101/2024.03.01.582670v1)] • [[code](https://github.com/luhong88/int_seq_des)] • [[Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2024/03/04/2024.03.01.582670/DC1/embed/media-1.pdf)]
++   Protein Design Using Structure-Prediction Networks: AlphaFold and RoseTTAFold as Protein Structure Foundation Models  
+    + [[Cold Spring Harbor Perspectives in Biology(2024)](https://cshperspectives.cshlp.org/content/early/2024/03/01/cshperspect.a041472.short)]
++   Diffusion on language model embeddings for protein sequence generation  
+    + [[arXiv:2403.03726](https://arxiv.org/abs/2403.03726)]
++   AMP-Diffusion: Integrating Latent Diffusion with Protein Language Models for Antimicrobial Peptide Generation  
+    + [[bioRxiv 2024.03.03.583201](https://www.biorxiv.org/content/10.1101/2024.03.03.583201v1)]
++   Preference optimization of protein language models as a multi-objective binder design paradigm  
+    + [[arXiv:2403.04187](https://arxiv.org/abs/2403.04187)]
 ------
 <p align="center">
   <br>
@@ -112,14 +108,14 @@
   <a href="#64-cnn-based">CNN-based</a> •
   <a href="#65-gnn-based">GNN-based</a> •
   <a href="#66-transformer-based">Transformer-based</a> •
-  <a href="#67-mlp-based">MLP-based</a>
+  <a href="#67-mlp-based">MLP-based</a> •
   <a href="#68-flow-based">Flow-based</a>
   <br>
   <strong><a href="#7-other-tasks">7) Other</a></strong>
   <br>
   <a href="#71-effects-of-mutation--fitness-landscape">Effects of mutations & Fitness Landscape</a>  •
-  <a href="#72-protein-language-models-ptm-and-representation-learning">Protein language models and representation learning</a>  •
-  <a href="#73-molecular-design-models">Molecular Design Models</a>
+  <a href="#72-protein-language-models-ptm-and-representation-learning">Protein Language Model & Representation Learning</a>  •
+  <a href="#73-molecular-design-models">Molecular Design Model</a>
 </p>
 
 ------
@@ -685,6 +681,14 @@ Anonymous
 Andrew Savinov, Sebastian Swanson, Amy E. Keating, Gene-Wei Li  
 [bioRxiv 2023.12.19.572389](https://www.biorxiv.org/content/10.1101/2023.12.19.572389v1) • [code](https://github.com/swanss/FragFold)
 
+**An integrative approach to protein sequence design through multiobjective optimization**  
+Lu Hong, Tanja Kortemme  
+[bioRxiv 2024.03.01.582670](https://www.biorxiv.org/content/10.1101/2024.03.01.582670v1) • [code](https://github.com/luhong88/int_seq_des) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2024/03/04/2024.03.01.582670/DC1/embed/media-1.pdf)
+
+**Protein Design Using Structure-Prediction Networks: AlphaFold and RoseTTAFold as Protein Structure Foundation Models**  
+Jue Wang, Joseph L. Watson and Sidney L. Lisanza  
+[Cold Spring Harbor Perspectives in Biology(2024)](https://cshperspectives.cshlp.org/content/early/2024/03/01/cshperspect.a041472.short)
+
 ### 2.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
@@ -732,6 +736,10 @@ paper unavailable • [slides](https://pan.baidu.com/share/init?surl=4AOW_D9dwlv
 **Multi-segment preserving sampling for deep manifold sampler**  
 Berenberg, Daniel, et al.  
 [arXiv preprint arXiv:2205.04259 (2022)](https://arxiv.org/abs/2205.04259)
+
+**Preference optimization of protein language models as a multi-objective binder design paradigm**  
+Pouria Mistani, Venkatesh Mysore  
+[arXiv:2403.04187](https://arxiv.org/abs/2403.04187)
 
 ### 2.9 ESM-based
 
@@ -1911,6 +1919,14 @@ Xue-Fei Wang, Jing-Ya Tang, Han Liang, Jing Sun, Sonam Dorje, Bo Peng, Xu-Wo Ji,
 Lin Zongying, Li Hao, Lv Liuzhenghao, Lin Bin, Zhang Junwu, Chen Calvin Yu-Chian, Yuan Li, Tian Yonghong  
 [arXiv:2402.17156](https://arxiv.org/abs/2402.17156) • [code](https://github.com/Linzy19/TaxDiff)
 
+**Diffusion on language model embeddings for protein sequence generation**  
+Viacheslav Meshchaninov, Pavel Strashnov, Andrey Shevtsov, Fedor Nikolaev, Nikita Ivanisenko, Olga Kardymon, Dmitry Vetrov  
+[arXiv:2403.03726](https://arxiv.org/abs/2403.03726)
+
+**AMP-Diffusion: Integrating Latent Diffusion with Protein Language Models for Antimicrobial Peptide Generation**  
+Tianlai Chen, Pranay Vure, Rishab Pulugurta, Pranam Chatterjee  
+[bioRxiv 2024.03.03.583201](https://www.biorxiv.org/content/10.1101/2024.03.03.583201v1)
+
 ### 5.14 GNN-based
 
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**  
@@ -2019,7 +2035,7 @@ Jorge Roel-Touris, Lourdes Carcelen, Enrique Marcos
 
 **Generalized Biomolecular Modeling and Design with RoseTTAFold All-Atom**  
 Rohith Krishna, Jue Wang, Woody Ahern, Pascal Sturmfels, Preetham Venkatesh, Indrek Kalvet, Gyu Rie Lee, Felix S Morey-Burrows, Ivan Anishchenko, Ian R Humphreys, Ryan McHugh, Dionne Vafeados, Xinting Li, George A Sutherland, Andrew Hitchcock, C Neil Hunter, Minkyung Baek, Frank DiMaio, David Baker  
-[bioRxiv 2023.10.09.561603](https://www.biorxiv.org/content/10.1101/2023.10.09.561603v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/09/2023.10.09.561603/DC1/embed/media-1.pdf)
+[bioRxiv 2023.10.09.561603](https://www.biorxiv.org/content/10.1101/2023.10.09.561603v1)/[Science](https://www.science.org/doi/10.1126/science.adl2528) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/09/2023.10.09.561603/DC1/embed/media-1.pdf)
 
 **Amalga: Designable Protein Backbone Generation with Folding and Inverse Folding Guidance**  
 Shugao Chen, Ziyao Li, Xiangxiang Zeng, Guolin Ke  
@@ -2097,7 +2113,7 @@ Cheng Tan, Zhangyang Gao, Stan Z. Li
 
 **Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design**  
 Andrew Campbell, Jason Yim, Regina Barzilay, Tom Rainforth, Tommi Jaakkola  
-[arXiv:2402.04997](https://arxiv.org/abs/2402.04997) • [code](https://github.com/andrew-cr/discrete_flow_models)
+[arXiv:2402.04997](https://arxiv.org/abs/2402.04997) • [code](https://github.com/andrew-cr/discrete_flow_models) • [lecture](https://www.youtube.com/watch?v=yzc29vhM2Aw)
 
 ## 7. Other tasks
 
