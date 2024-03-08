@@ -2035,7 +2035,7 @@ Jorge Roel-Touris, Lourdes Carcelen, Enrique Marcos
 
 **Generalized Biomolecular Modeling and Design with RoseTTAFold All-Atom**  
 Rohith Krishna, Jue Wang, Woody Ahern, Pascal Sturmfels, Preetham Venkatesh, Indrek Kalvet, Gyu Rie Lee, Felix S Morey-Burrows, Ivan Anishchenko, Ian R Humphreys, Ryan McHugh, Dionne Vafeados, Xinting Li, George A Sutherland, Andrew Hitchcock, C Neil Hunter, Minkyung Baek, Frank DiMaio, David Baker  
-[bioRxiv 2023.10.09.561603](https://www.biorxiv.org/content/10.1101/2023.10.09.561603v1)/[Science](https://www.science.org/doi/10.1126/science.adl2528) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/09/2023.10.09.561603/DC1/embed/media-1.pdf)
+[bioRxiv 2023.10.09.561603](https://www.biorxiv.org/content/10.1101/2023.10.09.561603v1)/[Science](https://www.science.org/doi/10.1126/science.adl2528) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/09/2023.10.09.561603/DC1/embed/media-1.pdf) • [code](https://github.com/baker-laboratory/RoseTTAFold-All-Atom)
 
 **Amalga: Designable Protein Backbone Generation with Folding and Inverse Folding Guidance**  
 Shugao Chen, Ziyao Li, Xiangxiang Zeng, Guolin Ke  
