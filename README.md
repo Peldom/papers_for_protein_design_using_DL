@@ -19,6 +19,10 @@
     + [[bioRxiv 2024.03.03.583201](https://www.biorxiv.org/content/10.1101/2024.03.03.583201v1)]
 +   Preference optimization of protein language models as a multi-objective binder design paradigm  
     + [[arXiv:2403.04187](https://arxiv.org/abs/2403.04187)]
++   Machine learning-aided design and screening of an emergent protein function in synthetic cells  
+    + [[Nat Commun 15, 2010 (2024)](https://www.nature.com/articles/s41467-024-46203-0)] • [[code](https://github.com/BelaFrohn/synMinE)]
++   Context-dependent design of induced-fit enzymes using deep learning generates well-expressed, thermally stable and active enzymes  
+    + [[Proceedings of the National Academy of Sciences 121.11(2024)](https://www.pnas.org/doi/10.1073/pnas.2313809121)]
 ------
 <p align="center">
   <br>
@@ -688,6 +692,10 @@ Lu Hong, Tanja Kortemme
 **Protein Design Using Structure-Prediction Networks: AlphaFold and RoseTTAFold as Protein Structure Foundation Models**  
 Jue Wang, Joseph L. Watson and Sidney L. Lisanza  
 [Cold Spring Harbor Perspectives in Biology(2024)](https://cshperspectives.cshlp.org/content/early/2024/03/01/cshperspect.a041472.short)
+
+**Context-dependent design of induced-fit enzymes using deep learning generates well-expressed, thermally stable and active enzymes**  
+Lior Zimmerman, Noga Alon, Itay Levin, and Gideon D. Lapidoth  
+[Proceedings of the National Academy of Sciences 121.11(2024)](https://www.pnas.org/doi/10.1073/pnas.2313809121)
 
 ### 2.3 DMPfold2-based
 
@@ -2270,6 +2278,10 @@ Henry Dieckhaus, Michael Brocidiacono, Nicholas Z. Randolph, and Brian Kuhlman
 **EvolMPNN: Predicting Mutational Effect on Homologous Proteins by Evolution Encoding**  
 Zhiqiang Zhong, Davide Mottin  
 [arXiv:2402.13418](https://arxiv.org/abs/2402.13418)
+
+**Machine learning-aided design and screening of an emergent protein function in synthetic cells**  
+Kohyama, S., Frohn, B.P., Babl, L. et al.  
+[Nat Commun 15, 2010 (2024)](https://www.nature.com/articles/s41467-024-46203-0) • [code](https://github.com/BelaFrohn/synMinE)
 
 ### 7.2 Protein Language Models (PTM) and representation learning
 
