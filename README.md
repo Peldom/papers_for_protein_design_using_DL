@@ -3,26 +3,21 @@
 > This repository is inspired by the remarkable work of [Kevin Kaichuang Yang](https://github.com/yangkky) and their outstanding project [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). We have established this repository to provide a specialized and focused platform for the field of **Deep Learning for Protein Design**, a rapidly advancing domain in computational biology.
 > 
 > [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) and [suggestions](https://github.com/Peldom/papers_for_protein_design_using_DL/issues) are warmly welcome!
+> Community Values, Guiding Principles, and Commitments for the Responsible Development of AI for Protein Design: [details](https://responsiblebiodesign.ai/)
 <!-- >
 >1. Mini protein, binders, metalloprotein, antibody, peptide & molecule designs are included.  
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.03.08:*  
-+   An integrative approach to protein sequence design through multiobjective optimization  
-    + [[bioRxiv 2024.03.01.582670](https://www.biorxiv.org/content/10.1101/2024.03.01.582670v1)] • [[code](https://github.com/luhong88/int_seq_des)] • [[Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2024/03/04/2024.03.01.582670/DC1/embed/media-1.pdf)]
-+   Protein Design Using Structure-Prediction Networks: AlphaFold and RoseTTAFold as Protein Structure Foundation Models  
-    + [[Cold Spring Harbor Perspectives in Biology(2024)](https://cshperspectives.cshlp.org/content/early/2024/03/01/cshperspect.a041472.short)]
-+   Diffusion on language model embeddings for protein sequence generation  
-    + [[arXiv:2403.03726](https://arxiv.org/abs/2403.03726)]
-+   AMP-Diffusion: Integrating Latent Diffusion with Protein Language Models for Antimicrobial Peptide Generation  
-    + [[bioRxiv 2024.03.03.583201](https://www.biorxiv.org/content/10.1101/2024.03.03.583201v1)]
-+   Preference optimization of protein language models as a multi-objective binder design paradigm  
-    + [[arXiv:2403.04187](https://arxiv.org/abs/2403.04187)]
-+   Machine learning-aided design and screening of an emergent protein function in synthetic cells  
-    + [[Nat Commun 15, 2010 (2024)](https://www.nature.com/articles/s41467-024-46203-0)] • [[code](https://github.com/BelaFrohn/synMinE)]
-+   Context-dependent design of induced-fit enzymes using deep learning generates well-expressed, thermally stable and active enzymes  
-    + [[Proceedings of the National Academy of Sciences 121.11(2024)](https://www.pnas.org/doi/10.1073/pnas.2313809121)]
+*Papers last week, updated on 2024.03.15:*  
++   A Survey of Geometric Graph Neural Networks: Data Structures, Models and Applications  
+    + [[arXiv:2403.00485](https://arxiv.org/abs/2403.00485)] • review
++   PPFlow: Target-Aware Peptide Design with Torsional Flow Matching  
+    + [[bioRxiv 2024.03.07.583831](https://www.biorxiv.org/content/10.1101/2024.03.07.583831v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/08/2024.03.07.583831/DC1/embed/media-1.zip)]
++   Blueprinting extendable nanomaterials with standardized protein blocks  
+    + [[Nature (2024)](https://www.nature.com/articles/s41586-024-07188-4)] • [[RosettaScripts](https://github.com/tfhuddy/2023-manuscript-materials)]
++   Combining machine learning with structure-based protein design to predict and engineer post-translational modifications of proteins  
+    + [[PLOS Computational Biology 20(3): e1011939](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011939)] • [[code](https://github.com/meilerlab/PTMPrediction)]
 ------
 <p align="center">
   <br>
@@ -118,7 +113,7 @@
   <strong><a href="#7-other-tasks">7) Other</a></strong>
   <br>
   <a href="#71-effects-of-mutation--fitness-landscape">Effects of mutations & Fitness Landscape</a>  •
-  <a href="#72-protein-language-models-ptm-and-representation-learning">Protein Language Model & Representation Learning</a>  •
+  <a href="#72-protein-language-models-plm-and-representation-learning">Protein Language Model & Representation Learning</a>  •
   <a href="#73-molecular-design-models">Molecular Design Model</a>
 </p>
 
@@ -189,7 +184,7 @@
     - [6.6 Transformer-based](#66-transformer-based)
   - [7. Other tasks](#7-other-tasks)
     - [7.1 Effects of mutation \& Fitness Landscape](#71-effects-of-mutation--fitness-landscape)
-    - [7.2 Protein Language Models (PTM) and representation learning](#72-protein-language-models-ptm-and-representation-learning)
+    - [7.2 Protein Language Models (pLM) and representation learning](#72-protein-language-models-plm-and-representation-learning)
     - [7.3 Molecular Design Models](#73-molecular-design-models)
       - [7.3.1 Gradient optimization](#731-gradient-optimization)
       - [7.3.2 Optimized sampling](#732-optimized-sampling) -->
@@ -200,7 +195,7 @@
 
 **FLIP: Benchmark tasks in fitness landscape inference for proteins**  
 Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattacharya, Samuel Goldman, Ali Madani, Kevin K Yang  
-[NeurIPS 2021 Datasets and Benchmarks Track](https://openreview.net/forum?id=p2dMLEwL8tF)/[bioRxiv 2021](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2) • [website](https://benchmark.protein.properties/) • [code](https://github.com/J-SNACKKB/FLIP) • [supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/01/19/2021.11.09.467890/DC1/embed/media-1.pdf)
+[NeurIPS 2021 Datasets and Benchmarks Track](https://openreview.net/forum?id=p2dMLEwL8tF)/[bioRxiv 2021](https://www.biorxiv.org/content/10.1101/2021.11.09.467890v2) • [website](https://benchmark.protein.properties/) • [code](https://github.com/J-SNACKKB/FLIP) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/01/19/2021.11.09.467890/DC1/embed/media-1.pdf)
 
 **A Benchmark Framework for Evaluating Structure-to-Sequence Models for Protein Design**  
 Jeffrey Chan, Seyone Chithrananda, David Brookes, Sam Sinai  
@@ -1179,6 +1174,10 @@ Marissa D Dolorfino, Anastassia A Vorobieva
 He, Jieling, Wenxu Wu, and Xiaowo Wang.  
 [Synthetic and Systems Biotechnology (2024)](https://www.sciencedirect.com/science/article/pii/S2405805X24000115)
 
+**Blueprinting extendable nanomaterials with standardized protein blocks**  
+Huddy, T.F., Hsia, Y., Kibler, R.D. et al.  
+[Nature (2024)](https://www.nature.com/articles/s41586-024-07188-4) • [RosettaScripts](https://github.com/tfhuddy/2023-manuscript-materials)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1709,6 +1708,10 @@ Ruffolo, J.A., Madani, A.
 Liuzhenghao Lv, Zongying Lin, Hao Li, Yuyang Liu, Jiaxi Cui, Calvin Yu-Chian Chen, Li Yuan, Yonghong Tian  
 [arXiv:2402.16445](https://arxiv.org/abs/2402.16445) • [code](https://arxiv.org/pdf/2402.16445.pdf)
 
+**Combining machine learning with structure-based protein design to predict and engineer post-translational modifications of proteins**  
+Ertelt M, Mulligan VK, Maguire JB, Lyskov S, Moretti R, et al.  
+[PLOS Computational Biology 20(3): e1011939](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011939) • [code](https://github.com/meilerlab/PTMPrediction)
+
 ### 5.5 ResNet-based
 
 **Accelerating protein design using autoregressive generative models**  
@@ -1768,6 +1771,10 @@ Aryo Pradipta Gema, Michał Kobiela, Achille Fraisse, Ajitha Rajan, Diego A. Oya
 **Sample-efficient Antibody Design through Protein Language Model for Risk-aware Batch Bayesian Optimization**  
 Yanzheng Wang, Boyue Wang, Tianyu Shi, Jie Fu, Yi Zhou, Zhizhuo Zhang  
 [bioRxiv 2023.11.06.565922](https://www.biorxiv.org/content/10.1101/2023.11.06.565922v1)
+
+**Integrating Protein Structure Prediction and Bayesian Optimization for Peptide Design**  
+Manshour, Negin, et al.  
+[NeurIPS 2023 Generative AI and Biology (GenBio) Workshop. 2023](https://openreview.net/forum?id=CsjGuWD7hk)
 
 ### 5.7 RL-based
 
@@ -2089,6 +2096,10 @@ Zhenqiao Song, Yunlong Zhao, Yufei Song, Wenxian Shi, Yang Yang, Lei Li
 Weian Mao, Muzhi Zhu, Zheng Sun, Shuaike Shen, Lin Yuanbo Wu, Hao Chen, Chunhua Shen  
 [arXiv:2310.11802](https://arxiv.org/abs/2310.11802)/[ICLR 2024 under review](https://openreview.net/forum?id=9UIGyJJpay)
 
+**A Survey of Geometric Graph Neural Networks: Data Structures, Models and Applications**  
+Jiaqi Han, Jiacheng Cen, Liming Wu, Zongzhao Li, Xiangzhe Kong, Rui Jiao, Ziyang Yu, Tingyang Xu, Fandi Wu, Zihe Wang, Hongteng Xu, Zhewei Wei, Yang Liu, Yu Rong, Wenbing Huang  
+[arXiv:2403.00485](https://arxiv.org/abs/2403.00485) • review
+
 ### 6.6 Transformer-based
 
 **Protein Sequence and Structure Co-Design with Equivariant Translation**  
@@ -2097,7 +2108,7 @@ Chence Shi, Chuanrui Wang, Jiarui Lu, Bozitao Zhong, Jian Tang
 
 **Deep Learning for Flexible and Site-Specific Protein Docking and Design**  
 Matt McPartlon, Jinbo Xu  
-[bioRxiv 2023.04.01.535079](https://www.biorxiv.org/content/10.1101/2023.04.01.535079v1) • [Title](https://github.com/drorlab/DIPS)
+[bioRxiv 2023.04.01.535079](https://www.biorxiv.org/content/10.1101/2023.04.01.535079v1) • [code](https://github.com/drorlab/DIPS)
 
 **Full-Atom Protein Pocket Design via Iterative Refinement**  
 Zaixi Zhang, Zepu Lu, Zhongkai Hao, Marinka Zitnik, Qi Liu  
@@ -2122,6 +2133,10 @@ Cheng Tan, Zhangyang Gao, Stan Z. Li
 **Generative Flows on Discrete State-Spaces: Enabling Multimodal Flows with Applications to Protein Co-Design**  
 Andrew Campbell, Jason Yim, Regina Barzilay, Tom Rainforth, Tommi Jaakkola  
 [arXiv:2402.04997](https://arxiv.org/abs/2402.04997) • [code](https://github.com/andrew-cr/discrete_flow_models) • [lecture](https://www.youtube.com/watch?v=yzc29vhM2Aw)
+
+**PPFlow: Target-Aware Peptide Design with Torsional Flow Matching**  
+Haitao Lin, Odin Zhang, Huifeng Zhao, Dejun Jiang, Lirong Wu, Zicheng Liu, Yufei Huang, Stan Z. Li  
+[bioRxiv 2024.03.07.583831](https://www.biorxiv.org/content/10.1101/2024.03.07.583831v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/08/2024.03.07.583831/DC1/embed/media-1.zip)
 
 ## 7. Other tasks
 
@@ -2283,7 +2298,7 @@ Zhiqiang Zhong, Davide Mottin
 Kohyama, S., Frohn, B.P., Babl, L. et al.  
 [Nat Commun 15, 2010 (2024)](https://www.nature.com/articles/s41467-024-46203-0) • [code](https://github.com/BelaFrohn/synMinE)
 
-### 7.2 Protein Language Models (PTM) and representation learning
+### 7.2 Protein Language Models (pLM) and representation learning
 
 > More detailed protein representation learning list:  
 >[Lirong Wu](https://github.com/LirongWu)'s [awesome-protein-representation-learning](https://github.com/LirongWu/awesome-protein-representation-learning)
