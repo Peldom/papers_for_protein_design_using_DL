@@ -217,6 +217,10 @@ Chase Armer, Hassan Kane, Dana Cortade, Dave Estell, Adil Yusuf, Radhakrishna Sa
 Sean R.Johnson, Xiaozhi Fu, Sandra Viknander, Clara Goldin, Sarah Monaco, Aleksej Zelezniak, Kevin K. Yang  
 [bioRxiv (2023)](https://www.biorxiv.org/content/10.1101/2023.03.04.531015v2) • [code](https://github.com/seanrjohnson/protein_scoring)  
 
+**FLOP: Tasks for Fitness Landscapes Of Protein Wildtypes**  
+Peter Mørch Groth, Richard Michael, Jesper Salomon, Pengfei Tian, Wouter Boomsma  
+[bioRxiv 2023.06.21.545880](https://www.biorxiv.org/content/10.1101/2023.06.21.545880v2) • [code](https://github.com/petergroth/FLOP)
+
 **ProteinGym: Large-Scale Benchmarks for Protein Design and Fitness Prediction**  
 Pascal Notin, Aaron W Kollasch, Daniel Ritter, Lood van Niekerk, Steffanie Paul, Hansen Spinner, Nathan Rollins, Ada Shaw, Ruben Weitzman, Jonathan Frazer, Mafalda Dias, Dinko Franceschi, Rose Orenbuch, Yarin Gal, Debora S Marks  
 [bioRxiv 2023.12.07.570727](https://biorxiv.org/content/10.1101/2023.12.07.570727v1) • [code](https://github.com/OATML-Markslab/ProteinGym)
@@ -547,6 +551,10 @@ Hossack, Euan J., Florence J. Hardy, and Anthony P. Green.
 **Advances in generative modeling methods and datasets to design novel enzymes for renewable chemicals and fuels**  
 Rana A Barghout, Zhiqing Xu, Siddharth Betala, Radhakrishnan Mahadevan  
 [Current Opinion in Biotechnology, Volume 84, 2023](https://www.sciencedirect.com/science/article/abs/pii/S0958166923001179)
+
+**Opportunites and Challenges for Machine Learning-Assisted Enzyme Engineering**  
+Jason Yang, Francesca-Zhoufan Li, Frances H. Arnold  
+[ACS Central Science (2024)](https://pubs.acs.org/doi/10.1021/acscentsci.3c01275)
 
 ## 2. Model-based design
 
@@ -2166,6 +2174,10 @@ Francisco McGee, Sandro Hauri, Quentin Novinger, Slobodan Vucetic, Ronald M. Lev
 Kulikova, Anastasiya V., et al  
 [Journal of Biological Physics 47.4 (2021)](https://link.springer.com/article/10.1007/s10867-021-09593-6)
 
+**Learning Protein Fitness Models from Evolutionary and Assay-labeled Data**  
+Chloe Hsu, Hunter Nisonoff, Clara Fannjiang, Jennifer Listgarten  
+[Nature Biotechnology (2022)](https://www.nature.com/articles/s41587-021-01146-5) • [Supplementary Information](https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-021-01146-5/MediaObjects/41587_2021_1146_MOESM1_ESM.pdf) • [code](https://github.com/chloechsu/combining-evolutionary-and-assay-labelled-data)
+
 **Proximal Exploration for Model-guided Protein Sequence Design**  
 Zhizhou Ren, Jiahan Li, Fan Ding, Yuan Zhou, Jianzhu Ma, Jian Peng  
 [BioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.04.12.487986v1) • [code](https://github.com/HeliXonProtein/proximal-exploration) • commercial
@@ -2334,6 +2346,14 @@ Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Tristan Bepler, Rajmonda Sulo C
 **Masked inverse folding with sequence transfer for protein representation learning**  
 Kevin K Yang, Niccolâ Zanichelli, Hugh Yeh  
 [Protein Engineering, Design and Selection 36 (2023)](https://academic.oup.com/peds/article/doi/10.1093/protein/gzad015/7330543) • [code](https://github.com/microsoft/protein-sequence-models)
+
+**Learning Complete Protein Representation by Deep Coupling of Sequence and Structure**  
+Bozhen Hu, Cheng Tan, Jun Xia, Jiangbin Zheng, Yufei Huang, Lirong Wu, Yue Liu, Yongjie Xu, Stan Z. Li  
+[bioRxiv 2023.07.05.547769](https://www.biorxiv.org/content/10.1101/2023.07.05.547769v1)
+
+**Leveraging Ancestral Sequence Reconstruction for Protein Representation Learning**  
+D. S. Matthews, M. A. Spence, A. C. Mater, J. Nichols, S. B. Pulsford, M. Sandhu, J. A. Kaczmarski, C. M. Miton, N. Tokuriki, C. J. Jackson  
+[bioRxiv 2023.12.20.572683](https://www.biorxiv.org/content/10.1101/2023.12.20.572683v1) • [code](https://github.com/RSCJacksonLab/local-ancestral-sequence-embeddings)
 
 ### 7.3 Molecular Design Models
 
