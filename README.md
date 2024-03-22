@@ -9,15 +9,11 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.03.15:*  
-+   A Survey of Geometric Graph Neural Networks: Data Structures, Models and Applications  
-    + [[arXiv:2403.00485](https://arxiv.org/abs/2403.00485)] • review
-+   PPFlow: Target-Aware Peptide Design with Torsional Flow Matching  
-    + [[bioRxiv 2024.03.07.583831](https://www.biorxiv.org/content/10.1101/2024.03.07.583831v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/08/2024.03.07.583831/DC1/embed/media-1.zip)]
-+   Blueprinting extendable nanomaterials with standardized protein blocks  
-    + [[Nature (2024)](https://www.nature.com/articles/s41586-024-07188-4)] • [[RosettaScripts](https://github.com/tfhuddy/2023-manuscript-materials)]
-+   Combining machine learning with structure-based protein design to predict and engineer post-translational modifications of proteins  
-    + [[PLOS Computational Biology 20(3): e1011939](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011939)] • [[code](https://github.com/meilerlab/PTMPrediction)]
+*Papers last week, updated on 2024.03.22:*  
++   Atomically accurate de novo design of single-domain antibodies  
+    + [[bioRxiv 2024.03.14.585103](https://www.biorxiv.org/content/10.1101/2024.03.14.585103v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/18/2024.03.14.585103/DC1/embed/media-1.pdf)]
++   All-atom protein sequence design based on geometric deep learning  
+    + [[bioRxiv 2024.03.18.585651](https://www.biorxiv.org/content/10.1101/2024.03.18.585651v1)] • [[code](https://github.com/PKUliujl/GesSeqBuilder)]
 ------
 <p align="center">
   <br>
@@ -1118,6 +1114,11 @@ Sai Pooja Mahajan, Jeffrey A. Ruffolo, Jeffrey J. Gray
 Kao, Hsi-Wen, et al.  
 [ACS Synthetic Biology (2023)](https://pubs.acs.org/doi/10.1021/acssynbio.3c00042) • [Supplymentary](https://pubs.acs.org/doi/suppl/10.1021/acssynbio.3c00042/suppl_file/sb3c00042_si_001.pdf)
 
+**Rapid and automated design of two-component protein nanomaterials using ProteinMPNN**  
+Robbert J. de Haas, Natalie Brunette, Alex Goodson, Justas Dauparas, Sue Y. Yi, Erin C. Yang, Quinton Dowling, Hannah Nguyen, Alex Kang, Asim K. Bera, Banumathi Sankaran, Renko de Vries, David Baker, Neil P. King  
+[bioRxiv 2023.08.04.551935](https://www.biorxiv.org/content/10.1101/2023.08.04.551935v1)/[Proceedings of the National Academy of Sciences 121.(13)
+](https://www.pnas.org/doi/10.1073/pnas.2314646121) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/08/04/2023.08.04.551935/DC1/embed/media-1.pdf) • [data](https://zenodo.org/records/8278877)
+
 **Rationally seeded computational protein design**  
 Katherine I. Albanese, Rokas Petrenas, Fabio Pirro, Elise A. Naudin, Ufuk Borucu, William M. Dawson, D. Arne Scott, Graham J. Leggett, Orion D. Weiner, Thomas A. A. Oliver, Derek N. Woolfson  
 [bioRxiv 2023.08.25.554789](https://www.biorxiv.orxg/content/10.1101/2023.08.25.554789v1) • [code](https://github.com/polizzilab/design_tools)
@@ -1185,6 +1186,10 @@ He, Jieling, Wenxu Wu, and Xiaowo Wang.
 **Blueprinting extendable nanomaterials with standardized protein blocks**  
 Huddy, T.F., Hsia, Y., Kibler, R.D. et al.  
 [Nature (2024)](https://www.nature.com/articles/s41586-024-07188-4) • [RosettaScripts](https://github.com/tfhuddy/2023-manuscript-materials)
+
+**All-atom protein sequence design based on geometric deep learning**  
+Jiale Liu, Zheng Guo, Changsheng Zhang, Luhua Lai  
+[bioRxiv 2024.03.18.585651](https://www.biorxiv.org/content/10.1101/2024.03.18.585651v1) • [code](https://github.com/PKUliujl/GesSeqBuilder)
 
 ### 4.6 GAN-based
 
@@ -1950,6 +1955,10 @@ Viacheslav Meshchaninov, Pavel Strashnov, Andrey Shevtsov, Fedor Nikolaev, Nikit
 Tianlai Chen, Pranay Vure, Rishab Pulugurta, Pranam Chatterjee  
 [bioRxiv 2024.03.03.583201](https://www.biorxiv.org/content/10.1101/2024.03.03.583201v1)
 
+**Atomically accurate de novo design of single-domain antibodies**  
+Nathaniel R. Bennett, Joseph L. Watson, Robert J. Ragotte, Andrew J. Borst, DeJenae L. See, Connor Weidle, Riti Biswas, Ellen L. Shrock, Philip J. Y. Leung, Buwei Huang, Inna Goreshnik, Russell Ault, Kenneth D. Carr, Benedikt Singer, Cameron Criswell, Dionne Vafeados, Mariana Garcia Sanchez, Ho Min Kim, Susana Vazquez Torres, Sidney Chan, David Baker  
+[bioRxiv 2024.03.14.585103](https://www.biorxiv.org/content/10.1101/2024.03.14.585103v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/18/2024.03.14.585103/DC1/embed/media-1.pdf)
+
 ### 5.14 GNN-based
 
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**  
@@ -2054,7 +2063,7 @@ Sidney Lyayuga Lisanza, Jacob Merle Gershon, Sam Wayne Kenmore Tipps, Lucas Arno
 
 **The structural landscape of the immunoglobulin fold by large-scale de novo design**  
 Jorge Roel-Touris, Lourdes Carcelen, Enrique Marcos  
-[bioRxiv 2023.10.03.560637](https://www.biorxiv.org/content/10.1101/2023.10.03.560637v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/04/2023.10.03.560637/DC1/embed/media-1.pdf) • [code](https://github.com/JorgeRoel/betasandwich) • [data](https://zenodo.org/record/8380285)
+[bioRxiv 2023.10.03.560637](https://www.biorxiv.org/content/10.1101/2023.10.03.560637v1)/[Protein Science (2024)](https://onlinelibrary.wiley.com/doi/10.1002/pro.4936) • [Supplementary](https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Fpro.4936&file=pro4936-sup-0001-supinfo.docx) • [code](https://github.com/JorgeRoel/betasandwich) • [data](https://zenodo.org/record/8380285)
 
 **Generalized Biomolecular Modeling and Design with RoseTTAFold All-Atom**  
 Rohith Krishna, Jue Wang, Woody Ahern, Pascal Sturmfels, Preetham Venkatesh, Indrek Kalvet, Gyu Rie Lee, Felix S Morey-Burrows, Ivan Anishchenko, Ian R Humphreys, Ryan McHugh, Dionne Vafeados, Xinting Li, George A Sutherland, Andrew Hitchcock, C Neil Hunter, Minkyung Baek, Frank DiMaio, David Baker  
