@@ -14,6 +14,8 @@
     + [[bioRxiv 2024.03.14.585103](https://www.biorxiv.org/content/10.1101/2024.03.14.585103v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/18/2024.03.14.585103/DC1/embed/media-1.pdf)]
 +   All-atom protein sequence design based on geometric deep learning  
     + [[bioRxiv 2024.03.18.585651](https://www.biorxiv.org/content/10.1101/2024.03.18.585651v1)] • [[code](https://github.com/PKUliujl/GesSeqBuilder)]
++   A Hybrid Diffusion Model for Stable, Affinity-Driven, Receptor-Aware Peptide Generation  
+    + [[bioRxiv 2024.03.14.584934](https://www.biorxiv.org/content/10.1101/2024.03.14.584934v1)] • [[code](https://github.com/BhaswarGhoshLab/HYDRA)] • [[dataset](http://huanglab.phys.hust.edu.cn/pepbdb/)]
 ------
 <p align="center">
   <br>
@@ -2042,6 +2044,10 @@ Chentong Wang, Yannan Qu, Zhangzhi Peng, Yukai Wang, Hongli Zhu, Dachuan Chen, L
 **Full-Atom Peptide Design with Geometric Latent Diffusion**  
 Xiangzhe Kong, Wenbing Huang, Yang Liu  
 [arXiv:2402.13555](https://arxiv.org/abs/2402.13555)
+
+**A Hybrid Diffusion Model for Stable, Affinity-Driven, Receptor-Aware Peptide Generation**  
+R Vishva Saravanan, Soham Choudhuri, Bhaswar Ghosh  
+[bioRxiv 2024.03.14.584934](https://www.biorxiv.org/content/10.1101/2024.03.14.584934v1) • [code](https://github.com/BhaswarGhoshLab/HYDRA) • [dataset](http://huanglab.phys.hust.edu.cn/pepbdb/)
 
 ### 6.3 RoseTTAFold-based
 
