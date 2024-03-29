@@ -9,13 +9,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.03.22:*  
-+   Atomically accurate de novo design of single-domain antibodies  
-    + [[bioRxiv 2024.03.14.585103](https://www.biorxiv.org/content/10.1101/2024.03.14.585103v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/18/2024.03.14.585103/DC1/embed/media-1.pdf)]
-+   All-atom protein sequence design based on geometric deep learning  
-    + [[bioRxiv 2024.03.18.585651](https://www.biorxiv.org/content/10.1101/2024.03.18.585651v1)] • [[code](https://github.com/PKUliujl/GesSeqBuilder)]
-+   A Hybrid Diffusion Model for Stable, Affinity-Driven, Receptor-Aware Peptide Generation  
-    + [[bioRxiv 2024.03.14.584934](https://www.biorxiv.org/content/10.1101/2024.03.14.584934v1)] • [[code](https://github.com/BhaswarGhoshLab/HYDRA)] • [[dataset](http://huanglab.phys.hust.edu.cn/pepbdb/)]
+*Papers last week, updated on 2024.03.29:*  
++   Targeting protein-ligand neosurfaces using a generalizable deep learning approach  
+    + [[bioRxiv 2024.03.25.585721](https://www.biorxiv.org/content/10.1101/2024.03.25.585721v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/28/2024.03.25.585721/DC1/embed/media-1.pdf)] • [[code](https://github.com/LPDI-EPFL/masif-neosurf)]
++   Biosensor and machine learning-aided engineering of an amaryllidaceae enzyme  
+    + [[Nature Communications 15.1 (2024)](https://www.nature.com/articles/s41467-024-46356-y)] • [[code1](https://github.com/danny305/MutComputeX)], [[code2](https://github.com/simonsnitz/plotting)]
++   Security challenges by AI-assisted protein design
+    + [[EMBO Rep(2024)](https://www.embopress.org/doi/full/10.1038/s44319-024-00124-7)]
++   Antigen-Specific Antibody Design via Direct Energy-based Preference Optimization  
+    + [[arXiv:2403.16576](https://arxiv.org/abs/2403.16576)]
++   De novo antioxidant peptide design via machine learning and DFT studies  
+    + [[Scientific Reports 14.1 (2024)](https://www.nature.com/articles/s41598-024-57247-z)] • [[code](https://github.com/mephisto121/DeepGenAntiOxidantPeptide)] 
 ------
 <p align="center">
   <br>
@@ -453,6 +457,10 @@ Chu, A.E., Lu, T. & Huang, PS.
 **A Survey of Generative AI for De Novo Drug Design: New Frontiers in Molecule and Protein Generation**  
 Xiangru Tang, Howard Dai, Elizabeth Knight, Fang Wu, Yunyang Li, Tianxiao Li, Mark Gerstein  
 [arXiv:2402.08703](https://arxiv.org/abs/2402.08703)
+
+**Security challenges by AI-assisted protein design**
+Philip Hunter  
+[EMBO Rep(2024)](https://www.embopress.org/doi/full/10.1038/s44319-024-00124-7)
 
 ### 1.2 Antibody design
 
@@ -1021,6 +1029,10 @@ Namrata Anand, Raphael Eguchi, Irimpan I. Mathews, Carla P. Perez, Alexander Der
 **TIMED-Design: Flexible and Accessible Protein Sequence Design with Convolutional Neural Networks**  
 Leonardo V Castorina, Suleyman Mert Ünal, Kartic Subr, Christopher W Wood  
 [Protein Engineering, Design and Selection, 2024]((https://academic.oup.com/peds/advance-article/doi/10.1093/protein/gzae002/7591701)) • [code](https://github.com/wells-wood-research/timed-design) • [website](https://pragmaticproteindesign.bio.ed.ac.uk/timed/)
+
+**Biosensor and machine learning-aided engineering of an amaryllidaceae enzyme**  
+d’Oelsnitz, Simon, et al.  
+[Nature Communications 15.1 (2024)](https://www.nature.com/articles/s41467-024-46356-y) • [code1](https://github.com/danny305/MutComputeX), [code2](https://github.com/simonsnitz/plotting)
 
 ### 4.5 GNN-based
 
@@ -1845,6 +1857,10 @@ Capecchi, Alice, et al.
 Tran, Duy Phuoc, et al.  
 [Scientific reports 11.1 (2021)](https://www.nature.com/articles/s41598-021-90245-z)
 
+**De novo antioxidant peptide design via machine learning and DFT studies**  
+Hesamzadeh, Parsa, et al.  
+[Scientific Reports 14.1 (2024)](https://www.nature.com/articles/s41598-024-57247-z) • [code](https://github.com/mephisto121/DeepGenAntiOxidantPeptide)
+
 ### 5.10 LSTM-based
 
 **Computational antimicrobial peptide design and evaluation against multidrug-resistant clinical isolates of bacteria**  
@@ -2049,6 +2065,10 @@ Xiangzhe Kong, Wenbing Huang, Yang Liu
 R Vishva Saravanan, Soham Choudhuri, Bhaswar Ghosh  
 [bioRxiv 2024.03.14.584934](https://www.biorxiv.org/content/10.1101/2024.03.14.584934v1) • [code](https://github.com/BhaswarGhoshLab/HYDRA) • [dataset](http://huanglab.phys.hust.edu.cn/pepbdb/)
 
+**Antigen-Specific Antibody Design via Direct Energy-based Preference Optimization**  
+Xiangxin Zhou, Dongyu Xue, Ruizhe Chen, Zaixiang Zheng, Liang Wang, Quanquan Gu  
+[arXiv:2403.16576](https://arxiv.org/abs/2403.16576)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
@@ -2084,6 +2104,10 @@ Shugao Chen, Ziyao Li, Xiangxiang Zeng, Guolin Ke
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**  
 Wehrle, Sarah, et al.  
 [Protein Science 30.CONF (2021)](https://infoscience.epfl.ch/record/290120)/[bioRxiv (2022)](https://www.biorxiv.org/content/10.1101/2022.06.16.496402v2)/[Nature (2023)](https://www.nature.com/articles/s41586-023-05993-x) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/17/2022.06.16.496402/DC1/embed/media-1.pdf) • [masif_seed](https://github.com/LPDI-EPFL/masif_seed) • [masif](https://github.com/LPDI-EPFL/masif) • [lecture](https://www.youtube.com/watch?v=4S4J7gbhAa0)
+
+**Targeting protein-ligand neosurfaces using a generalizable deep learning approach**  
+Anthony Marchand, Stephen Buckley, Arne Schneuing, Martin Pacesa, Pablo Gainza, Evgenia Elizarova, Rebecca Manuela Neeser, Pao-Wan Lee, Luc Reymond, Maddalena Elia, Leo Scheller, Sandrine Georgeon, Joseph Schmidt, Philippe Schwaller, Sebastian Josef Maerkl, Michael Bronstein, Bruno Emmanuel Correia  
+[bioRxiv 2024.03.25.585721](https://www.biorxiv.org/content/10.1101/2024.03.25.585721v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/28/2024.03.25.585721/DC1/embed/media-1.pdf) • [code](https://github.com/LPDI-EPFL/masif-neosurf)
 
 ### 6.5 GNN-based
 
