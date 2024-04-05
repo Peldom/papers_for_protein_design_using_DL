@@ -9,17 +9,11 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.03.29:*  
-+   Targeting protein-ligand neosurfaces using a generalizable deep learning approach  
-    + [[bioRxiv 2024.03.25.585721](https://www.biorxiv.org/content/10.1101/2024.03.25.585721v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/28/2024.03.25.585721/DC1/embed/media-1.pdf)] • [[code](https://github.com/LPDI-EPFL/masif-neosurf)]
-+   Biosensor and machine learning-aided engineering of an amaryllidaceae enzyme  
-    + [[Nature Communications 15.1 (2024)](https://www.nature.com/articles/s41467-024-46356-y)] • [[code1](https://github.com/danny305/MutComputeX)], [[code2](https://github.com/simonsnitz/plotting)]
-+   Security challenges by AI-assisted protein design
-    + [[EMBO Rep(2024)](https://www.embopress.org/doi/full/10.1038/s44319-024-00124-7)]
-+   Antigen-Specific Antibody Design via Direct Energy-based Preference Optimization  
-    + [[arXiv:2403.16576](https://arxiv.org/abs/2403.16576)]
-+   De novo antioxidant peptide design via machine learning and DFT studies  
-    + [[Scientific Reports 14.1 (2024)](https://www.nature.com/articles/s41598-024-57247-z)] • [[code](https://github.com/mephisto121/DeepGenAntiOxidantPeptide)] 
+*Papers last week, updated on 2024.04.05:*  
++   Opportunities and challenges in design and optimization of protein function  
+    + [[Nat Rev Mol Cell Biol (2024)](https://www.nature.com/articles/s41580-024-00718-y)]
++   Combining Rosetta Sequence Design with Protein Language Model Predictions Using Evolutionary Scale Modeling (ESM) as Restraint  
+    + [[ACS Synth. Biol. 2024](https://pubs.acs.org/doi/10.1021/acssynbio.3c00753)] • [[code](https://github.com/meilerlab/PLM_restraint)]
 ------
 <p align="center">
   <br>
@@ -461,6 +455,10 @@ Xiangru Tang, Howard Dai, Elizabeth Knight, Fang Wu, Yunyang Li, Tianxiao Li, Ma
 **Security challenges by AI-assisted protein design**
 Philip Hunter  
 [EMBO Rep(2024)](https://www.embopress.org/doi/full/10.1038/s44319-024-00124-7)
+
+**Opportunities and challenges in design and optimization of protein function**  
+Listov, D., Goverde, C.A., Correia, B.E. et al.  
+[Nat Rev Mol Cell Biol (2024)](https://www.nature.com/articles/s41580-024-00718-y)
 
 ### 1.2 Antibody design
 
@@ -1738,6 +1736,10 @@ Liuzhenghao Lv, Zongying Lin, Hao Li, Yuyang Liu, Jiaxi Cui, Calvin Yu-Chian Che
 **Combining machine learning with structure-based protein design to predict and engineer post-translational modifications of proteins**  
 Ertelt M, Mulligan VK, Maguire JB, Lyskov S, Moretti R, et al.  
 [PLOS Computational Biology 20(3): e1011939](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011939) • [code](https://github.com/meilerlab/PTMPrediction)
+
+**Combining Rosetta Sequence Design with Protein Language Model Predictions Using Evolutionary Scale Modeling (ESM) as Restraint**  
+Moritz Ertelt, Jens Meiler, and Clara T. Schoeder  
+[ACS Synth. Biol. 2024](https://pubs.acs.org/doi/10.1021/acssynbio.3c00753) • [code](https://github.com/meilerlab/PLM_restraint)
 
 ### 5.5 ResNet-based
 
