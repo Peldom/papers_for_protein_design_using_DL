@@ -1987,6 +1987,10 @@ Markus J. Buehler
 
 ### 5.15 Score-based
 
+**Microdroplet screening rapidly profiles a biocatalyst to enable its AI-assisted engineering**
+Maximilian Gantz, Simon V. Mathis, Friederike E. H. Nintzel, Paul J. Zurek, Tanja Knaus, Elie Patel, Daniel Boros, Friedrich-Maximilian Weberling, Matthew R. A. Kenneth, Oskar J. Klein, Elliot J. Medcalf, Jacob Moss, Michael Herger, Tomasz S. Kaminski,Francesco G. Mutti, Pietro Lio, Florian Hollfelder
+[bioRxiv (2024)] (https://www.biorxiv.org/content/10.1101/2024.04.08.588565v1.full.pdf)
+
 **Bootstrapped Training of Score-Conditioned Generator for Offline Design of Biological Sequences**  
 Minsu Kim, Federico Berto, Sungsoo Ahn, Jinkyoo Park  
 [arXiv:2306.03111](https://arxiv.org/abs/2306.03111)  • [code](https://github.com/kaist-silab/bootgen)
