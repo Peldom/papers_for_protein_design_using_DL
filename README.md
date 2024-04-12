@@ -9,11 +9,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.04.05:*  
-+   Opportunities and challenges in design and optimization of protein function  
-    + [[Nat Rev Mol Cell Biol (2024)](https://www.nature.com/articles/s41580-024-00718-y)]
-+   Combining Rosetta Sequence Design with Protein Language Model Predictions Using Evolutionary Scale Modeling (ESM) as Restraint  
-    + [[ACS Synth. Biol. 2024](https://pubs.acs.org/doi/10.1021/acssynbio.3c00753)] • [[code](https://github.com/meilerlab/PLM_restraint)]
+*Papers last week, updated on 2024.04.12:*  
++   Diffusion models in protein structure and docking  
+    + [[Wiley Interdisciplinary Reviews: Computational Molecular Science 14.2 (2024)](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1711)] • review
++   HelixDiff, a Score-Based Diffusion Model for Generating All-Atom α-Helical Structures  
+    + [[ACS Central Science (2024)](https://pubs.acs.org/doi/full/10.1021/acscentsci.3c01488)] • [[code](https://github.com/xxiexuezhi/HelixDiff)]
++   Microdroplet screening rapidly profiles a biocatalyst to enable its AI-assisted engineering  
+    + [[bioRxiv (2024.04.08)](https://www.biorxiv.org/content/10.1101/2024.04.08.588565v1.full.pdf)]
++   Generating mutants of monotone affinity towards stronger protein complexes through adversarial learning  
+    + [[Nat Mach Intell 6, 315–325 (2024)](https://www.nature.com/articles/s42256-024-00803-z)] • [[code](https://github.com/tianlt/Deepdirect)]
 ------
 <p align="center">
   <br>
@@ -933,6 +937,10 @@ Jason Yim, Andrew Campbell, Emile Mathieu, Andrew Y. K. Foong, Michael Gastegger
 **DiffTopo: Fold exploration using coarse grained protein topology representations**  
 Yangyang Miao, Bruno Correia  
 [bioRxiv 2024.02.01.578456](https://www.biorxiv.org/content/10.1101/2024.02.01.578456v1)/ICLR 2024
+
+**Diffusion models in protein structure and docking**  
+Yim, Jason, et al.  
+[Wiley Interdisciplinary Reviews: Computational Molecular Science 14.2 (2024)](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1711) • review
 
 ### 3.6 RL-based
 
@@ -2076,6 +2084,10 @@ R Vishva Saravanan, Soham Choudhuri, Bhaswar Ghosh
 Xiangxin Zhou, Dongyu Xue, Ruizhe Chen, Zaixiang Zheng, Liang Wang, Quanquan Gu  
 [arXiv:2403.16576](https://arxiv.org/abs/2403.16576)
 
+**HelixDiff, a Score-Based Diffusion Model for Generating All-Atom α-Helical Structures**  
+Xie, Xuezhi, et al.  
+[ACS Central Science (2024)](https://pubs.acs.org/doi/full/10.1021/acscentsci.3c01488) • [code](https://github.com/xxiexuezhi/HelixDiff)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites**  
@@ -2355,6 +2367,10 @@ Zhiqiang Zhong, Davide Mottin
 **Machine learning-aided design and screening of an emergent protein function in synthetic cells**  
 Kohyama, S., Frohn, B.P., Babl, L. et al.  
 [Nat Commun 15, 2010 (2024)](https://www.nature.com/articles/s41467-024-46203-0) • [code](https://github.com/BelaFrohn/synMinE)
+
+**Generating mutants of monotone affinity towards stronger protein complexes through adversarial learning**  
+Lan, T., Su, S., Ping, P. et al.  
+[Nat Mach Intell 6, 315–325 (2024)](https://www.nature.com/articles/s42256-024-00803-z) • [code](https://github.com/tianlt/Deepdirect)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
