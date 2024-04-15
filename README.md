@@ -18,6 +18,8 @@
     + [[bioRxiv (2024.04.08)](https://www.biorxiv.org/content/10.1101/2024.04.08.588565v1.full.pdf)]
 +   Generating mutants of monotone affinity towards stronger protein complexes through adversarial learning  
     + [[Nat Mach Intell 6, 315–325 (2024)](https://www.nature.com/articles/s42256-024-00803-z)] • [[code](https://github.com/tianlt/Deepdirect)]
++   Graphormer supervised de novo protein design method and function validation  
+    + [[Briefings in Bioinformatics 25.3 (2024): bbae135](https://academic.oup.com/bib/article/25/3/bbae135/7638270)] • [[code](https://github.com/decodermu/GPD)]
 ------
 <p align="center">
   <br>
@@ -684,10 +686,6 @@ Takatsugu Kosugi, Masahito Ohue
 neoxbio  
 [website](https://www.neoxbio.com/platform-technology.html) • [news](https://mp.weixin.qq.com/s/Kb4EQ0YvYDvoLZ_cnAlUPw) • masif-based • commercial
 
-**Hallucination of closed repeat proteins containing central pockets**  
-An, L., Hicks, D.R., Zorine, D. et al.  
-[Nat Struct Mol Biol (2023)](https://www.nature.com/articles/s41594-023-01112-6) • [code](https://github.com/dmitropher/af2_multistate_hallucination)
-
 **AlphaFold Distillation for Protein Design**  
 Anonymous  
 [ICLR 2024 under review](https://openreview.net/forum?id=3pgJNIx3gc) • [code](https://anonymous.4open.science/r/AFDistill-28C3)
@@ -1181,7 +1179,7 @@ Amir Shanehsazzadeh, Julian Alverio, George Kasun, Simon Levine, Jibran A Khan, 
 
 **SPDesign: protein sequence designer based on structural sequence profile using ultrafast shape recognition**  
 Hui Wang, Dong Liu, Kailong Zhao, Yajun Wang, Guijun Zhang  
-[bioRxiv 2023.12.14.571651](https://www.biorxiv.org/content/10.1101/2023.12.14.571651v1)
+[bioRxiv 2023.12.14.571651](https://www.biorxiv.org/content/10.1101/2023.12.14.571651v1)/[Briefings in Bioinformatics 25.3 (2024): bbae146](https://academic.oup.com/bib/article/25/3/bbae146/7642672) • [website](http://zhanglab-bioinf.com/SPDesign/)
 
 **De novo design of diverse small molecule binders and sensors using Shape Complementary Pseudocycles**  
 Linna An, Meerit Said, Long Tran, Sagardip Majumder, Inna Goreshnik, Gyu Rie Lee, David Juergens, Justas Dauparas, Ivan Anishchenko, Brian Coventry, Asim K Bera, Alex Kang, Paul M Levine, Valentina Alvarez, Arvindd Pillai, Christoffer Norn, David Feldman, Dmitri Zorine, Derrick R Hicks, Xinting Li, Mariana Garcia Sanchez, Dionne K Vafeados, Patrick J Salveson, Anastassia A Vorobieva, David Baker  
@@ -1210,6 +1208,10 @@ Huddy, T.F., Hsia, Y., Kibler, R.D. et al.
 **All-atom protein sequence design based on geometric deep learning**  
 Jiale Liu, Zheng Guo, Changsheng Zhang, Luhua Lai  
 [bioRxiv 2024.03.18.585651](https://www.biorxiv.org/content/10.1101/2024.03.18.585651v1) • [code](https://github.com/PKUliujl/GesSeqBuilder)
+
+**Graphormer supervised de novo protein design method and function validation**  
+Mu, Junxi, et al.  
+[Briefings in Bioinformatics 25.3 (2024): bbae135](https://academic.oup.com/bib/article/25/3/bbae135/7638270) • [code](https://github.com/decodermu/GPD)
 
 ### 4.6 GAN-based
 
