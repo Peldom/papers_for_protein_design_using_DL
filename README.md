@@ -9,17 +9,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.04.12:*  
-+   Diffusion models in protein structure and docking  
-    + [[Wiley Interdisciplinary Reviews: Computational Molecular Science 14.2 (2024)](https://wires.onlinelibrary.wiley.com/doi/10.1002/wcms.1711)] • review
-+   HelixDiff, a Score-Based Diffusion Model for Generating All-Atom α-Helical Structures  
-    + [[ACS Central Science (2024)](https://pubs.acs.org/doi/full/10.1021/acscentsci.3c01488)] • [[code](https://github.com/xxiexuezhi/HelixDiff)]
-+   Microdroplet screening rapidly profiles a biocatalyst to enable its AI-assisted engineering  
-    + [[bioRxiv (2024.04.08)](https://www.biorxiv.org/content/10.1101/2024.04.08.588565v1.full.pdf)]
-+   Generating mutants of monotone affinity towards stronger protein complexes through adversarial learning  
-    + [[Nat Mach Intell 6, 315–325 (2024)](https://www.nature.com/articles/s42256-024-00803-z)] • [[code](https://github.com/tianlt/Deepdirect)]
-+   Graphormer supervised de novo protein design method and function validation  
-    + [[Briefings in Bioinformatics 25.3 (2024): bbae135](https://academic.oup.com/bib/article/25/3/bbae135/7638270)] • [[code](https://github.com/decodermu/GPD)]
+*Papers last week, updated on 2024.04.19:*  
++   Latent-based Directed Evolution accelerated by Gradient Ascent for Protein Sequence Design  
+    + [[bioRxiv 2024.04.13.589381](https://www.biorxiv.org/content/10.1101/2024.04.13.589381v1)] • [[code](https://github.com/HySonLab/LatentDE)]
++   A primer on ML in antibody engineering  
+    + [[Substack](https://www.abhishaike.com/p/a-primer-on-ai-in-antibody-engineering)] • blog 
++   AAVDiff: Experimental Validation of Enhanced Viability and Diversity in Recombinant Adeno-Associated Virus (AAV) Capsids through Diffusion Generation  
+    + [[arXiv:2404.10573](https://arxiv.org/abs/2404.10573)] 
 ------
 <p align="center">
   <br>
@@ -515,6 +511,10 @@ Leonard Wossnig, Norbert Furtmann, Andrew Buchanan, Sandeep Kumar, Victor Greiff
 **Next generation of multispecific antibody engineering**  
 Daniel Keri, Matt Walker, Isha Singh, Kyle Nishikawa, Fernando Garces  
 [Antibody Therapeutics (2023): tbad027](https://academic.oup.com/abt/article/7/1/37/7463325)
+
+**A primer on ML in antibody engineering**  
+[ABHISHAIKE MAHAJAN](https://substack.com/@abhishaikemahajan)  
+[Substack](https://www.abhishaike.com/p/a-primer-on-ai-in-antibody-engineering) • blog
 
 ### 1.3 Peptide design
 
@@ -1489,6 +1489,10 @@ Hans-Christof Gasser, Diego Oyarzun, Ajitha Rajan, Javier Alfaro
 Pandi, Amir, et al.  
 [Nature Communications 14.1 (2023)](https://www.nature.com/articles/s41467-023-42434-9) • [code](https://github.com/amirpandi/Deep_AMP)
 
+**Design of target specific peptide inhibitors using generative deep learning and molecular dynamics simulations**  
+Chen, S., Lin, T., Basu, R. et al.  
+[Nat Commun 15, 1611 (2024)](https://www.nature.com/articles/s41467-024-45766-2) • [code](https://doi.org/10.5281/zenodo.10587692)
+
 ### 5.3 GAN-based
 
 **Feedback GAN for DNA optimizes protein functions**  
@@ -1750,6 +1754,10 @@ Ertelt M, Mulligan VK, Maguire JB, Lyskov S, Moretti R, et al.
 **Combining Rosetta Sequence Design with Protein Language Model Predictions Using Evolutionary Scale Modeling (ESM) as Restraint**  
 Moritz Ertelt, Jens Meiler, and Clara T. Schoeder  
 [ACS Synth. Biol. 2024](https://pubs.acs.org/doi/10.1021/acssynbio.3c00753) • [code](https://github.com/meilerlab/PLM_restraint)
+
+**Design of Antigen-Specific Antibody CDRH3 Sequences Using AI and Germline-Based Templates**  
+Toma M. Marinov, Alexandra A. Abu-Shmais, Alexis K. Janke, Ivelin S. Georgiev  
+[bioRxiv 2024.03.22.586241](https://www.biorxiv.org/content/10.1101/2024.03.22.586241v1.full)
 
 ### 5.5 ResNet-based
 
@@ -2098,7 +2106,7 @@ Wang J, Lisanza S, Juergens D, Tischer D, Anishchenko I, Baek M, Watson JL, Chun
 
 **Broadly applicable and accurate protein design by integrating structure prediction networks and diffusion generative models** / **De novo design of protein structure and function with RFdiffusion**  
 Watson, J.L., Juergens, D., Bennett, N.R. et al.  
-[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v2)/[Nature (2023)](https://www.nature.com/articles/s41586-023-06415-8) • [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/), [news2](https://www.ipd.uw.edu/2023/03/rf-diffusion-now-free-and-open-source/), [news3](https://www.nature.com/articles/d41586-023-02227-y) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf) • [lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI) • [RFdiffusion:code](https://github.com/RosettaCommons/RFdiffusion), [Colab](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/v1.1.1/rf/examples/diffusion.ipynb) • [blog](https://www.science.org/content/blog-post/protein-design-ai-way)
+[Bakerlab Preprint](https://www.bakerlab.org/wp-content/uploads/2022/11/Diffusion_preprint_12012022.pdf)/[bioRxiv 2022.12.09.519842](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v2)/[Nature (2023)](https://www.nature.com/articles/s41586-023-06415-8) • [news](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/), [news2](https://www.ipd.uw.edu/2023/03/rf-diffusion-now-free-and-open-source/), [news3](https://www.nature.com/articles/d41586-023-02227-y) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/12/10/2022.12.09.519842/DC1/embed/media-1.pdf) • [lecture](https://www.youtube.com/watch?v=wIHwHDt2NoI), [lecture2](https://www.youtube.com/watch?v=828WPIIOwaA) • [RFdiffusion:code](https://github.com/RosettaCommons/RFdiffusion), [Colab](https://colab.research.google.com/github/sokrypton/ColabDesign/blob/v1.1.1/rf/examples/diffusion.ipynb) • [blog](https://www.science.org/content/blog-post/protein-design-ai-way)
 
 **De novo design of high-affinity protein binders to bioactive helical peptides**  
 Susana Vázquez Torres, Philip J. Y. Leung, Isaac D. Lutz, Preetham Venkatesh, Joseph L Watson, Fabian Hink, Huu-Hien Huynh, Andy Hsien-Wei Yeh, David Juergens, Nathaniel R. Bennett, Andrew N. Hoofnagle, Eric Huang, Michael J. MacCoss, Marc Expòsit, Gyu Rie Lee, Elif Nihal Korkmaz, Jeff Nivala, Lance Stewart, Joseph M. Rodgers, David Baker  
@@ -2373,6 +2381,14 @@ Kohyama, S., Frohn, B.P., Babl, L. et al.
 **Generating mutants of monotone affinity towards stronger protein complexes through adversarial learning**  
 Lan, T., Su, S., Ping, P. et al.  
 [Nat Mach Intell 6, 315–325 (2024)](https://www.nature.com/articles/s42256-024-00803-z) • [code](https://github.com/tianlt/Deepdirect)
+
+**Latent-based Directed Evolution accelerated by Gradient Ascent for Protein Sequence Design**  
+Nhat Khang Ngo, Thanh V. T. Tran, Viet Thanh Duy Nguyen, Truong Son Hy  
+[bioRxiv 2024.04.13.589381](https://www.biorxiv.org/content/10.1101/2024.04.13.589381v1) • [code](https://github.com/HySonLab/LatentDE)
+
+**AAVDiff: Experimental Validation of Enhanced Viability and Diversity in Recombinant Adeno-Associated Virus (AAV) Capsids through Diffusion Generation**  
+Lijun Liu, Jiali Yang, Jianfei Song, Xinglin Yang, Lele Niu, Zeqi Cai, Hui Shi, Tingjun Hou, Chang-yu Hsieh, Weiran Shen, Yafeng Deng  
+[arXiv:2404.10573](https://arxiv.org/abs/2404.10573)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
