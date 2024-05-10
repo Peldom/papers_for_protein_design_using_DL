@@ -9,19 +9,14 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.05.04:*  
-+   VespaG: Expert-guided protein Language Models enable accurate and blazingly fast fitness prediction  
-    + [[bioRxiv 2024.04.24.590982](https://www.biorxiv.org/content/10.1101/2024.04.24.590982v1)] • [[code](https://github.com/JSchlensok/VespaG)]
-+   Functional Protein Design with Local Domain Alignment
-    + [[arXiv:2404.16866](https://arxiv.org/abs/2404.16866)]
-+   Protein engineering with lightweight graph denoising neural networks
-    + [[Journal of Chemical Information and Modeling (2024)](https://pubs.acs.org/doi/10.1021/acs.jcim.4c00036)] • [[code](https://github.com/bzho3923/ProtLGN)]
-+   Target-Specific De Novo Peptide Binder Design with DiffPepBuilder
-    + [[arXiv:2405.00128](https://arxiv.org/abs/2405.00128)] • [[code](https://github.com/YuzheWangPKU/DiffPepBuilder)]
-+   HMAMP: Hypervolume-Driven Multi-Objective Antimicrobial Peptides Design
-    + [[arXiv:2405.00753](https://arxiv.org/abs/2405.00753)]
-+   Interface design of SARS-CoV-2 symmetrical nsp7 dimer and machine learning-guided nsp7 sequence prediction reveals physicochemical properties and hotspots for nsp7 stability, adaptation, and therapeutic design
-    + [[Physical Chemistry Chemical Physics (2024)](https://pubs.rsc.org/en/content/articlelanding/2024/cp/d4cp01014k)] 
+*Papers last week, updated on 2024.05.10:*  
++   AntiFold: Improved antibody structure-based design using inverse folding
+    + [[arXiv:2405.03370](https://arxiv.org/abs/2405.03370)] • [[code](https://github.com/oxpig/AntiFold)] • [[website](https://opig.stats.ox.ac.uk/webapps/antifold/)] • ESM-IF-based
++   Model-based reinforcement learning for protein backbone design
+    + [[arXiv:2405.01983](https://arxiv.org/abs/2405.01983)]
++   Exploring the Potential of Structure-Based Deep Learning Approaches for T cell Receptor Design
+    + [[bioRxiv 2024.04.19.590222](https://www.biorxiv.org/content/10.1101/2024.04.19.590222v1)] • [[code](https://github.com/LBC-LNBio/ESMIFDesign)], [[code2](https://github.com/piercelab/tcrmodel2/)]
+
 ------
 <p align="center">
   <br>
@@ -964,6 +959,10 @@ Yim, Jason, et al.
 Isaac D Lutz, Shunzhi Wang, Christoffer Norn, Andrew J Borst, Yan Ting Zhao, Annie Dosey, Longxing Cao, Zhe Li, Minkyung Baek, Neil P King, Hannele Ruohola-Baker, David Baker  
 [bioRxiv 2022.09.25.509419](https://www.biorxiv.org/content/10.1101/2022.09.25.509419v1)/[Science380, 266-273(2023)](https://www.science.org/doi/10.1126/science.adf6591) • [code](https://github.com/idlutz/protein-backbone-MCTS),[code2](https://files.ipd.uw.edu/pub/2023_RL_capsid_design/sequence_design_pipeline.tar)
 
+**Model-based reinforcement learning for protein backbone design**  
+Frederic Renard, Cyprien Courtot, Alfredo Reichlin, Oliver Bent  
+[arXiv:2405.01983](https://arxiv.org/abs/2405.01983)
+
 ### 3.7 Flow-based
 
 **SE(3)-Stochastic Flow Matching for Protein Backbone Generation**  
@@ -1235,6 +1234,10 @@ Mu, Junxi, et al.
 Iwan Grin, Kateryna Maksymenko, Tobias Wörtwein, Mohammad ElGamacy  
 [Nucleic Acids Research, 2024;, gkae297](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae297/7658041) • [website](https://damietta.de/) • ProteinMPNN-based • [news](https://cbirt.net/protein-design-made-easy-with-damietta-server-a-comprehensive-toolkit/)
 
+**Exploring the Potential of Structure-Based Deep Learning Approaches for T cell Receptor Design**  
+Helder V. Ribeiro-Filho, Gabriel E. Jara, João V. S. Guerra, Melyssa Cheung, Nathaniel R. Felbinger, José G. C. Pereira, Brian G. Pierce, Paulo S. Lopes-de-Oliveira  
+[bioRxiv 2024.04.19.590222](https://www.biorxiv.org/content/10.1101/2024.04.19.590222v1) • [code](https://github.com/LBC-LNBio/ESMIFDesign), [code2](https://github.com/piercelab/tcrmodel2/)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1323,6 +1326,10 @@ Nicholas Z Randolph, Brian Kuhlman
 Daniel Flam-Shepherd, Kevin Zhu, Alán Aspuru-Guzik  
 [arXiv:2308.09482](https://arxiv.org/abs/2308.09482)
 
+**SaProt: Protein Language Modeling with Structure-aware Vocabulary**  
+Jin Su, Chenchen Han, Yuyang Zhou, Junjie Shan, Xibin Zhou, Fajie Yuan  
+[bioRxiv 2023.10.01.560349](https://www.biorxiv.org/content/10.1101/2023.10.01.560349v5) • [code](https://github.com/westlake-repl/SaProt)
+
 **AntiFold: Improved antibody structure design using inverse folding**  
 Magnus Høie, Alissa Hummer, Tobias Olsen, Morten Nielsen, Charlotte Deane  
 [GenBio@NeurIPS2023 Spotlight](https://openreview.net/forum?id=bxZMKHtlL6) • [code](https://opig.stats.ox.ac.uk/data/downloads/AntiFold/) • [colab](https://colab.research.google.com/drive/1TTfgjoZx3mzF5u4e9b4Un9Y7b_rqXc_4)
@@ -1338,6 +1345,10 @@ Lee, Youhan, and Jaehoon Kim.
 **X-LoRA: Mixture of Low-Rank Adapter Experts, a Flexible Framework for Large Language Models with Applications in Protein Mechanics and Design**  
 Eric L. Buehler, Markus J. Buehler  
 [arXiv:2402.07148](https://arxiv.org/abs/2402.07148) • [code](https://github.com/EricLBuehler/xlora) • [Model & weights](https://huggingface.co/lamm-mit/x-lora)
+
+**AntiFold: Improved antibody structure-based design using inverse folding**  
+Magnus Haraldson Høie, Alissa Hummer, Tobias H. Olsen, Broncio Aguilar-Sanjuan, Morten Nielsen, Charlotte M. Deane
+[arXiv:2405.03370](https://arxiv.org/abs/2405.03370) • [code](https://github.com/oxpig/AntiFold) • [website](https://opig.stats.ox.ac.uk/webapps/antifold/) • ESM-IF-based
 
 ### 4.8 ResNet-based
 
@@ -1639,7 +1650,7 @@ Hesslow, Daniel, et al.
 
 **ProGen2: Exploring the Boundaries of Protein Language Models**  
 Erik Nijkamp, Jeffrey Ruffolo, Eli N. Weinstein, Nikhil Naik, Ali Madani  
-[arXiv:2206.13517](https://arxiv.org/abs/2206.13517) • [code](https://github.com/salesforce/progen)
+[arXiv:2206.13517](https://arxiv.org/abs/2206.13517) • [code](https://github.com/salesforce/progen) • [guide](https://github.com/ZeeSid/BioLM_Tutes/tree/main)
 
 **AbLang: an antibody language model for completing antibody sequences**  
 Tobias H Olsen, Iain H Moal, Charlotte M Deane  
@@ -1667,7 +1678,7 @@ Lin Li, Esther Gupta, John Spaeth, Leslie Shing, Rafael Jaimes, Rajmonda Sulo Ca
 
 **ZymCTRL: a conditional language model for the contollable generation of artificial enzymes**  
 Noelia Ferruz  
-[NeurIPS 2022](https://www.mlsb.io/papers_2022/ZymCTRL_a_conditional_language_model_for_the_controllable_generation_of_artificial_enzymes.pdf) • [hugging face](https://huggingface.co/nferruz/ZymCTRL) • [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/59047.png?t=1669864213.082831)
+[NeurIPS 2022](https://www.mlsb.io/papers_2022/ZymCTRL_a_conditional_language_model_for_the_controllable_generation_of_artificial_enzymes.pdf)/[bioRxiv 2024.05.03.592223](https://www.biorxiv.org/content/10.1101/2024.05.03.592223v1) • [hugging face](https://huggingface.co/nferruz/ZymCTRL) • [poster](https://nips.cc/media/PosterPDFs/NeurIPS%202022/59047.png?t=1669864213.082831)
 
 **Generative Antibody Design for Complementary Chain Pairing Sequences through Encoder-Decoder Language Model**  
 Chu, Simon, and Kathy Wei.  
@@ -2235,6 +2246,10 @@ Zaixi Zhang, Zepu Lu, Zhongkai Hao, Marinka Zitnik, Qi Liu
 **Functional Geometry Guided Protein Sequence and Backbone Structure Co-Design**  
 Anonymous  
 [ICLR 2024 under review](https://openreview.net/forum?id=Dr4qD9bzZd)
+
+**Fast and accurate modeling and design of antibody-antigen complex using tFold**  
+Fandi Wu, Yu Zhao, Jiaxiang Wu, Biaobin Jiang, Bing He, Longkai Huang, Chenchen Qin, Fan Yang, Ningqiao Huang, Yang Xiao, Rubo Wang, Huaxian Jia, Yu Rong, Yuyi Liu, Houtim Lai, Tingyang Xu, Wei Liu, Peilin Zhao, Jianhua Yao  
+[bioRxiv 2024.02.05.578892](https://www.biorxiv.org/content/10.1101/2024.02.05.578892v1) • [website](https://drug.ai.tencent.com/cn)
 
 **PocketGen: Generating Full-Atom Ligand-Binding Protein Pockets**  
 Zhang Zaixi, Wanxiang Shen, Qi Liu, Marinka Zitnik  
