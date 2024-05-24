@@ -9,20 +9,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.05.17:*  
-+   SurfPro: Functional Protein Design Based on Continuous Surface
-    + [[arXiv:2405.06693](https://arxiv.org/abs/2405.06693)] • ProteinMPNN-based
-+   De novo antibody design with SE(3) diffusion
-    + [[arXiv:2405.07622](https://arxiv.org/abs/2405.07622)]
-+   Accurate single domain scaffolding of three non-overlapping protein epitopes using deep learning
-    + [[bioRxiv 2024.05.07.592871](https://www.biorxiv.org/content/10.1101/2024.05.07.592871v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/05/10/2024.05.07.592871/DC1/embed/media-1.pdf)]
-+   The Continuous Language of Protein Structure
-    + [[bioRxiv 2024.05.11.593685](https://www.biorxiv.org/content/10.1101/2024.05.11.593685v1)] • [[code](https://github.com/MurrellGroup/InvariantPointAttention.jl)]
-+   Diversifying de novo TIM barrels by hallucination
-    + [[Protein Science 33.6 (2024)](https://onlinelibrary.wiley.com/doi/10.1002/pro.5001)]
-+   Accelerated Engineering of ELP‐based Materials through Hybrid Biomimetic‐De Novo Predictive Molecular Design
-    + [[Advanced Materials (2024)](https://onlinelibrary.wiley.com/doi/10.1002/adma.202312299)]
-
+*Papers last week, updated on 2024.05.24:*  
++   De novo designed proteins neutralize lethal snake venom toxins
+    + [[PREPRINT (Version 1) available at Research Square](https://www.researchsquare.com/article/rs-4402792/v1)]
++   GeoAB: Towards Realistic Antibody Design and Reliable Affinity Maturation
+    + [[bioRxiv 2024.05.15.594274](https://www.biorxiv.org/content/10.1101/2024.05.15.594274v1)] • [[code](https://github.com/Edapinenut/GeoAB)]
++   Aligning protein generative models with experimental fitness via Direct Preference Optimization
+    + [[bioRxiv 2024.05.20.595026](https://www.biorxiv.org/content/10.1101/2024.05.20.595026v1)] • [[code](https://github.com/evo-design/protein-dpo)]
++   Generative Enzyme Design Guided by Functionally Important Sites and Small-Molecule Substrates
+    + [[arXiv:2405.08205](https://arxiv.org/abs/2405.08205)]
 ------
 <p align="center">
   <br>
@@ -513,7 +508,7 @@ Bruna Moreira da Silva, David B. Ascher, Nicholas Geard, Douglas E. V. Pires
 
 **Best practices for machine learning in antibody discovery and development**  
 Leonard Wossnig, Norbert Furtmann, Andrew Buchanan, Sandeep Kumar, Victor Greiff  
-[arXiv:2312.08470](https://arxiv.org/abs/2312.08470)
+[arXiv:2312.08470](https://arxiv.org/abs/2312.08470)/[Drug Discovery Today (2024)](https://www.sciencedirect.com/science/article/pii/S1359644624001508)
 
 **Next generation of multispecific antibody engineering**  
 Daniel Keri, Matt Walker, Isha Singh, Kyle Nishikawa, Fernando Garces  
@@ -681,9 +676,9 @@ Takafumi Ueki, Masahito Ohue
 Lior Zimmerman, Noga Alon, Itay Levin, Anna Koganitsky, Nufar Shpigel, Chen Brestel, Gideon David Lapidoth  
 [bioRxiv 2023.07.27.550799](https://www.biorxiv.org/content/10.1101/2023.07.27.550799v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/07/31/2023.07.27.550799/DC1/embed/media-1.xlsx)
 
-**Highly accurate and robust protein sequence design with CarbonDesign**  
+**Highly accurate and robust protein sequence design with CarbonDesign**/**Accurate and robust protein sequence design with CarbonDesign**  
 Milong Ren, Chungong Yu, Dongbo Bu, Haicang Zhang  
-[bioRxiv 2023.08.07.552204](https://www.biorxiv.org/content/10.1101/2023.08.07.552204v1)
+[bioRxiv 2023.08.07.552204](https://www.biorxiv.org/content/10.1101/2023.08.07.552204v1)/[Nat Mach Intell 6, 536–547 (2024)](https://www.nature.com/articles/s42256-024-00838-2) • [code](https://github.com/zhanghaicang/carbonmatrix_public)
 
 **Design of Cyclic Peptides Targeting Protein-Protein Interactions using AlphaFold**  
 Takatsugu Kosugi, Masahito Ohue  
@@ -1807,6 +1802,10 @@ Chaohao Yuan, Songyou Li, Geyan Ye, Yikun Zhang, Long-Kai Huang, Wenbing Huang, 
 Lukas Billera, Anton Oresten, Aron Stålmarck, Kenta Sato, Mateusz Kaduk, Ben Murrell  
 [bioRxiv 2024.05.11.593685](https://www.biorxiv.org/content/10.1101/2024.05.11.593685v1) • [code](https://github.com/MurrellGroup/InvariantPointAttention.jl)
 
+**Generative Enzyme Design Guided by Functionally Important Sites and Small-Molecule Substrates**  
+Zhenqiao Song, Yunlong Zhao, Wenxian Shi, Wengong Jin, Yang Yang, Lei Li  
+[arXiv:2405.08205](https://arxiv.org/abs/2405.08205)
+
 ### 5.5 Bayesian-based
 
 **Discovering de novo peptide substrates for enzymes using machine learning**  
@@ -2182,6 +2181,10 @@ Karla M Castro, Joseph L Watson, Jue Wang, Joshua Southern, Reyhaneh Ayardulabi,
 Beck, Julian, Sooruban Shanmugaratnam, and Birte Höcker.  
 [Protein Science 33.6 (2024)](https://onlinelibrary.wiley.com/doi/10.1002/pro.5001)
 
+**De novo designed proteins neutralize lethal snake venom toxins**  
+Susana Vázquez Torres, Melisa Benard Valle, Stephen P. Mackessy, Stefanie K. Menzies, Nicholas R. Casewell, Shirin Ahmadi, Nick J. Burlet, Edin Muratspahić, Isaac Sappington, Max D.Overath, Esperanza Rivera-de-Torre, Jann Ledergerber, Andreas H. Laustsen, Kim Boddum, Asim K.Bera, Alex Kang,Evans Brackenbrough, Iara A. Cardoso, Edouard P. Crittenden, Rebecca J.Edge, Justin Decarreau, Robert J. Ragotte, Arvind S. Pillai, Mohamad Abedi, Hannah L. Han,Stacey R. Gerben, Analisa Murray, Rebecca Skotheim, Lynda Stuart, Lance Stewart, Thomas J.A. Fryer, Timothy P. Jenkins, David Baker  
+[PREPRINT (Version 1) available at Research Square](https://www.researchsquare.com/article/rs-4402792/v1)
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**  
@@ -2225,6 +2228,10 @@ Weian Mao, Muzhi Zhu, Zheng Sun, Shuaike Shen, Lin Yuanbo Wu, Hao Chen, Chunhua 
 **A Survey of Geometric Graph Neural Networks: Data Structures, Models and Applications**  
 Jiaqi Han, Jiacheng Cen, Liming Wu, Zongzhao Li, Xiangzhe Kong, Rui Jiao, Ziyang Yu, Tingyang Xu, Fandi Wu, Zihe Wang, Hongteng Xu, Zhewei Wei, Yang Liu, Yu Rong, Wenbing Huang  
 [arXiv:2403.00485](https://arxiv.org/abs/2403.00485) • review
+
+**GeoAB: Towards Realistic Antibody Design and Reliable Affinity Maturation**  
+Haitao LIN, Lirong Wu, Huang Yufei, Yunfan Liu, Odin Zhang, Yuanqing Zhou, Rui Sun, Stan Z Li  
+[bioRxiv 2024.05.15.594274](https://www.biorxiv.org/content/10.1101/2024.05.15.594274v1) • [code](https://github.com/Edapinenut/GeoAB)
 
 ### 6.6 Transformer-based
 
@@ -2451,6 +2458,10 @@ Celine Marquet, Julius Schlensok, Marina Abakarova, Burkhard Rost, Elodie Laine
 **Interface design of SARS-CoV-2 symmetrical nsp7 dimer and machine learning-guided nsp7 sequence prediction reveals physicochemical properties and hotspots for nsp7 stability, adaptation, and therapeutic design**  
 Amar Jeet Yadav, Shivank Kumar, Shweata Maurya, Khushboo Bhagat, and Aditya K. Padhi  
 [Physical Chemistry Chemical Physics (2024)](https://pubs.rsc.org/en/content/articlelanding/2024/cp/d4cp01014k)
+
+**Aligning protein generative models with experimental fitness via Direct Preference Optimization**  
+Talal Widatalla, Rafael Rafailov, Brian Hie  
+[bioRxiv 2024.05.20.595026](https://www.biorxiv.org/content/10.1101/2024.05.20.595026v1) • [code](https://github.com/evo-design/protein-dpo)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
