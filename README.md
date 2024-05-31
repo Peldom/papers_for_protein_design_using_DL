@@ -9,15 +9,19 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.05.24:*  
-+   De novo designed proteins neutralize lethal snake venom toxins
-    + [[PREPRINT (Version 1) available at Research Square](https://www.researchsquare.com/article/rs-4402792/v1)]
-+   GeoAB: Towards Realistic Antibody Design and Reliable Affinity Maturation
-    + [[bioRxiv 2024.05.15.594274](https://www.biorxiv.org/content/10.1101/2024.05.15.594274v1)] • [[code](https://github.com/Edapinenut/GeoAB)]
-+   Aligning protein generative models with experimental fitness via Direct Preference Optimization
-    + [[bioRxiv 2024.05.20.595026](https://www.biorxiv.org/content/10.1101/2024.05.20.595026v1)] • [[code](https://github.com/evo-design/protein-dpo)]
-+   Generative Enzyme Design Guided by Functionally Important Sites and Small-Molecule Substrates
-    + [[arXiv:2405.08205](https://arxiv.org/abs/2405.08205)]
+*Papers last week, updated on 2024.05.31:*  
++   Computational Design of Myoglobin-based Carbene Transferases for Monoterpene Derivatization
+    + [[Biochemical and Biophysical Research Communications (2024)](https://www.sciencedirect.com/science/article/pii/S0006291X2400696X)] • [[code](https://github.com/yangyu1-github/MbDesignMPNN)] • LigandMPNN-based
++   Out of Many, One: Designing and Scaffolding Proteins at the Scale of the Structural Universe with Genie 2
+    + [[arXiv:2405.15489](https://arxiv.org/abs/2405.15489)] • [[code](https://github.com/aqlaboratory/genie2)]
++   A generative foundation model for antibody sequence understanding
+    + [[bioRxiv 2024.05.22.594943](https://www.biorxiv.org/content/10.1101/2024.05.22.594943v1)] • [[huggingface](https://huggingface.co/alchemab)]
++   UniIF: Unified Molecule Inverse Folding
+    + [[arXiv:2405.18968](https://arxiv.org/abs/2405.18968)]
++   Decoupled Sequence and Structure Generation for Realistic Antibody Design
+    + [[arXiv:2402.05982](https://arxiv.org/abs/2402.05982)] • [[code](https://github.com/lkny123/ASSD_public)]
++   LéxFusion
+    + paper not available • [[news](https://mp.weixin.qq.com/s/Iex0YndimhLDM0mASp1MtA)] • commercial
 ------
 <p align="center">
   <br>
@@ -26,7 +30,6 @@
 </p>
 <!-- ## Menu -->
 <!-- > Heading [[2]](#2-model-based-design) follows a **"generator-predictor-optimizer" paradigm**, Heading [[3]](#3-function-to-scaffold), [[4]](#4scaffold-to-sequence)&[[6]](#6-function-to-structure) follow ["Inside-out" paradigm](https://www.nature.com/articles/nature19946)(*function-scaffold-sequence*) from [RosettaCommons](https://www.rosettacommons.org/), Heading [[5]](#5function-to-sequence)&[[7]](#7-other-tasks) follow other ML/DL strategies.   -->
-
 <p align='center'>
   <strong><a href='#0-benchmarks-and-datasets'>0) Benchmarks and datasets </a></strong>
   <br>
@@ -955,6 +958,10 @@ Jason Yim, Hannes Stärk, Gabriele Corso, Bowen Jing, Regina Barzilay, Tommi S. 
 Daniel Cutting, Frédéric A. Dreyer, David Errington, Constantin Schneider, Charlotte M. Deane  
 [arXiv:2405.07622](https://arxiv.org/abs/2405.07622)
 
+**Out of Many, One: Designing and Scaffolding Proteins at the Scale of the Structural Universe with Genie 2**  
+Yeqing Lin, Minji Lee, Zhao Zhang, Mohammed AlQuraishi  
+[arXiv:2405.15489](https://arxiv.org/abs/2405.15489) • [code](https://github.com/aqlaboratory/genie2)
+
 ### 3.6 RL-based
 
 **Top-down design of protein nanomaterials with reinforcement learning**  
@@ -1240,6 +1247,14 @@ Helder V. Ribeiro-Filho, Gabriel E. Jara, João V. S. Guerra, Melyssa Cheung, Na
 Zhenqiao Song, Tinglin Huang, Lei Li, Wengong Jin  
 [arXiv:2405.06693](https://arxiv.org/abs/2405.06693) • ProteinMPNN-based
 
+**Computational Design of Myoglobin-based Carbene Transferases for Monoterpene Derivatization**  
+Yiyang Sun, Yinian Tang, Jing Zhou, Bingchen Guo, Feiyan Yuan, Bo Yao, Yang Yu, Chun Li  
+[Biochemical and Biophysical Research Communications (2024)](https://www.sciencedirect.com/science/article/pii/S0006291X2400696X) • [code](https://github.com/yangyu1-github/MbDesignMPNN) • LigandMPNN-based
+
+**UniIF: Unified Molecule Inverse Folding**  
+Zhangyang Gao, Jue Wang, Cheng Tan, Lirong Wu, Yufei Huang, Siyuan Li, Zhirui Ye, Stan Z. Li  
+[arXiv:2405.18968](https://arxiv.org/abs/2405.18968)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1387,6 +1402,10 @@ John J. Yang, Jason Yim, Regina Barzilay, Tommi Jaakkola
 **Diffusion Language Models Are Versatile Protein Learners**  
 Xinyou Wang, Zaixiang Zheng, Fei Ye, Dongyu Xue, Shujian Huang, Quanquan Gu  
 [arXiv:2402.18567](https://arxiv.org/abs/2402.18567)
+
+**LéxFusion**  
+Levinthal  
+paper not available • [news](https://mp.weixin.qq.com/s/Iex0YndimhLDM0mASp1MtA) • commercial
 
 ### 4.10 Bayesian-based
 
@@ -1805,6 +1824,14 @@ Lukas Billera, Anton Oresten, Aron Stålmarck, Kenta Sato, Mateusz Kaduk, Ben Mu
 **Generative Enzyme Design Guided by Functionally Important Sites and Small-Molecule Substrates**  
 Zhenqiao Song, Yunlong Zhao, Wenxian Shi, Wengong Jin, Yang Yang, Lei Li  
 [arXiv:2405.08205](https://arxiv.org/abs/2405.08205)
+
+**A generative foundation model for antibody sequence understanding**  
+Justin Barton, Aretas Gaspariunas, David A Yadin, Jorge Dias, Francesca L Nice, Danielle H Minns, Olivia Snudden, Chelsea Povall, Sara Valle Tomas, Harry Dobson, James HR Farmery, Jinwoo Leem, Jacob D Galson  
+[bioRxiv 2024.05.22.594943](https://www.biorxiv.org/content/10.1101/2024.05.22.594943v1) • [huggingface](https://huggingface.co/alchemab)
+
+**Decoupled Sequence and Structure Generation for Realistic Antibody Design**  
+Nayoung Kim, Minsu Kim, Sungsoo Ahn, Jinkyoo Park  
+[arXiv:2402.05982](https://arxiv.org/abs/2402.05982) • [code](https://github.com/lkny123/ASSD_public)
 
 ### 5.5 Bayesian-based
 
