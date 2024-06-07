@@ -9,19 +9,20 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.05.31:*  
-+   Computational Design of Myoglobin-based Carbene Transferases for Monoterpene Derivatization
-    + [[Biochemical and Biophysical Research Communications (2024)](https://www.sciencedirect.com/science/article/pii/S0006291X2400696X)] • [[code](https://github.com/yangyu1-github/MbDesignMPNN)] • LigandMPNN-based
-+   Out of Many, One: Designing and Scaffolding Proteins at the Scale of the Structural Universe with Genie 2
-    + [[arXiv:2405.15489](https://arxiv.org/abs/2405.15489)] • [[code](https://github.com/aqlaboratory/genie2)]
-+   A generative foundation model for antibody sequence understanding
-    + [[bioRxiv 2024.05.22.594943](https://www.biorxiv.org/content/10.1101/2024.05.22.594943v1)] • [[huggingface](https://huggingface.co/alchemab)]
-+   UniIF: Unified Molecule Inverse Folding
-    + [[arXiv:2405.18968](https://arxiv.org/abs/2405.18968)]
-+   Decoupled Sequence and Structure Generation for Realistic Antibody Design
-    + [[arXiv:2402.05982](https://arxiv.org/abs/2402.05982)] • [[code](https://github.com/lkny123/ASSD_public)]
-+   LéxFusion
-    + paper not available • [[news](https://mp.weixin.qq.com/s/Iex0YndimhLDM0mASp1MtA)] • commercial
+*Papers last week, updated on 2024.06.07:*  
++   MoFormer: Multi-objective Antimicrobial Peptide Generation Based on Conditional Transformer Joint Multi-modal Fusion Descriptor
+    + [[arXiv:2406.00735](https://arxiv.org/abs/2406.02610)]
++   Full-Atom Peptide Design based on Multi-modal Flow Matching
+    + [[arXiv:2406.00735](https://arxiv.org/abs/2406.00735)] • [[code](https://github.com/Ced3-han/PepFlowww)]
++   Sequence-Augmented SE(3)-Flow Matching For Conditional Protein Backbone Generation
+    + [[arXiv:2405.20313](https://arxiv.org/abs/2405.20313)] • [[website](https://www.dreamfold.ai/blog/foldflow-2)]
++   Integrating MHC Class I visibility targets into the ProteinMPNN protein design process
+    + [[bioRxiv 2024.06.04.597365](https://www.biorxiv.org/content/10.1101/2024.06.04.597365v1)]
++   Protein Design with StructureGPT: a Deep Learning Model for Protein Structure-to-Sequence Translation
+    + [[bioRxiv 2024.06.03.597105](https://www.biorxiv.org/content/10.1101/2024.06.03.597105v1)] • [[code](https://github.com/StructureGPT)] • [[Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2024/06/07/2024.06.03.597105/DC1/embed/media-1.pdf)]
++   A Top-Down Design Approach for Generating a Peptide PROTAC Drug Targeting Androgen Receptor for Androgenetic Alopecia Therapy
+    + [[Journal of Medicinal Chemistry (2024)](https://pubs.acs.org/doi/10.1021/acs.jmedchem.4c00828)]
+
 ------
 <p align="center">
   <br>
@@ -960,7 +961,7 @@ Daniel Cutting, Frédéric A. Dreyer, David Errington, Constantin Schneider, Cha
 
 **Out of Many, One: Designing and Scaffolding Proteins at the Scale of the Structural Universe with Genie 2**  
 Yeqing Lin, Minji Lee, Zhao Zhang, Mohammed AlQuraishi  
-[arXiv:2405.15489](https://arxiv.org/abs/2405.15489) • [code](https://github.com/aqlaboratory/genie2)
+[arXiv:2405.15489](https://arxiv.org/abs/2405.15489) • [code](https://github.com/aqlaboratory/genie2) • [news](https://www.marktechpost.com/2024/05/29/genie-2-transforming-protein-design-with-advanced-multi-motif-scaffolding-and-enhanced-structural-diversity/)
 
 ### 3.6 RL-based
 
@@ -981,6 +982,10 @@ Avishek Joey Bose, Tara Akhound-Sadegh, Kilian Fatras, Guillaume Huguet, Jarrid 
 **Fast protein backbone generation with SE(3) flow matching**  
 Jason Yim, Andrew Campbell, Andrew Y. K. Foong, Michael Gastegger, José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling, Regina Barzilay, Tommi Jaakkola, Frank Noé  
 [arXiv:2310.05297](https://arxiv.org/abs/2310.05297) • [code](https://github.com/microsoft/frame-flow)
+
+**Sequence-Augmented SE(3)-Flow Matching For Conditional Protein Backbone Generation**  
+Guillaume Huguet, James Vuckovic, Kilian Fatras, Eric Thibodeau-Laufer, Pablo Lemos, Riashat Islam, Cheng-Hao Liu, Jarrid Rector-Brooks, Tara Akhound-Sadegh, Michael Bronstein, Alexander Tong, Avishek Joey Bose  
+[arXiv:2405.20313](https://arxiv.org/abs/2405.20313) • [website](https://www.dreamfold.ai/blog/foldflow-2)
 
 ## 4.Scaffold to Sequence
 
@@ -1237,7 +1242,7 @@ Junxi Mu, Zhengxin Li, Bo Zhang, Qi Zhang, Jamshed Iqbal,   Abdul Wadood, Ting W
 
 **The Damietta Server: a comprehensive protein design toolkit**  
 Iwan Grin, Kateryna Maksymenko, Tobias Wörtwein, Mohammad ElGamacy  
-[Nucleic Acids Research, 2024;, gkae297](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae297/7658041) • [website](https://damietta.de/) • ProteinMPNN-based • [news](https://cbirt.net/protein-design-made-easy-with-damietta-server-a-comprehensive-toolkit/)
+[Nucleic Acids Research, 2024;, gkae297](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae297/7658041) • [website](https://damietta.de/) • ProteinMPNN-based • [news](https://cbirt.net/protein-design-made-easy-with-damietta-server-a-comprehensive-toolkit/), [news2](https://www.innovations-report.com/life-sciences/toolkit-makes-protein-design-faster-and-more-accessible/)
 
 **Exploring the Potential of Structure-Based Deep Learning Approaches for T cell Receptor Design**  
 Helder V. Ribeiro-Filho, Gabriel E. Jara, João V. S. Guerra, Melyssa Cheung, Nathaniel R. Felbinger, José G. C. Pereira, Brian G. Pierce, Paulo S. Lopes-de-Oliveira  
@@ -1254,6 +1259,14 @@ Yiyang Sun, Yinian Tang, Jing Zhou, Bingchen Guo, Feiyan Yuan, Bo Yao, Yang Yu, 
 **UniIF: Unified Molecule Inverse Folding**  
 Zhangyang Gao, Jue Wang, Cheng Tan, Lirong Wu, Yufei Huang, Siyuan Li, Zhirui Ye, Stan Z. Li  
 [arXiv:2405.18968](https://arxiv.org/abs/2405.18968)
+
+**Integrating MHC Class I visibility targets into the ProteinMPNN protein design process**  
+Hans-Christof Gasser, Diego A. Oyarzún, Javier Antonio Alfaro, Ajitha Rajan  
+[bioRxiv 2024.06.04.597365](https://www.biorxiv.org/content/10.1101/2024.06.04.597365v1)
+
+**A Top-Down Design Approach for Generating a Peptide PROTAC Drug Targeting Androgen Receptor for Androgenetic Alopecia Therapy**  
+Bohan Ma, Donghua Liu, Zhe Wang, Dize Zhang, Yanlin Jian, Kun Zhang, Tianyang Zhou, Yibo Gao, Yizeng Fan, Jian Ma, Yang Gao, Yule Chen, Si Chen, Jing Liu, Xiang Li, and Lei Li  
+[Journal of Medicinal Chemistry (2024)](https://pubs.acs.org/doi/10.1021/acs.jmedchem.4c00828)
 
 ### 4.6 GAN-based
 
@@ -1366,6 +1379,10 @@ Eric L. Buehler, Markus J. Buehler
 **AntiFold: Improved antibody structure-based design using inverse folding**  
 Magnus Haraldson Høie, Alissa Hummer, Tobias H. Olsen, Broncio Aguilar-Sanjuan, Morten Nielsen, Charlotte M. Deane
 [arXiv:2405.03370](https://arxiv.org/abs/2405.03370) • [code](https://github.com/oxpig/AntiFold) • [website](https://opig.stats.ox.ac.uk/webapps/antifold/) • ESM-IF-based
+
+**Protein Design with StructureGPT: a Deep Learning Model for Protein Structure-to-Sequence Translation**  
+Nicanor Zalba Sr., Pablo Ursua-Medrano Sr., Humberto Bustince Sr.  
+[bioRxiv 2024.06.03.597105](https://www.biorxiv.org/content/10.1101/2024.06.03.597105v1) • [code](https://github.com/StructureGPT) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2024/06/07/2024.06.03.597105/DC1/embed/media-1.pdf)
 
 ### 4.8 ResNet-based
 
@@ -1832,6 +1849,10 @@ Justin Barton, Aretas Gaspariunas, David A Yadin, Jorge Dias, Francesca L Nice, 
 **Decoupled Sequence and Structure Generation for Realistic Antibody Design**  
 Nayoung Kim, Minsu Kim, Sungsoo Ahn, Jinkyoo Park  
 [arXiv:2402.05982](https://arxiv.org/abs/2402.05982) • [code](https://github.com/lkny123/ASSD_public)
+
+**MoFormer: Multi-objective Antimicrobial Peptide Generation Based on Conditional Transformer Joint Multi-modal Fusion Descriptor**  
+Li Wang, Xiangzheng Fu, Jiahao Yang, Xinyi Zhang, Xiucai Ye, Yiping Liu, Tetsuya Sakurai, Xiangxiang Zeng  
+[arXiv:2406.00735](https://arxiv.org/abs/2406.02610)
 
 ### 5.5 Bayesian-based
 
@@ -2301,6 +2322,10 @@ Andrew Campbell, Jason Yim, Regina Barzilay, Tom Rainforth, Tommi Jaakkola
 **PPFlow: Target-Aware Peptide Design with Torsional Flow Matching**  
 Haitao Lin, Odin Zhang, Huifeng Zhao, Dejun Jiang, Lirong Wu, Zicheng Liu, Yufei Huang, Stan Z. Li  
 [bioRxiv 2024.03.07.583831](https://www.biorxiv.org/content/10.1101/2024.03.07.583831v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/08/2024.03.07.583831/DC1/embed/media-1.zip)
+
+**Full-Atom Peptide Design based on Multi-modal Flow Matching**  
+Jiahan Li, Chaoran Cheng, Zuofan Wu, Ruihan Guo, Shitong Luo, Zhizhou Ren, Jian Peng, Jianzhu Ma  
+[arXiv:2406.00735](https://arxiv.org/abs/2406.00735) • [code](https://github.com/Ced3-han/PepFlowww)
 
 ## 7. Other tasks
 
