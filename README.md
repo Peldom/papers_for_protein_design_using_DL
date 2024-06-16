@@ -9,19 +9,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.06.07:*  
-+   MoFormer: Multi-objective Antimicrobial Peptide Generation Based on Conditional Transformer Joint Multi-modal Fusion Descriptor
-    + [[arXiv:2406.00735](https://arxiv.org/abs/2406.02610)]
-+   Full-Atom Peptide Design based on Multi-modal Flow Matching
-    + [[arXiv:2406.00735](https://arxiv.org/abs/2406.00735)] • [[code](https://github.com/Ced3-han/PepFlowww)]
-+   Sequence-Augmented SE(3)-Flow Matching For Conditional Protein Backbone Generation
-    + [[arXiv:2405.20313](https://arxiv.org/abs/2405.20313)] • [[website](https://www.dreamfold.ai/blog/foldflow-2)]
-+   Integrating MHC Class I visibility targets into the ProteinMPNN protein design process
-    + [[bioRxiv 2024.06.04.597365](https://www.biorxiv.org/content/10.1101/2024.06.04.597365v1)]
-+   Protein Design with StructureGPT: a Deep Learning Model for Protein Structure-to-Sequence Translation
-    + [[bioRxiv 2024.06.03.597105](https://www.biorxiv.org/content/10.1101/2024.06.03.597105v1)] • [[code](https://github.com/StructureGPT)] • [[Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2024/06/07/2024.06.03.597105/DC1/embed/media-1.pdf)]
-+   A Top-Down Design Approach for Generating a Peptide PROTAC Drug Targeting Androgen Receptor for Androgenetic Alopecia Therapy
-    + [[Journal of Medicinal Chemistry (2024)](https://pubs.acs.org/doi/10.1021/acs.jmedchem.4c00828)]
+*Papers last week, updated on 2024.06.16:*  
++   Improving Antibody Design with Force-Guided Sampling in Diffusion Models
+    + [[arXiv:2406.05832](https://arxiv.org/abs/2406.05832)]
++   Peptide Vaccine Design by Evolutionary Multi-Objective Optimization
+    + [[arXiv:2406.05743](https://arxiv.org/abs/2406.05743)]
++   Topological Neural Networks go Persistent, Equivariant, and Continuous
+    + [[arXiv:2406.03164](https://arxiv.org/abs/2406.03164)] • [[code](https://github.com/Aalto-QuML/TopNets)]
 
 ------
 <p align="center">
@@ -1938,6 +1932,10 @@ Anonymous
 Yannick Vogt, Mehdi Naouar, Maria Kalweit, Christoph Cornelius Miething, Justus Duyster, Roland Mertelsmann, Gabriel Kalweit, Joschka Boedecker  
 [arXiv:2401.05341](https://arxiv.org/abs/2401.05341)
 
+**Peptide Vaccine Design by Evolutionary Multi-Objective Optimization**  
+Dan-Xuan Liu, Yi-Heng Xu, Chao Qian  
+[arXiv:2406.05743](https://arxiv.org/abs/2406.05743)
+
 ### 5.7 Flow-based
 
 **Biological Sequence Design with GFlowNets**  
@@ -2191,6 +2189,10 @@ Yue Hu, Feng Tao, Jun Wen Lan, Jing Zhang
 Fanhao Wang, Yuzhe Wang, Laiyi Feng, Changsheng Zhang, Luhua Lai  
 [arXiv:2405.00128](https://arxiv.org/abs/2405.00128) • [code](https://github.com/YuzheWangPKU/DiffPepBuilder)
 
+**Improving Antibody Design with Force-Guided Sampling in Diffusion Models**  
+Paulina Kulytė, Francisco Vargas, Simon Valentin Mathis, Yu Guang Wang, José Miguel Hernández-Lobato, Pietro Liò  
+[arXiv:2406.05832](https://arxiv.org/abs/2406.05832)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites** / **Scaffolding protein functional sites using deep learning**  
@@ -2280,6 +2282,10 @@ Jiaqi Han, Jiacheng Cen, Liming Wu, Zongzhao Li, Xiangzhe Kong, Rui Jiao, Ziyang
 **GeoAB: Towards Realistic Antibody Design and Reliable Affinity Maturation**  
 Haitao LIN, Lirong Wu, Huang Yufei, Yunfan Liu, Odin Zhang, Yuanqing Zhou, Rui Sun, Stan Z Li  
 [bioRxiv 2024.05.15.594274](https://www.biorxiv.org/content/10.1101/2024.05.15.594274v1) • [code](https://github.com/Edapinenut/GeoAB)
+
+**Topological Neural Networks go Persistent, Equivariant, and Continuous**  
+Yogesh Verma, Amauri H Souza, Vikas Garg  
+[arXiv:2406.03164](https://arxiv.org/abs/2406.03164) • [code](https://github.com/Aalto-QuML/TopNets)
 
 ### 6.6 Transformer-based
 
