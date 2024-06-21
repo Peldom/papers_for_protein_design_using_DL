@@ -1,7 +1,7 @@
 # List of papers about Proteins Design using Deep Learning
 
 > This repository is inspired by the remarkable work of [Kevin Kaichuang Yang](https://github.com/yangkky) and their outstanding project [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). We have established this repository to provide a specialized and focused platform for the field of **Deep Learning for Protein Design**, a rapidly advancing domain in computational biology.
-> 
+>
 > [Contributions](https://github.com/Peldom/papers_for_protein_design_using_DL/blob/main/CONTRIBUTING.md) and [suggestions](https://github.com/Peldom/papers_for_protein_design_using_DL/issues) are warmly welcome!
 > Community Values, Guiding Principles, and Commitments for the Responsible Development of AI for Protein Design: [details](https://responsiblebiodesign.ai/)
 <!-- >
@@ -9,14 +9,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.06.16:*  
-+   Improving Antibody Design with Force-Guided Sampling in Diffusion Models
-    + [[arXiv:2406.05832](https://arxiv.org/abs/2406.05832)]
-+   Peptide Vaccine Design by Evolutionary Multi-Objective Optimization
-    + [[arXiv:2406.05743](https://arxiv.org/abs/2406.05743)]
-+   Topological Neural Networks go Persistent, Equivariant, and Continuous
-    + [[arXiv:2406.03164](https://arxiv.org/abs/2406.03164)] • [[code](https://github.com/Aalto-QuML/TopNets)]
-
+*Papers last week, updated on 2024.06.21:*  
++   Peptide-based drug discovery through artificial intelligence: towards an autonomous design of therapeutic peptides
+    + [[Briefings in Bioinformatics 25.4 (2024)](https://academic.oup.com/bib/article/25/4/bbae275/7690345)]
++   Improving Inverse Folding models at Protein Stability Prediction without additional Training or Data
+    + [[bioRxiv 2024.06.15.599145](https://www.biorxiv.org/content/10.1101/2024.06.15.599145v1)] • ProteinMPNN/ESMIF-based
++   Design of Repeat Alpha-Beta Proteins with Capping Helices
+    + [[bioRxiv 2024.06.15.590358](https://www.biorxiv.org/content/10.1101/2024.06.15.590358v1)] • [[code](https://github.com/dmitropher/af2_multistate_hallucination)]
++   HELM-GPT: de novo macrocyclic peptide design using generative pre-trained transformer
+    + [[Bioinformatics (2024): btae364](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae364/7691994)] • [[code](https://github.com/charlesxu90/helm-gpt)]
++   Diffuse StructGen-1 (DSG-1)  
+    + [[technical appendix](https://diffuse.bio/updates.html#appendix)] • commercial
 ------
 <p align="center">
   <br>
@@ -530,6 +533,10 @@ Gupta, Suchetana, Noora Azadvari, and Parisa Hosseinzadeh.
 Liwei Chang, Arup Mondal, Bhumika Singh, Yisel Martínez-Noa, Alberto Perez  
 [Wiley Interdisciplinary Reviews: Computational Molecular Science](https://wires.onlinelibrary.wiley.com/doi/epdf/10.1002/wcms.1693)
 
+**Peptide-based drug discovery through artificial intelligence: towards an autonomous design of therapeutic peptides**  
+Montserrat Goles, Anamaría Daza, Gabriel Cabas-Mora, Lindybeth Sarmiento-Varón, Julieta Sepúlveda-Yañez, Hoda Anvari-Kazemabad, Mehdi D Davari, Roberto Uribe-Paredes, Álvaro Olivera-Nappa, Marcelo A Navarrete, David Medina-Ortiz  
+[Briefings in Bioinformatics 25.4 (2024)](https://academic.oup.com/bib/article/25/4/bbae275/7690345)
+
 ### 1.4 Binder design
 
 **Improving de novo Protein Binder Design with Deep Learning**  
@@ -602,10 +609,6 @@ Anders Lønstrup Hansen, Frederik Friis Theisen, Ramon Crehuet, Enrique Marcos, 
 
 ### 2.2 AlphaFold2-based
 
-**Solubility-aware protein binding peptide design using AlphaFold**  
-Takatsugu Kosugi, Masahito Ohue  
-[bioRxiv 2022.05.14.491955](https://doi.org/10.1101/2022.05.14.491955) • [Supplemental Materials](https://www.biorxiv.org/content/biorxiv/early/2022/05/15/2022.05.14.491955/DC1/embed/media-1.pdf)
-
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
 Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey  
 [bioRxiv (2021)](http://repository.cshl.edu/id/eprint/40409/)/[Bioinformatics, 2022;, btac724](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btac724/6820925) • [ColabDesign](https://github.com/sokrypton/ColabDesign), [SMURF](https://github.com/spetti/SMURF), [AF2 back propagation](https://github.com/sokrypton/af_backprop) • [our notes1](https://zhuanlan.zhihu.com/p/468219547), [notes2](https://zhuanlan.zhihu.com/p/472037977) • [lecture1](https://www.youtube.com/watch?v=2HmXwlKWMVs), [lecture2](https://www.youtube.com/watch?v=BJdRvODiDnk) • [Discord](https://discord.com/invite/FpYPneYB)
@@ -621,6 +624,10 @@ Moffat, Lewis, Joe G. Greener, and David T. Jones.
 **State-of-the-art estimation of protein model accuracy using AlphaFold**  
 James P. Roney, Sergey Ovchinnikov  
 [bioRxiv 2022.03.11.484043](https://www.biorxiv.org/content/10.1101/2022.03.11.484043v3)/[Physical Review Letters 129.23 (2022)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.238101) • [code](https://github.com/jproney/AF2Rank)
+
+**Solubility-aware protein binding peptide design using AlphaFold**  
+Takatsugu Kosugi, Masahito Ohue  
+[bioRxiv 2022.05.14.491955](https://doi.org/10.1101/2022.05.14.491955)/[Biomedicines 10.7 (2022)](https://www.mdpi.com/2227-9059/10/7/1626) • [Supplemental Materials](https://www.biorxiv.org/content/biorxiv/early/2022/05/15/2022.05.14.491955/DC1/embed/media-1.pdf) • [code](https://github.com/ohuelab/Solubility_AfDesign)
 
 **Hallucinating protein assemblies**  
 Basile I M Wicky, Lukas F Milles, Alexis Courbet, Robert J Ragotte, Justas Dauparas, Elias Kinfu, Sam Tipps, Ryan D Kibler, Minkyung Baek, Frank DiMaio, Xinting Li, Lauren Carter, Alex Kang, Hannah Nguyen, Asim K Bera, David Baker  
@@ -664,7 +671,7 @@ Odessa J Goudy, Amrita Nallathambi, Tomoaki Kinjo, Nicholas Randolph, Brian Kuhl
 
 **Computational design of soluble analogues of integral membrane protein structures**  
 Casper Alexander Goverde, Martin Pacesa, Lars Jeremy Dornfeld, Sandrine Georgeon, Stephane Rosset, Justas Dauparas, Christian Shellhaas, Simon Kozlov, David Baker, Sergey Ovchinnikov, Bruno Correia  
-[bioRxiv 2023.05.09.540044](https://www.biorxiv.org/content/10.1101/2023.05.09.540044v2) • [code](https://github.com/bene837/af2seq) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/09/2023.05.09.540044/DC1/embed/media-1.pdf)
+[bioRxiv 2023.05.09.540044](https://www.biorxiv.org/content/10.1101/2023.05.09.540044v2)/[Nature (2024)](https://www.nature.com/articles/s41586-024-07601-y) • [code](https://github.com/bene837/af2seq) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/05/09/2023.05.09.540044/DC1/embed/media-1.pdf)
 
 **Antibody Complementarity-Determining Region Sequence Design using AlphaFold2 and Binding Affinity Prediction Model**  
 Takafumi Ueki, Masahito Ohue  
@@ -705,6 +712,10 @@ Jue Wang, Joseph L. Watson and Sidney L. Lisanza
 **Context-dependent design of induced-fit enzymes using deep learning generates well-expressed, thermally stable and active enzymes**  
 Lior Zimmerman, Noga Alon, Itay Levin, and Gideon D. Lapidoth  
 [Proceedings of the National Academy of Sciences 121.11(2024)](https://www.pnas.org/doi/10.1073/pnas.2313809121)
+
+**Design of Repeat Alpha-Beta Proteins with Capping Helices**  
+David Baker, Dmitri Zorine  
+[bioRxiv 2024.06.15.590358](https://www.biorxiv.org/content/10.1101/2024.06.15.590358v1) • [code](https://github.com/dmitropher/af2_multistate_hallucination)
 
 ### 2.3 DMPfold2-based
 
@@ -956,6 +967,10 @@ Daniel Cutting, Frédéric A. Dreyer, David Errington, Constantin Schneider, Cha
 **Out of Many, One: Designing and Scaffolding Proteins at the Scale of the Structural Universe with Genie 2**  
 Yeqing Lin, Minji Lee, Zhao Zhang, Mohammed AlQuraishi  
 [arXiv:2405.15489](https://arxiv.org/abs/2405.15489) • [code](https://github.com/aqlaboratory/genie2) • [news](https://www.marktechpost.com/2024/05/29/genie-2-transforming-protein-design-with-advanced-multi-motif-scaffolding-and-enhanced-structural-diversity/)
+
+**Diffuse StructGen-1 (DSG-1)**  
+[the Diffuse team](https://www.linkedin.com/company/diffuse-bio/)  
+[technical appendix](https://diffuse.bio/updates.html#appendix) • commercial
 
 ### 3.6 RL-based
 
@@ -1261,6 +1276,10 @@ Hans-Christof Gasser, Diego A. Oyarzún, Javier Antonio Alfaro, Ajitha Rajan
 **A Top-Down Design Approach for Generating a Peptide PROTAC Drug Targeting Androgen Receptor for Androgenetic Alopecia Therapy**  
 Bohan Ma, Donghua Liu, Zhe Wang, Dize Zhang, Yanlin Jian, Kun Zhang, Tianyang Zhou, Yibo Gao, Yizeng Fan, Jian Ma, Yang Gao, Yule Chen, Si Chen, Jing Liu, Xiang Li, and Lei Li  
 [Journal of Medicinal Chemistry (2024)](https://pubs.acs.org/doi/10.1021/acs.jmedchem.4c00828)
+
+**Improving Inverse Folding models at Protein Stability Prediction without additional Training or Data**  
+Oliver Dutton, Sandro Bottaro, Michele Invernizzi, Istvan Redl, Albert Chung, Carlo Fisicaro, Fabio Airoldi, Stefano Ruschetta, Louie Henderson, Benjamin MJ Owens, Patrik Foerch, Kamil Tamiola  
+[bioRxiv 2024.06.15.599145](https://www.biorxiv.org/content/10.1101/2024.06.15.599145v1) • ProteinMPNN/ESMIF-based
 
 ### 4.6 GAN-based
 
@@ -1624,6 +1643,10 @@ Qiushi Cao, Cheng Ge, Xuejie Wang, Peta J Harvey, Zixuan Zhang, Yuan Ma, Xiangho
 Vardhan Satalkar and Gemechis D. Degaga and Wei Li and Yui Tik Pang and Andrew C. McShan and James C. Gumbart and Julie C. Mitchell and Matthew P. Torres  
 [Biophysical Journal(2024)](https://www.sciencedirect.com/science/article/pii/S0006349524000705) • [code](https://github.com/juliecmitchell/beGAN)
 
+**De Novo Antimicrobial Peptide Design with Feedback Generative Adversarial Networks**  
+Michaela Areti Zervou, Effrosyni Doutsi, Yannis Pantazis, Panagiotis Tsakalides  
+[International Journal of Molecular Sciences 25.10 (2024)](https://www.mdpi.com/1422-0067/25/10/5506) • [code](https://github.com/aretiz/de_novo_design_GAN)
+
 ### 5.4 Transformer-based
 
 > Including protein large language models(pLLM) and autoregressive language models.
@@ -1847,6 +1870,10 @@ Nayoung Kim, Minsu Kim, Sungsoo Ahn, Jinkyoo Park
 **MoFormer: Multi-objective Antimicrobial Peptide Generation Based on Conditional Transformer Joint Multi-modal Fusion Descriptor**  
 Li Wang, Xiangzheng Fu, Jiahao Yang, Xinyi Zhang, Xiucai Ye, Yiping Liu, Tetsuya Sakurai, Xiangxiang Zeng  
 [arXiv:2406.00735](https://arxiv.org/abs/2406.02610)
+
+**HELM-GPT: de novo macrocyclic peptide design using generative pre-trained transformer**  
+Xiaopeng Xu, Chencheng Xu, Wenjia He, Lesong Wei, Haoyang Li, Juexiao Zhou, Ruochi Zhang, Yu Wang, Yuanpeng Xiong, Xin Gao  
+[Bioinformatics (2024): btae364](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae364/7691994) • [code](https://github.com/charlesxu90/helm-gpt)
 
 ### 5.5 Bayesian-based
 
@@ -2327,11 +2354,15 @@ Andrew Campbell, Jason Yim, Regina Barzilay, Tom Rainforth, Tommi Jaakkola
 
 **PPFlow: Target-Aware Peptide Design with Torsional Flow Matching**  
 Haitao Lin, Odin Zhang, Huifeng Zhao, Dejun Jiang, Lirong Wu, Zicheng Liu, Yufei Huang, Stan Z. Li  
-[bioRxiv 2024.03.07.583831](https://www.biorxiv.org/content/10.1101/2024.03.07.583831v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/08/2024.03.07.583831/DC1/embed/media-1.zip)
+[bioRxiv 2024.03.07.583831](https://www.biorxiv.org/content/10.1101/2024.03.07.583831v1)/[arXiv:2405.06642](https://arxiv.org/abs/2405.06642) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/08/2024.03.07.583831/DC1/embed/media-1.zip)
 
 **Full-Atom Peptide Design based on Multi-modal Flow Matching**  
 Jiahan Li, Chaoran Cheng, Zuofan Wu, Ruihan Guo, Shitong Luo, Zhizhou Ren, Jian Peng, Jianzhu Ma  
 [arXiv:2406.00735](https://arxiv.org/abs/2406.00735) • [code](https://github.com/Ced3-han/PepFlowww)
+
+**AntibodyFlow: Normalizing Flow Model for Designing Antibody Complementarity-Determining Regions**  
+Bohao Xu, Yanbo Wang, Wenyu Chen, Shimin Shan  
+[arXiv:2406.13162](https://arxiv.org/abs/2406.13162)
 
 ## 7. Other tasks
 
