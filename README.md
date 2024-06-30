@@ -9,17 +9,18 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.06.21:*  
-+   Peptide-based drug discovery through artificial intelligence: towards an autonomous design of therapeutic peptides
-    + [[Briefings in Bioinformatics 25.4 (2024)](https://academic.oup.com/bib/article/25/4/bbae275/7690345)]
-+   Improving Inverse Folding models at Protein Stability Prediction without additional Training or Data
-    + [[bioRxiv 2024.06.15.599145](https://www.biorxiv.org/content/10.1101/2024.06.15.599145v1)] • ProteinMPNN/ESMIF-based
-+   Design of Repeat Alpha-Beta Proteins with Capping Helices
-    + [[bioRxiv 2024.06.15.590358](https://www.biorxiv.org/content/10.1101/2024.06.15.590358v1)] • [[code](https://github.com/dmitropher/af2_multistate_hallucination)]
-+   HELM-GPT: de novo macrocyclic peptide design using generative pre-trained transformer
-    + [[Bioinformatics (2024): btae364](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae364/7691994)] • [[code](https://github.com/charlesxu90/helm-gpt)]
-+   Diffuse StructGen-1 (DSG-1)  
-    + [[technical appendix](https://diffuse.bio/updates.html#appendix)] • commercial
+*Papers last week, updated on 2024.06.30:*  
++   Design of linear and cyclic peptide binders of different lengths only from a protein target sequence
+    + [[bioRxiv 2024.06.20.599739](https://www.biorxiv.org/content/10.1101/2024.06.20.599739v1)] • [[code](https://zenodo.org/records/11543503)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/06/22/2024.06.20.599739/DC1/embed/media-1.pdf)]
++   Simulating 500 million years of evolution with a language model
+    + [[preprint](https://evolutionaryscale-public.s3.us-east-2.amazonaws.com/research/esm3.pdf)] • [[website](https://www.evolutionaryscale.ai/blog/esm3-release)] • [[code](https://github.com/evolutionaryscale/esm)] • [[colab](https://colab.research.google.com/github/evolutionaryscale/esm/blob/main/examples/generate.ipynb)]
++   Controlling semiconductor growth with structured de novo protein interfaces
+    + [[bioRxiv 2024.06.24.600095](https://www.biorxiv.org/content/10.1101/2024.06.24.600095v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/06/25/2024.06.24.600095/DC1/embed/media-1.pdf)]
++   ProBASS – a language model with sequence and structural features for predicting the effect of mutations on binding affinity
+    + [[bioRxiv 2024.06.21.600041](https://www.biorxiv.org/content/10.1101/2024.06.21.600041v1)] • [[code](https://github.com/sagagugit/ProBASS)]
++   Antibody Design Using a Score-based Diffusion Model Guided by Evolutionary, Physical and Geometric Constraints
+    + [[ICML 2024](https://openreview.net/forum?id=1YsQI04KaN)] • [[code](https://github.com/zhanghaicang/carbonmatrix_public)]
+
 ------
 <p align="center">
   <br>
@@ -346,6 +347,10 @@ Wenze Ding, Kenta Nakai, Haipeng Gong
 **Deep generative modeling for protein design**  
 Strokach, Alexey, and Philip M. Kim.  
 [Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/pii/S0959440X21001573) • 2022  
+
+**Dawn of a new era for membrane protein design**  
+Sowlati-Hashjin, Shahin, Aanshi Gandhi, and Michael Garton  
+[BioDesign Research (2022)](https://spj.science.org/doi/10.34133/2022/9791435)
 
 **Deep learning approaches for conformational flexibility and switching properties in protein design**  
 Rudden, Lucas SP, Mahdi Hijazi, and Patrick Barth  
@@ -703,7 +708,7 @@ Andrew Savinov, Sebastian Swanson, Amy E. Keating, Gene-Wei Li
 
 **An integrative approach to protein sequence design through multiobjective optimization**  
 Lu Hong, Tanja Kortemme  
-[bioRxiv 2024.03.01.582670](https://www.biorxiv.org/content/10.1101/2024.03.01.582670v1) • [code](https://github.com/luhong88/int_seq_des) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2024/03/04/2024.03.01.582670/DC1/embed/media-1.pdf)
+[bioRxiv 2024.03.01.582670](https://www.biorxiv.org/content/10.1101/2024.03.01.582670v1) • [code](https://github.com/luhong88/int_seq_des) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/04/2024.03.01.582670/DC1/embed/media-1.pdf)
 
 **Protein Design Using Structure-Prediction Networks: AlphaFold and RoseTTAFold as Protein Structure Foundation Models**  
 Jue Wang, Joseph L. Watson and Sidney L. Lisanza  
@@ -716,6 +721,10 @@ Lior Zimmerman, Noga Alon, Itay Levin, and Gideon D. Lapidoth
 **Design of Repeat Alpha-Beta Proteins with Capping Helices**  
 David Baker, Dmitri Zorine  
 [bioRxiv 2024.06.15.590358](https://www.biorxiv.org/content/10.1101/2024.06.15.590358v1) • [code](https://github.com/dmitropher/af2_multistate_hallucination)
+
+**Design of linear and cyclic peptide binders of different lengths only from a protein target sequence**  
+Qiuzhen Li, Efstathios Nikolaos Vlachos, Patrick Bryant  
+[bioRxiv 2024.06.20.599739](https://www.biorxiv.org/content/10.1101/2024.06.20.599739v1) • [code](https://zenodo.org/records/11543503) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/06/22/2024.06.20.599739/DC1/embed/media-1.pdf)
 
 ### 2.3 DMPfold2-based
 
@@ -1166,12 +1175,12 @@ Sai Pooja Mahajan, Jeffrey A. Ruffolo, Jeffrey J. Gray
 
 **Robust Design of Effective Allosteric Activators for Rsp5 E3 Ligase Using the Machine Learning Tool ProteinMPNN**  
 Hsi-Wen Kao, Wei-Lin Lu, Meng-Ru Ho, Yu-Fong Lin, Yun-Jung Hsieh, Tzu-Ping Ko, Shang-Te Danny Hsu, and Kuen-Phon Wu  
-[ACS Synthetic Biology (2023)](https://pubs.acs.org/doi/10.1021/acssynbio.3c00042) • [Supplymentary](https://pubs.acs.org/doi/suppl/10.1021/acssynbio.3c00042/suppl_file/sb3c00042_si_001.pdf)
+[ACS Synthetic Biology (2023)](https://pubs.acs.org/doi/10.1021/acssynbio.3c00042) • [Supplementary](https://pubs.acs.org/doi/suppl/10.1021/acssynbio.3c00042/suppl_file/sb3c00042_si_001.pdf)
 
 **Rapid and automated design of two-component protein nanomaterials using ProteinMPNN**  
 Robbert J. de Haas, Natalie Brunette, Alex Goodson, Justas Dauparas, Sue Y. Yi, Erin C. Yang, Quinton Dowling, Hannah Nguyen, Alex Kang, Asim K. Bera, Banumathi Sankaran, Renko de Vries, David Baker, Neil P. King  
 [bioRxiv 2023.08.04.551935](https://www.biorxiv.org/content/10.1101/2023.08.04.551935v1)/[Proceedings of the National Academy of Sciences 121.(13)
-](https://www.pnas.org/doi/10.1073/pnas.2314646121) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/08/04/2023.08.04.551935/DC1/embed/media-1.pdf) • [data](https://zenodo.org/records/8278877)
+](https://www.pnas.org/doi/10.1073/pnas.2314646121) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/08/04/2023.08.04.551935/DC1/embed/media-1.pdf) • [data](https://zenodo.org/records/8278877)
 
 **Rationally seeded computational protein design**  
 Katherine I. Albanese, Rokas Petrenas, Fabio Pirro, Elise A. Naudin, Ufuk Borucu, William M. Dawson, D. Arne Scott, Graham J. Leggett, Orion D. Weiner, Thomas A. A. Oliver, Derek N. Woolfson  
@@ -1179,11 +1188,11 @@ Katherine I. Albanese, Rokas Petrenas, Fabio Pirro, Elise A. Naudin, Ufuk Borucu
 
 **Computational design of sequence-specific DNA-binding proteins**  
 Cameron J Glasscock, Robert Pecoraro, Ryan McHugh, Lindsey A. Doyle, Wei Chen, Olivier Boivin, Beau Lonnquist, Emily Na, Yuliya Politanska, Hugh K Haddox, David Cox, Christoffer Norn, Brian Coventry, Inna Goreshnik, Dionne Vafeados, Gyu Rie Lee, Raluca Gordan, Barry L Stoddard, Frank DiMaio, David Baker  
-[bioRxiv 2023.09.20.558720](https://www.biorxiv.org/content/10.1101/2023.09.20.558720v1) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/09/21/2023.09.20.558720/DC1/embed/media-1.docx)
+[bioRxiv 2023.09.20.558720](https://www.biorxiv.org/content/10.1101/2023.09.20.558720v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/09/21/2023.09.20.558720/DC1/embed/media-1.docx)
 
 **Improving protein expression, stability, and function with ProteinMPNN**  
 Kiera H. Sumida, Reyes Núñez Franco, Indrek Kalvet, Samuel J. Pellock, Basile I. M. Wicky, Lukas F. Milles, Justas Dauparas, Jue Wang, Yakov Kipnis, Noel Jameson, Alex Kang, Joshmyn De La Cruz, Banumathi Sankaran, Asim K Bera, Gonzalo Jimenez Oses, David Baker  
-[bioRxiv 2023.10.03.560713](https://www.biorxiv.org/content/10.1101/2023.10.03.560713v1)/[J. Am. Chem. Soc. 2024](https://pubs.acs.org/doi/full/10.1021/jacs.3c10941) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/10/03/2023.10.03.560713/DC1/embed/media-1.pdf)
+[bioRxiv 2023.10.03.560713](https://www.biorxiv.org/content/10.1101/2023.10.03.560713v1)/[J. Am. Chem. Soc. 2024](https://pubs.acs.org/doi/full/10.1021/jacs.3c10941) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/03/2023.10.03.560713/DC1/embed/media-1.pdf)
 
 **A Suite of Designed Protein Cages Using Machine Learning Algorithms and Protein Fragment-Based Protocols**  
 Kyle Meador, Roger Castells-Graells, Roman Aguirre, Michael R. Sawaya, Mark A. Arbing, Trent Sherman, Chethaka Senarathne, Todd O. Yeates  
@@ -1395,7 +1404,7 @@ Magnus Haraldson Høie, Alissa Hummer, Tobias H. Olsen, Broncio Aguilar-Sanjuan,
 
 **Protein Design with StructureGPT: a Deep Learning Model for Protein Structure-to-Sequence Translation**  
 Nicanor Zalba Sr., Pablo Ursua-Medrano Sr., Humberto Bustince Sr.  
-[bioRxiv 2024.06.03.597105](https://www.biorxiv.org/content/10.1101/2024.06.03.597105v1) • [code](https://github.com/StructureGPT) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2024/06/07/2024.06.03.597105/DC1/embed/media-1.pdf)
+[bioRxiv 2024.06.03.597105](https://www.biorxiv.org/content/10.1101/2024.06.03.597105v1) • [code](https://github.com/StructureGPT) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/06/07/2024.06.03.597105/DC1/embed/media-1.pdf)
 
 ### 4.8 ResNet-based
 
@@ -1805,7 +1814,7 @@ Garyk Brixi, Tianzheng Ye, Lauren Hong, Tian Wang, Connor Monticello, Natalia Lo
 
 **Binary Discriminator Facilitates GPT-based Protein Design**  
 Zishuo Zeng, Rufang Xu, Jin Guo, Xiaozhou Luo  
-[bioRxiv 2023.11.20.567789](https://www.biorxiv.org/content/10.1101/2023.11.20.567789v2) • [code](https://github.com/zishuozeng/GPT_protein_design) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/12/21/2023.11.20.567789/DC1/embed/media-1.xlsx)
+[bioRxiv 2023.11.20.567789](https://www.biorxiv.org/content/10.1101/2023.11.20.567789v2) • [code](https://github.com/zishuozeng/GPT_protein_design) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/12/21/2023.11.20.567789/DC1/embed/media-1.xlsx)
 
 **ProteinNPT: Improving Protein Property Prediction and Design with Non-Parametric Transformers**  
 Pascal Notin, Ruben Weitzman, Debora S Marks, Yarin Gal  
@@ -2190,7 +2199,7 @@ Alex Morehead, Jeffrey Ruffolo, Aadyot Bhatnagar, Ali Madani
 
 **Proteus: exploring protein structure generation for enhanced designability and efficiency**  
 Chentong Wang, Yannan Qu, Zhangzhi Peng, Yukai Wang, Hongli Zhu, Dachuan Chen, Longxing Cao  
-[bioRxiv 2024.02.10.579791](https://www.biorxiv.org/content/10.1101/2024.02.10.579791v2)
+[bioRxiv 2024.02.10.579791](https://www.biorxiv.org/content/10.1101/2024.02.10.579791v3) • [code](https://github.com/Wangchentong/Proteus)
 
 **Full-Atom Peptide Design with Geometric Latent Diffusion**  
 Xiangzhe Kong, Wenbing Huang, Yang Liu  
@@ -2219,6 +2228,10 @@ Fanhao Wang, Yuzhe Wang, Laiyi Feng, Changsheng Zhang, Luhua Lai
 **Improving Antibody Design with Force-Guided Sampling in Diffusion Models**  
 Paulina Kulytė, Francisco Vargas, Simon Valentin Mathis, Yu Guang Wang, José Miguel Hernández-Lobato, Pietro Liò  
 [arXiv:2406.05832](https://arxiv.org/abs/2406.05832)
+
+**Antibody Design Using a Score-based Diffusion Model Guided by Evolutionary, Physical and Geometric Constraints**  
+Tian Zhu, Milong Ren, Haicang Zhang  
+[ICML 2024](https://openreview.net/forum?id=1YsQI04KaN) • [code](https://github.com/zhanghaicang/carbonmatrix_public)
 
 ### 6.3 RoseTTAFold-based
 
@@ -2261,6 +2274,10 @@ Beck, Julian, Sooruban Shanmugaratnam, and Birte Höcker.
 **De novo designed proteins neutralize lethal snake venom toxins**  
 Susana Vázquez Torres, Melisa Benard Valle, Stephen P. Mackessy, Stefanie K. Menzies, Nicholas R. Casewell, Shirin Ahmadi, Nick J. Burlet, Edin Muratspahić, Isaac Sappington, Max D.Overath, Esperanza Rivera-de-Torre, Jann Ledergerber, Andreas H. Laustsen, Kim Boddum, Asim K.Bera, Alex Kang,Evans Brackenbrough, Iara A. Cardoso, Edouard P. Crittenden, Rebecca J.Edge, Justin Decarreau, Robert J. Ragotte, Arvind S. Pillai, Mohamad Abedi, Hannah L. Han,Stacey R. Gerben, Analisa Murray, Rebecca Skotheim, Lynda Stuart, Lance Stewart, Thomas J.A. Fryer, Timothy P. Jenkins, David Baker  
 [PREPRINT (Version 1) available at Research Square](https://www.researchsquare.com/article/rs-4402792/v1)
+
+**Controlling semiconductor growth with structured de novo protein interfaces**  
+Amijai Saragovi, Harley Pyles, Paul Kwon, Nikita Hanikel, Fátima A. Dávila-Hernández, Asim K. Bera, Alex Kang, Evans Brackenbrough, Dionne K. Vafeados, Aza Allen, Lance Stewart, David Baker  
+[bioRxiv 2024.06.24.600095](https://www.biorxiv.org/content/10.1101/2024.06.24.600095v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/06/25/2024.06.24.600095/DC1/embed/media-1.pdf)
 
 ### 6.4 CNN-based
 
@@ -2339,6 +2356,10 @@ Fandi Wu, Yu Zhao, Jiaxiang Wu, Biaobin Jiang, Bing He, Longkai Huang, Chenchen 
 **PocketGen: Generating Full-Atom Ligand-Binding Protein Pockets**  
 Zhang Zaixi, Wanxiang Shen, Qi Liu, Marinka Zitnik  
 [bioRxiv 2024.02.25.581968](https://www.biorxiv.org/content/10.1101/2024.02.25.581968v1) • [code](https://github.com/zaixizhang/PocketGen) • [website](https://zitniklab.hms.harvard.edu/projects/PocketGen/)
+
+**Simulating 500 million years of evolution with a language model**  
+Thomas Hayes,  Roshan Rao,  Halil Akin,  Nicholas James Sofroniew,  Deniz Oktay,  Zeming Lin, Robert Verkuil, Vincent Quy Tran, Jonathan Deaton, Marius Wiggert, Rohil Badkundri, Irhum Shafkat, Jun Gong, Alexander Derry, Raul Santiago Molina, Neil Thomas, Yousuf Khan, Chetan Mishra, Carolyn Kim, Liam J. Bartie, Patrick D. Hsu, Tom Sercu, Salvatore Candido, Alexander Rives
+[preprint](https://evolutionaryscale-public.s3.us-east-2.amazonaws.com/research/esm3.pdf) • [website](https://www.evolutionaryscale.ai/blog/esm3-release) • [code](https://github.com/evolutionaryscale/esm) • [colab](https://colab.research.google.com/github/evolutionaryscale/esm/blob/main/examples/generate.ipynb)
 
 ### 6.7 MLP-based
 
@@ -2466,7 +2487,7 @@ Pan Tan, Mingchen Li, Yuanxi Yu, Fan Jiang, Lirong Zheng, Banghao Wu, Xinyu Sun,
 
 **Transfer learning to leverage larger datasets for improved prediction of protein stability changes**  
 Henry Dieckhaus, Michael Brocidiacono, Nicholas Randolph, Brian Kuhlman  
-[bioRxiv 2023.07.27.550881](https://www.biorxiv.org/content/10.1101/2023.07.27.550881v1) • [code](https://github.com/Kuhlman-Lab/ThermoMPNN) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/07/30/2023.07.27.550881/DC1/embed/media-1.docx)
+[bioRxiv 2023.07.27.550881](https://www.biorxiv.org/content/10.1101/2023.07.27.550881v1) • [code](https://github.com/Kuhlman-Lab/ThermoMPNN) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/07/30/2023.07.27.550881/DC1/embed/media-1.docx)
 
 **Structure-based self-supervised learning enables ultrafast prediction of stability changes upon mutation at the protein universe scale**
 Jinyuan Sun, Tong Zhu, Yinglu Cui, Bian Wu  
@@ -2494,7 +2515,7 @@ Xiaozhe Ding, Xinhong Chen, Erin E. Sullivan, Timothy F. Shay, Viviana Gradinaru
 
 **Neural network extrapolation to distant regions of the protein fitness landscape**  
 Sarah A Fahlberg, Chase R Freschlin, Pete Heinzelman, Philip A Romero  
-[bioRxiv 2023.11.08.566287](https://www.biorxiv.org/content/10.1101/2023.11.08.566287v1) • [Supplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/11/09/2023.11.08.566287/DC1/embed/media-1.pdf)
+[bioRxiv 2023.11.08.566287](https://www.biorxiv.org/content/10.1101/2023.11.08.566287v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/11/09/2023.11.08.566287/DC1/embed/media-1.pdf)
 
 **Accelerating protein engineering with fitness landscape modeling and reinforcement learning**  
 Haoran Sun, Liang He, Pan Deng, Guoqing Liu, Haiguang Liu, Chuan Cao, Fusong Ju, Lijun Wu, Tao Qin, Tie-Yan Liu  
@@ -2551,6 +2572,10 @@ Amar Jeet Yadav, Shivank Kumar, Shweata Maurya, Khushboo Bhagat, and Aditya K. P
 **Aligning protein generative models with experimental fitness via Direct Preference Optimization**  
 Talal Widatalla, Rafael Rafailov, Brian Hie  
 [bioRxiv 2024.05.20.595026](https://www.biorxiv.org/content/10.1101/2024.05.20.595026v1) • [code](https://github.com/evo-design/protein-dpo)
+
+**ProBASS – a language model with sequence and structural features for predicting the effect of mutations on binding affinity**  
+Sagara N.S. Gurusinghe, Yibing Wu, William DeGrado, Julia M. Shifman  
+[bioRxiv 2024.06.21.600041](https://www.biorxiv.org/content/10.1101/2024.06.21.600041v1) • [code](https://github.com/sagagugit/ProBASS)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
