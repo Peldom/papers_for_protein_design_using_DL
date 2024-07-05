@@ -9,17 +9,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.06.30:*  
-+   Design of linear and cyclic peptide binders of different lengths only from a protein target sequence
-    + [[bioRxiv 2024.06.20.599739](https://www.biorxiv.org/content/10.1101/2024.06.20.599739v1)] • [[code](https://zenodo.org/records/11543503)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/06/22/2024.06.20.599739/DC1/embed/media-1.pdf)]
-+   Simulating 500 million years of evolution with a language model
-    + [[preprint](https://evolutionaryscale-public.s3.us-east-2.amazonaws.com/research/esm3.pdf)] • [[website](https://www.evolutionaryscale.ai/blog/esm3-release)] • [[code](https://github.com/evolutionaryscale/esm)] • [[colab](https://colab.research.google.com/github/evolutionaryscale/esm/blob/main/examples/generate.ipynb)]
-+   Controlling semiconductor growth with structured de novo protein interfaces
-    + [[bioRxiv 2024.06.24.600095](https://www.biorxiv.org/content/10.1101/2024.06.24.600095v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/06/25/2024.06.24.600095/DC1/embed/media-1.pdf)]
-+   ProBASS – a language model with sequence and structural features for predicting the effect of mutations on binding affinity
-    + [[bioRxiv 2024.06.21.600041](https://www.biorxiv.org/content/10.1101/2024.06.21.600041v1)] • [[code](https://github.com/sagagugit/ProBASS)]
-+   Antibody Design Using a Score-based Diffusion Model Guided by Evolutionary, Physical and Geometric Constraints
-    + [[ICML 2024](https://openreview.net/forum?id=1YsQI04KaN)] • [[code](https://github.com/zhanghaicang/carbonmatrix_public)]
+*Papers last week, updated on 2024.07.05:*  
++   Reinforcement Learning for Sequence Design Leveraging Protein Language Models
+    + [[arXiv:2407.03154](https://arxiv.org/abs/2407.03154)]
++   Unsupervised evolution of protein and antibody complexes with a structure-informed language model
+    + [[Science385,46-53(2024)](https://www.science.org/doi/10.1126/science.adk8946)] • [[code](https://github.com/varun-shanker/structural-evolution)]
++   Antibody design using deep learning: from sequence and structure design to affinity maturation
+    + [[Briefings in Bioinformatics, Volume 25, Issue 4, July 2024, bbae307](https://academic.oup.com/bib/article/25/4/bbae307/7705535)]
 
 ------
 <p align="center">
@@ -524,6 +520,10 @@ Daniel Keri, Matt Walker, Isha Singh, Kyle Nishikawa, Fernando Garces
 [ABHISHAIKE MAHAJAN](https://substack.com/@abhishaikemahajan)  
 [Substack](https://www.abhishaike.com/p/a-primer-on-ai-in-antibody-engineering) • blog
 
+**Antibody design using deep learning: from sequence and structure design to affinity maturation**  
+Sara Joubbi, Alessio Micheli, Paolo Milazzo, Giuseppe Maccari, Giorgio Ciano, Dario Cardamone, Duccio Medini  
+[Briefings in Bioinformatics, Volume 25, Issue 4, July 2024, bbae307](https://academic.oup.com/bib/article/25/4/bbae307/7705535)
+
 ### 1.3 Peptide design
 
 **Deep generative models for peptide design**  
@@ -719,7 +719,7 @@ Lior Zimmerman, Noga Alon, Itay Levin, and Gideon D. Lapidoth
 [Proceedings of the National Academy of Sciences 121.11(2024)](https://www.pnas.org/doi/10.1073/pnas.2313809121)
 
 **Design of Repeat Alpha-Beta Proteins with Capping Helices**  
-David Baker, Dmitri Zorine  
+Dmitri Zorine, David Baker  
 [bioRxiv 2024.06.15.590358](https://www.biorxiv.org/content/10.1101/2024.06.15.590358v1) • [code](https://github.com/dmitropher/af2_multistate_hallucination)
 
 **Design of linear and cyclic peptide binders of different lengths only from a protein target sequence**  
@@ -1972,6 +1972,10 @@ Yannick Vogt, Mehdi Naouar, Maria Kalweit, Christoph Cornelius Miething, Justus 
 Dan-Xuan Liu, Yi-Heng Xu, Chao Qian  
 [arXiv:2406.05743](https://arxiv.org/abs/2406.05743)
 
+**Reinforcement Learning for Sequence Design Leveraging Protein Language Models**  
+Jithendaraa Subramanian, Shivakanth Sujit, Niloy Irtisam, Umong Sain, Derek Nowrouzezahrai, Samira Ebrahimi Kahou, Riashat Islam  
+[arXiv:2407.03154](https://arxiv.org/abs/2407.03154)
+
 ### 5.7 Flow-based
 
 **Biological Sequence Design with GFlowNets**  
@@ -2576,6 +2580,10 @@ Talal Widatalla, Rafael Rafailov, Brian Hie
 **ProBASS – a language model with sequence and structural features for predicting the effect of mutations on binding affinity**  
 Sagara N.S. Gurusinghe, Yibing Wu, William DeGrado, Julia M. Shifman  
 [bioRxiv 2024.06.21.600041](https://www.biorxiv.org/content/10.1101/2024.06.21.600041v1) • [code](https://github.com/sagagugit/ProBASS)
+
+**Unsupervised evolution of protein and antibody complexes with a structure-informed language model**  
+Varun R. Shanker, Theodora U. J. Bruun, Brian L. Hie, Peter S. Kim  
+[Science385,46-53(2024)](https://www.science.org/doi/10.1126/science.adk8946) • [code](https://github.com/varun-shanker/structural-evolution)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
