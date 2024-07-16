@@ -9,14 +9,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.07.05:*  
-+   Reinforcement Learning for Sequence Design Leveraging Protein Language Models
-    + [[arXiv:2407.03154](https://arxiv.org/abs/2407.03154)]
-+   Unsupervised evolution of protein and antibody complexes with a structure-informed language model
-    + [[Science385,46-53(2024)](https://www.science.org/doi/10.1126/science.adk8946)] • [[code](https://github.com/varun-shanker/structural-evolution)]
-+   Antibody design using deep learning: from sequence and structure design to affinity maturation
-    + [[Briefings in Bioinformatics, Volume 25, Issue 4, July 2024, bbae307](https://academic.oup.com/bib/article/25/4/bbae307/7705535)]
-
+*Papers last week, updated on 2024.07.16:*  
++   Unifying Sequences, Structures, and Descriptions for Any-to-Any Protein Generation with the Large Multimodal Model HelixProtX
+    + [[arXiv:2407.09274](https://arxiv.org/abs/2407.09274)] • [[code](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/apps/helixprotx)]
++   An integrative approach to protein sequence design through multiobjective optimization
+    + [[PLOS Computational Biology 20(7)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011953)] • [[code](https://github.com/luhong88/int_seq_des)]
++   The State-of-the-Art Overview to Application of Deep Learning in Accurate Protein Design and Structure Prediction
+    + [[Top Curr Chem (Z) 382, 23 (2024)](https://link.springer.com/article/10.1007/s41061-024-00469-6)]
++   Enhancing efficiency of protein language models with minimal wet-lab data through few-shot learning
+    + [[Nat Commun 15, 5566 (2024)](https://www.nature.com/articles/s41467-024-49798-6)] • [[code](https://github.com/OATML-Markslab/Tranception)]
++   Navigating the landscape of enzyme design: from molecular simulations to machine learning
+    + [[Chemical Society Reviews (2024)](https://pubs.rsc.org/en/Content/ArticleLanding/2024/CS/D4CS00196F)]
 ------
 <p align="center">
   <br>
@@ -466,6 +469,10 @@ Philip Hunter
 Dina Listov, Casper A. Goverde, Bruno E. Correia & Sarel Jacob Fleishman  
 [Nat Rev Mol Cell Biol (2024)](https://www.nature.com/articles/s41580-024-00718-y)
 
+**The State-of-the-Art Overview to Application of Deep Learning in Accurate Protein Design and Structure Prediction**  
+Saber Saharkhiz, Mehrnaz Mostafavi, Amin Birashk, Shiva Karimian, Shayan Khalilollah, Sohrab Jaferian, Yalda Yazdani, Iraj Alipourfard, Yun Suk Huh, Marzieh Ramezani Farani & Reza Akhavan-Sigari  
+[Top Curr Chem (Z) 382, 23 (2024)](https://link.springer.com/article/10.1007/s41061-024-00469-6)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
@@ -577,6 +584,10 @@ Rana A Barghout, Zhiqing Xu, Siddharth Betala, Radhakrishnan Mahadevan
 **Opportunites and Challenges for Machine Learning-Assisted Enzyme Engineering**  
 Jason Yang, Francesca-Zhoufan Li, Frances H. Arnold  
 [ACS Central Science (2024)](https://pubs.acs.org/doi/10.1021/acscentsci.3c01275)
+
+**Navigating the landscape of enzyme design: from molecular simulations to machine learning**  
+Jiahui Zhoua, Meilan Huang
+[Chemical Society Reviews (2024)](https://pubs.rsc.org/en/Content/ArticleLanding/2024/CS/D4CS00196F)
 
 ## 2. Model-based design
 
@@ -725,6 +736,10 @@ Dmitri Zorine, David Baker
 **Design of linear and cyclic peptide binders of different lengths only from a protein target sequence**  
 Qiuzhen Li, Efstathios Nikolaos Vlachos, Patrick Bryant  
 [bioRxiv 2024.06.20.599739](https://www.biorxiv.org/content/10.1101/2024.06.20.599739v1) • [code](https://zenodo.org/records/11543503) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/06/22/2024.06.20.599739/DC1/embed/media-1.pdf)
+
+**An integrative approach to protein sequence design through multiobjective optimization**
+Lu Hong ,Tanja Kortemme  
+[PLOS Computational Biology 20(7)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011953) • [code](https://github.com/luhong88/int_seq_des)
 
 ### 2.3 DMPfold2-based
 
@@ -1829,7 +1844,7 @@ Shengchao Liu, Jiongxiao Wang, Yijin Yang, Chengpeng Wang, Ling Liu, Hongyu Guo,
 [ICLR (2024)](https://openreview.net/forum?id=yRrPfKyJQ2) • [code](https://github.com/chao1224/ChatDrug) • [website](https://chao1224.github.io/ChatDrug)
 
 **ProtAgents: Protein discovery via large language model multi-agent collaborations combining physics and machine learning**  
-A. Ghafarollahi, M.J. Buehler  
+Alireza Ghafarollahi, Markus J. Buehler  
 [arXiv:2402.04268](https://arxiv.org/abs/2402.04268) • [code](https://github.com/lamm-mit/ProtAgents)
 
 **Designing proteins with language models**  
@@ -1883,6 +1898,10 @@ Li Wang, Xiangzheng Fu, Jiahao Yang, Xinyi Zhang, Xiucai Ye, Yiping Liu, Tetsuya
 **HELM-GPT: de novo macrocyclic peptide design using generative pre-trained transformer**  
 Xiaopeng Xu, Chencheng Xu, Wenjia He, Lesong Wei, Haoyang Li, Juexiao Zhou, Ruochi Zhang, Yu Wang, Yuanpeng Xiong, Xin Gao  
 [Bioinformatics (2024): btae364](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae364/7691994) • [code](https://github.com/charlesxu90/helm-gpt)
+
+**Unifying Sequences, Structures, and Descriptions for Any-to-Any Protein Generation with the Large Multimodal Model HelixProtX**  
+Zhiyuan Chen, Tianhao Chen, Chenggang Xie, Yang Xue, Xiaonan Zhang, Jingbo Zhou, Xiaomin Fang  
+[arXiv:2407.09274](https://arxiv.org/abs/2407.09274) • [code](https://github.com/PaddlePaddle/PaddleHelix/tree/dev/apps/helixprotx)
 
 ### 5.5 Bayesian-based
 
@@ -2363,7 +2382,7 @@ Zhang Zaixi, Wanxiang Shen, Qi Liu, Marinka Zitnik
 
 **Simulating 500 million years of evolution with a language model**  
 Thomas Hayes,  Roshan Rao,  Halil Akin,  Nicholas James Sofroniew,  Deniz Oktay,  Zeming Lin, Robert Verkuil, Vincent Quy Tran, Jonathan Deaton, Marius Wiggert, Rohil Badkundri, Irhum Shafkat, Jun Gong, Alexander Derry, Raul Santiago Molina, Neil Thomas, Yousuf Khan, Chetan Mishra, Carolyn Kim, Liam J. Bartie, Patrick D. Hsu, Tom Sercu, Salvatore Candido, Alexander Rives
-[preprint](https://evolutionaryscale-public.s3.us-east-2.amazonaws.com/research/esm3.pdf) • [website](https://www.evolutionaryscale.ai/blog/esm3-release) • [code](https://github.com/evolutionaryscale/esm) • [colab](https://colab.research.google.com/github/evolutionaryscale/esm/blob/main/examples/generate.ipynb)
+[preprint](https://evolutionaryscale-public.s3.us-east-2.amazonaws.com/research/esm3.pdf)/[bioRxiv 2024.07.01.600583](https://www.biorxiv.org/content/10.1101/2024.07.01.600583v1) • [website](https://www.evolutionaryscale.ai/blog/esm3-release) • [code](https://github.com/evolutionaryscale/esm) • [colab](https://colab.research.google.com/github/evolutionaryscale/esm/blob/main/examples/generate.ipynb) • [news](https://www.nature.com/articles/d41586-024-02214-x)
 
 ### 6.7 MLP-based
 
@@ -2584,6 +2603,10 @@ Sagara N.S. Gurusinghe, Yibing Wu, William DeGrado, Julia M. Shifman
 **Unsupervised evolution of protein and antibody complexes with a structure-informed language model**  
 Varun R. Shanker, Theodora U. J. Bruun, Brian L. Hie, Peter S. Kim  
 [Science385,46-53(2024)](https://www.science.org/doi/10.1126/science.adk8946) • [code](https://github.com/varun-shanker/structural-evolution)
+
+**Enhancing efficiency of protein language models with minimal wet-lab data through few-shot learning**  
+Ziyi Zhou, Liang Zhang, Yuanxi Yu, Banghao Wu, Mingchen Li, Liang Hong & Pan Tan  
+[Nat Commun 15, 5566 (2024)](https://www.nature.com/articles/s41467-024-49798-6) • [code](https://github.com/OATML-Markslab/Tranception)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
