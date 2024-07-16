@@ -1106,7 +1106,7 @@ Alex J. Li, Vikram Sundar, Gevorg Grigoryan, Amy E. Keating
 [NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_TERMinator:_A_Neural_Framework.pdf) / [arXiv (2022)](https://arxiv.org/pdf/2204.13048.pdf)
 
 **A neural network model for prediction of amino-acid probability from a protein backbone structure**  
-Koya Sakuma, Naoya Kobayashi  
+Shintaro Minami, Koya Sakuma, Naoya Kobayashi  
 Unpublished yet (June 2021)• [GCNdesgin](https://github.com/ShintaroMinami/GCNdesign)
 
 **XENet: Using a new graph convolution to accelerate the timeline for protein design on quantum computers**  
