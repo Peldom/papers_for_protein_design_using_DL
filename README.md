@@ -1925,6 +1925,10 @@ Jike Wang, Jianwen Feng, Yu Kang, Peichen Pan, Jingxuan Ge, Yan Wang, Mingyang W
 
 ### 5.5 Bayesian-based
 
+**Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**  
+Melis Ilayda Bal, Pier Giuseppe Sessa, Mojmir Mutny, Andreas Krause
+[NeurIPS 2023 Workshop on Adaptive Experimental Design and Active Learning in the Real World, 2023](https://openreview.net/forum?id=ScOvmGz4xH)
+
 **Discovering de novo peptide substrates for enzymes using machine learning**  
 Lorillee Tallorin, JiaLei Wang, Woojoo E. Kim, Swagat Sahu, Nicolas M. Kosa, Pu Yang, Matthew Thompson, Michael K. Gilson, Peter I. Frazier, Michael D. Burkart & Nathan C. Gianneschi  
 [Nature communications 9.1 (2018)](https://www.nature.com/articles/s41467-018-07717-6) • [code](https://github.com/peter-i-frazier/pool)
