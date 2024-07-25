@@ -2472,6 +2472,10 @@ Francisco McGee, Sandro Hauri, Quentin Novinger, Slobodan Vucetic, Ronald M. Lev
 Anastasiya V. Kulikova, Daniel J. Diaz, James M. Loy, Andrew D. Ellington & Claus O. Wilke  
 [Journal of Biological Physics 47.4 (2021)](https://link.springer.com/article/10.1007/s10867-021-09593-6)
 
+**Neural networks to learn protein sequence-function relationships from deep mutational scanning data**  
+Sam Gelman, Sarah A. Fahlberg, Pete Heinzelman, Philip A. Romero & Anthony Gitter  
+[Proceedings of the National Academy of Sciences](https://doi.org/10.1073/pnas.2104878118) • [code](https://github.com/gitter-lab/nn4dms) • Nov 2021  
+
 **Learning Protein Fitness Models from Evolutionary and Assay-labeled Data**  
 Chloe Hsu, Hunter Nisonoff, Clara Fannjiang, Jennifer Listgarten  
 [Nature Biotechnology (2022)](https://www.nature.com/articles/s41587-021-01146-5) • [Supplementary Information](https://static-content.springer.com/esm/art%3A10.1038%2Fs41587-021-01146-5/MediaObjects/41587_2021_1146_MOESM1_ESM.pdf) • [code](https://github.com/chloechsu/combining-evolutionary-and-assay-labelled-data)
@@ -2607,6 +2611,10 @@ Zhiqiang Zhong, Davide Mottin
 **Generating mutants of monotone affinity towards stronger protein complexes through adversarial learning**  
 Tian Lan, Shuquan Su, Pengyao Ping, Gyorgy Hutvagner, Tao Liu, Yi Pan & Jinyan Li  
 [Nat Mach Intell 6, 315–325 (2024)](https://www.nature.com/articles/s42256-024-00803-z) • [code](https://github.com/tianlt/Deepdirect)
+
+**Biophysics-based protein language models for protein engineering**  
+Sam Gelman, Bryce Johnson, Chase Freschlin, Sameer D'Costa, Anthony Gitter & Philip A. Romero  
+[bioRxiv 2024.03.15.585128](https://doi.org/10.1101/2024.03.15.585128) • [code](https://github.com/gitter-lab/metl)
 
 **Latent-based Directed Evolution accelerated by Gradient Ascent for Protein Sequence Design**  
 Nhat Khang Ngo, Thanh V. T. Tran, Viet Thanh Duy Nguyen, Truong Son Hy  
