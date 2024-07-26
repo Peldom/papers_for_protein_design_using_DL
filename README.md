@@ -1,4 +1,4 @@
-# List of papers about Proteins Design using Deep Learning
+# List of papers about Protein Design using Deep Learning
 
 > This repository is inspired by the remarkable work of [Kevin Kaichuang Yang](https://github.com/yangkky) and their outstanding project [Machine-learning-for-proteins](https://github.com/yangkky/Machine-learning-for-proteins). We have established this repository to provide a specialized and focused platform for the field of **Deep Learning for Protein Design**, a rapidly advancing domain in computational biology.
 >
@@ -9,19 +9,9 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.07.20:*  
-+   Context-Guided Diffusion for Out-of-Distribution Molecular and Protein Design
-    + [[arXiv:2407.11942](https://arxiv.org/abs/2407.11942)] • [[code](https://github.com/leojklarner/context-guided-diffusion)]
-+   Diffusing protein binders to intrinsically disordered proteins
-    + [[bioRxiv 2024.07.16.603789](https://www.biorxiv.org/content/10.1101/2024.07.16.603789v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/07/16/2024.07.16.603789/DC1/embed/media-1.mov)]
-+   A foundation model approach to guide antimicrobial peptide design in the era of artificial intelligence driven scientific discovery
-    + [[arXiv:2407.12296](https://arxiv.org/abs/2407.12296)] • [[code](https://github.com/jkwang93/AMP-Designer)]
-+   Secondary Structure-Guided Novel Protein Sequence Generation with Latent Graph Diffusion
-    + [[arXiv:2407.07443](https://arxiv.org/abs/2407.07443)] • [[code](https://github.com/riacd/CPDiffusion-SS)]
-+   Rapid protein evolution by few-shot learning with a protein language model
-    + [[bioRxiv 2024.07.17.604015](https://www.biorxiv.org/content/10.1101/2024.07.17.604015v1)] • [[code1](https://github.com/mat10d/EvolvePro)],[[code2](https://github.com/idmjky/EvolvePro)]
-+   Computational methods for protein design
-    + [Protein Engineering, Design and Selection, Volume 37, 2024](https://academic.oup.com/peds/article/doi/10.1093/protein/gzae011/7710436)]
+*Papers last week, updated on 2024.07.27:*  
++   Deep learning guided design of dynamic proteins
+    + [[bioRxiv 2024.07.17.603962](https://www.biorxiv.org/content/10.1101/2024.07.17.603962v1)] • [[code](https://github.com/amyguo1997/dynamic_protein_design)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/07/19/2024.07.17.603962/DC1/embed/media-1.docx)]
 
 ------
 <p align="center">
@@ -122,7 +112,7 @@
 </p>
 
 ------
-<!-- - [List of papers about Proteins Design using Deep Learning](#list-of-papers-about-proteins-design-using-deep-learning)
+<!-- - [List of papers about Protein Design using Deep Learning](#list-of-papers-about-proteins-design-using-deep-learning)
   - [Menu](#menu)
   - [0. Benchmarks and datasets](#0-benchmarks-and-datasets)
     - [0.1 Sequence Datasets](#01-sequence-datasets)
@@ -727,7 +717,7 @@ neoxbio
 
 **AlphaFold Distillation for Protein Design**  
 Anonymous  
-[ICLR 2024 under review](https://openreview.net/forum?id=3pgJNIx3gc) • [code](https://anonymous.4open.science/r/AFDistill-28C3)
+[ICLR 2024](https://openreview.net/forum?id=3pgJNIx3gc) • [code](https://anonymous.4open.science/r/AFDistill-28C3)
 
 **High-throughput computational discovery of inhibitory protein fragments with AlphaFold**  
 Andrew Savinov, Sebastian Swanson, Amy E. Keating, Gene-Wei Li  
@@ -966,7 +956,7 @@ Luhuan Wu, Brian L. Trippe, Christian A. Naesseth, David M. Blei, John P. Cunnin
 
 **Dynamics-Informed Protein Design with Structure Conditioning**  
 Simon V. Mathis, Urszula Julia Komorowska, Mateja Jamnik, Pietro Lió  
-[WCBICML2023](https://icml-compbio.github.io/2023/papers/WCBICML2023_paper121.pdf)/[ICLR 2024 under review](https://openreview.net/forum?id=jZPqf2G9Sw)
+[WCBICML2023](https://icml-compbio.github.io/2023/papers/WCBICML2023_paper121.pdf)/[ICLR 2024](https://openreview.net/forum?id=jZPqf2G9Sw)
 
 **ForceGen: End-to-end de novo protein generation based on nonlinear mechanical unfolding responses using a protein language diffusion model**  
 Bo Ni and David L. Kaplan and M. Buehler  
@@ -974,7 +964,7 @@ Bo Ni and David L. Kaplan and M. Buehler
 
 **DiffSDS: A geometric sequence diffusion model for protein backbone inpainting**  
 Anonymous  
-[ICLR 2024 under review](https://openreview.net/forum?id=2xYO9oxh0y)/[arXiv:2301.09642](https://arxiv.org/abs/2301.09642)
+[ICLR 2024](https://openreview.net/forum?id=2xYO9oxh0y)/[arXiv:2301.09642](https://arxiv.org/abs/2301.09642)
 
 **A framework for conditional diffusion modelling with applications in motif scaffolding for protein design**  
 Kieran Didi, Francisco Vargas, Simon V Mathis, Vincent Dutordoir, Emile Mathieu, Urszula J Komorowska, Pietro Lio
@@ -986,7 +976,7 @@ Yuyang Zhang, Zihui (Zinnia) Ma, Haipeng Gong
 
 **Improved motif-scaffolding with SE(3) flow matching**  
 Jason Yim, Andrew Campbell, Emile Mathieu, Andrew Y. K. Foong, Michael Gastegger, José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling, Frank Noé, Regina Barzilay, Tommi S. Jaakkola  
-[arXiv:2401.04082](https://arxiv.org/abs/2401.04082) • [code](https://github.com/microsoft/frame-flow)
+[arXiv:2401.04082](https://arxiv.org/abs/2401.04082)/[TMLR](https://openreview.net/forum?id=fa1ne8xDGn) • [code1](https://github.com/microsoft/frame-flow),[code2](https://github.com/microsoft/protein-frame-flow)
 
 **DiffTopo: Fold exploration using coarse grained protein topology representations**  
 Yangyang Miao, Bruno Correia  
@@ -1007,6 +997,10 @@ Yeqing Lin, Minji Lee, Zhao Zhang, Mohammed AlQuraishi
 **Diffuse StructGen-1 (DSG-1)**  
 [the Diffuse team](https://www.linkedin.com/company/diffuse-bio/)  
 [technical appendix](https://diffuse.bio/updates.html#appendix) • commercial
+
+**Floating Anchor Diffusion Model for Multi-motif Scaffolding**  
+Ke Liu, Weian Mao, Shuaike Shen, Xiaoran Jiao, Zheng Sun, Hao Chen, Chunhua Shen  
+[ICML 2024](https://proceedings.mlr.press/v235/liu24av.html)/[arXiv:2406.03141](https://arxiv.org/abs/2406.03141) • [code](https://github.com/aim-uofa/FADiff) • [poster](https://icml.cc/virtual/2024/poster/34654)
 
 ### 3.6 RL-based
 
@@ -1186,7 +1180,7 @@ Weian Mao, Muzhi Zhu, Hao Chen, Chunhua Shen
 
 **Knowledge-Design: Pushing the Limit of Protein Deign via Knowledge Refinement**  
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
-[arXiv:2305.15151](https://arxiv.org/abs/2305.15151)/[ICLR under review](https://openreview.net/forum?id=mpqMVWgqjn) • [code](https://github.com/A4Bio/ProteinInvBench)
+[arXiv:2305.15151](https://arxiv.org/abs/2305.15151)/[ICLR](https://openreview.net/forum?id=mpqMVWgqjn) • [code](https://github.com/A4Bio/ProteinInvBench)
 
 **SPIN-CGNN: Improved fixed backbone protein design with contact map-based graph construction and contact graph neural network**  
 Xing Zhang, Hongmei Yin, Fei Ling, Jian Zhan, Yaoqi Zhou  
@@ -1227,7 +1221,7 @@ Kyle Meador, Roger Castells-Graells, Roman Aguirre, Michael R. Sawaya, Mark A. A
 
 **PROTEIN DESIGNER BASED ON SEQUENCE PROFILE USING ULTRAFAST SHAPE RECOGNITION**  
 Anonymous  
-[ICLR 2024 under review](https://openreview.net/forum?id=s4mPCrSNUZ)
+[ICLR 2024](https://openreview.net/forum?id=s4mPCrSNUZ)
 
 **Inverse folding for antibody sequence design using deep learning**  
 Frédéric A. Dreyer, Daniel Cutting, Constantin Schneider, Henry Kenlay, Charlotte M. Deane  
@@ -1326,6 +1320,10 @@ Mostafa Karimi, Shaowen Zhu, Yue Cao, Yang Shen
 **HelixGAN: A bidirectional Generative Adversarial Network with search in latent space for generation under constraints**  
 Xuezhi Xie, Philip M. Kim  
 [Machine Learning for Structural Biology Workshop, NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_HelixGAN:_A_bidirectional_Generative.pdf)/[Bioinformatics, 2023;, btad036](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btad036/6991169) • [code](https://github.com/xxiexuezhi/helix_gan)
+
+**Deep learning guided design of dynamic proteins**  
+Amy B. Guo, Deniz Akpinaroglu, Mark J.S. Kelly, Tanja Kortemme  
+[bioRxiv 2024.07.17.603962](https://www.biorxiv.org/content/10.1101/2024.07.17.603962v1) • [code](https://github.com/amyguo1997/dynamic_protein_design) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/07/19/2024.07.17.603962/DC1/embed/media-1.docx)
 
 ### 4.7 Transformer-based
 
@@ -1811,6 +1809,10 @@ paper coming soon • [hugging face](https://huggingface.co/AI4PD/REXzyme)
 [310.ai](https://310.ai/about-us/)  
 [news](https://medium.com/310-ai/mpm4-ai-text2protein-breakthrough-tackles-the-molecule-programming-challenge-870045a8c1ad) • [repo](https://310.ai/mpm/repo) • commercial
 
+**De Novo Design of Peptide Binders to Conformationally Diverse Targets with Contrastive Language Modeling**  
+Suhaas Bhat, Kalyan Palepu, Lauren Hong, Joey Mao, Tianzheng Ye, Rema Iyer, Lin Zhao, Tianlai Chen, Sophia Vincoff, Rio Watson, Tian Wang, Divya Srijay, Venkata Srikar Kavirayuni, Kseniia Kholina, Shrey Goel, Pranay Vure, Aniruddha H Desphande, Scott Soderling, Matthew DeLisa, Pranam Chatterjee  
+[bioRxiv 2023.06.26.546591](https://www.biorxiv.org/content/10.1101/2023.06.26.546591v2) • [code](https://zenodo.org/doi/10.5281/zenodo.10971077) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/07/22/2023.06.26.546591/DC1/embed/media-1.pdf)
+
 **xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein**  
 Bo Chen, Xingyi Cheng, Li-ao Gengyang, Shen Li, Xin Zeng, Boyan Wang, Gong Jing, Chiming Liu, Aohan Zeng, Yuxiao Dong, Jie Tang, Le Song  
 [bioRxiv 2023.07.05.547496](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1) • [news](https://mp.weixin.qq.com/s/XQn8je49z23UYby8pR7fkA) • [website](https://www.biomap.com/aigp-light-beta/form) • commercial
@@ -1827,6 +1829,10 @@ Yaiza Serrano, Sergi Roda, Victor Guallar, Alexis Molina
 Ben Krause, Subu Subramanian, Tom Yuan, Marisa Yang, Aaron Sato, Nikhil Naik  
 [bioRxiv 2023.09.13.557505](https://www.biorxiv.org/content/10.1101/2023.09.13.557505v1)
 
+**NL2ProGPT: Taming Large Language Model for Conversational Protein Design**  
+Anonymous  
+[ICLR 2024](https://openreview.net/forum?id=sFJr7okOBi)
+
 **PepMLM: Target Sequence-Conditioned Generation of Peptide Binders via Masked Language Modeling**  
 Tianlai Chen, Sarah Pertsemlidis, Rio Watson, Venkata Srikar Kavirayuni, Ashley Hsu, Pranay Vure, Rishab Pulugurta, Sophia Vincoff, Lauren Hong, Tian Wang, Vivian Yudistyra, Elena Haarer, Lin Zhao, Pranam Chatterjee  
 [arXiv:2310.03842](https://arxiv.org/abs/2310.03842) • [code](https://github.com/programmablebio/pepmlm)
@@ -1834,10 +1840,6 @@ Tianlai Chen, Sarah Pertsemlidis, Rio Watson, Venkata Srikar Kavirayuni, Ashley 
 **De novo generation of antibody CDRH3 with a pre-trained generative large language model**  
 HaoHuai He, Bing He, Lei Guan, Yu Zhao, Guanxing Chen, Qingge Zhu, Calvin Yu-Chian Chen, Ting Li, Jianhua Yao  
 [bioRxiv 2023.10.17.562827](https://www.biorxiv.org/content/10.1101/2023.10.17.562827v1) • [code](https://github.com/TencentAILabHealthcare/PALM) • [data](https://doi.org/10.5281/zenodo.7794583)
-
-**NL2ProGPT: Taming Large Language Model for Conversational Protein Design**  
-Anonymous  
-[ICLR 2024 under review](https://openreview.net/forum?id=sFJr7okOBi)
 
 **SaLT&PepPr is an interface-predicting language model for designing peptide-guided protein degraders**  
 Garyk Brixi, Tianzheng Ye, Lauren Hong, Tian Wang, Connor Monticello, Natalia Lopez-Barbosa, Sophia Vincoff, Vivian Yudistyra, Lin Zhao, Elena Haarer, Tianlai Chen, Sarah Pertsemlidis, Kalyan Palepu, Suhaas Bhat, Jayani Christopher, Xinning Li, Tong Liu, Sue Zhang, Lillian Petersen, Matthew P. DeLisa & Pranam Chatterjee  
@@ -2005,7 +2007,7 @@ Yi Wang, Hui Tang, Lichao Huang, Lulu Pan, Lixiang Yang, Huanming Yang, Feng Mu 
 
 **Curiosity Driven Protein Sequence Generation via Reinforcement Learning**  
 Anonymous  
-[ICLR 2024 under review](https://openreview.net/forum?id=tPjVRmHqCg)
+[ICLR 2024](https://openreview.net/forum?id=tPjVRmHqCg)
 
 **Stable Online and Offline Reinforcement Learning for Antibody CDRH3 Design**  
 Yannick Vogt, Mehdi Naouar, Maria Kalweit, Christoph Cornelius Miething, Justus Duyster, Roland Mertelsmann, Gabriel Kalweit, Joschka Boedecker  
@@ -2116,7 +2118,7 @@ Cyril Malbranke, William Rostain, Florence Depardieu, Simona Cocco, Remi Monasso
 
 **Protein Discovery with Discrete Walk-Jump Sampling**  
 Nathan C. Frey, Daniel Berenberg, Karina Zadorozhny, Joseph Kleinhenz, Julien Lafrance-Vanasse, Isidro Hotzel, Yan Wu, Stephen Ra, Richard Bonneau, Kyunghyun Cho, Andreas Loukas, Vladimir Gligorijevic, Saeed Saremi  
-[arXiv:2306.12360](https://arxiv.org/abs/2306.12360)/[ICLR 2024 under review](https://openreview.net/forum?id=zMPHKOmQNb) • [code](https://github.com/Genentech/walk-jump) • [lecture](https://www.youtube.com/watch?v=r28m5Vk77Wk)
+[arXiv:2306.12360](https://arxiv.org/abs/2306.12360)/[ICLR 2024](https://openreview.net/forum?id=zMPHKOmQNb) • [code](https://github.com/Genentech/walk-jump) • [lecture](https://www.youtube.com/watch?v=r28m5Vk77Wk)
 
 ### 5.12 Diffusion-based
 
@@ -2238,7 +2240,7 @@ Zhangzhi Peng, Chenchen Han, Xiaohan Wang, Dapeng Li, Fajiie Yuan
 
 **Bridging Sequence and Structure: Latent Diffusion for Conditional Protein Generation**  
 Anonymous  
-[ICLR 2024 under review](https://openreview.net/forum?id=DP4NkPZOpD)
+[ICLR 2024](https://openreview.net/forum?id=DP4NkPZOpD)
 
 **Guiding diffusion models for antibody sequence and structure co-design with developability properties**  
 Amelia Villegas-Morcillo, Jana M. Weber, Marcel J.T. Reinders  
@@ -2376,7 +2378,7 @@ Zhenqiao Song, Yunlong Zhao, Yufei Song, Wenxian Shi, Yang Yang, Lei Li
 
 **De novo protein design using geometric vector field networks**  
 Weian Mao, Muzhi Zhu, Zheng Sun, Shuaike Shen, Lin Yuanbo Wu, Hao Chen, Chunhua Shen  
-[arXiv:2310.11802](https://arxiv.org/abs/2310.11802)/[ICLR 2024 under review](https://openreview.net/forum?id=9UIGyJJpay)
+[arXiv:2310.11802](https://arxiv.org/abs/2310.11802)/[ICLR 2024](https://openreview.net/forum?id=9UIGyJJpay)
 
 **A Survey of Geometric Graph Neural Networks: Data Structures, Models and Applications**  
 Jiaqi Han, Jiacheng Cen, Liming Wu, Zongzhao Li, Xiangzhe Kong, Rui Jiao, Ziyang Yu, Tingyang Xu, Fandi Wu, Zihe Wang, Hongteng Xu, Zhewei Wei, Yang Liu, Yu Rong, Wenbing Huang  
@@ -2406,7 +2408,7 @@ Zaixi Zhang, Zepu Lu, Zhongkai Hao, Marinka Zitnik, Qi Liu
 
 **Functional Geometry Guided Protein Sequence and Backbone Structure Co-Design**  
 Anonymous  
-[ICLR 2024 under review](https://openreview.net/forum?id=Dr4qD9bzZd)
+[ICLR 2024](https://openreview.net/forum?id=Dr4qD9bzZd)
 
 **Fast and accurate modeling and design of antibody-antigen complex using tFold**  
 Fandi Wu, Yu Zhao, Jiaxiang Wu, Biaobin Jiang, Bing He, Longkai Huang, Chenchen Qin, Fan Yang, Ningqiao Huang, Yang Xiao, Rubo Wang, Huaxian Jia, Yu Rong, Yuyi Liu, Houtim Lai, Tingyang Xu, Wei Liu, Peilin Zhao, Jianhua Yao  
