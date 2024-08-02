@@ -9,9 +9,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.07.27:*  
-+   Deep learning guided design of dynamic proteins
-    + [[bioRxiv 2024.07.17.603962](https://www.biorxiv.org/content/10.1101/2024.07.17.603962v1)] • [[code](https://github.com/amyguo1997/dynamic_protein_design)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/07/19/2024.07.17.603962/DC1/embed/media-1.docx)]
+*Papers last week, updated on 2024.08.02:*  
++   Structure-based protein and small molecule generation using EGNN and diffusion models: A comprehensive review
+    + [[Computational and Structural Biotechnology Journal (2024)](https://www.sciencedirect.com/science/article/pii/S2001037024002228)]
++   Machine learning in biological physics: From biomolecular prediction to design
+    + [[Proceedings of the National Academy of Sciences 121.27 (2024)](https://www.pnas.org/doi/10.1073/pnas.2311807121)]
++   Kernel-Based Evaluation of Conditional Biological Sequence Models
+    + [[Proceedings of the 41st International Conference on Machine Learning, PMLR 235:15678-15705, 2024](https://proceedings.mlr.press/v235/glaser24a.html)] • ProteinMPNN-based
++   Antibody DomainBed: Out-of-Distribution Generalization in Therapeutic Protein Design
+    + [[arXiv:2407.21028](https://arxiv.org/abs/2407.21028)] • [[code](https://github.com/prescient-design/antibody-domainbed)] • [[dataset](https://www.dropbox.com/scl/fo/e670i9adp29yv2knfu6wd/h?rlkey=uax6phjjfumkk8xoxrbwcit1h&e=1&dl=0)]
 
 ------
 <p align="center">
@@ -254,6 +260,10 @@ Chuanrui Wang, Bozitao Zhong, Zuobai Zhang, Narendra Chaudhary, Sanchit Misra, J
 Zhuoqi Zheng, Bo Zhang, Bozitao Zhong, Kexin Liu, Jinyu Yu, Zhengxin Li, JunJie Zhu, Ting Wei, Hai-Feng Chen  
 [bioRxiv 2024.02.10.579743](https://www.biorxiv.org/content/10.1101/2024.02.10.579743v1) • [code](https://github.com/Immortals-33/Scaffold-Lab) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/02/12/2024.02.10.579743/DC1/embed/media-1.pdf)
 
+**Antibody DomainBed: Out-of-Distribution Generalization in Therapeutic Protein Design**  
+Nataša Tagasovska, Ji Won Park, Matthieu Kirchmeyer, Nathan C. Frey, Andrew Martin Watkins, Aya Abdelsalam Ismail, Arian Rokkum Jamasb, Edith Lee, Tyler Bryson, Stephen Ra, Kyunghyun Cho  
+[arXiv:2407.21028](https://arxiv.org/abs/2407.21028) • [code](https://github.com/prescient-design/antibody-domainbed) • [dataset](https://www.dropbox.com/scl/fo/e670i9adp29yv2knfu6wd/h?rlkey=uax6phjjfumkk8xoxrbwcit1h&e=1&dl=0)
+
 ### 0.3 Databases
 
 > A list of suggested protein databases, more lists at [CNCB](https://ngdc.cncb.ac.cn/databasecommons/).
@@ -478,6 +488,14 @@ Saber Saharkhiz, Mehrnaz Mostafavi, Amin Birashk, Shiva Karimian, Shayan Khalilo
 **Computational methods for protein design**  
 Noelia Ferruz, Amelie Stein  
 [Protein Engineering, Design and Selection, Volume 37, 2024](https://academic.oup.com/peds/article/doi/10.1093/protein/gzae011/7710436)
+
+**Structure-based protein and small molecule generation using EGNN and diffusion models: A comprehensive review**  
+Farzan Soleymani, Eric Paquet, Herna Lydia Viktor, Wojtek Michalowski  
+[Computational and Structural Biotechnology Journal (2024)](https://www.sciencedirect.com/science/article/pii/S2001037024002228)
+
+**Machine learning in biological physics: From biomolecular prediction to design**  
+Jonathan Martin, Marcos Lequerica Mateos, José N. Onuchic, and Faruck Morcos  
+[Proceedings of the National Academy of Sciences 121.27 (2024)](https://www.pnas.org/doi/10.1073/pnas.2311807121)
 
 ### 1.2 Antibody design
 
@@ -1310,6 +1328,10 @@ Bohan Ma, Donghua Liu, Zhe Wang, Dize Zhang, Yanlin Jian, Kun Zhang, Tianyang Zh
 **Improving Inverse Folding models at Protein Stability Prediction without additional Training or Data**  
 Oliver Dutton, Sandro Bottaro, Michele Invernizzi, Istvan Redl, Albert Chung, Carlo Fisicaro, Fabio Airoldi, Stefano Ruschetta, Louie Henderson, Benjamin MJ Owens, Patrik Foerch, Kamil Tamiola  
 [bioRxiv 2024.06.15.599145](https://www.biorxiv.org/content/10.1101/2024.06.15.599145v1) • ProteinMPNN/ESMIF-based
+
+**Kernel-Based Evaluation of Conditional Biological Sequence Models**  
+Pierre Glaser, Steffanie Paul, Alissa M Hummer, Charlotte Deane, Debora Susan Marks, Alan Nawzad Amin  
+[Proceedings of the 41st International Conference on Machine Learning, PMLR 235:15678-15705, 2024](https://proceedings.mlr.press/v235/glaser24a.html) • ProteinMPNN-based
 
 ### 4.6 GAN-based
 
@@ -2386,7 +2408,7 @@ Jiaqi Han, Jiacheng Cen, Liming Wu, Zongzhao Li, Xiangzhe Kong, Rui Jiao, Ziyang
 
 **GeoAB: Towards Realistic Antibody Design and Reliable Affinity Maturation**  
 Haitao LIN, Lirong Wu, Huang Yufei, Yunfan Liu, Odin Zhang, Yuanqing Zhou, Rui Sun, Stan Z Li  
-[bioRxiv 2024.05.15.594274](https://www.biorxiv.org/content/10.1101/2024.05.15.594274v1) • [code](https://github.com/Edapinenut/GeoAB)
+[bioRxiv 2024.05.15.594274](https://www.biorxiv.org/content/10.1101/2024.05.15.594274v1)/[ICML 2024](https://openreview.net/forum?id=6pHP51F55x) • [code](https://github.com/Edapinenut/GeoAB)
 
 **Topological Neural Networks go Persistent, Equivariant, and Continuous**  
 Yogesh Verma, Amauri H Souza, Vikas Garg  
