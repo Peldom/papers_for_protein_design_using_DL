@@ -18,6 +18,9 @@
     + [[arXiv:2408.08341](https://arxiv.org/abs/2408.08341)] • [[code](https://github.com/LabJunBMI/Latent-Space-Peptide-Analogues-Generation)]
 +   Large protein databases reveal structural complementarity and functional locality
     + [[bioRxiv 2024.08.14.607935](https://www.biorxiv.org/content/10.1101/2024.08.14.607935v1)] • [[code](https://github.com/Tomasz-Lab/protein-structure-landscape)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/08/14/2024.08.14.607935/DC1/embed/media-1.pdf)] • [[website](https://protein-structure-landscape.sano.science/)]
++   OPUS-Design: Designing Protein Sequence from Backbone Structure with 3DCNN and Protein Language Model
+    + [[bioRxiv 2024.08.20.608889](https://www.biorxiv.org/content/10.1101/2024.08.20.608889v1)] • [[code](https://github.com/OPUS-MaLab/opus_design)]
+
 
 ------
 <p align="center">
@@ -1138,6 +1141,10 @@ Leonardo V Castorina, Suleyman Mert Ünal, Kartic Subr, Christopher W Wood
 **Biosensor and machine learning-aided engineering of an amaryllidaceae enzyme**  
 Simon d’Oelsnitz, Daniel J. Diaz, Wantae Kim, Daniel J. Acosta, Tyler L. Dangerfield, Mason W. Schechter, Matthew B. Minus, James R. Howard, Hannah Do, James M. Loy, Hal S. Alper, Y. Jessie Zhang & Andrew D. Ellington  
 [Nature Communications 15.1 (2024)](https://www.nature.com/articles/s41467-024-46356-y) • [code1](https://github.com/danny305/MutComputeX), [code2](https://github.com/simonsnitz/plotting)
+
+**OPUS-Design: Designing Protein Sequence from Backbone Structure with 3DCNN and Protein Language Model**  
+Gang Xu, Yulu Yang, Yiqiu Zhang, Qinghua Wang, Jianpeng Ma  
+[bioRxiv 2024.08.20.608889](https://www.biorxiv.org/content/10.1101/2024.08.20.608889v1) • [code](https://github.com/OPUS-MaLab/opus_design)
 
 ### 4.5 GNN-based
 
