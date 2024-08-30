@@ -9,17 +9,9 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.08.23:*  
-+   Miniaturizing, Modifying, and Augmenting Nature's Proteins with Raygun
-    + [[bioRxiv 2024.08.13.607858](https://www.biorxiv.org/content/10.1101/2024.08.13.607858v1)] • [[code](https://github.com/rohitsinghlab/raygun)]
-+   P(all-atom) Is Unlocking New Path For Protein Design
-    + [[bioRxiv 2024.08.16.608235](https://www.biorxiv.org/content/10.1101/2024.08.16.608235v1)] • [[code](https://github.com/levinthal/Pallatom)] • [[news](https://mp.weixin.qq.com/s/j86-ncoYMM2gfbvTJX6I7w)]
-+   Exploring Latent Space for Generating Peptide Analogs Using Protein Language Models
-    + [[arXiv:2408.08341](https://arxiv.org/abs/2408.08341)] • [[code](https://github.com/LabJunBMI/Latent-Space-Peptide-Analogues-Generation)]
-+   Large protein databases reveal structural complementarity and functional locality
-    + [[bioRxiv 2024.08.14.607935](https://www.biorxiv.org/content/10.1101/2024.08.14.607935v1)] • [[code](https://github.com/Tomasz-Lab/protein-structure-landscape)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/08/14/2024.08.14.607935/DC1/embed/media-1.pdf)] • [[website](https://protein-structure-landscape.sano.science/)]
-+   OPUS-Design: Designing Protein Sequence from Backbone Structure with 3DCNN and Protein Language Model
-    + [[bioRxiv 2024.08.20.608889](https://www.biorxiv.org/content/10.1101/2024.08.20.608889v1)] • [[code](https://github.com/OPUS-MaLab/opus_design)]
+*Papers last week, updated on 2024.08.30:*  
++   Hybrid Diffusion Model for Stable, Affinity-Driven, Receptor-Aware Peptide Generation
+    + [[J. Chem. Inf. Model. 2024](https://pubs.acs.org/doi/10.1021/acs.jcim.4c01020)] • [[code](https://github.com/ComputationalBiologyLab-IIITH/HYDRA)]
 
 
 ------
@@ -2367,6 +2359,10 @@ Paulina Kulytė, Francisco Vargas, Simon Valentin Mathis, Yu Guang Wang, José M
 **Antibody Design Using a Score-based Diffusion Model Guided by Evolutionary, Physical and Geometric Constraints**  
 Tian Zhu, Milong Ren, Haicang Zhang  
 [ICML 2024](https://openreview.net/forum?id=1YsQI04KaN) • [code](https://github.com/zhanghaicang/carbonmatrix_public)
+
+**Hybrid Diffusion Model for Stable, Affinity-Driven, Receptor-Aware Peptide Generation**  
+Vishva Saravanan R, Soham Choudhuri, Bhaswar Ghosh  
+[J. Chem. Inf. Model. 2024](https://pubs.acs.org/doi/10.1021/acs.jcim.4c01020) • [code](https://github.com/ComputationalBiologyLab-IIITH/HYDRA)
 
 ### 6.3 RoseTTAFold-based
 
