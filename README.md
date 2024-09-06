@@ -9,10 +9,19 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.08.30:*  
-+   Hybrid Diffusion Model for Stable, Affinity-Driven, Receptor-Aware Peptide Generation
-    + [[J. Chem. Inf. Model. 2024](https://pubs.acs.org/doi/10.1021/acs.jcim.4c01020)] • [[code](https://github.com/ComputationalBiologyLab-IIITH/HYDRA)]
-
+*Papers last week, updated on 2024.09.06:*  
++   Computational design of serine hydrolases
+    + [[bioRxiv 2024.08.29.610411](https://www.biorxiv.org/content/10.1101/2024.08.29.610411v1)]
++   De novo design of Ras isoform selective binders
+    + [[bioRxiv 2024.08.29.610300](https://www.biorxiv.org/content/10.1101/2024.08.29.610300v1)]
++   De novo design of high-affinity protein binders with AlphaProteo
+    + [[DeepMind Preprint](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/Protein_Design_White_Paper_2024.pdf)] • [[blog](https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/)]
++   Leveraging Deep Generative Model For Computational Protein Design And Optimization
+    + [[arXiv:2408.17241](https://arxiv.org/abs/2408.17241)] • PhD thesis
++   Antibody-SGM, a Score-Based Generative Model for Antibody Heavy-Chain Design
+    + [[Journal of Chemical Information and Modeling (2024)](https://pubs.acs.org/doi/10.1021/acs.jcim.4c00711)] • [[code](https://github.com/xxiexuezhi/ABSGM)]
++   AI-accelerated therapeutic antibody development: practical insights
+    + [[Frontiers in Drug Discovery 4 (2024)](https://www.frontiersin.org/journals/drug-discovery/articles/10.3389/fddsv.2024.1447867/full)]
 
 ------
 <p align="center">
@@ -559,6 +568,10 @@ Daniel Keri, Matt Walker, Isha Singh, Kyle Nishikawa, Fernando Garces
 Sara Joubbi, Alessio Micheli, Paolo Milazzo, Giuseppe Maccari, Giorgio Ciano, Dario Cardamone, Duccio Medini  
 [Briefings in Bioinformatics, Volume 25, Issue 4, July 2024, bbae307](https://academic.oup.com/bib/article/25/4/bbae307/7705535)
 
+**AI-accelerated therapeutic antibody development: practical insights**  
+Luca Santuari, Marianne Bachmann Salvy, Ioannis Xenarios, Bulak Arpat  
+[Frontiers in Drug Discovery 4 (2024)](https://www.frontiersin.org/journals/drug-discovery/articles/10.3389/fddsv.2024.1447867/full)
+
 ### 1.3 Peptide design
 
 **Deep generative models for peptide design**  
@@ -915,7 +928,7 @@ Brookes, David, Hahnbeom Park, and Jennifer Listgarten.
 
 **IG-VAE: generative modeling of immunoglobulin proteins by direct 3D coordinate generation**  
 Raphael R. Eguchi, Christian A. Choe, Po-Ssu Huang  
-[Biorxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.08.07.242347v2) • without code •  
+[Biorxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.08.07.242347v2) • without code  
 
 **Generating tertiary protein structures via an interpretative variational autoencoder**  
 Xiaojie Guo, Yuanqi Du, Sivani Tadepalli, Liang Zhao, Amarda Shehu  
@@ -932,6 +945,10 @@ Boqiao Lai, matthew McPartlon, Jinbo Xu
 **Deep Generative Design of Epitope-Specific Binding Proteins by Latent Conformation Optimization**  
 Raphael R Eguchi, Christian A Choe, Udit Parekh, Irene S Khalek, Michael D Ward, Neha Vithani, Gregory R Bowman, Joseph G Jardine, Possu Huang  
 [bioRxiv 2022.12.22.521698](https://www.biorxiv.org/content/10.1101/2022.12.22.521698v1)
+
+**Leveraging Deep Generative Model For Computational Protein Design And Optimization**  
+Boqiao Lai  
+[arXiv:2408.17241](https://arxiv.org/abs/2408.17241) • PhD thesis
 
 ### 3.3 DAE-based
 
@@ -1136,7 +1153,7 @@ Simon d’Oelsnitz, Daniel J. Diaz, Wantae Kim, Daniel J. Acosta, Tyler L. Dange
 
 **OPUS-Design: Designing Protein Sequence from Backbone Structure with 3DCNN and Protein Language Model**  
 Gang Xu, Yulu Yang, Yiqiu Zhang, Qinghua Wang, Jianpeng Ma  
-[bioRxiv 2024.08.20.608889](https://www.biorxiv.org/content/10.1101/2024.08.20.608889v1) • [code](https://github.com/OPUS-MaLab/opus_design)
+[bioRxiv 2024.08.20.608889](https://www.biorxiv.org/content/10.1101/2024.08.20.608889v2) • [code](https://github.com/OPUS-MaLab/opus_design)
 
 ### 4.5 GNN-based
 
@@ -1491,7 +1508,7 @@ Bo Ni, David L. Kaplan, Markus J. Buehler
 
 **Graph Denoising Diffusion for Inverse Protein Folding**  
 Kai Yi, Bingxin Zhou, Yiqing Shen, Pietro Liò, Yu Guang Wang  
-[arXiv:2306.16819](https://arxiv.org/abs/2306.16819) • [code](https://github.com/ykiiiiii/GraDe_IF)
+[arXiv:2306.16819](https://arxiv.org/abs/2306.16819)/[NeurIPS 2023](https://openreview.net/forum?id=u4YXKKG5dX) • [code](https://github.com/ykiiiiii/GraDe_IF)
 
 **Conditional Protein Denoising Diffusion Generates Programmable Endonucleases**  
 Bingxin Zhou, Lirong Zheng, Banghao Wu, Kai Yi, Bozitao Zhong, Pietro Lio, Liang Hong  
@@ -1953,7 +1970,7 @@ Justin Barton, Aretas Gaspariunas, David A Yadin, Jorge Dias, Francesca L Nice, 
 
 **Decoupled Sequence and Structure Generation for Realistic Antibody Design**  
 Nayoung Kim, Minsu Kim, Sungsoo Ahn, Jinkyoo Park  
-[arXiv:2402.05982](https://arxiv.org/abs/2402.05982) • [code](https://github.com/lkny123/ASSD_public)
+[arXiv:2402.05982](https://arxiv.org/abs/2402.05982)/[Under review for TMLR](https://openreview.net/forum?id=CTkABQvnkm) • [code](https://github.com/lkny123/ASSD_public)
 
 **MoFormer: Multi-objective Antimicrobial Peptide Generation Based on Conditional Transformer Joint Multi-modal Fusion Descriptor**  
 Li Wang, Xiangzheng Fu, Jiahao Yang, Xinyi Zhang, Xiucai Ye, Yiping Liu, Tetsuya Sakurai, Xiangxiang Zeng  
@@ -1970,6 +1987,10 @@ Zhiyuan Chen, Tianhao Chen, Chenggang Xie, Yang Xue, Xiaonan Zhang, Jingbo Zhou,
 **A foundation model approach to guide antimicrobial peptide design in the era of artificial intelligence driven scientific discovery**  
 Jike Wang, Jianwen Feng, Yu Kang, Peichen Pan, Jingxuan Ge, Yan Wang, Mingyang Wang, Zhenxing Wu, Xingcai Zhang, Jiameng Yu, Xujun Zhang, Tianyue Wang, Lirong Wen, Guangning Yan, Yafeng Deng, Hui Shi, Chang-Yu Hsieh, Zhihui Jiang, Tingjun Hou  
 [arXiv:2407.12296](https://arxiv.org/abs/2407.12296) • [code](https://github.com/jkwang93/AMP-Designer)
+
+**Conditional Sequence-Structure Integration: A Novel Approach for Precision Antibody Engineering and Affinity Optimization**  
+Benyamin Jamialahmadi, Mahmood Chamankhah, Mohammad Kohandel, Ali Ghodsi
+[bioRxiv 2024.07.16.603820](https://www.biorxiv.org/content/10.1101/2024.07.16.603820v1) • [blog](https://simplescience.ai/en/2024-08-28-advancements-in-antibody-design-with-aida-method--an1v4d)
 
 **moPPIt: De Novo Generation of Motif-Specific Binders with Protein Language Models**  
 Tong Chen, Yinuo Zhang, Pranam Chatterjee  
@@ -2360,9 +2381,17 @@ Paulina Kulytė, Francisco Vargas, Simon Valentin Mathis, Yu Guang Wang, José M
 Tian Zhu, Milong Ren, Haicang Zhang  
 [ICML 2024](https://openreview.net/forum?id=1YsQI04KaN) • [code](https://github.com/zhanghaicang/carbonmatrix_public)
 
+**Antibody-SGM, a Score-Based Generative Model for Antibody Heavy-Chain Design**  
+Xuezhi Xie, Pedro A. Valiente, Jin Sub Lee, Jisun Kim, Philip M. Kim  
+[Journal of Chemical Information and Modeling (2024)](https://pubs.acs.org/doi/10.1021/acs.jcim.4c00711) • [code](https://github.com/xxiexuezhi/ABSGM)
+
 **Hybrid Diffusion Model for Stable, Affinity-Driven, Receptor-Aware Peptide Generation**  
 Vishva Saravanan R, Soham Choudhuri, Bhaswar Ghosh  
 [J. Chem. Inf. Model. 2024](https://pubs.acs.org/doi/10.1021/acs.jcim.4c01020) • [code](https://github.com/ComputationalBiologyLab-IIITH/HYDRA)
+
+**De novo design of high-affinity protein binders with AlphaProteo**  
+Vinicius Zambaldi, David La, Alexander E. Chu, Harshnira Patani, Amy E. Danson, Tristan O. C., Kwan, Thomas Frerix, Rosalia G. Schneider, David Saxton, Ashok Thillaisundaram, Zachary Wu, Isabel Moraes, Oskar Lange, Eliseo Papa, Gabriella Stanton, Victor Martin, Sukhdeep Singh, Lai H. Wong, Russ Bates, Simon A. Kohl, Josh Abramson, Andrew W. Senior, Yilmaz Alguel, Mary Y. Wu, Irene M. Aspalter, Katie Bentley, David L.V. Bauer, Peter Cherepanov, Demis Hassabis, Pushmeet Kohli, Rob Fergus, and Jue Wang  
+[DeepMind Preprint](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/Protein_Design_White_Paper_2024.pdf) • [blog](https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/)
 
 ### 6.3 RoseTTAFold-based
 
@@ -2421,6 +2450,14 @@ David E. Kim, Joseph L. Watson, David Juergens, Sagardip Majumder, Stacey R. Ger
 **Computational design of highly active de novo enzymes**  
 Markus Braun, Adrian Tripp, Morakot Chakatok, Sigrid Kaltenbrunner, Massimo G. Totaro, David Stoll, Aleksandar Bijelic, Wael Elaily, Shlomo Yakir Yakir Hoch, Matteo Aleotti, Melanie Hall, Gustav Oberdorfer  
 [bioRxiv 2024.08.02.606416](https://www.biorxiv.org/content/10.1101/2024.08.02.606416v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/08/03/2024.08.02.606416/DC1/embed/media-1.pdf)
+
+**Computational design of serine hydrolases**  
+Anna Lauko, Samuel J Pellock, Ivan Anischanka, Kiera H Sumida, David Juergens, Woody Ahern, Alex Shida, Andrew Hunt, Indrek Kalvet, Christoffer Norn, Ian R Humphreys, Cooper S Jamieson, Alex Kang, Evans Brackenbrough, Banumathi Sankaran, K N Houk, David Baker  
+[bioRxiv 2024.08.29.610411](https://www.biorxiv.org/content/10.1101/2024.08.29.610411v1)
+
+**De novo design of Ras isoform selective binders**  
+Jason Zhaoxing Zhang, Xinting Li, Caixuan Liu, Hanlun Jiang, Kejia Wu, David Baker  
+[bioRxiv 2024.08.29.610300](https://www.biorxiv.org/content/10.1101/2024.08.29.610300v1)
 
 ### 6.4 CNN-based
 
