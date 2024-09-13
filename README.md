@@ -9,19 +9,14 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.09.06:*  
-+   Computational design of serine hydrolases
-    + [[bioRxiv 2024.08.29.610411](https://www.biorxiv.org/content/10.1101/2024.08.29.610411v1)]
-+   De novo design of Ras isoform selective binders
-    + [[bioRxiv 2024.08.29.610300](https://www.biorxiv.org/content/10.1101/2024.08.29.610300v1)]
-+   De novo design of high-affinity protein binders with AlphaProteo
-    + [[DeepMind Preprint](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/Protein_Design_White_Paper_2024.pdf)] • [[blog](https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/)]
-+   Leveraging Deep Generative Model For Computational Protein Design And Optimization
-    + [[arXiv:2408.17241](https://arxiv.org/abs/2408.17241)] • PhD thesis
-+   Antibody-SGM, a Score-Based Generative Model for Antibody Heavy-Chain Design
-    + [[Journal of Chemical Information and Modeling (2024)](https://pubs.acs.org/doi/10.1021/acs.jcim.4c00711)] • [[code](https://github.com/xxiexuezhi/ABSGM)]
-+   AI-accelerated therapeutic antibody development: practical insights
-    + [[Frontiers in Drug Discovery 4 (2024)](https://www.frontiersin.org/journals/drug-discovery/articles/10.3389/fddsv.2024.1447867/full)]
+*Papers last week, updated on 2024.09.13:*  
++   AbGPT: De Novo Antibody Design via Generative Language Modeling
+    + [[arXiv:2409.06090](https://arxiv.org/abs/2409.06090v1)] • [[code](https://github.com/deskk/AbGPT)]
++   The Protein Design Archive (PDA): insights from 40 years of protein design
+    + [[bioRxiv 2024.09.05.611465](https://www.biorxiv.org/content/10.1101/2024.09.05.611465v1)] • [[code](https://github.com/wells-wood-research/chronowska-stam-wood-2024-protein-design-archive)] • [[Supplementary](hhttps://www.biorxiv.org/content/biorxiv/early/2024/09/07/2024.09.05.611465/DC1/embed/media-1.docx)] • [[website](https://pragmaticproteindesign.bio.ed.ac.uk/pda/)]
++   ProteinBench: A Holistic Evaluation of Protein Foundation Models
+    + [[arXiv:2409.06744](https://arxiv.org/abs/2409.06744)] • [[code](https://proteinbench.github.io/)]
+
 
 ------
 <p align="center">
@@ -276,6 +271,14 @@ Nataša Tagasovska, Ji Won Park, Matthieu Kirchmeyer, Nathan C. Frey, Andrew Mar
 **Large protein databases reveal structural complementarity and functional locality**  
 Paweł Szczerbiak, Lukasz Szydlowski, Witold Wydmański, P. Douglas Renfrew, Julia Koehler Leman, Tomasz Kosciolek  
 [bioRxiv 2024.08.14.607935](https://www.biorxiv.org/content/10.1101/2024.08.14.607935v1) • [code](https://github.com/Tomasz-Lab/protein-structure-landscape) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/08/14/2024.08.14.607935/DC1/embed/media-1.pdf) • [website](https://protein-structure-landscape.sano.science/)
+
+**The Protein Design Archive (PDA): insights from 40 years of protein design** 
+Marta Chronowska, Michael J. Stam, Derek N. Woolfson, Luigi F. Di Constanzo, Christopher W. Wood  
+[bioRxiv 2024.09.05.611465](https://www.biorxiv.org/content/10.1101/2024.09.05.611465v1) • [code](https://github.com/wells-wood-research/chronowska-stam-wood-2024-protein-design-archive) • [Supplementary](hhttps://www.biorxiv.org/content/biorxiv/early/2024/09/07/2024.09.05.611465/DC1/embed/media-1.docx) • [website](https://pragmaticproteindesign.bio.ed.ac.uk/pda/)
+
+**ProteinBench: A Holistic Evaluation of Protein Foundation Models**  
+Fei Ye, Zaixiang Zheng, Dongyu Xue, Yuning Shen, Lihao Wang, Yiming Ma, Yan Wang, Xinyou Wang, Xiangxin Zhou, Quanquan Gu  
+[arXiv:2409.06744](https://arxiv.org/abs/2409.06744) • [code](https://proteinbench.github.io/)
 
 ### 0.3 Databases
 
@@ -1530,6 +1533,10 @@ Xinyou Wang, Zaixiang Zheng, Fei Ye, Dongyu Xue, Shujian Huang, Quanquan Gu
 Levinthal  
 paper not available • [news](https://mp.weixin.qq.com/s/Iex0YndimhLDM0mASp1MtA) • commercial
 
+**A conditional protein diffusion model generates artificial programmable endonuclease sequences with enhanced activity**  
+Bingxin Zhou, Lirong Zheng, Banghao Wu, Kai Yi, Bozitao Zhong, Yang Tan, Qian Liu, Pietro Liò, Liang Hong  
+[bioRxiv 2023.08.10.552783](https://www.biorxiv.org/content/10.1101/2023.08.10.552783v2)/[Cell Discovery 10.1 (2024)](https://www.nature.com/articles/s41421-024-00728-2) • [code](https://github.com/bzho3923/CPDiffusion)
+
 ### 4.10 Bayesian-based
 
 **Inverse Protein Folding Using Deep Bayesian Optimization**  
@@ -2008,6 +2015,10 @@ Kamyar Zeinalipour, Neda Jamshidi, Monica Bianchini, Marco Maggini, Marco Gori
 Kapil Devkota, Daichi Shonai, Joey Mao, Scott H Soderling, Rohit Singh  
 [bioRxiv 2024.08.13.607858](https://www.biorxiv.org/content/10.1101/2024.08.13.607858v1) • [code](https://github.com/rohitsinghlab/raygun)
 
+**AbGPT: De Novo Antibody Design via Generative Language Modeling**  
+Desmond Kuan, Amir Barati Farimani  
+[arXiv:2409.06090](https://arxiv.org/abs/2409.06090v1) • [code](https://github.com/deskk/AbGPT)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**  
@@ -2211,7 +2222,7 @@ Paper unavailable • [github](https://github.com/pengzhangzhi/protein-sequence-
 
 **Protein Design with Guided Discrete Diffusion**  
 Nate Gruver, Samuel Stanton, Nathan C. Frey, Tim G. J. Rudner, Isidro Hotzel, Julien Lafrance-Vanasse, Arvind Rajpal, Kyunghyun Cho, Andrew Gordon Wilson  
-[arXiv:2305.20009](https://arxiv.org/abs/2305.20009) • [code](https://github.com/ngruver/NOS) • [lecture](https://www.youtube.com/watch?v=Hm8Z0SIyLqw)
+[arXiv:2305.20009](https://arxiv.org/abs/2305.20009)/[Advances in neural information processing systems, 2024](https://openreview.net/forum?id=MfiK69Ga6p) • [code](https://github.com/ngruver/NOS) • [lecture](https://www.youtube.com/watch?v=Hm8Z0SIyLqw)
 
 **PRO-LDM: Protein Sequence Generation with Conditional Latent Diffusion Models**  
 Zixuan Jiang, Sitao Zhang, Rundong Huang, Shaoxun Mo, Letao Zhu, Peiheng Li, Ziyi Zhang, Xi Chen, Yunfei Long, Renjing Xu, Rui Qing  
