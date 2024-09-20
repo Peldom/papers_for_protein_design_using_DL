@@ -9,13 +9,11 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.09.13:*  
-+   AbGPT: De Novo Antibody Design via Generative Language Modeling
-    + [[arXiv:2409.06090](https://arxiv.org/abs/2409.06090v1)] • [[code](https://github.com/deskk/AbGPT)]
-+   The Protein Design Archive (PDA): insights from 40 years of protein design
-    + [[bioRxiv 2024.09.05.611465](https://www.biorxiv.org/content/10.1101/2024.09.05.611465v1)] • [[code](https://github.com/wells-wood-research/chronowska-stam-wood-2024-protein-design-archive)] • [[Supplementary](hhttps://www.biorxiv.org/content/biorxiv/early/2024/09/07/2024.09.05.611465/DC1/embed/media-1.docx)] • [[website](https://pragmaticproteindesign.bio.ed.ac.uk/pda/)]
-+   ProteinBench: A Holistic Evaluation of Protein Foundation Models
-    + [[arXiv:2409.06744](https://arxiv.org/abs/2409.06744)] • [[code](https://proteinbench.github.io/)]
+*Papers last week, updated on 2024.09.20:*  
++   Design of Ligand-Binding Proteins with Atomic Flow Matching
+    + [[arXiv:2409.12080](https://arxiv.org/abs/2409.12080)]
++   Target-conditioned diffusion generates potent TNFR superfamily antagonists and agonists
+    + [[bioRxiv 2024.09.13.612773](https://www.biorxiv.org/content/10.1101/2024.09.13.612773v1)]
 
 
 ------
@@ -1072,6 +1070,10 @@ Jason Yim, Andrew Campbell, Andrew Y. K. Foong, Michael Gastegger, José Jiméne
 Guillaume Huguet, James Vuckovic, Kilian Fatras, Eric Thibodeau-Laufer, Pablo Lemos, Riashat Islam, Cheng-Hao Liu, Jarrid Rector-Brooks, Tara Akhound-Sadegh, Michael Bronstein, Alexander Tong, Avishek Joey Bose  
 [arXiv:2405.20313](https://arxiv.org/abs/2405.20313) • [website](https://www.dreamfold.ai/blog/foldflow-2)
 
+**Design of Ligand-Binding Proteins with Atomic Flow Matching**  
+Junqi Liu, Shaoning Li, Chence Shi, Zhi Yang, Jian Tang  
+[arXiv:2409.12080](https://arxiv.org/abs/2409.12080)
+
 ## 4.Scaffold to Sequence
 
 > Identify amino sequence from given backbone/scaffold/template constrains: torsion angles(φ & ψ), backbone angles(θ and τ), backbone dihedrals (φ, ψ & ω), backbone atoms (Cα, N, C, & O), Cα − Cα distance, unit direction vectors of Cα−Cα, Cα−N & Cα−C, etc(aka. inverse folding). Referred from [here](https://arxiv.org/abs/2202.01079). Energy-based models are also inculded for task of rotamer conformation(χ angles or atom coordinates) recovery.  
@@ -1327,7 +1329,7 @@ Timothy F. Huddy, Yang Hsia, Ryan D. Kibler, Jinwei Xu, Neville Bethel, Deepesh 
 
 **All-atom protein sequence design based on geometric deep learning**  
 Jiale Liu, Zheng Guo, Changsheng Zhang, Luhua Lai  
-[bioRxiv 2024.03.18.585651](https://www.biorxiv.org/content/10.1101/2024.03.18.585651v1) • [code](https://github.com/PKUliujl/GesSeqBuilder)
+[bioRxiv 2024.03.18.585651](https://www.biorxiv.org/content/10.1101/2024.03.18.585651v1)/[Angew. Chem. Int. Ed. 2024](https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202411461) • [code](https://github.com/PKUliujl/GesSeqBuilder)
 
 **Graphormer supervised de novo protein design method and function validation**  
 Junxi Mu, Zhengxin Li, Bo Zhang, Qi Zhang, Jamshed Iqbal,   Abdul Wadood, Ting Wei, Yan Feng, Hai-Feng Chen  
@@ -2402,7 +2404,7 @@ Vishva Saravanan R, Soham Choudhuri, Bhaswar Ghosh
 
 **De novo design of high-affinity protein binders with AlphaProteo**  
 Vinicius Zambaldi, David La, Alexander E. Chu, Harshnira Patani, Amy E. Danson, Tristan O. C., Kwan, Thomas Frerix, Rosalia G. Schneider, David Saxton, Ashok Thillaisundaram, Zachary Wu, Isabel Moraes, Oskar Lange, Eliseo Papa, Gabriella Stanton, Victor Martin, Sukhdeep Singh, Lai H. Wong, Russ Bates, Simon A. Kohl, Josh Abramson, Andrew W. Senior, Yilmaz Alguel, Mary Y. Wu, Irene M. Aspalter, Katie Bentley, David L.V. Bauer, Peter Cherepanov, Demis Hassabis, Pushmeet Kohli, Rob Fergus, and Jue Wang  
-[DeepMind Preprint](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/Protein_Design_White_Paper_2024.pdf) • [blog](https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/)
+[DeepMind Preprint](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/Protein_Design_White_Paper_2024.pdf)/[arXiv:2409.08022](https://arxiv.org/abs/2409.08022) • [blog](https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/)
 
 ### 6.3 RoseTTAFold-based
 
@@ -2479,6 +2481,10 @@ Pablo Gainza, Sarah Wehrle, Alexandra Van Hall-Beauvais, Anthony Marchand, Andre
 **Targeting protein-ligand neosurfaces using a generalizable deep learning approach**  
 Anthony Marchand, Stephen Buckley, Arne Schneuing, Martin Pacesa, Pablo Gainza, Evgenia Elizarova, Rebecca Manuela Neeser, Pao-Wan Lee, Luc Reymond, Maddalena Elia, Leo Scheller, Sandrine Georgeon, Joseph Schmidt, Philippe Schwaller, Sebastian Josef Maerkl, Michael Bronstein, Bruno Emmanuel Correia  
 [bioRxiv 2024.03.25.585721](https://www.biorxiv.org/content/10.1101/2024.03.25.585721v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/28/2024.03.25.585721/DC1/embed/media-1.pdf) • [code](https://github.com/LPDI-EPFL/masif-neosurf)
+
+**Target-conditioned diffusion generates potent TNFR superfamily antagonists and agonists**  
+Matthias Glögl, Aditya Krishnakumar, Robert J. Ragotte, Inna Goreshnik, Brian Coventry, Asim K. Bera, Alex Kang, Emily Joyce, Green Ahn, Buwei Huang, Wei Yang, Wei Chen, Mariana Garcia Sanchez, Brian Koepnick, David Baker  
+[bioRxiv 2024.09.13.612773](https://www.biorxiv.org/content/10.1101/2024.09.13.612773v1)
 
 ### 6.5 GNN-based
 
