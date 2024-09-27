@@ -9,12 +9,23 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.09.20:*  
-+   Design of Ligand-Binding Proteins with Atomic Flow Matching
-    + [[arXiv:2409.12080](https://arxiv.org/abs/2409.12080)]
-+   Target-conditioned diffusion generates potent TNFR superfamily antagonists and agonists
-    + [[bioRxiv 2024.09.13.612773](https://www.biorxiv.org/content/10.1101/2024.09.13.612773v1)]
-
+*Papers last week, updated on 2024.09.27:*  
++   CodonMPNN for Organism Specific and Codon Optimal Inverse Folding
+    + [[arXiv:2409.17265](https://arxiv.org/abs/2409.17265)] • ProteinMPNN-based • [[code](https://github.com/HannesStark/CodonMPNN)]
++   IgGM: A Generative Model for Functional Antibody and Nanobody Design
+    + [[bioRxiv 2024.09.19.613838](https://www.biorxiv.org/content/10.1101/2024.09.19.613838v1)] • [[code](https://github.com/TencentAI4S/IgGM)]
++   EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow-Matching and Co-Evolutionary Dynamics
+    + paper not available • [[code](https://github.com/WillHua127/EnzymeFlow)]
++   De novo Design of A Fusion Protein Tool for GPCR Research
+    + [[bioRxiv 2024.09.14.613090](https://www.biorxiv.org/content/10.1101/2024.09.14.613090v1)] • RFdiffusion-based
++   De novo Design of A Fusion Protein Tool for GPCR Research
+    + [[bioRxiv 2024.09.14.613090](https://www.biorxiv.org/content/10.1101/2024.09.14.613090v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/09/15/2024.09.14.613090/DC1/embed/media-1.pdf)] • RFdiffusion-based
++   Text2Protein: A Generative Model for Designated Protein Design on Given Description
+    + [[PREPRINT (Version 1) available at Research Square](https://doi.org/10.21203/rs.3.rs-4868665/v1)] • [[code](https://github.com/szhan227/text2protein)]
++   PepINVENT: Generative peptide design beyond the natural amino acids
+    + [[arXiv:2409.14040](https://arxiv.org/abs/2409.14040)]
++   BetterBodies: Reinforcement Learning guided Diffusion for Antibody Sequence Design
+    + [[arXiv:2409.16298](https://arxiv.org/abs/2409.16298)]
 
 ------
 <p align="center">
@@ -901,7 +912,7 @@ Andrew Kirjner, Jason Yim, Raman Samusevich, Tommi Jaakkola, Regina Barzilay, Il
 
 ## 3. Function to Scaffold
 
-> These models design backbone/scaffold/template in Cartesian coordinates, contact maps, distance maps and φ & ψ angles.
+> These models design backbone/scaffold/template in Cartesian coordinates, contact maps, distance maps and φ & ψ angles. Including conditional/unconditional generative models.
 
 ### 3.1 GAN-based
 
@@ -1045,6 +1056,14 @@ Yeqing Lin, Minji Lee, Zhao Zhang, Mohammed AlQuraishi
 **Floating Anchor Diffusion Model for Multi-motif Scaffolding**  
 Ke Liu, Weian Mao, Shuaike Shen, Xiaoran Jiao, Zheng Sun, Hao Chen, Chunhua Shen  
 [ICML 2024](https://proceedings.mlr.press/v235/liu24av.html)/[arXiv:2406.03141](https://arxiv.org/abs/2406.03141) • [code](https://github.com/aim-uofa/FADiff) • [poster](https://icml.cc/virtual/2024/poster/34654)
+
+**De novo Design of A Fusion Protein Tool for GPCR Research**  
+Kaixuan Gao, Xin Zhang, Jia Nie, Hengyu Meng, Weishe Zhang, Boxue Tian, Xiangyu Liu
+[bioRxiv 2024.09.14.613090](https://www.biorxiv.org/content/10.1101/2024.09.14.613090v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/09/15/2024.09.14.613090/DC1/embed/media-1.pdf) • RFdiffusion-based
+
+**Text2Protein: A Generative Model for Designated Protein Design on Given Description**  
+Ramtin Hosseini, Siyang Zhang, Pengtao Xie  
+[PREPRINT (Version 1) available at Research Square](https://doi.org/10.21203/rs.3.rs-4868665/v1) • [code](https://github.com/szhan227/text2protein)
 
 ### 3.6 RL-based
 
@@ -1370,6 +1389,10 @@ Oliver Dutton, Sandro Bottaro, Michele Invernizzi, Istvan Redl, Albert Chung, Ca
 **Kernel-Based Evaluation of Conditional Biological Sequence Models**  
 Pierre Glaser, Steffanie Paul, Alissa M Hummer, Charlotte Deane, Debora Susan Marks, Alan Nawzad Amin  
 [Proceedings of the 41st International Conference on Machine Learning, PMLR 235:15678-15705, 2024](https://proceedings.mlr.press/v235/glaser24a.html) • ProteinMPNN-based
+
+**CodonMPNN for Organism Specific and Codon Optimal Inverse Folding**  
+Hannes Stark, Umesh Padia, Julia Balla, Cameron Diao, George Church  
+[arXiv:2409.17265](https://arxiv.org/abs/2409.17265) • ProteinMPNN-based • [code](https://github.com/HannesStark/CodonMPNN)
 
 ### 4.6 GAN-based
 
@@ -2021,6 +2044,10 @@ Kapil Devkota, Daichi Shonai, Joey Mao, Scott H Soderling, Rohit Singh
 Desmond Kuan, Amir Barati Farimani  
 [arXiv:2409.06090](https://arxiv.org/abs/2409.06090v1) • [code](https://github.com/deskk/AbGPT)
 
+**PepINVENT: Generative peptide design beyond the natural amino acids**  
+Gökçe Geylan, Jon Paul Janet, Alessandro Tibo, Jiazhen He, Atanas Patronov, Mikhail Kabeshov, Florian David, Werngard Czechtizky, Ola Engkvist, Leonardo De Maria  
+[arXiv:2409.14040](https://arxiv.org/abs/2409.14040)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**  
@@ -2116,6 +2143,10 @@ Dan-Xuan Liu, Yi-Heng Xu, Chao Qian
 **Reinforcement Learning for Sequence Design Leveraging Protein Language Models**  
 Jithendaraa Subramanian, Shivakanth Sujit, Niloy Irtisam, Umong Sain, Derek Nowrouzezahrai, Samira Ebrahimi Kahou, Riashat Islam  
 [arXiv:2407.03154](https://arxiv.org/abs/2407.03154)
+
+**BetterBodies: Reinforcement Learning guided Diffusion for Antibody Sequence Design**  
+Yannick Vogt, Mehdi Naouar, Maria Kalweit, Christoph Cornelius Miething, Justus Duyster, Joschka Boedecker, Gabriel Kalweit  
+[arXiv:2409.16298](https://arxiv.org/abs/2409.16298)
 
 ### 5.7 Flow-based
 
@@ -2384,7 +2415,7 @@ Yue Hu, Feng Tao, Jun Wen Lan, Jing Zhang
 
 **Target-Specific De Novo Peptide Binder Design with DiffPepBuilder**  
 Fanhao Wang, Yuzhe Wang, Laiyi Feng, Changsheng Zhang, Luhua Lai  
-[arXiv:2405.00128](https://arxiv.org/abs/2405.00128) • [code](https://github.com/YuzheWangPKU/DiffPepBuilder)
+[arXiv:2405.00128](https://arxiv.org/abs/2405.00128)/[J. Chem. Inf. Model. 2024](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.4c00975) • [code](https://github.com/YuzheWangPKU/DiffPepBuilder)
 
 **Improving Antibody Design with Force-Guided Sampling in Diffusion Models**  
 Paulina Kulytė, Francisco Vargas, Simon Valentin Mathis, Yu Guang Wang, José Miguel Hernández-Lobato, Pietro Liò  
@@ -2422,7 +2453,7 @@ Susana Vázquez Torres, Philip J. Y. Leung, Isaac D. Lutz, Preetham Venkatesh, J
 
 **Joint Generation of Protein Sequence and Structure with RoseTTAFold Sequence Space Diffusion**  
 Sidney Lyayuga Lisanza, Jacob Merle Gershon, Sam Wayne Kenmore Tipps, Lucas Arnoldt, Samuel Hendel, Jeremiah Nelson Sims, Xinting Li, David Baker  
-[bioRxiv 2023.05.08.539766](https://www.biorxiv.org/content/10.1101/2023.05.08.539766v1) • [code](https://github.com/RosettaCommons/protein_generator#proteingenerator-generate-sequence-structure-pairs-with-rosettafold) • [hugging face](https://huggingface.co/spaces/merle/PROTEIN_GENERATOR) • [lecture](https://www.youtube.com/watch?v=bS71K2U0amA)
+[bioRxiv 2023.05.08.539766](https://www.biorxiv.org/content/10.1101/2023.05.08.539766v1)/[Nat Biotechnol (2024)](https://www.nature.com/articles/s41587-024-02395-w) • [code](https://github.com/RosettaCommons/protein_generator#proteingenerator-generate-sequence-structure-pairs-with-rosettafold) • [hugging face](https://huggingface.co/spaces/merle/PROTEIN_GENERATOR) • [lecture](https://www.youtube.com/watch?v=bS71K2U0amA)
 
 **The structural landscape of the immunoglobulin fold by large-scale de novo design**  
 Jorge Roel-Touris, Lourdes Carcelen, Enrique Marcos  
@@ -2572,7 +2603,7 @@ Andrew Campbell, Jason Yim, Regina Barzilay, Tom Rainforth, Tommi Jaakkola
 
 **PPFlow: Target-Aware Peptide Design with Torsional Flow Matching**  
 Haitao Lin, Odin Zhang, Huifeng Zhao, Dejun Jiang, Lirong Wu, Zicheng Liu, Yufei Huang, Stan Z. Li  
-[bioRxiv 2024.03.07.583831](https://www.biorxiv.org/content/10.1101/2024.03.07.583831v1)/[arXiv:2405.06642](https://arxiv.org/abs/2405.06642) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/08/2024.03.07.583831/DC1/embed/media-1.zip)
+[bioRxiv 2024.03.07.583831](https://www.biorxiv.org/content/10.1101/2024.03.07.583831v1)/[arXiv:2405.06642](https://arxiv.org/abs/2405.06642) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/08/2024.03.07.583831/DC1/embed/media-1.zip) • [code](https://github.com/EDAPINENUT/ppflow)
 
 **Full-Atom Peptide Design based on Multi-modal Flow Matching**  
 Jiahan Li, Chaoran Cheng, Zuofan Wu, Ruihan Guo, Shitong Luo, Zhizhou Ren, Jian Peng, Jianzhu Ma  
@@ -2591,6 +2622,14 @@ Ren, Milong, Tian Zhu, and Haicang Zhang
 **P(all-atom) Is Unlocking New Path For Protein Design**  
 Wei Qu, Jiawei Guan, Rui Ma, Ke Zhai, Weikun Wu, Haobo Wang  
 [bioRxiv 2024.08.16.608235](https://www.biorxiv.org/content/10.1101/2024.08.16.608235v1) • [code](https://github.com/levinthal/Pallatom) • [news](https://mp.weixin.qq.com/s/j86-ncoYMM2gfbvTJX6I7w)
+
+**EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow-Matching and Co-Evolutionary Dynamics**  
+Chenqing Hua  
+paper not available • [code](https://github.com/WillHua127/EnzymeFlow)
+
+**IgGM: A Generative Model for Functional Antibody and Nanobody Design**  
+Rubo Wang, Fandi Wu, Xingyu Gao, Jiaxiang Wu, Peilin Zhao, Jianhua Yao  
+[bioRxiv 2024.09.19.613838](https://www.biorxiv.org/content/10.1101/2024.09.19.613838v1) • [code](https://github.com/TencentAI4S/IgGM)
 
 ## 7. Other tasks
 
