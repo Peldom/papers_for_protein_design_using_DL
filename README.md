@@ -9,23 +9,19 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.09.27:*  
-+   CodonMPNN for Organism Specific and Codon Optimal Inverse Folding
-    + [[arXiv:2409.17265](https://arxiv.org/abs/2409.17265)] • ProteinMPNN-based • [[code](https://github.com/HannesStark/CodonMPNN)]
-+   IgGM: A Generative Model for Functional Antibody and Nanobody Design
-    + [[bioRxiv 2024.09.19.613838](https://www.biorxiv.org/content/10.1101/2024.09.19.613838v1)] • [[code](https://github.com/TencentAI4S/IgGM)]
-+   EnzymeFlow: Generating Reaction-specific Enzyme Catalytic Pockets through Flow-Matching and Co-Evolutionary Dynamics
-    + paper not available • [[code](https://github.com/WillHua127/EnzymeFlow)]
-+   De novo Design of A Fusion Protein Tool for GPCR Research
-    + [[bioRxiv 2024.09.14.613090](https://www.biorxiv.org/content/10.1101/2024.09.14.613090v1)] • RFdiffusion-based
-+   De novo Design of A Fusion Protein Tool for GPCR Research
-    + [[bioRxiv 2024.09.14.613090](https://www.biorxiv.org/content/10.1101/2024.09.14.613090v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/09/15/2024.09.14.613090/DC1/embed/media-1.pdf)] • RFdiffusion-based
-+   Text2Protein: A Generative Model for Designated Protein Design on Given Description
-    + [[PREPRINT (Version 1) available at Research Square](https://doi.org/10.21203/rs.3.rs-4868665/v1)] • [[code](https://github.com/szhan227/text2protein)]
-+   PepINVENT: Generative peptide design beyond the natural amino acids
-    + [[arXiv:2409.14040](https://arxiv.org/abs/2409.14040)]
-+   BetterBodies: Reinforcement Learning guided Diffusion for Antibody Sequence Design
-    + [[arXiv:2409.16298](https://arxiv.org/abs/2409.16298)]
+*Papers last week, updated on 2024.10.03:*  
++   Generalized Protein Pocket Generation with Prior-Informed Flow Matching
+    + [[arXiv:2409.19520](https://arxiv.org/abs/2409.19520)]
++   BindCraft: one-shot design of functional protein binders
+    + [[bioRxiv 2024.09.30.615802](https://www.biorxiv.org/content/10.1101/2024.09.30.615802v1)] • [[code](https://github.com/martinpacesa/BindCraftz)]
++   ProteusAI: An Open-Source and User-Friendly Platform for Machine Learning-Guided Protein Design and Engineering
+    + [[bioRxiv 2024.10.01.616114](https://www.biorxiv.org/content/10.1101/2024.10.01.616114v1)] • ProteinMPNN-based • ESM-based
++   Towards deep learning sequence-structure co-generation for protein design
+    + [[arXiv:2410.01773](https://arxiv.org/abs/2410.01773)]
++   Exploring the potential of structure-based deep learning approaches for T cell receptor design
+    + [[PLoS Comput Biol 20(9)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012489)] • ProteinMPNN-based • ESM-based
++   AI-driven antibody design with generative diffusion models: current insights and future directions
+    + [[Acta Pharmacologica Sinica (2024)](https://www.nature.com/articles/s41401-024-01380-y)]
 
 ------
 <p align="center">
@@ -73,7 +69,8 @@
   <a href="#34-mlp-based">MLP-based</a> •
   <a href="#35-diffusion-based">Diffusion-based</a> •
   <a href="#36-rl-based">RL-based</a> •
-  <a href="#37-flow-based">Flow-based</a>
+  <a href="#37-flow-based">Flow-based</a> •
+  <a href="#38-score-based">Score-based</a>
   <br>
   <strong><a href="#4scaffold-to-sequence">4) Scaffold to Sequence</a></strong>
   <br>
@@ -332,6 +329,10 @@ Guides/Tutorials for beginners on GitHub:
 1. [how_to_create_a_protein](https://github.com/universvm/how_to_create_a_protein)
 2. [protein-design-tutorials](https://github.com/ProteinDesignLab/protein-design-tutorials)
 
+Collection of Protein Design Labs:
+
+- [ProteinDesignLabs](https://github.com/Zuricho/ProteinDesignLabs])
+
 ## 1. Reviews
 
 ### 1.1 De novo protein design
@@ -456,6 +457,10 @@ Pranam Chatterjee, Joanna S.G. Slusky, Ora Schueler-Furman, Possu Huang
 **Generative artificial intelligence for de novo protein design**  
 Adam Winnifrith, Carlos Outeiral, Brian Hie  
 [arXiv:2310.09685](https://arxiv.org/abs/2310.09685)
+
+**Intelligent Protein Design and Molecular Characterization Techniques: A Comprehensive Review**  
+Jingjing Wang, Chang Chen, Ge Yao, Junjie Ding, Liangliang Wang and Hui Jiang
+[Molecules 28.23 (2023)](https://www.mdpi.com/1420-3049/28/23/7865)
 
 **Generative models for protein sequence modeling: recent advances and future directions**  
 Mehrsa Mardikoraem, Zirui Wang, Nathaniel Pascual, Daniel Woldring  
@@ -583,6 +588,10 @@ Sara Joubbi, Alessio Micheli, Paolo Milazzo, Giuseppe Maccari, Giorgio Ciano, Da
 **AI-accelerated therapeutic antibody development: practical insights**  
 Luca Santuari, Marianne Bachmann Salvy, Ioannis Xenarios, Bulak Arpat  
 [Frontiers in Drug Discovery 4 (2024)](https://www.frontiersin.org/journals/drug-discovery/articles/10.3389/fddsv.2024.1447867/full)
+
+**AI-driven antibody design with generative diffusion models: current insights and future directions**  
+Xin-heng He, Jun-rui Li, James Xu, Hong Shan, Shi-yi Shen, Si-han Gao & H. Eric Xu  
+[Acta Pharmacologica Sinica (2024)](https://www.nature.com/articles/s41401-024-01380-y)
 
 ### 1.3 Peptide design
 
@@ -789,6 +798,10 @@ Dmitri Zorine, David Baker
 **Design of linear and cyclic peptide binders of different lengths only from a protein target sequence**  
 Qiuzhen Li, Efstathios Nikolaos Vlachos, Patrick Bryant  
 [bioRxiv 2024.06.20.599739](https://www.biorxiv.org/content/10.1101/2024.06.20.599739v1) • [code](https://zenodo.org/records/11543503) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/06/22/2024.06.20.599739/DC1/embed/media-1.pdf)
+
+**BindCraft: one-shot design of functional protein binders**  
+Martin Pacesa, Lennart Nickel, Joseph Schmidt, Ekaterina Pyatova, Christian Schellhaas, Lucas Kissling, Ana Alcaraz-Serna, Yehlin Cho, Kourosh H. Ghamary, Laura Vinue, Brahm J. Yachnin, Andrew M. Wollacott, Stephen Buckley, Sandrine Georgeon, Casper A. Goverde, Georgios N. Hatzopoulos, Pierre Gonczy, Yannick D. Muller, Gerald Schwank, Sergey Ovchinnikov, Bruno E. Correia  
+[bioRxiv 2024.09.30.615802](https://www.biorxiv.org/content/10.1101/2024.09.30.615802v1) • [code](https://github.com/martinpacesa/BindCraftz)
 
 ### 2.3 DMPfold2-based
 
@@ -1093,6 +1106,12 @@ Guillaume Huguet, James Vuckovic, Kilian Fatras, Eric Thibodeau-Laufer, Pablo Le
 Junqi Liu, Shaoning Li, Chence Shi, Zhi Yang, Jian Tang  
 [arXiv:2409.12080](https://arxiv.org/abs/2409.12080)
 
+### 3.8 Score-based
+
+**Score-Based Generative Models for Designing Binding Peptide Backbones**  
+John D Boom, Matthew Greenig, Pietro Sormanni, Pietro Liò  
+[arXiv:2310.07051](https://arxiv.org/abs/2310.07051) • [code](https://github.com/mgreenig/loopgen)
+
 ## 4.Scaffold to Sequence
 
 > Identify amino sequence from given backbone/scaffold/template constrains: torsion angles(φ & ψ), backbone angles(θ and τ), backbone dihedrals (φ, ψ & ω), backbone atoms (Cα, N, C, & O), Cα − Cα distance, unit direction vectors of Cα−Cα, Cα−N & Cα−C, etc(aka. inverse folding). Referred from [here](https://arxiv.org/abs/2202.01079). Energy-based models are also inculded for task of rotamer conformation(χ angles or atom coordinates) recovery.  
@@ -1393,6 +1412,14 @@ Pierre Glaser, Steffanie Paul, Alissa M Hummer, Charlotte Deane, Debora Susan Ma
 **CodonMPNN for Organism Specific and Codon Optimal Inverse Folding**  
 Hannes Stark, Umesh Padia, Julia Balla, Cameron Diao, George Church  
 [arXiv:2409.17265](https://arxiv.org/abs/2409.17265) • ProteinMPNN-based • [code](https://github.com/HannesStark/CodonMPNN)
+
+**Exploring the potential of structure-based deep learning approaches for T cell receptor design**  
+Helder V. Ribeiro-Filho, Gabriel E. Jara, João V. S. Guerra, Melyssa Cheung,Nathaniel R. Felbinger, José G. C. Pereira, Brian G. Pierce, Paulo S. Lopes-de-Oliveira  
+[PLoS Comput Biol 20(9)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012489) • ProteinMPNN-based • ESM-based
+
+**ProteusAI: An Open-Source and User-Friendly Platform for Machine Learning-Guided Protein Design and Engineering**  
+Jonathan Funk, Laura Machado, Samuel A. Bradley, Marta Napiorkowska, Rodrigo Gallegos-Dextre, Liubov Pashkova, Niklas G. Madsen, Henry Webel, Patrick Victor Phaneuf, Timothy P. Jenkins, Carlos G. Acevedo-Rocha Sr.  
+[bioRxiv 2024.10.01.616114](https://www.biorxiv.org/content/10.1101/2024.10.01.616114v1) • ProteinMPNN-based • ESM-based
 
 ### 4.6 GAN-based
 
@@ -2052,7 +2079,7 @@ Gökçe Geylan, Jon Paul Janet, Alessandro Tibo, Jiazhen He, Atanas Patronov, Mi
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**  
 Melis Ilayda Bal, Pier Giuseppe Sessa, Mojmir Mutny, Andreas Krause
-[NeurIPS 2023 Workshop on Adaptive Experimental Design and Active Learning in the Real World, 2023](https://openreview.net/forum?id=ScOvmGz4xH)
+[NeurIPS 2023 Workshop on Adaptive Experimental Design and Active Learning in the Real World, 2023](https://openreview.net/forum?id=ScOvmGz4xH)/[arXiv:2409.18582](https://arxiv.org/abs/2409.18582)
 
 **Discovering de novo peptide substrates for enzymes using machine learning**  
 Lorillee Tallorin, JiaLei Wang, Woojoo E. Kim, Swagat Sahu, Nicolas M. Kosa, Pu Yang, Matthew Thompson, Michael K. Gilson, Peter I. Frazier, Michael D. Burkart & Nathan C. Gianneschi  
@@ -2328,6 +2355,12 @@ Minsu Kim, Federico Berto, Sungsoo Ahn, Jinkyoo Park
 ## 6. Function to Structure
 
 > These models generate protein structures(including side chains) from expected function or recover a part of protein structures(aka. **inpainting**)
+
+### 6.0 Review
+
+**Towards deep learning sequence-structure co-generation for protein design**  
+Chentong Wang, Sarah Alamdari, Carles Domingo-Enrich, Ava Amini, Kevin K. Yang  
+[arXiv:2410.01773](https://arxiv.org/abs/2410.01773)
 
 ### 6.1 LSTM-based
 
@@ -2612,6 +2645,10 @@ Jiahan Li, Chaoran Cheng, Zuofan Wu, Ruihan Guo, Shitong Luo, Zhizhou Ren, Jian 
 **AntibodyFlow: Normalizing Flow Model for Designing Antibody Complementarity-Determining Regions**  
 Bohao Xu, Yanbo Wang, Wenyu Chen, Shimin Shan  
 [arXiv:2406.13162](https://arxiv.org/abs/2406.13162)
+
+**Generalized Protein Pocket Generation with Prior-Informed Flow Matching**  
+Zaixi Zhang, Marinka Zitnik, Qi Liu  
+[arXiv:2409.19520](https://arxiv.org/abs/2409.19520)
 
 ### 6.9 AlphaFold-based
 
