@@ -9,19 +9,16 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.10.03:*  
-+   Generalized Protein Pocket Generation with Prior-Informed Flow Matching
-    + [[arXiv:2409.19520](https://arxiv.org/abs/2409.19520)]
-+   BindCraft: one-shot design of functional protein binders
-    + [[bioRxiv 2024.09.30.615802](https://www.biorxiv.org/content/10.1101/2024.09.30.615802v1)] • [[code](https://github.com/martinpacesa/BindCraftz)]
-+   ProteusAI: An Open-Source and User-Friendly Platform for Machine Learning-Guided Protein Design and Engineering
-    + [[bioRxiv 2024.10.01.616114](https://www.biorxiv.org/content/10.1101/2024.10.01.616114v1)] • ProteinMPNN-based • ESM-based
-+   Towards deep learning sequence-structure co-generation for protein design
-    + [[arXiv:2410.01773](https://arxiv.org/abs/2410.01773)]
-+   Exploring the potential of structure-based deep learning approaches for T cell receptor design
-    + [[PLoS Comput Biol 20(9)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012489)] • ProteinMPNN-based • ESM-based
-+   AI-driven antibody design with generative diffusion models: current insights and future directions
-    + [[Acta Pharmacologica Sinica (2024)](https://www.nature.com/articles/s41401-024-01380-y)]
+*Papers last week, updated on 2024.10.11:*  
++   Re-examining Metrics for Success in Machine Learning, from Fairness and Interpretability to Protein Design
+    + [[Diss. University of California, Berkeley, 2024](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-156.html)] • Phd thesis
++   Full-Atom Peptide Design with Geometric Latent Diffusion
+    + [[arXiv:2402.13555](https://arxiv.org/abs/2402.13555)] • [[code](https://github.com/THUNLP-MT/PepGLAD)]
++   Improving diffusion-based protein backbone generation with global-geometry-aware latent encoding
+    + [[bioRxiv 2024.10.05.616664](https://www.biorxiv.org/content/10.1101/2024.10.05.616664v1)] • [[code](https://github.com/meneshail/TopoDiff)]
++   Conditional Enzyme Generation Using Protein Language Models with Adapters
+    + [[arXiv:2410.03634](https://arxiv.org/abs/2410.03634)] • [[code](https://github.com/Profluent-Internships/ProCALM)]
+
 
 ------
 <p align="center">
@@ -679,7 +676,7 @@ David E. Kim, Davin R. Jensen, David Feldman, Doug Tischer  and Ayesha Saleem, C
 
 **Exploring "dark matter" protein folds using deep learning**  
 Zander Harteveld, Alexandra Van Hall-Beauvais, Irina Morozova, Joshua Southern, Casper Alexander Goverde, Sandrine Georgeon, Stephane Rosset, Andreas Loukas, Pierre Vandergheynst, Michael Bronstein, Bruno Correia  
-[bioRxiv 2023.08.30.555621](https://www.biorxiv.org/content/10.1101/2023.08.30.555621v1) • [Suppplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/09/01/2023.08.30.555621/DC1/embed/media-1.pdf) • [code](https://github.com/zanderharteveld/genesis)
+[bioRxiv 2023.08.30.555621](https://www.biorxiv.org/content/10.1101/2023.08.30.555621v1)/[Cell Systems](https://www.cell.com/cell-systems/fulltext/S2405-4712(24)00270-9) • [Suppplymentary](https://www.biorxiv.org/content/biorxiv/early/2023/09/01/2023.08.30.555621/DC1/embed/media-1.pdf) • [code](https://github.com/zanderharteveld/genesis)
 
 **Carving out a Glycoside Hydrolase Active Site for Incorporation into a New Protein Scaffold Using Deep Network Hallucination**  
 Anders Lønstrup Hansen, Frederik Friis Theisen, Ramon Crehuet, Enrique Marcos, Nushin Aghajari, and Martin Willemoës  
@@ -974,6 +971,10 @@ Raphael R Eguchi, Christian A Choe, Udit Parekh, Irene S Khalek, Michael D Ward,
 **Leveraging Deep Generative Model For Computational Protein Design And Optimization**  
 Boqiao Lai  
 [arXiv:2408.17241](https://arxiv.org/abs/2408.17241) • PhD thesis
+
+**Full-Atom Peptide Design with Geometric Latent Diffusion**  
+Xiangzhe Kong, Yinjun Jia, Wenbing Huang, Yang Liu  
+[arXiv:2402.13555](https://arxiv.org/abs/2402.13555) • [code](https://github.com/THUNLP-MT/PepGLAD)
 
 ### 3.3 DAE-based
 
@@ -1555,7 +1556,7 @@ Qi, Yifei, and John ZH Zhang.
 
 **De novo protein backbone generation based on diffusion with structured priors and adversarial training**  
 Yufeng Liu, Linghui Chen, Haiyan Liu  
-[bioRxiv 2022.12.17.520847](https://www.biorxiv.org/content/10.1101/2022.12.17.520847v1)
+[bioRxiv 2022.12.17.520847](https://www.biorxiv.org/content/10.1101/2022.12.17.520847v1)/[Nat Methods (2024)](https://www.nature.com/articles/s41592-024-02437-w) • [code](https://github.com/liuyf020419/SCUBA-D)
 
 **Generative design of de novo proteins based on secondary-structure constraints using an attention-based diffusion model**  
 Bo Ni, David L. Kaplan, Markus J. Buehler  
@@ -1588,6 +1589,10 @@ paper not available • [news](https://mp.weixin.qq.com/s/Iex0YndimhLDM0mASp1MtA
 **A conditional protein diffusion model generates artificial programmable endonuclease sequences with enhanced activity**  
 Bingxin Zhou, Lirong Zheng, Banghao Wu, Kai Yi, Bozitao Zhong, Yang Tan, Qian Liu, Pietro Liò, Liang Hong  
 [bioRxiv 2023.08.10.552783](https://www.biorxiv.org/content/10.1101/2023.08.10.552783v2)/[Cell Discovery 10.1 (2024)](https://www.nature.com/articles/s41421-024-00728-2) • [code](https://github.com/bzho3923/CPDiffusion)
+
+**Improving diffusion-based protein backbone generation with global-geometry-aware latent encoding**  
+Yuyang Zhang, Yuhang Liu, Zinnia Ma, Min Li, Chunfu Xu, Haipeng Gong  
+[bioRxiv 2024.10.05.616664](https://www.biorxiv.org/content/10.1101/2024.10.05.616664v1) • [code](https://github.com/meneshail/TopoDiff)
 
 ### 4.10 Bayesian-based
 
@@ -2074,6 +2079,14 @@ Desmond Kuan, Amir Barati Farimani
 **PepINVENT: Generative peptide design beyond the natural amino acids**  
 Gökçe Geylan, Jon Paul Janet, Alessandro Tibo, Jiazhen He, Atanas Patronov, Mikhail Kabeshov, Florian David, Werngard Czechtizky, Ola Engkvist, Leonardo De Maria  
 [arXiv:2409.14040](https://arxiv.org/abs/2409.14040)
+
+**Conditional Enzyme Generation Using Protein Language Models with Adapters**  
+Jason Yang, Aadyot Bhatnagar, Jeffrey A. Ruffolo, Ali Madani  
+[arXiv:2410.03634](https://arxiv.org/abs/2410.03634) • [code](https://github.com/Profluent-Internships/ProCALM)
+
+**Re-examining Metrics for Success in Machine Learning, from Fairness and Interpretability to Protein Design**  
+Frances Ding  
+[Diss. University of California, Berkeley, 2024](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-156.html) • Phd thesis
 
 ### 5.5 Bayesian-based
 
