@@ -9,15 +9,21 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.10.11:*  
-+   Re-examining Metrics for Success in Machine Learning, from Fairness and Interpretability to Protein Design
-    + [[Diss. University of California, Berkeley, 2024](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-156.html)] • Phd thesis
-+   Full-Atom Peptide Design with Geometric Latent Diffusion
-    + [[arXiv:2402.13555](https://arxiv.org/abs/2402.13555)] • [[code](https://github.com/THUNLP-MT/PepGLAD)]
-+   Improving diffusion-based protein backbone generation with global-geometry-aware latent encoding
-    + [[bioRxiv 2024.10.05.616664](https://www.biorxiv.org/content/10.1101/2024.10.05.616664v1)] • [[code](https://github.com/meneshail/TopoDiff)]
-+   Conditional Enzyme Generation Using Protein Language Models with Adapters
-    + [[arXiv:2410.03634](https://arxiv.org/abs/2410.03634)] • [[code](https://github.com/Profluent-Internships/ProCALM)]
+*Papers last week, updated on 2024.10.18:*  
++   Diffusion Posterior Sampling via Sequential Monte Carlo for Zero-Shot Scaffolding of Protein Motifs
+    + [[Imperial CollegeofScience, Technology and Medicine, 2024](https://matsagad.com/files/papers/MRes_Project.pdf)] • [[code](https://github.com/matsagad/mres-project)] • Master thesis • Genie-based
++   DPLM-2: A Multimodal Diffusion Protein Language Model
+    + [[arXiv:2410.13782](https://arxiv.org/abs/2410.13782)] • [[code](https://github.com/bytedance/dplm)] • [[website](https://bytedance.github.io/dplm/dplm-2)]
++   Benchmarking Generative Models for Antibody Design & Exploring Log-Likelihood for Sequence Ranking
+    + [[bioRxiv 2024.10.07.617023](https://www.biorxiv.org/content/10.1101/2024.10.07.617023v3)] • [[code](https://github.com/AstraZeneca/DiffAbXL)]
++   Improved protein binder design using beta-pairing targeted RFdiffusion
+    + [[bioRxiv 2024.10.11.617496](https://www.biorxiv.org/content/10.1101/2024.10.11.617496v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/10/12/2024.10.11.617496/DC1/embed/media-1.pdf)]
++   Design of linear and cyclic peptide binders of different lengths from protein sequence information
+    + [[bioRxiv 2024.06.20.599739](https://www.biorxiv.org/content/10.1101/2024.06.20.599739v2)] • [[code](https://zenodo.org/records/13913345)]
++   Fine-Tuning Discrete Diffusion Models via Reward Optimization with Applications to DNA and Protein Design
+    + [[arXiv:2410.13643](https://arxiv.org/abs/2410.13643)] • [[code](https://github.com/ChenyuWang-Monica/DRAKES)]
++   AI has dreamt up a blizzard of new proteins. Do any of them actually work?
+    + [[Nature 634.8034 (2024)](https://www.nature.com/articles/d41586-024-03335-z)]
 
 
 ------
@@ -283,6 +289,10 @@ Marta Chronowska, Michael J. Stam, Derek N. Woolfson, Luigi F. Di Constanzo, Chr
 Fei Ye, Zaixiang Zheng, Dongyu Xue, Yuning Shen, Lihao Wang, Yiming Ma, Yan Wang, Xinyou Wang, Xiangxin Zhou, Quanquan Gu  
 [arXiv:2409.06744](https://arxiv.org/abs/2409.06744) • [code](https://proteinbench.github.io/)
 
+**Benchmarking Generative Models for Antibody Design & Exploring Log-Likelihood for Sequence Ranking**  
+Talip Uçar, Cedric Malherbe, Ferran Gonzalez  
+[bioRxiv 2024.10.07.617023](https://www.biorxiv.org/content/10.1101/2024.10.07.617023v3) • [code](https://github.com/AstraZeneca/DiffAbXL)
+
 ### 0.3 Databases
 
 > A list of suggested protein databases, more lists at [CNCB](https://ngdc.cncb.ac.cn/databasecommons/).
@@ -456,7 +466,7 @@ Adam Winnifrith, Carlos Outeiral, Brian Hie
 [arXiv:2310.09685](https://arxiv.org/abs/2310.09685)
 
 **Intelligent Protein Design and Molecular Characterization Techniques: A Comprehensive Review**  
-Jingjing Wang, Chang Chen, Ge Yao, Junjie Ding, Liangliang Wang and Hui Jiang
+Jingjing Wang, Chang Chen, Ge Yao, Junjie Ding, Liangliang Wang and Hui Jiang  
 [Molecules 28.23 (2023)](https://www.mdpi.com/1420-3049/28/23/7865)
 
 **Generative models for protein sequence modeling: recent advances and future directions**  
@@ -523,6 +533,10 @@ Farzan Soleymani, Eric Paquet, Herna Lydia Viktor, Wojtek Michalowski
 **Machine learning in biological physics: From biomolecular prediction to design**  
 Jonathan Martin, Marcos Lequerica Mateos, José N. Onuchic, and Faruck Morcos  
 [Proceedings of the National Academy of Sciences 121.27 (2024)](https://www.pnas.org/doi/10.1073/pnas.2311807121)
+
+**AI has dreamt up a blizzard of new proteins. Do any of them actually work?**  
+Ewen Callaway  
+[Nature 634.8034 (2024)](https://www.nature.com/articles/d41586-024-03335-z)
 
 ### 1.2 Antibody design
 
@@ -799,6 +813,10 @@ Qiuzhen Li, Efstathios Nikolaos Vlachos, Patrick Bryant
 **BindCraft: one-shot design of functional protein binders**  
 Martin Pacesa, Lennart Nickel, Joseph Schmidt, Ekaterina Pyatova, Christian Schellhaas, Lucas Kissling, Ana Alcaraz-Serna, Yehlin Cho, Kourosh H. Ghamary, Laura Vinue, Brahm J. Yachnin, Andrew M. Wollacott, Stephen Buckley, Sandrine Georgeon, Casper A. Goverde, Georgios N. Hatzopoulos, Pierre Gonczy, Yannick D. Muller, Gerald Schwank, Sergey Ovchinnikov, Bruno E. Correia  
 [bioRxiv 2024.09.30.615802](https://www.biorxiv.org/content/10.1101/2024.09.30.615802v1) • [code](https://github.com/martinpacesa/BindCraftz)
+
+**Design of linear and cyclic peptide binders of different lengths from protein sequence information**  
+Qiuzhen Li, Efstathios Nikolaos Vlachos, Patrick Bryant  
+[bioRxiv 2024.06.20.599739](https://www.biorxiv.org/content/10.1101/2024.06.20.599739v2) • [code](https://zenodo.org/records/13913345)
 
 ### 2.3 DMPfold2-based
 
@@ -1078,6 +1096,14 @@ Kaixuan Gao, Xin Zhang, Jia Nie, Hengyu Meng, Weishe Zhang, Boxue Tian, Xiangyu 
 **Text2Protein: A Generative Model for Designated Protein Design on Given Description**  
 Ramtin Hosseini, Siyang Zhang, Pengtao Xie  
 [PREPRINT (Version 1) available at Research Square](https://doi.org/10.21203/rs.3.rs-4868665/v1) • [code](https://github.com/szhan227/text2protein)
+
+**Improving diffusion-based protein backbone generation with global-geometry-aware latent encoding**  
+Yuyang Zhang, Yuhang Liu, Zinnia Ma, Min Li, Chunfu Xu, Haipeng Gong  
+[bioRxiv 2024.10.05.616664](https://www.biorxiv.org/content/10.1101/2024.10.05.616664v1) • [code](https://github.com/meneshail/TopoDiff)
+
+**Diffusion Posterior Sampling via Sequential Monte Carlo for Zero-Shot Scaffolding of Protein Motifs**  
+Young, James Matthew Uygongco, and Omer Deniz Akyildiz  
+[Imperial CollegeofScience, Technology and Medicine, 2024](https://matsagad.com/files/papers/MRes_Project.pdf) • [code](https://github.com/matsagad/mres-project) • Master thesis • Genie-based
 
 ### 3.6 RL-based
 
@@ -1590,9 +1616,7 @@ paper not available • [news](https://mp.weixin.qq.com/s/Iex0YndimhLDM0mASp1MtA
 Bingxin Zhou, Lirong Zheng, Banghao Wu, Kai Yi, Bozitao Zhong, Yang Tan, Qian Liu, Pietro Liò, Liang Hong  
 [bioRxiv 2023.08.10.552783](https://www.biorxiv.org/content/10.1101/2023.08.10.552783v2)/[Cell Discovery 10.1 (2024)](https://www.nature.com/articles/s41421-024-00728-2) • [code](https://github.com/bzho3923/CPDiffusion)
 
-**Improving diffusion-based protein backbone generation with global-geometry-aware latent encoding**  
-Yuyang Zhang, Yuhang Liu, Zinnia Ma, Min Li, Chunfu Xu, Haipeng Gong  
-[bioRxiv 2024.10.05.616664](https://www.biorxiv.org/content/10.1101/2024.10.05.616664v1) • [code](https://github.com/meneshail/TopoDiff)
+
 
 ### 4.10 Bayesian-based
 
@@ -1605,6 +1629,12 @@ Natalie Maus, Yimeng Zeng, Daniel Allen Anderson, Phillip Maffettone, Aaron Solo
 **Harmonic Self-Conditioned Flow Matching for Multi-Ligand Docking and Binding Site Design**  
 Hannes Stärk, Bowen Jing, Regina Barzilay, Tommi Jaakkola  
 [arXiv:2310.05764](https://arxiv.org/abs/2310.05764) • [code](https://github.com/HannesStark/FlowSite)
+
+## 4.12 RL-based
+
+**Fine-Tuning Discrete Diffusion Models via Reward Optimization with Applications to DNA and Protein Design**  
+Chenyu Wang, Masatoshi Uehara, Yichun He, Amy Wang, Tommaso Biancalani, Avantika Lal, Tommi Jaakkola, Sergey Levine, Hanchen Wang, Aviv Regev  
+[arXiv:2410.13643](https://arxiv.org/abs/2410.13643) • [code](https://github.com/ChenyuWang-Monica/DRAKES)
 
 ## 5.Function to Sequence
 
@@ -2483,6 +2513,10 @@ Vishva Saravanan R, Soham Choudhuri, Bhaswar Ghosh
 Vinicius Zambaldi, David La, Alexander E. Chu, Harshnira Patani, Amy E. Danson, Tristan O. C., Kwan, Thomas Frerix, Rosalia G. Schneider, David Saxton, Ashok Thillaisundaram, Zachary Wu, Isabel Moraes, Oskar Lange, Eliseo Papa, Gabriella Stanton, Victor Martin, Sukhdeep Singh, Lai H. Wong, Russ Bates, Simon A. Kohl, Josh Abramson, Andrew W. Senior, Yilmaz Alguel, Mary Y. Wu, Irene M. Aspalter, Katie Bentley, David L.V. Bauer, Peter Cherepanov, Demis Hassabis, Pushmeet Kohli, Rob Fergus, and Jue Wang  
 [DeepMind Preprint](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/Protein_Design_White_Paper_2024.pdf)/[arXiv:2409.08022](https://arxiv.org/abs/2409.08022) • [blog](https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/)
 
+**DPLM-2: A Multimodal Diffusion Protein Language Model**  
+Xinyou Wang, Zaixiang Zheng, Fei Ye, Dongyu Xue, Shujian Huang, Quanquan Gu  
+[arXiv:2410.13782](https://arxiv.org/abs/2410.13782) • [code](https://github.com/bytedance/dplm) • [website](https://bytedance.github.io/dplm/dplm-2)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites** / **Scaffolding protein functional sites using deep learning**  
@@ -2548,6 +2582,10 @@ Anna Lauko, Samuel J Pellock, Ivan Anischanka, Kiera H Sumida, David Juergens, W
 **De novo design of Ras isoform selective binders**  
 Jason Zhaoxing Zhang, Xinting Li, Caixuan Liu, Hanlun Jiang, Kejia Wu, David Baker  
 [bioRxiv 2024.08.29.610300](https://www.biorxiv.org/content/10.1101/2024.08.29.610300v1)
+
+**Improved protein binder design using beta-pairing targeted RFdiffusion**  
+Isaac Sappington, Martin Toul, David S. Lee, Stephanie A. Robinson, Inna Goreshnik, Clara McCurdy, Tung Ching Chan, Nic Buchholz, Buwei Huang, Dionne Vafeados, Mariana Garcia-Sanchez, Nicole Roullier, Matthias Glögl, Chris Kim, Joseph L. Watson, Susana Vázquez Torres, Koen H. G. Verschueren, Kenneth Verstraete, Cynthia S. Hinck, Melisa Benard-Valle, Brian Coventry, Jeremiah Nelson Sims, Green Ahn, Xinru Wang, Andrew P. Hinck, Timothy P. Jenkins, Hannele Ruohola-Baker, Steven M. Banik, Savvas N. Savvides, David Baker  
+[bioRxiv 2024.10.11.617496](https://www.biorxiv.org/content/10.1101/2024.10.11.617496v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/10/12/2024.10.11.617496/DC1/embed/media-1.pdf)
 
 ### 6.4 CNN-based
 
