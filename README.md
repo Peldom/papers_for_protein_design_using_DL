@@ -2843,9 +2843,9 @@ Sanaa Mansoor, Minkyung Baek, David Juergens, Joseph L. Watson, David Baker
 Jun Cheng, Guido Novati, Joshua Pan, Clare Bycroft, Akvile Žemgulyte, Taylor Applebaum, Alexander Pritzel, Lai Hong Wong, Michal Zielinski, Tobias Sargeant, Rosalia G. Schneider, Andrew W. Senior, John Jumper, Demis Hassabis, Pushmeet Kohli, Žiga Avsec  
 [Science0,eadg7492DOI:10.1126/science.adg7492](https://www.science.org/doi/10.1126/science.adg7492) • [code](https://github.com/deepmind/alphamissense) • [data](https://console.cloud.google.com/storage/browser/dm_alphamissense)
 
-**What makes the effect of protein mutations difficult to predict?**  
+**Enzyme structure correlates with variant effect predictability**  
 Floris Julian van der Flier, Dave Estell, Sina Pricelius, Lydia Dankmeyer, Sander van Stigt Thans, Harm Mulder, Rei Otsuka, Frits Goedegebuur, Laurens Lammerts, Diego Staphorst, Aalt D.J. van Dijk, Dick de Ridder, Henning Redestig  
-[bioRxiv 2023.09.25.559319](https://www.biorxiv.org/content/10.1101/2023.09.25.559319v1) • [code](https://github.com/florisvdf/mutation-predictability)
+[bioRxiv 2023.09.25.559319](https://www.biorxiv.org/content/10.1101/2023.09.25.559319v2)/[Computational and Structural Biotechnology Journal (2024)](https://doi.org/10.1016/j.csbj.2024.09.007) • [code](https://github.com/florisvdf/mutation-predictability)
 
 **Fast, accurate ranking of engineered proteins by target binding propensity using structure modeling**  
 Xiaozhe Ding, Xinhong Chen, Erin E. Sullivan, Timothy F. Shay, Viviana Gradinaru  
