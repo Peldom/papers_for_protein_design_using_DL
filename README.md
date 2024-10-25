@@ -9,22 +9,23 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.10.18:*  
-+   Diffusion Posterior Sampling via Sequential Monte Carlo for Zero-Shot Scaffolding of Protein Motifs
-    + [[Imperial CollegeofScience, Technology and Medicine, 2024](https://matsagad.com/files/papers/MRes_Project.pdf)] • [[code](https://github.com/matsagad/mres-project)] • Master thesis • Genie-based
-+   DPLM-2: A Multimodal Diffusion Protein Language Model
-    + [[arXiv:2410.13782](https://arxiv.org/abs/2410.13782)] • [[code](https://github.com/bytedance/dplm)] • [[website](https://bytedance.github.io/dplm/dplm-2)]
-+   Benchmarking Generative Models for Antibody Design & Exploring Log-Likelihood for Sequence Ranking
-    + [[bioRxiv 2024.10.07.617023](https://www.biorxiv.org/content/10.1101/2024.10.07.617023v3)] • [[code](https://github.com/AstraZeneca/DiffAbXL)]
-+   Improved protein binder design using beta-pairing targeted RFdiffusion
-    + [[bioRxiv 2024.10.11.617496](https://www.biorxiv.org/content/10.1101/2024.10.11.617496v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/10/12/2024.10.11.617496/DC1/embed/media-1.pdf)]
-+   Design of linear and cyclic peptide binders of different lengths from protein sequence information
-    + [[bioRxiv 2024.06.20.599739](https://www.biorxiv.org/content/10.1101/2024.06.20.599739v2)] • [[code](https://zenodo.org/records/13913345)]
-+   Fine-Tuning Discrete Diffusion Models via Reward Optimization with Applications to DNA and Protein Design
-    + [[arXiv:2410.13643](https://arxiv.org/abs/2410.13643)] • [[code](https://github.com/ChenyuWang-Monica/DRAKES)]
-+   AI has dreamt up a blizzard of new proteins. Do any of them actually work?
-    + [[Nature 634.8034 (2024)](https://www.nature.com/articles/d41586-024-03335-z)]
-
+*Papers last week, updated on 2024.10.25:*  
++   Scalable protein design using optimization in a relaxed sequence space
+    + [[Science386,439-445(2024)](https://www.science.org/doi/10.1126/science.adq1741)] • [[code](https://github.com/sokrypton/ColabDesign)]
++   Generative AI Models for the Protein Scaffold Filling Problem
+    + [[Journal of Computational Biology](https://www.liebertpub.com/doi/10.1089/cmb.2024.0510)]
++   Structure Language Models for Protein Conformation Generation
+    + [[arXiv:2410.18403](https://arxiv.org/abs/2410.18403)] • [[code](https://github.com/lujiarui/esmdiff)]
++   Protein A-like Peptide Design Based on Diffusion and ESM2 Models
+    + [[Molecules 29.20 (2024)](https://www.mdpi.com/1420-3049/29/20/4965)] • [[code](https://github.com/tomlongcool/diffusion4Protein)]
++   MeMDLM: De Novo Membrane Protein Design with Masked Discrete Diffusion Protein Language Models
+    + [[arXiv:2410.16735](https://arxiv.org/abs/2410.16735)]
++   Reinforcement learning on structure-conditioned categorical diffusion for protein inverse folding
+    + [[arXiv:2410.17173](https://arxiv.org/abs/2410.17173)] • [[code](https://github.com/flagshippioneering/pi-rldif)]
++   Retrieval Augmented Diffusion Model for Structure-informed Antibody Design and Optimization
+    + [[arXiv:2410.15040](https://arxiv.org/abs/2410.15040)]
++   Computational design of target-specific linear peptide binders with TransformerBeta
+    + [[arXiv:2410.16302](https://arxiv.org/abs/2410.16302)] • [[code](https://github.com/HZ3519/TransformerBeta_project)]
 
 ------
 <p align="center">
@@ -238,6 +239,10 @@ Pascal Notin, Aaron W Kollasch, Daniel Ritter, Lood van Niekerk, Steffanie Paul,
 Chase Armer, Hassan Kane, Dana L. Cortade, Henning Redestig, David A. Estell, Adil Yusuf, Nathan Rollins, Hansen Spinner, Debora Marks, TJ Brunette, Peter J. Kelly, Erika DeBenedictis  
 [bioRxiv 2024.08.12.606135](https://www.biorxiv.org/content/10.1101/2024.08.12.606135v1) • [code](https://github.com/the-protein-engineering-tournament/pet-pilot-2023) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/08/12/2024.08.12.606135/DC1/embed/media-1.pdf)
 
+**Generative AI Models for the Protein Scaffold Filling Problem**  
+Letu Qingge, Kushal Badal, Richard Annan, Jordan Sturtz, Xiaowen Liu, and Binhai Zhu  
+[Journal of Computational Biology](https://www.liebertpub.com/doi/10.1089/cmb.2024.0510)
+
 ### 0.2 Structure Datasets
 
 **AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**  
@@ -338,7 +343,7 @@ Guides/Tutorials for beginners on GitHub:
 
 Collection of Protein Design Labs:
 
-- [ProteinDesignLabs](https://github.com/Zuricho/ProteinDesignLabs])
+- [ProteinDesignLabs](https://github.com/Zuricho/ProteinDesignLabs)
 
 ## 1. Reviews
 
@@ -818,6 +823,10 @@ Martin Pacesa, Lennart Nickel, Joseph Schmidt, Ekaterina Pyatova, Christian Sche
 Qiuzhen Li, Efstathios Nikolaos Vlachos, Patrick Bryant  
 [bioRxiv 2024.06.20.599739](https://www.biorxiv.org/content/10.1101/2024.06.20.599739v2) • [code](https://zenodo.org/records/13913345)
 
+**Scalable protein design using optimization in a relaxed sequence space**  
+Christopher Frank, Ali Khoshouei , Lara Fub , Dominik Schiwietz , Dominik Putz, Lara Weber, Zhixuan Zhao, Motoyuki Hattori, Shihao Feng, Yosta de Stigter, Sergey Ovchinnikov, Hendrik Dietz  
+[Science386,439-445(2024)](https://www.science.org/doi/10.1126/science.adq1741) • [code](https://github.com/sokrypton/ColabDesign)
+
 ### 2.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
@@ -990,10 +999,6 @@ Raphael R Eguchi, Christian A Choe, Udit Parekh, Irene S Khalek, Michael D Ward,
 Boqiao Lai  
 [arXiv:2408.17241](https://arxiv.org/abs/2408.17241) • PhD thesis
 
-**Full-Atom Peptide Design with Geometric Latent Diffusion**  
-Xiangzhe Kong, Yinjun Jia, Wenbing Huang, Yang Liu  
-[arXiv:2402.13555](https://arxiv.org/abs/2402.13555) • [code](https://github.com/THUNLP-MT/PepGLAD)
-
 ### 3.3 DAE-based
 
 **Function-guided protein design by deep manifold sampling**  
@@ -1104,6 +1109,10 @@ Yuyang Zhang, Yuhang Liu, Zinnia Ma, Min Li, Chunfu Xu, Haipeng Gong
 **Diffusion Posterior Sampling via Sequential Monte Carlo for Zero-Shot Scaffolding of Protein Motifs**  
 Young, James Matthew Uygongco, and Omer Deniz Akyildiz  
 [Imperial CollegeofScience, Technology and Medicine, 2024](https://matsagad.com/files/papers/MRes_Project.pdf) • [code](https://github.com/matsagad/mres-project) • Master thesis • Genie-based
+
+**Protein A-like Peptide Design Based on Diffusion and ESM2 Models**  
+Long Zhao, Qiang He, Huijia Song, Huijia Song,Tianqian Zhou, An Luo, Zhenguo Wen,Teng Wang, and Xiaozhu Lin  
+[Molecules 29.20 (2024)](https://www.mdpi.com/1420-3049/29/20/4965) • [code](https://github.com/tomlongcool/diffusion4Protein)
 
 ### 3.6 RL-based
 
@@ -1616,8 +1625,6 @@ paper not available • [news](https://mp.weixin.qq.com/s/Iex0YndimhLDM0mASp1MtA
 Bingxin Zhou, Lirong Zheng, Banghao Wu, Kai Yi, Bozitao Zhong, Yang Tan, Qian Liu, Pietro Liò, Liang Hong  
 [bioRxiv 2023.08.10.552783](https://www.biorxiv.org/content/10.1101/2023.08.10.552783v2)/[Cell Discovery 10.1 (2024)](https://www.nature.com/articles/s41421-024-00728-2) • [code](https://github.com/bzho3923/CPDiffusion)
 
-
-
 ### 4.10 Bayesian-based
 
 **Inverse Protein Folding Using Deep Bayesian Optimization**  
@@ -1635,6 +1642,10 @@ Hannes Stärk, Bowen Jing, Regina Barzilay, Tommi Jaakkola
 **Fine-Tuning Discrete Diffusion Models via Reward Optimization with Applications to DNA and Protein Design**  
 Chenyu Wang, Masatoshi Uehara, Yichun He, Amy Wang, Tommaso Biancalani, Avantika Lal, Tommi Jaakkola, Sergey Levine, Hanchen Wang, Aviv Regev  
 [arXiv:2410.13643](https://arxiv.org/abs/2410.13643) • [code](https://github.com/ChenyuWang-Monica/DRAKES)
+
+**Reinforcement learning on structure-conditioned categorical diffusion for protein inverse folding**  
+Yasha Ektefaie, Olivia Viessmann, Siddharth Narayanan, Drew Dresser, J. Mark Kim, Armen Mkrtchyan  
+[arXiv:2410.17173](https://arxiv.org/abs/2410.17173) • [code](https://github.com/flagshippioneering/pi-rldif)
 
 ## 5.Function to Sequence
 
@@ -2118,6 +2129,14 @@ Jason Yang, Aadyot Bhatnagar, Jeffrey A. Ruffolo, Ali Madani
 Frances Ding  
 [Diss. University of California, Berkeley, 2024](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2024/EECS-2024-156.html) • Phd thesis
 
+**Computational design of target-specific linear peptide binders with TransformerBeta**  
+Haowen Zhao, Francesco A. Aprile, Barbara Bravi  
+[arXiv:2410.16302](https://arxiv.org/abs/2410.16302) • [code](https://github.com/HZ3519/TransformerBeta_project)
+
+**Structure Language Models for Protein Conformation Generation**  
+Jiarui Lu, Xiaoyin Chen, Stephen Zhewen Lu, Chence Shi, Hongyu Guo, Yoshua Bengio, Jian Tang  
+[arXiv:2410.18403](https://arxiv.org/abs/2410.18403) • [code](https://github.com/lujiarui/esmdiff)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**  
@@ -2378,6 +2397,18 @@ Leo Klarner, Tim G. J. Rudner, Garrett M. Morris, Charlotte M. Deane, Yee Whye T
 **Secondary Structure-Guided Novel Protein Sequence Generation with Latent Graph Diffusion**  
 Yutong Hu, Yang Tan, Andi Han, Lirong Zheng, Liang Hong, Bingxin Zhou  
 [arXiv:2407.07443](https://arxiv.org/abs/2407.07443) • [code](https://github.com/riacd/CPDiffusion-SS)
+
+**AI-generated small binder improves prime editing**  
+Ju-Chan Park, Heesoo Uhm, Yong-Woo Kim, Ye Eun Oh, Sangsu Bae  
+[bioRxiv 2024.09.11.612443](https://www.biorxiv.org/content/10.1101/2024.09.11.612443v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/09/14/2024.09.11.612443/DC1/embed/media-1.pdf)
+
+**MeMDLM: De Novo Membrane Protein Design with Masked Discrete Diffusion Protein Language Models**  
+Shrey Goel, Vishrut Thoutam, Edgar Mariano Marroquin, Aaron Gokaslan, Arash Firouzbakht, Sophia Vincoff, Volodymyr Kuleshov, Huong T. Kratochvil, Pranam Chatterjee  
+[arXiv:2410.16735](https://arxiv.org/abs/2410.16735)
+
+**Retrieval Augmented Diffusion Model for Structure-informed Antibody Design and Optimization**  
+Zichen Wang, Yaokun Ji, Jianing Tian, Shuangjia Zheng  
+[arXiv:2410.15040](https://arxiv.org/abs/2410.15040)
 
 ### 5.13 GNN-based
 
