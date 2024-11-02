@@ -9,24 +9,25 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.10.25:*  
-+   Scalable protein design using optimization in a relaxed sequence space
-    + [[Science386,439-445(2024)](https://www.science.org/doi/10.1126/science.adq1741)] • [[code](https://github.com/sokrypton/ColabDesign)]
-+   Generative AI Models for the Protein Scaffold Filling Problem
-    + [[Journal of Computational Biology](https://www.liebertpub.com/doi/10.1089/cmb.2024.0510)]
-+   Structure Language Models for Protein Conformation Generation
-    + [[arXiv:2410.18403](https://arxiv.org/abs/2410.18403)] • [[code](https://github.com/lujiarui/esmdiff)]
-+   Protein A-like Peptide Design Based on Diffusion and ESM2 Models
-    + [[Molecules 29.20 (2024)](https://www.mdpi.com/1420-3049/29/20/4965)] • [[code](https://github.com/tomlongcool/diffusion4Protein)]
-+   MeMDLM: De Novo Membrane Protein Design with Masked Discrete Diffusion Protein Language Models
-    + [[arXiv:2410.16735](https://arxiv.org/abs/2410.16735)]
-+   Reinforcement learning on structure-conditioned categorical diffusion for protein inverse folding
-    + [[arXiv:2410.17173](https://arxiv.org/abs/2410.17173)] • [[code](https://github.com/flagshippioneering/pi-rldif)]
-+   Retrieval Augmented Diffusion Model for Structure-informed Antibody Design and Optimization
-    + [[arXiv:2410.15040](https://arxiv.org/abs/2410.15040)]
-+   Computational design of target-specific linear peptide binders with TransformerBeta
-    + [[arXiv:2410.16302](https://arxiv.org/abs/2410.16302)] • [[code](https://github.com/HZ3519/TransformerBeta_project)]
-
+*Papers last week, updated on 2024.11.02:*  
++   E(3)-invaraint diffusion model for pocket-aware peptide generation
+    + [[arXiv:2410.21335](https://arxiv.org/abs/2410.21335)] • [[code](https://github.com/LabJunBMI/E3-invaraint-diffusion-model-for-pocket-aware-peptide-generation)]
++   EMOCPD: Efficient Attention-based Models for Computational Protein Design Using Amino Acid Microenvironment
+    + [[arXiv:2410.21069](https://arxiv.org/abs/2410.21069)]
++   Improving Inverse Folding for Peptide Design with Diversity-regularized Direct Preference Optimization
+    + [[arXiv:2410.19471](https://arxiv.org/abs/2410.19471)]
++   FoldMark: Protecting Protein Generative Models with Watermarking
+    + [[arXiv:2410.20354](https://arxiv.org/abs/2410.20354)] • [[code](https://github.com/zaixizhang/FoldMark)]
++   Peptide-GPT: Generative Design of Peptides using Generative Pre-trained Transformers and Bio-informatic Supervision
+    + [[arXiv:2410.19222](https://arxiv.org/abs/2410.19222)] • [[code](https://github.com/aayush-shah14/PeptideGPT)]
++   An adaptive autoregressive diffusion approach to design active humanized antibody and nanobody
+    + [[bioRxiv 2024.10.22.619416](https://www.biorxiv.org/content/10.1101/2024.10.22.619416v1)] • [[code](https://github.com/TencentAI4S/HuDiff)]
++   Dirichlet latent modelling enables effective learning and sampling of the functional protein design space
+    + [[Nat Commun 15, 9309 (2024)](https://www.nature.com/articles/s41467-024-53622-6)] • [[code](https://licensing.edinburgh-innovations.ed.ac.uk/product/proton)]
++   Designing diverse and high-performance proteins with a large language model in the loop
+    + [[bioRxiv 2024.10.25.620340](https://www.biorxiv.org/content/10.1101/2024.10.25.620340v1)]
++   ProBID-Net: A Deep Learning Model for Protein-Protein Binding Interface Design
+    + [[Chemical Science (2024)](https://pubs.rsc.org/en/Content/ArticleLanding/2024/SC/D4SC02233E)] • [[code](https://github.com/ComputArtCMCG/ProBID-NET)]
 ------
 <p align="center">
   <br>
@@ -38,8 +39,8 @@
 <p align='center'>
   <strong><a href='#0-benchmarks-and-datasets'>0) Benchmarks and datasets </a></strong>
   <br>
-  <a href="#01-sequence-datasets">Sequence datasets</a> •
-  <a href="#02-structure-datasets">Structure datasets</a> •
+  <a href="#01-sequence-datasets-benchmarks">Sequence dataset/benchmarks</a> •
+  <a href="#02-structure-datasets-benchmarks">Structure datasets/benchmarks</a> •
   <a href="#03-databases">Public database</a> •
   <a href="#04-similar-list">Similar list</a> •
   <a href="#05-guides">Guides</a>
@@ -201,7 +202,7 @@
 
 ## 0. Benchmarks and datasets
 
-### 0.1 Sequence Datasets
+### 0.1 Sequence Datasets, Benchmarks
 
 **FLIP: Benchmark tasks in fitness landscape inference for proteins**  
 Christian Dallago, Jody Mou, Kadina E Johnston, Bruce Wittmann, Nick Bhattacharya, Samuel Goldman, Ali Madani, Kevin K Yang  
@@ -243,7 +244,7 @@ Chase Armer, Hassan Kane, Dana L. Cortade, Henning Redestig, David A. Estell, Ad
 Letu Qingge, Kushal Badal, Richard Annan, Jordan Sturtz, Xiaowen Liu, and Binhai Zhu  
 [Journal of Computational Biology](https://www.liebertpub.com/doi/10.1089/cmb.2024.0510)
 
-### 0.2 Structure Datasets
+### 0.2 Structure Datasets, Benchmarks
 
 **AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**  
 Zhangyang Gao, Cheng Tan, Stan Z. Li  
@@ -297,6 +298,10 @@ Fei Ye, Zaixiang Zheng, Dongyu Xue, Yuning Shen, Lihao Wang, Yiming Ma, Yan Wang
 **Benchmarking Generative Models for Antibody Design & Exploring Log-Likelihood for Sequence Ranking**  
 Talip Uçar, Cedric Malherbe, Ferran Gonzalez  
 [bioRxiv 2024.10.07.617023](https://www.biorxiv.org/content/10.1101/2024.10.07.617023v3) • [code](https://github.com/AstraZeneca/DiffAbXL)
+
+**Towards Robust Evaluation of Protein Generative Models: A Systematic Analysis of Metrics**  
+Pavel Strashnov, Andrey Shevtsov, Viacheslav Meshchaninov, Maria Ivanova, Fedor Nikolaev, Olga Kardymon, Dmitry Vetrov  
+[bioRxiv 2024.10.25.620213](https://www.biorxiv.org/content/10.1101/2024.10.25.620213v1)
 
 ### 0.3 Databases
 
@@ -917,6 +922,10 @@ Sean R. Johnson, Xiaozhi Fu, Sandra Viknander, Clara Goldin, Sarah Monaco, Aleks
 Po-Yu Liang, Xueting Huang, Tibo Duran, Andrew J. Wiemer, Jun Bai  
 [arXiv:2408.08341](https://arxiv.org/abs/2408.08341) • [code](https://github.com/LabJunBMI/Latent-Space-Peptide-Analogues-Generation)
 
+**Designing diverse and high-performance proteins with a large language model in the loop**  
+Carlos A. Gomez-Uribe, Japheth Gado, Meiirbek Islamov  
+[bioRxiv 2024.10.25.620340](https://www.biorxiv.org/content/10.1101/2024.10.25.620340v1)
+
 ### 2.10 Sampling-algorithms
 
 **AdaLead: A simple and robust adaptive greedy search algorithm for sequence design**  
@@ -1114,6 +1123,10 @@ Young, James Matthew Uygongco, and Omer Deniz Akyildiz
 Long Zhao, Qiang He, Huijia Song, Huijia Song,Tianqian Zhou, An Luo, Zhenguo Wen,Teng Wang, and Xiaozhu Lin  
 [Molecules 29.20 (2024)](https://www.mdpi.com/1420-3049/29/20/4965) • [code](https://github.com/tomlongcool/diffusion4Protein)
 
+**FoldMark: Protecting Protein Generative Models with Watermarking**  
+Zaixi Zhang, Ruofan Jin, Kaidi Fu, Le Cong, Marinka Zitnik, Mengdi Wang  
+[arXiv:2410.20354](https://arxiv.org/abs/2410.20354) • [code](https://github.com/zaixizhang/FoldMark)
+
 ### 3.6 RL-based
 
 **Top-down design of protein nanomaterials with reinforcement learning**  
@@ -1233,6 +1246,10 @@ Simon d’Oelsnitz, Daniel J. Diaz, Wantae Kim, Daniel J. Acosta, Tyler L. Dange
 **OPUS-Design: Designing Protein Sequence from Backbone Structure with 3DCNN and Protein Language Model**  
 Gang Xu, Yulu Yang, Yiqiu Zhang, Qinghua Wang, Jianpeng Ma  
 [bioRxiv 2024.08.20.608889](https://www.biorxiv.org/content/10.1101/2024.08.20.608889v2) • [code](https://github.com/OPUS-MaLab/opus_design)
+
+**ProBID-Net: A Deep Learning Model for Protein-Protein Binding Interface Design**  
+Zhihang Chen, Menglin Ji, Jie Qiana, Zhe Zhang, Xiangying Zhang, Haotian Gao, Haojie Wang, Renxiao Wang, Yifei Qi  
+[Chemical Science (2024)](https://pubs.rsc.org/en/Content/ArticleLanding/2024/SC/D4SC02233E) • [code](https://github.com/ComputArtCMCG/ProBID-NET)
 
 ### 4.5 GNN-based
 
@@ -1457,6 +1474,10 @@ Helder V. Ribeiro-Filho, Gabriel E. Jara, João V. S. Guerra, Melyssa Cheung,Nat
 Jonathan Funk, Laura Machado, Samuel A. Bradley, Marta Napiorkowska, Rodrigo Gallegos-Dextre, Liubov Pashkova, Niklas G. Madsen, Henry Webel, Patrick Victor Phaneuf, Timothy P. Jenkins, Carlos G. Acevedo-Rocha Sr.  
 [bioRxiv 2024.10.01.616114](https://www.biorxiv.org/content/10.1101/2024.10.01.616114v1) • ProteinMPNN-based • ESM-based
 
+**Improving Inverse Folding for Peptide Design with Diversity-regularized Direct Preference Optimization**  
+Ryan Park, Darren J. Hsu, C. Brian Roland, Maria Korshunova, Chen Tessler, Shie Mannor, Olivia Viessmann, Bruno Trentini  
+[arXiv:2410.19471](https://arxiv.org/abs/2410.19471)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1580,6 +1601,10 @@ Nicanor Zalba Sr., Pablo Ursua-Medrano Sr., Humberto Bustince Sr.
 **Adapting protein language models for structure-conditioned design**  
 Jeffrey A Ruffolo, Aadyot Bhatnagar, Joel Beazer, Stephen Nayfach, Jordan Russ, Emily Hill, Riffat Hussain, Joseph Gallagher, Ali Madani  
 [bioRxiv 2024.08.03.606485](https://www.biorxiv.org/content/10.1101/2024.08.03.606485v1) • [code](https://github.com/Profluent-AI/proseLM-public) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/08/03/2024.08.03.606485/DC1/embed/media-1.zip) • [news](https://www.genengnews.com/topics/artificial-intelligence/giving-structure-to-language-profluents-ai-models-move-toward-precise-and-steerable-protein-design/)
+
+**EMOCPD: Efficient Attention-based Models for Computational Protein Design Using Amino Acid Microenvironment**  
+Xiaoqi Ling, Cheng Cai, Demin Kong, Zhisheng Wei, Jing Wu, Lei Wang, Zhaohong Deng  
+[arXiv:2410.21069](https://arxiv.org/abs/2410.21069)
 
 ### 4.8 ResNet-based
 
@@ -2137,6 +2162,14 @@ Haowen Zhao, Francesco A. Aprile, Barbara Bravi
 Jiarui Lu, Xiaoyin Chen, Stephen Zhewen Lu, Chence Shi, Hongyu Guo, Yoshua Bengio, Jian Tang  
 [arXiv:2410.18403](https://arxiv.org/abs/2410.18403) • [code](https://github.com/lujiarui/esmdiff)
 
+**Peptide-GPT: Generative Design of Peptides using Generative Pre-trained Transformers and Bio-informatic Supervision**  
+Aayush Shah, Chakradhar Guntuboina, Amir Barati Farimani  
+[arXiv:2410.19222](https://arxiv.org/abs/2410.19222) • [code](https://github.com/aayush-shah14/PeptideGPT)
+
+**An adaptive autoregressive diffusion approach to design active humanized antibody and nanobody**  
+Jian Ma, Fandi Wu, Tingyang Xu, Shaoyong Xu, Wei Liu, Divin Yan, Qifeng Bai, Jianhua Yao  
+[bioRxiv 2024.10.22.619416](https://www.biorxiv.org/content/10.1101/2024.10.22.619416v1) • [code](https://github.com/TencentAI4S/HuDiff)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**  
@@ -2547,6 +2580,10 @@ Vinicius Zambaldi, David La, Alexander E. Chu, Harshnira Patani, Amy E. Danson, 
 **DPLM-2: A Multimodal Diffusion Protein Language Model**  
 Xinyou Wang, Zaixiang Zheng, Fei Ye, Dongyu Xue, Shujian Huang, Quanquan Gu  
 [arXiv:2410.13782](https://arxiv.org/abs/2410.13782) • [code](https://github.com/bytedance/dplm) • [website](https://bytedance.github.io/dplm/dplm-2)
+
+**E(3)-invaraint diffusion model for pocket-aware peptide generation**  
+Po-Yu Liang, Jun Bai  
+[arXiv:2410.21335](https://arxiv.org/abs/2410.21335) • [code](https://github.com/LabJunBMI/E3-invaraint-diffusion-model-for-pocket-aware-peptide-generation)
 
 ### 6.3 RoseTTAFold-based
 
@@ -2969,6 +3006,10 @@ Peng Cheng, Cong Mao, Jin Tang, Sen Yang, Yu Cheng, Wuke Wang, Qiuxi Gu, Wei Han
 **Machine learning-guided co-optimization of fitness and diversity facilitates combinatorial library design in enzyme engineering**  
 Kerr Ding, Michael Chin, Yunlong Zhao, Wei Huang, Binh Khanh Mai, Huanan Wang, Peng Liu, Yang Yang & Yunan Luo  
 [Nature Communications 15.1 (2024)](https://www.nature.com/articles/s41467-024-50698-y) • [code](https://github.com/luo-group/MODIFY), [model](https://doi.org/10.5281/zenodo.12715542)
+
+**Dirichlet latent modelling enables effective learning and sampling of the functional protein design space**  
+Evgenii Lobzaev, Giovanni Stracquadanio  
+[Nat Commun 15, 9309 (2024)](https://www.nature.com/articles/s41467-024-53622-6) • [code](https://licensing.edinburgh-innovations.ed.ac.uk/product/proton)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
