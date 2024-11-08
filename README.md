@@ -9,25 +9,19 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.11.02:*  
-+   E(3)-invaraint diffusion model for pocket-aware peptide generation
-    + [[arXiv:2410.21335](https://arxiv.org/abs/2410.21335)] • [[code](https://github.com/LabJunBMI/E3-invaraint-diffusion-model-for-pocket-aware-peptide-generation)]
-+   EMOCPD: Efficient Attention-based Models for Computational Protein Design Using Amino Acid Microenvironment
-    + [[arXiv:2410.21069](https://arxiv.org/abs/2410.21069)]
-+   Improving Inverse Folding for Peptide Design with Diversity-regularized Direct Preference Optimization
-    + [[arXiv:2410.19471](https://arxiv.org/abs/2410.19471)]
-+   FoldMark: Protecting Protein Generative Models with Watermarking
-    + [[arXiv:2410.20354](https://arxiv.org/abs/2410.20354)] • [[code](https://github.com/zaixizhang/FoldMark)]
-+   Peptide-GPT: Generative Design of Peptides using Generative Pre-trained Transformers and Bio-informatic Supervision
-    + [[arXiv:2410.19222](https://arxiv.org/abs/2410.19222)] • [[code](https://github.com/aayush-shah14/PeptideGPT)]
-+   An adaptive autoregressive diffusion approach to design active humanized antibody and nanobody
-    + [[bioRxiv 2024.10.22.619416](https://www.biorxiv.org/content/10.1101/2024.10.22.619416v1)] • [[code](https://github.com/TencentAI4S/HuDiff)]
-+   Dirichlet latent modelling enables effective learning and sampling of the functional protein design space
-    + [[Nat Commun 15, 9309 (2024)](https://www.nature.com/articles/s41467-024-53622-6)] • [[code](https://licensing.edinburgh-innovations.ed.ac.uk/product/proton)]
-+   Designing diverse and high-performance proteins with a large language model in the loop
-    + [[bioRxiv 2024.10.25.620340](https://www.biorxiv.org/content/10.1101/2024.10.25.620340v1)]
-+   ProBID-Net: A Deep Learning Model for Protein-Protein Binding Interface Design
-    + [[Chemical Science (2024)](https://pubs.rsc.org/en/Content/ArticleLanding/2024/SC/D4SC02233E)] • [[code](https://github.com/ComputArtCMCG/ProBID-NET)]
+*Papers last week, updated on 2024.11.08:*  
++   Bio-xLSTM: Generative modeling, representation and in-context learning of biological and chemical sequences
+    + [[arXiv:2411.04165](https://arxiv.org/abs/2411.04165)]
++   Five protein-design questions that still challenge AI
+    + [[Nature 635.8037 (2024)](https://www.nature.com/articles/d41586-024-03595-9)]
++   Afpdb–an efficient structure manipulation package for AI protein design
+    + [[Bioinformatics (2024): btae654](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae654/7876263)] • [[code](https://github.com/data2code/afpdb)] • [[website](https://pypi.org/project/afpdb)]
++   Bridge-IF: Learning Inverse Protein Folding with Markov Bridges
+    + [[arXiv:2411.02120](https://arxiv.org/abs/2411.02120)] • [[code](https://github.com/violet-sto/Bridge-IF)]
++   LaGDif: Latent Graph Diffusion Model for Efficient Protein Inverse Folding with Self-Ensemble
+    + [[arXiv:2411.01737](https://arxiv.org/abs/2411.01737)] • [[code](https://github.com/TaoyuW/LaGDif)]
+
+
 ------
 <p align="center">
   <br>
@@ -547,6 +541,10 @@ Jonathan Martin, Marcos Lequerica Mateos, José N. Onuchic, and Faruck Morcos
 **AI has dreamt up a blizzard of new proteins. Do any of them actually work?**  
 Ewen Callaway  
 [Nature 634.8034 (2024)](https://www.nature.com/articles/d41586-024-03335-z)
+
+**Five protein-design questions that still challenge AI**  
+Sara Reardon  
+[Nature 635.8037 (2024)](https://www.nature.com/articles/d41586-024-03595-9)
 
 ### 1.2 Antibody design
 
@@ -1650,6 +1648,14 @@ paper not available • [news](https://mp.weixin.qq.com/s/Iex0YndimhLDM0mASp1MtA
 Bingxin Zhou, Lirong Zheng, Banghao Wu, Kai Yi, Bozitao Zhong, Yang Tan, Qian Liu, Pietro Liò, Liang Hong  
 [bioRxiv 2023.08.10.552783](https://www.biorxiv.org/content/10.1101/2023.08.10.552783v2)/[Cell Discovery 10.1 (2024)](https://www.nature.com/articles/s41421-024-00728-2) • [code](https://github.com/bzho3923/CPDiffusion)
 
+**LaGDif: Latent Graph Diffusion Model for Efficient Protein Inverse Folding with Self-Ensemble**  
+Taoyu Wu, Yu Guang Wang, Yiqing Shen  
+[arXiv:2411.01737](https://arxiv.org/abs/2411.01737) • [code](https://github.com/TaoyuW/LaGDif)
+
+**Bridge-IF: Learning Inverse Protein Folding with Markov Bridges**  
+Yiheng Zhu, Jialu Wu, Qiuyi Li, Jiahuan Yan, Mingze Yin, Wei Wu, Mingyang Li, Jieping Ye, Zheng Wang, Jian Wu  
+[arXiv:2411.02120](https://arxiv.org/abs/2411.02120) • [code](https://github.com/violet-sto/Bridge-IF)
+
 ### 4.10 Bayesian-based
 
 **Inverse Protein Folding Using Deep Bayesian Optimization**  
@@ -1662,7 +1668,7 @@ Natalie Maus, Yimeng Zeng, Daniel Allen Anderson, Phillip Maffettone, Aaron Solo
 Hannes Stärk, Bowen Jing, Regina Barzilay, Tommi Jaakkola  
 [arXiv:2310.05764](https://arxiv.org/abs/2310.05764) • [code](https://github.com/HannesStark/FlowSite)
 
-## 4.12 RL-based
+### 4.12 RL-based
 
 **Fine-Tuning Discrete Diffusion Models via Reward Optimization with Applications to DNA and Protein Design**  
 Chenyu Wang, Masatoshi Uehara, Yichun He, Amy Wang, Tommaso Biancalani, Avantika Lal, Tommi Jaakkola, Sergey Levine, Hanchen Wang, Aviv Regev  
@@ -2341,6 +2347,10 @@ Haiping Zhang, Konda Mani Saravanan, John Z.H. Zhang, Xuli Wu
 Haiping Zhang, Konda Mani Saravanan, Yanjie Wei, Yang Jiao, Yang Yang, Yi Pan, Xuli Wu, and John Z. H. Zhang  
 [Journal of Chemical Information and Modeling 63.3 (2023)](https://pubs.acs.org/doi/10.1021/acs.jcim.2c01485) • [code](https://github.com/haiping1010/New_peptide_iteration/tree/master/iteration_main_protease_Antiviral_pep)
 
+**Bio-xLSTM: Generative modeling, representation and in-context learning of biological and chemical sequences**  
+Niklas Schmidinger, Lisa Schneckenreiter, Philipp Seidl, Johannes Schimunek, Pieter-Jan Hoedt, Johannes Brandstetter, Andreas Mayr, Sohvi Luukkonen, Sepp Hochreiter, Günter Klambauer  
+[arXiv:2411.04165](https://arxiv.org/abs/2411.04165)
+
 ### 5.10 Autoregressive-models
 
 **Efficient generative modeling of protein sequences using simple autoregressive models**  
@@ -2654,6 +2664,10 @@ Jason Zhaoxing Zhang, Xinting Li, Caixuan Liu, Hanlun Jiang, Kejia Wu, David Bak
 **Improved protein binder design using beta-pairing targeted RFdiffusion**  
 Isaac Sappington, Martin Toul, David S. Lee, Stephanie A. Robinson, Inna Goreshnik, Clara McCurdy, Tung Ching Chan, Nic Buchholz, Buwei Huang, Dionne Vafeados, Mariana Garcia-Sanchez, Nicole Roullier, Matthias Glögl, Chris Kim, Joseph L. Watson, Susana Vázquez Torres, Koen H. G. Verschueren, Kenneth Verstraete, Cynthia S. Hinck, Melisa Benard-Valle, Brian Coventry, Jeremiah Nelson Sims, Green Ahn, Xinru Wang, Andrew P. Hinck, Timothy P. Jenkins, Hannele Ruohola-Baker, Steven M. Banik, Savvas N. Savvides, David Baker  
 [bioRxiv 2024.10.11.617496](https://www.biorxiv.org/content/10.1101/2024.10.11.617496v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/10/12/2024.10.11.617496/DC1/embed/media-1.pdf)
+
+**Afpdb–an efficient structure manipulation package for AI protein design**  
+Yingyao Zhou, Jiayi Cox, Bin Zhou, Steven Zhu, Yang Zhong, Glen Spraggon  
+[Bioinformatics (2024): btae654](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btae654/7876263) • [code](https://github.com/data2code/afpdb) • [website](https://pypi.org/project/afpdb)
 
 ### 6.4 CNN-based
 
