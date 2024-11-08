@@ -1476,6 +1476,10 @@ Jonathan Funk, Laura Machado, Samuel A. Bradley, Marta Napiorkowska, Rodrigo Gal
 Ryan Park, Darren J. Hsu, C. Brian Roland, Maria Korshunova, Chen Tessler, Shie Mannor, Olivia Viessmann, Bruno Trentini  
 [arXiv:2410.19471](https://arxiv.org/abs/2410.19471)
 
+**Computational design of developable therapeutic antibodies: efficient traversal of binder landscapes and rescue of escape mutations**  
+Frédéric A. Dreyer, Constantin Schneider, Aleksandr Kovaltsuk, Daniel Cutting, Matthew J. Byrne, Daniel A. Nissley, Newton Wahome, Henry Kenlay, Claire Marks, David Errington, Richard J. Gildea, David Damerell, Pedro Tizei, Wilawan Bunjobpol, John F. Darby, Ieva Drulyte, Daniel L. Hurdiss, Sachin Surade, Douglas E. V. Pires, Charlotte M. Deane  
+[bioRxiv 2024.10.03.616038](https://www.biorxiv.org/content/10.1101/2024.10.03.616038v1) • [code](https://github.com/Exscientia/ab-characterisation) • AbMPNN-based
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -2108,6 +2112,10 @@ Justin Barton, Aretas Gaspariunas, David A Yadin, Jorge Dias, Francesca L Nice, 
 Nayoung Kim, Minsu Kim, Sungsoo Ahn, Jinkyoo Park  
 [arXiv:2402.05982](https://arxiv.org/abs/2402.05982)/[Under review for TMLR](https://openreview.net/forum?id=CTkABQvnkm) • [code](https://github.com/lkny123/ASSD_public)
 
+**Addressing the antibody germline bias and its effect on language models for improved antibody design**  
+Tobias H. Olsen, Iain H. Moal, Charlotte M. Deane  
+[bioRxiv 2024.02.02.578678](https://www.biorxiv.org/content/10.1101/2024.02.02.578678v1)/[Bioinformatics (2024): btae618](https://academic.oup.com/bioinformatics/article/40/11/btae618/7845256) • [code](https://github.com/oxpig/AbLang2)
+
 **MoFormer: Multi-objective Antimicrobial Peptide Generation Based on Conditional Transformer Joint Multi-modal Fusion Descriptor**  
 Li Wang, Xiangzheng Fu, Jiahao Yang, Xinyi Zhang, Xiucai Ye, Yiping Liu, Tetsuya Sakurai, Xiangxiang Zeng  
 [arXiv:2406.00735](https://arxiv.org/abs/2406.02610)
@@ -2143,6 +2151,10 @@ Kamyar Zeinalipour, Neda Jamshidi, Monica Bianchini, Marco Maggini, Marco Gori
 **Miniaturizing, Modifying, and Augmenting Nature's Proteins with Raygun**  
 Kapil Devkota, Daichi Shonai, Joey Mao, Scott H Soderling, Rohit Singh  
 [bioRxiv 2024.08.13.607858](https://www.biorxiv.org/content/10.1101/2024.08.13.607858v1) • [code](https://github.com/rohitsinghlab/raygun)
+
+**TourSynbio: A Multi-Modal Large Model and Agent Framework to Bridge Text and Protein Sequences for Protein Engineering**  
+Yiqing Shen, Zan Chen, Michail Mamalakis, Yungeng Liu, Tianbin Li, Yanzhou Su, Junjun He, Pietro Liò, Yu Guang Wang  
+[arXiv:2408.15299](https://arxiv.org/abs/2408.15299) • [code](https://github.com/tsynbio/TourSynbio) • [model](https://huggingface.co/tsynbio/Toursynbio) • [website](http://prdtst.tsynbio.com:51443/) • [news](https://mp.weixin.qq.com/s/IROlGdP04uLUUipNAd7YOg) • commercial
 
 **AbGPT: De Novo Antibody Design via Generative Language Modeling**  
 Desmond Kuan, Amir Barati Farimani  
@@ -2275,6 +2287,10 @@ Jithendaraa Subramanian, Shivakanth Sujit, Niloy Irtisam, Umong Sain, Derek Nowr
 **BetterBodies: Reinforcement Learning guided Diffusion for Antibody Sequence Design**  
 Yannick Vogt, Mehdi Naouar, Maria Kalweit, Christoph Cornelius Miething, Justus Duyster, Joschka Boedecker, Gabriel Kalweit  
 [arXiv:2409.16298](https://arxiv.org/abs/2409.16298)
+
+**Reinforcement learning-driven exploration of peptide space: accelerating generation of drug-like peptides**  
+Qian Wang, Xiaotong Hu, Zhiqiang Wei, Hao Lu, Hao Liu  
+[Briefings in Bioinformatics 25.5 (2024): bbae444](https://academic.oup.com/bib/article/25/5/bbae444/7754450) • [code](https://github.com/p1acemker/MomdTDSRL)
 
 ### 5.7 Flow-based
 
