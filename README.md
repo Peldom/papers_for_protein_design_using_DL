@@ -10,17 +10,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design).  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy).   -->
 
-*Papers last week, updated on 2024.11.15:*
-+   Computational Design of Metallohydrolases
-    + [[bioRxiv 2024.11.13.623507](https://www.biorxiv.org/content/10.1101/2024.11.13.623507v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/11/14/2024.11.13.623507/DC1/embed/media-1.pdf)]
-+   GRACE: Generative Redesign in Artificial Computational Enzymology
-    + [[ACS Synthetic Biology (2024)](https://pubs.acs.org/doi/10.1021/acssynbio.4c00624)] • [[code](https://github.com/Ryan-Hu-Hu-Hu/GRACE)]
-+   MProt-DPO: Breaking the ExaFLOPS Barrier for Multimodal Protein Design Workflows with Direct Preference Optimization
-    + [[International Conference for High Performance Computing, Networking, Storage and Analysis SC. IEEE Computer Society, 2024](https://www.computer.org/csdl/proceedings-article/sc/2024/529100a074/21HUV88n1F6)]
-+   Concept Bottleneck Language Models For protein design
-    + [[arXiv:2411.06090](https://arxiv.org/abs/2411.06090)]
-+   ProtDiff: Function-Conditioned Masked Diffusion Models for Robust Directed Protein Generation
-    + [[Neurips 2024 Workshop Foundation Models for Science: Progress, Opportunities, and Challenges](https://openreview.net/forum?id=POrk2Cc7Ux)]
+*Papers last week, updated on 2024.11.23:*
++   Alphafold2 refinement improves designability of large de novo proteins
+    + [[bioRxiv 2024.11.21.624687](https://www.biorxiv.org/content/10.1101/2024.11.21.624687v1)] • [[colab](https://colab.research.google.com/drive/14ULdrjOmH-XMtGDrikzjDF1FLegZg3-a?usp=sharing)]
++   D-Flow: Multi-modality Flow Matching for D-peptide Design
+    + [[arXiv:2411.10618](https://arxiv.org/abs/2411.10618)] • [[code](https://github.com/smiles724/PeptideDesign)]
++   Multi-purpose controllable protein generation via prompted language models
+    + [[bioRxiv 2024.11.17.624051](https://www.biorxiv.org/content/10.1101/2024.11.17.624051v1)]
++   Design of facilitated dissociation enables control over cytokine signaling duration
+    + [[bioRxiv 2024.11.15.623900](https://www.biorxiv.org/content/10.1101/2024.11.15.623900v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/11/16/2024.11.15.623900/DC1/embed/media-1.pdf)]
++   De novo design of epitope-specific antibodies against soluble and multipass membrane proteins with high specificity, developability,and function
+    + [[preprint](https://nabla-public.s3.us-east-1.amazonaws.com/2024_Nabla_JAM_de_novo_antibodies.pdf)] • [[blog](https://www.nabla.bio/news/denovo)] • commercial
 
 ---
 
@@ -120,7 +120,8 @@
   <br>
   <a href="#71-effects-of-mutation--fitness-landscape">Effects of mutations & Fitness Landscape</a>  •
   <a href="#72-protein-language-models-plm-and-representation-learning">Protein Language Model & Representation Learning</a>  •
-  <a href="#73-molecular-design-models">Molecular Design Model</a>
+  <a href="#73-molecular-design-models">Molecular Design Model</a> •
+  <a href="#74-unclassified">Unclassified</a>
 </p>
 
 ---
@@ -831,6 +832,10 @@ Qiuzhen Li, Efstathios Nikolaos Vlachos, Patrick Bryant
 **Scalable protein design using optimization in a relaxed sequence space**
 Christopher Frank, Ali Khoshouei , Lara Fub , Dominik Schiwietz , Dominik Putz, Lara Weber, Zhixuan Zhao, Motoyuki Hattori, Shihao Feng, Yosta de Stigter, Sergey Ovchinnikov, Hendrik Dietz
 [Science386,439-445(2024)](https://www.science.org/doi/10.1126/science.adq1741) • [code](https://github.com/sokrypton/ColabDesign)
+
+**Alphafold2 refinement improves designability of large de novo proteins**  
+Christopher Josef Frank, Dominik Schiwietz, Lara Fuss, Sergey Ovchinnikov, Hendrik Dietz  
+[bioRxiv 2024.11.21.624687](https://www.biorxiv.org/content/10.1101/2024.11.21.624687v1) • [colab](https://colab.research.google.com/drive/14ULdrjOmH-XMtGDrikzjDF1FLegZg3-a?usp=sharing)
 
 ### 2.3 DMPfold2-based
 
@@ -2202,6 +2207,10 @@ Sergio Romero-Romero, Alexander E. Braun, Timo Kossendey, Noelia Ferruz, Steffen
 Nikša Praljak, Hugh Yeh, Miranda Moore, Michael Socolich, Rama Ranganathan, Andrew L. Ferguson  
 [bioRxiv 2024.11.11.622734](https://www.biorxiv.org/content/10.1101/2024.11.11.622734v1)
 
+**Multi-purpose controllable protein generation via prompted language models**  
+Zeyuan Wang, Binbin Chen, Keyan Ding, Jiawen Cao, Ming Qin, Yadan Niu, Xiang Zhuang, Xiaotong Li, Kehua Feng, Tong Xu, Ningyu Zhang, Haoran Yu, Qiang Zhang, Huajun Chen  
+[bioRxiv 2024.11.17.624051](https://www.biorxiv.org/content/10.1101/2024.11.17.624051v1)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -2711,6 +2720,14 @@ Ruei-En, HuChi-Hua, Yu I-Son Ng
 Donghyo Kim, Seth M. Woodbury, Woody Ahern, Indrek Kalvet, Nikita Hanikel, Saman Salike, Samuel J. Pellock, Anna Lauko, Donald Hilvert, David Baker  
 [bioRxiv 2024.11.13.623507](https://www.biorxiv.org/content/10.1101/2024.11.13.623507v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/11/14/2024.11.13.623507/DC1/embed/media-1.pdf)
 
+**Design of facilitated dissociation enables control over cytokine signaling duration**  
+Adam J. Broerman, Christoph Pollmann, Mauriz A. Lichtenstein, Mark D. Jackson, Maxx H. Tessmer, Won Hee Ryu, Mohamad H. Abedi, Danny D. Sahtoe, Aza Allen, Alex Kang, Joshmyn De La Cruz, Evans Brackenbrough, Banumathi Sankaran, Asim K. Bera, Daniel M. Zuckerman, Stefan Stoll, Florian Praetorius, Jacob Piehler, David Baker  
+[bioRxiv 2024.11.15.623900](https://www.biorxiv.org/content/10.1101/2024.11.15.623900v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/11/16/2024.11.15.623900/DC1/embed/media-1.pdf)
+
+**Accurate de novo design of high-affinity protein binding macrocycles using deep learning**  
+Stephen A. Rettie, David Juergens, Victor Adebomi, Yensi Flores Bueso, Qinqin Zhao, Alexandria N. Leveille, Andi Liu, Asim K. Bera, Joana A. Wilms, Alina Üffing, Alex Kang, Evans Brackenbrough, Mila Lamb, Stacey R. Gerben, Analisa Murray, Paul M. Levine, Maika Schneider, Vibha Vasireddy, Sergey Ovchinnikov, Oliver H. Weiergräber, Dieter Willbold, Joshua A. Kritzer, Joseph D. Mougous, David Baker, Frank DiMaio, Gaurav Bhardwaj  
+[bioRxiv 2024.11.18.622547](https://www.biorxiv.org/content/10.1101/2024.11.18.622547v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/11/18/2024.11.18.622547/DC1/embed/media-1.zip)
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**
@@ -2824,6 +2841,10 @@ Bohao Xu, Yanbo Wang, Wenyu Chen, Shimin Shan
 **Generalized Protein Pocket Generation with Prior-Informed Flow Matching**
 Zaixi Zhang, Marinka Zitnik, Qi Liu
 [arXiv:2409.19520](https://arxiv.org/abs/2409.19520)
+
+**D-Flow: Multi-modality Flow Matching for D-peptide Design**  
+Fang Wu, Tinson Xu, Shuting Jin, Xiangru Tang, Zerui Xu, James Zou, Brian Hie  
+[arXiv:2411.10618](https://arxiv.org/abs/2411.10618) • [code](https://github.com/smiles724/PeptideDesign)
 
 ### 6.9 AlphaFold-based
 
@@ -3168,3 +3189,9 @@ Zhang, Zaixi, et al.
 **3D Equivariant Diffusion for Target-Aware Molecule Generation and Affinity Prediction**
 Guan, Jiaqi, et al.
 [International Conference on Learning Representations 11 (2023)](https://openreview.net/forum?id=kJqXEPXMsE0) • [code](https://github.com/guanjq/targetdiff)
+
+### 7.4 Unclassified
+
+**De novo design of epitope-specific antibodies against soluble and multipass membrane proteins with high specificity, developability,and function**  
+[Nabla Bio](https://www.nabla.bio/)  
+[preprint](https://nabla-public.s3.us-east-1.amazonaws.com/2024_Nabla_JAM_de_novo_antibodies.pdf) • [blog](https://www.nabla.bio/news/denovo) • commercial
