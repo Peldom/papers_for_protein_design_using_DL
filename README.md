@@ -10,25 +10,23 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2024.12.21:*
-+   Mapping targetable sites on the human surfaceome for the design of novel binders
-    + [[bioRxiv 2024.12.16.628626](https://www.biorxiv.org/content/10.1101/2024.12.16.628626v1)]• [[code](https://github.com/hamedkhakzad/SURFACE-Bind)]
-+   De novo design and structure of a peptide-centric TCR mimic binding module
-    + [[bioRxiv 2024.12.16.628822](https://www.biorxiv.org/content/10.1101/2024.12.16.628822v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.16.628822/DC1/embed/media-1.pdf)] • RFDiffusion/ProteinMPNN-based
-+   Benchmarking Inverse Folding Models for Antibody CDR Sequence Design
-    + [[bioRxiv 2024.12.16.628614](https://www.biorxiv.org/content/10.1101/2024.12.16.628614v1)]
-+   Design of pseudosymmetric protein hetero-oligomers
-    + [[Nat Commun 15, 10684 (2024)](https://www.nature.com/articles/s41467-024-54913-8)] • [[code](https://github.com/rdkibler/Stepwise-design-of-pseudosymmetric-protein-hetero-oligomers)]
-+   Open-Source Protein Language Models for Function Prediction and Protein Design
-    + [[arXiv:2412.13519](https://arxiv.org/abs/2412.13519)]
-+   Guiding Generative Protein Language Models with Reinforcement Learning
-    + [[arXiv:2412.12979](https://arxiv.org/abs/2412.12979)] • [[code](https://github.com/AI4PDLab/DPO_pLM)]
-+   IgDesign: In vitro validated antibody design against multiple therapeutic antigens using inverse folding
-    + [[bioRxiv 2023.12.08.570889](https://www.biorxiv.org/content/10.1101/2023.12.08.570889v1)] • [[code](https://github.com/AbSciBio/igdesign)]
-+   Discovery and language model-guided design of hyperactive transposase
-    + [[preprint](https://www.researchsquare.com/article/rs-5536951/v1)] • [[code](https://github.com/Integra-tx/Piggybac_bioprospecting_pipeline)] • Progen2-based
-+   Bayesian Optimisation for Protein Sequence Design: Gaussian Processes with Zero-Shot Protein Language Model Prior Mean
-    + [[Machine Learning for Structural Biology Workshop, NeurIPS 2024](https://www.mlsb.io/papers_2024/Bayesian_Optimisation_for_Protein_Sequence_Design:_Gaussian_Processes_with_Zero-Shot_Protein_Language_Model_Prior_Mean.pdf)]
+*Papers last week, updated on 2024.12.27:*
++   Finetuning ESM3 with Contrastive Preference Optimization for Antigen-Specific Antibody Design
+    + [[UIUC Fall 2024 CS582 MLCB](https://openreview.net/forum?id=wDpvm3TrhE)] • [[code](https://github.com/anirudhvenk/antibody-dpo)]
++   DOTA: Developability-Optimized Antibody Generation
+    + [[UIUC Fall 2024 CS582 MLCB](https://openreview.net/forum?id=H4430Z0HfD)]
++   PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion
+    + [[arXiv:2412.17780](https://arxiv.org/abs/2412.17780)]
++   Bottom-up design of calcium channels from defined selectivity filter geometry
+    + [[bioRxiv 2024.12.19.629320](https://www.biorxiv.org/content/10.1101/2024.12.19.629320v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.19.629320/DC1/embed/media-1.pdf)] • RFDiffusion/ProteinMPNN-based
++   Protein CREATE enables closed-loop design of de novo synthetic protein binders
+    + [[bioRxiv 2024.12.20.629847](https://www.biorxiv.org/content/10.1101/2024.12.20.629847v1)] • ESM-IF-based
++   Implicit modeling of the conformational landscape and sequence allows scoring and generation of stable proteins
+    + [[bioRxiv 2024.12.20.629706](https://www.biorxiv.org/content/10.1101/2024.12.20.629706v1)] • [[code](https://github.com/yehlincho/Joint_Model_Stability)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/22/2024.12.20.629706/DC1/embed/media-1.pdf)]
++   Generation of antigen-specific paired heavy-light chain antibody sequences using large language models
+    + [[bioRxiv 2024.12.20.629482](https://www.biorxiv.org/content/10.1101/2024.12.20.629482v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/22/2024.12.20.629482/DC1/embed/media-1.pdf)]
++   Learning to engineer protein flexibility
+    + [[arXiv:2412.18275](https://arxiv.org/abs/2412.18275)] • [[code](https://github.com/KoubaPetr/Flexpert)]
 
 
 ---
@@ -732,6 +730,10 @@ Zander Harteveld, Alexandra Van Hall-Beauvais, Irina Morozova, Joshua Southern, 
 Anders Lønstrup Hansen, Frederik Friis Theisen, Ramon Crehuet, Enrique Marcos, Nushin Aghajari, and Martin Willemoës  
 [ACS Synth. Biol. 2024](https://pubs.acs.org/doi/10.1021/acssynbio.3c00674)
 
+**Implicit modeling of the conformational landscape and sequence allows scoring and generation of stable proteins**  
+Yehlin Cho, Justas Dauparas, Kotaro Tsuboyama, Gabriel Rocklin, Sergey Ovchinnikov  
+[bioRxiv 2024.12.20.629706](https://www.biorxiv.org/content/10.1101/2024.12.20.629706v1) • [code](https://github.com/yehlincho/Joint_Model_Stability) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/22/2024.12.20.629706/DC1/embed/media-1.pdf)
+
 ### 2.2 AlphaFold2-based
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**  
@@ -1385,8 +1387,7 @@ Hsi-Wen Kao, Wei-Lin Lu, Meng-Ru Ho, Yu-Fong Lin, Yun-Jung Hsieh, Tzu-Ping Ko, S
 
 **Rapid and automated design of two-component protein nanomaterials using ProteinMPNN**  
 Robbert J. de Haas, Natalie Brunette, Alex Goodson, Justas Dauparas, Sue Y. Yi, Erin C. Yang, Quinton Dowling, Hannah Nguyen, Alex Kang, Asim K. Bera, Banumathi Sankaran, Renko de Vries, David Baker, Neil P. King  
-[bioRxiv 2023.08.04.551935](https://www.biorxiv.org/content/10.1101/2023.08.04.551935v1)/[Proceedings of the National Academy of Sciences 121.(13)
-](https://www.pnas.org/doi/10.1073/pnas.2314646121) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/08/04/2023.08.04.551935/DC1/embed/media-1.pdf) • [data](https://zenodo.org/records/8278877)
+[bioRxiv 2023.08.04.551935](https://www.biorxiv.org/content/10.1101/2023.08.04.551935v1)/[Proceedings of the National Academy of Sciences 121.(13)](https://www.pnas.org/doi/10.1073/pnas.2314646121) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/08/04/2023.08.04.551935/DC1/embed/media-1.pdf) • [data](https://zenodo.org/records/8278877)
 
 **Rationally seeded computational protein design**  
 Katherine I. Albanese, Rokas Petrenas, Fabio Pirro, Elise A. Naudin, Ufuk Borucu, William M. Dawson, D. Arne Scott, Graham J. Leggett, Orion D. Weiner, Thomas A. A. Oliver, Derek N. Woolfson  
@@ -1540,6 +1541,10 @@ Moritz Ertelt, Phillip Schlegel, Max Beining, Leonard Kaysser, Jens Meiler, Clar
 Amir Shanehsazzadeh, Julian Alverio, George Kasun, Simon Levine, Ido Calman, Jibran A. Khan, Chelsea Chung, Nicolas Diaz, Breanna K. Luton, Ysis Tarter, Cailen McCloskey, Katherine B. Bateman, Hayley Carter, Dalton Chapman, Rebecca Consbruck, Alec Jaeger, Christa Kohnert, Gaelin Kopec-Belliveau, John M. Sutton, Zheyuan Guo, Gustavo Canales, Kai Ejan, Emily Marsh, Alyssa Ruelos, Rylee Ripley, Brooke Stoddard, Rodante Caguiat, Kyra Chapman, Matthew Saunders, Jared Sharp, Douglas Ganini da Silva, Audree Feltner, Jake Ripley, Megan E. Bryant, Danni Castillo, Joshua Meier, Christian M. Stegmann, Katherine Moran, Christine Lemke, Shaheed Abdulhaqq, Lillian R. Klug, Sharrol Bachas  
 [bioRxiv 2023.12.08.570889](https://www.biorxiv.org/content/10.1101/2023.12.08.570889v1) • [code](https://github.com/AbSciBio/igdesign)
 
+**Learning to engineer protein flexibility**  
+Petr Kouba, Joan Planas-Iglesias, Jiri Damborsky, Jiri Sedlar, Stanislav Mazurenko, Josef Sivic  
+[arXiv:2412.18275](https://arxiv.org/abs/2412.18275) • [code](https://github.com/KoubaPetr/Flexpert)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1671,6 +1676,14 @@ Xiaoqi Ling, Cheng Cai, Demin Kong, Zhisheng Wei, Jing Wu, Lei Wang, Zhaohong De
 **Mixture of Experts Enable Efficient and Effective Protein Understanding and Design**  
 Ning Sun, Shuxian Zou, Tianhua Tao, Sazan Mahbub, Dian Li, Yonghao Zhuang, Hongyi Wang, Xingyi Cheng, Le Song, Eric P. Xing  
 [bioRxiv 2024.11.29.625425](https://www.biorxiv.org/content/10.1101/2024.11.29.625425v1) • [code](https://github.com/genbio-ai/AIDO/)
+
+**Finetuning ESM3 with Contrastive Preference Optimization for Antigen-Specific Antibody Design**  
+Anirudh Venkatraman, Gopinath Balaji, Veeresh Kande  
+[UIUC Fall 2024 CS582 MLCB](https://openreview.net/forum?id=wDpvm3TrhE) • [code](https://github.com/anirudhvenk/antibody-dpo)
+
+**Protein CREATE enables closed-loop design of de novo synthetic protein binders**  
+Alec Lourenço, Arjuna Subramanian, Ryan Spencer, Michael Anaya, Jiapei Miao, William Fu, Eric Chow, Matt Thomson  
+[bioRxiv 2024.12.20.629847](https://www.biorxiv.org/content/10.1101/2024.12.20.629847v1) • ESM-IF-based
 
 ### 4.8 ResNet-based
 
@@ -2296,6 +2309,10 @@ Shivasankaran Vanaja Pandi, Bharath Ramsundar
 Marc Güell, Dimitrije Ivančić, Alejandro Agudelo, Jonathan Lindstrom-Vautri, Jessica Jaraba-Wallace, Maria Gallo, Alejandro Ragel, Irene Higueras, Federico Billeci, Marta Sanvicente, Paolo Petazzi, Noelia Ferruz, Avencia Sánchez-Mejías, Ravi Das  
 [preprint](https://www.researchsquare.com/article/rs-5536951/v1) • [code](https://github.com/Integra-tx/Piggybac_bioprospecting_pipeline) • Progen2-based
 
+**Generation of antigen-specific paired heavy-light chain antibody sequences using large language models**  
+Perry T. Wasdin, Nicole V. Johnson, Alexis K. Janke, Sofia Held, Toma M. Marinov, Gwen Jordaan, Léna Vandenabeele, Fani Pantouli, Rebecca A. Gillespie, Matthew J. Vukovich, Clinton M. Holt, Jeongryeol Kim, Grant Hansman, Jennifer Logue, Helen Y. Chu, Sarah F. Andrews, Masaru Kanekiyo, Giuseppe A. Sautto, Ted M. Ross, Daniel J. Sheward, Jason S. McLellan, Alexandra A. Abu-Shmais, Ivelin S. Georgiev  
+[bioRxiv 2024.12.20.629482](https://www.biorxiv.org/content/10.1101/2024.12.20.629482v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/22/2024.12.20.629482/DC1/embed/media-1.pdf)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**  
@@ -2407,6 +2424,14 @@ Qian Wang, Xiaotong Hu, Zhiqiang Wei, Hao Lu, Hao Liu
 **Guiding Generative Protein Language Models with Reinforcement Learning**  
 Filippo Stocco, Maria Artigues-Lleixa, Andrea Hunklinger, Talal Widatalla, Marc Guell, Noelia Ferruz  
 [arXiv:2412.12979](https://arxiv.org/abs/2412.12979) • [code](https://github.com/AI4PDLab/DPO_pLM)
+
+**DOTA: Developability-Optimized Antibody Generation**  
+Thao Nguyen, Jiateng Liu, Anna Hart  
+[UIUC Fall 2024 CS582 MLCB](https://openreview.net/forum?id=H4430Z0HfD)
+
+**PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion**  
+Sophia Tang, Yinuo Zhang, Pranam Chatterjee  
+[arXiv:2412.17780](https://arxiv.org/abs/2412.17780)
 
 ### 5.7 Flow-based
 
@@ -2865,6 +2890,10 @@ Yo Akiyama, Sergey Ovchinnikov
 Karsten D. Householder, Xinyu Xiang, Kevin M. Jude, Arthur Deng, Matthias Obenaus, Steven C. Wilson, Xiaojing Chen, Nan Wang, K. Christopher Garcia  
 [bioRxiv 2024.12.16.628822](https://www.biorxiv.org/content/10.1101/2024.12.16.628822v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.16.628822/DC1/embed/media-1.pdf) • RFDiffusion/ProteinMPNN-based
 
+**Bottom-up design of calcium channels from defined selectivity filter geometry**  
+Yulai Liu, Connor Weidle, Ljubica Mihaljevic, Joseph L. Watson, Zhe Li, Le Tracy Yu, Sagardip Majumder, Andrew J. Borst, Kenneth D. Carr, Ryan D. Kibler, Tamer M. Gamal El-Din, William A. Catterall, David Baker  
+[bioRxiv 2024.12.19.629320](https://www.biorxiv.org/content/10.1101/2024.12.19.629320v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.19.629320/DC1/embed/media-1.pdf) • RFDiffusion/ProteinMPNN-based
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**  
@@ -2875,7 +2904,7 @@ Pablo Gainza, Sarah Wehrle, Alexandra Van Hall-Beauvais, Anthony Marchand, Andre
 Anthony Marchand, Stephen Buckley, Arne Schneuing, Martin Pacesa, Pablo Gainza, Evgenia Elizarova, Rebecca Manuela Neeser, Pao-Wan Lee, Luc Reymond, Maddalena Elia, Leo Scheller, Sandrine Georgeon, Joseph Schmidt, Philippe Schwaller, Sebastian Josef Maerkl, Michael Bronstein, Bruno Emmanuel Correia  
 [bioRxiv 2024.03.25.585721](https://www.biorxiv.org/content/10.1101/2024.03.25.585721v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/28/2024.03.25.585721/DC1/embed/media-1.pdf) • [code](https://github.com/LPDI-EPFL/masif-neosurf)
 
-**Mapping targetable sites on the human surfaceome for the design of novel binders** 
+**Mapping targetable sites on the human surfaceome for the design of novel binders**  
 Petra E. M. Balbi, Ahmed Sadek, Anthony Marchand, Ta-Yi Yu, Jovan Damjanovic, Sandrine Georgeon, Joseph Schmidt, Simone Fulle, Che Yang, Hamed Khakzad, Bruno E. Correia  
 [bioRxiv 2024.12.16.628626](https://www.biorxiv.org/content/10.1101/2024.12.16.628626v1)• [code](https://github.com/hamedkhakzad/SURFACE-Bind)
 
