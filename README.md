@@ -10,23 +10,9 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2024.12.27:*
-+   Finetuning ESM3 with Contrastive Preference Optimization for Antigen-Specific Antibody Design
-    + [[UIUC Fall 2024 CS582 MLCB](https://openreview.net/forum?id=wDpvm3TrhE)] • [[code](https://github.com/anirudhvenk/antibody-dpo)]
-+   DOTA: Developability-Optimized Antibody Generation
-    + [[UIUC Fall 2024 CS582 MLCB](https://openreview.net/forum?id=H4430Z0HfD)]
-+   PepTune: De Novo Generation of Therapeutic Peptides with Multi-Objective-Guided Discrete Diffusion
-    + [[arXiv:2412.17780](https://arxiv.org/abs/2412.17780)]
-+   Bottom-up design of calcium channels from defined selectivity filter geometry
-    + [[bioRxiv 2024.12.19.629320](https://www.biorxiv.org/content/10.1101/2024.12.19.629320v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.19.629320/DC1/embed/media-1.pdf)] • RFDiffusion/ProteinMPNN-based
-+   Protein CREATE enables closed-loop design of de novo synthetic protein binders
-    + [[bioRxiv 2024.12.20.629847](https://www.biorxiv.org/content/10.1101/2024.12.20.629847v1)] • ESM-IF-based
-+   Implicit modeling of the conformational landscape and sequence allows scoring and generation of stable proteins
-    + [[bioRxiv 2024.12.20.629706](https://www.biorxiv.org/content/10.1101/2024.12.20.629706v1)] • [[code](https://github.com/yehlincho/Joint_Model_Stability)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/22/2024.12.20.629706/DC1/embed/media-1.pdf)]
-+   Generation of antigen-specific paired heavy-light chain antibody sequences using large language models
-    + [[bioRxiv 2024.12.20.629482](https://www.biorxiv.org/content/10.1101/2024.12.20.629482v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/22/2024.12.20.629482/DC1/embed/media-1.pdf)]
-+   Learning to engineer protein flexibility
-    + [[arXiv:2412.18275](https://arxiv.org/abs/2412.18275)] • [[code](https://github.com/KoubaPetr/Flexpert)]
+*Papers last week, updated on 2025.01.05:*
++   Relation-Aware Equivariant Graph Networks for Epitope-Unknown Antibody Design and Specificity Optimization
+    + [[arXiv:2501.00013](https://arxiv.org/abs/2501.00013)] • [[code](https://github.com/LirongWu/RAAD)]
 
 
 ---
@@ -864,6 +850,10 @@ Christopher Frank, Ali Khoshouei , Lara Fub , Dominik Schiwietz , Dominik Putz, 
 Christopher Josef Frank, Dominik Schiwietz, Lara Fuss, Sergey Ovchinnikov, Hendrik Dietz  
 [bioRxiv 2024.11.21.624687](https://www.biorxiv.org/content/10.1101/2024.11.21.624687v1) • [colab](https://colab.research.google.com/drive/14ULdrjOmH-XMtGDrikzjDF1FLegZg3-a?usp=sharing)
 
+**Low-N OpenFold fine-tuning improves peptide design without additional structures**  
+Theodore Sternlieb, Jakub Otwinowski, Sam Sinai, Jeffrey Chan
+[Machine Learning for Structural Biology Workshop, NeurIPS 2024](https://www.mlsb.io/papers_2024/Low-N_OpenFold_fine-tuning_improves_peptide_design_without_additional_structures.pdf)
+
 ### 2.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
@@ -940,7 +930,7 @@ Jeliazko R Jeliazkov, Diego del Alamo, Joel D Karpiak
 
 **Protein Language Model Supervised Precise and Efficient Protein Backbone Design Method**  
 Bo Zhang, Kexin Liu, Zhuoqi Zheng, Yunfeiyang Liu, Junxi Mu, Ting Wei, Hai-Feng Chen  
-[bioRxiv 2023.10.26.564121](https://www.biorxiv.org/content/10.1101/2023.10.26.564121v1) • [code](https://github.com/sirius777coder/GPDL) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/30/2023.10.26.564121/DC1/embed/media-1.pdf)
+[bioRxiv 2023.10.26.564121](https://www.biorxiv.org/content/10.1101/2023.10.26.564121v1)/[preprint](https://www.researchsquare.com/article/rs-5450034/v1) • [code](https://github.com/sirius777coder/GPDL) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/10/30/2023.10.26.564121/DC1/embed/media-1.pdf)
 
 **Unexplored regions of the protein sequence-structure map revealed at scale by a library of foldtuned language models**  
 Arjuna M. Subramanian, Matt Thomson  
@@ -2953,6 +2943,10 @@ Haitao LIN, Lirong Wu, Huang Yufei, Yunfan Liu, Odin Zhang, Yuanqing Zhou, Rui S
 **Topological Neural Networks go Persistent, Equivariant, and Continuous**  
 Yogesh Verma, Amauri H Souza, Vikas Garg  
 [arXiv:2406.03164](https://arxiv.org/abs/2406.03164) • [code](https://github.com/Aalto-QuML/TopNets)
+
+**Relation-Aware Equivariant Graph Networks for Epitope-Unknown Antibody Design and Specificity Optimization**  
+Lirong Wu, Haitao Lin, Yufei Huang, Zhangyang Gao, Cheng Tan, Yunfan Liu, Tailin Wu, Stan Z. Li  
+[arXiv:2501.00013](https://arxiv.org/abs/2501.00013) • [code](https://github.com/LirongWu/RAAD)
 
 ### 6.6 Transformer-based
 
