@@ -10,10 +10,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.01.05:*
-+   Relation-Aware Equivariant Graph Networks for Epitope-Unknown Antibody Design and Specificity Optimization
-    + [[arXiv:2501.00013](https://arxiv.org/abs/2501.00013)] • [[code](https://github.com/LirongWu/RAAD)]
-
+*Papers last week, updated on 2025.01.12:*
++   A Survey of Deep Learning Methods in Protein Bioinformatics and its Impact on Protein Design
+    + [[arXiv:2501.01477](https://arxiv.org/abs/2501.01477)]
++   From thermodynamics to protein design: Diffusion models for biomolecule generation towards autonomous protein engineering
+    + [[arXiv:2501.02680](https://arxiv.org/abs/2501.02680)] • review
++   Improving functional protein generation via foundation model-derived latent space likelihood optimization
+    + [[bioRxiv 2025.01.07.631724](https://www.biorxiv.org/content/10.1101/2025.01.07.631724v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/01/08/2025.01.07.631724/DC1/embed/media-1.docx)]
 
 ---
 
@@ -554,6 +557,10 @@ Nan Liu, Xiaocheng Jin, Chongzhou Yang, Ziyang Wang, Xiaoping Min, Shengxiang Ge
 Chen Xinhui, Yiwen Yuan, Joseph Liu, Chak Tou Leong, Xiaoye Zhu, Jiaqi Chen  
 [Neurips 2024 Workshop](https://openreview.net/forum?id=Xc7l84S0Ao)
 
+**A Survey of Deep Learning Methods in Protein Bioinformatics and its Impact on Protein Design**  
+Weihang Dai  
+[arXiv:2501.01477](https://arxiv.org/abs/2501.01477)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
@@ -948,6 +955,14 @@ Po-Yu Liang, Xueting Huang, Tibo Duran, Andrew J. Wiemer, Jun Bai
 Carlos A. Gomez-Uribe, Japheth Gado, Meiirbek Islamov  
 [bioRxiv 2024.10.25.620340](https://www.biorxiv.org/content/10.1101/2024.10.25.620340v1)
 
+**Key-cutting machine: A novel optimization framework for tailored protein and peptide design**  
+Yan C. Leyva, Marcelo D. T. Torres, Carlos A. Oliva, Cesar de la Fuente-Nunez, Carlos A. Brizuela  
+[bioRxiv 2025.01.05.631393](https://www.biorxiv.org/content/10.1101/2025.01.05.631393v1) • [code](https://github.com/cbrizuel/KCM)
+
+**Improving functional protein generation via foundation model-derived latent space likelihood optimization**  
+Changge Guan, Fangping Wan, Marcelo D. T. Torres, Cesar de la Fuente-Nunez  
+[bioRxiv 2025.01.07.631724](https://www.biorxiv.org/content/10.1101/2025.01.07.631724v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/01/08/2025.01.07.631724/DC1/embed/media-1.docx)
+
 ### 2.10 Sampling-algorithms
 
 **AdaLead: A simple and robust adaptive greedy search algorithm for sequence design**  
@@ -1156,6 +1171,10 @@ Yiming Ma, Fei Ye, Yi Zhou, Zaixiang Zheng, Dongyu Xue, Quanquan Gu
 **On Diffusion Posterior Sampling via Sequential Monte Carlo for Zero-Shot Scaffolding of Protein Motifs**  
 James Matthew Young, O. Deniz Akyildiz  
 [arXiv:2412.05788](https://arxiv.org/abs/2412.05788) • [code](https://github.com/matsagad/mres-project)
+
+**From thermodynamics to protein design: Diffusion models for biomolecule generation towards autonomous protein engineering**  
+Wen-ran Li, Xavier F. Cadet, David Medina-Ortiz, Mehdi D. Davari, Ramanathan Sowdhamini, Cedric Damour, Yu Li, Alain Miranville, Frederic Cadet  
+[arXiv:2501.02680](https://arxiv.org/abs/2501.02680) • review
 
 ### 3.6 RL-based
 
