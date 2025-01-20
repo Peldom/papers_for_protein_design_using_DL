@@ -10,13 +10,9 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.01.12:*
-+   A Survey of Deep Learning Methods in Protein Bioinformatics and its Impact on Protein Design
-    + [[arXiv:2501.01477](https://arxiv.org/abs/2501.01477)]
-+   From thermodynamics to protein design: Diffusion models for biomolecule generation towards autonomous protein engineering
-    + [[arXiv:2501.02680](https://arxiv.org/abs/2501.02680)] • review
-+   Improving functional protein generation via foundation model-derived latent space likelihood optimization
-    + [[bioRxiv 2025.01.07.631724](https://www.biorxiv.org/content/10.1101/2025.01.07.631724v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/01/08/2025.01.07.631724/DC1/embed/media-1.docx)]
+*Papers last week, updated on 2025.01.20:*
++   Data and AI-driven synthetic binding protein discovery
+    + [[Trends in Pharmacological Sciences (2025)](https://www.cell.com/trends/pharmacological-sciences/abstract/S0165-6147(24)]00268-2)
 
 ---
 
@@ -650,6 +646,10 @@ Montserrat Goles, Anamaría Daza, Gabriel Cabas-Mora, Lindybeth Sarmiento-Varón
 **Improving de novo Protein Binder Design with Deep Learning**  
 Nathaniel Bennett, Brian Coventry, Inna Goreshnik, Buwei Huang, Aza Allen, Dionne Vafeados, Ying Po Peng, Justas Dauparas, Minkyung Baek, Lance Stewart, Frank DiMaio, Steven De Munck, Savvas Savvides, David Baker  
 [bioRxiv 2022.06.15.495993](https://www.biorxiv.org/content/10.1101/2022.06.15.495993v1)/[Nat Commun 14, 2625 (2023)](https://www.nature.com/articles/s41467-023-38328-5) • [code](https://github.com/nrbennet/dl_binder_design) • [news](https://phys.org/news/2023-08-deep-protein.html)
+
+**Data and AI-driven synthetic binding protein discovery**  
+Yanlin Li, Zixin Duan, Zhenwen Li, Weiwei Xue  
+[Trends in Pharmacological Sciences (2025)](https://www.cell.com/trends/pharmacological-sciences/abstract/S0165-6147(24)00268-2)
 
 ### 1.5 Enzyme design
 
@@ -2809,7 +2809,7 @@ Beck, Julian, Sooruban Shanmugaratnam, and Birte Höcker
 
 **De novo designed proteins neutralize lethal snake venom toxins**  
 Susana Vázquez Torres, Melisa Benard Valle, Stephen P. Mackessy, Stefanie K. Menzies, Nicholas R. Casewell, Shirin Ahmadi, Nick J. Burlet, Edin Muratspahić, Isaac Sappington, Max D.Overath, Esperanza Rivera-de-Torre, Jann Ledergerber, Andreas H. Laustsen, Kim Boddum, Asim K.Bera, Alex Kang,Evans Brackenbrough, Iara A. Cardoso, Edouard P. Crittenden, Rebecca J.Edge, Justin Decarreau, Robert J. Ragotte, Arvind S. Pillai, Mohamad Abedi, Hannah L. Han,Stacey R. Gerben, Analisa Murray, Rebecca Skotheim, Lynda Stuart, Lance Stewart, Thomas J.A. Fryer, Timothy P. Jenkins, David Baker  
-[PREPRINT (Version 1) available at Research Square](https://www.researchsquare.com/article/rs-4402792/v1)
+[PREPRINT (Version 1) available at Research Square](https://www.researchsquare.com/article/rs-4402792/v1)/[Nature (2025)](https://www.nature.com/articles/s41586-024-08393-x)
 
 **Controlling semiconductor growth with structured de novo protein interfaces**  
 Amijai Saragovi, Harley Pyles, Paul Kwon, Nikita Hanikel, Fátima A. Dávila-Hernández, Asim K. Bera, Alex Kang, Evans Brackenbrough, Dionne K. Vafeados, Aza Allen, Lance Stewart, David Baker  
@@ -2911,7 +2911,7 @@ Pablo Gainza, Sarah Wehrle, Alexandra Van Hall-Beauvais, Anthony Marchand, Andre
 
 **Targeting protein-ligand neosurfaces using a generalizable deep learning approach**  
 Anthony Marchand, Stephen Buckley, Arne Schneuing, Martin Pacesa, Pablo Gainza, Evgenia Elizarova, Rebecca Manuela Neeser, Pao-Wan Lee, Luc Reymond, Maddalena Elia, Leo Scheller, Sandrine Georgeon, Joseph Schmidt, Philippe Schwaller, Sebastian Josef Maerkl, Michael Bronstein, Bruno Emmanuel Correia  
-[bioRxiv 2024.03.25.585721](https://www.biorxiv.org/content/10.1101/2024.03.25.585721v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/28/2024.03.25.585721/DC1/embed/media-1.pdf) • [code](https://github.com/LPDI-EPFL/masif-neosurf)
+[bioRxiv 2024.03.25.585721](https://www.biorxiv.org/content/10.1101/2024.03.25.585721v1)/[Nature (2025)](https://www.nature.com/articles/s41586-024-08435-4) • [Supplementary](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-024-08435-4/MediaObjects/41586_2024_8435_MOESM1_ESM.pdf) • [code](https://github.com/LPDI-EPFL/masif-neosurf)
 
 **Mapping targetable sites on the human surfaceome for the design of novel binders**  
 Petra E. M. Balbi, Ahmed Sadek, Anthony Marchand, Ta-Yi Yu, Jovan Damjanovic, Sandrine Georgeon, Joseph Schmidt, Simone Fulle, Che Yang, Hamed Khakzad, Bruno E. Correia  
@@ -2995,7 +2995,7 @@ Zhang Zaixi, Wanxiang Shen, Qi Liu, Marinka Zitnik
 
 **Simulating 500 million years of evolution with a language model**  
 Thomas Hayes,  Roshan Rao,  Halil Akin,  Nicholas James Sofroniew,  Deniz Oktay,  Zeming Lin, Robert Verkuil, Vincent Quy Tran, Jonathan Deaton, Marius Wiggert, Rohil Badkundri, Irhum Shafkat, Jun Gong, Alexander Derry, Raul Santiago Molina, Neil Thomas, Yousuf Khan, Chetan Mishra, Carolyn Kim, Liam J. Bartie, Patrick D. Hsu, Tom Sercu, Salvatore Candido, Alexander Rives  
-[preprint](https://evolutionaryscale-public.s3.us-east-2.amazonaws.com/research/esm3.pdf)/[bioRxiv 2024.07.01.600583](https://www.biorxiv.org/content/10.1101/2024.07.01.600583v1) • [website](https://www.evolutionaryscale.ai/blog/esm3-release) • [code](https://github.com/evolutionaryscale/esm) • [colab](https://colab.research.google.com/github/evolutionaryscale/esm/blob/main/examples/generate.ipynb) • [news](https://www.nature.com/articles/d41586-024-02214-x)
+[preprint](https://evolutionaryscale-public.s3.us-east-2.amazonaws.com/research/esm3.pdf)/[bioRxiv 2024.07.01.600583](https://www.biorxiv.org/content/10.1101/2024.07.01.600583v1)/[Science (2025): eads0018](https://www.science.org/doi/10.1126/science.ads0018) • [website](https://www.evolutionaryscale.ai/blog/esm3-release) • [code](https://github.com/evolutionaryscale/esm) • [colab](https://colab.research.google.com/github/evolutionaryscale/esm/blob/main/examples/generate.ipynb) • [news](https://www.nature.com/articles/d41586-024-02214-x)
 
 ### 6.7 MLP-based
 
