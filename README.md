@@ -10,9 +10,12 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.01.20:*
-+   Data and AI-driven synthetic binding protein discovery
-    + [[Trends in Pharmacological Sciences (2025)](https://www.cell.com/trends/pharmacological-sciences/abstract/S0165-6147(24)]00268-2)
+*Papers last week, updated on 2025.01.28:*
++   Target-based de novo design of cyclic peptide binders
+    + [[bioRxiv 2025.01.18.633746](https://www.biorxiv.org/content/10.1101/2025.01.18.633746v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/01/19/2025.01.18.633746/DC1/embed/media-1.pdf)]
++   AI.zymes – A modular platform for evolutionary enzyme design
+    + [[bioRxiv 2025.01.18.633707](https://www.biorxiv.org/content/10.1101/2025.01.18.633707v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/01/22/2025.01.18.633707/DC1/embed/media-1.pdf)]
+
 
 ---
 
@@ -641,6 +644,10 @@ Liwei Chang, Arup Mondal, Bhumika Singh, Yisel Martínez-Noa, Alberto Perez
 Montserrat Goles, Anamaría Daza, Gabriel Cabas-Mora, Lindybeth Sarmiento-Varón, Julieta Sepúlveda-Yañez, Hoda Anvari-Kazemabad, Mehdi D Davari, Roberto Uribe-Paredes, Álvaro Olivera-Nappa, Marcelo A Navarrete, David Medina-Ortiz  
 [Briefings in Bioinformatics 25.4 (2024)](https://academic.oup.com/bib/article/25/4/bbae275/7690345)
 
+**Accelerating antimicrobial peptide design: Leveraging deep learning for rapid discovery**  
+Ahmad M. Al-Omari ,Yazan H. Akkam,Ala’a Zyout,Shayma’a Younis,Shefa M. Tawalbeh,Khaled Al-Sawalmeh,Amjed Al Fahoum ,Jonathan Arnold  
+[PloS one 19.12 (2024): e0315477](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0315477)
+
 ### 1.4 Binder design
 
 **Improving de novo Protein Binder Design with Deep Learning**  
@@ -1186,6 +1193,10 @@ Isaac D Lutz, Shunzhi Wang, Christoffer Norn, Andrew J Borst, Yan Ting Zhao, Ann
 Frederic Renard, Cyprien Courtot, Alfredo Reichlin, Oliver Bent  
 [arXiv:2405.01983](https://arxiv.org/abs/2405.01983)
 
+**Target-based de novo design of cyclic peptide binders**  
+Fanhao Wang, Tiantian Zhang, Jintao Zhu, Xiaoling Zhang, Changsheng Zhang, Luhua Lai  
+[bioRxiv 2025.01.18.633746](https://www.biorxiv.org/content/10.1101/2025.01.18.633746v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/01/19/2025.01.18.633746/DC1/embed/media-1.pdf)
+
 ### 3.7 Flow-based
 
 **SE(3)-Stochastic Flow Matching for Protein Backbone Generation**  
@@ -1553,6 +1564,10 @@ Amir Shanehsazzadeh, Julian Alverio, George Kasun, Simon Levine, Ido Calman, Jib
 **Learning to engineer protein flexibility**  
 Petr Kouba, Joan Planas-Iglesias, Jiri Damborsky, Jiri Sedlar, Stanislav Mazurenko, Josef Sivic  
 [arXiv:2412.18275](https://arxiv.org/abs/2412.18275) • [code](https://github.com/KoubaPetr/Flexpert)
+
+**AI.zymes – A modular platform for evolutionary enzyme design**  
+Lucas P. Merlicek, Jannik Neumann, Abbie Lear, Vivian Degiorgi, Moor de Waal, Tudor-Stefan Cotet, Adrian J. Mulholland, H. Adrian Bunzel  
+[bioRxiv 2025.01.18.633707](https://www.biorxiv.org/content/10.1101/2025.01.18.633707v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/01/22/2025.01.18.633707/DC1/embed/media-1.pdf)
 
 ### 4.6 GAN-based
 
@@ -2837,7 +2852,7 @@ Jason Zhaoxing Zhang, Xinting Li, Caixuan Liu, Hanlun Jiang, Kejia Wu, David Bak
 
 **Improved protein binder design using beta-pairing targeted RFdiffusion**  
 Isaac Sappington, Martin Toul, David S. Lee, Stephanie A. Robinson, Inna Goreshnik, Clara McCurdy, Tung Ching Chan, Nic Buchholz, Buwei Huang, Dionne Vafeados, Mariana Garcia-Sanchez, Nicole Roullier, Matthias Glögl, Chris Kim, Joseph L. Watson, Susana Vázquez Torres, Koen H. G. Verschueren, Kenneth Verstraete, Cynthia S. Hinck, Melisa Benard-Valle, Brian Coventry, Jeremiah Nelson Sims, Green Ahn, Xinru Wang, Andrew P. Hinck, Timothy P. Jenkins, Hannele Ruohola-Baker, Steven M. Banik, Savvas N. Savvides, David Baker  
-[bioRxiv 2024.10.11.617496](https://www.biorxiv.org/content/10.1101/2024.10.11.617496v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/10/12/2024.10.11.617496/DC1/embed/media-1.pdf)
+[bioRxiv 2024.10.11.617496](https://www.biorxiv.org/content/10.1101/2024.10.11.617496v1)/[preprint](https://assets-eu.researchsquare.com/files/rs-5473963/v1_covered_81143f0e-3579-4f09-86c3-c0e316288e3a.pdf) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/10/12/2024.10.11.617496/DC1/embed/media-1.pdf)
 
 **Afpdb–an efficient structure manipulation package for AI protein design**  
 Yingyao Zhou, Jiayi Cox, Bin Zhou, Steven Zhu, Yang Zhong, Glen Spraggon  
@@ -3032,6 +3047,10 @@ Zaixi Zhang, Marinka Zitnik, Qi Liu
 **D-Flow: Multi-modality Flow Matching for D-peptide Design**  
 Fang Wu, Tinson Xu, Shuting Jin, Xiangru Tang, Zerui Xu, James Zou, Brian Hie  
 [arXiv:2411.10618](https://arxiv.org/abs/2411.10618) • [code](https://github.com/smiles724/PeptideDesign)
+
+**FlowDesign: Improved Design of Antibody CDRs Through Flow Matching and Better Prior Distributions**  
+Jun Wu, Xiangzhe Kong, Ningguan Sun, Jing Wei, Sisi Shan, Fuli Feng, Feng Wu, Jian Peng, Linqi Zhang, Yang Liu, Jianzhu Ma  
+[bioRxiv 2024.11.07.622422](https://www.biorxiv.org/content/10.1101/2024.11.07.622422v2) • [code](https://github.com/nohandsomewujun/FlowDesign)
 
 **Reaction-conditioned De Novo Enzyme Design with GENzyme**  
 Chenqing Hua, Jiarui Lu, Yong Liu, Odin Zhang, Jian Tang, Rex Ying, Wengong Jin, Guy Wolf, Doina Precup, Shuangjia Zheng  
