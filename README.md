@@ -1997,6 +1997,10 @@ Zishuo Zeng, Rufang Xu, Jin Guo, Xiaozhou Luo
 
 > Including protein large language models(pLLM) and autoregressive language models.
 
+**Controllable Protein Sequence Generation with LLM Preference Optimization**  
+Xiangyu Liu, Yi Liu, Silei Chen, Wei Hu  
+[arXiv preprint arXiv:2501.15007 (2025)](https://arxiv.org/abs/2501.15007)
+
 **Progen: Language modeling for protein generation** / **Large language models generate functional protein sequences across diverse families**  
 Ali Madani, Bryan McCann, Nikhil Naik, Nitish Shirish Keskar, Namrata Anand, Raphael R. Eguchi, Po-Ssu Huang, Richard Socher  
 [arXiv preprint arXiv:2004.03497 (2020)](https://arxiv.org/abs/2004.03497)/[Nat Biotechnol (2023)](https://www.nature.com/articles/s41587-022-01618-2) • [ProGen](https://github.com/salesforce/progen), [CTRL](https://github.com/salesforce/ctrl)
