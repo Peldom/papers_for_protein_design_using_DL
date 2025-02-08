@@ -10,11 +10,18 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.01.28:*
-+   Target-based de novo design of cyclic peptide binders
-    + [[bioRxiv 2025.01.18.633746](https://www.biorxiv.org/content/10.1101/2025.01.18.633746v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/01/19/2025.01.18.633746/DC1/embed/media-1.pdf)]
-+   AI.zymes – A modular platform for evolutionary enzyme design
-    + [[bioRxiv 2025.01.18.633707](https://www.biorxiv.org/content/10.1101/2025.01.18.633707v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/01/22/2025.01.18.633707/DC1/embed/media-1.pdf)]
+*Papers last week, updated on 2025.02.08:*
++   Emergence of binding and catalysis from a designed generalist binding protein
+    + [[bioRxiv 2025.01.30.635804](https://www.biorxiv.org/content/10.1101/2025.01.30.635804v1)] • LigandMPNN-based
++   The Promise of Protein Design: A Q&A with Nobel Laureate David Baker
+    + [[GEN Biotechnology (2025)](https://www.liebertpub.com/doi/abs/10.1089/genbio.2025.0004?journalCode=genbio)]
++   Controllable Protein Sequence Generation with LLM Preference Optimization
+    + [[arXiv:2501.15007](https://arxiv.org/abs/2501.15007)] • [[code](https://github.com/nju-websoft/CtrlProt)]
++   Diffusion on language model encodings for protein sequence generation
+    + [[ICLR 2025](https://openreview.net/forum?id=LoXJlAW3gU)]
++   Efficient protein structure generation with sparse denoising models
+    + [[bioRxiv 2025.01.31.635780](https://www.biorxiv.org/content/10.1101/2025.01.31.635780v1)] • [[code](https://doi.org/10.5281/zenodo.14711580)], [[github](https://github.com/mjendrusch/salad)]
+
 
 
 ---
@@ -559,6 +566,10 @@ Chen Xinhui, Yiwen Yuan, Joseph Liu, Chak Tou Leong, Xiaoye Zhu, Jiaqi Chen
 **A Survey of Deep Learning Methods in Protein Bioinformatics and its Impact on Protein Design**  
 Weihang Dai  
 [arXiv:2501.01477](https://arxiv.org/abs/2501.01477)
+
+**The Promise of Protein Design: A Q&A with Nobel Laureate David Baker**  
+David Baker and Fay Lin  
+[GEN Biotechnology (2025)](https://www.liebertpub.com/doi/abs/10.1089/genbio.2025.0004?journalCode=genbio)
 
 ### 1.2 Antibody design
 
@@ -2341,6 +2352,10 @@ Marc Güell, Dimitrije Ivančić, Alejandro Agudelo, Jonathan Lindstrom-Vautri, 
 Perry T. Wasdin, Nicole V. Johnson, Alexis K. Janke, Sofia Held, Toma M. Marinov, Gwen Jordaan, Léna Vandenabeele, Fani Pantouli, Rebecca A. Gillespie, Matthew J. Vukovich, Clinton M. Holt, Jeongryeol Kim, Grant Hansman, Jennifer Logue, Helen Y. Chu, Sarah F. Andrews, Masaru Kanekiyo, Giuseppe A. Sautto, Ted M. Ross, Daniel J. Sheward, Jason S. McLellan, Alexandra A. Abu-Shmais, Ivelin S. Georgiev  
 [bioRxiv 2024.12.20.629482](https://www.biorxiv.org/content/10.1101/2024.12.20.629482v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/22/2024.12.20.629482/DC1/embed/media-1.pdf)
 
+**Controllable Protein Sequence Generation with LLM Preference Optimization**  
+Xiangyu Liu, Yi Liu, Silei Chen, Wei Hu  
+[arXiv:2501.15007](https://arxiv.org/abs/2501.15007) • [code](https://github.com/nju-websoft/CtrlProt)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**  
@@ -2642,6 +2657,10 @@ Zichen Wang, Yaokun Ji, Jianing Tian, Shuangjia Zheng
 Vishrut Thoutam, Yair Schiff, Sergey Ovchinnikov, Pranam Chatterjee  
 [Neurips 2024 Workshop Foundation Models for Science: Progress, Opportunities, and Challenges](https://openreview.net/forum?id=POrk2Cc7Ux)
 
+**Diffusion on language model encodings for protein sequence generation**  
+Viacheslav Meshchaninov, Pavel Strashnov, Andrey Shevtsov, Fedor Nikolaev, Nikita Ivanisenko, Olga Kardymon, Dmitry Vetrov  
+[ICLR 2025](https://openreview.net/forum?id=LoXJlAW3gU)
+
 ### 5.13 GNN-based
 
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**  
@@ -2787,6 +2806,10 @@ Po-Yu Liang, Jun Bai
 **Generating All-Atom Protein Structure from Sequence-Only Training Data**  
 Amy X. Lu, Wilson Yan, Sarah A. Robinson, Kevin K. Yang, Vladimir  Gligorijevic, Kyunghyun Cho, Richard Bonneau, Pieter Abbeel, Nathan Frey
 [bioRxiv 2024.12.02.626353](https://www.biorxiv.org/content/10.1101/2024.12.02.626353v1) • [code](https://github.com/amyxlu/plaid)
+
+**Efficient protein structure generation with sparse denoising models**  
+Michael Jendrusch, Jan O. Korbel  
+[bioRxiv 2025.01.31.635780](https://www.biorxiv.org/content/10.1101/2025.01.31.635780v1) • [code](https://doi.org/10.5281/zenodo.14711580), [github](https://github.com/mjendrusch/salad)
 
 ### 6.3 RoseTTAFold-based
 
