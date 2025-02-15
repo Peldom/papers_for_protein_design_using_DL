@@ -10,17 +10,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.02.08:*
-+   Emergence of binding and catalysis from a designed generalist binding protein
-    + [[bioRxiv 2025.01.30.635804](https://www.biorxiv.org/content/10.1101/2025.01.30.635804v1)] • LigandMPNN-based
-+   The Promise of Protein Design: A Q&A with Nobel Laureate David Baker
-    + [[GEN Biotechnology (2025)](https://www.liebertpub.com/doi/abs/10.1089/genbio.2025.0004?journalCode=genbio)]
-+   Controllable Protein Sequence Generation with LLM Preference Optimization
-    + [[arXiv:2501.15007](https://arxiv.org/abs/2501.15007)] • [[code](https://github.com/nju-websoft/CtrlProt)]
-+   Diffusion on language model encodings for protein sequence generation
-    + [[ICLR 2025](https://openreview.net/forum?id=LoXJlAW3gU)]
-+   Efficient protein structure generation with sparse denoising models
-    + [[bioRxiv 2025.01.31.635780](https://www.biorxiv.org/content/10.1101/2025.01.31.635780v1)] • [[code](https://doi.org/10.5281/zenodo.14711580)], [[github](https://github.com/mjendrusch/salad)]
+*Papers last week, updated on 2025.02.15:*
++   Steering Protein Family Design through Profile Bayesian Flow
+    + [[arXiv:2502.07671](https://arxiv.org/abs/2502.07671)]
++   RFdiffusion Exhibits Low Success Rate in De Novo Design of Functional Protein Binders for Biochemical Detection
+    + [[bioRxiv 2025.02.07.636769](https://www.biorxiv.org/content/10.1101/2025.02.07.636769v1)]
++   AI-assisted protein design to rapidly convert antibody sequences to intrabodies targeting diverse peptides and histone modifications
+    + [[bioRxiv 2025.02.06.636921](https://www.biorxiv.org/content/10.1101/2025.02.06.636921v2)] • [[code](https://github.com/jbderoo/scFv_Pmpnn_AF2)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/02/09/2025.02.06.636921/DC1/embed/media-1.pdf)] • ProteinMPNN-based
++   DyAb: sequence-based antibody design and property prediction in a low-data regime
+    + [[bioRxiv 2025.01.28.635353](https://www.biorxiv.org/content/10.1101/2025.01.28.635353v1)] • [[code](github.com/prescient-design/lobster)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/02/02/2025.01.28.635353/DC1/embed/media-1.pdf)]
 
 
 
@@ -61,7 +59,8 @@
   <a href="#27-trfold2-based">TRFold2-based</a> •
   <a href="#28-gpt-based">GPT-based</a> •
   <a href="#29-esm-based">ESM-based</a> •
-  <a href="#210-sampling-algorithms">Sampling-algorithms</a>
+  <a href="#210-antiberta-based">Antiberta-based</a> •
+  <a href="#211-sampling-algorithms">Sampling-algorithms</a>
   <br>
   <strong><a href="#3-function-to-scaffold" class="large-link">3) Function to Scaffold</a></strong>
   <br>
@@ -981,7 +980,13 @@ Yan C. Leyva, Marcelo D. T. Torres, Carlos A. Oliva, Cesar de la Fuente-Nunez, C
 Changge Guan, Fangping Wan, Marcelo D. T. Torres, Cesar de la Fuente-Nunez  
 [bioRxiv 2025.01.07.631724](https://www.biorxiv.org/content/10.1101/2025.01.07.631724v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/01/08/2025.01.07.631724/DC1/embed/media-1.docx)
 
-### 2.10 Sampling-algorithms
+### 2.10 Antiberta-based
+
+**DyAb: sequence-based antibody design and property prediction in a low-data regime**  
+Joshua Yao-Yu Lin, Jennifer L. Hofmann, Andrew Leaver-Fay, Wei-Ching Liang, Stefania Vasilaki, Edith Lee, Pedro O. Pinheiro, Natasa Tagasovska, James R. Kiefer, Yan Wu, Franziska Seeger, Richard Bonneau, Vladimir Gligorijevic, Andrew Watkins, Kyunghyun Cho, Nathan C. Frey  
+[bioRxiv 2025.01.28.635353](https://www.biorxiv.org/content/10.1101/2025.01.28.635353v1) • [code](github.com/prescient-design/lobster) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/02/02/2025.01.28.635353/DC1/embed/media-1.pdf)
+
+### 2.11 Sampling-algorithms
 
 **AdaLead: A simple and robust adaptive greedy search algorithm for sequence design**  
 Sam Sinai, Richard Wang, Alexander Whatley, Stewart Slocum, Elina Locane, Eric D. Kelsic  
@@ -1193,6 +1198,10 @@ James Matthew Young, O. Deniz Akyildiz
 **From thermodynamics to protein design: Diffusion models for biomolecule generation towards autonomous protein engineering**  
 Wen-ran Li, Xavier F. Cadet, David Medina-Ortiz, Mehdi D. Davari, Ramanathan Sowdhamini, Cedric Damour, Yu Li, Alain Miranville, Frederic Cadet  
 [arXiv:2501.02680](https://arxiv.org/abs/2501.02680) • review
+
+**RFdiffusion Exhibits Low Success Rate in De Novo Design of Functional Protein Binders for Biochemical Detection**  
+Bruce Jiang, Xiaoxiao Li, Amber Guo, Moris Wei, Jonny Wu  
+[bioRxiv 2025.02.07.636769](https://www.biorxiv.org/content/10.1101/2025.02.07.636769v1)
 
 ### 3.6 RL-based
 
@@ -1579,6 +1588,10 @@ Petr Kouba, Joan Planas-Iglesias, Jiri Damborsky, Jiri Sedlar, Stanislav Mazuren
 **AI.zymes – A modular platform for evolutionary enzyme design**  
 Lucas P. Merlicek, Jannik Neumann, Abbie Lear, Vivian Degiorgi, Moor de Waal, Tudor-Stefan Cotet, Adrian J. Mulholland, H. Adrian Bunzel  
 [bioRxiv 2025.01.18.633707](https://www.biorxiv.org/content/10.1101/2025.01.18.633707v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/01/22/2025.01.18.633707/DC1/embed/media-1.pdf)
+
+**AI-assisted protein design to rapidly convert antibody sequences to intrabodies targeting diverse peptides and histone modifications**  
+Gabriel Galindo, Daiki Maejima, Jacob DeRoo, Scott R. Burlingham, Gretchen Fixen, Tatsuya Morisaki, Hallie P. Febvre, Ryan Hasbrook, Ning Zhao, Soham Ghosh, E. Handly Mayton, Christopher D. Snow, Brian J. Geiss, Yasuyuki Ohkawa, Yuko Sato, Hiroshi Kimura, Timothy J. Stasevich  
+[bioRxiv 2025.02.06.636921](https://www.biorxiv.org/content/10.1101/2025.02.06.636921v2) • [code](https://github.com/jbderoo/scFv_Pmpnn_AF2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/02/09/2025.02.06.636921/DC1/embed/media-1.pdf) • ProteinMPNN-based
 
 ### 4.6 GAN-based
 
@@ -2008,10 +2021,6 @@ Zishuo Zeng, Rufang Xu, Jin Guo, Xiaozhou Luo
 
 > Including protein large language models(pLLM) and autoregressive language models.
 
-**Controllable Protein Sequence Generation with LLM Preference Optimization**  
-Xiangyu Liu, Yi Liu, Silei Chen, Wei Hu  
-[arXiv preprint arXiv:2501.15007 (2025)](https://arxiv.org/abs/2501.15007)
-
 **Progen: Language modeling for protein generation** / **Large language models generate functional protein sequences across diverse families**  
 Ali Madani, Bryan McCann, Nikhil Naik, Nitish Shirish Keskar, Namrata Anand, Raphael R. Eguchi, Po-Ssu Huang, Richard Socher  
 [arXiv preprint arXiv:2004.03497 (2020)](https://arxiv.org/abs/2004.03497)/[Nat Biotechnol (2023)](https://www.nature.com/articles/s41587-022-01618-2) • [ProGen](https://github.com/salesforce/progen), [CTRL](https://github.com/salesforce/ctrl)
@@ -2417,6 +2426,10 @@ Negin Manshour, Fei He, Duolin Wang, Dong Xu
 **Bayesian Optimisation for Protein Sequence Design: Gaussian Processes with Zero-Shot Protein Language Model Prior Mean**  
 Carolin Benjamins, Shikha Surana, Oliver Bent, Marius Lindauer, Paul Duckworth  
 [Machine Learning for Structural Biology Workshop, NeurIPS 2024](https://www.mlsb.io/papers_2024/Bayesian_Optimisation_for_Protein_Sequence_Design:_Gaussian_Processes_with_Zero-Shot_Protein_Language_Model_Prior_Mean.pdf)
+
+**Steering Protein Family Design through Profile Bayesian Flow**  
+Jingjing Gong, Yu Pei, Siyu Long, Yuxuan Song, Zhe Zhang, Wenhao Huang, Ziyao Cao, Shuyi Zhang, Hao Zhou, Wei-Ying Ma  
+[arXiv:2502.07671](https://arxiv.org/abs/2502.07671)
 
 ### 5.6 RL-based
 
@@ -2871,7 +2884,7 @@ Markus Braun, Adrian Tripp, Morakot Chakatok, Sigrid Kaltenbrunner, Massimo G. T
 
 **Computational design of serine hydrolases**  
 Anna Lauko, Samuel J Pellock, Ivan Anischanka, Kiera H Sumida, David Juergens, Woody Ahern, Alex Shida, Andrew Hunt, Indrek Kalvet, Christoffer Norn, Ian R Humphreys, Cooper S Jamieson, Alex Kang, Evans Brackenbrough, Banumathi Sankaran, K N Houk, David Baker  
-[bioRxiv 2024.08.29.610411](https://www.biorxiv.org/content/10.1101/2024.08.29.610411v1)
+[bioRxiv 2024.08.29.610411](https://www.biorxiv.org/content/10.1101/2024.08.29.610411v1)/[Science0,eadu2454](https://www.science.org/doi/10.1126/science.adu2454) • [news](https://www.asimov.press/p/ai-enzymes)
 
 **De novo design of Ras isoform selective binders**  
 Jason Zhaoxing Zhang, Xinting Li, Caixuan Liu, Hanlun Jiang, Kejia Wu, David Baker  
