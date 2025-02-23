@@ -10,15 +10,19 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.02.15:*
-+   Steering Protein Family Design through Profile Bayesian Flow
-    + [[arXiv:2502.07671](https://arxiv.org/abs/2502.07671)]
-+   RFdiffusion Exhibits Low Success Rate in De Novo Design of Functional Protein Binders for Biochemical Detection
-    + [[bioRxiv 2025.02.07.636769](https://www.biorxiv.org/content/10.1101/2025.02.07.636769v1)]
-+   AI-assisted protein design to rapidly convert antibody sequences to intrabodies targeting diverse peptides and histone modifications
-    + [[bioRxiv 2025.02.06.636921](https://www.biorxiv.org/content/10.1101/2025.02.06.636921v2)] • [[code](https://github.com/jbderoo/scFv_Pmpnn_AF2)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/02/09/2025.02.06.636921/DC1/embed/media-1.pdf)] • ProteinMPNN-based
-+   DyAb: sequence-based antibody design and property prediction in a low-data regime
-    + [[bioRxiv 2025.01.28.635353](https://www.biorxiv.org/content/10.1101/2025.01.28.635353v1)] • [[code](github.com/prescient-design/lobster)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/02/02/2025.01.28.635353/DC1/embed/media-1.pdf)]
+*Papers last week, updated on 2025.02.22:*
++   Self-supervised machine learning methods for protein design improve sampling but not the identification of high-fitness variants
+    + [[Science Advances 11.7 (2025)](https://www.science.org/doi/10.1126/sciadv.adr7338)] • [[code](https://github.com/meilerlab/probabilities_design)]
++   MotifBench: A standardized protein design benchmark for motif-scaffolding problems
+    + [[arXiv:2502.12479](https://arxiv.org/abs/2502.12479)] • [[code](https://github.com/blt2114/MotifBench)]
++   Sidechain conditioning and modeling for full-atom protein sequence design with FAMPNN
+    + [[bioRxiv 2025.02.13.637498](https://www.biorxiv.org/content/10.1101/2025.02.13.637498v1)] • [[code](https://github.com/richardshuai/fampnn)]
++   Agentic End-to-End De Novo Protein Design for Tailored Dynamics Using a Language Diffusion Model
+    + [[arXiv preprint arXiv:2502.10173 (2025)](https://arxiv.org/pdf/2502.10173)] • [[code](https://github.com/lamm-mit/ModeShapeDiffusionDesign)], [[model](https://huggingface.co/lamm-mit/VibeGen)]
++   Protein design and structure solution for drug discovery
+    + [[Crystallography Reviews (2024)](https://www.tandfonline.com/doi/full/10.1080/0889311X.2024.2461923)]
++   Design of Protein Sequences with Precisely Tuned Kinetic Properties
+    + [[bioRxiv 2025.02.13.638027](https://www.biorxiv.org/content/10.1101/2025.02.13.638027v1)]
 
 
 
@@ -247,6 +251,10 @@ Letu Qingge, Kushal Badal, Richard Annan, Jordan Sturtz, Xiaowen Liu, and Binhai
 Per Junior Greisen, Yifan Li, Yuxiang Lang, Chenrui Xu, Yi Zhou, Ziwei Pang  
 [bioRxiv 2024.12.16.628614](https://www.biorxiv.org/content/10.1101/2024.12.16.628614v1)
 
+**Self-supervised machine learning methods for protein design improve sampling but not the identification of high-fitness variants**  
+Moritz Ertelt, Rocco Moretti, Jens Meiler, and Clara T. Schoeder  
+[Science Advances 11.7 (2025)](https://www.science.org/doi/10.1126/sciadv.adr7338) • [code](https://github.com/meilerlab/probabilities_design)
+
 ### 0.2 Structure Datasets, Benchmarks
 
 **AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**  
@@ -305,6 +313,10 @@ Talip Uçar, Cedric Malherbe, Ferran Gonzalez
 **Towards Robust Evaluation of Protein Generative Models: A Systematic Analysis of Metrics**  
 Pavel Strashnov, Andrey Shevtsov, Viacheslav Meshchaninov, Maria Ivanova, Fedor Nikolaev, Olga Kardymon, Dmitry Vetrov  
 [bioRxiv 2024.10.25.620213](https://www.biorxiv.org/content/10.1101/2024.10.25.620213v1)
+
+**MotifBench: A standardized protein design benchmark for motif-scaffolding problems**  
+Zhuoqi Zheng, Bo Zhang, Kieran Didi, Kevin K. Yang, Jason Yim, Joseph L. Watson, Hai-Feng Chen, Brian L. Trippe  
+[arXiv:2502.12479](https://arxiv.org/abs/2502.12479) • [code](https://github.com/blt2114/MotifBench)
 
 ### 0.3 Databases
 
@@ -569,6 +581,10 @@ Weihang Dai
 **The Promise of Protein Design: A Q&A with Nobel Laureate David Baker**  
 David Baker and Fay Lin  
 [GEN Biotechnology (2025)](https://www.liebertpub.com/doi/abs/10.1089/genbio.2025.0004?journalCode=genbio)
+
+**Protein design and structure solution for drug discovery**  
+Petra Bombicz  
+[Crystallography Reviews (2024)](https://www.tandfonline.com/doi/full/10.1080/0889311X.2024.2461923)
 
 ### 1.2 Antibody design
 
@@ -1593,6 +1609,10 @@ Lucas P. Merlicek, Jannik Neumann, Abbie Lear, Vivian Degiorgi, Moor de Waal, Tu
 Gabriel Galindo, Daiki Maejima, Jacob DeRoo, Scott R. Burlingham, Gretchen Fixen, Tatsuya Morisaki, Hallie P. Febvre, Ryan Hasbrook, Ning Zhao, Soham Ghosh, E. Handly Mayton, Christopher D. Snow, Brian J. Geiss, Yasuyuki Ohkawa, Yuko Sato, Hiroshi Kimura, Timothy J. Stasevich  
 [bioRxiv 2025.02.06.636921](https://www.biorxiv.org/content/10.1101/2025.02.06.636921v2) • [code](https://github.com/jbderoo/scFv_Pmpnn_AF2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/02/09/2025.02.06.636921/DC1/embed/media-1.pdf) • ProteinMPNN-based
 
+**Sidechain conditioning and modeling for full-atom protein sequence design with FAMPNN**  
+Richard W. Shuai, Talal Widatalla, Po-Ssu Huang, Brian L. Hie  
+[bioRxiv 2025.02.13.637498](https://www.biorxiv.org/content/10.1101/2025.02.13.637498v1) • [code](https://github.com/richardshuai/fampnn)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1789,11 +1809,19 @@ Yiheng Zhu, Jialu Wu, Qiuyi Li, Jiahuan Yan, Mingze Yin, Wei Wu, Mingyang Li, Ji
 Peizhen Bai, Filip Miljković, Xianyuan Liu, Leonardo De Maria, Rebecca Croasdale-Wood, Owen Rackham, Haiping Lu  
 [arXiv:2412.07815](https://arxiv.org/abs/2412.07815) • [code](https://github.com/peizhenbai/MapDiff)
 
+**Agentic End-to-End De Novo Protein Design for Tailored Dynamics Using a Language Diffusion Model**  
+Bo Ni, Markus J. Buehler  
+[arXiv preprint arXiv:2502.10173 (2025)](https://arxiv.org/pdf/2502.10173) • [code](https://github.com/lamm-mit/ModeShapeDiffusionDesign), [model](https://huggingface.co/lamm-mit/VibeGen)
+
 ### 4.10 Bayesian-based
 
 **Inverse Protein Folding Using Deep Bayesian Optimization**  
 Natalie Maus, Yimeng Zeng, Daniel Allen Anderson, Phillip Maffettone, Aaron Solomon, Peyton Greenside, Osbert Bastani, Jacob R. Gardner  
 [arXiv:2305.18089](https://arxiv.org/abs/2305.18089) • [code](https://github.com/nataliemaus/bo-if)
+
+**Design of Protein Sequences with Precisely Tuned Kinetic Properties**  
+Z. Faidon Brotzakis, Michele Vendruscolo, Georgios Skretas  
+[bioRxiv 2025.02.13.638027](https://www.biorxiv.org/content/10.1101/2025.02.13.638027v1)
 
 ### 4.11 Flow-based
 
@@ -2698,7 +2726,7 @@ Minsu Kim, Federico Berto, Sungsoo Ahn, Jinkyoo Park
 
 **Towards deep learning sequence-structure co-generation for protein design**  
 Chentong Wang, Sarah Alamdari, Carles Domingo-Enrich, Ava Amini, Kevin K. Yang  
-[arXiv:2410.01773](https://arxiv.org/abs/2410.01773)
+[arXiv:2410.01773](https://arxiv.org/abs/2410.01773)/[Current Opinion in Structural Biology (2025)](https://www.sciencedirect.com/science/article/pii/S0959440X25000363)
 
 ### 6.1 LSTM-based
 
@@ -2816,9 +2844,9 @@ Xinyou Wang, Zaixiang Zheng, Fei Ye, Dongyu Xue, Shujian Huang, Quanquan Gu
 Po-Yu Liang, Jun Bai  
 [arXiv:2410.21335](https://arxiv.org/abs/2410.21335) • [code](https://github.com/LabJunBMI/E3-invaraint-diffusion-model-for-pocket-aware-peptide-generation)
 
-**Generating All-Atom Protein Structure from Sequence-Only Training Data**  
+**Generating All-Atom Protein Structure from Sequence-Only Training Data** / **All-Atom Protein Generation with Latent Diffusion**  
 Amy X. Lu, Wilson Yan, Sarah A. Robinson, Kevin K. Yang, Vladimir  Gligorijevic, Kyunghyun Cho, Richard Bonneau, Pieter Abbeel, Nathan Frey
-[bioRxiv 2024.12.02.626353](https://www.biorxiv.org/content/10.1101/2024.12.02.626353v1) • [code](https://github.com/amyxlu/plaid)
+[bioRxiv 2024.12.02.626353](https://www.biorxiv.org/content/10.1101/2024.12.02.626353v2) • [code](https://github.com/amyxlu/plaid)
 
 **Efficient protein structure generation with sparse denoising models**  
 Michael Jendrusch, Jan O. Korbel  
