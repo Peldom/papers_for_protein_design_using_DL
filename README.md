@@ -2303,7 +2303,7 @@ Tong Chen, Yinuo Zhang, Pranam Chatterjee
 
 **Toward De Novo Protein Design from Natural Language**  
 Fengyuan Dai, Yuliang Fan, Jin Su, Chentong Wang, Chenchen Han, Xibin Zhou, Jianming Liu, Hui Qian, Shunzhi Wang, Anping Zeng, Yajie Wang, Fajie Yuan  
-[bioRxiv 2024.08.01.606258](https://www.biorxiv.org/content/10.1101/2024.08.01.606258v3) • [demo](http://www.denovo-pinal.com/)
+[bioRxiv 2024.08.01.606258](https://www.biorxiv.org/content/10.1101/2024.08.01.606258v3) • [code](https://github.com/westlake-repl/Denovo-Pinal) •[demo](http://www.denovo-pinal.com/)
 
 **Design Proteins Using Large Language Models: Enhancements and Comparative Analyses**  
 Kamyar Zeinalipour, Neda Jamshidi, Monica Bianchini, Marco Maggini, Marco Gori  
