@@ -263,7 +263,7 @@ Zhangyang Gao, Cheng Tan, Stan Z. Li
 **SidechainNet: An All-Atom Protein Structure Dataset for Machine Learning**  
 Jonathan E. King, David Ryan Koes  
 [arxiv](https://arxiv.org/abs/2010.08162) • [github::sidechainnet](https://github.com/jonathanking/sidechainnet)
-  
+
 [TDC](https://tdcommons.ai/overview/) maintains a resource list that currently contains 22 tasks (and its datasets) related to small molecules and macromolecules, including PPI, DDI and so on. [MoleculeNet](https://github.com/GLambard/Molecules_Dataset_Collection) published a small molecule related benchmark four years ago.
 
 > In terms of datasets and benchmarks, protein design is far less mature than drug discovery ([paperwithcode drug discovery benchmarks](https://paperswithcode.com/task/drug-discovery)). (Maybe should add the evaluation of protein design for deep learning method (especially deep generative model))
@@ -934,7 +934,7 @@ Sai Pooja Mahajan, Jeffrey A Ruffolo, Rahel Frick, Jeffrey J. Gray
 [bioRxiv 2022.06.06.494991](https://www.biorxiv.org/content/10.1101/2022.06.06.494991v1)/[Front. Immunol. 13:999034](https://www.frontiersin.org/articles/10.3389/fimmu.2022.999034/full) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2022/06/06/2022.06.06.494991/DC1/embed/media-1.pdf) • [code](https://github.com/RosettaCommons/FvHallucinator)
 
 ### 2.7 TRFold2-based
-  
+
 [News of TRDesign](https://mp.weixin.qq.com/s/OQzKawtL9RdK9HzYsfu80g)  
 [TIANRANG XLab](https://xlab.tianrang.com/)
 paper unavailable • [slides](https://pan.baidu.com/share/init?surl=4AOW_D9dwlvC7VGGZA2tmQ&pwd=ffui) • [website](https://xcreator.tianrang.com/auth/login) • commercial • [news](https://mp.weixin.qq.com/s/45Gz7GWOGxHl0i6LXxTUpw)
@@ -1720,6 +1720,10 @@ Daniel Flam-Shepherd, Kevin Zhu, Alán Aspuru-Guzik
 Jin Su, Chenchen Han, Yuyang Zhou, Junjie Shan, Xibin Zhou, Fajie Yuan  
 [bioRxiv 2023.10.01.560349](https://www.biorxiv.org/content/10.1101/2023.10.01.560349v5) • [code](https://github.com/westlake-repl/SaProt)
 
+**SaprotHub: Making Protein Modeling Accessible to All Biologists**  
+Jin Su, Zhikai Li, Chenchen Han, Yuyang Zhou, Yan He, Junjie Shan, Xibin Zhou, Xing Chang, Shiyu Jiang, Dacheng Ma, The OPMC, Martin Steinegger, Sergey Ovchinnikov,  Fajie Yuan
+[bioRxiv 2024.05.24.595648](https://www.biorxiv.org/content/10.1101/2024.05.24.595648)  •  [code](https://github.com/westlake-repl/SaprotHub) • [colab](https://colab.research.google.com/github/westlake-repl/SaprotHub/blob/main/colab/SaprotHub_v2.ipynb)
+
 **AntiFold: Improved antibody structure design using inverse folding**  
 Magnus Høie, Alissa Hummer, Tobias Olsen, Morten Nielsen, Charlotte Deane  
 [GenBio@NeurIPS2023 Spotlight](https://openreview.net/forum?id=bxZMKHtlL6) • [code](https://opig.stats.ox.ac.uk/data/downloads/AntiFold/) • [colab](https://colab.research.google.com/drive/1TTfgjoZx3mzF5u4e9b4Un9Y7b_rqXc_4)
@@ -2310,7 +2314,7 @@ Tong Chen, Yinuo Zhang, Pranam Chatterjee
 
 **Toward De Novo Protein Design from Natural Language**  
 Fengyuan Dai, Yuliang Fan, Jin Su, Chentong Wang, Chenchen Han, Xibin Zhou, Jianming Liu, Hui Qian, Shunzhi Wang, Anping Zeng, Yajie Wang, Fajie Yuan  
-[bioRxiv 2024.08.01.606258](https://www.biorxiv.org/content/10.1101/2024.08.01.606258v1) • [demo](http://113.45.254.183:8888/)
+[bioRxiv 2024.08.01.606258](https://www.biorxiv.org/content/10.1101/2024.08.01.606258v3) • [code](https://github.com/westlake-repl/Denovo-Pinal) •[demo](http://www.denovo-pinal.com/)
 
 **Design Proteins Using Large Language Models: Enhancements and Comparative Analyses**  
 Kamyar Zeinalipour, Neda Jamshidi, Monica Bianchini, Marco Maggini, Marco Gori  
