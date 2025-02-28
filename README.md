@@ -10,20 +10,19 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.02.22:*
-+   Self-supervised machine learning methods for protein design improve sampling but not the identification of high-fitness variants
-    + [[Science Advances 11.7 (2025)](https://www.science.org/doi/10.1126/sciadv.adr7338)] • [[code](https://github.com/meilerlab/probabilities_design)]
-+   MotifBench: A standardized protein design benchmark for motif-scaffolding problems
-    + [[arXiv:2502.12479](https://arxiv.org/abs/2502.12479)] • [[code](https://github.com/blt2114/MotifBench)]
-+   Sidechain conditioning and modeling for full-atom protein sequence design with FAMPNN
-    + [[bioRxiv 2025.02.13.637498](https://www.biorxiv.org/content/10.1101/2025.02.13.637498v1)] • [[code](https://github.com/richardshuai/fampnn)]
-+   Agentic End-to-End De Novo Protein Design for Tailored Dynamics Using a Language Diffusion Model
-    + [[arXiv preprint arXiv:2502.10173 (2025)](https://arxiv.org/pdf/2502.10173)] • [[code](https://github.com/lamm-mit/ModeShapeDiffusionDesign)], [[model](https://huggingface.co/lamm-mit/VibeGen)]
-+   Protein design and structure solution for drug discovery
-    + [[Crystallography Reviews (2024)](https://www.tandfonline.com/doi/full/10.1080/0889311X.2024.2461923)]
-+   Design of Protein Sequences with Precisely Tuned Kinetic Properties
-    + [[bioRxiv 2025.02.13.638027](https://www.biorxiv.org/content/10.1101/2025.02.13.638027v1)]
-
+*Papers last week, updated on 2025.02.28:*
++   A Model-Centric Review of Deep Learning for Protein Design
+    + [[arXiv:2502.19173](https://arxiv.org/abs/2502.19173)]
++   Towards More Accurate Full-Atom Antibody Co-Design
+    + [[arXiv:2502.19391](https://arxiv.org/abs/2502.19391)]
++   Fast and Accurate Antibody Sequence Design via Structure Retrieval
+    + [[arXiv:2502.19395](https://arxiv.org/abs/2502.19395)]
++   Enhancing Functional Protein Design Using Heuristic Optimization and Deep Learning for Anti‐Inflammatory and Gene Therapy Applications
+    + [[Proteins: Structure, Function, and Bioinformatics (2025)](https://onlinelibrary.wiley.com/doi/10.1002/prot.26810)] • [[code](https://github.com/aysenursoyturk/HMHO)]
++   Reward-Guided Iterative Refinement in Diffusion Models at Test-Time with Applications to Protein and DNA Design
+    + [[arXiv:2502.14944](https://arxiv.org/abs/2502.14944)] • [[code](https://github.com/masa-ue/ProDifEvo-Refinement)]
++   Non-Linear Flow Matching for Full-Atom Peptide Design
+    + [[arXiv:2502.15855](https://arxiv.org/abs/2502.15855)]
 
 
 ---
@@ -585,6 +584,10 @@ David Baker and Fay Lin
 **Protein design and structure solution for drug discovery**  
 Petra Bombicz  
 [Crystallography Reviews (2024)](https://www.tandfonline.com/doi/full/10.1080/0889311X.2024.2461923)
+
+**A Model-Centric Review of Deep Learning for Protein Design**  
+Gregory W. Kyro, Tianyin Qiu, Victor S. Batista  
+[arXiv:2502.19173](https://arxiv.org/abs/2502.19173)
 
 ### 1.2 Antibody design
 
@@ -1612,6 +1615,14 @@ Gabriel Galindo, Daiki Maejima, Jacob DeRoo, Scott R. Burlingham, Gretchen Fixen
 **Sidechain conditioning and modeling for full-atom protein sequence design with FAMPNN**  
 Richard W. Shuai, Talal Widatalla, Po-Ssu Huang, Brian L. Hie  
 [bioRxiv 2025.02.13.637498](https://www.biorxiv.org/content/10.1101/2025.02.13.637498v1) • [code](https://github.com/richardshuai/fampnn)
+
+**Fast and Accurate Antibody Sequence Design via Structure Retrieval**  
+Xingyi Zhang, Kun Xie, Ningqiao Huang, Wei Liu, Peilin Zhao, Sibo Wang, Kangfei Zhao, Biaobin Jiang  
+[arXiv:2502.19395](https://arxiv.org/abs/2502.19395)
+
+**Enhancing Functional Protein Design Using Heuristic Optimization and Deep Learning for Anti‐Inflammatory and Gene Therapy Applications**  
+Patat, Ayşenur Soytürk, and Özkan Ufuk Nalbantoğlu  
+[Proteins: Structure, Function, and Bioinformatics (2025)](https://onlinelibrary.wiley.com/doi/10.1002/prot.26810) • [code](https://github.com/aysenursoyturk/HMHO)
 
 ### 4.6 GAN-based
 
@@ -2702,6 +2713,10 @@ Vishrut Thoutam, Yair Schiff, Sergey Ovchinnikov, Pranam Chatterjee
 Viacheslav Meshchaninov, Pavel Strashnov, Andrey Shevtsov, Fedor Nikolaev, Nikita Ivanisenko, Olga Kardymon, Dmitry Vetrov  
 [ICLR 2025](https://openreview.net/forum?id=LoXJlAW3gU)
 
+**Reward-Guided Iterative Refinement in Diffusion Models at Test-Time with Applications to Protein and DNA Design**  
+Masatoshi Uehara, Xingyu Su, Yulai Zhao, Xiner Li, Aviv Regev, Shuiwang Ji, Sergey Levine, Tommaso Biancalani  
+[arXiv:2502.14944](https://arxiv.org/abs/2502.14944) • [code](https://github.com/masa-ue/ProDifEvo-Refinement)
+
 ### 5.13 GNN-based
 
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**  
@@ -3050,6 +3065,10 @@ Yogesh Verma, Amauri H Souza, Vikas Garg
 Lirong Wu, Haitao Lin, Yufei Huang, Zhangyang Gao, Cheng Tan, Yunfan Liu, Tailin Wu, Stan Z. Li  
 [arXiv:2501.00013](https://arxiv.org/abs/2501.00013) • [code](https://github.com/LirongWu/RAAD)
 
+**Towards More Accurate Full-Atom Antibody Co-Design**  
+Jiayang Wu, Xingyi Zhang, Xiangyu Dong, Kun Xie, Ziqi Liu, Wensheng Gan, Sibo Wang, Le Song  
+[arXiv:2502.19391](https://arxiv.org/abs/2502.19391)
+
 ### 6.6 Transformer-based
 
 **Protein Sequence and Structure Co-Design with Equivariant Translation**  
@@ -3135,6 +3154,10 @@ Xuezhi Xie, Pedro A Valiente, Jisun Kim, Jin Sub Lee, Philip Kim
 **IgFlow: Flow Matching for De Novo Antibody Design**  
 Sanjay Nagaraj, Amir Shanehsazzadeh, Hyun Park, Jonathan King, Simon Levine  
 [Machine Learning for Structural Biology Workshop, NeurIPS 2024](https://www.mlsb.io/papers_2024/IgFlow:_Flow_Matching_for_De_Novo_Antibody_Design.pdf)
+
+**Non-Linear Flow Matching for Full-Atom Peptide Design**  
+Dengdeng Huang, Shikui Tu  
+[arXiv:2502.15855](https://arxiv.org/abs/2502.15855)
 
 ### 6.9 AlphaFold-based
 
