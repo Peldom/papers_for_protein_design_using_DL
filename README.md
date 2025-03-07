@@ -10,19 +10,27 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.02.28:*
-+   A Model-Centric Review of Deep Learning for Protein Design
-    + [[arXiv:2502.19173](https://arxiv.org/abs/2502.19173)]
-+   Towards More Accurate Full-Atom Antibody Co-Design
-    + [[arXiv:2502.19391](https://arxiv.org/abs/2502.19391)]
-+   Fast and Accurate Antibody Sequence Design via Structure Retrieval
-    + [[arXiv:2502.19395](https://arxiv.org/abs/2502.19395)]
-+   Enhancing Functional Protein Design Using Heuristic Optimization and Deep Learning for Anti‐Inflammatory and Gene Therapy Applications
-    + [[Proteins: Structure, Function, and Bioinformatics (2025)](https://onlinelibrary.wiley.com/doi/10.1002/prot.26810)] • [[code](https://github.com/aysenursoyturk/HMHO)]
-+   Reward-Guided Iterative Refinement in Diffusion Models at Test-Time with Applications to Protein and DNA Design
-    + [[arXiv:2502.14944](https://arxiv.org/abs/2502.14944)] • [[code](https://github.com/masa-ue/ProDifEvo-Refinement)]
-+   Non-Linear Flow Matching for Full-Atom Peptide Design
-    + [[arXiv:2502.15855](https://arxiv.org/abs/2502.15855)]
+*Papers last week, updated on 2025.03.07:*
++   Discovery of antimicrobial peptides with notable antibacterial potency by an LLM-based foundation model
+    + [[Sci. Adv.11,eads8932(2025)](https://www.science.org/doi/10.1126/sciadv.ads8932)] • [[code](https://github.com/jkwang93/AMP-Designer)]
++   Computational protein design
+    + [[Nature Reviews Methods Primers 5.1 (2025)](https://www.nature.com/articles/s43586-025-00383-1)]
++   dyAb: Flow Matching for Flexible Antibody Design with AlphaFold-driven Pre-binding Antigen
+    + [[arXiv:2503.01910](https://arxiv.org/abs/2503.01910)] • [[code](https://github.com/A4Bio/dyAb)]
++   CyclicCAE: A Conformational Autoencoder for Efficient Heterochiral Macrocyclic Backbone Sampling
+    + [[bioRxiv 2025.02.21.639569](https://www.biorxiv.org/content/10.1101/2025.02.21.639569v1)]
++   Trends in the Research and Development of Peptide Drug Conjugates: Artificial Intelligence Aided Design
+    + [[Frontiers in Pharmacology 16](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1553853/full)]
++   Exploring the Blueprint of Life: The Innovation in Antibody and Protein Design
+    + [[Combinatorial chemistry & high throughput screening](https://www.eurekaselect.com/article/146786)]
++   Applying computational protein design to therapeutic antibody discovery -- current state and perspectives
+    + [[arXiv:2503.00913](https://arxiv.org/abs/2503.00913)]
++   CasGen: A Regularized Generative Model for CRISPR Cas Protein Design with Classification and Margin-Based Optimization
+    + [[bioRxiv 2025.02.28.640911](https://www.biorxiv.org/content/10.1101/2025.02.28.640911v1)] • [[code](https://github.com/shouyisxty/CasGen)]
++   Proteina: Scaling Flow-based Protein Structure Generative Models
+    + [[ICLR 2025 Oral](https://openreview.net/forum?id=TVQLu34bdw)] • [[code](https://github.com/NVIDIA-Digital-Bio/proteina/)] • [[website](https://research.nvidia.com/labs/genair/proteina/)]
++   ProDualNet: Dual-Target Protein Sequence Design Method Based on Protein Language Model and Structure Model
+    + [[bioRxiv 2025.02.28.640919](https://www.biorxiv.org/content/10.1101/2025.02.28.640919v1)] • [[code](https://github.com/chengliu97/ProDualNet)]
 
 
 ---
@@ -68,13 +76,12 @@
   <strong><a href="#3-function-to-scaffold" class="large-link">3) Function to Scaffold</a></strong>
   <br>
   <a href="#31-gan-based">GAN-based</a> •
-  <a href="#32-vae-based">VAE-based</a> •
-  <a href="#33-dae-based">DAE-based</a> •
-  <a href="#34-mlp-based">MLP-based</a> •
-  <a href="#35-diffusion-based">Diffusion-based</a> •
-  <a href="#36-rl-based">RL-based</a> •
-  <a href="#37-flow-based">Flow-based</a> •
-  <a href="#38-score-based">Score-based</a>
+  <a href="#32-autoencoder-based">AutoEncoder-based</a> •
+  <a href="#33-mlp-based">MLP-based</a> •
+  <a href="#34-diffusion-based">Diffusion-based</a> •
+  <a href="#35-rl-based">RL-based</a> •
+  <a href="#36-flow-based">Flow-based</a> •
+  <a href="#37-score-based">Score-based</a>
   <br>
   <strong><a href="#4scaffold-to-sequence">4) Scaffold to Sequence</a></strong>
   <br>
@@ -131,76 +138,6 @@
 
 ---
 
-<!-- - [List of papers about Protein Design using Deep Learning](#list-of-papers-about-proteins-design-using-deep-learning)
-  - [Menu](#menu)
-  - [0. Benchmarks and datasets](#0-benchmarks-and-datasets)
-    - [0.1 Sequence Datasets](#01-sequence-datasets)
-    - [0.2 Structure Datasets](#02-structure-datasets)
-    - [0.3 Databases](#03-databases)
-      - [0.3.1 Sequence Database](#031-sequence-database)
-      - [0.3.2 Structure Database](#032-structure-database)
-    - [0.4 Similar List](#04-similar-list)
-  - [1. Reviews](#1-reviews)
-    - [1.1 De novo protein design](#11-de-novo-protein-design)
-    - [1.2 Antibody design](#12-antibody-design)
-    - [1.3 Peptide design](#13-peptide-design)
-    - [1.4 Binder design](#14-binder-design)
-    - [1.5 Enzyme design](#15-enzyme-design)
-  - [2. Model-based design](#2-model-based-design)
-    - [2.1 trRosetta-based](#21-trrosetta-based)
-    - [2.2 AlphaFold2-based](#22-alphafold2-based)
-    - [2.3 DMPfold2-based](#23-dmpfold2-based)
-    - [2.4 CM-Align](#24-cm-align)
-    - [2.5 MSA-transformer-based](#25-msa-transformer-based)
-    - [2.6 DeepAb-based](#26-deepab-based)
-    - [2.7 TRFold2-based](#27-trfold2-based)
-    - [2.8 GPT-based](#28-gpt-based)
-    - [2.9 ESM-based](#29-esm-based)
-    - [2.10 Sampling-algorithms](#210-sampling-algorithms)
-  - [3. Function to Scaffold](#3-function-to-scaffold)
-    - [3.1 GAN-based](#31-gan-based)
-    - [3.2 VAE-based](#32-vae-based)
-    - [3.3 DAE-based](#33-dae-based)
-    - [3.4 MLP-based](#34-mlp-based)
-    - [3.5 Diffusion-based](#35-diffusion-based)
-    - [3.6 RL-based](#36-rl-based)
-  - [4.Scaffold to Sequence](#4scaffold-to-sequence)
-    - [4.1 MLP-based](#41-mlp-based)
-    - [4.2 VAE-based](#42-vae-based)
-    - [4.3 LSTM-based](#43-lstm-based)
-    - [4.4 CNN-based](#44-cnn-based)
-    - [4.5 GNN-based](#45-gnn-based)
-    - [4.6 GAN-based](#46-gan-based)
-    - [4.7 Transformer-based](#47-transformer-based)
-    - [4.8 ResNet-based](#48-resnet-based)
-    - [4.9 Diffusion-based](#49-diffusion-based)
-  - [5.Function to Sequence](#5function-to-sequence)
-    - [5.1 CNN-based](#51-cnn-based)
-    - [5.2 VAE-based](#52-vae-based)
-    - [5.3 GAN-based](#53-gan-based)
-    - [5.4 Transformer-based](#54-transformer-based)
-    - [5.5 ResNet-based](#55-resnet-based)
-    - [5.6 Bayesian-based](#56-bayesian-based)
-    - [5.7 RL-based](#57-rl-based)
-    - [5.8 Flow-based](#58-flow-based)
-    - [5.9 RNN-based](#59-rnn-based)
-    - [5.10 LSTM-based](#510-lstm-based)
-    - [5.11 Autoregressive-models](#511-autoregressive-models)
-    - [5.12 Boltzmann-machine-based](#512-boltzmann-machine-based)
-    - [5.13 Diffusion-based](#513-diffusion-based)
-  - [6. Function to Structure](#6-function-to-structure)
-    - [6.1 LSTM-based](#61-lstm-based)
-    - [6.2 Diffusion-based](#62-diffusion-based)
-    - [6.3 RoseTTAFold-based](#63-rosettafold-based)
-    - [6.4 CNN-based](#64-cnn-based)
-    - [6.5 GNN-based](#65-gnn-based)
-    - [6.6 Transformer-based](#66-transformer-based)
-  - [7. Other tasks](#7-other-tasks)
-    - [7.1 Effects of mutation \& Fitness Landscape](#71-effects-of-mutation--fitness-landscape)
-    - [7.2 Protein Language Models (pLM) and representation learning](#72-protein-language-models-plm-and-representation-learning)
-    - [7.3 Molecular Design Models](#73-molecular-design-models)
-      - [7.3.1 Gradient optimization](#731-gradient-optimization)
-      - [7.3.2 Optimized sampling](#732-optimized-sampling) -->
 
 ## 0. Benchmarks and datasets
 
@@ -589,6 +526,14 @@ Petra Bombicz
 Gregory W. Kyro, Tianyin Qiu, Victor S. Batista  
 [arXiv:2502.19173](https://arxiv.org/abs/2502.19173)
 
+**Computational protein design**  
+Katherine I. Albanese, Sophie Barbe, Shunsuke Tagami, Derek N. Woolfson & Thomas Schiex  
+[Nature Reviews Methods Primers 5.1 (2025)](https://www.nature.com/articles/s43586-025-00383-1)
+
+**Exploring the Blueprint of Life: The Innovation in Antibody and Protein Design**  
+Yang, Zhiwei, and Gerald H. Lushington  
+[Combinatorial chemistry & high throughput screening](https://www.eurekaselect.com/article/146786)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
@@ -655,6 +600,10 @@ Luca Santuari, Marianne Bachmann Salvy, Ioannis Xenarios, Bulak Arpat
 Xin-heng He, Jun-rui Li, James Xu, Hong Shan, Shi-yi Shen, Si-han Gao & H. Eric Xu  
 [Acta Pharmacologica Sinica (2024)](https://www.nature.com/articles/s41401-024-01380-y)
 
+**Applying computational protein design to therapeutic antibody discovery -- current state and perspectives**  
+Weronika Bielska, Igor Jaszczyszyn, Pawel Dudzic, Bartosz Janusz, Dawid Chomicz, Sonia Wrobel, Victor Greiff, Ryan Feehan, Jared Adolf-Bryfogle, Konrad Krawczyk  
+[arXiv:2503.00913](https://arxiv.org/abs/2503.00913)
+
 ### 1.3 Peptide design
 
 **Deep generative models for peptide design**  
@@ -676,6 +625,10 @@ Montserrat Goles, Anamaría Daza, Gabriel Cabas-Mora, Lindybeth Sarmiento-Varón
 **Accelerating antimicrobial peptide design: Leveraging deep learning for rapid discovery**  
 Ahmad M. Al-Omari ,Yazan H. Akkam,Ala’a Zyout,Shayma’a Younis,Shefa M. Tawalbeh,Khaled Al-Sawalmeh,Amjed Al Fahoum ,Jonathan Arnold  
 [PloS one 19.12 (2024): e0315477](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0315477)
+
+**Trends in the Research and Development of Peptide Drug Conjugates: Artificial Intelligence Aided Design**  
+Dong-E Zhang, Dong-E Zhang, Tong He, Tong He, Tianyi Shi, Tianyi Shi, Kun Huang, Kun Huang, Anlin Peng, Anlin Peng  
+[Frontiers in Pharmacology 16](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1553853/full)
 
 ### 1.4 Binder design
 
@@ -1057,7 +1010,7 @@ Sabban, Sari, and Mikhail Markovsky
 Nicholas B. Woodall, Ryan Kibler, Basile Wicky, Brian Coventry  
 [bioRxiv 2023.05.24.542095](https://www.biorxiv.org/content/10.1101/2023.05.24.542095v1) • [code](https://github.com/NickWoodall/HelixGen)
 
-### 3.2 VAE-based
+### 3.2 AutoEncoder-based
 
 **Conditioning by adaptive sampling for robust design**  
 Brookes, David, Hahnbeom Park, and Jennifer Listgarten  
@@ -1070,6 +1023,10 @@ Raphael R. Eguchi, Christian A. Choe, Po-Ssu Huang
 **Generating tertiary protein structures via an interpretative variational autoencoder**  
 Xiaojie Guo, Yuanqi Du, Sivani Tadepalli, Liang Zhao, Amarda Shehu  
 [arXiv preprint arXiv:2004.07119 (2020)](https://arxiv.org/abs/2004.07119) • code not available
+
+**Function-guided protein design by deep manifold sampling**  
+Vladimir Gligorijevic, Stephen Ra, Daniel Berenberg, Richard Bonneau, Kyunghyun Cho  
+[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_Function-guided_protein_design_by.pdf) • without code
 
 **Deep sharpening of topological features for de novo protein design**  
 Zander Harteveld, Joshua Southern, Michaël Defferrard, Andreas Loukas, Pierre Vandergheynst, Micheal Bronstein, Bruno Correia  
@@ -1087,13 +1044,11 @@ Raphael R Eguchi, Christian A Choe, Udit Parekh, Irene S Khalek, Michael D Ward,
 Boqiao Lai  
 [arXiv:2408.17241](https://arxiv.org/abs/2408.17241) • PhD thesis
 
-### 3.3 DAE-based
+**CyclicCAE: A Conformational Autoencoder for Efficient Heterochiral Macrocyclic Backbone Sampling**  
+Andrew C. Powers, P. Douglas Renfrew, Parisa Hosseinzadeh, Vikram Khipple Mulligan  
+[bioRxiv 2025.02.21.639569](https://www.biorxiv.org/content/10.1101/2025.02.21.639569v1)
 
-**Function-guided protein design by deep manifold sampling**  
-Vladimir Gligorijevic, Stephen Ra, Daniel Berenberg, Richard Bonneau, Kyunghyun Cho  
-[NeurIPS 2021](https://www.mlsb.io/papers_2021/MLSB2021_Function-guided_protein_design_by.pdf) • without code
-
-### 3.4 MLP-based
+### 3.3 MLP-based
 
 **A backbone-centred energy function of neural networks for protein design**  
 Bin Huang, Yang Xu, Xiuhong Hu, Yongrui Liu, Shanhui Liao, Jiahai Zhang, Chengdong Huang, Jingjun Hong, Quan Chen & Haiyan Liu  
@@ -1104,7 +1059,7 @@ Yang Xu, Xiuhong Hu, Chenchen Wang, Yongrui Liu, Quan Chen
 Haiyan Liu  
 [Structure (2024)](https://www.cell.com/structure/fulltext/S0969-2126(24)00007-8)
 
-### 3.5 Diffusion-based
+### 3.4 Diffusion-based
 
 **Diffusion probabilistic modeling of protein backbones in 3D for the motif-scaffolding problem**  
 Brian L. Trippe, Jason Yim, Doug Tischer, Tamara Broderick, David Baker, Regina Barzilay, Tommi Jaakkola  
@@ -1222,7 +1177,7 @@ Wen-ran Li, Xavier F. Cadet, David Medina-Ortiz, Mehdi D. Davari, Ramanathan Sow
 Bruce Jiang, Xiaoxiao Li, Amber Guo, Moris Wei, Jonny Wu  
 [bioRxiv 2025.02.07.636769](https://www.biorxiv.org/content/10.1101/2025.02.07.636769v1)
 
-### 3.6 RL-based
+### 3.5 RL-based
 
 **Top-down design of protein nanomaterials with reinforcement learning**  
 Isaac D Lutz, Shunzhi Wang, Christoffer Norn, Andrew J Borst, Yan Ting Zhao, Annie Dosey, Longxing Cao, Zhe Li, Minkyung Baek, Neil P King, Hannele Ruohola-Baker, David Baker  
@@ -1236,7 +1191,7 @@ Frederic Renard, Cyprien Courtot, Alfredo Reichlin, Oliver Bent
 Fanhao Wang, Tiantian Zhang, Jintao Zhu, Xiaoling Zhang, Changsheng Zhang, Luhua Lai  
 [bioRxiv 2025.01.18.633746](https://www.biorxiv.org/content/10.1101/2025.01.18.633746v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/01/19/2025.01.18.633746/DC1/embed/media-1.pdf)
 
-### 3.7 Flow-based
+### 3.6 Flow-based
 
 **SE(3)-Stochastic Flow Matching for Protein Backbone Generation**  
 Avishek Joey Bose, Tara Akhound-Sadegh, Kilian Fatras, Guillaume Huguet, Jarrid Rector-Brooks, Cheng-Hao Liu, Andrei Cristian Nica, Maksym Korablyov, Michael Bronstein, Alexander Tong  
@@ -1254,7 +1209,11 @@ Guillaume Huguet, James Vuckovic, Kilian Fatras, Eric Thibodeau-Laufer, Pablo Le
 Junqi Liu, Shaoning Li, Chence Shi, Zhi Yang, Jian Tang  
 [arXiv:2409.12080](https://arxiv.org/abs/2409.12080)
 
-### 3.8 Score-based
+**Proteina: Scaling Flow-based Protein Structure Generative Models**  
+Tomas Geffner, Kieran Didi, Zuobai Zhang, Danny Reidenbach, Zhonglin Cao, Jason Yim, Mario Geiger, Christian Dallago, Emine Kucukbenli, Arash Vahdat, Karsten Kreis  
+[ICLR 2025 Oral](https://openreview.net/forum?id=TVQLu34bdw) • [code](https://github.com/NVIDIA-Digital-Bio/proteina/) • [website](https://research.nvidia.com/labs/genair/proteina/)
+
+### 3.7 Score-based
 
 **Score-Based Generative Models for Designing Binding Peptide Backbones**  
 John D Boom, Matthew Greenig, Pietro Sormanni, Pietro Liò  
@@ -1623,6 +1582,10 @@ Xingyi Zhang, Kun Xie, Ningqiao Huang, Wei Liu, Peilin Zhao, Sibo Wang, Kangfei 
 **Enhancing Functional Protein Design Using Heuristic Optimization and Deep Learning for Anti‐Inflammatory and Gene Therapy Applications**  
 Patat, Ayşenur Soytürk, and Özkan Ufuk Nalbantoğlu  
 [Proteins: Structure, Function, and Bioinformatics (2025)](https://onlinelibrary.wiley.com/doi/10.1002/prot.26810) • [code](https://github.com/aysenursoyturk/HMHO)
+
+**ProDualNet: Dual-Target Protein Sequence Design Method Based on Protein Language Model and Structure Model**  
+Liu Cheng, Ting Wei, Xiaochen Cui, Haifeng Chen, Zhangsheng Yu  
+[bioRxiv 2025.02.28.640919](https://www.biorxiv.org/content/10.1101/2025.02.28.640919v1) • [code](https://github.com/chengliu97/ProDualNet)
 
 ### 4.6 GAN-based
 
@@ -2408,6 +2371,14 @@ Perry T. Wasdin, Nicole V. Johnson, Alexis K. Janke, Sofia Held, Toma M. Marinov
 Xiangyu Liu, Yi Liu, Silei Chen, Wei Hu  
 [arXiv:2501.15007](https://arxiv.org/abs/2501.15007) • [code](https://github.com/nju-websoft/CtrlProt)
 
+**Discovery of antimicrobial peptides with notable antibacterial potency by an LLM-based foundation model**  
+Jike Wang, Jianwen Feng, Yu Kang, Peichen Pan, Jingxuan Ge, Yan Wang, Mingyang Wang, Zhenxing Wu, Xingcai Zhang, Jiameng Yu, Xujun Zhang, Tianyue Wang, Lirong Wen, Guangning Yan, Yafeng Deng, Hui Shi, Chang-Yu Hsieh, Zhihui Jiang, and Tingjun Hou  
+[Sci. Adv.11,eads8932(2025)](https://www.science.org/doi/10.1126/sciadv.ads8932) • [code](https://github.com/jkwang93/AMP-Designer)
+
+**CasGen: A Regularized Generative Model for CRISPR Cas Protein Design with Classification and Margin-Based Optimization**  
+Bharani Nammi, Vindi M. Jayasinghe-Arachchige, Sita Sirisha Madugula, Maria Artiles, Charlene Norgan Radler, Tyler Pham, Jin Liu, Shouyi Wang  
+[bioRxiv 2025.02.28.640911](https://www.biorxiv.org/content/10.1101/2025.02.28.640911v1) • [code](https://github.com/shouyisxty/CasGen)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**  
@@ -3162,6 +3133,10 @@ Sanjay Nagaraj, Amir Shanehsazzadeh, Hyun Park, Jonathan King, Simon Levine
 **Non-Linear Flow Matching for Full-Atom Peptide Design**  
 Dengdeng Huang, Shikui Tu  
 [arXiv:2502.15855](https://arxiv.org/abs/2502.15855)
+
+**dyAb: Flow Matching for Flexible Antibody Design with AlphaFold-driven Pre-binding Antigen**  
+Cheng Tan, Yijie Zhang, Zhangyang Gao, Yufei Huang, Haitao Lin, Lirong Wu, Fandi Wu, Mathieu Blanchette, Stan. Z. Li  
+[arXiv:2503.01910](https://arxiv.org/abs/2503.01910) • [code](https://github.com/A4Bio/dyAb)
 
 ### 6.9 AlphaFold-based
 
