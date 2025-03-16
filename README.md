@@ -10,27 +10,16 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.03.07:*
-+   Discovery of antimicrobial peptides with notable antibacterial potency by an LLM-based foundation model
-    + [[Sci. Adv.11,eads8932(2025)](https://www.science.org/doi/10.1126/sciadv.ads8932)] • [[code](https://github.com/jkwang93/AMP-Designer)]
-+   Computational protein design
-    + [[Nature Reviews Methods Primers 5.1 (2025)](https://www.nature.com/articles/s43586-025-00383-1)]
-+   dyAb: Flow Matching for Flexible Antibody Design with AlphaFold-driven Pre-binding Antigen
-    + [[arXiv:2503.01910](https://arxiv.org/abs/2503.01910)] • [[code](https://github.com/A4Bio/dyAb)]
-+   CyclicCAE: A Conformational Autoencoder for Efficient Heterochiral Macrocyclic Backbone Sampling
-    + [[bioRxiv 2025.02.21.639569](https://www.biorxiv.org/content/10.1101/2025.02.21.639569v1)]
-+   Trends in the Research and Development of Peptide Drug Conjugates: Artificial Intelligence Aided Design
-    + [[Frontiers in Pharmacology 16](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1553853/full)]
-+   Exploring the Blueprint of Life: The Innovation in Antibody and Protein Design
-    + [[Combinatorial chemistry & high throughput screening](https://www.eurekaselect.com/article/146786)]
-+   Applying computational protein design to therapeutic antibody discovery -- current state and perspectives
-    + [[arXiv:2503.00913](https://arxiv.org/abs/2503.00913)]
-+   CasGen: A Regularized Generative Model for CRISPR Cas Protein Design with Classification and Margin-Based Optimization
-    + [[bioRxiv 2025.02.28.640911](https://www.biorxiv.org/content/10.1101/2025.02.28.640911v1)] • [[code](https://github.com/shouyisxty/CasGen)]
-+   Proteina: Scaling Flow-based Protein Structure Generative Models
-    + [[ICLR 2025 Oral](https://openreview.net/forum?id=TVQLu34bdw)] • [[code](https://github.com/NVIDIA-Digital-Bio/proteina/)] • [[website](https://research.nvidia.com/labs/genair/proteina/)]
-+   ProDualNet: Dual-Target Protein Sequence Design Method Based on Protein Language Model and Structure Model
-    + [[bioRxiv 2025.02.28.640919](https://www.biorxiv.org/content/10.1101/2025.02.28.640919v1)] • [[code](https://github.com/chengliu97/ProDualNet)]
+*Papers last week, updated on 2025.03.16:*
++   De Novo Design of Large Polypeptides Using a Lightweight Diffusion Model Integrating LSTM and Attention Mechanism Under Per-Residue Secondary Structure Constraints
+    + [[Molecules 30.5 (2025)](https://www.mdpi.com/1420-3049/30/5/1116)] • [[code](https://github.com/daedaluser/PPD)]
++   NanoDesigner: Resolving the complex–CDR interdependency with iterative refinement
+    + [[bioRxiv 2025.02.25.640028](https://www.biorxiv.org/content/10.1101/2025.02.25.640028v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/01/2025.02.25.640028/DC1/embed/media-1.pdf)] • [[code](https://github.com/bio-ontology-research-group/NanoDesigner)] • dyMEAN-based
++   CHIEF: An Attention-based Ensemble Learning Framework for Functional Protein Design
+    + [[bioRxiv 2025.03.07.641005](https://www.biorxiv.org/content/10.1101/2025.03.07.641005v2)] • ProteinMPNN-based • ESM-IF-based • Frame2seq-based • PiFold-based
++   Language models for protein design
+    + [[Current Opinion in Structural Biology 92 (2025)](https://www.sciencedirect.com/science/article/abs/pii/S0959440X25000454)] • review
+
 
 
 ---
@@ -1213,6 +1202,10 @@ Junqi Liu, Shaoning Li, Chence Shi, Zhi Yang, Jian Tang
 Tomas Geffner, Kieran Didi, Zuobai Zhang, Danny Reidenbach, Zhonglin Cao, Jason Yim, Mario Geiger, Christian Dallago, Emine Kucukbenli, Arash Vahdat, Karsten Kreis  
 [ICLR 2025 Oral](https://openreview.net/forum?id=TVQLu34bdw) • [code](https://github.com/NVIDIA-Digital-Bio/proteina/) • [website](https://research.nvidia.com/labs/genair/proteina/)
 
+**ProtComposer: Compositional Protein Structure Generation with 3D Ellipsoids** 
+Hannes Stark, Bowen Jing, Tomas Geffner, Jason Yim, Tommi Jaakkola, Arash Vahdat, Karsten Kreis  
+[ICLR 2025 Oral](https://openreview.net/forum?id=0ctvBgKFgc) • [code](https://github.com/NVlabs/protcomposer)
+
 ### 3.7 Score-based
 
 **Score-Based Generative Models for Designing Binding Peptide Backbones**  
@@ -1587,6 +1580,10 @@ Patat, Ayşenur Soytürk, and Özkan Ufuk Nalbantoğlu
 Liu Cheng, Ting Wei, Xiaochen Cui, Haifeng Chen, Zhangsheng Yu  
 [bioRxiv 2025.02.28.640919](https://www.biorxiv.org/content/10.1101/2025.02.28.640919v1) • [code](https://github.com/chengliu97/ProDualNet)
 
+**CHIEF: An Attention-based Ensemble Learning Framework for Functional Protein Design**  
+Zilong Geng, Yuze Wang, Tingting Liu, Ao Tan, Shuo Wu, Xiaoling Guo, Ruogu Li, Xumin Hou, Kun Sun, LianPin Wu, Qinghua Cui, Lintai Da, Zhiyuan Ma, Honglin Li, Bing Zhang  
+[bioRxiv 2025.03.07.641005](https://www.biorxiv.org/content/10.1101/2025.03.07.641005v2) • ProteinMPNN-based • ESM-IF-based • Frame2seq-based • PiFold-based
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1697,7 +1694,7 @@ Jiangbin Zheng, Siyuan Li, Yufei Huang, Zhangyang Gao, Cheng Tan, Bozhen Hu, Jun
 
 **ShapeProt: Top-down Protein Design with 3D Protein Shape Generative Model**  
 Lee, Youhan, and Jaehoon Kim  
-[bioRxiv (2023): 2023-12](https://www.biorxiv.org/content/10.1101/2023.12.03.567710v2)
+[bioRxiv (2023): 2023-12](https://www.biorxiv.org/content/10.1101/2023.12.03.567710v3)
 
 **X-LoRA: Mixture of Low-Rank Adapter Experts, a Flexible Framework for Large Language Models with Applications in Protein Mechanics and Design**  
 Eric L. Buehler, Markus J. Buehler  
@@ -2379,6 +2376,10 @@ Jike Wang, Jianwen Feng, Yu Kang, Peichen Pan, Jingxuan Ge, Yan Wang, Mingyang W
 Bharani Nammi, Vindi M. Jayasinghe-Arachchige, Sita Sirisha Madugula, Maria Artiles, Charlene Norgan Radler, Tyler Pham, Jin Liu, Shouyi Wang  
 [bioRxiv 2025.02.28.640911](https://www.biorxiv.org/content/10.1101/2025.02.28.640911v1) • [code](https://github.com/shouyisxty/CasGen)
 
+**Language models for protein design**  
+Lee, Jin Sub, Osama Abdin, and Philip M. Kim  
+[Current Opinion in Structural Biology 92 (2025)](https://www.sciencedirect.com/science/article/abs/pii/S0959440X25000454) • review
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**  
@@ -2692,6 +2693,10 @@ Viacheslav Meshchaninov, Pavel Strashnov, Andrey Shevtsov, Fedor Nikolaev, Nikit
 Masatoshi Uehara, Xingyu Su, Yulai Zhao, Xiner Li, Aviv Regev, Shuiwang Ji, Sergey Levine, Tommaso Biancalani  
 [arXiv:2502.14944](https://arxiv.org/abs/2502.14944) • [code](https://github.com/masa-ue/ProDifEvo-Refinement)
 
+**De Novo Design of Large Polypeptides Using a Lightweight Diffusion Model Integrating LSTM and Attention Mechanism Under Per-Residue Secondary Structure Constraints**  
+Sisheng Liao,Gang Xu,Li Jin and Jianpeng Ma  
+[Molecules 30.5 (2025)](https://www.mdpi.com/1420-3049/30/5/1116) • [code](https://github.com/daedaluser/PPD)
+
 ### 5.13 GNN-based
 
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**  
@@ -2976,6 +2981,10 @@ Karsten D. Householder, Xinyu Xiang, Kevin M. Jude, Arthur Deng, Matthias Obenau
 Yulai Liu, Connor Weidle, Ljubica Mihaljevic, Joseph L. Watson, Zhe Li, Le Tracy Yu, Sagardip Majumder, Andrew J. Borst, Kenneth D. Carr, Ryan D. Kibler, Tamer M. Gamal El-Din, William A. Catterall, David Baker  
 [bioRxiv 2024.12.19.629320](https://www.biorxiv.org/content/10.1101/2024.12.19.629320v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.19.629320/DC1/embed/media-1.pdf) • RFDiffusion/ProteinMPNN-based
 
+**Solubilization of Membrane Proteins using designed protein WRAPS**  
+Ljubica Mihaljević, David E. Kim, Helen E. Eisenach, Pooja D. Bandawane, Andrew J. Borst, Alexis Courbet, Everton Bettin, Qiushi Liu, Connor Weidle, Sagardip Majumder, Xinting Li, Mila Lamb, Analisa Nicole Azcárraga Murray, Rashmi Ravichandran, Elizabeth C. Williams, Shuyuan Hu, Lynda Stuart, Linda Grillová, Nicholas R. Thomson, Pengxiang Chang, Melissa J. Caimano, Kelly L. Hawley, Neil P. King, David Baker
+[bioRxiv 2025.02.04.636539](https://www.biorxiv.org/content/10.1101/2025.02.04.636539v1) • RFDiffusion/ProteinMPNN-based
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**  
@@ -3043,6 +3052,10 @@ Lirong Wu, Haitao Lin, Yufei Huang, Zhangyang Gao, Cheng Tan, Yunfan Liu, Tailin
 **Towards More Accurate Full-Atom Antibody Co-Design**  
 Jiayang Wu, Xingyi Zhang, Xiangyu Dong, Kun Xie, Ziqi Liu, Wensheng Gan, Sibo Wang, Le Song  
 [arXiv:2502.19391](https://arxiv.org/abs/2502.19391)
+
+**NanoDesigner: Resolving the complex–CDR interdependency with iterative refinement**  
+Melissa Maria Rios Zertuche, Şenay Kafkas, Dominik Renn, Magnus Rueping, Robert Hoehndorf  
+[bioRxiv 2025.02.25.640028](https://www.biorxiv.org/content/10.1101/2025.02.25.640028v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/01/2025.02.25.640028/DC1/embed/media-1.pdf) • [code](https://github.com/bio-ontology-research-group/NanoDesigner) • dyMEAN-based
 
 ### 6.6 Transformer-based
 
