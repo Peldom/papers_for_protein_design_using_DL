@@ -10,17 +10,19 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.03.16:*
-+   De Novo Design of Large Polypeptides Using a Lightweight Diffusion Model Integrating LSTM and Attention Mechanism Under Per-Residue Secondary Structure Constraints
-    + [[Molecules 30.5 (2025)](https://www.mdpi.com/1420-3049/30/5/1116)] • [[code](https://github.com/daedaluser/PPD)]
-+   NanoDesigner: Resolving the complex–CDR interdependency with iterative refinement
-    + [[bioRxiv 2025.02.25.640028](https://www.biorxiv.org/content/10.1101/2025.02.25.640028v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/01/2025.02.25.640028/DC1/embed/media-1.pdf)] • [[code](https://github.com/bio-ontology-research-group/NanoDesigner)] • dyMEAN-based
-+   CHIEF: An Attention-based Ensemble Learning Framework for Functional Protein Design
-    + [[bioRxiv 2025.03.07.641005](https://www.biorxiv.org/content/10.1101/2025.03.07.641005v2)] • ProteinMPNN-based • ESM-IF-based • Frame2seq-based • PiFold-based
-+   Language models for protein design
-    + [[Current Opinion in Structural Biology 92 (2025)](https://www.sciencedirect.com/science/article/abs/pii/S0959440X25000454)] • review
-
-
+*Papers last week, updated on 2025.03.22:*
++   From Atoms to Fragments: A Coarse Representation for Efficient and Functional Protein Design
+    + [[bioRxiv 2025.03.19.644162](https://www.biorxiv.org/content/10.1101/2025.03.19.644162v2)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/20/2025.03.19.644162/DC1/embed/media-1.pdf)] • RFdiffusion-based
++   Tuning ProteinMPNN to reduce protein visibility via MHC Class I through direct preference optimization
+    + [[Protein Engineering, Design and Selection (2025)](https://academic.oup.com/peds/advance-article/doi/10.1093/protein/gzaf003/8082933)] • [[code](https://github.com/hcgasser/CAPE_MPNN)] • ProteinMPNN-based
++   Advanced Deep Learning Methods for Protein Structure Prediction and Design
+    + [[arXiv:2503.13522](https://arxiv.org/abs/2503.13522v1)]
++   Inhibition of ice recrystallization with designed twistless helical repeat proteins
+    + [[bioRxiv 2025.03.09.642278](https://www.biorxiv.org/content/10.1101/2025.03.09.642278v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/13/2025.03.09.642278/DC1/embed/media-1.pdf)] • [[code](https://doi.org/10.5281/zenodo.13763849)] • RFDiffusion/ProteinMPNN-based
++   HighPlay: Cyclic Peptide Sequence Design Based on Reinforcement Learning and Protein Structure Prediction
+    + [[bioRxiv 2025.03.17.643626](http://biorxiv.org/content/10.1101/2025.03.17.643626v1)]
++   Neo-1
+    + paper not available • [[website](https://www.vant.ai/neo-1)] • commercial
 
 ---
 
@@ -225,7 +227,7 @@ Paweł Szczerbiak, Lukasz Szydlowski, Witold Wydmański, P. Douglas Renfrew, Jul
 
 **The Protein Design Archive (PDA): insights from 40 years of protein design**  
 Marta Chronowska, Michael J. Stam, Derek N. Woolfson, Luigi F. Di Constanzo, Christopher W. Wood  
-[bioRxiv 2024.09.05.611465](https://www.biorxiv.org/content/10.1101/2024.09.05.611465v1) • [code](https://github.com/wells-wood-research/chronowska-stam-wood-2024-protein-design-archive) • [Supplementary](hhttps://www.biorxiv.org/content/biorxiv/early/2024/09/07/2024.09.05.611465/DC1/embed/media-1.docx) • [website](https://pragmaticproteindesign.bio.ed.ac.uk/pda/)
+[bioRxiv 2024.09.05.611465](https://www.biorxiv.org/content/10.1101/2024.09.05.611465v1)/[Nat Biotechnol (2025)](https://www.nature.com/articles/s41587-025-02607-x) • [code](https://github.com/wells-wood-research/chronowska-stam-wood-2024-protein-design-archive) • [Supplementary](hhttps://www.biorxiv.org/content/biorxiv/early/2024/09/07/2024.09.05.611465/DC1/embed/media-1.docx) • [website](https://pragmaticproteindesign.bio.ed.ac.uk/pda/)
 
 **ProteinBench: A Holistic Evaluation of Protein Foundation Models**  
 Fei Ye, Zaixiang Zheng, Dongyu Xue, Yuning Shen, Lihao Wang, Yiming Ma, Yan Wang, Xinyou Wang, Xiangxin Zhou, Quanquan Gu  
@@ -522,6 +524,10 @@ Katherine I. Albanese, Sophie Barbe, Shunsuke Tagami, Derek N. Woolfson & Thomas
 **Exploring the Blueprint of Life: The Innovation in Antibody and Protein Design**  
 Yang, Zhiwei, and Gerald H. Lushington  
 [Combinatorial chemistry & high throughput screening](https://www.eurekaselect.com/article/146786)
+
+**Advanced Deep Learning Methods for Protein Structure Prediction and Design**  
+Weikun Wu, Tianyang Wang, Yichao Zhang, Ningyuan Deng, Xinyuan Song, Ziqian Bi, Zheyu Yao, Keyu Chen, Ming Li, Qian Niu, Junyu Liu, Benji Peng, Sen Zhang, Ming Liu, Li Zhang, Xuanhe Pan, Jinlang Wang, Pohsun Feng, Yizhu Wen, Lawrence KQ Yan, Hongming Tseng, Yan Zhong, Yunze Wang, Ziyuan Qin, Bowen Jing, Junjie Yang, Jun Zhou, Chia Xin Liang, Junhao Song  
+[arXiv:2503.13522](https://arxiv.org/abs/2503.13522v1)
 
 ### 1.2 Antibody design
 
@@ -838,6 +844,10 @@ Christopher Josef Frank, Dominik Schiwietz, Lara Fuss, Sergey Ovchinnikov, Hendr
 **Low-N OpenFold fine-tuning improves peptide design without additional structures**  
 Theodore Sternlieb, Jakub Otwinowski, Sam Sinai, Jeffrey Chan
 [Machine Learning for Structural Biology Workshop, NeurIPS 2024](https://www.mlsb.io/papers_2024/Low-N_OpenFold_fine-tuning_improves_peptide_design_without_additional_structures.pdf)
+
+**HighPlay: Cyclic Peptide Sequence Design Based on Reinforcement Learning and Protein Structure Prediction**  
+Huitian Lin, Cheng Zhu, Tianfeng Shang, Ning Zhu, Kang Lin, Xiang Shao, Xudong Wang, Hongliang Duan  
+[bioRxiv 2025.03.17.643626](http://biorxiv.org/content/10.1101/2025.03.17.643626v1)
 
 ### 2.3 DMPfold2-based
 
@@ -1166,6 +1176,10 @@ Wen-ran Li, Xavier F. Cadet, David Medina-Ortiz, Mehdi D. Davari, Ramanathan Sow
 Bruce Jiang, Xiaoxiao Li, Amber Guo, Moris Wei, Jonny Wu  
 [bioRxiv 2025.02.07.636769](https://www.biorxiv.org/content/10.1101/2025.02.07.636769v1)
 
+**From Atoms to Fragments: A Coarse Representation for Efficient and Functional Protein Design**  
+Leonardo V Castorina, Christopher W Wood, Kartic Subr  
+[bioRxiv 2025.03.19.644162](https://www.biorxiv.org/content/10.1101/2025.03.19.644162v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/20/2025.03.19.644162/DC1/embed/media-1.pdf) • RFdiffusion-based
+
 ### 3.5 RL-based
 
 **Top-down design of protein nanomaterials with reinforcement learning**  
@@ -1200,11 +1214,11 @@ Junqi Liu, Shaoning Li, Chence Shi, Zhi Yang, Jian Tang
 
 **Proteina: Scaling Flow-based Protein Structure Generative Models**  
 Tomas Geffner, Kieran Didi, Zuobai Zhang, Danny Reidenbach, Zhonglin Cao, Jason Yim, Mario Geiger, Christian Dallago, Emine Kucukbenli, Arash Vahdat, Karsten Kreis  
-[ICLR 2025 Oral](https://openreview.net/forum?id=TVQLu34bdw) • [code](https://github.com/NVIDIA-Digital-Bio/proteina/) • [website](https://research.nvidia.com/labs/genair/proteina/)
+[ICLR 2025 Oral](https://openreview.net/forum?id=TVQLu34bdw) • [code](https://github.com/NVIDIA-Digital-Bio/proteina/) • [website](https://research.nvidia.com/labs/genair/proteina/) • [lecture](https://www.youtube.com/watch?v=Y2dRj9_ZEHw)
 
-**ProtComposer: Compositional Protein Structure Generation with 3D Ellipsoids** 
+**ProtComposer: Compositional Protein Structure Generation with 3D Ellipsoids**  
 Hannes Stark, Bowen Jing, Tomas Geffner, Jason Yim, Tommi Jaakkola, Arash Vahdat, Karsten Kreis  
-[ICLR 2025 Oral](https://openreview.net/forum?id=0ctvBgKFgc) • [code](https://github.com/NVlabs/protcomposer)
+[ICLR 2025 Oral](https://openreview.net/forum?id=0ctvBgKFgc) • [code](https://github.com/NVlabs/protcomposer) • [lecture](https://www.youtube.com/watch?v=2G0d-RePc7c)
 
 ### 3.7 Score-based
 
@@ -1583,6 +1597,10 @@ Liu Cheng, Ting Wei, Xiaochen Cui, Haifeng Chen, Zhangsheng Yu
 **CHIEF: An Attention-based Ensemble Learning Framework for Functional Protein Design**  
 Zilong Geng, Yuze Wang, Tingting Liu, Ao Tan, Shuo Wu, Xiaoling Guo, Ruogu Li, Xumin Hou, Kun Sun, LianPin Wu, Qinghua Cui, Lintai Da, Zhiyuan Ma, Honglin Li, Bing Zhang  
 [bioRxiv 2025.03.07.641005](https://www.biorxiv.org/content/10.1101/2025.03.07.641005v2) • ProteinMPNN-based • ESM-IF-based • Frame2seq-based • PiFold-based
+
+**Tuning ProteinMPNN to reduce protein visibility via MHC Class I through direct preference optimization**  
+Hans-Christof Gasser, Diego A Oyarzún, Javier Alfaro, Ajitha Rajan  
+[Protein Engineering, Design and Selection (2025)](https://academic.oup.com/peds/advance-article/doi/10.1093/protein/gzaf003/8082933) • [code](https://github.com/hcgasser/CAPE_MPNN) • ProteinMPNN-based
 
 ### 4.6 GAN-based
 
@@ -2847,6 +2865,10 @@ Amy X. Lu, Wilson Yan, Sarah A. Robinson, Kevin K. Yang, Vladimir  Gligorijevic,
 Michael Jendrusch, Jan O. Korbel  
 [bioRxiv 2025.01.31.635780](https://www.biorxiv.org/content/10.1101/2025.01.31.635780v1) • [code](https://doi.org/10.5281/zenodo.14711580), [github](https://github.com/mjendrusch/salad)
 
+**Neo-1**
+[VANTAI](https://www.vant.ai/team)
+paper not available • [website](https://www.vant.ai/neo-1) • commercial
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites** / **Scaffolding protein functional sites using deep learning**  
@@ -2984,6 +3006,10 @@ Yulai Liu, Connor Weidle, Ljubica Mihaljevic, Joseph L. Watson, Zhe Li, Le Tracy
 **Solubilization of Membrane Proteins using designed protein WRAPS**  
 Ljubica Mihaljević, David E. Kim, Helen E. Eisenach, Pooja D. Bandawane, Andrew J. Borst, Alexis Courbet, Everton Bettin, Qiushi Liu, Connor Weidle, Sagardip Majumder, Xinting Li, Mila Lamb, Analisa Nicole Azcárraga Murray, Rashmi Ravichandran, Elizabeth C. Williams, Shuyuan Hu, Lynda Stuart, Linda Grillová, Nicholas R. Thomson, Pengxiang Chang, Melissa J. Caimano, Kelly L. Hawley, Neil P. King, David Baker
 [bioRxiv 2025.02.04.636539](https://www.biorxiv.org/content/10.1101/2025.02.04.636539v1) • RFDiffusion/ProteinMPNN-based
+
+**Inhibition of ice recrystallization with designed twistless helical repeat proteins**  
+Robbert J. de Haas, Harley Pyles, Timothy F. Huddy, Jannick van Ossenbruggen, Chuanbao Zheng, Daniëlle van den Broek, Ann Carr, Asim K. Bera, Alex Kang, Evans Brackenbrough, Emily Joyce, Banumathi Sankaran, David Baker, Ilja K. Voets, Renko de Vries  
+[bioRxiv 2025.03.09.642278](https://www.biorxiv.org/content/10.1101/2025.03.09.642278v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/13/2025.03.09.642278/DC1/embed/media-1.pdf) • [code](https://doi.org/10.5281/zenodo.13763849) • RFDiffusion/ProteinMPNN-based
 
 ### 6.4 CNN-based
 
