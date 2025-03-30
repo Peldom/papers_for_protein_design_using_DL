@@ -10,19 +10,20 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.03.22:*
-+   From Atoms to Fragments: A Coarse Representation for Efficient and Functional Protein Design
-    + [[bioRxiv 2025.03.19.644162](https://www.biorxiv.org/content/10.1101/2025.03.19.644162v2)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/20/2025.03.19.644162/DC1/embed/media-1.pdf)] • RFdiffusion-based
-+   Tuning ProteinMPNN to reduce protein visibility via MHC Class I through direct preference optimization
-    + [[Protein Engineering, Design and Selection (2025)](https://academic.oup.com/peds/advance-article/doi/10.1093/protein/gzaf003/8082933)] • [[code](https://github.com/hcgasser/CAPE_MPNN)] • ProteinMPNN-based
-+   Advanced Deep Learning Methods for Protein Structure Prediction and Design
-    + [[arXiv:2503.13522](https://arxiv.org/abs/2503.13522v1)]
-+   Inhibition of ice recrystallization with designed twistless helical repeat proteins
-    + [[bioRxiv 2025.03.09.642278](https://www.biorxiv.org/content/10.1101/2025.03.09.642278v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/13/2025.03.09.642278/DC1/embed/media-1.pdf)] • [[code](https://doi.org/10.5281/zenodo.13763849)] • RFDiffusion/ProteinMPNN-based
-+   HighPlay: Cyclic Peptide Sequence Design Based on Reinforcement Learning and Protein Structure Prediction
-    + [[bioRxiv 2025.03.17.643626](http://biorxiv.org/content/10.1101/2025.03.17.643626v1)]
-+   Neo-1
-    + paper not available • [[website](https://www.vant.ai/neo-1)] • commercial
+*Papers last week, updated on 2025.03.30:*
++   RoseTTAFold diffusion-guided short peptide design: a case study of binders against Keap1/Nrf2
+    + [[Computational and Structural Biotechnology Journal (2025)](https://www.csbj.org/article/S2001-0370(25)]00061-3/fulltext) • RFDiffusion/ProteinMPNN-based
++   AI-Driven Efficient De Novo design of GLP-1RAs with Extended Half-Life and Enhanced Efficacy
+    + [[bioRxiv 2025.03.26.645438](https://www.biorxiv.org/content/10.1101/2025.03.26.645438v1)] • ProteinMPNN-based
++   Reliable algorithm selection for machine learning-guided design
+    + [[arXiv:2503.20767](https://arxiv.org/abs/2503.20767)]
++   UniMoMo: Unified Generative Modeling of 3D Molecules for De Novo Binder Design
+    + [[arXiv:2503.19300](https://arxiv.org/abs/2503.19300v1)]
++   IgCraft: A versatile sequence generation framework for antibody discovery and engineering
+    + [[arXiv:2503.19821](https://arxiv.org/abs/2503.19821)] • [[code](https://github.com/mgreenig/IgCraft)]
++   De novo design of miniprotein agonists and antagonists targeting G protein-coupled receptors
+    + [[bioRxiv 2025.03.23.644666](https://www.biorxiv.org/content/10.1101/2025.03.23.644666v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/23/2025.03.23.644666/DC1/embed/media-1.pdf)]
+
 
 ---
 
@@ -987,6 +988,10 @@ Benjamin Fram, Ian Truebridge, Yang Su, Adam J. Riesselman, John B. Ingraham, Al
 Andrew Kirjner, Jason Yim, Raman Samusevich, Tommi Jaakkola, Regina Barzilay, Ila Fiete  
 [arXiv:2307.00494](https://arxiv.org/abs/2307.00494) • [code](https://github.com/kirjner/GGS)
 
+**Reliable algorithm selection for machine learning-guided design**  
+Clara Fannjiang, Ji Won Park  
+[arXiv:2503.20767](https://arxiv.org/abs/2503.20767)
+
 ## 3. Function to Scaffold
 
 > These models design backbone/scaffold/template in Cartesian coordinates, contact maps, distance maps and φ & ψ angles. Including conditional/unconditional generative models.
@@ -1468,7 +1473,7 @@ Linna An, Meerit Said, Long Tran, Sagardip Majumder, Inna Goreshnik, Gyu Rie Lee
 
 **Atomic context-conditioned protein sequence design using LigandMPNN**  
 Justas Dauparas, Gyu Rie Lee, Robert Pecoraro, Linna An, Ivan Anishchenko, Cameron Glasscock, D. Baker  
-[bioRxiv 2023.12.22.573103](https://www.biorxiv.org/content/10.1101/2023.12.22.573103v1) • [code](https://github.com/dauparas/LigandMPNN)
+[bioRxiv 2023.12.22.573103](https://www.biorxiv.org/content/10.1101/2023.12.22.573103v1)/[Nat Methods (2025)](https://www.nature.com/articles/s41592-025-02626-1) • [code](https://github.com/dauparas/LigandMPNN)
 
 **Structure-conditioned masked language models for protein sequence design generalize beyond the native sequence space**  
 Deniz Akpinaroglu, Kosuke Seki, Amy Guo, Eleanor Zhu, Mark J. S. Kelly, Tanja Kortemme  
@@ -1602,6 +1607,10 @@ Zilong Geng, Yuze Wang, Tingting Liu, Ao Tan, Shuo Wu, Xiaoling Guo, Ruogu Li, X
 Hans-Christof Gasser, Diego A Oyarzún, Javier Alfaro, Ajitha Rajan  
 [Protein Engineering, Design and Selection (2025)](https://academic.oup.com/peds/advance-article/doi/10.1093/protein/gzaf003/8082933) • [code](https://github.com/hcgasser/CAPE_MPNN) • ProteinMPNN-based
 
+**AI-Driven Efficient De Novo design of GLP-1RAs with Extended Half-Life and Enhanced Efficacy**  
+Ting Wei, Xiaochen Cui, Jiahui Lin, Zhuoqi Zheng, Taiying Cui, Liu Cheng, Xiaoqian Lin, Junjie Zhu, Xuyang Ran, Xiaohun Hong, Zhangsheng Yu, Haifeng Chen  
+[bioRxiv 2025.03.26.645438](https://www.biorxiv.org/content/10.1101/2025.03.26.645438v1) • ProteinMPNN-based
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**  
@@ -1664,7 +1673,7 @@ Kaiyuan Gao, Lijun Wu, Jinhua Zhu, Tianbo Peng, Yingce Xia, Liang He, Shufang Xi
 
 **A Text-guided Protein Design Framework**  
 Shengchao Liu, Yutao Zhu, Jiarui Lu, Zhao Xu, Weili Nie, Anthony Gitter, Chaowei Xiao, Jian Tang, Hongyu Guo, Anima Anandkumar  
-[arXiv:2302.04611](https://arxiv.org/abs/2302.04611) • [code](https://github.com/chao1224/ProteinDT)
+[arXiv:2302.04611](https://arxiv.org/abs/2302.04611)/[Nat Mach Intell (2025)](https://www.nature.com/articles/s42256-025-01011-z) • [code](https://github.com/chao1224/ProteinDT)
 
 **An end-to-end deep learning method for protein side-chain packing and inverse folding**  
 McPartlon, Matthew, and Jinbo Xu  
@@ -1704,7 +1713,7 @@ Jin Su, Zhikai Li, Chenchen Han, Yuyang Zhou, Yan He, Junjie Shan, Xibin Zhou, X
 
 **AntiFold: Improved antibody structure design using inverse folding**  
 Magnus Høie, Alissa Hummer, Tobias Olsen, Morten Nielsen, Charlotte Deane  
-[GenBio@NeurIPS2023 Spotlight](https://openreview.net/forum?id=bxZMKHtlL6) • [code](https://opig.stats.ox.ac.uk/data/downloads/AntiFold/) • [colab](https://colab.research.google.com/drive/1TTfgjoZx3mzF5u4e9b4Un9Y7b_rqXc_4)
+[GenBio@NeurIPS2023 Spotlight](https://openreview.net/forum?id=bxZMKHtlL6)/[Bioinformatics Advances (2025)](https://academic.oup.com/bioinformaticsadvances/advance-article/doi/10.1093/bioadv/vbae202/8090019) • [code](https://opig.stats.ox.ac.uk/data/downloads/AntiFold/), [github](https://github.com/oxpig/AntiFold) • [colab](https://colab.research.google.com/drive/1TTfgjoZx3mzF5u4e9b4Un9Y7b_rqXc_4), [website](https://opig.stats.ox.ac.uk/webapps/antifold/)
 
 **MMDesign: Multi-Modality Transfer Learning for Generative Protein Design**  
 Jiangbin Zheng, Siyuan Li, Yufei Huang, Zhangyang Gao, Cheng Tan, Bozhen Hu, Jun Xia, Ge Wang, Stan Z. Li  
@@ -1745,6 +1754,8 @@ Anirudh Venkatraman, Gopinath Balaji, Veeresh Kande
 **Protein CREATE enables closed-loop design of de novo synthetic protein binders**  
 Alec Lourenço, Arjuna Subramanian, Ryan Spencer, Michael Anaya, Jiapei Miao, William Fu, Eric Chow, Matt Thomson  
 [bioRxiv 2024.12.20.629847](https://www.biorxiv.org/content/10.1101/2024.12.20.629847v1) • ESM-IF-based
+
+
 
 ### 4.8 ResNet-based
 
@@ -1815,6 +1826,10 @@ Natalie Maus, Yimeng Zeng, Daniel Allen Anderson, Phillip Maffettone, Aaron Solo
 **Design of Protein Sequences with Precisely Tuned Kinetic Properties**  
 Z. Faidon Brotzakis, Michele Vendruscolo, Georgios Skretas  
 [bioRxiv 2025.02.13.638027](https://www.biorxiv.org/content/10.1101/2025.02.13.638027v1)
+
+**IgCraft: A versatile sequence generation framework for antibody discovery and engineering**  
+Matthew Greenig, Haowen Zhao, Vladimir Radenkovic, Aubin Ramon, Pietro Sormanni  
+[arXiv:2503.19821](https://arxiv.org/abs/2503.19821) • [code](https://github.com/mgreenig/IgCraft)
 
 ### 4.11 Flow-based
 
@@ -2162,9 +2177,9 @@ Lee, Youhan, and Hasun Yu
 Sebastian Lindner, Michael Heinzinger, Noelia Ferruz
 paper coming soon • [hugging face](https://huggingface.co/AI4PD/REXzyme)
 
-**MPM4: AI Text2Protein Breakthrough Tackles the Molecule Programming Challenge**  
-[310.ai](https://310.ai/about-us/)  
-[news](https://medium.com/310-ai/mpm4-ai-text2protein-breakthrough-tackles-the-molecule-programming-challenge-870045a8c1ad) • [repo](https://310.ai/mpm/repo) • commercial
+**A generalized protein design ML model enables generation of functional de novo proteins**  
+Timothy P. Riley, Pourya Kalantari, Ismail Naderi, Kooshiar Azimian, Kathy Y. Wei, Oleg Matusovsky, Mohammad S. Parsa  
+[bioRxiv 2025.03.21.644400](https://www.biorxiv.org/content/10.1101/2025.03.21.644400v1) • [news](https://medium.com/310-ai/mpm4-ai-text2protein-breakthrough-tackles-the-molecule-programming-challenge-870045a8c1ad) • [repo](https://310.ai/mpm/repo) • commercial
 
 **De Novo Design of Peptide Binders to Conformationally Diverse Targets with Contrastive Language Modeling**  
 Suhaas Bhat, Kalyan Palepu, Lauren Hong, Joey Mao, Tianzheng Ye, Rema Iyer, Lin Zhao, Tianlai Chen, Sophia Vincoff, Rio Watson, Tian Wang, Divya Srijay, Venkata Srikar Kavirayuni, Kseniia Kholina, Shrey Goel, Pranay Vure, Aniruddha H Desphande, Scott Soderling, Matthew DeLisa, Pranam Chatterjee  
@@ -2172,7 +2187,8 @@ Suhaas Bhat, Kalyan Palepu, Lauren Hong, Joey Mao, Tianzheng Ye, Rema Iyer, Lin 
 
 **xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein**  
 Bo Chen, Xingyi Cheng, Li-ao Gengyang, Shen Li, Xin Zeng, Boyan Wang, Gong Jing, Chiming Liu, Aohan Zeng, Yuxiao Dong, Jie Tang, Le Song  
-[bioRxiv 2023.07.05.547496](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1) • [news](https://mp.weixin.qq.com/s/XQn8je49z23UYby8pR7fkA) • [website](https://www.biomap.com/aigp-light-beta/form) • commercial
+[bioRxiv 2023.07.05.547496](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1) • [news](https://mp.weixin.qq.com/s/XQn8je49z23UYby8pR7fkA) • [website](https://www.biomap.com/aigp-light-beta/form) • [code](https://github.com/biomap-research/xTrimoPGLM) • [model](https://huggingface.co/biomap-research
+) • commercial
 
 **TULIP - a Transformer based Unsupervised Language model for Interacting Peptides and T-cell receptors that generalizes to unseen epitopes**  
 Barthelemy Meynard-Piganeau, Christoph Feinauer, Martin Weigt, Aleksandra M Walczak, Thierry Mora  
@@ -2869,6 +2885,10 @@ Michael Jendrusch, Jan O. Korbel
 [VANTAI](https://www.vant.ai/team)
 paper not available • [website](https://www.vant.ai/neo-1) • commercial
 
+**UniMoMo: Unified Generative Modeling of 3D Molecules for De Novo Binder Design**  
+Xiangzhe Kong, Zishen Zhang, Ziting Zhang, Rui Jiao, Jianzhu Ma, Kai Liu, Wenbing Huang, Yang Liu  
+[arXiv:2503.19300](https://arxiv.org/abs/2503.19300v1)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites** / **Scaffolding protein functional sites using deep learning**  
@@ -3010,6 +3030,14 @@ Ljubica Mihaljević, David E. Kim, Helen E. Eisenach, Pooja D. Bandawane, Andrew
 **Inhibition of ice recrystallization with designed twistless helical repeat proteins**  
 Robbert J. de Haas, Harley Pyles, Timothy F. Huddy, Jannick van Ossenbruggen, Chuanbao Zheng, Daniëlle van den Broek, Ann Carr, Asim K. Bera, Alex Kang, Evans Brackenbrough, Emily Joyce, Banumathi Sankaran, David Baker, Ilja K. Voets, Renko de Vries  
 [bioRxiv 2025.03.09.642278](https://www.biorxiv.org/content/10.1101/2025.03.09.642278v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/13/2025.03.09.642278/DC1/embed/media-1.pdf) • [code](https://doi.org/10.5281/zenodo.13763849) • RFDiffusion/ProteinMPNN-based
+
+**RoseTTAFold diffusion-guided short peptide design: a case study of binders against Keap1/Nrf2**  
+Francesco Morena, Chiara Cencinia, Carla Emiliani, Sabata Martinoa  
+[Computational and Structural Biotechnology Journal (2025)](https://www.csbj.org/article/S2001-0370(25)00061-3/fulltext) • RFDiffusion/ProteinMPNN-based
+
+**De novo design of miniprotein agonists and antagonists targeting G protein-coupled receptors**  
+Edin Muratspahić, David Feldman, David E. Kim, Xiangli Qu, Ana-Maria Bratovianu, Paula Rivera-Sánchez, Federica Dimitri, Jason Cao, Brian P. Cary, Matthew J. Belousoff, Peter Keov, Qingchao Chen, Yue Ren, Justyn Fine, Isaac Sappington, Thomas Schlichthaerle, Jason Z. Zhang, Arvind Pillai, Ljubica Mihaljević, Magnus Bauer, Susana Vázquez Torres, Amir Motmaen, Gyu Rie Lee, Long Tran, Xinru Wang, Inna Goreshnik, Dionne K. Vafeados, Justin E. Svendsen, Parisa Hosseinzadeh, Nicolai Lindegaard, Matthäus Brandt, Yann Waltenspühl, Kristine Deibler, Luke Oostdyk, William Cao, Lakshmi Anantharaman, Lance Stewart, Lauren Halloran, Jamie B. Spangler, Patrick M. Sexton, Bryan L. Roth, Brian E. Krumm, Denise Wootten, Christopher G. Tate, Christoffer Norn, David Baker  
+[bioRxiv 2025.03.23.644666](https://www.biorxiv.org/content/10.1101/2025.03.23.644666v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/23/2025.03.23.644666/DC1/embed/media-1.pdf)
 
 ### 6.4 CNN-based
 
