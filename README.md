@@ -10,19 +10,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.03.30:*
-+   RoseTTAFold diffusion-guided short peptide design: a case study of binders against Keap1/Nrf2
-    + [[Computational and Structural Biotechnology Journal (2025)](https://www.csbj.org/article/S2001-0370(25)]00061-3/fulltext) • RFDiffusion/ProteinMPNN-based
-+   AI-Driven Efficient De Novo design of GLP-1RAs with Extended Half-Life and Enhanced Efficacy
-    + [[bioRxiv 2025.03.26.645438](https://www.biorxiv.org/content/10.1101/2025.03.26.645438v1)] • ProteinMPNN-based
-+   Reliable algorithm selection for machine learning-guided design
-    + [[arXiv:2503.20767](https://arxiv.org/abs/2503.20767)]
-+   UniMoMo: Unified Generative Modeling of 3D Molecules for De Novo Binder Design
-    + [[arXiv:2503.19300](https://arxiv.org/abs/2503.19300v1)]
-+   IgCraft: A versatile sequence generation framework for antibody discovery and engineering
-    + [[arXiv:2503.19821](https://arxiv.org/abs/2503.19821)] • [[code](https://github.com/mgreenig/IgCraft)]
-+   De novo design of miniprotein agonists and antagonists targeting G protein-coupled receptors
-    + [[bioRxiv 2025.03.23.644666](https://www.biorxiv.org/content/10.1101/2025.03.23.644666v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/23/2025.03.23.644666/DC1/embed/media-1.pdf)]
+*Papers last week, updated on 2025.04.04:*
++   Why risk matters for protein binder design
+    + [[arXiv:2504.00146](https://arxiv.org/abs/2504.00146)]
++   Systematic comparison of Generative AI-Protein Models reveals fundamental differences between structural and sequence-based approaches
+    + [[bioRxiv 2025.03.23.644844](https://www.biorxiv.org/content/10.1101/2025.03.23.644844v1)] • [[code](https://github.com/hewittlab/Systematic-comparison-of-Generative-AI-Protein-Models)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/24/2025.03.23.644844/DC1/embed/media-1.docx)]
++   Deep Learning-Driven Protein Structure Prediction and Design: Key Model Developments by Nobel Laureates and Multi-Domain Applications
+    + [[arXiv:2504.01490](https://arxiv.org/abs/2504.01490)]
++   Efficient Design of Affilin® Protein Binders for HER3
+    + [[bioRxiv 2025.04.02.646551](https://www.biorxiv.org/content/10.1101/2025.04.02.646551v1)] • [[code](https://github.com/annadiarov/ProtVAE)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/04/02/2025.04.02.646551/DC1/embed/media-1.pdf)]
 
 
 ---
@@ -245,6 +241,10 @@ Pavel Strashnov, Andrey Shevtsov, Viacheslav Meshchaninov, Maria Ivanova, Fedor 
 **MotifBench: A standardized protein design benchmark for motif-scaffolding problems**  
 Zhuoqi Zheng, Bo Zhang, Kieran Didi, Kevin K. Yang, Jason Yim, Joseph L. Watson, Hai-Feng Chen, Brian L. Trippe  
 [arXiv:2502.12479](https://arxiv.org/abs/2502.12479) • [code](https://github.com/blt2114/MotifBench)
+
+**Systematic comparison of Generative AI-Protein Models reveals fundamental differences between structural and sequence-based approaches**  
+Alexander J Barnett, KC Rajendra, Pratikshya Pandey, Pamodha Somasiri, Kirsten A Fairfax, Sandy Hung, Alex W Hewitt  
+[bioRxiv 2025.03.23.644844](https://www.biorxiv.org/content/10.1101/2025.03.23.644844v1) • [code](https://github.com/hewittlab/Systematic-comparison-of-Generative-AI-Protein-Models) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/24/2025.03.23.644844/DC1/embed/media-1.docx)
 
 ### 0.3 Databases
 
@@ -527,8 +527,12 @@ Yang, Zhiwei, and Gerald H. Lushington
 [Combinatorial chemistry & high throughput screening](https://www.eurekaselect.com/article/146786)
 
 **Advanced Deep Learning Methods for Protein Structure Prediction and Design**  
-Weikun Wu, Tianyang Wang, Yichao Zhang, Ningyuan Deng, Xinyuan Song, Ziqian Bi, Zheyu Yao, Keyu Chen, Ming Li, Qian Niu, Junyu Liu, Benji Peng, Sen Zhang, Ming Liu, Li Zhang, Xuanhe Pan, Jinlang Wang, Pohsun Feng, Yizhu Wen, Lawrence KQ Yan, Hongming Tseng, Yan Zhong, Yunze Wang, Ziyuan Qin, Bowen Jing, Junjie Yang, Jun Zhou, Chia Xin Liang, Junhao Song  
-[arXiv:2503.13522](https://arxiv.org/abs/2503.13522v1)
+Yichao Zhang, Ningyuan Deng, Xinyuan Song, Ziqian Bi, Tianyang Wang, Zheyu Yao, Keyu Chen, Ming Li, Qian Niu, Junyu Liu, Benji Peng, Sen Zhang, Ming Liu, Li Zhang, Xuanhe Pan, Jinlang Wang, Pohsun Feng, Yizhu Wen, Lawrence KQ Yan, Hongming Tseng, Yan Zhong, Yunze Wang, Ziyuan Qin, Bowen Jing, Junjie Yang, Jun Zhou, Chia Xin Liang, Junhao Song  
+[arXiv:2503.13522](https://arxiv.org/abs/2503.13522)
+
+**Deep Learning-Driven Protein Structure Prediction and Design: Key Model Developments by Nobel Laureates and Multi-Domain Applications**  
+Wanqing Yang, Yanwei Wang, Yang Wang  
+[arXiv:2504.01490](https://arxiv.org/abs/2504.01490)
 
 ### 1.2 Antibody design
 
@@ -991,6 +995,10 @@ Andrew Kirjner, Jason Yim, Raman Samusevich, Tommi Jaakkola, Regina Barzilay, Il
 **Reliable algorithm selection for machine learning-guided design**  
 Clara Fannjiang, Ji Won Park  
 [arXiv:2503.20767](https://arxiv.org/abs/2503.20767)
+
+**Why risk matters for protein binder design**  
+Tudor-Stefan Cotet, Igor Krawczuk  
+[arXiv:2504.00146](https://arxiv.org/abs/2504.00146)
 
 ## 3. Function to Scaffold
 
@@ -1983,6 +1991,10 @@ Sijie Chen, Tong Lin, Ruchira Basu, Jeremy Ritchey, Shen Wang, Yichuan Luo, Xing
 Xinran Lian, Nikša Praljak, Subu K. Subramanian, Sarah Wasinger, Rama Ranganathan, Andrew L. Ferguson  
 [Cell Systems (2024)](https://www.cell.com/cell-systems/abstract/S2405-4712(24)00204-7)
 
+**Efficient Design of Affilin® Protein Binders for HER3**  
+Anna Maria Díaz-Rovira, Jonathan Lotze, Gregor Hoffmann, Chiara Pallara, Alexis Molina, Ina Coburger, Manja Gloser-Bräunig, Maren Meysing, Madlen Zwarg, Lucía Díaz, Victor Guallar, Eva Bosse-Doenecke, Sergi Roda  
+[bioRxiv 2025.04.02.646551](https://www.biorxiv.org/content/10.1101/2025.04.02.646551v1) • [code](https://github.com/annadiarov/ProtVAE) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/04/02/2025.04.02.646551/DC1/embed/media-1.pdf)
+
 ### 5.3 GAN-based
 
 **Feedback GAN for DNA optimizes protein functions**  
@@ -2187,7 +2199,7 @@ Suhaas Bhat, Kalyan Palepu, Lauren Hong, Joey Mao, Tianzheng Ye, Rema Iyer, Lin 
 
 **xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein**  
 Bo Chen, Xingyi Cheng, Li-ao Gengyang, Shen Li, Xin Zeng, Boyan Wang, Gong Jing, Chiming Liu, Aohan Zeng, Yuxiao Dong, Jie Tang, Le Song  
-[bioRxiv 2023.07.05.547496](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1) • [news](https://mp.weixin.qq.com/s/XQn8je49z23UYby8pR7fkA) • [website](https://www.biomap.com/aigp-light-beta/form) • [code](https://github.com/biomap-research/xTrimoPGLM) • [model](https://huggingface.co/biomap-research
+[bioRxiv 2023.07.05.547496](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v1)/[Nat Methods (2025)](https://www.nature.com/articles/s41592-025-02636-z) • [news](https://mp.weixin.qq.com/s/XQn8je49z23UYby8pR7fkA) • [website](https://www.biomap.com/aigp-light-beta/form) • [code](https://github.com/biomap-research/xTrimoPGLM) • [model](https://huggingface.co/biomap-research
 ) • commercial
 
 **TULIP - a Transformer based Unsupervised Language model for Interacting Peptides and T-cell receptors that generalizes to unseen epitopes**  
@@ -2308,7 +2320,7 @@ Tong Chen, Yinuo Zhang, Pranam Chatterjee
 
 **Toward De Novo Protein Design from Natural Language**  
 Fengyuan Dai, Yuliang Fan, Jin Su, Chentong Wang, Chenchen Han, Xibin Zhou, Jianming Liu, Hui Qian, Shunzhi Wang, Anping Zeng, Yajie Wang, Fajie Yuan  
-[bioRxiv 2024.08.01.606258](https://www.biorxiv.org/content/10.1101/2024.08.01.606258v3) • [code](https://github.com/westlake-repl/Denovo-Pinal) •[demo](http://www.denovo-pinal.com/)
+[bioRxiv 2024.08.01.606258](https://www.biorxiv.org/content/10.1101/2024.08.01.606258v5) • [code](https://github.com/westlake-repl/Denovo-Pinal) •[demo](http://www.denovo-pinal.com/)
 
 **Design Proteins Using Large Language Models: Enhancements and Comparative Analyses**  
 Kamyar Zeinalipour, Neda Jamshidi, Monica Bianchini, Marco Maggini, Marco Gori  
@@ -3395,9 +3407,9 @@ Tian Lan, Shuquan Su, Pengyao Ping, Gyorgy Hutvagner, Tao Liu, Yi Pan & Jinyan L
 Sam Gelman, Bryce Johnson, Chase Freschlin, Sameer D'Costa, Anthony Gitter & Philip A. Romero  
 [bioRxiv 2024.03.15.585128](https://doi.org/10.1101/2024.03.15.585128) • [code](https://github.com/gitter-lab/metl)
 
-**Latent-based Directed Evolution accelerated by Gradient Ascent for Protein Sequence Design**  
+**Latent-based Directed Evolution accelerated by Gradient Ascent for Protein Sequence Design** / **LatentDE: latent-based directed evolution for protein sequence design**  
 Nhat Khang Ngo, Thanh V. T. Tran, Viet Thanh Duy Nguyen, Truong Son Hy  
-[bioRxiv 2024.04.13.589381](https://www.biorxiv.org/content/10.1101/2024.04.13.589381v1)/[NeurIPS 2024](https://openreview.net/pdf?id=4YkbQGVWGF) • [code](https://github.com/HySonLab/LatentDE)
+[bioRxiv 2024.04.13.589381](https://www.biorxiv.org/content/10.1101/2024.04.13.589381v1)/[NeurIPS 2024](https://openreview.net/pdf?id=4YkbQGVWGF)/[Machine Learning: Science and Technology (2025)](https://iopscience.iop.org/article/10.1088/2632-2153/adc2e2) • [code](https://github.com/HySonLab/LatentDE)
 
 **AAVDiff: Experimental Validation of Enhanced Viability and Diversity in Recombinant Adeno-Associated Virus (AAV) Capsids through Diffusion Generation**  
 Lijun Liu, Jiali Yang, Jianfei Song, Xinglin Yang, Lele Niu, Zeqi Cai, Hui Shi, Tingjun Hou, Chang-yu Hsieh, Weiran Shen, Yafeng Deng  
