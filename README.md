@@ -10,15 +10,16 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.04.04:*
-+   Why risk matters for protein binder design
-    + [[arXiv:2504.00146](https://arxiv.org/abs/2504.00146)]
-+   Systematic comparison of Generative AI-Protein Models reveals fundamental differences between structural and sequence-based approaches
-    + [[bioRxiv 2025.03.23.644844](https://www.biorxiv.org/content/10.1101/2025.03.23.644844v1)] • [[code](https://github.com/hewittlab/Systematic-comparison-of-Generative-AI-Protein-Models)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/24/2025.03.23.644844/DC1/embed/media-1.docx)]
-+   Deep Learning-Driven Protein Structure Prediction and Design: Key Model Developments by Nobel Laureates and Multi-Domain Applications
-    + [[arXiv:2504.01490](https://arxiv.org/abs/2504.01490)]
-+   Efficient Design of Affilin® Protein Binders for HER3
-    + [[bioRxiv 2025.04.02.646551](https://www.biorxiv.org/content/10.1101/2025.04.02.646551v1)] • [[code](https://github.com/annadiarov/ProtVAE)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/04/02/2025.04.02.646551/DC1/embed/media-1.pdf)]
+*Papers last week, updated on 2025.04.13:*
++   Prot42: a Novel Family of Protein Language Models for Target-aware Protein Binder Generation
+    + [[arXiv:2504.04453](https://arxiv.org/abs/2504.04453)] • [[model](https://huggingface.co/inceptionai)]
++   Boltzdesign1: Inverting All-Atom Structure Prediction Model for Generalized Biomolecular Binder Design
+    + [[bioRxiv 2025.04.06.647261](https://www.biorxiv.org/content/10.1101/2025.04.06.647261v1)] • [[code](https://github.com/yehlincho/BoltzDesign1)]
++   Intelligent mining, engineering, and de novo design of proteins
+    + [[Sheng wu gong cheng xue bao= Chinese journal of biotechnology 41.3 (2025)](https://cjb.ijournals.cn/html/cjbcn/2025/3/07240629.htm)]
++   Atom level enzyme active site scaffolding using RFdiffusion2
+    + [[bioRxiv 2025.04.09.648075](https://www.biorxiv.org/content/10.1101/2025.04.09.648075v2)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/04/10/2025.04.09.648075.1/DC1/embed/media-1.pdf)]
+
 
 
 ---
@@ -59,7 +60,8 @@
   <a href="#28-gpt-based">GPT-based</a> •
   <a href="#29-esm-based">ESM-based</a> •
   <a href="#210-antiberta-based">Antiberta-based</a> •
-  <a href="#211-sampling-algorithms">Sampling-algorithms</a>
+  <a href="#211-boltz-based">Boltz-based</a> •
+  <a href="#212-sampling-algorithms">Sampling-algorithms</a>
   <br>
   <strong><a href="#3-function-to-scaffold" class="large-link">3) Function to Scaffold</a></strong>
   <br>
@@ -534,6 +536,10 @@ Yichao Zhang, Ningyuan Deng, Xinyuan Song, Ziqian Bi, Tianyang Wang, Zheyu Yao, 
 Wanqing Yang, Yanwei Wang, Yang Wang  
 [arXiv:2504.01490](https://arxiv.org/abs/2504.01490)
 
+**Intelligent mining, engineering, and de novo design of proteins**  
+LIU Cui, SHI Zhenkun, MA Hongwu, LIAO Xiaoping  
+[Sheng wu gong cheng xue bao= Chinese journal of biotechnology 41.3 (2025)](https://cjb.ijournals.cn/html/cjbcn/2025/3/07240629.htm)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**  
@@ -962,7 +968,13 @@ Changge Guan, Fangping Wan, Marcelo D. T. Torres, Cesar de la Fuente-Nunez
 Joshua Yao-Yu Lin, Jennifer L. Hofmann, Andrew Leaver-Fay, Wei-Ching Liang, Stefania Vasilaki, Edith Lee, Pedro O. Pinheiro, Natasa Tagasovska, James R. Kiefer, Yan Wu, Franziska Seeger, Richard Bonneau, Vladimir Gligorijevic, Andrew Watkins, Kyunghyun Cho, Nathan C. Frey  
 [bioRxiv 2025.01.28.635353](https://www.biorxiv.org/content/10.1101/2025.01.28.635353v1) • [code](github.com/prescient-design/lobster) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/02/02/2025.01.28.635353/DC1/embed/media-1.pdf)
 
-### 2.11 Sampling-algorithms
+### 2.11 Boltz-based
+
+**Boltzdesign1: Inverting All-Atom Structure Prediction Model for Generalized Biomolecular Binder Design**  
+Yehlin Cho, Martin Pacesa, Zhidian Zhang, Bruno E. Correia, Sergey Ovchinnikov
+[bioRxiv 2025.04.06.647261](https://www.biorxiv.org/content/10.1101/2025.04.06.647261v1) • [code](https://github.com/yehlincho/BoltzDesign1)
+
+### 2.12 Sampling-algorithms
 
 **AdaLead: A simple and robust adaptive greedy search algorithm for sequence design**  
 Sam Sinai, Richard Wang, Alexander Whatley, Stewart Slocum, Elina Locane, Eric D. Kelsic  
@@ -2426,6 +2438,10 @@ Bharani Nammi, Vindi M. Jayasinghe-Arachchige, Sita Sirisha Madugula, Maria Arti
 Lee, Jin Sub, Osama Abdin, and Philip M. Kim  
 [Current Opinion in Structural Biology 92 (2025)](https://www.sciencedirect.com/science/article/abs/pii/S0959440X25000454) • review
 
+**Prot42: a Novel Family of Protein Language Models for Target-aware Protein Binder Generation**  
+Mohammad Amaan Sayeed, Engin Tekin, Maryam Nadeem, Nancy A. ElNaker, Aahan Singh, Natalia Vassilieva, Boulbaba Ben Amor  
+[arXiv:2504.04453](https://arxiv.org/abs/2504.04453) • [model](https://huggingface.co/inceptionai)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**  
@@ -3068,6 +3084,10 @@ Petra E. M. Balbi, Ahmed Sadek, Anthony Marchand, Ta-Yi Yu, Jovan Damjanovic, Sa
 **Design of pseudosymmetric protein hetero-oligomers**  
 Ryan D. Kibler, Sangmin Lee, Madison A. Kennedy, Basile I. M. Wicky, Stella M. Lai, Marius M. Kostelic, Ann Carr, Xinting Li, Cameron M. Chow, Tina K. Nguyen, Lauren Carter, Vicki H. Wysocki, Barry L. Stoddard & David Baker  
 [Nat Commun 15, 10684 (2024)](https://www.nature.com/articles/s41467-024-54913-8) • [code](https://github.com/rdkibler/Stepwise-design-of-pseudosymmetric-protein-hetero-oligomers)
+
+**Atom level enzyme active site scaffolding using RFdiffusion2**  
+Woody Ahern, Jason Yim, Doug Tischer, Saman Salike, Seth Woodbury, Donghyo Kim, Indrek Kalvet, Yakov Kipnis, Brian Coventry, Han Altae-Tran, Magnus Bauer, Regina Barzilay, Tommi Jaakkola, Rohith Krishna, David A Baker  
+[bioRxiv 2025.04.09.648075](https://www.biorxiv.org/content/10.1101/2025.04.09.648075v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/04/10/2025.04.09.648075.1/DC1/embed/media-1.pdf)
 
 ### 6.5 GNN-based
 
