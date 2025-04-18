@@ -10,16 +10,21 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.04.13:*
-+   Prot42: a Novel Family of Protein Language Models for Target-aware Protein Binder Generation
-    + [[arXiv:2504.04453](https://arxiv.org/abs/2504.04453)] • [[model](https://huggingface.co/inceptionai)]
-+   Boltzdesign1: Inverting All-Atom Structure Prediction Model for Generalized Biomolecular Binder Design
-    + [[bioRxiv 2025.04.06.647261](https://www.biorxiv.org/content/10.1101/2025.04.06.647261v1)] • [[code](https://github.com/yehlincho/BoltzDesign1)]
-+   Intelligent mining, engineering, and de novo design of proteins
-    + [[Sheng wu gong cheng xue bao= Chinese journal of biotechnology 41.3 (2025)](https://cjb.ijournals.cn/html/cjbcn/2025/3/07240629.htm)]
-+   Atom level enzyme active site scaffolding using RFdiffusion2
-    + [[bioRxiv 2025.04.09.648075](https://www.biorxiv.org/content/10.1101/2025.04.09.648075v2)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/04/10/2025.04.09.648075.1/DC1/embed/media-1.pdf)]
-
+*Papers last week, updated on 2025.04.18:*
++   Customizing Spider Silk: Generative Models with Mechanical Property Conditioning for Protein Engineering
+    + [[arXiv:2504.08437](https://arxiv.org/abs/2504.08437)] • ProtGPT2-based
++   ProtFlow: Fast Protein Sequence Design via Flow Matching on Compressed Protein Language Model Embeddings
+    + [[arXiv:2504.10983](https://arxiv.org/abs/2504.10983)]
++   Elucidating the Design Space of Multimodal Protein Language Models
+    + [[arXiv:2504.11454](https://arxiv.org/abs/2504.11454)]
++   Hierarchical Protein Backbone Generation with Latent and Structure Diffusion
+    + [[ICLR 2025](https://openreview.net/forum?id=J19jKa3wFj)]
++   GeoFlow-V2: A Unified Atomic Diffusion Model for Protein Structure Prediction and De Novo Design
+    + [[preprint](https://open-res.biogeom.com/geoflow-v2/technical-report.pdf)] • [[website](https://prot.design/)] • commercial
++   Scaling unlocks broader generation and deeper functional understanding of proteins
+    + [[bioRxiv 2025.04.15.649055](https://www.biorxiv.org/content/10.1101/2025.04.15.649055v1)] • [[code](https://github.com/Profluent-AI/progen3)]
++   Generative protein design meets synthetic porphyrin assembly
+    + [[ChemRxiv. 2025](https://chemrxiv.org/engage/chemrxiv/article-details/67f4f96381d2151a0284768f)] • RFDiffusion/ProteinMPNN-based
 
 
 ---
@@ -1205,6 +1210,10 @@ Bruce Jiang, Xiaoxiao Li, Amber Guo, Moris Wei, Jonny Wu
 Leonardo V Castorina, Christopher W Wood, Kartic Subr  
 [bioRxiv 2025.03.19.644162](https://www.biorxiv.org/content/10.1101/2025.03.19.644162v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/20/2025.03.19.644162/DC1/embed/media-1.pdf) • RFdiffusion-based
 
+**Hierarchical Protein Backbone Generation with Latent and Structure Diffusion** 
+Jason Yim, Marouane Jaakik, Ge Liu, Jacob Gershon, Karsten Kreis, David Baker, Regina Barzilay, Tommi Jaakkola  
+[ICLR 2025](https://openreview.net/forum?id=J19jKa3wFj)
+
 ### 3.5 RL-based
 
 **Top-down design of protein nanomaterials with reinforcement learning**  
@@ -1577,7 +1586,7 @@ Frédéric A. Dreyer, Constantin Schneider, Aleksandr Kovaltsuk, Daniel Cutting,
 
 **State-specific Peptide Design Targeting G Protein-coupled Receptors**  
 Yang Xue, Jun Li, Hong Wang, Jianguo Hu, Zhi Zheng, Jingzhou He, Huanzhang Gong, Xiangqun Li, Xiaonan Zhang, Xiaomin Fang  
-[bioRxiv 2024.11.27.625792](https://www.biorxiv.org/content/10.1101/2024.11.27.625792v1) • ProteinMPNN-based
+[bioRxiv 2024.11.27.625792](https://www.biorxiv.org/content/10.1101/2024.11.27.625792v2) • ProteinMPNN-based
 
 **Computer-guided design of Z domain peptides with improved inhibition of VEGF**  
 Carsten Geist, Abibe Useini, Aleksandr Kazimir, Richy Kümpfel, Jens Meiler, Christina Lamers, Stefan Kalkhof, Georg Künze  
@@ -2442,6 +2451,18 @@ Lee, Jin Sub, Osama Abdin, and Philip M. Kim
 Mohammad Amaan Sayeed, Engin Tekin, Maryam Nadeem, Nancy A. ElNaker, Aahan Singh, Natalia Vassilieva, Boulbaba Ben Amor  
 [arXiv:2504.04453](https://arxiv.org/abs/2504.04453) • [model](https://huggingface.co/inceptionai)
 
+**Customizing Spider Silk: Generative Models with Mechanical Property Conditioning for Protein Engineering**  
+Neeru Dubey, Elin Karlsson, Miguel Angel Redondo, Johan Reimegård, Anna Rising, Hedvig Kjellström  
+[arXiv:2504.08437](https://arxiv.org/abs/2504.08437) • ProtGPT2-based
+
+**Elucidating the Design Space of Multimodal Protein Language Models**  
+Cheng-Yen Hsieh, Xinyou Wang, Daiheng Zhang, Dongyu Xue, Fei Ye, Shujian Huang, Zaixiang Zheng, Quanquan Gu  
+[arXiv:2504.11454](https://arxiv.org/abs/2504.11454)
+
+**Scaling unlocks broader generation and deeper functional understanding of proteins**  
+Aadyot Bhatnagar, Sarthak Jain, Joel Beazer, Samuel C Curran, Alexander M Hoffnagle, Kyle Ching, Michael Martyn, Stephen Nayfach, Jeffrey A Ruffolo, Ali Madani  
+[bioRxiv 2025.04.15.649055](https://www.biorxiv.org/content/10.1101/2025.04.15.649055v1) • [code](https://github.com/Profluent-AI/progen3)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**  
@@ -2571,6 +2592,10 @@ Sophia Tang, Yinuo Zhang, Pranam Chatterjee
 **Biological Sequence Design with GFlowNets**  
 Moksh Jain, Emmanuel Bengio, Alex-Hernandez Garcia, Jarrid Rector-Brooks, Bonaventure F. P. Dossou, Chanakya Ekbote, Jie Fu, Tianyu Zhang, Micheal Kilgour, Dinghuai Zhang, Lena Simine, Payel Das, Yoshua Bengio  
 [arXiv preprint arXiv:2203.04115 (2022)](https://arxiv.org/abs/2203.04115) • [lecture](https://www.youtube.com/watch?v=YRbFDThaAmo)
+
+**ProtFlow: Fast Protein Sequence Design via Flow Matching on Compressed Protein Language Model Embeddings**  
+Zitai Kong, Yiheng Zhu, Yinlong Xu, Hanjing Zhou, Mingzhe Yin, Jialu Wu, Hongxia Xu, Chang-Yu Hsieh, Tingjun Hou, Jian Wu  
+[arXiv:2504.10983](https://arxiv.org/abs/2504.10983)
 
 ### 5.8 RNN-based
 
@@ -2903,7 +2928,7 @@ Po-Yu Liang, Jun Bai
 
 **Generating All-Atom Protein Structure from Sequence-Only Training Data** / **All-Atom Protein Generation with Latent Diffusion**  
 Amy X. Lu, Wilson Yan, Sarah A. Robinson, Kevin K. Yang, Vladimir  Gligorijevic, Kyunghyun Cho, Richard Bonneau, Pieter Abbeel, Nathan Frey
-[bioRxiv 2024.12.02.626353](https://www.biorxiv.org/content/10.1101/2024.12.02.626353v2) • [code](https://github.com/amyxlu/plaid)
+[bioRxiv 2024.12.02.626353](https://www.biorxiv.org/content/10.1101/2024.12.02.626353v2) • [code](https://github.com/amyxlu/plaid) • [blog](https://www.matricedigitale.it/tech/intelligenza-artificiale/plaid-intelligenza-artificiale-proteine-3d/)
 
 **Efficient protein structure generation with sparse denoising models**  
 Michael Jendrusch, Jan O. Korbel  
@@ -3066,6 +3091,10 @@ Francesco Morena, Chiara Cencinia, Carla Emiliani, Sabata Martinoa
 **De novo design of miniprotein agonists and antagonists targeting G protein-coupled receptors**  
 Edin Muratspahić, David Feldman, David E. Kim, Xiangli Qu, Ana-Maria Bratovianu, Paula Rivera-Sánchez, Federica Dimitri, Jason Cao, Brian P. Cary, Matthew J. Belousoff, Peter Keov, Qingchao Chen, Yue Ren, Justyn Fine, Isaac Sappington, Thomas Schlichthaerle, Jason Z. Zhang, Arvind Pillai, Ljubica Mihaljević, Magnus Bauer, Susana Vázquez Torres, Amir Motmaen, Gyu Rie Lee, Long Tran, Xinru Wang, Inna Goreshnik, Dionne K. Vafeados, Justin E. Svendsen, Parisa Hosseinzadeh, Nicolai Lindegaard, Matthäus Brandt, Yann Waltenspühl, Kristine Deibler, Luke Oostdyk, William Cao, Lakshmi Anantharaman, Lance Stewart, Lauren Halloran, Jamie B. Spangler, Patrick M. Sexton, Bryan L. Roth, Brian E. Krumm, Denise Wootten, Christopher G. Tate, Christoffer Norn, David Baker  
 [bioRxiv 2025.03.23.644666](https://www.biorxiv.org/content/10.1101/2025.03.23.644666v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/23/2025.03.23.644666/DC1/embed/media-1.pdf)
+
+**Generative protein design meets synthetic porphyrin assembly**  
+Hiroaki Inaba, Hiroki Onoda, Takayuki Uchihashi, Atsunori Oshima and Osami Shoji  
+[ChemRxiv. 2025](https://chemrxiv.org/engage/chemrxiv/article-details/67f4f96381d2151a0284768f) • RFDiffusion/ProteinMPNN-based
 
 ### 6.4 CNN-based
 
@@ -3236,6 +3265,10 @@ Dengdeng Huang, Shikui Tu
 **dyAb: Flow Matching for Flexible Antibody Design with AlphaFold-driven Pre-binding Antigen**  
 Cheng Tan, Yijie Zhang, Zhangyang Gao, Yufei Huang, Haitao Lin, Lirong Wu, Fandi Wu, Mathieu Blanchette, Stan. Z. Li  
 [arXiv:2503.01910](https://arxiv.org/abs/2503.01910) • [code](https://github.com/A4Bio/dyAb)
+
+**GeoFlow-V2: A Unified Atomic Diffusion Model for Protein Structure Prediction and De Novo Design**  
+BioGeometry Team  
+[preprint](https://open-res.biogeom.com/geoflow-v2/technical-report.pdf) • [website](https://prot.design/) • commercial
 
 ### 6.9 AlphaFold-based
 
