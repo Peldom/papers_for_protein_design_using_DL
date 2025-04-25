@@ -10,21 +10,18 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.04.18:*
-+   Customizing Spider Silk: Generative Models with Mechanical Property Conditioning for Protein Engineering
-    + [[arXiv:2504.08437](https://arxiv.org/abs/2504.08437)] • ProtGPT2-based
-+   ProtFlow: Fast Protein Sequence Design via Flow Matching on Compressed Protein Language Model Embeddings
-    + [[arXiv:2504.10983](https://arxiv.org/abs/2504.10983)]
-+   Elucidating the Design Space of Multimodal Protein Language Models
-    + [[arXiv:2504.11454](https://arxiv.org/abs/2504.11454)]
-+   Hierarchical Protein Backbone Generation with Latent and Structure Diffusion
-    + [[ICLR 2025](https://openreview.net/forum?id=J19jKa3wFj)]
-+   GeoFlow-V2: A Unified Atomic Diffusion Model for Protein Structure Prediction and De Novo Design
-    + [[preprint](https://open-res.biogeom.com/geoflow-v2/technical-report.pdf)] • [[website](https://prot.design/)] • commercial
-+   Scaling unlocks broader generation and deeper functional understanding of proteins
-    + [[bioRxiv 2025.04.15.649055](https://www.biorxiv.org/content/10.1101/2025.04.15.649055v1)] • [[code](https://github.com/Profluent-AI/progen3)]
-+   Generative protein design meets synthetic porphyrin assembly
-    + [[ChemRxiv. 2025](https://chemrxiv.org/engage/chemrxiv/article-details/67f4f96381d2151a0284768f)] • RFDiffusion/ProteinMPNN-based
+*Papers last week, updated on 2025.04.25:*
++   The Dance of Atoms-De Novo Protein Design with Diffusion Model
+    + [[arXiv:2504.16479](https://arxiv.org/abs/2504.16479)] • review
++   A novel decoding strategy for ProteinMPNN to design with less MHC Class I immune-visibility
+    + [[bioRxiv 2025.04.14.648837](https://www.biorxiv.org/content/10.1101/2025.04.14.648837v1)] • ProteinMPNN-based
++   An All-Atom Generative Model for Designing Protein Complexes
+    + [[arXiv:2504.13075](https://arxiv.org/abs/2504.13075)] • [[code](https://github.com/bytedance/apm)]
++   Crowdsourced Protein Design: Lessons From the Adaptyv EGFR Binder Competition
+    + [[bioRxiv 2025.04.17.648362](https://www.biorxiv.org/content/10.1101/2025.04.17.648362v2)] • [[github](https://github.com/adaptyvbio/egfr2024_post_competition)]
++   Designing Novel Solenoid Proteins with In Silico Evolution
+    + [[bioRxiv 2025.04.23.646631](https://www.biorxiv.org/content/10.1101/2025.04.23.646631v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/04/24/2025.04.23.646631/DC1/embed/media-1.pdf)]
+
 
 
 ---
@@ -185,6 +182,10 @@ Per Junior Greisen, Yifan Li, Yuxiang Lang, Chenrui Xu, Yi Zhou, Ziwei Pang
 **Self-supervised machine learning methods for protein design improve sampling but not the identification of high-fitness variants**  
 Moritz Ertelt, Rocco Moretti, Jens Meiler, and Clara T. Schoeder  
 [Science Advances 11.7 (2025)](https://www.science.org/doi/10.1126/sciadv.adr7338) • [code](https://github.com/meilerlab/probabilities_design)
+
+**Crowdsourced Protein Design: Lessons From the Adaptyv EGFR Binder Competition**  
+Tudor-Stefan Cotet, Igor Krawczuk, Filippo Stocco, Noelia Ferruz, Anthony Gitter, Yoichi Kurumida, Lucas de Almeida Machado, Francesco Paesani, Cianna N. Calia, Chance A. Challacombe, Nikhil Haas, Ahmad Qamar, Bruno E. Correia, Martin Pacesa, Lennart Nickel, Kartic Subr, Leonardo V. Castorina, Maxwell J. Campbell, Constance Ferragu, Patrick Kidger, Logan Hallee, Christopher W. Wood, Michael J. Stam, Tadas Kluonis, Suleyman Mert Unal, Elian Belot, Alexander Naka, Adaptyv Competition Organizers  
+[bioRxiv 2025.04.17.648362](https://www.biorxiv.org/content/10.1101/2025.04.17.648362v2) • [github](https://github.com/adaptyvbio/egfr2024_post_competition)
 
 ### 0.2 Structure Datasets, Benchmarks
 
@@ -865,6 +866,10 @@ Theodore Sternlieb, Jakub Otwinowski, Sam Sinai, Jeffrey Chan
 Huitian Lin, Cheng Zhu, Tianfeng Shang, Ning Zhu, Kang Lin, Xiang Shao, Xudong Wang, Hongliang Duan  
 [bioRxiv 2025.03.17.643626](http://biorxiv.org/content/10.1101/2025.03.17.643626v1)
 
+**Designing Novel Solenoid Proteins with In Silico Evolution**  
+Daniella Pretorius, Georgi Ivanov Nikov, Kono Washio, Steve-William Florent, Henry Taunt, Sergey Ovchinnikov, James William Murray  
+[bioRxiv 2025.04.23.646631](https://www.biorxiv.org/content/10.1101/2025.04.23.646631v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/04/24/2025.04.23.646631/DC1/embed/media-1.pdf)
+
 ### 2.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**  
@@ -1210,9 +1215,13 @@ Bruce Jiang, Xiaoxiao Li, Amber Guo, Moris Wei, Jonny Wu
 Leonardo V Castorina, Christopher W Wood, Kartic Subr  
 [bioRxiv 2025.03.19.644162](https://www.biorxiv.org/content/10.1101/2025.03.19.644162v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/20/2025.03.19.644162/DC1/embed/media-1.pdf) • RFdiffusion-based
 
-**Hierarchical Protein Backbone Generation with Latent and Structure Diffusion** 
+**Hierarchical Protein Backbone Generation with Latent and Structure Diffusion**  
 Jason Yim, Marouane Jaakik, Ge Liu, Jacob Gershon, Karsten Kreis, David Baker, Regina Barzilay, Tommi Jaakkola  
 [ICLR 2025](https://openreview.net/forum?id=J19jKa3wFj)
+
+**The Dance of Atoms-De Novo Protein Design with Diffusion Model**  
+Yujie Qin, Ming He, Changyong Yu, Ming Ni, Xian Liu, Xiaochen Bo  
+[arXiv:2504.16479](https://arxiv.org/abs/2504.16479) • review
 
 ### 3.5 RL-based
 
@@ -1639,6 +1648,10 @@ Hans-Christof Gasser, Diego A Oyarzún, Javier Alfaro, Ajitha Rajan
 **AI-Driven Efficient De Novo design of GLP-1RAs with Extended Half-Life and Enhanced Efficacy**  
 Ting Wei, Xiaochen Cui, Jiahui Lin, Zhuoqi Zheng, Taiying Cui, Liu Cheng, Xiaoqian Lin, Junjie Zhu, Xuyang Ran, Xiaohun Hong, Zhangsheng Yu, Haifeng Chen  
 [bioRxiv 2025.03.26.645438](https://www.biorxiv.org/content/10.1101/2025.03.26.645438v1) • ProteinMPNN-based
+
+**A novel decoding strategy for ProteinMPNN to design with less MHC Class I immune-visibility**  
+Hans-Christof Gasser, Ajitha Rajan, Javier A. Alfaro  
+[bioRxiv 2025.04.14.648837](https://www.biorxiv.org/content/10.1101/2025.04.14.648837v1) • ProteinMPNN-based
 
 ### 4.6 GAN-based
 
@@ -3287,6 +3300,10 @@ paper not available • [code](https://github.com/WillHua127/EnzymeFlow)
 **IgGM: A Generative Model for Functional Antibody and Nanobody Design**  
 Rubo Wang, Fandi Wu, Xingyu Gao, Jiaxiang Wu, Peilin Zhao, Jianhua Yao  
 [bioRxiv 2024.09.19.613838](https://www.biorxiv.org/content/10.1101/2024.09.19.613838v1) • [code](https://github.com/TencentAI4S/IgGM)
+
+**An All-Atom Generative Model for Designing Protein Complexes**  
+Ruizhe Chen, Dongyu Xue, Xiangxin Zhou, Zaixiang Zheng, Xiangxiang Zeng, Quanquan Gu  
+[arXiv:2504.13075](https://arxiv.org/abs/2504.13075) • [code](https://github.com/bytedance/apm)
 
 ## 7. Other tasks
 
