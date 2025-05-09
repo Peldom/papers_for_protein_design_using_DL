@@ -10,21 +10,19 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.05.03:*
-+   Enhancing privacy in biosecurity with watermarked protein design
-    + [[Bioinformatics, 2025;, btaf141](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaf141/8124073)] • [[code](https://github.com/poseidonchan/ProteinWatermark)]
-+   Sparks: Multi-Agent Artificial Intelligence Model Discovers Protein Design Principles
-    + [[arXiv:2504.19017](https://arxiv.org/abs/2504.19017)] • [[code](https://github.com/lamm-mit/Sparks/)]
-+   Zero-shot design of drug-binding proteins via neural selection-expansion
-    + [[bioRxiv 2025.04.22.649862](https://www.biorxiv.org/content/10.1101/2025.04.22.649862v1)] • [[code](https://github.com/polizzilab/LASErMPNN)]
-+   AI. zymes–A modular platform for evolutionary enzyme design
-    + [[Angewandte Chemie International Edition (2025)](https://onlinelibrary.wiley.com/doi/10.1002/anie.202507031)] • [[code](https://github.com/bunzela/AIzymes)] • ProteinMPNN-based
-+   Co-Design protein sequence and structure in discrete space via generative flow
-    + [[Bioinformatics, 2025](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaf248/8123382)] • [[code](https://github.com/LtECoD/CoFlow)] • [[model](https://zenodo.org/records/14842367)]
-+   ProT-GFDM: A Generative Fractional Diffusion Model for Protein Generation
-    + [[arXiv:2504.21092](https://arxiv.org/abs/2504.21092)]
-+   AI-Based Antibody Design Targeting Recent H5N1 Avian Influenza Strains
-    + [[bioRxiv 2025.04.24.650061](https://www.biorxiv.org/content/10.1101/2025.04.24.650061v1)] • [[code](https://github.com/Santollan/Frankies)] • EvoDiff-based
+*Papers last week, updated on 2025.05.09:*
++   Backbone Conditional Protein Sequence Design
+    + [[Cold Spring Harbor Perspectives in Biology (2025)](https://cshperspectives.cshlp.org/content/early/2025/05/03/cshperspect.a041517)]
++   Single-Shot Design of a Cyclic Peptide Inhibitor of HIV-1 Membrane Fusion with EvoBind
+    + [[bioRxiv 2025.04.30.651413](https://www.biorxiv.org/content/10.1101/2025.04.30.651413v1)]
++   Scoring-Assisted Generative Exploration for Proteins (SAGE-Prot): A Framework for Multi-Objective Protein Optimization via Iterative Sequence Generation and Evaluation
+    + [[arXiv:2505.01277](https://arxiv.org/abs/2505.01277)] • [[code](https://github.com/hclim0213/SAGE-Prot)]
++   Robust and Reliable de novo Protein Design: A Flow-Matching-Based Protein Generative Model Achieves Remarkably High Success Rates
+    + [[bioRxiv 2025.04.29.651154](https://www.biorxiv.org/content/10.1101/2025.04.29.651154v1)] • [[code](https://github.com/JoreyYan/Originflow)]
++   Design of overlapping genes using deep generative models of protein sequences
+    + [[bioRxiv 2025.05.06.652464](https://www.biorxiv.org/content/10.1101/2025.05.06.652464v1)] • [[code](https://github.com/gwbyeon/OLG-design)] • ProteinMPNN-based
++   Protein-based Materials: Applications, Modification and Molecular Design
+    + [[BioDesign Research (2025)](https://www.sciencedirect.com/science/article/pii/S2693125725000056)]
 
 
 ---
@@ -548,6 +546,10 @@ Wanqing Yang, Yanwei Wang, Yang Wang
 LIU Cui, SHI Zhenkun, MA Hongwu, LIAO Xiaoping
 [Sheng wu gong cheng xue bao= Chinese journal of biotechnology 41.3 (2025)](https://cjb.ijournals.cn/html/cjbcn/2025/3/07240629.htm)
 
+**Protein-based Materials: Applications, Modification and Molecular Design**  
+Alitenai Tunuhe, Ze Zheng, Xinran Rao, Hongbo Yu, Fuying Ma, Yaxian Zhou, Shangxian Xie  
+[BioDesign Research (2025)](https://www.sciencedirect.com/science/article/pii/S2693125725000056)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**
@@ -871,6 +873,10 @@ Huitian Lin, Cheng Zhu, Tianfeng Shang, Ning Zhu, Kang Lin, Xiang Shao, Xudong W
 **Designing Novel Solenoid Proteins with In Silico Evolution**
 Daniella Pretorius, Georgi Ivanov Nikov, Kono Washio, Steve-William Florent, Henry Taunt, Sergey Ovchinnikov, James William Murray
 [bioRxiv 2025.04.23.646631](https://www.biorxiv.org/content/10.1101/2025.04.23.646631v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/04/24/2025.04.23.646631/DC1/embed/media-1.pdf)
+
+**Single-Shot Design of a Cyclic Peptide Inhibitor of HIV-1 Membrane Fusion with EvoBind**  
+Diandra Daumiller, Federica Giammarino, Qiuzhen Li, Anders Sönnerborg, Rafael Ceña Diez, Patrick Bryant  
+[bioRxiv 2025.04.30.651413](https://www.biorxiv.org/content/10.1101/2025.04.30.651413v1)
 
 ### 2.3 DMPfold2-based
 
@@ -1269,6 +1275,10 @@ Tomas Geffner, Kieran Didi, Zuobai Zhang, Danny Reidenbach, Zhonglin Cao, Jason 
 Hannes Stark, Bowen Jing, Tomas Geffner, Jason Yim, Tommi Jaakkola, Arash Vahdat, Karsten Kreis
 [ICLR 2025 Oral](https://openreview.net/forum?id=0ctvBgKFgc) • [code](https://github.com/NVlabs/protcomposer) • [lecture](https://www.youtube.com/watch?v=2G0d-RePc7c)
 
+**Robust and Reliable de novo Protein Design: A Flow-Matching-Based Protein Generative Model Achieves Remarkably High Success Rates**  
+Junyu Yan, Zibo Cui, Wenqing Yan, Yuhang Chen, Mengchen Pu, Shuai Li, Sheng Ye  
+[bioRxiv 2025.04.29.651154](https://www.biorxiv.org/content/10.1101/2025.04.29.651154v1) • [code](https://github.com/JoreyYan/Originflow)
+
 ### 3.7 Score-based
 
 **Score-Based Generative Models for Designing Binding Peptide Backbones**
@@ -1296,6 +1306,10 @@ Jinyu Yu, Junxi Mu, Ting Wei, Hai-Feng Chen
 **Generative AI for Controllable Protein Sequence Design: A Survey**
 Yiheng Zhu, Zitai Kong, Jialu Wu, Weize Liu, Yuqiang Han, Mingze Yin, Hongxia Xu, Chang-Yu Hsieh, Tingjun Hou
 [arXiv:2402.10516](https://arxiv.org/abs/2402.10516)
+
+**Backbone Conditional Protein Sequence Design**  
+Justas Dauparas  
+[Cold Spring Harbor Perspectives in Biology (2025)](https://cshperspectives.cshlp.org/content/early/2025/05/03/cshperspect.a041517)
 
 ### 4.1 MLP-based
 
@@ -1666,6 +1680,10 @@ Benjamin Fry, Kaia Slaw, Nicholas F. Polizzi
 **AI. zymes–A modular platform for evolutionary enzyme design**  
 Lucas P. Merlicek, Jannik Neumann, Abbie Lear, Vivian Degiorgi, Moor M. de Waal, Tudor-Stefan Cotet, Adrian J. Mulholland, Adrian Bunzel  
 [Angewandte Chemie International Edition (2025)](https://onlinelibrary.wiley.com/doi/10.1002/anie.202507031) • [code](https://github.com/bunzela/AIzymes) • ProteinMPNN-based
+
+**Design of overlapping genes using deep generative models of protein sequences**  
+Gun Woo Byeon, Marc Expòsit, David Baker, Georg Seelig  
+[bioRxiv 2025.05.06.652464](https://www.biorxiv.org/content/10.1101/2025.05.06.652464v1) • [code](https://github.com/gwbyeon/OLG-design) • ProteinMPNN-based
 
 ### 4.6 GAN-based
 
@@ -3559,6 +3577,10 @@ Evgenii Lobzaev, Giovanni Stracquadanio
 **MProt-DPO: Breaking the ExaFLOPS Barrier for Multimodal Protein Design Workflows with Direct Preference Optimization**
 Gautham Dharuman, Kyle Hippe, Alexander Brace, Sam Foreman, Väinö Hatanpää, Varuni K. Sastry, Huihuo Zheng, Logan Ward, Servesh Muralidharan, Archit Vasan, Bharat Kale, Carla M. Mann, Heng Ma, Yun-Hsuan Cheng, Yuliana Zamora, Shengchao Liu, Chaowei Xiao, Murali Emani, Tom Gibbs, Mahidhar Tatineni, Deepak Canchi, Jerome Mitchell, Koichi Yamada, Maria Garzaran, Michael E. Papka, Ian Foster, Rick Stevens, Anima Anandkumar, Venkatram Vishwanath, Arvind Ramanathan
 [International Conference for High Performance Computing, Networking, Storage and Analysis SC. IEEE Computer Society, 2024](https://www.computer.org/csdl/proceedings-article/sc/2024/529100a074/21HUV88n1F6)
+
+**Scoring-Assisted Generative Exploration for Proteins (SAGE-Prot): A Framework for Multi-Objective Protein Optimization via Iterative Sequence Generation and Evaluation**  
+Hocheol Lim, Geon-Ho Lee, Kyoung Tai No  
+[arXiv:2505.01277](https://arxiv.org/abs/2505.01277) • [code](https://github.com/hclim0213/SAGE-Prot)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
