@@ -10,19 +10,20 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.05.09:*
-+   Backbone Conditional Protein Sequence Design
-    + [[Cold Spring Harbor Perspectives in Biology (2025)](https://cshperspectives.cshlp.org/content/early/2025/05/03/cshperspect.a041517)]
-+   Single-Shot Design of a Cyclic Peptide Inhibitor of HIV-1 Membrane Fusion with EvoBind
-    + [[bioRxiv 2025.04.30.651413](https://www.biorxiv.org/content/10.1101/2025.04.30.651413v1)]
-+   Scoring-Assisted Generative Exploration for Proteins (SAGE-Prot): A Framework for Multi-Objective Protein Optimization via Iterative Sequence Generation and Evaluation
-    + [[arXiv:2505.01277](https://arxiv.org/abs/2505.01277)] • [[code](https://github.com/hclim0213/SAGE-Prot)]
-+   Robust and Reliable de novo Protein Design: A Flow-Matching-Based Protein Generative Model Achieves Remarkably High Success Rates
-    + [[bioRxiv 2025.04.29.651154](https://www.biorxiv.org/content/10.1101/2025.04.29.651154v1)] • [[code](https://github.com/JoreyYan/Originflow)]
-+   Design of overlapping genes using deep generative models of protein sequences
-    + [[bioRxiv 2025.05.06.652464](https://www.biorxiv.org/content/10.1101/2025.05.06.652464v1)] • [[code](https://github.com/gwbyeon/OLG-design)] • ProteinMPNN-based
-+   Protein-based Materials: Applications, Modification and Molecular Design
-    + [[BioDesign Research (2025)](https://www.sciencedirect.com/science/article/pii/S2693125725000056)]
+*Papers last week, updated on 2025.05.16:*
++   Protein FID: Improved Evaluation of Protein Structure Generative Models
+    + [[arXiv:2505.08041](https://arxiv.org/abs/2505.08041)]
++   Development of AI-designed protein binders for detection and targeting of cancer cell surface proteins
+    + [[bioRxiv 2025.05.11.652819](https://www.biorxiv.org/content/10.1101/2025.05.11.652819v1)] • [[code](https://github.com/HoelzelLab/IEO_AI_Binder_cancer_surface_2025)] • RFDiffusion/ProteinMPNN-based
++   De novo design of porphyrin-containing proteins as efficient and stereoselective catalysts
+    + [[Science 388.6747 (2025)](https://www.science.org/doi/full/10.1126/science.adt7268)] • LigandMPNN-based
++   Multi-Objective-Guided Discrete Flow Matching for Controllable Biological Sequence Design
+    + [[arXiv:2505.07086](https://arxiv.org/abs/2505.07086v2)] • [[model](https://huggingface.co/ChatterjeeLab/MOG-DFM)]
++   Adapting ProteinMPNN for antibody design without retraining
+    + [[bioRxiv 2025.05.09.653228](https://www.biorxiv.org/content/10.1101/2025.05.09.653228v1)]
++   Guide your favorite protein sequence generative model
+    + [[arXiv:2505.04823](https://arxiv.org/abs/2505.04823)]
+
 
 
 ---
@@ -253,6 +254,10 @@ Zhuoqi Zheng, Bo Zhang, Kieran Didi, Kevin K. Yang, Jason Yim, Joseph L. Watson,
 **Systematic comparison of Generative AI-Protein Models reveals fundamental differences between structural and sequence-based approaches**
 Alexander J Barnett, KC Rajendra, Pratikshya Pandey, Pamodha Somasiri, Kirsten A Fairfax, Sandy Hung, Alex W Hewitt
 [bioRxiv 2025.03.23.644844](https://www.biorxiv.org/content/10.1101/2025.03.23.644844v1) • [code](https://github.com/hewittlab/Systematic-comparison-of-Generative-AI-Protein-Models) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/24/2025.03.23.644844/DC1/embed/media-1.docx)
+
+**Protein FID: Improved Evaluation of Protein Structure Generative Models**  
+Felix Faltings, Hannes Stark, Tommi Jaakkola, Regina Barzilay  
+[arXiv:2505.08041](https://arxiv.org/abs/2505.08041)
 
 ### 0.3 Databases
 
@@ -1030,6 +1035,10 @@ Clara Fannjiang, Ji Won Park
 Tudor-Stefan Cotet, Igor Krawczuk
 [arXiv:2504.00146](https://arxiv.org/abs/2504.00146)
 
+**Guide your favorite protein sequence generative model**  
+Junhao Xiong, Hunter Nisonoff, Ishan Gaur, Jennifer Listgarten  
+[arXiv:2505.04823](https://arxiv.org/abs/2505.04823)
+
 ## 3. Function to Scaffold
 
 > These models design backbone/scaffold/template in Cartesian coordinates, contact maps, distance maps and φ & ψ angles. Including conditional/unconditional generative models.
@@ -1684,6 +1693,14 @@ Lucas P. Merlicek, Jannik Neumann, Abbie Lear, Vivian Degiorgi, Moor M. de Waal,
 **Design of overlapping genes using deep generative models of protein sequences**  
 Gun Woo Byeon, Marc Expòsit, David Baker, Georg Seelig  
 [bioRxiv 2025.05.06.652464](https://www.biorxiv.org/content/10.1101/2025.05.06.652464v1) • [code](https://github.com/gwbyeon/OLG-design) • ProteinMPNN-based
+
+**De novo design of porphyrin-containing proteins as efficient and stereoselective catalysts**  
+Kaipeng Hou, Wei Huang, Miao Qi, Thomas H. Tugwell, Turki M. Alturaifi, Yuda Chen, Xingjie Zhang, Lei Lu, Samuel I. Mann, Peng Liu, Yang Yang, and William F. DeGrado  
+[Science 388.6747 (2025)](https://www.science.org/doi/full/10.1126/science.adt7268) • LigandMPNN-based
+
+**Adapting ProteinMPNN for antibody design without retraining**  
+Diego del Alamo, Rahel Frick, Daphne Truan, Joel D Karpiak  
+[bioRxiv 2025.05.09.653228](https://www.biorxiv.org/content/10.1101/2025.05.09.653228v1)
 
 ### 4.6 GAN-based
 
@@ -2643,6 +2660,10 @@ Moksh Jain, Emmanuel Bengio, Alex-Hernandez Garcia, Jarrid Rector-Brooks, Bonave
 Zitai Kong, Yiheng Zhu, Yinlong Xu, Hanjing Zhou, Mingzhe Yin, Jialu Wu, Hongxia Xu, Chang-Yu Hsieh, Tingjun Hou, Jian Wu
 [arXiv:2504.10983](https://arxiv.org/abs/2504.10983)
 
+**Multi-Objective-Guided Discrete Flow Matching for Controllable Biological Sequence Design**  
+Tong Chen, Yinuo Zhang, Sophia Tang, Pranam Chatterjee  
+[arXiv:2505.07086](https://arxiv.org/abs/2505.07086v2) • [model](https://huggingface.co/ChatterjeeLab/MOG-DFM)
+
 ### 5.8 RNN-based
 
 **Deep learning to design nuclear-targeting abiotic miniproteins**
@@ -3149,6 +3170,10 @@ Edin Muratspahić, David Feldman, David E. Kim, Xiangli Qu, Ana-Maria Bratovianu
 **Generative protein design meets synthetic porphyrin assembly**
 Hiroaki Inaba, Hiroki Onoda, Takayuki Uchihashi, Atsunori Oshima and Osami Shoji
 [ChemRxiv. 2025](https://chemrxiv.org/engage/chemrxiv/article-details/67f4f96381d2151a0284768f) • RFDiffusion/ProteinMPNN-based
+
+**Development of AI-designed protein binders for detection and targeting of cancer cell surface proteins**  
+Bianca Broske, Sophie C. Binder, Benjamin A. McEnroe, Tim N. Kempchen, Caroline I. Fandrey, Julia M. Messmer, Elisabeth Tan, Peter Konopka, Dominic Ferber, Michelle C. R. Yong, Marie Kleinert, Alexander Hoch, Katja Blumenstock, Jan M. P. Tödtmann, Johannes Oldenburg, Heiko Rühl, Alexander Semaan, Marieta I. Toma, Kristina Markova, Sebastian Kobold, Tim Rollenske, Matthias Geyer, Stephan Menzel, Tobias Bald, Jonathan L. Schmid-Burgk, Gregor Hagelueken, Michael Hölzel  
+[bioRxiv 2025.05.11.652819](https://www.biorxiv.org/content/10.1101/2025.05.11.652819v1) • [code](https://github.com/HoelzelLab/IEO_AI_Binder_cancer_surface_2025) • RFDiffusion/ProteinMPNN-based
 
 ### 6.4 CNN-based
 
