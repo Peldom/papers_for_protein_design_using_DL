@@ -10,24 +10,25 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.05.30:*
-+   CFP-Gen: Combinatorial Functional Protein Generation via Diffusion Language Models
-    + [[arXiv:2505.22869](https://arxiv.org/abs/2505.22869)]
-+   PDFBench: A Benchmark for De novo Protein Design from Function
-    + [[arXiv:2505.20346](https://arxiv.org/abs/2505.20346)] • [[website](https://pdfbench.github.io/)] • [[code](https://github.com/pdfbench/PDFBench)]
-+   De novo luciferases enable multiplexed bioluminescence imaging
-    + [[Chem 11.3 (2025)](https://www.cell.com/chem/fulltext/S2451-9294(24)]00539-4) • RFjoint/ProteinMPNN-based
-+   Bioinformatics classification of the MgtE Mg2+ channel and de novo protein design for the stabilization of its novel subclass
-    + [[bioRxiv 2025.05.26.656215](https://www.biorxiv.org/content/10.1101/2025.05.26.656215v1)] • [[code](https://github.com/0mae/mgte_short)]  • RFDiffusion/ProteinMPNN-based
-+   HelixDesign-Binder: A Scalable Production-Grade Platform for Binder Design Built on HelixFold3
-    + [[arXiv:2505.21873](https://arxiv.org/abs/2505.21873)] • ESM-IF-based
-+   RareFold: Structure prediction and design of proteins with noncanonical amino acids
-    + [[bioRxiv 2025.05.19.654846](https://www.biorxiv.org/content/10.1101/2025.05.19.654846v1)] • [[code](https://github.com/patrickbryant1/RareFold)]
-+   Protein Design with Dynamic Protein Vocabulary
-    + [[arXiv:2505.18966](https://arxiv.org/abs/2505.18966)] • [[code](https://github.com/sornkL/ProDVa)]
-+   BindEnergyCraft: Casting Protein Structure Predictors as Energy-Based Models for Binder Design
-    + [[arXiv:2505.21241](https://arxiv.org/abs/2505.21241)]
-
+*Papers last week, updated on 2025.06.07:*
++   Designing Cyclic Peptides via Harmonic SDE with Atom-Bond Modeling
+    + [[arXiv:2505.21452](https://arxiv.org/abs/2505.21452)]
++   Benchmark for Antibody Binding Affinity Maturation and Design
+    + [[arXiv:2506.04235](https://arxiv.org/abs/2506.04235)] • [[dataset](https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset)] • [[code](https://github.com/MSBMI-SAFE/AbBiBench)]
++   DeepUSPS: Deep Learning‐Empowered Unconstrained‐Structural Protein Sequence Design
+    + [[Proteins: Structure, Function, and Bioinformatics (2025)](https://onlinelibrary.wiley.com/doi/10.1002/prot.26847)] • [[code](https://github.com/mazhichong/MZC)] • [[data](https://zenodo.org/records/10811470)]
++   Computational design of dynamic biosensors for emerging synthetic opioids
+    + [[bioRxiv 2025.05.15.654300](https://www.biorxiv.org/content/10.1101/2025.05.15.654300v1)] • LigandMPNN-based
++   Protein Inverse Folding From Structure Feedback
+    + [[arXiv:2506.03028](https://arxiv.org/abs/2506.03028v1)]
++   Improving Protein Sequence Design through Designability Preference Optimization
+    + [[arXiv:2506.00297](https://arxiv.org/abs/2506.00297)] • LigandMPNN-based
++   ProtInvTree: Deliberate Protein Inverse Folding with Reward-guided Tree Search
+    + [[arXiv:2506.00925](https://arxiv.org/abs/2506.00925)]
++   ProSpero: Active Learning for Robust Protein Design Beyond Wild-Type Neighborhoods
+    + [[arXiv:2505.22494](https://arxiv.org/abs/2505.22494v1)]
++   An improved model for prediction of de novo designed proteins with diverse geometries
+    + [[bioRxiv 2025.06.02.657515](https://www.biorxiv.org/content/10.1101/2025.06.02.657515v1)]
 
 
 ---
@@ -87,7 +88,9 @@
   <a href="#48-resnet-based">ResNet-based</a> •
   <a href="#49-diffusion-based">Diffusion-based</a> •
   <a href="#410-bayesian-based">Bayesian method</a> •
-  <a href="#411-flow-based">Flow-based</a>
+  <a href="#411-flow-based">Flow-based</a> •
+  <a href="#412-rl-based">RL-based</a> •
+  <a href="#413-train-method">Train method</a>
   <br>
   <strong><a href="#5function-to-sequence">5) Function to Sequence</a></strong>
   <br>
@@ -189,6 +192,10 @@ Tudor-Stefan Cotet, Igor Krawczuk, Filippo Stocco, Noelia Ferruz, Anthony Gitter
 Svetlana P. Ikonomova, Bruce J. Wittmann, Fernanda Piorino, David J. Ross, Samuel W. Schaffter, Olga Vasilyeva, Eric Horvitz, James Diggans, Elizabeth A. Strychalski, Sheng Lin-Gibson, Geoffrey J. Taghon  
 [bioRxiv 2025.05.15.654077](https://www.biorxiv.org/content/10.1101/2025.05.15.654077v1) • [code](https://github.com/usnistgov/AIPD_TEVV/)
 
+**Benchmark for Antibody Binding Affinity Maturation and Design**  
+Xinyan Zhao, Yi-Ching Tang, Akshita Singh, Victor J Cantu, KwanHo An, Junseok Lee, Adam E Stogsdill, Ashwin Kumar Ramesh, Zhiqiang An, Xiaoqian Jiang, Yejin Kim  
+[arXiv:2506.04235](https://arxiv.org/abs/2506.04235) • [dataset](https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset) • [code](https://github.com/MSBMI-SAFE/AbBiBench)
+
 ### 0.2 Structure Datasets, Benchmarks
 
 **AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**
@@ -272,6 +279,9 @@ Felix Faltings, Hannes Stark, Tommi Jaakkola, Regina Barzilay
 Jiahao Kuang, Nuowei Liu, Changzhi Sun, Tao Ji, Yuanbin Wu  
 [arXiv:2505.20346](https://arxiv.org/abs/2505.20346) • [website](https://pdfbench.github.io/) • [code](https://github.com/pdfbench/PDFBench)
 
+**An improved model for prediction of de novo designed proteins with diverse geometries**  
+Benjamin Orr, Stephanie E Crilly, Deniz Akpinaroglu, Eleanor Zhu, Michael J. Keiser, Tanja Kortemme  
+[bioRxiv 2025.06.02.657515](https://www.biorxiv.org/content/10.1101/2025.06.02.657515v1)
 ### 0.3 Databases
 
 > A list of suggested protein databases, more lists at [CNCB](https://ngdc.cncb.ac.cn/databasecommons/).
@@ -1753,9 +1763,17 @@ Diego del Alamo, Rahel Frick, Daphne Truan, Joel D Karpiak
 Wen Xu, Chengyun Zhang ,Tianfeng Shang ,Qingyi Mao ,Hongliang Duan  
 [ChemRxiv. 2025](https://chemrxiv.org/engage/chemrxiv/article-details/6826dcef927d1c2e661210c2)
 
+**Computational design of dynamic biosensors for emerging synthetic opioids**  
+Alison C. Leonard, Chase Lenert-Mondou, Rachel Chayer, Samuel Swift, Zachary T. Baumer, Ryan Delaney, Anika J. Friedman, Nicholas R. Robertson, Norman Seder, Jordan Wells, Lindsey M. Whitmore, Sean R. Cutler, Michael R. Shirts, Ian Wheeldon, Timothy A. Whitehead  
+[bioRxiv 2025.05.15.654300](https://www.biorxiv.org/content/10.1101/2025.05.15.654300v1) • LigandMPNN-based
+
 **HelixDesign-Binder: A Scalable Production-Grade Platform for Binder Design Built on HelixFold3**  
 Jie Gao, Jun Li, Jing Hu, Shanzhuo Zhang, Kunrui Zhu, Yueyang Huang, Xiaonan Zhang, Xiaomin Fang  
 [arXiv:2505.21873](https://arxiv.org/abs/2505.21873) • ESM-IF-based
+
+**Designing Cyclic Peptides via Harmonic SDE with Atom-Bond Modeling**  
+Xiangxin Zhou, Mingyu Li, Yi Xiao, Jiahan Li, Dongyu Xue, Zaixiang Zheng, Jianzhu Ma, Quanquan Gu  
+[arXiv:2505.21452](https://arxiv.org/abs/2505.21452)
 
 ### 4.6 GAN-based
 
@@ -1907,6 +1925,10 @@ Yanting Li, Jiyue Jiang, Zikang Wang, Ziqian Lin, Dongchen He, Yuheng Shan, Yanr
 Qi, Yifei, and John ZH Zhang
 [Journal of chemical information and modeling 60.3 (2020)](https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.0c00043) • code unavailable
 
+**DeepUSPS: Deep Learning‐Empowered Unconstrained‐Structural Protein Sequence Design**  
+Zhichong Ma, Jiawen Yang  
+[Proteins: Structure, Function, and Bioinformatics (2025)](https://onlinelibrary.wiley.com/doi/10.1002/prot.26847) • [code](https://github.com/mazhichong/MZC) • [data](https://zenodo.org/records/10811470)
+
 ### 4.9 Diffusion-based
 
 **De novo protein backbone generation based on diffusion with structured priors and adversarial training**
@@ -1990,6 +2012,20 @@ Chenyu Wang, Masatoshi Uehara, Yichun He, Amy Wang, Tommaso Biancalani, Avantika
 **Reinforcement learning on structure-conditioned categorical diffusion for protein inverse folding**
 Yasha Ektefaie, Olivia Viessmann, Siddharth Narayanan, Drew Dresser, J. Mark Kim, Armen Mkrtchyan
 [arXiv:2410.17173](https://arxiv.org/abs/2410.17173) • [code](https://github.com/flagshippioneering/pi-rldif)
+
+**ProtInvTree: Deliberate Protein Inverse Folding with Reward-guided Tree Search** 
+Mengdi Liu, Xiaoxue Cheng, Zhangyang Gao, Hong Chang, Cheng Tan, Shiguang Shan, Xilin Chen  
+[arXiv:2506.00925](https://arxiv.org/abs/2506.00925)
+
+### 4.13 Train-method
+
+**Protein Inverse Folding From Structure Feedback**  
+Junde Xu, Zijun Gao, Xinyi Zhou, Jie Hu, Xingyi Cheng, Le Song, Guangyong Chen, Pheng-Ann Heng, Jiezhong Qiu  
+[arXiv:2506.03028](https://arxiv.org/abs/2506.03028v1)
+
+**Improving Protein Sequence Design through Designability Preference Optimization**  
+Fanglei Xue, Andrew Kubaney, Zhichun Guo, Joseph K. Min, Ge Liu, Yi Yang, David Baker
+[arXiv:2506.00297](https://arxiv.org/abs/2506.00297) • LigandMPNN-based
 
 ## 5.Function to Sequence
 
@@ -3698,9 +3734,17 @@ Gautham Dharuman, Kyle Hippe, Alexander Brace, Sam Foreman, Väinö Hatanpää, 
 Hocheol Lim, Geon-Ho Lee, Kyoung Tai No  
 [arXiv:2505.01277](https://arxiv.org/abs/2505.01277) • [code](https://github.com/hclim0213/SAGE-Prot)
 
+**Artificial Intelligence And First Principle Methods In Protein Redesign: A Marriage Of Convenience?**  
+Damiano Cianferoni, David Vizarraga, Ana María Fernández-Escamilla, Ignacio Fita, Rahma Hamdani, Raul Reche, Javier Delgado, Luis Serrano  
+[bioRxiv 2025.05.12.653318](https://www.biorxiv.org/content/10.1101/2025.05.12.653318v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/05/15/2025.05.12.653318/DC1/embed/media-1.pdf)
+
 **Likelihood-based Fine-tuning of Protein Language Models for Few-shot Fitness Prediction and Design**  
 Alex Hawkins-Hooker, Shikha Surana, Jack Simons, Jakub Kmec, Oliver Bent, Paul Duckworth  
 [bioRxiv 2024.05.28.596156](https://www.biorxiv.org/content/10.1101/2024.05.28.596156v3)
+
+**ProSpero: Active Learning for Robust Protein Design Beyond Wild-Type Neighborhoods**  
+Michal Kmicikiewicz, Vincent Fortuin, Ewa Szczurek  
+[arXiv:2505.22494](https://arxiv.org/abs/2505.22494v1)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
@@ -3804,4 +3848,4 @@ Guan, Jiaqi, et al
 
 **De novo design of epitope-specific antibodies against soluble and multipass membrane proteins with high specificity, developability,and function**
 [Nabla Bio](https://www.nabla.bio/)
-[preprint](https://nabla-public.s3.us-east-1.amazonaws.com/2024_Nabla_JAM_de_novo_antibodies.pdf) • [blog](https://www.nabla.bio/news/denovo) • commercial
+[preprint](https://nabla-public.s3.us-east-1.amazonaws.com/2024_Nabla_JAM_de_novo_antibodies.pdf) • [blog](https://www.nabla.bio/news/denovo) • [news](https://www.science.org/content/article/ai-conjures-potential-new-antibody-drugs-matter-months) • commercial
