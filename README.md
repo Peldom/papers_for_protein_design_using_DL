@@ -10,26 +10,25 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.06.07:*
-+   Designing Cyclic Peptides via Harmonic SDE with Atom-Bond Modeling
-    + [[arXiv:2505.21452](https://arxiv.org/abs/2505.21452)]
-+   Benchmark for Antibody Binding Affinity Maturation and Design
-    + [[arXiv:2506.04235](https://arxiv.org/abs/2506.04235)] • [[dataset](https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset)] • [[code](https://github.com/MSBMI-SAFE/AbBiBench)]
-+   DeepUSPS: Deep Learning‐Empowered Unconstrained‐Structural Protein Sequence Design
-    + [[Proteins: Structure, Function, and Bioinformatics (2025)](https://onlinelibrary.wiley.com/doi/10.1002/prot.26847)] • [[code](https://github.com/mazhichong/MZC)] • [[data](https://zenodo.org/records/10811470)]
-+   Computational design of dynamic biosensors for emerging synthetic opioids
-    + [[bioRxiv 2025.05.15.654300](https://www.biorxiv.org/content/10.1101/2025.05.15.654300v1)] • LigandMPNN-based
-+   Protein Inverse Folding From Structure Feedback
-    + [[arXiv:2506.03028](https://arxiv.org/abs/2506.03028v1)]
-+   Improving Protein Sequence Design through Designability Preference Optimization
-    + [[arXiv:2506.00297](https://arxiv.org/abs/2506.00297)] • LigandMPNN-based
-+   ProtInvTree: Deliberate Protein Inverse Folding with Reward-guided Tree Search
-    + [[arXiv:2506.00925](https://arxiv.org/abs/2506.00925)]
-+   ProSpero: Active Learning for Robust Protein Design Beyond Wild-Type Neighborhoods
-    + [[arXiv:2505.22494](https://arxiv.org/abs/2505.22494v1)]
-+   An improved model for prediction of de novo designed proteins with diverse geometries
-    + [[bioRxiv 2025.06.02.657515](https://www.biorxiv.org/content/10.1101/2025.06.02.657515v1)]
-
+*Papers last week, updated on 2025.06.13:*
++   ProtMamba: a homology-aware but alignment-free protein state space model
+    + [[bioRxiv 2024.05.24.595730](https://www.biorxiv.org/content/10.1101/2024.05.24.595730v4)] • [[code](https://github.com/Bitbol-Lab/ProtMamba)]
++   Natural Language Guided Ligand-Binding Protein Design
+    + [[arXiv:2506.09332](https://www.arxiv.org/abs/2506.09332)]
++   Diffusion Sequence Models for Enhanced Protein Representation and Generation
+    + [[arXiv:2506.08293](https://arxiv.org/abs/2506.08293)] • [[code](https://github.com/Gleghorn-Lab/DSM)]
++   EnerBridge-DPO: Energy-Guided Protein Inverse Folding with Markov Bridges and Direct Preference Optimization
+    + [[arXiv:2506.09496](https://arxiv.org/abs/2506.09496)] • [[code](https://github.com/DeepGraphLearning/EnerBridge-DPO)]
++   ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning
+    + [[arXiv:2506.07459](https://arxiv.org/abs/2506.07459)]
++   AMPGen: an evolutionary information-reserved and diffusion-driven generative model for de novo design of antimicrobial peptides
+    + [[Communications Biology 8.1 (2025)](https://www.nature.com/articles/s42003-025-08282-7)] • [[code](https://doi.org/10.5281/zenodo.15454482.7433980)]
++   Blind De Novo Design of Dual Cyclic Peptide Agonists Targeting GCGR and GLP1R
+    + [[bioRxiv 2025.06.06.658268](https://www.biorxiv.org/content/10.1101/2025.06.06.658268v1)] • [[code](https://zenodo.org/records/13933365)]
++   Computational nanobody design using graph neural networks and Metropolis Monte Carlo sampling
+    + [[bioRxiv 2025.06.08.658414](https://www.biorxiv.org/content/10.1101/2025.06.08.658414v1)] • [[code](https://github.com/Fudan-HQLab/AiPPA)]
++   Zero-shot protein stability prediction by inverse folding models: a free energy interpretation
+    + [[arXiv:2506.05596](https://arxiv.org/abs/2506.05596)]
 
 ---
 
@@ -282,6 +281,7 @@ Jiahao Kuang, Nuowei Liu, Changzhi Sun, Tao Ji, Yuanbin Wu
 **An improved model for prediction of de novo designed proteins with diverse geometries**  
 Benjamin Orr, Stephanie E Crilly, Deniz Akpinaroglu, Eleanor Zhu, Michael J. Keiser, Tanja Kortemme  
 [bioRxiv 2025.06.02.657515](https://www.biorxiv.org/content/10.1101/2025.06.02.657515v1)
+
 ### 0.3 Databases
 
 > A list of suggested protein databases, more lists at [CNCB](https://ngdc.cncb.ac.cn/databasecommons/).
@@ -650,7 +650,7 @@ Xin-heng He, Jun-rui Li, James Xu, Hong Shan, Shi-yi Shen, Si-han Gao & H. Eric 
 
 **Applying computational protein design to therapeutic antibody discovery -- current state and perspectives**
 Weronika Bielska, Igor Jaszczyszyn, Pawel Dudzic, Bartosz Janusz, Dawid Chomicz, Sonia Wrobel, Victor Greiff, Ryan Feehan, Jared Adolf-Bryfogle, Konrad Krawczyk
-[arXiv:2503.00913](https://arxiv.org/abs/2503.00913)
+[arXiv:2503.00913](https://arxiv.org/abs/2503.00913)/[Frontiers in Immunology 16 (2025)](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1571371/full)
 
 ### 1.3 Peptide design
 
@@ -916,6 +916,10 @@ Diandra Daumiller, Federica Giammarino, Qiuzhen Li, Anders Sönnerborg, Rafael C
 Divya Nori, Anisha Parsan, Caroline Uhler, Wengong Jin  
 [arXiv:2505.21241](https://arxiv.org/abs/2505.21241)
 
+**Blind De Novo Design of Dual Cyclic Peptide Agonists Targeting GCGR and GLP1R**  
+Qiuzhen Li, Elisee Wiita, Thomas Helleday, Patrick Bryant  
+[bioRxiv 2025.06.06.658268](https://www.biorxiv.org/content/10.1101/2025.06.06.658268v1) • [code](https://zenodo.org/records/13933365)
+
 #### 2.1.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**
@@ -1083,6 +1087,10 @@ Tudor-Stefan Cotet, Igor Krawczuk
 **Guide your favorite protein sequence generative model**  
 Junhao Xiong, Hunter Nisonoff, Ishan Gaur, Jennifer Listgarten  
 [arXiv:2505.04823](https://arxiv.org/abs/2505.04823)
+
+**Computational nanobody design using graph neural networks and Metropolis Monte Carlo sampling**  
+Lei Wang, Xiaoming He, Gaoxing Guo, Xinzhou Qian, Qiang Huang  
+[bioRxiv 2025.06.08.658414](https://www.biorxiv.org/content/10.1101/2025.06.08.658414v1) • [code](https://github.com/Fudan-HQLab/AiPPA)
 
 ## 3. Function to Scaffold
 
@@ -1368,6 +1376,10 @@ Yiheng Zhu, Zitai Kong, Jialu Wu, Weize Liu, Yuqiang Han, Mingze Yin, Hongxia Xu
 **Backbone Conditional Protein Sequence Design**  
 Justas Dauparas  
 [Cold Spring Harbor Perspectives in Biology (2025)](https://cshperspectives.cshlp.org/content/early/2025/05/03/cshperspect.a041517)
+
+**Zero-shot protein stability prediction by inverse folding models: a free energy interpretation**  
+Jes Frellsen, Maher M. Kassem, Tone Bengtsen, Lars Olsen, Kresten Lindorff-Larsen, Jesper Ferkinghoff-Borg, Wouter Boomsma  
+[arXiv:2506.05596](https://arxiv.org/abs/2506.05596)
 
 ### 4.1 MLP-based
 
@@ -2017,6 +2029,10 @@ Yasha Ektefaie, Olivia Viessmann, Siddharth Narayanan, Drew Dresser, J. Mark Kim
 Mengdi Liu, Xiaoxue Cheng, Zhangyang Gao, Hong Chang, Cheng Tan, Shiguang Shan, Xilin Chen  
 [arXiv:2506.00925](https://arxiv.org/abs/2506.00925)
 
+**ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning**  
+Ziwen Wang, Jiajun Fan, Ruihan Guo, Thao Nguyen, Heng Ji, Ge Liu  
+[arXiv:2506.07459](https://arxiv.org/abs/2506.07459)
+
 ### 4.13 Train-method
 
 **Protein Inverse Folding From Structure Feedback**  
@@ -2026,6 +2042,10 @@ Junde Xu, Zijun Gao, Xinyi Zhou, Jie Hu, Xingyi Cheng, Le Song, Guangyong Chen, 
 **Improving Protein Sequence Design through Designability Preference Optimization**  
 Fanglei Xue, Andrew Kubaney, Zhichun Guo, Joseph K. Min, Ge Liu, Yi Yang, David Baker
 [arXiv:2506.00297](https://arxiv.org/abs/2506.00297) • LigandMPNN-based
+
+**EnerBridge-DPO: Energy-Guided Protein Inverse Folding with Markov Bridges and Direct Preference Optimization**  
+Dingyi Rong, Haotian Lu, Wenzhuo Zheng, Fan Zhang, Shuangjia Zheng, Ning Liu  
+[arXiv:2506.09496](https://arxiv.org/abs/2506.09496) • [code](https://github.com/DeepGraphLearning/EnerBridge-DPO)
 
 ## 5.Function to Sequence
 
@@ -2625,6 +2645,14 @@ Alireza Ghafarollahi, Markus J. Buehler
 Nuowei Liu, Jiahao Kuang, Yanting Liu, Changzhi Sun, Tao Ji, Yuanbin Wu, Man Lan  
 [arXiv:2505.18966](https://arxiv.org/abs/2505.18966) • [code](https://github.com/sornkL/ProDVa)
 
+**ProtMamba: a homology-aware but alignment-free protein state space model**  
+Damiano Sgarbossa, Cyril Malbranke, Anne-Florence Bitbol  
+[bioRxiv 2024.05.24.595730](https://www.biorxiv.org/content/10.1101/2024.05.24.595730v4) • [code](https://github.com/Bitbol-Lab/ProtMamba)
+
+**Natural Language Guided Ligand-Binding Protein Design**  
+Zhenqiao Song, Ramith Hettiarachchi, Chuan Li, Jianwen Xie, Lei Li  
+[arXiv:2506.09332](https://www.arxiv.org/abs/2506.09332)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -2965,6 +2993,14 @@ Nicholas Santolla, Colby T. Ford
 **CFP-Gen: Combinatorial Functional Protein Generation via Diffusion Language Models**  
 Junbo Yin, Chao Zha, Wenjia He, Chencheng Xu, Xin Gao  
 [arXiv:2505.22869](https://arxiv.org/abs/2505.22869)
+
+**AMPGen: an evolutionary information-reserved and diffusion-driven generative model for de novo design of antimicrobial peptides**  
+Shuwen Jin, Zihan Zeng, Xiyan Xiong, Baicheng Huang, Li Tang, Hongsheng Wang, Xiao Ma, Xiaochun Tang, Guoqing Shao, Xingxu Huang & Feng Lin  
+[Communications Biology 8.1 (2025)](https://www.nature.com/articles/s42003-025-08282-7) • [code](https://doi.org/10.5281/zenodo.15454482.7433980)
+
+**Diffusion Sequence Models for Enhanced Protein Representation and Generation**  
+Logan Hallee, Nikolaos Rafailidis, David B. Bichara, Jason P. Gleghorn  
+[arXiv:2506.08293](https://arxiv.org/abs/2506.08293) • [code](https://github.com/Gleghorn-Lab/DSM)
 
 ### 5.13 GNN-based
 
