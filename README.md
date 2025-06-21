@@ -10,25 +10,16 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.06.13:*
-+   ProtMamba: a homology-aware but alignment-free protein state space model
-    + [[bioRxiv 2024.05.24.595730](https://www.biorxiv.org/content/10.1101/2024.05.24.595730v4)] • [[code](https://github.com/Bitbol-Lab/ProtMamba)]
-+   Natural Language Guided Ligand-Binding Protein Design
-    + [[arXiv:2506.09332](https://www.arxiv.org/abs/2506.09332)]
-+   Diffusion Sequence Models for Enhanced Protein Representation and Generation
-    + [[arXiv:2506.08293](https://arxiv.org/abs/2506.08293)] • [[code](https://github.com/Gleghorn-Lab/DSM)]
-+   EnerBridge-DPO: Energy-Guided Protein Inverse Folding with Markov Bridges and Direct Preference Optimization
-    + [[arXiv:2506.09496](https://arxiv.org/abs/2506.09496)] • [[code](https://github.com/DeepGraphLearning/EnerBridge-DPO)]
-+   ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning
-    + [[arXiv:2506.07459](https://arxiv.org/abs/2506.07459)]
-+   AMPGen: an evolutionary information-reserved and diffusion-driven generative model for de novo design of antimicrobial peptides
-    + [[Communications Biology 8.1 (2025)](https://www.nature.com/articles/s42003-025-08282-7)] • [[code](https://doi.org/10.5281/zenodo.15454482.7433980)]
-+   Blind De Novo Design of Dual Cyclic Peptide Agonists Targeting GCGR and GLP1R
-    + [[bioRxiv 2025.06.06.658268](https://www.biorxiv.org/content/10.1101/2025.06.06.658268v1)] • [[code](https://zenodo.org/records/13933365)]
-+   Computational nanobody design using graph neural networks and Metropolis Monte Carlo sampling
-    + [[bioRxiv 2025.06.08.658414](https://www.biorxiv.org/content/10.1101/2025.06.08.658414v1)] • [[code](https://github.com/Fudan-HQLab/AiPPA)]
-+   Zero-shot protein stability prediction by inverse folding models: a free energy interpretation
-    + [[arXiv:2506.05596](https://arxiv.org/abs/2506.05596)]
+*Papers last week, updated on 2025.06.21:*
++   Artificial intelligence methods for protein folding and design
+    + [[Current Opinion in Structural Biology 93 (2025)](https://www.sciencedirect.com/science/article/abs/pii/S0959440X25000843)]
++   All-Atom Protein Sequence Design using Discrete Diffusion Models
+    + [[bioRxiv 2025.06.13.659451](https://www.biorxiv.org/content/10.1101/2025.06.13.659451v1)] • [[code](https://github.com/Intelligent-molecular-systems/All-Atom-Protein-Sequence-Generation)]
++   AlphaFold Database Debiasing for Robust Inverse Folding
+    + [[arXiv:2506.08365](https://arxiv.org/abs/2506.08365)]
++   PPDiff: Diffusing in Hybrid Sequence-Structure Space for Protein-Protein Complex Design
+    + [[arXiv:2506.11420](https://arxiv.org/abs/2506.11420)]
+
 
 ---
 
@@ -582,6 +573,10 @@ Alitenai Tunuhe, Ze Zheng, Xinran Rao, Hongbo Yu, Fuying Ma, Yaxian Zhou, Shangx
 Haiyan Liu, Quan Chen, and Yufeng Liu  
 [hLife (2025)](https://www.sciencedirect.com/science/article/pii/S2949928325000021)
 
+**Artificial intelligence methods for protein folding and design**  
+Zhidian Zhang, Chenxi Ou, Yehlin Cho, Yo Akiyama, Sergey Ovchinnikov  
+[Current Opinion in Structural Biology 93 (2025)](https://www.sciencedirect.com/science/article/abs/pii/S0959440X25000843)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**
@@ -774,7 +769,7 @@ Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, 
 
 **AlphaDesign: A de novo protein design framework based on AlphaFold**
 Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.10.11.463937v1)
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.10.11.463937v1)/[olecular Systems Biology (2025)](https://www.embopress.org/doi/full/10.1038/s44320-025-00119-z)
 
 **Using AlphaFold for Rapid and Accurate Fixed Backbone Protein Design**
 Moffat, Lewis, Joe G. Greener, and David T. Jones
@@ -1233,9 +1228,9 @@ Daniel Cutting, Frédéric A. Dreyer, David Errington, Constantin Schneider, Cha
 Yeqing Lin, Minji Lee, Zhao Zhang, Mohammed AlQuraishi
 [arXiv:2405.15489](https://arxiv.org/abs/2405.15489) • [code](https://github.com/aqlaboratory/genie2) • [news](https://www.marktechpost.com/2024/05/29/genie-2-transforming-protein-design-with-advanced-multi-motif-scaffolding-and-enhanced-structural-diversity/)
 
-**Diffuse StructGen-1 (DSG-1)**
-[the Diffuse team](https://www.linkedin.com/company/diffuse-bio/)
-[technical appendix](https://diffuse.bio/updates.html#appendix) • commercial
+**DSG2-mini**
+[DiffuseBio](https://www.linkedin.com/company/diffuse-bio/)
+[technical appendix](https://diffuse.bio/updates.html#appendix) • [website](https://app.diffuse.bio/) • commercial
 
 **Floating Anchor Diffusion Model for Multi-motif Scaffolding**
 Ke Liu, Weian Mao, Shuaike Shen, Xiaoran Jiao, Zheng Sun, Hao Chen, Chunhua Shen
@@ -1412,6 +1407,10 @@ Lategan, F. Adriaan, Caroline Schreiber, and Hugh G. Patterton
 **Design of metalloproteins and novel protein folds using variational autoencoders**
 Greener, Joe G., Lewis Moffat, and David T. Jones
 [Scientific reports 8.1 (2018)](https://www.nature.com/articles/s41598-018-34533-1)
+
+**AlphaFold Database Debiasing for Robust Inverse Folding**  
+Cheng Tan, Zhenxiao Cao, Zhangyang Gao, Siyuan Li, Yufei Huang, Stan Z. Li  
+[arXiv:2506.08365](https://arxiv.org/abs/2506.08365)
 
 ### 4.3 LSTM-based
 
@@ -1989,11 +1988,15 @@ Yiheng Zhu, Jialu Wu, Qiuyi Li, Jiahuan Yan, Mingze Yin, Wei Wu, Mingyang Li, Ji
 
 **Mask prior-guided denoising diffusion improves inverse protein folding**
 Peizhen Bai, Filip Miljković, Xianyuan Liu, Leonardo De Maria, Rebecca Croasdale-Wood, Owen Rackham, Haiping Lu
-[arXiv:2412.07815](https://arxiv.org/abs/2412.07815) • [code](https://github.com/peizhenbai/MapDiff)
+[arXiv:2412.07815](https://arxiv.org/abs/2412.07815)/[Nature Machine Intelligence (2025)](https://www.nature.com/articles/s42256-025-01042-6) • [code](https://github.com/peizhenbai/MapDiff)
 
 **Agentic End-to-End De Novo Protein Design for Tailored Dynamics Using a Language Diffusion Model**
 Bo Ni, Markus J. Buehler
 [arXiv preprint arXiv:2502.10173 (2025)](https://arxiv.org/pdf/2502.10173) • [code](https://github.com/lamm-mit/ModeShapeDiffusionDesign), [model](https://huggingface.co/lamm-mit/VibeGen)
+
+**All-Atom Protein Sequence Design using Discrete Diffusion Models**  
+Amelia Villegas-Morcillo, Gijs J. Admiraal, Marcel J.T. Reinders, Jana M. Weber  
+[bioRxiv 2025.06.13.659451](https://www.biorxiv.org/content/10.1101/2025.06.13.659451v1) • [code](https://github.com/Intelligent-molecular-systems/All-Atom-Protein-Sequence-Generation)
 
 ### 4.10 Bayesian-based
 
@@ -2629,6 +2632,10 @@ Mohammad Amaan Sayeed, Engin Tekin, Maryam Nadeem, Nancy A. ElNaker, Aahan Singh
 Neeru Dubey, Elin Karlsson, Miguel Angel Redondo, Johan Reimegård, Anna Rising, Hedvig Kjellström
 [arXiv:2504.08437](https://arxiv.org/abs/2504.08437) • ProtGPT2-based
 
+**A multimodal foundation model for controllable protein generation and representation learning**  
+Timothy Fei Truong Jr, Tristan Bepler  
+[blog](https://www.openprotein.ai/a-multimodal-foundation-model-for-controllable-protein-generation-and-representation-learning) • commercial
+
 **Elucidating the Design Space of Multimodal Protein Language Models**
 Cheng-Yen Hsieh, Xinyou Wang, Daiheng Zhang, Dongyu Xue, Fei Ye, Shujian Huang, Zaixiang Zheng, Quanquan Gu
 [arXiv:2504.11454](https://arxiv.org/abs/2504.11454)
@@ -3160,6 +3167,10 @@ paper not available • [website](https://www.vant.ai/neo-1) • commercial
 Xiangzhe Kong, Zishen Zhang, Ziting Zhang, Rui Jiao, Jianzhu Ma, Kai Liu, Wenbing Huang, Yang Liu
 [arXiv:2503.19300](https://arxiv.org/abs/2503.19300v1)
 
+**PPDiff: Diffusing in Hybrid Sequence-Structure Space for Protein-Protein Complex Design**  
+Zhenqiao Song, Tiaoxiao Li, Lei Li, Martin Renqiang Min  
+[arXiv:2506.11420](https://arxiv.org/abs/2506.11420)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites** / **Scaffolding protein functional sites using deep learning**
@@ -3252,7 +3263,7 @@ Adam J. Broerman, Christoph Pollmann, Mauriz A. Lichtenstein, Mark D. Jackson, M
 
 **Accurate de novo design of high-affinity protein binding macrocycles using deep learning**
 Stephen A. Rettie, David Juergens, Victor Adebomi, Yensi Flores Bueso, Qinqin Zhao, Alexandria N. Leveille, Andi Liu, Asim K. Bera, Joana A. Wilms, Alina Üffing, Alex Kang, Evans Brackenbrough, Mila Lamb, Stacey R. Gerben, Analisa Murray, Paul M. Levine, Maika Schneider, Vibha Vasireddy, Sergey Ovchinnikov, Oliver H. Weiergräber, Dieter Willbold, Joshua A. Kritzer, Joseph D. Mougous, David Baker, Frank DiMaio, Gaurav Bhardwaj
-[bioRxiv 2024.11.18.622547](https://www.biorxiv.org/content/10.1101/2024.11.18.622547v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/11/18/2024.11.18.622547/DC1/embed/media-1.zip)
+[bioRxiv 2024.11.18.622547](https://www.biorxiv.org/content/10.1101/2024.11.18.622547v1)/[Nat Chem Biol (2025)](https://www.nature.com/articles/s41589-025-01929-w) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/11/18/2024.11.18.622547/DC1/embed/media-1.zip) • [code](https://zenodo.org/records/15264344)
 
 **Engineering de novo binder CAR-T cell therapies with generative AI**
 Markus Mergen, Daniela Abele, Naile Koleci, Alba Schmahl Fernandez, Maya Sugden, Noah Holzleitner, Andreas Carr, Leonie Rieger, Valentina Leone, Maximilian Reichert, Karl-Ludwig Laugwitz, Florian Bassermann, Dirk H. Busch, Julian Grünewald, Andrea Schmidts
