@@ -10,15 +10,12 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.06.21:*
-+   Artificial intelligence methods for protein folding and design
-    + [[Current Opinion in Structural Biology 93 (2025)](https://www.sciencedirect.com/science/article/abs/pii/S0959440X25000843)]
-+   All-Atom Protein Sequence Design using Discrete Diffusion Models
-    + [[bioRxiv 2025.06.13.659451](https://www.biorxiv.org/content/10.1101/2025.06.13.659451v1)] • [[code](https://github.com/Intelligent-molecular-systems/All-Atom-Protein-Sequence-Generation)]
-+   AlphaFold Database Debiasing for Robust Inverse Folding
-    + [[arXiv:2506.08365](https://arxiv.org/abs/2506.08365)]
-+   PPDiff: Diffusing in Hybrid Sequence-Structure Space for Protein-Protein Complex Design
-    + [[arXiv:2506.11420](https://arxiv.org/abs/2506.11420)]
+*Papers last week, updated on 2025.06.27:*
++   Toward the Explainability of Protein Language Models for Sequence Design
+    + [[arXiv:2506.19532](https://arxiv.org/abs/2506.19532)]
++   AI4Protein: transforming the future of protein design
+    + [[Science China Life Sciences (2025)](https://link.springer.com/article/10.1007/s11427-024-2906-3)]
+
 
 
 ---
@@ -160,7 +157,7 @@ Pascal Notin, Aaron W Kollasch, Daniel Ritter, Lood van Niekerk, Steffanie Paul,
 
 **Results of the Protein Engineering Tournament: An Open Science Benchmark for Protein Modeling and Design**
 Chase Armer, Hassan Kane, Dana L. Cortade, Henning Redestig, David A. Estell, Adil Yusuf, Nathan Rollins, Hansen Spinner, Debora Marks, TJ Brunette, Peter J. Kelly, Erika DeBenedictis
-[bioRxiv 2024.08.12.606135](https://www.biorxiv.org/content/10.1101/2024.08.12.606135v1) • [code](https://github.com/the-protein-engineering-tournament/pet-pilot-2023) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/08/12/2024.08.12.606135/DC1/embed/media-1.pdf)
+[bioRxiv 2024.08.12.606135](https://www.biorxiv.org/content/10.1101/2024.08.12.606135v1)/[Proteins: Structure, Function, and Bioinformatics (2025)](https://onlinelibrary.wiley.com/doi/10.1002/prot.70008) • [code](https://github.com/the-protein-engineering-tournament/pet-pilot-2023) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/08/12/2024.08.12.606135/DC1/embed/media-1.pdf)
 
 **Generative AI Models for the Protein Scaffold Filling Problem**
 Letu Qingge, Kushal Badal, Richard Annan, Jordan Sturtz, Xiaowen Liu, and Binhai Zhu
@@ -577,6 +574,10 @@ Haiyan Liu, Quan Chen, and Yufeng Liu
 Zhidian Zhang, Chenxi Ou, Yehlin Cho, Yo Akiyama, Sergey Ovchinnikov  
 [Current Opinion in Structural Biology 93 (2025)](https://www.sciencedirect.com/science/article/abs/pii/S0959440X25000843)
 
+**AI4Protein: transforming the future of protein design**  
+Dequan Wang, Zheling Tan, Jin Gao, Shaoting Zhang, Jiaqi Shen & Yuming Lu  
+[Science China Life Sciences (2025)](https://link.springer.com/article/10.1007/s11427-024-2906-3)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**
@@ -769,7 +770,7 @@ Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, 
 
 **AlphaDesign: A de novo protein design framework based on AlphaFold**
 Jendrusch, Michael, Jan O. Korbel, and S. Kashif Sadiq
-[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.10.11.463937v1)/[olecular Systems Biology (2025)](https://www.embopress.org/doi/full/10.1038/s44320-025-00119-z)
+[bioRxiv (2021)](https://www.biorxiv.org/content/10.1101/2021.10.11.463937v1)/[Molecular Systems Biology (2025)](https://www.embopress.org/doi/full/10.1038/s44320-025-00119-z)
 
 **Using AlphaFold for Rapid and Accurate Fixed Backbone Protein Design**
 Moffat, Lewis, Joe G. Greener, and David T. Jones
@@ -1204,9 +1205,9 @@ Anonymous
 Kieran Didi, Francisco Vargas, Simon V Mathis, Vincent Dutordoir, Emile Mathieu, Urszula J Komorowska, Pietro Lio
 [arXiv:2312.09236](https://arxiv.org/abs/2312.09236)
 
-**TopoDiff: Improving Protein Backbone Generation with Topology-aware Latent Encoding**
-Yuyang Zhang, Zihui (Zinnia) Ma, Haipeng Gong
-[bioRxiv 2023.12.13.571602](https://www.biorxiv.org/content/10.1101/2023.12.13.571602v1)
+**Improving diffusion-based protein backbone generation with global-geometry-aware latent encoding**
+Yuyang Zhang, Yuhang Liu, Zinnia Ma, Min Li, Chunfu Xu & Haipeng Gong  
+[bioRxiv 2023.12.13.571602](https://www.biorxiv.org/content/10.1101/2023.12.13.571602v1)/[Nat Mach Intell (2025)](https://www.nature.com/articles/s42256-025-01059-x)
 
 **Improved motif-scaffolding with SE(3) flow matching**
 Jason Yim, Andrew Campbell, Emile Mathieu, Andrew Y. K. Foong, Michael Gastegger, José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling, Frank Noé, Regina Barzilay, Tommi S. Jaakkola
@@ -2028,7 +2029,7 @@ Chenyu Wang, Masatoshi Uehara, Yichun He, Amy Wang, Tommaso Biancalani, Avantika
 Yasha Ektefaie, Olivia Viessmann, Siddharth Narayanan, Drew Dresser, J. Mark Kim, Armen Mkrtchyan
 [arXiv:2410.17173](https://arxiv.org/abs/2410.17173) • [code](https://github.com/flagshippioneering/pi-rldif)
 
-**ProtInvTree: Deliberate Protein Inverse Folding with Reward-guided Tree Search** 
+**ProtInvTree: Deliberate Protein Inverse Folding with Reward-guided Tree Search**  
 Mengdi Liu, Xiaoxue Cheng, Zhangyang Gao, Hong Chang, Cheng Tan, Shiguang Shan, Xilin Chen  
 [arXiv:2506.00925](https://arxiv.org/abs/2506.00925)
 
@@ -2660,6 +2661,10 @@ Damiano Sgarbossa, Cyril Malbranke, Anne-Florence Bitbol
 Zhenqiao Song, Ramith Hettiarachchi, Chuan Li, Jianwen Xie, Lei Li  
 [arXiv:2506.09332](https://www.arxiv.org/abs/2506.09332)
 
+**Toward the Explainability of Protein Language Models for Sequence Design**  
+Andrea Hunklinger, Noelia Ferruz  
+[arXiv:2506.19532](https://arxiv.org/abs/2506.19532)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -2947,7 +2952,7 @@ Tianlai Chen, Pranay Vure, Rishab Pulugurta, Pranam Chatterjee
 
 **Atomically accurate de novo design of single-domain antibodies**
 Nathaniel R. Bennett, Joseph L. Watson, Robert J. Ragotte, Andrew J. Borst, DeJenae L. See, Connor Weidle, Riti Biswas, Ellen L. Shrock, Philip J. Y. Leung, Buwei Huang, Inna Goreshnik, Russell Ault, Kenneth D. Carr, Benedikt Singer, Cameron Criswell, Dionne Vafeados, Mariana Garcia Sanchez, Ho Min Kim, Susana Vazquez Torres, Sidney Chan, David Baker
-[bioRxiv 2024.03.14.585103](https://www.biorxiv.org/content/10.1101/2024.03.14.585103v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/18/2024.03.14.585103/DC1/embed/media-1.pdf)
+[bioRxiv 2024.03.14.585103](https://www.biorxiv.org/content/10.1101/2024.03.14.585103v1)/[Nat Chem Biol (2025)](https://www.nature.com/articles/s41589-025-01929-w) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/18/2024.03.14.585103/DC1/embed/media-1.pdf)
 
 **Complex-based Ligand-Binding Proteins Redesign by Equivariant Diffusion-based Generative Models**
 Viet Thanh Duy Nguyen, Nhan Nguyen, Truong Son Hy
