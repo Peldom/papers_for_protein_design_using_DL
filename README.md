@@ -10,12 +10,23 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.06.27:*
-+   Toward the Explainability of Protein Language Models for Sequence Design
-    + [[arXiv:2506.19532](https://arxiv.org/abs/2506.19532)]
-+   AI4Protein: transforming the future of protein design
-    + [[Science China Life Sciences (2025)](https://link.springer.com/article/10.1007/s11427-024-2906-3)]
-
+*Papers last week, updated on 2025.07.04:*
++   Guided Generation for Developable Antibodies
+    + [[arXiv:2507.02670](https://arxiv.org/abs/2507.02670)] • ESM-2-based
++   HelixDesign-Antibody: A Scalable Production-Grade Platform for Antibody Design Built on HelixFold3
+    + [[arXiv:2507.02345](https://arxiv.org/abs/2507.02345)] • [[website](https://paddlehelix.baidu.com/)]
++   Antibody Design and Optimization with Multi-scale Equivariant Graph Diffusion Models for Accurate Complex Antigen Binding
+    + [[arXiv:2506.20957](https://arxiv.org/abs/2506.20957v1)] • [[code](https://github.com/Patrick221215/AbMEGD)]
++   Attribution assignment for deep-generative sequence models enables interpretability analysis using positive-only data
+    + [[arXiv:2506.23182](https://arxiv.org/abs/2506.23182)]
++   De Novo Structure-Based Design of TEM-171 β-Lactamase Protein Inhibitors Using Integrated Deep Learning and Multi-Scale Simulations to Combat Bacterial Resistance
+    + [[bioRxiv 2025.06.23.661177](https://www.biorxiv.org/content/10.1101/2025.06.23.661177v1)] • [[code](https://github.com/kishpish/tem171-inhibitor-pipeline)] • RFDiffusion/ProteinMPNN-based
++   PRO‐LDM: A Conditional Latent Diffusion Model for Protein Sequence Design and Functional Optimization
+    + [[Advanced Science (2025)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202502723)] • ESM-2-based
++   AlphaFold distillation for inverse protein design
+    + [[Sci Rep 15, 21743 (2025)](https://www.nature.com/articles/s41598-025-00436-1)] • [[code](https://github.com/IBM/AFDistill)]
++   Chai-2: Zero-Shot Antibody Discovery in a 24-well Plate
+    + [[technical report](https://chaiassets.com/chai-2/paper/technical_report.pdf)] • [[news](https://www.chaidiscovery.com/news/introducing-chai-2)] • commercial
 
 
 ---
@@ -916,6 +927,10 @@ Divya Nori, Anisha Parsan, Caroline Uhler, Wengong Jin
 Qiuzhen Li, Elisee Wiita, Thomas Helleday, Patrick Bryant  
 [bioRxiv 2025.06.06.658268](https://www.biorxiv.org/content/10.1101/2025.06.06.658268v1) • [code](https://zenodo.org/records/13933365)
 
+**AlphaFold distillation for inverse protein design**  
+Igor Melnyk, Aurélie Lozano, Payel Das & Vijil Chenthamarakshan  
+[Sci Rep 15, 21743 (2025)](https://www.nature.com/articles/s41598-025-00436-1) • [code](https://github.com/IBM/AFDistill)
+
 #### 2.1.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**
@@ -949,6 +964,16 @@ Yehlin Cho, Martin Pacesa, Zhidian Zhang, Bruno E. Correia, Sergey Ovchinnikov
 **RareFold: Structure prediction and design of proteins with noncanonical amino acids**  
 Qiuzhen Li, Diandra Daumiller, Patrick Bryant  
 [bioRxiv 2025.05.19.654846](https://www.biorxiv.org/content/10.1101/2025.05.19.654846v1) • [code](https://github.com/patrickbryant1/RareFold)
+
+#### 2.1.8 HelixFold-based
+
+**HelixDesign-Binder: A Scalable Production-Grade Platform for Binder Design Built on HelixFold3**  
+Jie Gao, Jun Li, Jing Hu, Shanzhuo Zhang, Kunrui Zhu, Yueyang Huang, Xiaonan Zhang, Xiaomin Fang  
+[arXiv:2505.21873](https://arxiv.org/abs/2505.21873) • ESM-IF-based
+
+**HelixDesign-Antibody: A Scalable Production-Grade Platform for Antibody Design Built on HelixFold3**  
+Jie Gao, Jing Hu, Shanzhuo Zhang, Kunrui Zhu, Sheng Qian, Yueyang Huang, Xiaonan Zhang, Xiaomin Fang  
+[arXiv:2507.02345](https://arxiv.org/abs/2507.02345) • [website](https://paddlehelix.baidu.com/)
 
 ### 2.2 CM-Align
 
@@ -1207,7 +1232,7 @@ Kieran Didi, Francisco Vargas, Simon V Mathis, Vincent Dutordoir, Emile Mathieu,
 
 **Improving diffusion-based protein backbone generation with global-geometry-aware latent encoding**
 Yuyang Zhang, Yuhang Liu, Zinnia Ma, Min Li, Chunfu Xu & Haipeng Gong  
-[bioRxiv 2023.12.13.571602](https://www.biorxiv.org/content/10.1101/2023.12.13.571602v1)/[Nat Mach Intell (2025)](https://www.nature.com/articles/s42256-025-01059-x)
+[bioRxiv 2023.12.13.571602](https://www.biorxiv.org/content/10.1101/2023.12.13.571602v1)/[Nat Mach Intell (2025)](https://www.nature.com/articles/s42256-025-01059-x)• [code](https://github.com/meneshail/TopoDiff)
 
 **Improved motif-scaffolding with SE(3) flow matching**
 Jason Yim, Andrew Campbell, Emile Mathieu, Andrew Y. K. Foong, Michael Gastegger, José Jiménez-Luna, Sarah Lewis, Victor Garcia Satorras, Bastiaan S. Veeling, Frank Noé, Regina Barzilay, Tommi S. Jaakkola
@@ -1244,10 +1269,6 @@ Kaixuan Gao, Xin Zhang, Jia Nie, Hengyu Meng, Weishe Zhang, Boxue Tian, Xiangyu 
 **Text2Protein: A Generative Model for Designated Protein Design on Given Description**
 Ramtin Hosseini, Siyang Zhang, Pengtao Xie
 [PREPRINT (Version 1) available at Research Square](https://doi.org/10.21203/rs.3.rs-4868665/v1) • [code](https://github.com/szhan227/text2protein)
-
-**Improving diffusion-based protein backbone generation with global-geometry-aware latent encoding**
-Yuyang Zhang, Yuhang Liu, Zinnia Ma, Min Li, Chunfu Xu, Haipeng Gong
-[bioRxiv 2024.10.05.616664](https://www.biorxiv.org/content/10.1101/2024.10.05.616664v1) • [code](https://github.com/meneshail/TopoDiff)
 
 **Diffusion Posterior Sampling via Sequential Monte Carlo for Zero-Shot Scaffolding of Protein Motifs**
 Young, James Matthew Uygongco, and Omer Deniz Akyildiz
@@ -1779,10 +1800,6 @@ Wen Xu, Chengyun Zhang ,Tianfeng Shang ,Qingyi Mao ,Hongliang Duan
 Alison C. Leonard, Chase Lenert-Mondou, Rachel Chayer, Samuel Swift, Zachary T. Baumer, Ryan Delaney, Anika J. Friedman, Nicholas R. Robertson, Norman Seder, Jordan Wells, Lindsey M. Whitmore, Sean R. Cutler, Michael R. Shirts, Ian Wheeldon, Timothy A. Whitehead  
 [bioRxiv 2025.05.15.654300](https://www.biorxiv.org/content/10.1101/2025.05.15.654300v1) • LigandMPNN-based
 
-**HelixDesign-Binder: A Scalable Production-Grade Platform for Binder Design Built on HelixFold3**  
-Jie Gao, Jun Li, Jing Hu, Shanzhuo Zhang, Kunrui Zhu, Yueyang Huang, Xiaonan Zhang, Xiaomin Fang  
-[arXiv:2505.21873](https://arxiv.org/abs/2505.21873) • ESM-IF-based
-
 **Designing Cyclic Peptides via Harmonic SDE with Atom-Bond Modeling**  
 Xiangxin Zhou, Mingyu Li, Yi Xiao, Jiahan Li, Dongyu Xue, Zaixiang Zheng, Jianzhu Ma, Quanquan Gu  
 [arXiv:2505.21452](https://arxiv.org/abs/2505.21452)
@@ -2051,6 +2068,10 @@ Fanglei Xue, Andrew Kubaney, Zhichun Guo, Joseph K. Min, Ge Liu, Yi Yang, David 
 Dingyi Rong, Haotian Lu, Wenzhuo Zheng, Fan Zhang, Shuangjia Zheng, Ning Liu  
 [arXiv:2506.09496](https://arxiv.org/abs/2506.09496) • [code](https://github.com/DeepGraphLearning/EnerBridge-DPO)
 
+**Attribution assignment for deep-generative sequence models enables interpretability analysis using positive-only data**  
+Robert Frank, Michael Widrich, Rahmad Akbar, Günter Klambauer, Geir Kjetil Sandve, Philippe A. Robert, Victor Greiff  
+[arXiv:2506.23182](https://arxiv.org/abs/2506.23182)
+
 ## 5.Function to Sequence
 
 > These models generate sequences from expected function.
@@ -2311,7 +2332,7 @@ Noelia Ferruz, Birte Höcker
 
 **ProtGPT2 is a deep unsupervised language model for protein design**
 Noelia Ferruz,  View ProfileSteffen Schmidt,  View ProfileBirte Höcker
-[bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.full)/[Nature Communications](https://www.nature.com/articles/s41467-022-32007-7#citeas) • [model::huggingface](https://huggingface.co/nferruz/ProtGPT2) [datasets::hugingface](https://huggingface.co/datasets/nferruz/UR50_2021_04) • [lecture](https://www.youtube.com/watch?v=BA5C0kLcErM) • [research highlights](https://www.nature.com/articles/s41587-022-01518-5) • [news](https://cen.acs.org/physical-chemistry/protein-folding/Generative-AI-dreaming-new-proteins/101/i12#)
+[bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.full)/[Nature Communications](https://www.nature.com/articles/s41467-022-32007-7) • [model::huggingface](https://huggingface.co/nferruz/ProtGPT2) [datasets::hugingface](https://huggingface.co/datasets/nferruz/UR50_2021_04) • [lecture](https://www.youtube.com/watch?v=BA5C0kLcErM) • [research highlights](https://www.nature.com/articles/s41587-022-01518-5) • [news](https://cen.acs.org/physical-chemistry/protein-folding/Generative-AI-dreaming-new-proteins/101/i12#)
 
 **Few Shot Protein Generation**
 Ram, Soumya, and Tristan Bepler
@@ -3014,6 +3035,14 @@ Shuwen Jin, Zihan Zeng, Xiyan Xiong, Baicheng Huang, Li Tang, Hongsheng Wang, Xi
 Logan Hallee, Nikolaos Rafailidis, David B. Bichara, Jason P. Gleghorn  
 [arXiv:2506.08293](https://arxiv.org/abs/2506.08293) • [code](https://github.com/Gleghorn-Lab/DSM)
 
+**Guided Generation for Developable Antibodies**  
+Siqi Zhao, Joshua Moller, Porfi Quintero-Cadena, Lood van Niekerk  
+[arXiv:2507.02670](https://arxiv.org/abs/2507.02670) • ESM-2-based
+
+**PRO‐LDM: A Conditional Latent Diffusion Model for Protein Sequence Design and Functional Optimization**  
+Sitao Zhang, Zixuan Jiang, Rundong Huang, Wenting Huang, Siyuan Peng, Shaoxun Mo, Letao Zhu, Peiheng Li, Ziyi Zhang, Emily Pan, Xi Chen, Yunfei Long, Qi Liang, Jin Tang, Renjing Xu, Rui Qing  
+[Advanced Science (2025)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202502723) • ESM-2-based
+
 ### 5.13 GNN-based
 
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**
@@ -3175,6 +3204,10 @@ Xiangzhe Kong, Zishen Zhang, Ziting Zhang, Rui Jiao, Jianzhu Ma, Kai Liu, Wenbin
 **PPDiff: Diffusing in Hybrid Sequence-Structure Space for Protein-Protein Complex Design**  
 Zhenqiao Song, Tiaoxiao Li, Lei Li, Martin Renqiang Min  
 [arXiv:2506.11420](https://arxiv.org/abs/2506.11420)
+
+**Antibody Design and Optimization with Multi-scale Equivariant Graph Diffusion Models for Accurate Complex Antigen Binding**  
+Jiameng Chen, Xiantao Cai, Jia Wu, Wenbin Hu  
+[arXiv:2506.20957](https://arxiv.org/abs/2506.20957v1) • [code](https://github.com/Patrick221215/AbMEGD)
 
 ### 6.3 RoseTTAFold-based
 
@@ -3357,6 +3390,10 @@ Julie Yi-Hsuan Chen, Qing Shi, Xue Peng, Jean de Dieu Habimana, James Wang, Will
 **Bioinformatics classification of the MgtE Mg2+ channel and de novo protein design for the stabilization of its novel subclass**  
 Zhixuan Zhao, Kimiho Omae, Wataru Iwasaki, Ziyi Zhang, Fazhi Pan, Eun-Jin Lee, Motoyuki Hattori  
 [bioRxiv 2025.05.26.656215](https://www.biorxiv.org/content/10.1101/2025.05.26.656215v1) • [code](https://github.com/0mae/mgte_short) • RFDiffusion/ProteinMPNN-based
+
+**De Novo Structure-Based Design of TEM-171 β-Lactamase Protein Inhibitors Using Integrated Deep Learning and Multi-Scale Simulations to Combat Bacterial Resistance**  
+Krishiv Potluri  
+[bioRxiv 2025.06.23.661177](https://www.biorxiv.org/content/10.1101/2025.06.23.661177v1) • [code](https://github.com/kishpish/tem171-inhibitor-pipeline) • RFDiffusion/ProteinMPNN-based
 
 ### 6.4 CNN-based
 
@@ -3901,3 +3938,7 @@ Guan, Jiaqi, et al
 **De novo design of epitope-specific antibodies against soluble and multipass membrane proteins with high specificity, developability,and function**
 [Nabla Bio](https://www.nabla.bio/)
 [preprint](https://nabla-public.s3.us-east-1.amazonaws.com/2024_Nabla_JAM_de_novo_antibodies.pdf) • [blog](https://www.nabla.bio/news/denovo) • [news](https://www.science.org/content/article/ai-conjures-potential-new-antibody-drugs-matter-months) • commercial
+
+**Chai-2: Zero-Shot Antibody Discovery in a 24-well Plate**  
+Chai Discovery Team  
+[technical report](https://chaiassets.com/chai-2/paper/technical_report.pdf) • [news](https://www.chaidiscovery.com/news/introducing-chai-2) • commercial
