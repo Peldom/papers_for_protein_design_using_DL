@@ -10,23 +10,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.07.04:*
-+   Guided Generation for Developable Antibodies
-    + [[arXiv:2507.02670](https://arxiv.org/abs/2507.02670)] • ESM-2-based
-+   HelixDesign-Antibody: A Scalable Production-Grade Platform for Antibody Design Built on HelixFold3
-    + [[arXiv:2507.02345](https://arxiv.org/abs/2507.02345)] • [[website](https://paddlehelix.baidu.com/)]
-+   Antibody Design and Optimization with Multi-scale Equivariant Graph Diffusion Models for Accurate Complex Antigen Binding
-    + [[arXiv:2506.20957](https://arxiv.org/abs/2506.20957v1)] • [[code](https://github.com/Patrick221215/AbMEGD)]
-+   Attribution assignment for deep-generative sequence models enables interpretability analysis using positive-only data
-    + [[arXiv:2506.23182](https://arxiv.org/abs/2506.23182)]
-+   De Novo Structure-Based Design of TEM-171 β-Lactamase Protein Inhibitors Using Integrated Deep Learning and Multi-Scale Simulations to Combat Bacterial Resistance
-    + [[bioRxiv 2025.06.23.661177](https://www.biorxiv.org/content/10.1101/2025.06.23.661177v1)] • [[code](https://github.com/kishpish/tem171-inhibitor-pipeline)] • RFDiffusion/ProteinMPNN-based
-+   PRO‐LDM: A Conditional Latent Diffusion Model for Protein Sequence Design and Functional Optimization
-    + [[Advanced Science (2025)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202502723)] • ESM-2-based
-+   AlphaFold distillation for inverse protein design
-    + [[Sci Rep 15, 21743 (2025)](https://www.nature.com/articles/s41598-025-00436-1)] • [[code](https://github.com/IBM/AFDistill)]
-+   Chai-2: Zero-Shot Antibody Discovery in a 24-well Plate
-    + [[technical report](https://chaiassets.com/chai-2/paper/technical_report.pdf)] • [[news](https://www.chaidiscovery.com/news/introducing-chai-2)] • commercial
+*Papers last week, updated on 2025.07.14:*
++   A Computational Workflow for Structure-Guided Design of Potent and Selective Kinase Peptide Substrates
+    + [[bioRxiv 2025.07.04.663216](https://www.biorxiv.org/content/10.1101/2025.07.04.663216v1)]  • ProteinMPNN-based
++   Metalorian: De Novo Generation of Heavy Metal-Binding Peptides with Classifier-Guided Diffusion Sampling
+    + [[bioRxiv 2025.07.10.664242](https://www.biorxiv.org/content/10.1101/2025.07.10.664242v1)] • ESM2-based
++   De novo design of high-affinity miniprotein binders targeting Francisella tularensis virulence factor
+    + [[bioRxiv 2025.07.02.662053](https://www.biorxiv.org/content/10.1101/2025.07.02.662053v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/07/05/2025.07.02.662053/DC1/embed/media-1.pdf)] • [[code](https://www.biorxiv.org/content/biorxiv/early/2025/07/05/2025.07.02.662053/DC2/embed/media-2.zip)] • ProteinMPNN-based
++   Fold-Conditioned De Novo Binder Design via AlphaFold2-Multimer Hallucination
+    + [[bioRxiv 2025.07.02.662497](https://www.biorxiv.org/content/10.1101/2025.07.02.662497v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/07/05/2025.07.02.662497/DC1/embed/media-1.docx)] • [[code](https://github.com/KhondamirRustamov/FoldCraft)]
++   BAGEL: Protein Engineering via Exploration of an Energy Landscape
+    + [[bioRxiv 2025.07.05.663138](https://www.biorxiv.org/content/10.1101/2025.07.05.663138v1)] • [[code](https://github.com/softnanolab/bagel)]
 
 
 ---
@@ -589,6 +583,10 @@ Zhidian Zhang, Chenxi Ou, Yehlin Cho, Yo Akiyama, Sergey Ovchinnikov
 Dequan Wang, Zheling Tan, Jin Gao, Shaoting Zhang, Jiaqi Shen & Yuming Lu  
 [Science China Life Sciences (2025)](https://link.springer.com/article/10.1007/s11427-024-2906-3)
 
+**Comment on the Use of AI-based Protein Design for Autoimmune Encephalitis: Exciting Possibilities and Practical Considerations**  
+Zengwei Kou  
+[Multiple Sclerosis and Related Disorders (2025)](https://www.msard-journal.com/article/S2211-0348(25)00335-9/fulltext)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**
@@ -931,6 +929,10 @@ Qiuzhen Li, Elisee Wiita, Thomas Helleday, Patrick Bryant
 Igor Melnyk, Aurélie Lozano, Payel Das & Vijil Chenthamarakshan  
 [Sci Rep 15, 21743 (2025)](https://www.nature.com/articles/s41598-025-00436-1) • [code](https://github.com/IBM/AFDistill)
 
+**Fold-Conditioned De Novo Binder Design via AlphaFold2-Multimer Hallucination**  
+Khondamir. R. Rustamov, Artyom Y. Baev  
+[bioRxiv 2025.07.02.662497](https://www.biorxiv.org/content/10.1101/2025.07.02.662497v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/07/05/2025.07.02.662497/DC1/embed/media-1.docx) • [code](https://github.com/KhondamirRustamov/FoldCraft)
+
 #### 2.1.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**
@@ -1061,6 +1063,10 @@ Changge Guan, Fangping Wan, Marcelo D. T. Torres, Cesar de la Fuente-Nunez
 Leo Tianlai Chen, Rishab Pulugurta, Pranay Vure, Pranam Chatterjee  
 [bioRxiv 2025.05.14.654102](https://www.biorxiv.org/content/10.1101/2025.05.14.654102v1) • [code](https://github.com/programmablebio/dpac)
 
+**BAGEL: Protein Engineering via Exploration of an Energy Landscape**  
+Jakub Lála, Ayham Al-Saffar, Stefano Angiolleti-Uberti  
+[bioRxiv 2025.07.05.663138](https://www.biorxiv.org/content/10.1101/2025.07.05.663138v1) • [code](https://github.com/softnanolab/bagel)
+
 #### 2.4.3 Antiberta-based
 
 **DyAb: sequence-based antibody design and property prediction in a low-data regime**
@@ -1096,6 +1102,10 @@ Benjamin Fram, Ian Truebridge, Yang Su, Adam J. Riesselman, John B. Ingraham, Al
 **Optimizing protein fitness using Gibbs sampling with Graph-based Smoothing**
 Andrew Kirjner, Jason Yim, Raman Samusevich, Tommi Jaakkola, Regina Barzilay, Ila Fiete
 [arXiv:2307.00494](https://arxiv.org/abs/2307.00494) • [code](https://github.com/kirjner/GGS)
+
+**Sampling Protein Language Models for Functional Protein Design**  
+Jeremie Theddy Darmawan, Yarin Gal, Pascal Notin  
+[ICLR 2025 Workshop LMRL](https://openreview.net/forum?id=eRALDwvk9O)
 
 **Reliable algorithm selection for machine learning-guided design**
 Clara Fannjiang, Ji Won Park
@@ -1803,6 +1813,14 @@ Alison C. Leonard, Chase Lenert-Mondou, Rachel Chayer, Samuel Swift, Zachary T. 
 **Designing Cyclic Peptides via Harmonic SDE with Atom-Bond Modeling**  
 Xiangxin Zhou, Mingyu Li, Yi Xiao, Jiahan Li, Dongyu Xue, Zaixiang Zheng, Jianzhu Ma, Quanquan Gu  
 [arXiv:2505.21452](https://arxiv.org/abs/2505.21452)
+
+**De novo design of high-affinity miniprotein binders targeting Francisella tularensis virulence factor**  
+Gizem Gokce-Alpkilic, Buwei Huang, Andi Liu, Lieselotte S.M. Kreuk, Yaxi Wang, Victor Adebomi, Yensi Flores Bueso, Asim K. Bera, Alex Kang, Stacey R. Gerben, Stephen Rettie, Dionne K. Vafeados, Nicole Roullier, Inna Goreshnik, Xinting Li, David Baker, Joshua J. Woodward, Joseph D. Mougous, Gaurav Bhardwaj  
+[bioRxiv 2025.07.02.662053](https://www.biorxiv.org/content/10.1101/2025.07.02.662053v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/07/05/2025.07.02.662053/DC1/embed/media-1.pdf) • [code](https://www.biorxiv.org/content/biorxiv/early/2025/07/05/2025.07.02.662053/DC2/embed/media-2.zip) • ProteinMPNN-based
+
+**A Computational Workflow for Structure-Guided Design of Potent and Selective Kinase Peptide Substrates**  
+Abeeb A. Yekeen, Cynthia J. Meyer, Melissa McCoy, Bruce Posner, Kenneth D. Westover  
+[bioRxiv 2025.07.04.663216](https://www.biorxiv.org/content/10.1101/2025.07.04.663216v1) • ProteinMPNN-based
 
 ### 4.6 GAN-based
 
@@ -2646,6 +2664,10 @@ Bharani Nammi, Vindi M. Jayasinghe-Arachchige, Sita Sirisha Madugula, Maria Arti
 Lee, Jin Sub, Osama Abdin, and Philip M. Kim
 [Current Opinion in Structural Biology 92 (2025)](https://www.sciencedirect.com/science/article/abs/pii/S0959440X25000454) • review
 
+**De Novo Design of Antigen-Specific Antibodies Using Structural Constraint-Based Generative Language Model**  
+Yuran Jia, Bing He, Tianxu Lv, YangXiao, Tianyi Zhao, Jianhua Yao  
+[OpenReview](https://openreview.net/forum?id=8F2JrQC2DJ)
+
 **Prot42: a Novel Family of Protein Language Models for Target-aware Protein Binder Generation**
 Mohammad Amaan Sayeed, Engin Tekin, Maryam Nadeem, Nancy A. ElNaker, Aahan Singh, Natalia Vassilieva, Boulbaba Ben Amor
 [arXiv:2504.04453](https://arxiv.org/abs/2504.04453) • [model](https://huggingface.co/inceptionai)
@@ -2685,6 +2707,10 @@ Zhenqiao Song, Ramith Hettiarachchi, Chuan Li, Jianwen Xie, Lei Li
 **Toward the Explainability of Protein Language Models for Sequence Design**  
 Andrea Hunklinger, Noelia Ferruz  
 [arXiv:2506.19532](https://arxiv.org/abs/2506.19532)
+
+**Metalorian: De Novo Generation of Heavy Metal-Binding Peptides with Classifier-Guided Diffusion Sampling**  
+Yinuo Zhang, Divya Srijay, Zachary Quinn, Pranam Chatterjee  
+[bioRxiv 2025.07.10.664242](https://www.biorxiv.org/content/10.1101/2025.07.10.664242v1) • ESM2-based
 
 ### 5.5 Bayesian-based
 
@@ -2997,7 +3023,7 @@ Ju-Chan Park, Heesoo Uhm, Yong-Woo Kim, Ye Eun Oh, Sangsu Bae
 
 **MeMDLM: De Novo Membrane Protein Design with Masked Discrete Diffusion Protein Language Models**
 Shrey Goel, Vishrut Thoutam, Edgar Mariano Marroquin, Aaron Gokaslan, Arash Firouzbakht, Sophia Vincoff, Volodymyr Kuleshov, Huong T. Kratochvil, Pranam Chatterjee
-[arXiv:2410.16735](https://arxiv.org/abs/2410.16735)
+[arXiv:2410.16735](https://arxiv.org/abs/2410.16735)/[ICLR 2025 Workshop LMRL](https://openreview.net/forum?id=ZnEx3GbU9C)
 
 **Retrieval Augmented Diffusion Model for Structure-informed Antibody Design and Optimization**
 Zichen Wang, Yaokun Ji, Jianing Tian, Shuangjia Zheng
@@ -3187,7 +3213,7 @@ Po-Yu Liang, Jun Bai
 
 **Generating All-Atom Protein Structure from Sequence-Only Training Data** / **All-Atom Protein Generation with Latent Diffusion**
 Amy X. Lu, Wilson Yan, Sarah A. Robinson, Kevin K. Yang, Vladimir  Gligorijevic, Kyunghyun Cho, Richard Bonneau, Pieter Abbeel, Nathan Frey
-[bioRxiv 2024.12.02.626353](https://www.biorxiv.org/content/10.1101/2024.12.02.626353v2) • [code](https://github.com/amyxlu/plaid) • [blog](https://www.matricedigitale.it/tech/intelligenza-artificiale/plaid-intelligenza-artificiale-proteine-3d/)
+[bioRxiv 2024.12.02.626353](https://www.biorxiv.org/content/10.1101/2024.12.02.626353v2)/[OpenReview](https://openreview.net/forum?id=5zNRgNMxIS) • [code](https://github.com/amyxlu/plaid) • [blog](https://www.matricedigitale.it/tech/intelligenza-artificiale/plaid-intelligenza-artificiale-proteine-3d/)
 
 **Efficient protein structure generation with sparse denoising models**
 Michael Jendrusch, Jan O. Korbel
@@ -3461,7 +3487,7 @@ Lirong Wu, Haitao Lin, Yufei Huang, Zhangyang Gao, Cheng Tan, Yunfan Liu, Tailin
 
 **Towards More Accurate Full-Atom Antibody Co-Design**
 Jiayang Wu, Xingyi Zhang, Xiangyu Dong, Kun Xie, Ziqi Liu, Wensheng Gan, Sibo Wang, Le Song
-[arXiv:2502.19391](https://arxiv.org/abs/2502.19391)
+[arXiv:2502.19391](https://arxiv.org/abs/2502.19391)/[OpenReiview](https://openreview.net/forum?id=1VLdFJFWhL)
 
 **NanoDesigner: Resolving the complex–CDR interdependency with iterative refinement**
 Melissa Maria Rios Zertuche, Şenay Kafkas, Dominik Renn, Magnus Rueping, Robert Hoehndorf
@@ -3496,6 +3522,10 @@ Zhang Zaixi, Wanxiang Shen, Qi Liu, Marinka Zitnik
 **Simulating 500 million years of evolution with a language model**
 Thomas Hayes,  Roshan Rao,  Halil Akin,  Nicholas James Sofroniew,  Deniz Oktay,  Zeming Lin, Robert Verkuil, Vincent Quy Tran, Jonathan Deaton, Marius Wiggert, Rohil Badkundri, Irhum Shafkat, Jun Gong, Alexander Derry, Raul Santiago Molina, Neil Thomas, Yousuf Khan, Chetan Mishra, Carolyn Kim, Liam J. Bartie, Patrick D. Hsu, Tom Sercu, Salvatore Candido, Alexander Rives
 [preprint](https://evolutionaryscale-public.s3.us-east-2.amazonaws.com/research/esm3.pdf)/[bioRxiv 2024.07.01.600583](https://www.biorxiv.org/content/10.1101/2024.07.01.600583v1)/[Science (2025): eads0018](https://www.science.org/doi/10.1126/science.ads0018) • [website](https://www.evolutionaryscale.ai/blog/esm3-release) • [code](https://github.com/evolutionaryscale/esm) • [colab](https://colab.research.google.com/github/evolutionaryscale/esm/blob/main/examples/generate.ipynb) • [news](https://www.nature.com/articles/d41586-024-02214-x)
+
+**Towards Protein Sequence & Structure Co-Design with Multi-Modal Language Models**  
+Stephen Zhewen Lu, Stephen_Zhewen_Lu, Jiarui Lu, Hongyu Guo, Jian Tang  
+[ICLR 2025 Workshop LMRL](https://openreview.net/forum?id=QLszcahdXR) • ESM3-based
 
 ### 6.7 MLP-based
 
@@ -3552,6 +3582,10 @@ Xuezhi Xie, Pedro A Valiente, Jisun Kim, Jin Sub Lee, Philip Kim
 **IgFlow: Flow Matching for De Novo Antibody Design**
 Sanjay Nagaraj, Amir Shanehsazzadeh, Hyun Park, Jonathan King, Simon Levine
 [Machine Learning for Structural Biology Workshop, NeurIPS 2024](https://www.mlsb.io/papers_2024/IgFlow:_Flow_Matching_for_De_Novo_Antibody_Design.pdf)
+
+**Surface-based Peptide Design with Multi-modal Flow Matching**  
+Fang Wu, Shuting Jin, xiangxiang Zeng, Jure Leskovec, Jinbo Xu  
+[ICLR 2025](https://openreview.net/forum?id=MeCPwqrm19)
 
 **Non-Linear Flow Matching for Full-Atom Peptide Design**
 Dengdeng Huang, Shikui Tu
