@@ -10,18 +10,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.07.20:*
-+   Artificial intelligence-driven computational methods for antibody design and optimization
-    + [[mAbs, 2025](https://www.tandfonline.com/doi/full/10.1080/19420862.2025.2528902)]
-+   DivPro: diverse protein sequence design with direct structure recovery guidance
-    + [[Bioinformatics (2025)](https://academic.oup.com/bioinformatics/article/41/Supplement_1/i382/8199395)] • [[code](https://github.com/veghen/DivPro)]
-+   De novo design of a fusion protein tool for GPCR research
-    + [[Proceedings of the National Academy of Sciences 122.29 (2025)](https://www.pnas.org/doi/10.1073/pnas.2422360122)]
-+   La-Proteina: Atomistic Protein Generation via Partially Latent Flow Matching
-    + [[arXiv:2507.09466](https://arxiv.org/abs/2507.09466)] • [[webstie](https://research.nvidia.com/labs/genair/la-proteina/)]
-+   Challenges and Guidelines in Deep Generative Protein Design: Four Case Studies
-    + [[FM4LS 2025](https://openreview.net/forum?id=FcfpwlFDUZ)]
-
+*Papers last week, updated on 2025.07.25:*
++   Computational Protein Design: Advancing Biotechnology through In Silico Engineering
+    + [[Progress in Biophysics and Molecular Biology (2025)](https://www.sciencedirect.com/science/article/pii/S0079610725000380)]
++   Design of linear and cyclic peptide binders from protein sequence  information
+    + [[Commun Chem 8, 211 (2025)](https://www.nature.com/articles/s42004-025-01601-3)]
++   CycleDesigner: Leveraging CycRFdiffusion and HighFold to Design Cyclic Peptide Binders for Specific Targets
+    + [[J. Chem. Inf. Model. 2025](https://pubs.acs.org/doi/10.1021/acs.jcim.5c00227)]
++   Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design
+    + [[technical report](https://www.latentlabs.com/wp-content/uploads/2025/07/Latent-X-Technical-Report.pdf)] • [[website](https://www.latentlabs.com/latent-x/)] • commercial
++   ProteinReasoner: A Multi-Modal Protein Language Model with Chain-of-Thought Reasoning for Efficient Protein Design
+    + [[bioRxiv 2025.07.21.665832](https://www.biorxiv.org/content/10.1101/2025.07.21.665832v1)]
 
 
 ---
@@ -588,6 +587,10 @@ Dequan Wang, Zheling Tan, Jin Gao, Shaoting Zhang, Jiaqi Shen & Yuming Lu
 Zengwei Kou  
 [Multiple Sclerosis and Related Disorders (2025)](https://www.msard-journal.com/article/S2211-0348(25)00335-9/fulltext)
 
+**Computational Protein Design: Advancing Biotechnology through In Silico Engineering**  
+Ranjit Ranbhor, Ruthvik Venkatesan, Amay Sanjay Redkar, Vibin Ramakrishnan  
+[Progress in Biophysics and Molecular Biology (2025)](https://www.sciencedirect.com/science/article/pii/S0079610725000380)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**
@@ -937,6 +940,10 @@ Igor Melnyk, Aurélie Lozano, Payel Das & Vijil Chenthamarakshan
 **Fold-Conditioned De Novo Binder Design via AlphaFold2-Multimer Hallucination**  
 Khondamir. R. Rustamov, Artyom Y. Baev  
 [bioRxiv 2025.07.02.662497](https://www.biorxiv.org/content/10.1101/2025.07.02.662497v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/07/05/2025.07.02.662497/DC1/embed/media-1.docx) • [code](https://github.com/KhondamirRustamov/FoldCraft)
+
+**Design of linear and cyclic peptide binders from protein sequence  information**  
+Qiuzhen Li, Efstathios Nikolaos Vlachos & Patrick Bryant  
+[Commun Chem 8, 211 (2025)](https://www.nature.com/articles/s42004-025-01601-3)
 
 #### 2.1.3 DMPfold2-based
 
@@ -2737,6 +2744,10 @@ Andrea Hunklinger, Noelia Ferruz
 Yinuo Zhang, Divya Srijay, Zachary Quinn, Pranam Chatterjee  
 [bioRxiv 2025.07.10.664242](https://www.biorxiv.org/content/10.1101/2025.07.10.664242v1) • ESM2-based
 
+**ProteinReasoner: A Multi-Modal Protein Language Model with Chain-of-Thought Reasoning for Efficient Protein Design**  
+Chaozhong Liu, Linlin Chao, Shaomin Ji, Hao Wang, Taorui Jiang, Zhangyang Gao, Yucheng Guo, Ming Yang, Xiaoming Zhang  
+[bioRxiv 2025.07.21.665832](https://www.biorxiv.org/content/10.1101/2025.07.21.665832v1)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -3368,7 +3379,11 @@ Chenhao Zhang, Zhenyu Xu, Kang Lin, Chengyun Zhang, Wen Xu, Hongliang Duan
 
 **De novo designed pMHC binders facilitate T cell induced killing of cancer cells**
 Kristoffer Haurum Johansen, Darian Stephan Wolff, Beatrice Scapolo, Monica L. Fernández Quintero, Charlotte Risager Christensen, Johannes R. Loeffler, Esperanza Rivera-de-Torre, Max D. Overath, Kamilla Kjærgaard Munk, Oliver Morell, Marie Christine Viuff, Alberte T. Damm Englund, Mathilde Due, Stefano Forli, Emma Qingjie Andersen, Jordan Sylvester Fernandes, Suthimon Thumtecho, Andrew B. Ward, Maria Ormhøj, Sine Reker Hadrup, Timothy P. Jenkins
-[bioRxiv 2024.11.27.624796](https://www.biorxiv.org/content/10.1101/2024.11.27.624796v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/03/2024.11.27.624796/DC1/embed/media-1.pdf)
+[bioRxiv 2024.11.27.624796](https://www.biorxiv.org/content/10.1101/2024.11.27.624796v1)/[Science389,380-385(2025)](https://www.science.org/doi/10.1126/science.adv0422) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/03/2024.11.27.624796/DC1/embed/media-1.pdf)
+
+**Design of high specificity binders for peptide-MHC-I complexes**  
+Bingxu Liu, Nathan F. Greenwood, Julia E. Bonzanini, Amir Motmaen, Jazmin Sharp, Chunyu Wang, Gian Marco Visani, Dionne K. Vafeados, Nicole Roullier, Armita Nourmohammad, K. Christopher Garcia, David Baker  
+[bioRxiv 2024.11.28.625793](https://www.biorxiv.org/content/10.1101/2024.11.28.625793v1)/[Science389,386-391(2025)](https://www.science.org/doi/10.1126/science.adv0185)
 
 **Target-conditioned diffusion generates potent TNFR superfamily antagonists and agonists**
 Matthias Glögl, Aditya Krishnakumar, Robert J. Ragotte, Inna Goreshnik, Brian Coventry, Asim K. Bera, Alex Kang, Emily Joyce, Green Ahn, Buwei Huang, Wei Yang, Wei Chen, Mariana Garcia Sanchez, Brian Koepnick, David Baker
@@ -3396,7 +3411,7 @@ Yo Akiyama, Sergey Ovchinnikov
 
 **De novo design and structure of a peptide-centric TCR mimic binding module**
 Karsten D. Householder, Xinyu Xiang, Kevin M. Jude, Arthur Deng, Matthias Obenaus, Steven C. Wilson, Xiaojing Chen, Nan Wang, K. Christopher Garcia
-[bioRxiv 2024.12.16.628822](https://www.biorxiv.org/content/10.1101/2024.12.16.628822v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.16.628822/DC1/embed/media-1.pdf) • RFDiffusion/ProteinMPNN-based
+[bioRxiv 2024.12.16.628822](https://www.biorxiv.org/content/10.1101/2024.12.16.628822v1)/[Science389,375-379(2025)](https://www.science.org/doi/10.1126/science.adv3813) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.16.628822/DC1/embed/media-1.pdf) • RFDiffusion/ProteinMPNN-based
 
 **Bottom-up design of calcium channels from defined selectivity filter geometry**
 Yulai Liu, Connor Weidle, Ljubica Mihaljevic, Joseph L. Watson, Zhe Li, Le Tracy Yu, Sagardip Majumder, Andrew J. Borst, Kenneth D. Carr, Ryan D. Kibler, Tamer M. Gamal El-Din, William A. Catterall, David Baker
@@ -3453,6 +3468,10 @@ Krishiv Potluri
 **De novo design of a fusion protein tool for GPCR research**  
 Kaixuan Gao, Xin Zhang, Jia Nie, Hengyu Meng, Weishe Zhang, Boxue Tian, and Xiangyu Liu  
 [Proceedings of the National Academy of Sciences 122.29 (2025)](https://www.pnas.org/doi/10.1073/pnas.2422360122)
+
+**CycleDesigner: Leveraging CycRFdiffusion and HighFold to Design Cyclic Peptide Binders for Specific Targets**  
+Chenhao ZhangZhenyu XuKang LinNing ZhuChengyun ZhangWen XuJingjing GuoAn SuChengxi LiHongliang Duan  
+[J. Chem. Inf. Model. 2025](https://pubs.acs.org/doi/10.1021/acs.jcim.5c00227)
 
 ### 6.4 CNN-based
 
@@ -3661,6 +3680,10 @@ Rubo Wang, Fandi Wu, Xingyu Gao, Jiaxiang Wu, Peilin Zhao, Jianhua Yao
 **An All-Atom Generative Model for Designing Protein Complexes**
 Ruizhe Chen, Dongyu Xue, Xiangxin Zhou, Zaixiang Zheng, Xiangxiang Zeng, Quanquan Gu
 [arXiv:2504.13075](https://arxiv.org/abs/2504.13075) • [code](https://github.com/bytedance/apm)
+
+**Repurposing AlphaFold3-like Protein Folding Models for Antibody Sequence and Structure Co-design**  
+Nianzu Yang, Nianzu_Yang, Jian Ma, Songlin Jiang, Huaijin Wu, Shuangjia Zheng, Wengong Jin, Junchi Yan  
+[OpenReview](https://openreview.net/forum?id=Ja2le9YnqN)
 
 ## 7. Other tasks
 
@@ -4013,3 +4036,7 @@ Guan, Jiaqi, et al
 **Chai-2: Zero-Shot Antibody Discovery in a 24-well Plate**  
 Chai Discovery Team  
 [technical report](https://chaiassets.com/chai-2/paper/technical_report.pdf) • [news](https://www.chaidiscovery.com/news/introducing-chai-2) • commercial
+
+**Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design**  
+Latent Labs Team  
+[technical report](https://www.latentlabs.com/wp-content/uploads/2025/07/Latent-X-Technical-Report.pdf) • [website](https://www.latentlabs.com/latent-x/) • commercial
