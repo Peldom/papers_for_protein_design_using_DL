@@ -10,17 +10,29 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.07.25:*
-+   Computational Protein Design: Advancing Biotechnology through In Silico Engineering
-    + [[Progress in Biophysics and Molecular Biology (2025)](https://www.sciencedirect.com/science/article/pii/S0079610725000380)]
-+   Design of linear and cyclic peptide binders from protein sequence  information
-    + [[Commun Chem 8, 211 (2025)](https://www.nature.com/articles/s42004-025-01601-3)]
-+   CycleDesigner: Leveraging CycRFdiffusion and HighFold to Design Cyclic Peptide Binders for Specific Targets
-    + [[J. Chem. Inf. Model. 2025](https://pubs.acs.org/doi/10.1021/acs.jcim.5c00227)]
-+   Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design
-    + [[technical report](https://www.latentlabs.com/wp-content/uploads/2025/07/Latent-X-Technical-Report.pdf)] • [[website](https://www.latentlabs.com/latent-x/)] • commercial
-+   ProteinReasoner: A Multi-Modal Protein Language Model with Chain-of-Thought Reasoning for Efficient Protein Design
-    + [[bioRxiv 2025.07.21.665832](https://www.biorxiv.org/content/10.1101/2025.07.21.665832v1)]
+*Papers last week, updated on 2025.08.02:*
++   Advances of computational protein design: Principles, strategies and applications in nutrition and health
+    + Guanghua Zhao, Chenyan Lv, Zhongjiang Wang
++   Computational design of bifaceted protein nanomaterials
+    + [[Nat. Mater. (2025)](https://www.nature.com/articles/s41563-025-02295-7)]
++   Evaluating zero-shot prediction of protein design success by AlphaFold, ESMFold, and ProteinMPNN
+    + [[bioRxiv 2025.07.29.667290](https://www.biorxiv.org/content/10.1101/2025.07.29.667290v1)]
++   Design of peptides with non-canonical amino acids using flow matching
+    + [[bioRxiv 2025.07.31.667780](https://www.biorxiv.org/content/10.1101/2025.07.31.667780v1)]
++   Artificial intelligence in de novo protein design
+    + [[Medicine in Novel Technology and Devices (2025)](https://www.sciencedirect.com/science/article/pii/S2590093525000177)]
++   Fully functional AAV viral vectors with highly altered structural cores and subunit interfaces using ProteinMPNN
+    + [[bioRxiv 2025.07.24.666527](https://www.biorxiv.org/content/10.1101/2025.07.24.666527v1)]
++   Generative Design of High-Affinity Peptides Using BindCraft
+    + [[bioRxiv 2025.07.23.666285](https://www.biorxiv.org/content/10.1101/2025.07.23.666285v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/07/25/2025.07.23.666285/DC1/embed/media-1.pdf)]
++   The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies
+    + [[Nature (2025)](https://www.nature.com/articles/s41586-025-09442-9)]
++   De Novo Design of High-Performance Cortisol Luminescent Biosensors
+    + [[J. Am. Chem. Soc](https://pubs.acs.org/doi/abs/10.1021/jacs.5c05004)]
++   Multi-state Protein Design with DynamicMPNN
+    + [[arXiv:2507.21938](https://arxiv.org/abs/2507.21938)] • [[code](https://github.com/Alex-Abrudan/DynamicMPNN)]
++   AMix-1: A Pathway to Test-Time Scalable Protein Foundation Model
+    + [[arXiv:2507.08920](https://arxiv.org/abs/2507.08920)] • [[code](https://gensi-thuair.github.io/AMix-1/)]
 
 
 ---
@@ -188,6 +200,10 @@ Svetlana P. Ikonomova, Bruce J. Wittmann, Fernanda Piorino, David J. Ross, Samue
 Xinyan Zhao, Yi-Ching Tang, Akshita Singh, Victor J Cantu, KwanHo An, Junseok Lee, Adam E Stogsdill, Ashwin Kumar Ramesh, Zhiqiang An, Xiaoqian Jiang, Yejin Kim  
 [arXiv:2506.04235](https://arxiv.org/abs/2506.04235) • [dataset](https://huggingface.co/datasets/AbBibench/Antibody_Binding_Benchmark_Dataset) • [code](https://github.com/MSBMI-SAFE/AbBiBench)
 
+**The Dayhoff Atlas: scaling sequence diversity for improved protein generation**  
+Kevin K. Yang, Sarah Alamdari, Alex J. Lee, Kaeli Kaymak-Loveless, Samir Char, Garyk Brixi, Carles Domingo-Enrich, Chentong Wang, Suyue Lyu, Nicolo Fusi, Neil Tenenholtz, Ava P. Amini  
+[bioRxiv 2025.07.21.665991](https://www.biorxiv.org/content/10.1101/2025.07.21.665991v1) • [code](https://github.com/microsoft/dayhoff) • [dataset](https://huggingface.co/collections/microsoft/dayhoff-atlas-6866d679465a2685b06ee969)
+
 ### 0.2 Structure Datasets, Benchmarks
 
 **AlphaDesign: A graph protein design method and benchmark on AlphaFoldDB**
@@ -274,6 +290,14 @@ Jiahao Kuang, Nuowei Liu, Changzhi Sun, Tao Ji, Yuanbin Wu
 **An improved model for prediction of de novo designed proteins with diverse geometries**  
 Benjamin Orr, Stephanie E Crilly, Deniz Akpinaroglu, Eleanor Zhu, Michael J. Keiser, Tanja Kortemme  
 [bioRxiv 2025.06.02.657515](https://www.biorxiv.org/content/10.1101/2025.06.02.657515v1)
+
+**Protein-SE(3): Benchmarking SE(3)-based Generative Models for Protein Structure Design**  
+Lang Yu, Zhangyang Gao, Cheng Tan, Qin Chen, Jie Zhou, Liang He
+[arXiv:2507.20243](https://arxiv.org/abs/2507.20243v1)
+
+**Evaluating zero-shot prediction of protein design success by AlphaFold, ESMFold, and ProteinMPNN**  
+Mario Garcia, Gabriel Jacob Rocklin, Sugyan Dixit  
+[bioRxiv 2025.07.29.667290](https://www.biorxiv.org/content/10.1101/2025.07.29.667290v1)
 
 ### 0.3 Databases
 
@@ -590,6 +614,15 @@ Zengwei Kou
 **Computational Protein Design: Advancing Biotechnology through In Silico Engineering**  
 Ranjit Ranbhor, Ruthvik Venkatesan, Amay Sanjay Redkar, Vibin Ramakrishnan  
 [Progress in Biophysics and Molecular Biology (2025)](https://www.sciencedirect.com/science/article/pii/S0079610725000380)
+
+**Advances of computational protein design: Principles, strategies and applications in nutrition and health**  
+Ziling Zhao, Qiyang Qu, Fuwei Sun, Jiachen Zang, Bowen Zheng, Tuo Zhang, 
+Guanghua Zhao, Chenyan Lv, Zhongjiang Wang  
+[Biotechnology Advances (2025)](https://www.sciencedirect.com/science/article/pii/S0734975025001429)
+
+**Artificial intelligence in de novo protein design**  
+Yao, Jiawei, and Xiaogang Wang  
+[Medicine in Novel Technology and Devices (2025)](https://www.sciencedirect.com/science/article/pii/S2590093525000177)
 
 ### 1.2 Antibody design
 
@@ -944,6 +977,10 @@ Khondamir. R. Rustamov, Artyom Y. Baev
 **Design of linear and cyclic peptide binders from protein sequence  information**  
 Qiuzhen Li, Efstathios Nikolaos Vlachos & Patrick Bryant  
 [Commun Chem 8, 211 (2025)](https://www.nature.com/articles/s42004-025-01601-3)
+
+**Generative Design of High-Affinity Peptides Using BindCraft**  
+Mike Filius, Thanasis Patsos, Hugo Minee, Gianluca Turco, Jingming Liu, Monika Gnatzy, Ramon S.M. Rooth, Andy C. H. Liu, Rosa D.T. Ta, Isa H. A. Rijk, Safiya Ziani, Femke J. Boxman, Sebastian J. Pomplun  
+[bioRxiv 2025.07.23.666285](https://www.biorxiv.org/content/10.1101/2025.07.23.666285v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/07/25/2025.07.23.666285/DC1/embed/media-1.pdf)
 
 #### 2.1.3 DMPfold2-based
 
@@ -1850,6 +1887,22 @@ Gizem Gokce-Alpkilic, Buwei Huang, Andi Liu, Lieselotte S.M. Kreuk, Yaxi Wang, V
 Abeeb A. Yekeen, Cynthia J. Meyer, Melissa McCoy, Bruce Posner, Kenneth D. Westover  
 [bioRxiv 2025.07.04.663216](https://www.biorxiv.org/content/10.1101/2025.07.04.663216v1) • ProteinMPNN-based
 
+**Fully functional AAV viral vectors with highly altered structural cores and subunit interfaces using ProteinMPNN**  
+Ziyu Jiang, Sirimar Laosinwattana, Paul A. Dalby  
+[bioRxiv 2025.07.24.666527](https://www.biorxiv.org/content/10.1101/2025.07.24.666527v1)
+
+**Computational design of bifaceted protein nanomaterials**  
+Sanela Rankovic, Kenneth D. Carr, Justin Decarreau, Rebecca Skotheim, Ryan D. Kibler, Sebastian Ols, Sangmin Lee, Jung-Ho Chun, Marti R. Tooley, Justas Dauparas, Helen E. Eisenach, Matthias Glögl, Connor Weidle, Andrew J. Borst, David Baker & Neil P. King  
+[Nat. Mater. (2025)](https://www.nature.com/articles/s41563-025-02295-7)
+
+**Multi-state Protein Design with DynamicMPNN**  
+Alex Abrudan, Sebastian Pujalte Ojeda, Chaitanya K. Joshi, Matthew Greenig, Felipe Engelberger, Alena Khmelinskaia, Jens Meiler, Michele Vendruscolo, Tuomas P. J. Knowles  
+[arXiv:2507.21938](https://arxiv.org/abs/2507.21938) • [code](https://github.com/Alex-Abrudan/DynamicMPNN)
+
+**De Novo Design of High-Performance Cortisol Luminescent Biosensors**
+Julie Yi-Hsuan Chen, Xue Peng, Chenggang Xi, Gyu Rie Lee, David Baker, Andy Hsien-Wei Yeh  
+[J. Am. Chem. Soc](https://pubs.acs.org/doi/abs/10.1021/jacs.5c05004)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**
@@ -2748,6 +2801,14 @@ Yinuo Zhang, Divya Srijay, Zachary Quinn, Pranam Chatterjee
 Chaozhong Liu, Linlin Chao, Shaomin Ji, Hao Wang, Taorui Jiang, Zhangyang Gao, Yucheng Guo, Ming Yang, Xiaoming Zhang  
 [bioRxiv 2025.07.21.665832](https://www.biorxiv.org/content/10.1101/2025.07.21.665832v1)
 
+**The Dayhoff Atlas: scaling sequence diversity for improved protein generation**  
+Kevin K. Yang, Sarah Alamdari, Alex J. Lee, Kaeli Kaymak-Loveless, Samir Char, Garyk Brixi, Carles Domingo-Enrich, Chentong Wang, Suyue Lyu, Nicolo Fusi, Neil Tenenholtz, Ava P. Amini  
+[bioRxiv 2025.07.21.665991](https://www.biorxiv.org/content/10.1101/2025.07.21.665991v1) • [code](https://github.com/microsoft/dayhoff) • [dataset](https://huggingface.co/collections/microsoft/dayhoff-atlas-6866d679465a2685b06ee969)
+
+**The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies**  
+Kyle Swanson, Wesley Wu, Nash L. Bulaong, John E. Pak & James Zou  
+[Nature (2025)](https://www.nature.com/articles/s41586-025-09442-9)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -2813,6 +2874,10 @@ Carolin Benjamins, Shikha Surana, Oliver Bent, Marius Lindauer, Paul Duckworth
 **Steering Protein Family Design through Profile Bayesian Flow**
 Jingjing Gong, Yu Pei, Siyu Long, Yuxuan Song, Zhe Zhang, Wenhao Huang, Ziyao Cao, Shuyi Zhang, Hao Zhou, Wei-Ying Ma
 [arXiv:2502.07671](https://arxiv.org/abs/2502.07671)
+
+**AMix-1: A Pathway to Test-Time Scalable Protein Foundation Model**  
+Changze Lv, Jiang Zhou, Siyu Long, Lihao Wang, Jiangtao Feng, Dongyu Xue, Yu Pei, Hao Wang, Zherui Zhang, Yuchen Cai, Zhiqiang Gao, Ziyuan Ma, Jiakai Hu, Chaochen Gao, Jingjing Gong, Yuxuan Song, Shuyi Zhang, Xiaoqing Zheng, Deyi Xiong, Lei Bai, Wanli Ouyang, Ya-Qin Zhang, Wei-Ying Ma, Bowen Zhou, Hao Zhou  
+[arXiv:2507.08920](https://arxiv.org/abs/2507.08920) • [code](https://gensi-thuair.github.io/AMix-1/)
 
 ### 5.6 RL-based
 
@@ -3327,7 +3392,7 @@ Amijai Saragovi, Harley Pyles, Paul Kwon, Nikita Hanikel, Fátima A. Dávila-Her
 
 **Diffusing protein binders to intrinsically disordered proteins**
 Caixuan Liu, Kejia Wu, Hojun Choi, Hannah Han, Xueli Zhang, Joseph L Watson, Sara Shijo, Asim K Bera, Alex Kang, Evans Brackenbrough, Brian Coventry, Derrick R Hick, Andrew N Hoofnagle, Ping Zhu, Xingting Li, Justin Decarreau, Stacey R Gerben, Wei Yang, Xinru Wang, Mila Lamp, Analisa Murray, Magnus Bauer, David Baker
-[bioRxiv 2024.07.16.603789](https://www.biorxiv.org/content/10.1101/2024.07.16.603789v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/07/16/2024.07.16.603789/DC1/embed/media-1.mov)
+[bioRxiv 2024.07.16.603789](https://www.biorxiv.org/content/10.1101/2024.07.16.603789v1)/[Nature (2025)](https://www.nature.com/articles/s41586-025-09248-9) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/07/16/2024.07.16.603789/DC1/embed/media-1.mov)
 
 **Parametrically guided design of beta barrels and transmembrane nanopores using deep learning**
 David E. Kim, Joseph L. Watson, David Juergens, Sagardip Majumder, Stacey R. Gerben, Alex Kang, Asim K. Bera, Xinting Li, David Baker
@@ -3395,7 +3460,7 @@ Zhiyuan Yao, Brian Kuhlman
 
 **Inhibiting heme-piracy by pathogenic Escherichia coli using de novo-designed proteins**
 Daniel R Fox, Kazem Asadollahi, Imogen G Samuels, Bradley Spicer, Ashleigh Kropp, Chris Lupton, Kevin Lim, Chunxiao Wang, Hariprasad Venugopal, Marija Dramicanin, Gavin J Knott, Rhys Grinter
-[bioRxiv 2024.12.05.626953](https://www.biorxiv.org/content/10.1101/2024.12.05.626953v1) • RFDiffusion/ProteinMPNN-based
+[bioRxiv 2024.12.05.626953](https://www.biorxiv.org/content/10.1101/2024.12.05.626953v1)/[Nat Commun 16, 6066 (2025)](https://www.nature.com/articles/s41467-025-60612-9) • RFDiffusion/ProteinMPNN-based
 
 **De novo design of potent CRISPR-Cas13 inhibitors**
 Cyntia Taveneau, Her Xiang Chai, Jovita D'Silva, Rebecca S Bamert, Brooke K Hayes, Roland W Calvert, Daniel J Curwen, Fabian Munder, Lisandra L Martin, Jeremy J Barr, Rhys Grinter, Gavin J Knott
@@ -3651,6 +3716,10 @@ Cheng Tan, Yijie Zhang, Zhangyang Gao, Yufei Huang, Haitao Lin, Lirong Wu, Fandi
 BioGeometry Team
 [preprint](https://open-res.biogeom.com/geoflow-v2/technical-report.pdf) • [website](https://prot.design/) • commercial
 
+**All-atom inverse protein folding through discrete flow matching**  
+Kai Yi, Kiarash Jamali, Sjors HW Scheres  
+[ICML 2025 poster](https://openreview.net/forum?id=8tQdwSCJmA)
+
 **Co-Design protein sequence and structure in discrete space via generative flow**  
 Sen Yang, Lingli Ju, Cheng Peng, JiangLin Zhou, Yamin Cai, Dawei Feng  
 [Bioinformatics, 2025](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaf248/8123382) • [code](https://github.com/LtECoD/CoFlow) • [model](https://zenodo.org/records/14842367)
@@ -3658,6 +3727,10 @@ Sen Yang, Lingli Ju, Cheng Peng, JiangLin Zhou, Yamin Cai, Dawei Feng
 **La-Proteina: Atomistic Protein Generation via Partially Latent Flow Matching**  
 Tomas Geffner, Kieran Didi, Zhonglin Cao, Danny Reidenbach, Zuobai Zhang, Christian Dallago, Emine Kucukbenli, Karsten Kreis, Arash Vahdat  
 [arXiv:2507.09466](https://arxiv.org/abs/2507.09466) • [webstie](https://research.nvidia.com/labs/genair/la-proteina/)
+
+**Design of peptides with non-canonical amino acids using flow matching**  
+Jin Sub Lee, Philip M Kim  
+[bioRxiv 2025.07.31.667780](https://www.biorxiv.org/content/10.1101/2025.07.31.667780v1)
 
 ### 6.9 AlphaFold-based
 
