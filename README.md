@@ -10,29 +10,18 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.08.02:*
-+   Advances of computational protein design: Principles, strategies and applications in nutrition and health
-    + Guanghua Zhao, Chenyan Lv, Zhongjiang Wang
-+   Computational design of bifaceted protein nanomaterials
-    + [[Nat. Mater. (2025)](https://www.nature.com/articles/s41563-025-02295-7)]
-+   Evaluating zero-shot prediction of protein design success by AlphaFold, ESMFold, and ProteinMPNN
-    + [[bioRxiv 2025.07.29.667290](https://www.biorxiv.org/content/10.1101/2025.07.29.667290v1)]
-+   Design of peptides with non-canonical amino acids using flow matching
-    + [[bioRxiv 2025.07.31.667780](https://www.biorxiv.org/content/10.1101/2025.07.31.667780v1)]
-+   Artificial intelligence in de novo protein design
-    + [[Medicine in Novel Technology and Devices (2025)](https://www.sciencedirect.com/science/article/pii/S2590093525000177)]
-+   Fully functional AAV viral vectors with highly altered structural cores and subunit interfaces using ProteinMPNN
-    + [[bioRxiv 2025.07.24.666527](https://www.biorxiv.org/content/10.1101/2025.07.24.666527v1)]
-+   Generative Design of High-Affinity Peptides Using BindCraft
-    + [[bioRxiv 2025.07.23.666285](https://www.biorxiv.org/content/10.1101/2025.07.23.666285v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/07/25/2025.07.23.666285/DC1/embed/media-1.pdf)]
-+   The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies
-    + [[Nature (2025)](https://www.nature.com/articles/s41586-025-09442-9)]
-+   De Novo Design of High-Performance Cortisol Luminescent Biosensors
-    + [[J. Am. Chem. Soc](https://pubs.acs.org/doi/abs/10.1021/jacs.5c05004)]
-+   Multi-state Protein Design with DynamicMPNN
-    + [[arXiv:2507.21938](https://arxiv.org/abs/2507.21938)] • [[code](https://github.com/Alex-Abrudan/DynamicMPNN)]
-+   AMix-1: A Pathway to Test-Time Scalable Protein Foundation Model
-    + [[arXiv:2507.08920](https://arxiv.org/abs/2507.08920)] • [[code](https://gensi-thuair.github.io/AMix-1/)]
+*Papers last week, updated on 2025.08.08:*
++   Heuristic Multi-site Optimization for Protein Sequence Design using Masked Protein Language Models
+    + [[bioRxiv 2025.07.31.668012](https://www.biorxiv.org/content/10.1101/2025.07.31.668012v1)]
++   Accelerating protein design by scaling experimental characterization
+    + [[bioRxiv 2025.08.05.668824](https://www.biorxiv.org/content/10.1101/2025.08.05.668824v1)] • [[code](https://github.com/bwicky/SAPP_DMX)]
++   AI-generated MLH1 small binder improves prime editing efficiency
+    + [[Cell (2025)](https://www.cell.com/cell/fulltext/S0092-8674(25)]00799-8) • [[code](https://github.com/baelab/PE-SB)]
++   Demystify Protein Generation with Hierarchical Conditional Diffusion Models
+    + [[arXiv:2507.18603](https://arxiv.org/abs/2507.18603)]
++   Enhancing Safe and Controllable Protein Generation via Knowledge Preference Optimization
+    + [[arXiv:2507.10923](https://arxiv.org/abs/2507.10923)] • [[code](https://github.com/HICAI-ZJU/KPO)]
+
 
 
 ---
@@ -1903,6 +1892,10 @@ Alex Abrudan, Sebastian Pujalte Ojeda, Chaitanya K. Joshi, Matthew Greenig, Feli
 Julie Yi-Hsuan Chen, Xue Peng, Chenggang Xi, Gyu Rie Lee, David Baker, Andy Hsien-Wei Yeh  
 [J. Am. Chem. Soc](https://pubs.acs.org/doi/abs/10.1021/jacs.5c05004)
 
+**Accelerating protein design by scaling experimental characterization**  
+Jason Qian, Lukas F. Milles, Basile I. M. Wicky, Amir Motmaen, Xinting Li, Ryan D. Kibler, Lance Stewart, David Baker  
+[bioRxiv 2025.08.05.668824](https://www.biorxiv.org/content/10.1101/2025.08.05.668824v1) • [code](https://github.com/bwicky/SAPP_DMX)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**
@@ -2809,6 +2802,10 @@ Kevin K. Yang, Sarah Alamdari, Alex J. Lee, Kaeli Kaymak-Loveless, Samir Char, G
 Kyle Swanson, Wesley Wu, Nash L. Bulaong, John E. Pak & James Zou  
 [Nature (2025)](https://www.nature.com/articles/s41586-025-09442-9)
 
+**Enhancing Safe and Controllable Protein Generation via Knowledge Preference Optimization**  
+Yuhao Wang, Keyan Ding, Kehua Feng, Zeyuan Wang, Ming Qin, Xiaotong Li, Qiang Zhang, Huajun Chen  
+[arXiv:2507.10923](https://arxiv.org/abs/2507.10923) • [code](https://github.com/HICAI-ZJU/KPO)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -3340,6 +3337,10 @@ Zhenqiao Song, Tiaoxiao Li, Lei Li, Martin Renqiang Min
 Jiameng Chen, Xiantao Cai, Jia Wu, Wenbin Hu  
 [arXiv:2506.20957](https://arxiv.org/abs/2506.20957v1) • [code](https://github.com/Patrick221215/AbMEGD)
 
+**Demystify Protein Generation with Hierarchical Conditional Diffusion Models**  
+Zinan Ling, Yi Shi, Da Yan, Yang Zhou, Bo Hui  
+[arXiv:2507.18603](https://arxiv.org/abs/2507.18603)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites** / **Scaffolding protein functional sites using deep learning**
@@ -3537,6 +3538,10 @@ Kaixuan Gao, Xin Zhang, Jia Nie, Hengyu Meng, Weishe Zhang, Boxue Tian, and Xian
 **CycleDesigner: Leveraging CycRFdiffusion and HighFold to Design Cyclic Peptide Binders for Specific Targets**  
 Chenhao ZhangZhenyu XuKang LinNing ZhuChengyun ZhangWen XuJingjing GuoAn SuChengxi LiHongliang Duan  
 [J. Chem. Inf. Model. 2025](https://pubs.acs.org/doi/10.1021/acs.jcim.5c00227)
+
+**AI-generated MLH1 small binder improves prime editing efficiency**  
+Ju-Chan Park, Heesoo Uhm, Yong-Woo Kim, Ye Eun Oh, Jang Hyeon Lee, Jiyun Yang, Kyoungmi Kim, Sangsu Bae  
+[Cell (2025)](https://www.cell.com/cell/fulltext/S0092-8674(25)00799-8) • [code](https://github.com/baelab/PE-SB)
 
 ### 6.4 CNN-based
 
@@ -4001,6 +4006,10 @@ Alex Hawkins-Hooker, Shikha Surana, Jack Simons, Jakub Kmec, Oliver Bent, Paul D
 **ProSpero: Active Learning for Robust Protein Design Beyond Wild-Type Neighborhoods**  
 Michal Kmicikiewicz, Vincent Fortuin, Ewa Szczurek  
 [arXiv:2505.22494](https://arxiv.org/abs/2505.22494v1)
+
+**Heuristic Multi-site Optimization for Protein Sequence Design using Masked Protein Language Models**  
+Lijuan Wang, Yuze Wang, Chen Qiu, Liwei Xiao, Xianliang Liu, Junjie Chen  
+[bioRxiv 2025.07.31.668012](https://www.biorxiv.org/content/10.1101/2025.07.31.668012v1)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
