@@ -10,17 +10,22 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.08.08:*
-+   Heuristic Multi-site Optimization for Protein Sequence Design using Masked Protein Language Models
-    + [[bioRxiv 2025.07.31.668012](https://www.biorxiv.org/content/10.1101/2025.07.31.668012v1)]
-+   Accelerating protein design by scaling experimental characterization
-    + [[bioRxiv 2025.08.05.668824](https://www.biorxiv.org/content/10.1101/2025.08.05.668824v1)] • [[code](https://github.com/bwicky/SAPP_DMX)]
-+   AI-generated MLH1 small binder improves prime editing efficiency
-    + [[Cell (2025)](https://www.cell.com/cell/fulltext/S0092-8674(25)]00799-8) • [[code](https://github.com/baelab/PE-SB)]
-+   Demystify Protein Generation with Hierarchical Conditional Diffusion Models
-    + [[arXiv:2507.18603](https://arxiv.org/abs/2507.18603)]
-+   Enhancing Safe and Controllable Protein Generation via Knowledge Preference Optimization
-    + [[arXiv:2507.10923](https://arxiv.org/abs/2507.10923)] • [[code](https://github.com/HICAI-ZJU/KPO)]
+*Papers last week, updated on 2025.08.17:*
++   AI-Driven De Novo Design of Ultra Long-Acting GLP-1 Receptor Agonists
+    + [[Advanced science (Weinheim, Baden-Wurttemberg, Germany)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202507044)] • ProteinMPNN-based
++   Target sequence-conditioned design of peptide binders using masked language modeling
+    + [[Nat Biotechnol (2025)](https://www.nature.com/articles/s41587-025-02761-2)] • [[code](https://github.com/programmablebio/pepmlm)] • [[model](https://huggingface.co/ChatterjeeLab/PepMLM-650M)]
++   De novo design of light-regulated dynamic proteins using deep learning
+    + [[bioRxiv 2025.08.12.669910](https://www.biorxiv.org/content/10.1101/2025.08.12.669910v1)] • RFDiffusion/ProteinMPNN-based
++   PXDesign: Fast, Modular, and Accurate De Novo Design of Protein Binders
+    + [[technical report](https://protenix.github.io/pxdesign/technical_report.pdf)]/[[bioRxiv 2025.08.15.670450](https://www.biorxiv.org/content/10.1101/2025.08.15.670450v1)] • [[code](https://github.com/bytedance/PXDesignBench)] • [[server](https://protenix-server.com/)] • [[data]([supplements/670450_file03.zip])]
++   Predicting Experimental Success in De Novo Binder Design: A Meta-Analysis of 3,766 Experimentally Characterised Binders
+    + [[bioRxiv 2025.08.14.670059](https://www.biorxiv.org/content/10.1101/2025.08.14.670059v1)] • [[dataset](https://zenodo.org/records/15722219)]
++   ICEPIC: A Toolkit to Discover Ice Binding Proteins from Sequence
+    + [[bioRxiv 2025.08.08.669420](https://www.biorxiv.org/content/10.1101/2025.08.08.669420v2)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/08/14/2025.08.08.669420/DC1/embed/media-1.pdf)] • [[code](https://github.com/netrias/ICEPIC)]
++   Investigating the impacts of sidechains on de-novo protein design
+    + [[bioRxiv 2025.08.08.669410](https://www.biorxiv.org/content/10.1101/2025.08.08.669410v1)]
+
 
 
 
@@ -287,6 +292,10 @@ Lang Yu, Zhangyang Gao, Cheng Tan, Qin Chen, Jie Zhou, Liang He
 **Evaluating zero-shot prediction of protein design success by AlphaFold, ESMFold, and ProteinMPNN**  
 Mario Garcia, Gabriel Jacob Rocklin, Sugyan Dixit  
 [bioRxiv 2025.07.29.667290](https://www.biorxiv.org/content/10.1101/2025.07.29.667290v1)
+
+**Predicting Experimental Success in De Novo Binder Design: A Meta-Analysis of 3,766 Experimentally Characterised Binders**  
+Max Daniel Overath, Andreas Rygaard, Christian Peder Jacobsen, Valentas Brasas, Oliver Morell, Pietro Sormanni, Timothy Patrick Jenkins  
+[bioRxiv 2025.08.14.670059](https://www.biorxiv.org/content/10.1101/2025.08.14.670059v1) • [dataset](https://zenodo.org/records/15722219)
 
 ### 0.3 Databases
 
@@ -1896,6 +1905,10 @@ Julie Yi-Hsuan Chen, Xue Peng, Chenggang Xi, Gyu Rie Lee, David Baker, Andy Hsie
 Jason Qian, Lukas F. Milles, Basile I. M. Wicky, Amir Motmaen, Xinting Li, Ryan D. Kibler, Lance Stewart, David Baker  
 [bioRxiv 2025.08.05.668824](https://www.biorxiv.org/content/10.1101/2025.08.05.668824v1) • [code](https://github.com/bwicky/SAPP_DMX)
 
+**AI-Driven De Novo Design of Ultra Long-Acting GLP-1 Receptor Agonists**  
+Ting Wei, Jiating Ma, Xiaochen Cui, Jiahui Lin, Zhuoqi Zheng, Liu Cheng, Taiying Cui, Xiaoqian Lin, Junjie Zhu, Xuyang Ran, Xiaokun Hong, Luke Johnston, Zhangsheng Yu, Haifeng Chen  
+[Advanced science (Weinheim, Baden-Wurttemberg, Germany)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202507044) • ProteinMPNN-based
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**
@@ -2806,6 +2819,14 @@ Kyle Swanson, Wesley Wu, Nash L. Bulaong, John E. Pak & James Zou
 Yuhao Wang, Keyan Ding, Kehua Feng, Zeyuan Wang, Ming Qin, Xiaotong Li, Qiang Zhang, Huajun Chen  
 [arXiv:2507.10923](https://arxiv.org/abs/2507.10923) • [code](https://github.com/HICAI-ZJU/KPO)
 
+**Target sequence-conditioned design of peptide binders using masked language modeling**  
+Leo Tianlai Chen, Zachary Quinn, Madeleine Dumas, Christina Peng, Lauren Hong, Moises Lopez-Gonzalez, Alexander Mestre, Rio Watson, Sophia Vincoff, Lin Zhao, Jianli Wu, Audrey Stavrand, Mayumi Schaepers-Cheu, Tian Zi Wang, Divya Srijay, Connor Monticello, Pranay Vure, Rishab Pulugurta, Sarah Pertsemlidis, Kseniia Kholina, Shrey Goel, Matthew P. DeLisa, Jen-Tsan Ashley Chi, Ray Truant, Hector C. Aguilar & Pranam Chatterjee  
+[Nat Biotechnol (2025)](https://www.nature.com/articles/s41587-025-02761-2) • [code](https://github.com/programmablebio/pepmlm) • [model](https://huggingface.co/ChatterjeeLab/PepMLM-650M)
+
+**ICEPIC: A Toolkit to Discover Ice Binding Proteins from Sequence**  
+Jimmy Zhang, Subbulakshmi Suresh, Shmuel Gleizer, Sophia Ewens, Aarya Venkat, Valentin Zulkower, Thomas Biernacki, Daniel Wen, Catherine Li, Mohammed Eslami, Susan Buckhout-White  
+[bioRxiv 2025.08.08.669420](https://www.biorxiv.org/content/10.1101/2025.08.08.669420v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/08/14/2025.08.08.669420/DC1/embed/media-1.pdf) • [code](https://github.com/netrias/ICEPIC)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -3341,6 +3362,14 @@ Jiameng Chen, Xiantao Cai, Jia Wu, Wenbin Hu
 Zinan Ling, Yi Shi, Da Yan, Yang Zhou, Bo Hui  
 [arXiv:2507.18603](https://arxiv.org/abs/2507.18603)
 
+**PXDesign: Fast, Modular, and Accurate De Novo Design of Protein Binders**  
+Milong Ren, Jinyuan Sun, Jiaqi Guan, Cong Liu, Chengyue Gong, Yuzhe Wang, Lan Wang, Qixu Cai, Xinshi Chen, Wenzhi Xiao  
+[technical report](https://protenix.github.io/pxdesign/technical_report.pdf)/[bioRxiv 2025.08.15.670450](https://www.biorxiv.org/content/10.1101/2025.08.15.670450v1) • [code](https://github.com/bytedance/PXDesignBench) • [server](https://protenix-server.com/) • [data]([supplements/670450_file03.zip])
+
+**Deep learning-based joint sequence-structure de novo membrane protein design**  
+Lucas Rudden, Remo Battig, Vinnie Andrews, Julie Nguyen, Martin Stoll, Lorenzo Scutteri, Michal Winnicki, Melissa J Call, Matthew E Call, Damien Thevenin, Patrick Barth  
+[bioRxiv 2025.08.15.670493](https://www.biorxiv.org/content/10.1101/2025.08.15.670493v1)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites** / **Scaffolding protein functional sites using deep learning**
@@ -3543,6 +3572,10 @@ Chenhao ZhangZhenyu XuKang LinNing ZhuChengyun ZhangWen XuJingjing GuoAn SuCheng
 Ju-Chan Park, Heesoo Uhm, Yong-Woo Kim, Ye Eun Oh, Jang Hyeon Lee, Jiyun Yang, Kyoungmi Kim, Sangsu Bae  
 [Cell (2025)](https://www.cell.com/cell/fulltext/S0092-8674(25)00799-8) • [code](https://github.com/baelab/PE-SB)
 
+**De novo design of light-regulated dynamic proteins using deep learning**  
+PATRICK BARTH, Lorenzo Scutteri, Luciano Abriata, Shuhao Zhang, Aysima Hacisuleyman, Kelvin Lau, Florence Pojer, Sahand Jamal Rahi  
+[bioRxiv 2025.08.12.669910](https://www.biorxiv.org/content/10.1101/2025.08.12.669910v1) • RFDiffusion/ProteinMPNN-based
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**
@@ -3736,6 +3769,10 @@ Tomas Geffner, Kieran Didi, Zhonglin Cao, Danny Reidenbach, Zuobai Zhang, Christ
 **Design of peptides with non-canonical amino acids using flow matching**  
 Jin Sub Lee, Philip M Kim  
 [bioRxiv 2025.07.31.667780](https://www.biorxiv.org/content/10.1101/2025.07.31.667780v1)
+
+**Investigating the impacts of sidechains on de-novo protein design**  
+Cooper Svajda, Joshua Yuan  
+[bioRxiv 2025.08.08.669410](https://www.biorxiv.org/content/10.1101/2025.08.08.669410v1)
 
 ### 6.9 AlphaFold-based
 
