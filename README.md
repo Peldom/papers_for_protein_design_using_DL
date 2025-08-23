@@ -10,23 +10,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.08.17:*
-+   AI-Driven De Novo Design of Ultra Long-Acting GLP-1 Receptor Agonists
-    + [[Advanced science (Weinheim, Baden-Wurttemberg, Germany)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202507044)] • ProteinMPNN-based
-+   Target sequence-conditioned design of peptide binders using masked language modeling
-    + [[Nat Biotechnol (2025)](https://www.nature.com/articles/s41587-025-02761-2)] • [[code](https://github.com/programmablebio/pepmlm)] • [[model](https://huggingface.co/ChatterjeeLab/PepMLM-650M)]
-+   De novo design of light-regulated dynamic proteins using deep learning
-    + [[bioRxiv 2025.08.12.669910](https://www.biorxiv.org/content/10.1101/2025.08.12.669910v1)] • RFDiffusion/ProteinMPNN-based
-+   PXDesign: Fast, Modular, and Accurate De Novo Design of Protein Binders
-    + [[technical report](https://protenix.github.io/pxdesign/technical_report.pdf)]/[[bioRxiv 2025.08.15.670450](https://www.biorxiv.org/content/10.1101/2025.08.15.670450v1)] • [[code](https://github.com/bytedance/PXDesignBench)] • [[server](https://protenix-server.com/)] • [[data]([supplements/670450_file03.zip])]
-+   Predicting Experimental Success in De Novo Binder Design: A Meta-Analysis of 3,766 Experimentally Characterised Binders
-    + [[bioRxiv 2025.08.14.670059](https://www.biorxiv.org/content/10.1101/2025.08.14.670059v1)] • [[dataset](https://zenodo.org/records/15722219)]
-+   ICEPIC: A Toolkit to Discover Ice Binding Proteins from Sequence
-    + [[bioRxiv 2025.08.08.669420](https://www.biorxiv.org/content/10.1101/2025.08.08.669420v2)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/08/14/2025.08.08.669420/DC1/embed/media-1.pdf)] • [[code](https://github.com/netrias/ICEPIC)]
-+   Investigating the impacts of sidechains on de-novo protein design
-    + [[bioRxiv 2025.08.08.669410](https://www.biorxiv.org/content/10.1101/2025.08.08.669410v1)]
-
-
+*Papers last week, updated on 2025.08.23:*
++   Controllable Protein Design via Autoregressive Direct Coupling Analysis Conditioned on Principal Components
+    + [[bioRxiv 2025.08.18.669886](https://www.biorxiv.org/content/10.1101/2025.08.18.669886v1)] • [[code](https://github.com/francescocaredda/FeatureDCA.jl)]
++   From sequence to scaffold: computational design of protein nanoparticle vaccines from AlphaFold2-predicted building blocks
+    + [[bioRxiv 2025.08.20.671178](https://www.biorxiv.org/content/10.1101/2025.08.20.671178v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/08/20/2025.08.20.671178/DC1/embed/media-1.pdf)]
++   Computationally Designed Nanobinders as Affinity Ligands in Diagnostic and Therapeutic Applications
+    + [[J. Am. Chem. Soc.(2025)](https://pubs.acs.org/doi/10.1021/jacs.5c11289)]  • RFDiffusion/ProteinMPNN-based
++   Computational Design of Soluble CCR8 Analogues with Preserved Antibody Binding
+    + [[bioRxiv 2025.08.18.670068](https://www.biorxiv.org/content/10.1101/2025.08.18.670068v1)]
 
 
 ---
@@ -980,6 +972,10 @@ Qiuzhen Li, Efstathios Nikolaos Vlachos & Patrick Bryant
 Mike Filius, Thanasis Patsos, Hugo Minee, Gianluca Turco, Jingming Liu, Monika Gnatzy, Ramon S.M. Rooth, Andy C. H. Liu, Rosa D.T. Ta, Isa H. A. Rijk, Safiya Ziani, Femke J. Boxman, Sebastian J. Pomplun  
 [bioRxiv 2025.07.23.666285](https://www.biorxiv.org/content/10.1101/2025.07.23.666285v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/07/25/2025.07.23.666285/DC1/embed/media-1.pdf)
 
+**Computational Design of Soluble CCR8 Analogues with Preserved Antibody Binding**  
+Trang Nguyen, Songming Liu, Yifan Li, Longfei Cong, Roger Shek, Tek Hyang Lee, Li Yi, Per Greisen  
+[bioRxiv 2025.08.18.670068](https://www.biorxiv.org/content/10.1101/2025.08.18.670068v1)
+
 #### 2.1.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**
@@ -1908,6 +1904,10 @@ Jason Qian, Lukas F. Milles, Basile I. M. Wicky, Amir Motmaen, Xinting Li, Ryan 
 **AI-Driven De Novo Design of Ultra Long-Acting GLP-1 Receptor Agonists**  
 Ting Wei, Jiating Ma, Xiaochen Cui, Jiahui Lin, Zhuoqi Zheng, Liu Cheng, Taiying Cui, Xiaoqian Lin, Junjie Zhu, Xuyang Ran, Xiaokun Hong, Luke Johnston, Zhangsheng Yu, Haifeng Chen  
 [Advanced science (Weinheim, Baden-Wurttemberg, Germany)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202507044) • ProteinMPNN-based
+
+**From sequence to scaffold: computational design of protein nanoparticle vaccines from AlphaFold2-predicted building blocks**  
+Cyrus M. Haas, Naveen Jasti, Annie Dosey, Joel D. Allen, Rebecca Gillespie, Jackson McGowan, Elizabeth M. Leaf, Max Crispin, Cole A. DeForest, Masaru Kanekiyo, Neil P. King  
+[bioRxiv 2025.08.20.671178](https://www.biorxiv.org/content/10.1101/2025.08.20.671178v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/08/20/2025.08.20.671178/DC1/embed/media-1.pdf)
 
 ### 4.6 GAN-based
 
@@ -3056,6 +3056,10 @@ Clara Fannjiang, Stephen Bates, Anastasios N. Angelopoulos, Jennifer Listgarten,
 Yanshuo Chen, Zhengmian Hu, Yihan Wu, Ruibo Chen, Yongrui Jin, Marcus Zhan, Chengjin Xie, Wei Chen, Heng Huang
 [Bioinformatics, 2025;, btaf141](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaf141/8124073) • [code](https://github.com/poseidonchan/ProteinWatermark)
 
+**Controllable Protein Design via Autoregressive Direct Coupling Analysis Conditioned on Principal Components**  
+Francesco Caredda, Andrea Pagnani, Paolo De Los Rios, Lisa Gennai  
+[bioRxiv 2025.08.18.669886](https://www.biorxiv.org/content/10.1101/2025.08.18.669886v1) • [code](https://github.com/francescocaredda/FeatureDCA.jl)
+
 ### 5.11 Boltzmann-machine-based
 
 **How pairwise coevolutionary models capture the collective residue variability in proteins?**
@@ -3530,7 +3534,7 @@ Edin Muratspahić, David Feldman, David E. Kim, Xiangli Qu, Ana-Maria Bratovianu
 
 **Atom level enzyme active site scaffolding using RFdiffusion2**
 Woody Ahern, Jason Yim, Doug Tischer, Saman Salike, Seth Woodbury, Donghyo Kim, Indrek Kalvet, Yakov Kipnis, Brian Coventry, Han Altae-Tran, Magnus Bauer, Regina Barzilay, Tommi Jaakkola, Rohith Krishna, David A Baker
-[bioRxiv 2025.04.09.648075](https://www.biorxiv.org/content/10.1101/2025.04.09.648075v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/04/10/2025.04.09.648075.1/DC1/embed/media-1.pdf) • [lecture](https://www.youtube.com/watch?v=bd6bFXRmEGA&pp=ygUMcmZkaWZmdXNpb24y)
+[bioRxiv 2025.04.09.648075](https://www.biorxiv.org/content/10.1101/2025.04.09.648075v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/04/10/2025.04.09.648075.1/DC1/embed/media-1.pdf) • [lecture](https://www.youtube.com/watch?v=bd6bFXRmEGA&pp=ygUMcmZkaWZmdXNpb24y) • [code](https://github.com/RosettaCommons/RFdiffusion2)
 
 **Generative protein design meets synthetic porphyrin assembly**
 Hiroaki Inaba, Hiroki Onoda, Takayuki Uchihashi, Atsunori Oshima and Osami Shoji
@@ -3560,6 +3564,10 @@ Zhixuan Zhao, Kimiho Omae, Wataru Iwasaki, Ziyi Zhang, Fazhi Pan, Eun-Jin Lee, M
 Krishiv Potluri  
 [bioRxiv 2025.06.23.661177](https://www.biorxiv.org/content/10.1101/2025.06.23.661177v1) • [code](https://github.com/kishpish/tem171-inhibitor-pipeline) • RFDiffusion/ProteinMPNN-based
 
+**Generation of structure-guided pMHC-I libraries using Diffusion Models**  
+Sergio Mares, Ariel Espinoza Weinberger, Nilah M. Ioannidis  
+[arXiv:2507.08902](https://arxiv.org/abs/2507.08902v1) • [code](https://github.com/sermare/struct-mhc-dev) • RFDiffusion/ProteinMPNN-based
+
 **De novo design of a fusion protein tool for GPCR research**  
 Kaixuan Gao, Xin Zhang, Jia Nie, Hengyu Meng, Weishe Zhang, Boxue Tian, and Xiangyu Liu  
 [Proceedings of the National Academy of Sciences 122.29 (2025)](https://www.pnas.org/doi/10.1073/pnas.2422360122)
@@ -3575,6 +3583,10 @@ Ju-Chan Park, Heesoo Uhm, Yong-Woo Kim, Ye Eun Oh, Jang Hyeon Lee, Jiyun Yang, K
 **De novo design of light-regulated dynamic proteins using deep learning**  
 PATRICK BARTH, Lorenzo Scutteri, Luciano Abriata, Shuhao Zhang, Aysima Hacisuleyman, Kelvin Lau, Florence Pojer, Sahand Jamal Rahi  
 [bioRxiv 2025.08.12.669910](https://www.biorxiv.org/content/10.1101/2025.08.12.669910v1) • RFDiffusion/ProteinMPNN-based
+
+**Computationally Designed Nanobinders as Affinity Ligands in Diagnostic and Therapeutic Applications**
+Jueun Jeon, Q. John Liu, Hyunkyung Woo, Isabel Barth, Yoonjeong Choi, L. Jessica Sang, Hakho Lee  
+[J. Am. Chem. Soc.(2025)](https://pubs.acs.org/doi/10.1021/jacs.5c11289)  • RFDiffusion/ProteinMPNN-based
 
 ### 6.4 CNN-based
 
