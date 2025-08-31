@@ -15,6 +15,8 @@
     + [[Cell (2025)](https://www.cell.com/cell/fulltext/S0092-8674(25)]00860-8)]
 +   Conditional Protein Structure Generation with Protpardelle-1C
     + [[bioRxiv 2025.08.18.670959](https://www.biorxiv.org/content/10.1101/2025.08.18.670959v2)] • [[code](https://github.com/ProteinDesignLab/protpardelle-1c/tree/main)]
++   De novo design of light-responsive protein–protein interactions enables reversible formation of protein assemblies
+    + [[Nat. Chem. (2025)](https://www.nature.com/articles/s41557-025-01929-2)] • [[code](https://github.com/LongxingLab/NCAA_Light_Assembly)]
 
 
 ---
@@ -1908,6 +1910,10 @@ Ting Wei, Jiating Ma, Xiaochen Cui, Jiahui Lin, Zhuoqi Zheng, Liu Cheng, Taiying
 **From sequence to scaffold: computational design of protein nanoparticle vaccines from AlphaFold2-predicted building blocks**  
 Cyrus M. Haas, Naveen Jasti, Annie Dosey, Joel D. Allen, Rebecca Gillespie, Jackson McGowan, Elizabeth M. Leaf, Max Crispin, Cole A. DeForest, Masaru Kanekiyo, Neil P. King  
 [bioRxiv 2025.08.20.671178](https://www.biorxiv.org/content/10.1101/2025.08.20.671178v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/08/20/2025.08.20.671178/DC1/embed/media-1.pdf)
+
+**De novo design of light-responsive protein–protein interactions enables reversible formation of protein assemblies**  
+Bowen Yu, Jiao Liu, Zhanyuan Cui, Chu Wang, Peipei Chen, Chentong Wang, Yanzhe Zhang, Xingxing Zhu, Ze Zhang, Shichao Li, Jinheng Pan, Mingqi Xie, Huaizong Shen & Longxing Cao  
+[Nat. Chem. (2025)](https://www.nature.com/articles/s41557-025-01929-2) • [code](https://github.com/LongxingLab/NCAA_Light_Assembly)
 
 ### 4.6 GAN-based
 
