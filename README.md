@@ -10,15 +10,11 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.08.23:*
-+   Controllable Protein Design via Autoregressive Direct Coupling Analysis Conditioned on Principal Components
-    + [[bioRxiv 2025.08.18.669886](https://www.biorxiv.org/content/10.1101/2025.08.18.669886v1)] • [[code](https://github.com/francescocaredda/FeatureDCA.jl)]
-+   From sequence to scaffold: computational design of protein nanoparticle vaccines from AlphaFold2-predicted building blocks
-    + [[bioRxiv 2025.08.20.671178](https://www.biorxiv.org/content/10.1101/2025.08.20.671178v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/08/20/2025.08.20.671178/DC1/embed/media-1.pdf)]
-+   Computationally Designed Nanobinders as Affinity Ligands in Diagnostic and Therapeutic Applications
-    + [[J. Am. Chem. Soc.(2025)](https://pubs.acs.org/doi/10.1021/jacs.5c11289)]  • RFDiffusion/ProteinMPNN-based
-+   Computational Design of Soluble CCR8 Analogues with Preserved Antibody Binding
-    + [[bioRxiv 2025.08.18.670068](https://www.biorxiv.org/content/10.1101/2025.08.18.670068v1)]
+*Papers last week, updated on 2025.08.31:*
++   De novo design of a peptide modulator to reverse sodium channel dysfunction linked to cardiac arrhythmias and epilepsy
+    + [[Cell (2025)](https://www.cell.com/cell/fulltext/S0092-8674(25)]00860-8)]
++   Conditional Protein Structure Generation with Protpardelle-1C
+    + [[bioRxiv 2025.08.18.670959](https://www.biorxiv.org/content/10.1101/2025.08.18.670959v2)] • [[code](https://github.com/ProteinDesignLab/protpardelle-1c/tree/main)]
 
 
 ---
@@ -918,7 +914,7 @@ Qiuzhen Li, Efstathios Nikolaos Vlachos, Patrick Bryant
 
 **BindCraft: one-shot design of functional protein binders**
 Martin Pacesa, Lennart Nickel, Joseph Schmidt, Ekaterina Pyatova, Christian Schellhaas, Lucas Kissling, Ana Alcaraz-Serna, Yehlin Cho, Kourosh H. Ghamary, Laura Vinue, Brahm J. Yachnin, Andrew M. Wollacott, Stephen Buckley, Sandrine Georgeon, Casper A. Goverde, Georgios N. Hatzopoulos, Pierre Gonczy, Yannick D. Muller, Gerald Schwank, Sergey Ovchinnikov, Bruno E. Correia
-[bioRxiv 2024.09.30.615802](https://www.biorxiv.org/content/10.1101/2024.09.30.615802v1) • [code](https://github.com/martinpacesa/BindCraftz)
+[bioRxiv 2024.09.30.615802](https://www.biorxiv.org/content/10.1101/2024.09.30.615802v1)/[Nature (2025)](https://www.nature.com/articles/s41586-025-09429-6) • [code](https://github.com/martinpacesa/BindCraft)
 
 **Design of linear and cyclic peptide binders of different lengths from protein sequence information**
 Qiuzhen Li, Efstathios Nikolaos Vlachos, Patrick Bryant
@@ -975,6 +971,10 @@ Mike Filius, Thanasis Patsos, Hugo Minee, Gianluca Turco, Jingming Liu, Monika G
 **Computational Design of Soluble CCR8 Analogues with Preserved Antibody Binding**  
 Trang Nguyen, Songming Liu, Yifan Li, Longfei Cong, Roger Shek, Tek Hyang Lee, Li Yi, Per Greisen  
 [bioRxiv 2025.08.18.670068](https://www.biorxiv.org/content/10.1101/2025.08.18.670068v1)
+
+**De novo design of a peptide modulator to reverse sodium channel dysfunction linked to cardiac arrhythmias and epilepsy**  
+Ryan Mahling, Bence Hegyi, Erin R. Cullen, Timothy M. Cho, Aaron R. Rodriques, Lucile Fossier, Marc Yehya, Lin Yang, Bi-Xing Chen, Alexander N. Katchman, Nourdine Chakouri, Ruiping Ji, Elaine Y. Wan, Jared Kushner, Steven O. Marx, Sergey Ovchinnikov, Christopher D. Makinson, Donald M. Bers, Manu Ben-Johny  
+[Cell (2025)](https://www.cell.com/cell/fulltext/S0092-8674(25)00860-8)
 
 #### 2.1.3 DMPfold2-based
 
@@ -1815,7 +1815,7 @@ Patat, Ayşenur Soytürk, and Özkan Ufuk Nalbantoğlu
 
 **ProDualNet: Dual-Target Protein Sequence Design Method Based on Protein Language Model and Structure Model**
 Liu Cheng, Ting Wei, Xiaochen Cui, Haifeng Chen, Zhangsheng Yu
-[bioRxiv 2025.02.28.640919](https://www.biorxiv.org/content/10.1101/2025.02.28.640919v1) • [code](https://github.com/chengliu97/ProDualNet)
+[bioRxiv 2025.02.28.640919](https://www.biorxiv.org/content/10.1101/2025.02.28.640919v1)/[Briefings in Bioinformatics, July 2025, bbaf391](https://academic.oup.com/bib/article/26/4/bbaf391/8241296) • [code](https://github.com/chengliu97/ProDualNet)
 
 **CHIEF: An Attention-based Ensemble Learning Framework for Functional Protein Design**
 Zilong Geng, Yuze Wang, Tingting Liu, Ao Tan, Shuo Wu, Xiaoling Guo, Ruogu Li, Xumin Hou, Kun Sun, LianPin Wu, Qinghua Cui, Lintai Da, Zhiyuan Ma, Honglin Li, Bing Zhang
@@ -3373,6 +3373,10 @@ Milong Ren, Jinyuan Sun, Jiaqi Guan, Cong Liu, Chengyue Gong, Yuzhe Wang, Lan Wa
 **Deep learning-based joint sequence-structure de novo membrane protein design**  
 Lucas Rudden, Remo Battig, Vinnie Andrews, Julie Nguyen, Martin Stoll, Lorenzo Scutteri, Michal Winnicki, Melissa J Call, Matthew E Call, Damien Thevenin, Patrick Barth  
 [bioRxiv 2025.08.15.670493](https://www.biorxiv.org/content/10.1101/2025.08.15.670493v1)
+
+**Conditional Protein Structure Generation with Protpardelle-1C**  
+Tianyu Lu, Richard Shuai, Petr Kouba, Zhaoyang Li, Yilin Chen, Akio Shirali, Jinho Kim, Po-Ssu Huang  
+[bioRxiv 2025.08.18.670959](https://www.biorxiv.org/content/10.1101/2025.08.18.670959v2) • [code](https://github.com/ProteinDesignLab/protpardelle-1c/tree/main)
 
 ### 6.3 RoseTTAFold-based
 
