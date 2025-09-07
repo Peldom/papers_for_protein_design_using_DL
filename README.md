@@ -10,13 +10,18 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.08.31:*
-+   De novo design of a peptide modulator to reverse sodium channel dysfunction linked to cardiac arrhythmias and epilepsy
-    + [[Cell (2025)](https://www.cell.com/cell/fulltext/S0092-8674(25)]00860-8)]
-+   Conditional Protein Structure Generation with Protpardelle-1C
-    + [[bioRxiv 2025.08.18.670959](https://www.biorxiv.org/content/10.1101/2025.08.18.670959v2)] • [[code](https://github.com/ProteinDesignLab/protpardelle-1c/tree/main)]
-+   De novo design of light-responsive protein–protein interactions enables reversible formation of protein assemblies
-    + [[Nat. Chem. (2025)](https://www.nature.com/articles/s41557-025-01929-2)] • [[code](https://github.com/LongxingLab/NCAA_Light_Assembly)]
+*Papers last week, updated on 2025.09.07:*
++   Artificial intelligence in antibody design and development: harnessing the power of computational approaches
+    + [[Medical & Biological Engineering & Computing (2025)](https://link.springer.com/article/10.1007/s11517-025-03429-4)]
++   Protein A-like peptide generation based on generalized diffusion model
+    + [[J Comput Aided Mol Des 39, 76 (2025)](https://link.springer.com/article/10.1007/s10822-025-00653-w)] • [[code](https://github.com/PotatoGan/ProteinGeneration-GeneralizedDiffusion)]
++   Generating functional and multistate proteins with a multimodal diffusion transformer
+    + [[bioRxiv 2025.09.03.672144](https://www.biorxiv.org/content/10.1101/2025.09.03.672144v2)] • [[code](https://github.com/bjing2016/ProDiT)]
++   Improved multimodal protein language model-driven universal biomolecules-binding protein design with EiRA
+    + [[bioRxiv 2025.09.02.673615](https://www.biorxiv.org/content/10.1101/2025.09.02.673615v1)] • [[code](https://github.com/pengsl-lab/EiRA)]
++   Code to complex: AI-driven de novo binder design
+    + [[Structure (2025)](https://www.cell.com/structure/fulltext/S0969-2126(25)]00311-9)
+
 
 
 ---
@@ -686,6 +691,10 @@ Weronika Bielska, Igor Jaszczyszyn, Pawel Dudzic, Bartosz Janusz, Dawid Chomicz,
 Luiz Felipe Vecchietti, Bryan Nathanael Wijaya, Azamat Armanuly,Begench Hangeldiyev, Hyunkyu Jung, Sooyeon Lee, Meeyoung Cha & Ho Min Kim  
 [mAbs, 2025](https://www.tandfonline.com/doi/full/10.1080/19420862.2025.2528902)
 
+**Artificial intelligence in antibody design and development: harnessing the power of computational approaches**  
+Soudabeh Kavousipour, Mahdi Barazesh, Shiva Mohammadi  
+[Medical & Biological Engineering & Computing (2025)](https://link.springer.com/article/10.1007/s11517-025-03429-4)
+
 ### 1.3 Peptide design
 
 **Deep generative models for peptide design**
@@ -721,6 +730,10 @@ Nathaniel Bennett, Brian Coventry, Inna Goreshnik, Buwei Huang, Aza Allen, Dionn
 **Data and AI-driven synthetic binding protein discovery**
 Yanlin Li, Zixin Duan, Zhenwen Li, Weiwei Xue
 [Trends in Pharmacological Sciences (2025)](https://www.cell.com/trends/pharmacological-sciences/abstract/S0165-6147(24)00268-2)
+
+**Code to complex: AI-driven de novo binder design**  
+Daniel R. Fox, Cyntia Taveneau, Janik Clement, Rhys Grinter, Gavin J. Knott  
+[Structure (2025)](https://www.cell.com/structure/fulltext/S0969-2126(25)00311-9)
 
 ### 1.5 Enzyme design
 
@@ -2441,6 +2454,10 @@ Egbert Castro, Abhinav Godavarthi, Julian Rubinfien, Kevin B. Givechian, Dhananj
 Noelia Ferruz, Birte Höcker
 [arXiv preprint arXiv:2201.07338 (2022)](https://arxiv.org/abs/2201.07338)/[Nature Machine Intelligence (2022)](https://www.nature.com/articles/s42256-022-00499-z) • review of [Heading 5.4](#54-transformer-based)
 
+**ProteinBERT: a universal deep-learning model of protein sequence and function**  
+Nadav Brandes, Dan Ofer, Yam Peleg, Nadav Rappoport, Michal Linial  
+[Bioinformatics, March 2022](https://academic.oup.com/bioinformatics/article/38/8/2102/6502274) • [code](https://github.com/nadavbra/protein_bert)
+
 **ProtGPT2 is a deep unsupervised language model for protein design**
 Noelia Ferruz,  View ProfileSteffen Schmidt,  View ProfileBirte Höcker
 [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.03.09.483666v1.full)/[Nature Communications](https://www.nature.com/articles/s41467-022-32007-7) • [model::huggingface](https://huggingface.co/nferruz/ProtGPT2) [datasets::hugingface](https://huggingface.co/datasets/nferruz/UR50_2021_04) • [lecture](https://www.youtube.com/watch?v=BA5C0kLcErM) • [research highlights](https://www.nature.com/articles/s41587-022-01518-5) • [news](https://cen.acs.org/physical-chemistry/protein-folding/Generative-AI-dreaming-new-proteins/101/i12#)
@@ -2833,6 +2850,10 @@ Leo Tianlai Chen, Zachary Quinn, Madeleine Dumas, Christina Peng, Lauren Hong, M
 Jimmy Zhang, Subbulakshmi Suresh, Shmuel Gleizer, Sophia Ewens, Aarya Venkat, Valentin Zulkower, Thomas Biernacki, Daniel Wen, Catherine Li, Mohammed Eslami, Susan Buckhout-White  
 [bioRxiv 2025.08.08.669420](https://www.biorxiv.org/content/10.1101/2025.08.08.669420v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/08/14/2025.08.08.669420/DC1/embed/media-1.pdf) • [code](https://github.com/netrias/ICEPIC)
 
+**Improved multimodal protein language model-driven universal biomolecules-binding protein design with EiRA**  
+Wenwu Zeng, Haitao Zou, Xiaoyu Li, Xiaoqi Wang, Shaoliang Peng  
+[bioRxiv 2025.09.02.673615](https://www.biorxiv.org/content/10.1101/2025.09.02.673615v1) • [code](https://github.com/pengsl-lab/EiRA)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -3202,6 +3223,10 @@ Siqi Zhao, Joshua Moller, Porfi Quintero-Cadena, Lood van Niekerk
 Sitao Zhang, Zixuan Jiang, Rundong Huang, Wenting Huang, Siyuan Peng, Shaoxun Mo, Letao Zhu, Peiheng Li, Ziyi Zhang, Emily Pan, Xi Chen, Yunfei Long, Qi Liang, Jin Tang, Renjing Xu, Rui Qing  
 [Advanced Science (2025)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202502723) • ESM-2-based
 
+**Protein A-like peptide generation based on generalized diffusion model**  
+Tianqian Zhou, Shibo Zhang, Huijia Song, Qiang He, Chun Fang & Xiaozhu Lin  
+[J Comput Aided Mol Des 39, 76 (2025)](https://link.springer.com/article/10.1007/s10822-025-00653-w) • [code](https://github.com/PotatoGan/ProteinGeneration-GeneralizedDiffusion)
+
 ### 5.13 GNN-based
 
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**
@@ -3383,6 +3408,10 @@ Lucas Rudden, Remo Battig, Vinnie Andrews, Julie Nguyen, Martin Stoll, Lorenzo S
 **Conditional Protein Structure Generation with Protpardelle-1C**  
 Tianyu Lu, Richard Shuai, Petr Kouba, Zhaoyang Li, Yilin Chen, Akio Shirali, Jinho Kim, Po-Ssu Huang  
 [bioRxiv 2025.08.18.670959](https://www.biorxiv.org/content/10.1101/2025.08.18.670959v2) • [code](https://github.com/ProteinDesignLab/protpardelle-1c/tree/main)
+
+**Generating functional and multistate proteins with a multimodal diffusion transformer**  
+Bowen Jing, Anna Sappington, Mihir Bafna, Ravi Shah, Adrina Tang, Rohith Krishna, Adam Klivans, Daniel J Diaz, Bonnie Berger  
+[bioRxiv 2025.09.03.672144](https://www.biorxiv.org/content/10.1101/2025.09.03.672144v2) • [code](https://github.com/bjing2016/ProDiT)
 
 ### 6.3 RoseTTAFold-based
 
@@ -3593,6 +3622,10 @@ Ju-Chan Park, Heesoo Uhm, Yong-Woo Kim, Ye Eun Oh, Jang Hyeon Lee, Jiyun Yang, K
 **De novo design of light-regulated dynamic proteins using deep learning**  
 PATRICK BARTH, Lorenzo Scutteri, Luciano Abriata, Shuhao Zhang, Aysima Hacisuleyman, Kelvin Lau, Florence Pojer, Sahand Jamal Rahi  
 [bioRxiv 2025.08.12.669910](https://www.biorxiv.org/content/10.1101/2025.08.12.669910v1) • RFDiffusion/ProteinMPNN-based
+
+**De Novo Design of Miniprotein Inhibitors of Bacterial Adhesins**  
+Adam M. Chazin-Gray, Tuscan R. Thompson, Edward D. B. Lopatto, Pearl Magala, Patrick W. Erickson, Andrew C. Hunt, Anna Manchenko, Pavel Aprikian, Veronika Tchesnokova, Irina Basova, Denise A. Sanick, Kevin O. Tamadonfar, Morgan R. Timm, Jerome S. Pinkner, Karen W. Dodson, Alex Kang, Emily Joyce, Asim K. Bera, Aaron J. Schmitz, Ali H. Ellebedy, Kelli L. Hvorecny, Mark J. Cartwright, Andyna Vernet, Sarai Bardales, Desmond White, Rachel E. Klevit, Evgeni V. Sokurenko, Scott J. Hultgren, David Baker  
+[bioRxiv 2025.08.18.670751](https://www.biorxiv.org/content/10.1101/2025.08.18.670751v1) • RFDiffusion/ProteinMPNN-based
 
 **Computationally Designed Nanobinders as Affinity Ligands in Diagnostic and Therapeutic Applications**
 Jueun Jeon, Q. John Liu, Hyunkyung Woo, Isabel Barth, Yoonjeong Choi, L. Jessica Sang, Hakho Lee  
