@@ -10,17 +10,18 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.09.07:*
-+   Artificial intelligence in antibody design and development: harnessing the power of computational approaches
-    + [[Medical & Biological Engineering & Computing (2025)](https://link.springer.com/article/10.1007/s11517-025-03429-4)]
-+   Protein A-like peptide generation based on generalized diffusion model
-    + [[J Comput Aided Mol Des 39, 76 (2025)](https://link.springer.com/article/10.1007/s10822-025-00653-w)] • [[code](https://github.com/PotatoGan/ProteinGeneration-GeneralizedDiffusion)]
-+   Generating functional and multistate proteins with a multimodal diffusion transformer
-    + [[bioRxiv 2025.09.03.672144](https://www.biorxiv.org/content/10.1101/2025.09.03.672144v2)] • [[code](https://github.com/bjing2016/ProDiT)]
-+   Improved multimodal protein language model-driven universal biomolecules-binding protein design with EiRA
-    + [[bioRxiv 2025.09.02.673615](https://www.biorxiv.org/content/10.1101/2025.09.02.673615v1)] • [[code](https://github.com/pengsl-lab/EiRA)]
-+   Code to complex: AI-driven de novo binder design
-    + [[Structure (2025)](https://www.cell.com/structure/fulltext/S0969-2126(25)]00311-9)
+*Papers last week, updated on 2025.09.14:*
++   Generative latent diffusion language modeling yields anti-infective synthetic peptides
+    + [[Cell Biomaterials (2025)](https://www.cell.com/cell-biomaterials/fulltext/S3050-5623(25)]00174-6) • [[code](https://github.com/programmablebio/amp-diffusion)]
++   De novo design of phosphorylation-induced protein switches for synthetic signaling in cells
+    + [[bioRxiv 2025.09.10.675034](https://www.biorxiv.org/content/10.1101/2025.09.10.675034v1)]
++   LSMTCR: A Scalable Multi-Architecture Model for Epitope-Specific T Cell Receptor de novo Design
+    + [[arXiv:2509.07627](https://arxiv.org/abs/2509.07627)]
++   PepCCD: A Contrastive Conditioned Diffusion Framework for Target-Specific Peptide Generation
+    + [[bioRxiv 2025.09.01.673427](https://www.biorxiv.org/content/10.1101/2025.09.01.673427v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/09/04/2025.09.01.673427/DC1/embed/media-1.pdf)]
++   AI-driven protein design
+    + [[Nat Rev Bioeng (2025)](https://www.nature.com/articles/s44222-025-00349-8)]
+
 
 
 
@@ -616,6 +617,10 @@ Guanghua Zhao, Chenyan Lv, Zhongjiang Wang
 **Artificial intelligence in de novo protein design**  
 Yao, Jiawei, and Xiaogang Wang  
 [Medicine in Novel Technology and Devices (2025)](https://www.sciencedirect.com/science/article/pii/S2590093525000177)
+
+**AI-driven protein design**  
+Huan Yee Koh, Yizhen Zheng, Madeleine Yang, Rohit Arora, Geoffrey I. Webb, Shirui Pan, Li Li & George M. Church  
+[Nat Rev Bioeng (2025)](https://www.nature.com/articles/s44222-025-00349-8)
 
 ### 1.2 Antibody design
 
@@ -1382,6 +1387,10 @@ Yujie Qin, Ming He, Changyong Yu, Ming Ni, Xian Liu, Xiaochen Bo
 Xiao Liang, Wentao Ma, Eric Paquet, Herna Lydia Viktor, Wojtek Michalowski
 [arXiv:2504.21092](https://arxiv.org/abs/2504.21092)
 
+**De novo design of phosphorylation-induced protein switches for synthetic signaling in cells**  
+Stephen Buckley, Yangyang Miao, Mubarak Idris, Pao-Wan Lee, Leo Scheller, Roland Riek, Sebastian J. Maerkl, Luciano A. Abriata, Bruno E. Correia  
+[bioRxiv 2025.09.10.675034](https://www.biorxiv.org/content/10.1101/2025.09.10.675034v1)
+
 ### 3.5 RL-based
 
 **Top-down design of protein nanomaterials with reinforcement learning**
@@ -1654,7 +1663,7 @@ Katherine I. Albanese, Rokas Petrenas, Fabio Pirro, Elise A. Naudin, Ufuk Borucu
 
 **Computational design of sequence-specific DNA-binding proteins**
 Cameron J Glasscock, Robert Pecoraro, Ryan McHugh, Lindsey A. Doyle, Wei Chen, Olivier Boivin, Beau Lonnquist, Emily Na, Yuliya Politanska, Hugh K Haddox, David Cox, Christoffer Norn, Brian Coventry, Inna Goreshnik, Dionne Vafeados, Gyu Rie Lee, Raluca Gordan, Barry L Stoddard, Frank DiMaio, David Baker
-[bioRxiv 2023.09.20.558720](https://www.biorxiv.org/content/10.1101/2023.09.20.558720v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/09/21/2023.09.20.558720/DC1/embed/media-1.docx)
+[bioRxiv 2023.09.20.558720](https://www.biorxiv.org/content/10.1101/2023.09.20.558720v1)/[Nat Struct Mol Biol (2025)](https://www.nature.com/articles/s41594-025-01669-4) • [code](https://github.com/cjg263/dbp_design)  • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2023/09/21/2023.09.20.558720/DC1/embed/media-1.docx)
 
 **Improving protein expression, stability, and function with ProteinMPNN**
 Kiera H. Sumida, Reyes Núñez Franco, Indrek Kalvet, Samuel J. Pellock, Basile I. M. Wicky, Lukas F. Milles, Justas Dauparas, Jue Wang, Yakov Kipnis, Noel Jameson, Alex Kang, Joshmyn De La Cruz, Banumathi Sankaran, Asim K Bera, Gonzalo Jimenez Oses, David Baker
@@ -2854,6 +2863,10 @@ Jimmy Zhang, Subbulakshmi Suresh, Shmuel Gleizer, Sophia Ewens, Aarya Venkat, Va
 Wenwu Zeng, Haitao Zou, Xiaoyu Li, Xiaoqi Wang, Shaoliang Peng  
 [bioRxiv 2025.09.02.673615](https://www.biorxiv.org/content/10.1101/2025.09.02.673615v1) • [code](https://github.com/pengsl-lab/EiRA)
 
+**LSMTCR: A Scalable Multi-Architecture Model for Epitope-Specific T Cell Receptor de novo Design**  
+Ruihao Zhang, Xiao Liu  
+[arXiv:2509.07627](https://arxiv.org/abs/2509.07627)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -3226,6 +3239,14 @@ Sitao Zhang, Zixuan Jiang, Rundong Huang, Wenting Huang, Siyuan Peng, Shaoxun Mo
 **Protein A-like peptide generation based on generalized diffusion model**  
 Tianqian Zhou, Shibo Zhang, Huijia Song, Qiang He, Chun Fang & Xiaozhu Lin  
 [J Comput Aided Mol Des 39, 76 (2025)](https://link.springer.com/article/10.1007/s10822-025-00653-w) • [code](https://github.com/PotatoGan/ProteinGeneration-GeneralizedDiffusion)
+
+**PepCCD: A Contrastive Conditioned Diffusion Framework for Target-Specific Peptide Generation**  
+Jun Zhang, Yangyang Zhou, Tiantian Zhu, Zexuan Zhu  
+[bioRxiv 2025.09.01.673427](https://www.biorxiv.org/content/10.1101/2025.09.01.673427v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/09/04/2025.09.01.673427/DC1/embed/media-1.pdf)
+
+**Generative latent diffusion language modeling yields anti-infective synthetic peptides**  
+Marcelo D.T. Torres, Leo Tianlai Chen, Fangping Wan, Pranam Chatterjee, Cesar de la Fuente-Nunez  
+[Cell Biomaterials (2025)](https://www.cell.com/cell-biomaterials/fulltext/S3050-5623(25)00174-6) • [code](https://github.com/programmablebio/amp-diffusion)
 
 ### 5.13 GNN-based
 
