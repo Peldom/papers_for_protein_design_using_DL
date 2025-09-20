@@ -10,18 +10,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.09.14:*
-+   Generative latent diffusion language modeling yields anti-infective synthetic peptides
-    + [[Cell Biomaterials (2025)](https://www.cell.com/cell-biomaterials/fulltext/S3050-5623(25)]00174-6) • [[code](https://github.com/programmablebio/amp-diffusion)]
-+   De novo design of phosphorylation-induced protein switches for synthetic signaling in cells
-    + [[bioRxiv 2025.09.10.675034](https://www.biorxiv.org/content/10.1101/2025.09.10.675034v1)]
-+   LSMTCR: A Scalable Multi-Architecture Model for Epitope-Specific T Cell Receptor de novo Design
-    + [[arXiv:2509.07627](https://arxiv.org/abs/2509.07627)]
-+   PepCCD: A Contrastive Conditioned Diffusion Framework for Target-Specific Peptide Generation
-    + [[bioRxiv 2025.09.01.673427](https://www.biorxiv.org/content/10.1101/2025.09.01.673427v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/09/04/2025.09.01.673427/DC1/embed/media-1.pdf)]
-+   AI-driven protein design
-    + [[Nat Rev Bioeng (2025)](https://www.nature.com/articles/s44222-025-00349-8)]
-
+*Papers last week, updated on 2025.09.20:*
++   Automated and modular protein binder design with BinderFlow
+    + [[bioRxiv 2025.09.10.675490](https://www.biorxiv.org/content/10.1101/2025.09.10.675490v2)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/09/18/2025.09.10.675490/DC1/embed/media-1.pdf)] • [[code](https://github.com/binderflow)] • RFDiffusion/ProteinMPNN-based
++   Controllable Generation of Pathogen-Specific Antimicrobial Peptides Through Knowledge-Aware Prompt Diffusion Model
+    + [[Advanced science (Weinheim, Baden-Wurttemberg, Germany)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202507457)]
++   De novo Design of All-atom Biomolecular Interactions with RFdiffusion3
+    + [[bioRxiv 2025.09.18.676967](https://www.biorxiv.org/content/10.1101/2025.09.18.676967v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/09/18/2025.09.18.676967/DC1/embed/media-1.pdf)]
 
 
 
@@ -3248,6 +3243,10 @@ Jun Zhang, Yangyang Zhou, Tiantian Zhu, Zexuan Zhu
 Marcelo D.T. Torres, Leo Tianlai Chen, Fangping Wan, Pranam Chatterjee, Cesar de la Fuente-Nunez  
 [Cell Biomaterials (2025)](https://www.cell.com/cell-biomaterials/fulltext/S3050-5623(25)00174-6) • [code](https://github.com/programmablebio/amp-diffusion)
 
+**Controllable Generation of Pathogen-Specific Antimicrobial Peptides Through Knowledge-Aware Prompt Diffusion Model**  
+Yongkang Wang, Menglu Li, Feng Huang, Minyao Qiu, Wen Zhang  
+[Advanced science (Weinheim, Baden-Wurttemberg, Germany)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202507457)
+
 ### 5.13 GNN-based
 
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**
@@ -3490,7 +3489,7 @@ Caixuan Liu, Kejia Wu, Hojun Choi, Hannah Han, Xueli Zhang, Joseph L Watson, Sar
 
 **Parametrically guided design of beta barrels and transmembrane nanopores using deep learning**
 David E. Kim, Joseph L. Watson, David Juergens, Sagardip Majumder, Stacey R. Gerben, Alex Kang, Asim K. Bera, Xinting Li, David Baker
-[bioRxiv 2024.07.22.604663](https://www.biorxiv.org/content/10.1101/2024.07.22.604663v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/07/23/2024.07.22.604663/DC1/embed/media-1.pdf) • [code1](https://github.com/davidekim/parametric_barrels), [code2](https://github.com/sagardipm/denovoPores)
+[bioRxiv 2024.07.22.604663](https://www.biorxiv.org/content/10.1101/2024.07.22.604663v1)/[Proc. Natl. Acad. Sci. U.S.A. 122 (38) e2425459122](https://www.pnas.org/doi/10.1073/pnas.2425459122) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/07/23/2024.07.22.604663/DC1/embed/media-1.pdf) • [code1](https://github.com/davidekim/parametric_barrels), [code2](https://github.com/sagardipm/denovoPores)
 
 **Computational design of highly active de novo enzymes**
 Markus Braun, Adrian Tripp, Morakot Chakatok, Sigrid Kaltenbrunner, Massimo G. Totaro, David Stoll, Aleksandar Bijelic, Wael Elaily, Shlomo Yakir Yakir Hoch, Matteo Aleotti, Melanie Hall, Gustav Oberdorfer
@@ -3636,6 +3635,10 @@ Kaixuan Gao, Xin Zhang, Jia Nie, Hengyu Meng, Weishe Zhang, Boxue Tian, and Xian
 Chenhao ZhangZhenyu XuKang LinNing ZhuChengyun ZhangWen XuJingjing GuoAn SuChengxi LiHongliang Duan  
 [J. Chem. Inf. Model. 2025](https://pubs.acs.org/doi/10.1021/acs.jcim.5c00227)
 
+**De novo design of protein binders to stabilize monomeric TDP-43 and inhibit its pathological aggregation**  
+Gangyu Sun, Xiang Li, Jiaojiao Hu, Tianbin Yang, Cong Liu, Zhizhi Wang, Dan Li, and Wenqing Xu  
+[Proc. Natl. Acad. Sci. U.S.A. 122 (36) e2505320122](https://www.pnas.org/doi/10.1073/pnas.2505320122)
+
 **AI-generated MLH1 small binder improves prime editing efficiency**  
 Ju-Chan Park, Heesoo Uhm, Yong-Woo Kim, Ye Eun Oh, Jang Hyeon Lee, Jiyun Yang, Kyoungmi Kim, Sangsu Bae  
 [Cell (2025)](https://www.cell.com/cell/fulltext/S0092-8674(25)00799-8) • [code](https://github.com/baelab/PE-SB)
@@ -3650,7 +3653,15 @@ Adam M. Chazin-Gray, Tuscan R. Thompson, Edward D. B. Lopatto, Pearl Magala, Pat
 
 **Computationally Designed Nanobinders as Affinity Ligands in Diagnostic and Therapeutic Applications**
 Jueun Jeon, Q. John Liu, Hyunkyung Woo, Isabel Barth, Yoonjeong Choi, L. Jessica Sang, Hakho Lee  
-[J. Am. Chem. Soc.(2025)](https://pubs.acs.org/doi/10.1021/jacs.5c11289)  • RFDiffusion/ProteinMPNN-based
+[J. Am. Chem. Soc.(2025)](https://pubs.acs.org/doi/10.1021/jacs.5c11289) • RFDiffusion/ProteinMPNN-based
+
+**Automated and modular protein binder design with BinderFlow**  
+Carlos Chacon-Sanchez, Nayim Gonzalez-Rodriguez, Oscar Llorca, Rafael Fernandez-Leiro  
+[bioRxiv 2025.09.10.675490](https://www.biorxiv.org/content/10.1101/2025.09.10.675490v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/09/18/2025.09.10.675490/DC1/embed/media-1.pdf) • [code](https://github.com/binderflow) • RFDiffusion/ProteinMPNN-based
+
+**De novo Design of All-atom Biomolecular Interactions with RFdiffusion3**  
+Jasper Kenneth Veje Butcher, Rohith Krishna, Raktim Mitra, Rafael Isaac Brent, Yanjing Li, Nathaniel Corley, Paul Kim, Jonathan Funk, Simon Valentin Mathis, Saman Salike, Aiko Muraishi, Helen Eisenach, Tuscan Rock Thompson, Jie Chen, Yuliya Politanska, Enisha Sehgal, Brian Coventry, Odin Zhang, Bo Qiang, Kieran Didi, Maxwell Kazman, Frank DiMaio, David Baker  
+[bioRxiv 2025.09.18.676967](https://www.biorxiv.org/content/10.1101/2025.09.18.676967v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/09/18/2025.09.18.676967/DC1/embed/media-1.pdf)
 
 ### 6.4 CNN-based
 
