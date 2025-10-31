@@ -10,22 +10,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.10.24:*
-+   Bottom-up design of Ca2+ channels from defined selectivity filter geometry
-    + [[Nature (2025)](https://www.nature.com/articles/s41586-025-09646-z)] • [[code](https://github.com/ylliu15/2025_Ca_channel)]
-+   AI-Guided Hydrophobic Core Design of Robust Six-Helix Bundle Proteins
-    + [[ACS Nano .5c13783](https://pubs.acs.org/doi/10.1021/acsnano.5c13783)]
-+   De Novo Design of High‐Affinity Miniprotein Binders Targeting Francisella Tularensis Virulence Factor
-    + [[Angewandte Chemie International Edition (2025)](https://onlinelibrary.wiley.com/doi/10.1002/anie.202516058)]
-+   De novo protein design enables targeting of intractable oncogenic interfaces
-    + [[bioRxiv 2025.10.22.683953](https://www.biorxiv.org/content/10.1101/2025.10.22.683953v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/10/23/2025.10.22.683953/DC1/embed/media-1.pdf)]
-+   Decoding the physicochemical basis of taxonomy preferences in protein design models
-    + [[bioRxiv 2025.10.21.683350](https://www.biorxiv.org/content/10.1101/2025.10.21.683350v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/10/21/2025.10.21.683350/DC1/embed/media-1.pdf)]
-+   All-atom protein design via SE(3) flow matching with ProteinZen
-    + [[bioRxiv 2025.10.18.683228](https://www.biorxiv.org/content/10.1101/2025.10.18.683228v1)] • [[code](https://github.com/alexjli/proteinzen)]
-+   Rapid De Novo Antibody Design with GeoFlow-V3
-    + [[Technical Report](https://open-res.biogeom.com/2025/geoflowv3/GeoFlow_V3_report.pdf)] • [[website](https://prot.design)] • commercial
-
+*Papers last week, updated on 2025.10.31:*
++   Targeted Inhibition of Colorectal Carcinoma Using a Designed CEA-Binding Protein to Deliver p53 Protein and TCF/LEF Transcription Factor Decoy DNA
+    + [[International Journal of Molecular Sciences. 2025](https://www.mdpi.com/1422-0067/26/20/9846)] [[Supplementary](https://www.mdpi.com/article/10.3390/ijms26209846/s1)] • RFDiffusion/ProteinMPNN-based
++   A synergistic generative-ranking framework for tailored design of therapeutic single-domain antibodies
+    + [[Cell Discov 11, 85 (2025)](https://www.nature.com/articles/s41421-025-00843-8)]
++   AbEgDiffuser: Antibody Sequence-Structure Codesign with Equivariant Graph Neural Networks and Diffusion Models
+    + [[J. Chem. Theory Comput.(2025)](https://pubs.acs.org/doi/10.1021/acs.jctc.5c00990)] •  [[code](https://github.com/ShiLab-GitHub/AbEgDiffuser)]
++   ODesign: A World Model for Biomelecular Interaction Design
+    + [[technical report](https://odesign1.github.io/static/pdfs/technical_report.pdf)] • [[website](https://odesign.lglab.ac.cn/)]
++   BoltzGen: Toward Universal Binder Design
+    + [[Technical Report](https://hannes-stark.com/assets/boltzgen.pdf)] • [[website](https://boltz.bio/boltzgen)]
 
 
 ---
@@ -1500,6 +1495,10 @@ Yogesh Verma, Markus Heinonen, Vikas Garg
 **Distilled Protein Backbone Generation**  
 Liyang Xie, Haoran Zhang, Zhendong Wang, Wesley Tansey, Mingyuan Zhou  
 [arXiv:2510.03095](https://www.arxiv.org/abs/2510.03095)
+
+**Flows, straight but not so fast: Exploring the design space of Rectified Flows in Protein Design**  
+Junhua Chen, Simon Mathis, Charles Harris, Kieran Didi, Pietro Lio  
+[arXiv:2510.24732](https://arxiv.org/abs/2510.24732)
 
 ### 3.7 Score-based
 
@@ -3570,6 +3569,18 @@ Xiangzhe Kong, Rui Jiao, Haowei Lin, Ruihan Guo, Wenbing Huang, Wei-Ying Ma, Zih
 BioGeometry Team  
 [Technical Report](https://open-res.biogeom.com/2025/geoflowv3/GeoFlow_V3_report.pdf) • [website](https://prot.design) • commercial
 
+**AbEgDiffuser: Antibody Sequence-Structure Codesign with Equivariant Graph Neural Networks and Diffusion Models**  
+Yibo Zhu, Xiumin Shi, Jingjuan Zhang, Weizhong Sun, Lu Wang  
+[J. Chem. Theory Comput.(2025)](https://pubs.acs.org/doi/10.1021/acs.jctc.5c00990) •  [code](https://github.com/ShiLab-GitHub/AbEgDiffuser)
+
+**ODesign: A World Model for Biomelecular Interaction Design**  
+ODesign Team  
+[Technical Report](https://odesign1.github.io/static/pdfs/technical_report.pdf) • [website](https://odesign.lglab.ac.cn/)
+
+**BoltzGen: Toward Universal Binder Design**  
+Hannes Stark, Felix Faltings, MinGyu Choi, Yuxin Xie, Eunsu Hur, Timothy O’Donnell, Anton Bushuiev, Talip Uçar, Saro Passaro, Weian Mao, Mateo Reveiz, Roman Bushuiev, Tomáš Pluskal, Josef Sivic, Karsten Kreis, Arash Vahdat, Shamayeeta Ray, Jonathan T. Goldstein, Andrew Savinov, Jacob A. Hambalek, Anshika Gupta, Diego A. Taquiri-Diaz, Yaotian Zhang, A. Katherine Hatstat, Angelika Arada, Nam Hyeong Kim, Ethel Tackie-Yarboi, Dylan Boselli, Lee Schnaider, Chang C. Liu, Gene-Wei Li, Denes Hnisz, David M. Sabatini, William F. DeGrado, Jeremy Wohlwend, Gabriele Corso, Regina Barzilay, Tommi Jaakkola
+[Technical Report](https://hannes-stark.com/assets/boltzgen.pdf) • [website](https://boltz.bio/boltzgen)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites** / **Scaffolding protein functional sites using deep learning**
@@ -3836,6 +3847,10 @@ Mohamad Abedi, Marc Expòsit, Brian Coventry, Divij Mathew, Shruti Jain, Aditya 
 Yulai Liu, Connor Weidle, Ljubica Mihaljević, Joseph L. Watson, Zhe Li, Le Tracy Yu, Sagardip Majumder, Andrew J. Borst, Kenneth D. Carr, Ryan D. Kibler, Tamer M. Gamal El-Din, William A. Catterall & David Baker  
 [Nature (2025)](https://www.nature.com/articles/s41586-025-09646-z) • [code](https://github.com/ylliu15/2025_Ca_channel)
 
+**Targeted Inhibition of Colorectal Carcinoma Using a Designed CEA-Binding Protein to Deliver p53 Protein and TCF/LEF Transcription Factor Decoy DNA**  
+Wen Wang, Xuan Sun and Geng Wu  
+[International Journal of Molecular Sciences. 2025](https://www.mdpi.com/1422-0067/26/20/9846) [Supplementary](https://www.mdpi.com/article/10.3390/ijms26209846/s1) • RFDiffusion/ProteinMPNN-based
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**
@@ -4063,6 +4078,10 @@ Ruizhe Chen, Dongyu Xue, Xiangxin Zhou, Zaixiang Zheng, Xiangxiang Zeng, Quanqua
 **Repurposing AlphaFold3-like Protein Folding Models for Antibody Sequence and Structure Co-design**  
 Nianzu Yang, Nianzu_Yang, Jian Ma, Songlin Jiang, Huaijin Wu, Shuangjia Zheng, Wengong Jin, Junchi Yan  
 [OpenReview](https://openreview.net/forum?id=Ja2le9YnqN)
+
+**A synergistic generative-ranking framework for tailored design of therapeutic single-domain antibodies**  
+Yu Kong, Jiale Shi, Fandi Wu, Ting Zhao, Rubo Wang, Xiaoyi Zhu, Qingyuan Xu, Yidong Song, Quanxiao Li, Yulu Wang, Xingyu Gao, Yuedong Yang, Yi Feng, Zifei Wang, Weifeng Ge, Yanling Wu, Zhenlin Yang, Jianhua Yao & Tianlei Ying  
+[Cell Discov 11, 85 (2025)](https://www.nature.com/articles/s41421-025-00843-8)
 
 ## 7. Other tasks
 
