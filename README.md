@@ -10,17 +10,16 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.10.31:*
-+   Targeted Inhibition of Colorectal Carcinoma Using a Designed CEA-Binding Protein to Deliver p53 Protein and TCF/LEF Transcription Factor Decoy DNA
-    + [[International Journal of Molecular Sciences. 2025](https://www.mdpi.com/1422-0067/26/20/9846)] [[Supplementary](https://www.mdpi.com/article/10.3390/ijms26209846/s1)] • RFDiffusion/ProteinMPNN-based
-+   A synergistic generative-ranking framework for tailored design of therapeutic single-domain antibodies
-    + [[Cell Discov 11, 85 (2025)](https://www.nature.com/articles/s41421-025-00843-8)]
-+   AbEgDiffuser: Antibody Sequence-Structure Codesign with Equivariant Graph Neural Networks and Diffusion Models
-    + [[J. Chem. Theory Comput.(2025)](https://pubs.acs.org/doi/10.1021/acs.jctc.5c00990)] •  [[code](https://github.com/ShiLab-GitHub/AbEgDiffuser)]
-+   ODesign: A World Model for Biomelecular Interaction Design
-    + [[technical report](https://odesign1.github.io/static/pdfs/technical_report.pdf)] • [[website](https://odesign.lglab.ac.cn/)]
-+   BoltzGen: Toward Universal Binder Design
-    + [[Technical Report](https://hannes-stark.com/assets/boltzgen.pdf)] • [[website](https://boltz.bio/boltzgen)]
+*Papers last week, updated on 2025.11.07:*
++   DL4Proteins Jupyter Notebooks Teach how to use Artificial Intelligence for Biomolecular Structure Prediction and Design
+    + [[arXiv:2511.02128](https://arxiv.org/abs/2511.02128v1)]
++   Generative models for antimicrobial peptide design: auto-encoders and beyond
+    + [[bioRxiv 2025.10.29.685317](https://www.biorxiv.org/content/10.1101/2025.10.29.685317v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/10/30/2025.10.29.685317/DC1/embed/media-1.pdf)] • [[code](https://github.com/devshibe/amp-autencoders)]
++   In Silico Peptide Design: Methods, Resources, and Role of AI
+    + [[Journal of Peptide Science 31.12 (2025)](https://onlinelibrary.wiley.com/doi/10.1002/psc.70063)]
++   De Novo Design of High-Performance Sec-type Signal Peptide via a Hybrid Deep Learning Architecture
+    + [[JACS Au 5.10 (2025)](https://pubs.acs.org/doi/10.1021/jacsau.5c00757)] • [[code](https://github.com/lzlinn801/SPgo)]
+
 
 
 ---
@@ -621,6 +620,10 @@ Yao, Jiawei, and Xiaogang Wang
 Huan Yee Koh, Yizhen Zheng, Madeleine Yang, Rohit Arora, Geoffrey I. Webb, Shirui Pan, Li Li & George M. Church  
 [Nat Rev Bioeng (2025)](https://www.nature.com/articles/s44222-025-00349-8)
 
+**DL4Proteins Jupyter Notebooks Teach how to use Artificial Intelligence for Biomolecular Structure Prediction and Design**  
+Michael Chungyoun, Gabe Au, Britnie Carpentier, Sreevarsha Puvada, Courtney Thomas, Jeffrey J. Gray  
+[arXiv:2511.02128](https://arxiv.org/abs/2511.02128v1)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**
@@ -695,6 +698,10 @@ Weronika Bielska, Igor Jaszczyszyn, Pawel Dudzic, Bartosz Janusz, Dawid Chomicz,
 Luiz Felipe Vecchietti, Bryan Nathanael Wijaya, Azamat Armanuly,Begench Hangeldiyev, Hyunkyu Jung, Sooyeon Lee, Meeyoung Cha & Ho Min Kim  
 [mAbs, 2025](https://www.tandfonline.com/doi/full/10.1080/19420862.2025.2528902)
 
+**In Silico Peptide Design: Methods, Resources, and Role of AI**  
+Priyanka Ray Choudhury, Sai Kumar Mishra, Siddharth Yadav, Shubhi Singh, Puniti Mathur  
+[Journal of Peptide Science 31.12 (2025)](https://onlinelibrary.wiley.com/doi/10.1002/psc.70063)
+
 **Artificial intelligence in antibody design and development: harnessing the power of computational approaches**  
 Soudabeh Kavousipour, Mahdi Barazesh, Shiva Mohammadi  
 [Medical & Biological Engineering & Computing (2025)](https://link.springer.com/article/10.1007/s11517-025-03429-4)
@@ -724,6 +731,10 @@ Ahmad M. Al-Omari ,Yazan H. Akkam,Ala’a Zyout,Shayma’a Younis,Shefa M. Tawal
 **Trends in the Research and Development of Peptide Drug Conjugates: Artificial Intelligence Aided Design**
 Dong-E Zhang, Dong-E Zhang, Tong He, Tong He, Tianyi Shi, Tianyi Shi, Kun Huang, Kun Huang, Anlin Peng, Anlin Peng
 [Frontiers in Pharmacology 16](https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2025.1553853/full)
+
+**Generative models for antimicrobial peptide design: auto-encoders and beyond**  
+Lukas Beierle, Julian Hahnfeld, Alexander Goesmann, Reihaneh Mostolizadeh, Franz Cemič  
+[bioRxiv 2025.10.29.685317](https://www.biorxiv.org/content/10.1101/2025.10.29.685317v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/10/30/2025.10.29.685317/DC1/embed/media-1.pdf) • [code](https://github.com/devshibe/amp-autencoders)
 
 ### 1.4 Binder design
 
@@ -1370,7 +1381,7 @@ Ke Liu, Weian Mao, Shuaike Shen, Xiaoran Jiao, Zheng Sun, Hao Chen, Chunhua Shen
 
 **De novo Design of A Fusion Protein Tool for GPCR Research**
 Kaixuan Gao, Xin Zhang, Jia Nie, Hengyu Meng, Weishe Zhang, Boxue Tian, Xiangyu Liu
-[bioRxiv 2024.09.14.613090](https://www.biorxiv.org/content/10.1101/2024.09.14.613090v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/09/15/2024.09.14.613090/DC1/embed/media-1.pdf) • RFdiffusion-based
+[bioRxiv 2024.09.14.613090](https://www.biorxiv.org/content/10.1101/2024.09.14.613090v1)/[Proceedings of the National Academy of Sciences 122.29 (2025)](https://www.pnas.org/doi/10.1073/pnas.2422360122) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/09/15/2024.09.14.613090/DC1/embed/media-1.pdf) • RFdiffusion-based
 
 **Text2Protein: A Generative Model for Designated Protein Design on Given Description**
 Ramtin Hosseini, Siyang Zhang, Pengtao Xie
@@ -1984,7 +1995,7 @@ Ting Wei, Jiating Ma, Xiaochen Cui, Jiahui Lin, Zhuoqi Zheng, Liu Cheng, Taiying
 
 **From sequence to scaffold: computational design of protein nanoparticle vaccines from AlphaFold2-predicted building blocks**  
 Cyrus M. Haas, Naveen Jasti, Annie Dosey, Joel D. Allen, Rebecca Gillespie, Jackson McGowan, Elizabeth M. Leaf, Max Crispin, Cole A. DeForest, Masaru Kanekiyo, Neil P. King  
-[bioRxiv 2025.08.20.671178](https://www.biorxiv.org/content/10.1101/2025.08.20.671178v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/08/20/2025.08.20.671178/DC1/embed/media-1.pdf)
+[bioRxiv 2025.08.20.671178](https://www.biorxiv.org/content/10.1101/2025.08.20.671178v1)/[Proceedings of the National Academy of Sciences 122.45 (2025)](https://www.pnas.org/doi/10.1073/pnas.2409566122) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/08/20/2025.08.20.671178/DC1/embed/media-1.pdf)
 
 **De novo design of light-responsive protein–protein interactions enables reversible formation of protein assemblies**  
 Bowen Yu, Jiao Liu, Zhanyuan Cui, Chu Wang, Peipei Chen, Chentong Wang, Yanzhe Zhang, Xingxing Zhu, Ze Zhang, Shichao Li, Jinheng Pan, Mingqi Xie, Huaizong Shen & Longxing Cao  
@@ -2982,6 +2993,10 @@ Alfred Greisen, Longfei Cong, Per Jr. Greisen, Sergey Ovchinnikov
 Han Gao, Feifei Guan, Boyu Luo, Dongdong Zhang, Wei Liu, Yuying Shen, Lingxi Fan, Guoshun Xu, Yuan Wang, Tao Tu, Ningfeng Wu, Bin Yao, Huiying Luo, Yue Teng, Jian Tian & Huoqing Huang  
 [Nat Commun 16, 9134 (2025)](https://www.nature.com/articles/s41467-025-64378-y) • [code](https://github.com/hgao12345/DLFea4AMPGen)
 
+**De Novo Design of High-Performance Sec-type Signal Peptide via a Hybrid Deep Learning Architecture**  
+Xiao-peng Dai, Xiang-chun Meng, Ying-jun Zhou, Zhi-min Li, Yu Ji, Ulrich Schwaneberg, Zong-lin Li  
+[JACS Au 5.10 (2025)](https://pubs.acs.org/doi/10.1021/jacsau.5c00757) • [code](https://github.com/lzlinn801/SPgo)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -3285,7 +3300,7 @@ Tianlai Chen, Pranay Vure, Rishab Pulugurta, Pranam Chatterjee
 
 **Atomically accurate de novo design of single-domain antibodies**
 Nathaniel R. Bennett, Joseph L. Watson, Robert J. Ragotte, Andrew J. Borst, DeJenae L. See, Connor Weidle, Riti Biswas, Ellen L. Shrock, Philip J. Y. Leung, Buwei Huang, Inna Goreshnik, Russell Ault, Kenneth D. Carr, Benedikt Singer, Cameron Criswell, Dionne Vafeados, Mariana Garcia Sanchez, Ho Min Kim, Susana Vazquez Torres, Sidney Chan, David Baker
-[bioRxiv 2024.03.14.585103](https://www.biorxiv.org/content/10.1101/2024.03.14.585103v1)/[Nat Chem Biol (2025)](https://www.nature.com/articles/s41589-025-01929-w) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/18/2024.03.14.585103/DC1/embed/media-1.pdf)
+[bioRxiv 2024.03.14.585103](https://www.biorxiv.org/content/10.1101/2024.03.14.585103v1)/[Nature (2025)](https://www.nature.com/articles/s41586-025-09721-5) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/03/18/2024.03.14.585103/DC1/embed/media-1.pdf)
 
 **Complex-based Ligand-Binding Proteins Redesign by Equivariant Diffusion-based Generative Models**
 Viet Thanh Duy Nguyen, Nhan Nguyen, Truong Son Hy
@@ -3774,10 +3789,6 @@ Krishiv Potluri
 **Generation of structure-guided pMHC-I libraries using Diffusion Models**  
 Sergio Mares, Ariel Espinoza Weinberger, Nilah M. Ioannidis  
 [arXiv:2507.08902](https://arxiv.org/abs/2507.08902v1) • [code](https://github.com/sermare/struct-mhc-dev) • RFDiffusion/ProteinMPNN-based
-
-**De novo design of a fusion protein tool for GPCR research**  
-Kaixuan Gao, Xin Zhang, Jia Nie, Hengyu Meng, Weishe Zhang, Boxue Tian, and Xiangyu Liu  
-[Proceedings of the National Academy of Sciences 122.29 (2025)](https://www.pnas.org/doi/10.1073/pnas.2422360122)
 
 **CycleDesigner: Leveraging CycRFdiffusion and HighFold to Design Cyclic Peptide Binders for Specific Targets**  
 Chenhao ZhangZhenyu XuKang LinNing ZhuChengyun ZhangWen XuJingjing GuoAn SuChengxi LiHongliang Duan  
