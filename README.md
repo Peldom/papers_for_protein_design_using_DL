@@ -26,6 +26,8 @@
     + [[arXiv:2510.23786](https://arxiv.org/abs/2510.23786)]
 +   Protein generation with embedding learning for motif diversification
     + [[arXiv:2510.18790](https://arxiv.org/abs/2510.18790)]
++   Generation of antigen-specific paired-chain antibodies using large language models
+    + [[Cell (2025)](https://www.cell.com/cell/fulltext/S0092-8674(25)]01135-3) • [[code](https://github.com/IGlab-VUMC/MAGE_ab_generation)] • [[model](https://huggingface.co/perrywasdin/MAGE_V1)]
 
 
 ---
@@ -3022,6 +3024,10 @@ Xiao-peng Dai, Xiang-chun Meng, Ying-jun Zhou, Zhi-min Li, Yu Ji, Ulrich Schwane
 **MOFormer: navigating the antimicrobial peptide design space with Pareto-based multi-objective transformer**  
 Li Wang, Xiangzheng Fu, Jiahao Yang, Xinyi Zhang, Xiucai Ye, Tetsuya Sakurai, Xiangxiang Zeng, Yiping Liu  
 [Briefings in Bioinformatics 26.6 (2025)](https://academic.oup.com/bib/article/26/6/bbaf376/8315069) • [code](https://github.com/wl-wl/MOFormer/tree/master)
+
+**Generation of antigen-specific paired-chain antibodies using large language models**  
+Perry T. Wasdin, Nicole V. Johnson, Alexis K. Janke, Sofia Held, Toma M. Marinov, Gwen Jordaan, Rebecca A. Gillespie, Le´ na Vandenabeele, Fani Pantouli, Olivia C. Powers, Matthew J. Vukovich, Clinton M. Holt, Jeongryeol Kim, Grant Hansman, Jennifer Logue, Helen Y. Chu, Sarah F. Andrews, Masaru Kanekiyo, Giuseppe A. Sautto, Ted M. Ross, Daniel J. Sheward, Jason S. McLellan, Alexandra A. Abu-Shmais, and Ivelin S. Georgiev  
+[Cell (2025)](https://www.cell.com/cell/fulltext/S0092-8674(25)01135-3) • [code](https://github.com/IGlab-VUMC/MAGE_ab_generation) • [model](https://huggingface.co/perrywasdin/MAGE_V1)
 
 ### 5.5 Bayesian-based
 
