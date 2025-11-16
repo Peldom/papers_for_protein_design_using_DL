@@ -10,16 +10,22 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.11.07:*
-+   DL4Proteins Jupyter Notebooks Teach how to use Artificial Intelligence for Biomolecular Structure Prediction and Design
-    + [[arXiv:2511.02128](https://arxiv.org/abs/2511.02128v1)]
-+   Generative models for antimicrobial peptide design: auto-encoders and beyond
-    + [[bioRxiv 2025.10.29.685317](https://www.biorxiv.org/content/10.1101/2025.10.29.685317v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/10/30/2025.10.29.685317/DC1/embed/media-1.pdf)] • [[code](https://github.com/devshibe/amp-autencoders)]
-+   In Silico Peptide Design: Methods, Resources, and Role of AI
-    + [[Journal of Peptide Science 31.12 (2025)](https://onlinelibrary.wiley.com/doi/10.1002/psc.70063)]
-+   De Novo Design of High-Performance Sec-type Signal Peptide via a Hybrid Deep Learning Architecture
-    + [[JACS Au 5.10 (2025)](https://pubs.acs.org/doi/10.1021/jacsau.5c00757)] • [[code](https://github.com/lzlinn801/SPgo)]
+*Papers last week, updated on 2025.11.16:*
++   HalluDesign: Protein Optimization and de novo Design via Iterative Structure Hallucination and Sequence design
+    + [[bioRxiv 2025.11.08.686881](https://www.biorxiv.org/content/10.1101/2025.11.08.686881v1)] • [[code](https://github.com/MinchaoFang/HalluDesign)]
 
++   Multimodal diffusion for joint design of protein sequence and structure
+    + [[Protein Science 34.12 (2025)](https://onlinelibrary.wiley.com/doi/10.1002/pro.70340)] • [[code](https://github.com/Shen-Lab/JointDiff)]
++   Hybrid AI/physics pipeline for miniprotein binder prioritization: application to the BRD3 ET domain
+    + [[Chemical Communications (2025)](https://pubs.rsc.org/en/content/articlelanding/2025/cc/d5cc05032d)] • [[code](https://github.com/PDNALab/Miniprotein_Design)]
++   MOFormer: navigating the antimicrobial peptide design space with Pareto-based multi-objective transformer
+    + [[Briefings in Bioinformatics 26.6 (2025)](https://academic.oup.com/bib/article/26/6/bbaf376/8315069)] • [[code](https://github.com/wl-wl/MOFormer/tree/master)]
++   Controllable protein design through Feynman-Kac steering
+    + [[arXiv:2511.09216](https://arxiv.org/abs/2511.09216)] • [[code](https://github.com/ErikHartman/FK-RFdiffusion)]
++   Relaxed Sequence Sampling for Diverse Protein Design
+    + [[arXiv:2510.23786](https://arxiv.org/abs/2510.23786)]
++   Protein generation with embedding learning for motif diversification
+    + [[arXiv:2510.18790](https://arxiv.org/abs/2510.18790)]
 
 
 ---
@@ -828,7 +834,7 @@ Anders Lønstrup Hansen, Frederik Friis Theisen, Ramon Crehuet, Enrique Marcos, 
 Yehlin Cho, Justas Dauparas, Kotaro Tsuboyama, Gabriel Rocklin, Sergey Ovchinnikov
 [bioRxiv 2024.12.20.629706](https://www.biorxiv.org/content/10.1101/2024.12.20.629706v1) • [code](https://github.com/yehlincho/Joint_Model_Stability) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/22/2024.12.20.629706/DC1/embed/media-1.pdf)
 
-#### 2.1.2 AlphaFold2-based
+#### 2.1.2 AlphaFold-based
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**
 Petti, Samantha, Bhattacharya, Nicholas, Rao, Roshan, Dauparas, Justas, Thomas, Neil, Zhou, Juannan, Rush, Alexander M, Koo, Peter K, Ovchinnikov, Sergey
@@ -1025,6 +1031,10 @@ Yehlin Cho, Griffin Rangel, Gaurav Bhardwaj, Sergey Ovchinnikov
 **De novo protein design enables targeting of intractable oncogenic interfaces**  
 Varshika Ram Prakash, Yusuf Najy, Kalel Garrett, Brian F.P. Edwards, Benjamin L Kidder  
 [bioRxiv 2025.10.22.683953](https://www.biorxiv.org/content/10.1101/2025.10.22.683953v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/10/23/2025.10.22.683953/DC1/embed/media-1.pdf)
+
+**HalluDesign: Protein Optimization and de novo Design via Iterative Structure Hallucination and Sequence design**  
+Minchao Fang, Chentong Wang, Jungang Shi, Fangbai Lian, Qihan Jin, Zhe Wang, Yanzhe Zhang, Zhanyuan Cui, YanJun Wang, Yitao Ke, Qingzheng Han, Longxing Cao  
+[bioRxiv 2025.11.08.686881](https://www.biorxiv.org/content/10.1101/2025.11.08.686881v1) • [code](https://github.com/MinchaoFang/HalluDesign)
 
 #### 2.1.3 DMPfold2-based
 
@@ -1229,6 +1239,10 @@ Lei Wang, Xiaoming He, Gaoxing Guo, Xinzhou Qian, Qiang Huang
 **Monte Carlo Tree Diffusion with Multiple Experts for Protein Design**  
 Xuefeng Liu, Mingxuan Cao, Songhao Jiang, Xiao Luo, Xiaotian Duan, Mengdi Wang, Tobin R. Sosnick, Jinbo Xu, Rick Stevens  
 [arXiv:2509.15796](https://arxiv.org/abs/2509.15796)
+
+**Relaxed Sequence Sampling for Diverse Protein Design**  
+Joohwan Ko, Aristofanis Rontogiannis, Yih-En Andrew Ban, Axel Elaldi, Nicholas Franklin  
+[arXiv:2510.23786](https://arxiv.org/abs/2510.23786)
 
 ## 3. Function to Scaffold
 
@@ -1442,6 +1456,14 @@ Stephen Buckley, Yangyang Miao, Mubarak Idris, Pao-Wan Lee, Leo Scheller, Roland
 **Constrained Diffusion for Protein Design with Hard Structural Constraints**  
 Jacob K Christopher, Austin Seamann, Jingyi Cui, Sagar Khare, Ferdinando Fioretto  
 [bioRxiv 2025.10.15.682365](https://www.biorxiv.org/content/10.1101/2025.10.15.682365v1)
+
+**Controllable protein design through Feynman-Kac steering**  
+Erik Hartman, Jonas Wallin, Johan Malmström, Jimmy Olsson  
+[arXiv:2511.09216](https://arxiv.org/abs/2511.09216) • [code](https://github.com/ErikHartman/FK-RFdiffusion)
+
+**Protein generation with embedding learning for motif diversification**  
+Kevin Michalewicz, Chen Jin, Philip Alexander Teare, Tom Diethe, Mauricio Barahona, Barbara Bravi, Asher Mullokandov  
+[arXiv:2510.18790](https://arxiv.org/abs/2510.18790)
 
 ### 3.5 RL-based
 
@@ -2997,6 +3019,10 @@ Han Gao, Feifei Guan, Boyu Luo, Dongdong Zhang, Wei Liu, Yuying Shen, Lingxi Fan
 Xiao-peng Dai, Xiang-chun Meng, Ying-jun Zhou, Zhi-min Li, Yu Ji, Ulrich Schwaneberg, Zong-lin Li  
 [JACS Au 5.10 (2025)](https://pubs.acs.org/doi/10.1021/jacsau.5c00757) • [code](https://github.com/lzlinn801/SPgo)
 
+**MOFormer: navigating the antimicrobial peptide design space with Pareto-based multi-objective transformer**  
+Li Wang, Xiangzheng Fu, Jiahao Yang, Xinyi Zhang, Xiucai Ye, Tetsuya Sakurai, Xiangxiang Zeng, Yiping Liu  
+[Briefings in Bioinformatics 26.6 (2025)](https://academic.oup.com/bib/article/26/6/bbaf376/8315069) • [code](https://github.com/wl-wl/MOFormer/tree/master)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -3596,6 +3622,10 @@ ODesign Team
 Hannes Stark, Felix Faltings, MinGyu Choi, Yuxin Xie, Eunsu Hur, Timothy O’Donnell, Anton Bushuiev, Talip Uçar, Saro Passaro, Weian Mao, Mateo Reveiz, Roman Bushuiev, Tomáš Pluskal, Josef Sivic, Karsten Kreis, Arash Vahdat, Shamayeeta Ray, Jonathan T. Goldstein, Andrew Savinov, Jacob A. Hambalek, Anshika Gupta, Diego A. Taquiri-Diaz, Yaotian Zhang, A. Katherine Hatstat, Angelika Arada, Nam Hyeong Kim, Ethel Tackie-Yarboi, Dylan Boselli, Lee Schnaider, Chang C. Liu, Gene-Wei Li, Denes Hnisz, David M. Sabatini, William F. DeGrado, Jeremy Wohlwend, Gabriele Corso, Regina Barzilay, Tommi Jaakkola
 [Technical Report](https://hannes-stark.com/assets/boltzgen.pdf) • [website](https://boltz.bio/boltzgen)
 
+**Multimodal diffusion for joint design of protein sequence and structure**  
+Shaowen Zhu, Siddhant Gulati, Yuxuan Liu, Siddhi Kotnis, Qing Sun, Yang Shen  
+[Protein Science 34.12 (2025)](https://onlinelibrary.wiley.com/doi/10.1002/pro.70340) • [code](https://github.com/Shen-Lab/JointDiff)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites** / **Scaffolding protein functional sites using deep learning**
@@ -3860,7 +3890,11 @@ Yulai Liu, Connor Weidle, Ljubica Mihaljević, Joseph L. Watson, Zhe Li, Le Trac
 
 **Targeted Inhibition of Colorectal Carcinoma Using a Designed CEA-Binding Protein to Deliver p53 Protein and TCF/LEF Transcription Factor Decoy DNA**  
 Wen Wang, Xuan Sun and Geng Wu  
-[International Journal of Molecular Sciences. 2025](https://www.mdpi.com/1422-0067/26/20/9846) [Supplementary](https://www.mdpi.com/article/10.3390/ijms26209846/s1) • RFDiffusion/ProteinMPNN-based
+[International Journal of Molecular Sciences. 2025](https://www.mdpi.com/1422-0067/26/20/9846) • [Supplementary](https://www.mdpi.com/article/10.3390/ijms26209846/s1) • RFDiffusion/ProteinMPNN-based
+
+**Hybrid AI/physics pipeline for miniprotein binder prioritization: application to the BRD3 ET domain**  
+Jokent Gaza, Monica J. Roth, Gaetano T. Montelione and Alberto Perez  
+[Chemical Communications (2025)](https://pubs.rsc.org/en/content/articlelanding/2025/cc/d5cc05032d) • [code](https://github.com/PDNALab/Miniprotein_Design)
 
 ### 6.4 CNN-based
 
