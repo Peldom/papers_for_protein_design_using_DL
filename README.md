@@ -10,24 +10,19 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.11.16:*
-+   HalluDesign: Protein Optimization and de novo Design via Iterative Structure Hallucination and Sequence design
-    + [[bioRxiv 2025.11.08.686881](https://www.biorxiv.org/content/10.1101/2025.11.08.686881v1)] • [[code](https://github.com/MinchaoFang/HalluDesign)]
-
-+   Multimodal diffusion for joint design of protein sequence and structure
-    + [[Protein Science 34.12 (2025)](https://onlinelibrary.wiley.com/doi/10.1002/pro.70340)] • [[code](https://github.com/Shen-Lab/JointDiff)]
-+   Hybrid AI/physics pipeline for miniprotein binder prioritization: application to the BRD3 ET domain
-    + [[Chemical Communications (2025)](https://pubs.rsc.org/en/content/articlelanding/2025/cc/d5cc05032d)] • [[code](https://github.com/PDNALab/Miniprotein_Design)]
-+   MOFormer: navigating the antimicrobial peptide design space with Pareto-based multi-objective transformer
-    + [[Briefings in Bioinformatics 26.6 (2025)](https://academic.oup.com/bib/article/26/6/bbaf376/8315069)] • [[code](https://github.com/wl-wl/MOFormer/tree/master)]
-+   Controllable protein design through Feynman-Kac steering
-    + [[arXiv:2511.09216](https://arxiv.org/abs/2511.09216)] • [[code](https://github.com/ErikHartman/FK-RFdiffusion)]
-+   Relaxed Sequence Sampling for Diverse Protein Design
-    + [[arXiv:2510.23786](https://arxiv.org/abs/2510.23786)]
-+   Protein generation with embedding learning for motif diversification
-    + [[arXiv:2510.18790](https://arxiv.org/abs/2510.18790)]
-+   Generation of antigen-specific paired-chain antibodies using large language models
-    + [[Cell (2025)](https://www.cell.com/cell/fulltext/S0092-8674(25)]01135-3) • [[code](https://github.com/IGlab-VUMC/MAGE_ab_generation)] • [[model](https://huggingface.co/perrywasdin/MAGE_V1)]
+*Papers last week, updated on 2025.11.22:*
++   Beyond evolution: De novo designed protein toolkit rewriting the rules of synthetic biology
+    + [[Biosafety and Health (2025)](https://www.sciencedirect.com/science/article/pii/S2590053625001314)]
++   Computational Design and Glycoengineering of Interferon-Lambda for Nasal Prophylaxis Against Respiratory Viruses
+    + [[Adv. Sci. (2025)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506764)] • ProteinMPNN-based
++   Targeting peptide-MHC complexes with designed T cell receptors and antibodies
+    + [[bioRxiv 2025.11.19.689381](https://www.biorxiv.org/content/10.1101/2025.11.19.689381v1)] • ProteinMPNN-based
++   JAM-2: Fully computational design of drug-like antibodies with high success rates
+    + [[Whitepaper](https://nabla-public.s3.us-east-1.amazonaws.com/2025_Nabla_JAM2.pdf)]
++   Drug-like antibody design against challenging targets with atomic precision
+    + [[technical report](https://chaiassets.com/chai-2/paper/technical_report_challenging_targets.pdf)] • [[news](https://www.chaidiscovery.com/news/chai-2-mab)]
++   De Novo Design of a Protein Binder to Probe Gas Channel and Enhance the Oxygen Tolerance of [NiFe] Hydrogenase
+    + [[bioRxiv 2025.11.19.689374](https://www.biorxiv.org/content/10.1101/2025.11.19.689374v1)]
 
 
 ---
@@ -1451,6 +1446,10 @@ Xiao Liang, Wentao Ma, Eric Paquet, Herna Lydia Viktor, Wojtek Michalowski
 Urszula Julia Komorowska, Francisco Vargas, Alessandro Rondina, Pietro Lio, Mateja Jamnik  
 [ICML 2025 poster](https://openreview.net/forum?id=2dlTi4S4JN)
 
+**AIDO.StructureDiffusion: The AIDO Module for Molecular Design**  
+[GenBio Team](https://genbio.ai/author/genbioaiteam/)  
+[website](https://genbio.ai/aido-structurediffusion-the-aido-module-for-molecular-design/)
+
 **De novo design of phosphorylation-induced protein switches for synthetic signaling in cells**  
 Stephen Buckley, Yangyang Miao, Mubarak Idris, Pao-Wan Lee, Leo Scheller, Roland Riek, Sebastian J. Maerkl, Luciano A. Abriata, Bruno E. Correia  
 [bioRxiv 2025.09.10.675034](https://www.biorxiv.org/content/10.1101/2025.09.10.675034v1)
@@ -2044,6 +2043,14 @@ Yinying Meng, Guojin Tang, Ruishi Wang, Bin Zheng, Yuanhao Liu, Hantian Zhang, P
 **De Novo Design of High‐Affinity Miniprotein Binders Targeting Francisella Tularensis Virulence Factor**  
 Gizem Gokce-Alpkilic, Buwei Huang, Andi Liu, Lieselotte S.M. Kreuk, Yaxi Wang, Victor Adebomi, Yensi Flores Bueso, Asim K. Bera, Alex Kang, Stacey R. Gerben, Stephen Rettie, Dionne K. Vafeados, Nicole Roullier, Inna Goreshnik, Xinting Li, David Baker, Joshua J. Woodward, Joseph D. Mougous, Gaurav Bhardwaj  
 [Angewandte Chemie International Edition (2025)](https://onlinelibrary.wiley.com/doi/10.1002/anie.202516058) • ProteinMPNN-based
+
+**Targeting peptide-MHC complexes with designed T cell receptors and antibodies**  
+Amir Motmaen, Kevin M Jude, Nan Wang, Anastasia Minervina, David Feldman, Mauriz A Lichtenstein, Abishai Ebenezer, Colin Correnti, Paul G Thomas, K. Christopher Garcia, David Baker, Philip Bradley  
+[bioRxiv 2025.11.19.689381](https://www.biorxiv.org/content/10.1101/2025.11.19.689381v1) • ProteinMPNN-based
+
+**Computational Design and Glycoengineering of Interferon-Lambda for Nasal Prophylaxis Against Respiratory Viruses**  
+Jeongwon Yun,  Seungju Yang,  Jae Hyuk Kwon,  Luiz Felipe Vecchietti,  Ji Hyun Choi,  Mi-ra Choi,  Keun Bon Ku,  Hyun-Joo Ro,  Kyun-Do Kim,  Meeyoung Cha,  Hyun Jung Chung,  Ji Eun Oh,  Ho Min Kim  
+[Adv. Sci. (2025)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506764) • ProteinMPNN-based
 
 ### 4.6 GAN-based
 
@@ -3608,6 +3615,10 @@ Tianyu Lu, Richard Shuai, Petr Kouba, Zhaoyang Li, Yilin Chen, Akio Shirali, Jin
 Bowen Jing, Anna Sappington, Mihir Bafna, Ravi Shah, Adrina Tang, Rohith Krishna, Adam Klivans, Daniel J Diaz, Bonnie Berger  
 [bioRxiv 2025.09.03.672144](https://www.biorxiv.org/content/10.1101/2025.09.03.672144v2) • [code](https://github.com/bjing2016/ProDiT)
 
+**Joint Design of Protein Surface and Backbone Using a Diffusion Bridge Model**  
+Guanlue Li, Xufeng Zhao, Fang Wu, Sören Laue  
+[NeurIPS 2025 poster](https://openreview.net/forum?id=QqCv9SI0X3)
+
 **Peptide design through binding interface mimicry with PepMimic**  
 Xiangzhe Kong, Rui Jiao, Haowei Lin, Ruihan Guo, Wenbing Huang, Wei-Ying Ma, Zihua Wang, Yang Liu & Jianzhu Ma  
 [Nat. Biomed. Eng (2025)](https://www.nature.com/articles/s41551-025-01507-4) • [code](https://github.com/kxz18/PepMimic)
@@ -3626,7 +3637,7 @@ ODesign Team
 
 **BoltzGen: Toward Universal Binder Design**  
 Hannes Stark, Felix Faltings, MinGyu Choi, Yuxin Xie, Eunsu Hur, Timothy O’Donnell, Anton Bushuiev, Talip Uçar, Saro Passaro, Weian Mao, Mateo Reveiz, Roman Bushuiev, Tomáš Pluskal, Josef Sivic, Karsten Kreis, Arash Vahdat, Shamayeeta Ray, Jonathan T. Goldstein, Andrew Savinov, Jacob A. Hambalek, Anshika Gupta, Diego A. Taquiri-Diaz, Yaotian Zhang, A. Katherine Hatstat, Angelika Arada, Nam Hyeong Kim, Ethel Tackie-Yarboi, Dylan Boselli, Lee Schnaider, Chang C. Liu, Gene-Wei Li, Denes Hnisz, David M. Sabatini, William F. DeGrado, Jeremy Wohlwend, Gabriele Corso, Regina Barzilay, Tommi Jaakkola
-[Technical Report](https://hannes-stark.com/assets/boltzgen.pdf) • [website](https://boltz.bio/boltzgen)
+[Technical Report](https://hannes-stark.com/assets/boltzgen.pdf) • [website](https://boltz.bio/boltzgen) • [model](https://huggingface.co/spaces/ludocomito/anatomy-of-boltzgen)
 
 **Multimodal diffusion for joint design of protein sequence and structure**  
 Shaowen Zhu, Siddhant Gulati, Yuxuan Liu, Siddhi Kotnis, Qing Sun, Yang Shen  
@@ -3901,6 +3912,10 @@ Wen Wang, Xuan Sun and Geng Wu
 **Hybrid AI/physics pipeline for miniprotein binder prioritization: application to the BRD3 ET domain**  
 Jokent Gaza, Monica J. Roth, Gaetano T. Montelione and Alberto Perez  
 [Chemical Communications (2025)](https://pubs.rsc.org/en/content/articlelanding/2025/cc/d5cc05032d) • [code](https://github.com/PDNALab/Miniprotein_Design)
+
+**De Novo Design of a Protein Binder to Probe Gas Channel and Enhance the Oxygen Tolerance of [NiFe] Hydrogenase**  
+Xuan Sun, Wenjin Li, Wangzhe Li, Hang Luo, Qi Xiao, Leyan Zhang, Yilin Fan, Peiyu Jiang, Geng Wu, Liyun Zhang  
+[bioRxiv 2025.11.19.689374](https://www.biorxiv.org/content/10.1101/2025.11.19.689374v1)
 
 ### 6.4 CNN-based
 
@@ -4486,9 +4501,17 @@ Guan, Jiaqi, et al
 [Nabla Bio](https://www.nabla.bio/)
 [preprint](https://nabla-public.s3.us-east-1.amazonaws.com/2024_Nabla_JAM_de_novo_antibodies.pdf) • [blog](https://www.nabla.bio/news/denovo) • [news](https://www.science.org/content/article/ai-conjures-potential-new-antibody-drugs-matter-months) • commercial
 
+**JAM-2: Fully computational design of drug-like antibodies with high success rates**  
+[Nabla Bio](https://www.nabla.bio/)
+[Whitepaper](https://nabla-public.s3.us-east-1.amazonaws.com/2025_Nabla_JAM2.pdf)
+
 **Chai-2: Zero-Shot Antibody Discovery in a 24-well Plate**  
 Chai Discovery Team  
 [technical report](https://chaiassets.com/chai-2/paper/technical_report.pdf) • [news](https://www.chaidiscovery.com/news/introducing-chai-2) • commercial
+
+**Drug-like antibody design against challenging targets with atomic precision**  
+Chai Discovery Team  
+[technical report](https://chaiassets.com/chai-2/paper/technical_report_challenging_targets.pdf) • [news](https://www.chaidiscovery.com/news/chai-2-mab)
 
 **Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design**  
 Latent Labs Team  
