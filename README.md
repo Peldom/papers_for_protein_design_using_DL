@@ -10,33 +10,22 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.11.27:*
-+   De Novo Design of Peptide Masks Enables Rapid Generation of Conditionally-Active Miniprotein Binders
-    + [[Journal of the American Chemical Society (2025)](https://pubs.acs.org/doi/full/10.1021/jacs.5c16108)]
-+   Guiding Generative Models for Protein Design: Prompting, Steering and Aligning
-    + [[arXiv:2511.21476](https://arxiv.org/abs/2511.21476)]
-+   RFDiffusion: Revolutionizing Protein Design with Generative AI
-    + [[Serican Journal of Medicine 2.4 (2025)](https://journals.ku.edu/sjm/article/view/23410)]
-+   Ovo, an Open-Source Ecosystem for De Novo Protein Design
-    + [[bioRxiv 2025.11.27.691041](https://www.biorxiv.org/content/10.1101/2025.11.27.691041v1)] • [[code](https://github.com/MSDLLCpapers/ovo)]
-+   Torsion-Space Diffusion for Protein Backbone Generation with Geometric Refinement
-    + [[arXiv:2511.19184](https://arxiv.org/abs/2511.19184)]
-+   Computational design of superstable proteins through maximized hydrogen bonding
-    + [[Nat. Chem. (2025)](https://www.nature.com/articles/s41557-025-01998-3)]
-+   The role of ai-driven de novo protein design in the exploration of the protein functional universe
-    + [[Biology 14.9 (2025): 1268](https://www.mdpi.com/2079-7737/14/9/1268)]
-+   Joint Design of Protein Surface and Structure Using a Diffusion Bridge Model
-    + [[arXiv:2511.16675](https://arxiv.org/abs/2511.16675v1)] • [[code](https://github.com/guanlueli/Pepbridge)]
-+   De Novo Design of High-Affinity HER2-Targeting Protein Minibinders
-    + [[Biomolecules 15.11 (2025)](https://www.mdpi.com/2218-273X/15/11/1587)]
-+   Ab-initio amino acid sequence design from protein text description with ProtDAT
-    + [[Nat Commun 16, 10544 (2025)](https://www.nature.com/articles/s41467-025-65562-w)] • [[code](https://github.com/GXY0116/ProtDAT/tree/v1.0.0)] • [[website](http://www.csbio.sjtu.edu.cn/bioinf2/ProtDAT/)]
-+   Computational design of cysteine proteases
-    + [[bioRxiv 2025.11.21.689808](https://www.biorxiv.org/content/10.1101/2025.11.21.689808v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/11/22/2025.11.21.689808/DC1/embed/media-1.docx)]
-+   Computational design of metalloproteases
-    + [[bioRxiv 2025.11.20.689622](https://www.biorxiv.org/content/10.1101/2025.11.20.689622v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/11/21/2025.11.20.689622/DC1/embed/media-1.docx)]
-+   General-Purpose Large Language Models, such as DeepSeek V3.2, Have Evolved Protein Design Capabilities
-    + [[bioRxiv 2025.11.23.689994](https://www.biorxiv.org/content/10.1101/2025.11.23.689994v1)] • [[code](https://github.com/LIJIAWEI040301/GLLMs_for_protein)]
+*Papers last week, updated on 2025.12.9:*
++   Generative design and validation of therapeutic peptides for glioblastoma based on a potential target ATP5A
+    + [[arXiv:2512.02030](https://arxiv.org/abs/2512.02030v1)]
++   Modeling the structure-conditioned sequence landscape for large-scale protein design with TriFlow
+    + [[bioRxiv 2025.11.30.691458](https://www.biorxiv.org/content/10.64898/2025.11.30.691458v1)] • [[code](https://github.com/jzhoulab/TriFlow)]
++   CONFIDE: Hallucination Assessment for Reliable Biomolecular Structure Prediction and Design
+    + [[arXiv:2512.02033](https://arxiv.org/abs/2512.02033)] • [[code](https://github.com/zjgao02/CONFIDE)]
++   Accurate single-domain scaffolding of three nonoverlapping protein epitopes using deep learning
+    + [[Nat Chem Biol (2025)](https://www.nature.com/articles/s41589-025-02083-z)]
++   Machine learning enables de novo multiepitope design of Plasmodium falciparum circumsporozoite protein to target trimeric L9 antibody
+    + [[Proceedings of the National Academy of Sciences 122.49 (2025)](https://www.pnas.org/doi/10.1073/pnas.2512358122)]
++   Design of a Labile RNase A Using Protein Language Models
+    + [[ACS Synthetic Biology (2025)](https://pubs.acs.org/doi/10.1021/acssynbio.5c00287)]
++   Computational enzyme design by catalytic motif scaffolding
+    + [[Nature (2025)](https://www.nature.com/articles/s41586-025-09747-9)] • [[code](https://github.com/mabr3112/riff_diff_protflow)]
+
 
 
 ---
@@ -207,6 +196,10 @@ Xinyan Zhao, Yi-Ching Tang, Akshita Singh, Victor J Cantu, KwanHo An, Junseok Le
 **The Dayhoff Atlas: scaling sequence diversity for improved protein generation**  
 Kevin K. Yang, Sarah Alamdari, Alex J. Lee, Kaeli Kaymak-Loveless, Samir Char, Garyk Brixi, Carles Domingo-Enrich, Chentong Wang, Suyue Lyu, Nicolo Fusi, Neil Tenenholtz, Ava P. Amini  
 [bioRxiv 2025.07.21.665991](https://www.biorxiv.org/content/10.1101/2025.07.21.665991v1) • [code](https://github.com/microsoft/dayhoff) • [dataset](https://huggingface.co/collections/microsoft/dayhoff-atlas-6866d679465a2685b06ee969)
+
+**Consistent Synthetic Sequences Unlock Structural Diversity in Fully Atomistic De Novo Protein Design**  
+Danny Reidenbach, Zhonglin Cao, Zuobai Zhang, Kieran Didi, Tomas Geffner, Guoqing Zhou, Jian Tang, Christian Dallago, Arash Vahdat, Emine Kucukbenli, Karsten Kreis  
+[arXiv:2512.01976](https://arxiv.org/abs/2512.01976)
 
 ### 0.2 Structure Datasets, Benchmarks
 
@@ -3079,6 +3072,10 @@ Bruno Jacob, Khushbu Agarwal, Marcel Baer, Peter Rice, Simone Raugei
 Jiawei Li, Xinxiu Dong  
 [bioRxiv 2025.11.23.689994](https://www.biorxiv.org/content/10.1101/2025.11.23.689994v1) • [code](https://github.com/LIJIAWEI040301/GLLMs_for_protein)
 
+**Swarms of Large Language Model Agents for Protein Sequence Design with Experimental Validation**  
+Fiona Y. Wang, Di Sheng Lee, David L. Kaplan, Markus J. Buehler  
+[arXiv:2511.22311](https://arxiv.org/abs/2511.22311v1) • [code](https://github.com/lamm-mit/ProteinSwarm)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -3232,6 +3229,10 @@ Zitai Kong, Yiheng Zhu, Yinlong Xu, Hanjing Zhou, Mingzhe Yin, Jialu Wu, Hongxia
 **Multi-Objective-Guided Discrete Flow Matching for Controllable Biological Sequence Design**  
 Tong Chen, Yinuo Zhang, Sophia Tang, Pranam Chatterjee  
 [arXiv:2505.07086](https://arxiv.org/abs/2505.07086v2) • [model](https://huggingface.co/ChatterjeeLab/MOG-DFM)
+
+**Modeling the structure-conditioned sequence landscape for large-scale protein design with TriFlow**  
+Harish Srinivasan, Rongqing Yuan, Qian Cong, Jian Zhou  
+[bioRxiv 2025.11.30.691458](https://www.biorxiv.org/content/10.64898/2025.11.30.691458v1) • [code](https://github.com/jzhoulab/TriFlow)
 
 ### 5.8 RNN-based
 
@@ -3778,7 +3779,7 @@ Ruei-En, HuChi-Hua, Yu I-Son Ng
 
 **Computational Design of Metallohydrolases**
 Donghyo Kim, Seth M. Woodbury, Woody Ahern, Indrek Kalvet, Nikita Hanikel, Saman Salike, Samuel J. Pellock, Anna Lauko, Donald Hilvert, David Baker
-[bioRxiv 2024.11.13.623507](https://www.biorxiv.org/content/10.1101/2024.11.13.623507v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/11/14/2024.11.13.623507/DC1/embed/media-1.pdf)
+[bioRxiv 2024.11.13.623507](https://www.biorxiv.org/content/10.1101/2024.11.13.623507v1)/[Nature (2025)](https://www.nature.com/articles/s41586-025-09746-w) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/11/14/2024.11.13.623507/DC1/embed/media-1.pdf)
 
 **Design of facilitated dissociation enables control over cytokine signaling duration**
 Adam J. Broerman, Christoph Pollmann, Mauriz A. Lichtenstein, Mark D. Jackson, Maxx H. Tessmer, Won Hee Ryu, Mohamad H. Abedi, Danny D. Sahtoe, Aza Allen, Alex Kang, Joshmyn De La Cruz, Evans Brackenbrough, Banumathi Sankaran, Asim K. Bera, Daniel M. Zuckerman, Stefan Stoll, Florian Praetorius, Jacob Piehler, David Baker
@@ -3832,6 +3833,10 @@ Yo Akiyama, Sergey Ovchinnikov
 Karsten D. Householder, Xinyu Xiang, Kevin M. Jude, Arthur Deng, Matthias Obenaus, Steven C. Wilson, Xiaojing Chen, Nan Wang, K. Christopher Garcia
 [bioRxiv 2024.12.16.628822](https://www.biorxiv.org/content/10.1101/2024.12.16.628822v1)/[Science389,375-379(2025)](https://www.science.org/doi/10.1126/science.adv3813) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.16.628822/DC1/embed/media-1.pdf) • RFDiffusion/ProteinMPNN-based
 
+**Design of pseudosymmetric protein hetero-oligomers**
+Ryan D. Kibler, Sangmin Lee, Madison A. Kennedy, Basile I. M. Wicky, Stella M. Lai, Marius M. Kostelic, Ann Carr, Xinting Li, Cameron M. Chow, Tina K. Nguyen, Lauren Carter, Vicki H. Wysocki, Barry L. Stoddard & David Baker
+[Nat Commun 15, 10684 (2024)](https://www.nature.com/articles/s41467-024-54913-8) • [code](https://github.com/rdkibler/Stepwise-design-of-pseudosymmetric-protein-hetero-oligomers)
+
 **Bottom-up design of calcium channels from defined selectivity filter geometry**
 Yulai Liu, Connor Weidle, Ljubica Mihaljevic, Joseph L. Watson, Zhe Li, Le Tracy Yu, Sagardip Majumder, Andrew J. Borst, Kenneth D. Carr, Ryan D. Kibler, Tamer M. Gamal El-Din, William A. Catterall, David Baker
 [bioRxiv 2024.12.19.629320](https://www.biorxiv.org/content/10.1101/2024.12.19.629320v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.19.629320/DC1/embed/media-1.pdf) • RFDiffusion/ProteinMPNN-based
@@ -3854,7 +3859,7 @@ Edin Muratspahić, David Feldman, David E. Kim, Xiangli Qu, Ana-Maria Bratovianu
 
 **Atom level enzyme active site scaffolding using RFdiffusion2**
 Woody Ahern, Jason Yim, Doug Tischer, Saman Salike, Seth Woodbury, Donghyo Kim, Indrek Kalvet, Yakov Kipnis, Brian Coventry, Han Altae-Tran, Magnus Bauer, Regina Barzilay, Tommi Jaakkola, Rohith Krishna, David A Baker
-[bioRxiv 2025.04.09.648075](https://www.biorxiv.org/content/10.1101/2025.04.09.648075v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/04/10/2025.04.09.648075.1/DC1/embed/media-1.pdf) • [lecture](https://www.youtube.com/watch?v=bd6bFXRmEGA&pp=ygUMcmZkaWZmdXNpb24y) • [code](https://github.com/RosettaCommons/RFdiffusion2)
+[bioRxiv 2025.04.09.648075](https://www.biorxiv.org/content/10.1101/2025.04.09.648075v2)/[Nat Methods (2025)](https://www.nature.com/articles/s41592-025-02975-x) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/04/10/2025.04.09.648075.1/DC1/embed/media-1.pdf) • [lecture](https://www.youtube.com/watch?v=bd6bFXRmEGA&pp=ygUMcmZkaWZmdXNpb24y) • [code](https://github.com/RosettaCommons/RFdiffusion2)
 
 **Generative protein design meets synthetic porphyrin assembly**
 Hiroaki Inaba, Hiroki Onoda, Takayuki Uchihashi, Atsunori Oshima and Osami Shoji
@@ -3918,7 +3923,7 @@ Carlos Chacon-Sanchez, Nayim Gonzalez-Rodriguez, Oscar Llorca, Rafael Fernandez-
 
 **De novo Design of All-atom Biomolecular Interactions with RFdiffusion3**  
 Jasper Kenneth Veje Butcher, Rohith Krishna, Raktim Mitra, Rafael Isaac Brent, Yanjing Li, Nathaniel Corley, Paul Kim, Jonathan Funk, Simon Valentin Mathis, Saman Salike, Aiko Muraishi, Helen Eisenach, Tuscan Rock Thompson, Jie Chen, Yuliya Politanska, Enisha Sehgal, Brian Coventry, Odin Zhang, Bo Qiang, Kieran Didi, Maxwell Kazman, Frank DiMaio, David Baker  
-[bioRxiv 2025.09.18.676967](https://www.biorxiv.org/content/10.1101/2025.09.18.676967v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/09/18/2025.09.18.676967/DC1/embed/media-1.pdf)
+[bioRxiv 2025.09.18.676967](https://www.biorxiv.org/content/10.1101/2025.09.18.676967v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/09/18/2025.09.18.676967/DC1/embed/media-1.pdf) • [code](https://github.com/RosettaCommons/foundry)
 
 **AI-Guided Design of Cyclic Peptide Binders Targeting TREM2 Using CycleRFdiffusion and Experimental Validation**  
 Sungwoo Cho, Renjie Zhu, Katarzyna Kuncewicz, Hongliang Duan, Moustafa Gabr  
@@ -3992,6 +3997,18 @@ Montserrat Escobar-Rosales, Cristina Montaner, Marc Expòsit, Roberta Lucchi, Cr
 David Prihoda, Marco Ancona, Tereza Calounova, Adam Kral, Lukas Polak, Hugo Hrban, Nicholas J. Dickens, Danny Asher Bitton  
 [bioRxiv 2025.11.27.691041](https://www.biorxiv.org/content/10.1101/2025.11.27.691041v1) • [code](https://github.com/MSDLLCpapers/ovo)
 
+**Machine learning enables de novo multiepitope design of Plasmodium falciparum circumsporozoite protein to target trimeric L9 antibody**  
+J. Andrew D. Nelson, Samuel E. Garfinkle, Zi Jie Lin, Joyce Park, Amber J. Kim, Kelly Bayruns, Madison E. McCanna, Kylie M. Konrath, Colby J. Agostino, Daniel W. Kulp Daniel.Kulp, Audrey R. Odom John, and Jesper Pallesen  
+[Proceedings of the National Academy of Sciences 122.49 (2025)](https://www.pnas.org/doi/10.1073/pnas.2512358122)
+
+**Accurate single-domain scaffolding of three nonoverlapping protein epitopes using deep learning**  
+Karla M. Castro, Joseph L. Watson, Jue Wang, Joshua Southern, Reyhaneh Ayardulabi, Sandrine Georgeon, Stéphane Rosset, David Baker & Bruno E. Correia  
+[Nat Chem Biol (2025)](https://www.nature.com/articles/s41589-025-02083-z)
+
+**Computational enzyme design by catalytic motif scaffolding**  
+Markus Braun, Adrian Tripp, Morakot Chakatok, Sigrid Kaltenbrunner, Celina Fischer, David Stoll, Aleksandar Bijelic, Wael Elaily, Massimo G. Totaro, Melanie Moser, Shlomo Y. Hoch, Horst Lechner, Federico Rossi, Matteo Aleotti, Mélanie Hall & Gustav Oberdorfer  
+[Nature (2025)](https://www.nature.com/articles/s41586-025-09747-9) • [code](https://github.com/mabr3112/riff_diff_protflow)
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**
@@ -4005,10 +4022,6 @@ Anthony Marchand, Stephen Buckley, Arne Schneuing, Martin Pacesa, Pablo Gainza, 
 **Mapping targetable sites on the human surfaceome for the design of novel binders**
 Petra E. M. Balbi, Ahmed Sadek, Anthony Marchand, Ta-Yi Yu, Jovan Damjanovic, Sandrine Georgeon, Joseph Schmidt, Simone Fulle, Che Yang, Hamed Khakzad, Bruno E. Correia
 [bioRxiv 2024.12.16.628626](https://www.biorxiv.org/content/10.1101/2024.12.16.628626v1)• [code](https://github.com/hamedkhakzad/SURFACE-Bind)
-
-**Design of pseudosymmetric protein hetero-oligomers**
-Ryan D. Kibler, Sangmin Lee, Madison A. Kennedy, Basile I. M. Wicky, Stella M. Lai, Marius M. Kostelic, Ann Carr, Xinting Li, Cameron M. Chow, Tina K. Nguyen, Lauren Carter, Vicki H. Wysocki, Barry L. Stoddard & David Baker
-[Nat Commun 15, 10684 (2024)](https://www.nature.com/articles/s41467-024-54913-8) • [code](https://github.com/rdkibler/Stepwise-design-of-pseudosymmetric-protein-hetero-oligomers)
 
 ### 6.5 GNN-based
 
@@ -4198,6 +4211,10 @@ Jin Sub Lee, Philip M Kim
 Cooper Svajda, Joshua Yuan  
 [bioRxiv 2025.08.08.669410](https://www.biorxiv.org/content/10.1101/2025.08.08.669410v1)
 
+**Generative design and validation of therapeutic peptides for glioblastoma based on a potential target ATP5A**  
+Hao Qian, Pu You, Lin Zeng, Jingyuan Zhou, Dengdeng Huang, Kaicheng Li, Shikui Tu, Lei Xu
+[arXiv:2512.02030](https://arxiv.org/abs/2512.02030v1)
+
 ### 6.9 AlphaFold-based
 
 **CarbonNovo: Joint Design of Protein Structure and Sequence Using a Unified Energy-based Model**
@@ -4227,6 +4244,10 @@ Nianzu Yang, Nianzu_Yang, Jian Ma, Songlin Jiang, Huaijin Wu, Shuangjia Zheng, W
 **A synergistic generative-ranking framework for tailored design of therapeutic single-domain antibodies**  
 Yu Kong, Jiale Shi, Fandi Wu, Ting Zhao, Rubo Wang, Xiaoyi Zhu, Qingyuan Xu, Yidong Song, Quanxiao Li, Yulu Wang, Xingyu Gao, Yuedong Yang, Yi Feng, Zifei Wang, Weifeng Ge, Yanling Wu, Zhenlin Yang, Jianhua Yao & Tianlei Ying  
 [Cell Discov 11, 85 (2025)](https://www.nature.com/articles/s41421-025-00843-8)
+
+**CONFIDE: Hallucination Assessment for Reliable Biomolecular Structure Prediction and Design**  
+Zijun Gao, Mutian He, Shijia Sun, Hanqun Cao, Jingjie Zhang, Zihao Luo, Xiaorui Wang, Xiaojun Yao, Chang-Yu Hsieh, Chunbin Gu, Pheng Ann Heng  
+[arXiv:2512.02033](https://arxiv.org/abs/2512.02033) • [code](https://github.com/zjgao02/CONFIDE)
 
 ## 7. Other tasks
 
@@ -4475,6 +4496,10 @@ Michal Kmicikiewicz, Vincent Fortuin, Ewa Szczurek
 **Heuristic Multi-site Optimization for Protein Sequence Design using Masked Protein Language Models**  
 Lijuan Wang, Yuze Wang, Chen Qiu, Liwei Xiao, Xianliang Liu, Junjie Chen  
 [bioRxiv 2025.07.31.668012](https://www.biorxiv.org/content/10.1101/2025.07.31.668012v1)
+
+**Design of a Labile RNase A Using Protein Language Models**  
+Gabriel OngKiat Whye KongSi En PohFong Tian WongYiqi SeowWinston Koh  
+[ACS Synthetic Biology (2025)](https://pubs.acs.org/doi/10.1021/acssynbio.5c00287)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
