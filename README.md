@@ -10,21 +10,18 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.12.9:*
-+   Generative design and validation of therapeutic peptides for glioblastoma based on a potential target ATP5A
-    + [[arXiv:2512.02030](https://arxiv.org/abs/2512.02030v1)]
-+   Modeling the structure-conditioned sequence landscape for large-scale protein design with TriFlow
-    + [[bioRxiv 2025.11.30.691458](https://www.biorxiv.org/content/10.64898/2025.11.30.691458v1)] • [[code](https://github.com/jzhoulab/TriFlow)]
-+   CONFIDE: Hallucination Assessment for Reliable Biomolecular Structure Prediction and Design
-    + [[arXiv:2512.02033](https://arxiv.org/abs/2512.02033)] • [[code](https://github.com/zjgao02/CONFIDE)]
-+   Accurate single-domain scaffolding of three nonoverlapping protein epitopes using deep learning
-    + [[Nat Chem Biol (2025)](https://www.nature.com/articles/s41589-025-02083-z)]
-+   Machine learning enables de novo multiepitope design of Plasmodium falciparum circumsporozoite protein to target trimeric L9 antibody
-    + [[Proceedings of the National Academy of Sciences 122.49 (2025)](https://www.pnas.org/doi/10.1073/pnas.2512358122)]
-+   Design of a Labile RNase A Using Protein Language Models
-    + [[ACS Synthetic Biology (2025)](https://pubs.acs.org/doi/10.1021/acssynbio.5c00287)]
-+   Computational enzyme design by catalytic motif scaffolding
-    + [[Nature (2025)](https://www.nature.com/articles/s41586-025-09747-9)] • [[code](https://github.com/mabr3112/riff_diff_protflow)]
+*Papers last week, updated on 2025.12.14:*
++   Sequence and structural determinants of efficacious de novo chimeric antigen receptors
+    + [[bioRxiv 2025.12.12.694033](https://www.biorxiv.org/content/10.64898/2025.12.12.694033v1)] • [[code](https://github.com/clareaulab/denovo-cart-reproducibility)]
++   Limitations of the refolding pipeline for de novo protein design
+    + [[bioRxiv 2025.12.09.693122](https://www.biorxiv.org/content/10.64898/2025.12.09.693122v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/12/11/2025.12.09.693122/DC1/embed/media-1.pdf)] • [[data](https://github.com/kt-korbeld/Limitations-refolding-pipeline-data)]
++   Self Distillation Fine-Tuning of Protein Language Models Improves Versatility in Protein Design
+    + [[arXiv:2512.09329](https://arxiv.org/abs/2512.09329v1)]
++   Enhancing functional proteins through multimodal inverse folding with ABACUS-T
+    + [[Nat Commun 16, 10177 (2025)](https://www.nature.com/articles/s41467-025-65175-3)] • [[code](https://doi.org/10.5281/zenodo.17089342)]
++   De novo design of epitope-specific antibodies via a structure-driven computational workflow
+    + [[Nat Commun (2025)](https://www.nature.com/articles/s41467-025-67361-9)] • [[code](https://github.com/TencentAI4S/tfold)]
+
 
 
 
@@ -299,6 +296,10 @@ Mario Garcia, Gabriel Jacob Rocklin, Sugyan Dixit
 **Predicting Experimental Success in De Novo Binder Design: A Meta-Analysis of 3,766 Experimentally Characterised Binders**  
 Max Daniel Overath, Andreas Rygaard, Christian Peder Jacobsen, Valentas Brasas, Oliver Morell, Pietro Sormanni, Timothy Patrick Jenkins  
 [bioRxiv 2025.08.14.670059](https://www.biorxiv.org/content/10.1101/2025.08.14.670059v1) • [dataset](https://zenodo.org/records/15722219)
+
+**Limitations of the refolding pipeline for de novo protein design**  
+Kerlen T. Korbeld, Vsevolod Viliuga, Maximilian J.L.J. Fürst  
+[bioRxiv 2025.12.09.693122](https://www.biorxiv.org/content/10.64898/2025.12.09.693122v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/12/11/2025.12.09.693122/DC1/embed/media-1.pdf) • [data](https://github.com/kt-korbeld/Limitations-refolding-pipeline-data)
 
 ### 0.3 Databases
 
@@ -1053,6 +1054,10 @@ Varshika Ram Prakash, Yusuf Najy, Kalel Garrett, Brian F.P. Edwards, Benjamin L 
 Minchao Fang, Chentong Wang, Jungang Shi, Fangbai Lian, Qihan Jin, Zhe Wang, Yanzhe Zhang, Zhanyuan Cui, YanJun Wang, Yitao Ke, Qingzheng Han, Longxing Cao  
 [bioRxiv 2025.11.08.686881](https://www.biorxiv.org/content/10.1101/2025.11.08.686881v1) • [code](https://github.com/MinchaoFang/HalluDesign)
 
+**Sequence and structural determinants of efficacious de novo chimeric antigen receptors**  
+Arthur Chow, Hoyin Chu, Ruofan Li, Benan Nalbant, Abdul Dozic, Laura Kida, Caleb Lareau  
+[bioRxiv 2025.12.12.694033](https://www.biorxiv.org/content/10.64898/2025.12.12.694033v1) • [code](https://github.com/clareaulab/denovo-cart-reproducibility)
+
 #### 2.1.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**
@@ -1102,6 +1107,12 @@ Jie Gao, Jing Hu, Shanzhuo Zhang, Kunrui Zhu, Sheng Qian, Yueyang Huang, Xiaonan
 **Design of proteins by parallel tempering in the sequence space**  
 Preet Kalani, Vojtěch Spiwok  
 [Protein Science 34.10 (2025)](https://onlinelibrary.wiley.com/doi/10.1002/pro.70246)
+
+#### 2.1.10 tFold-based
+
+**De novo design of epitope-specific antibodies via a structure-driven computational workflow**  
+Fandi Wu, Yu Zhao, JiaXiang Wu, Biaobin Jiang, Bing He, Longkai Huang, Chenchen Qin, Yang Xiao, Fan Yang, Rubo Wang, Ningqiao Huang, Huaxian Jia, Yuyi Liu, Houtim Lai, Tingyang Xu, Fang Wang, Zihan Wu, Yidong Song, Shaoning Li, Wei Liu, Yu Rong, Peilin Zhao & Jianhua Yao  
+[Nat Commun (2025)](https://www.nature.com/articles/s41467-025-67361-9) • [code](https://github.com/TencentAI4S/tfold)
 
 ### 2.2 CM-Align
 
@@ -2292,6 +2303,10 @@ Bo Ni, Markus J. Buehler
 Amelia Villegas-Morcillo, Gijs J. Admiraal, Marcel J.T. Reinders, Jana M. Weber  
 [bioRxiv 2025.06.13.659451](https://www.biorxiv.org/content/10.1101/2025.06.13.659451v1) • [code](https://github.com/Intelligent-molecular-systems/All-Atom-Protein-Sequence-Generation)
 
+**Enhancing functional proteins through multimodal inverse folding with ABACUS-T**  
+Yufeng Liu, Rui Wu, Xinyu Wang, Sheng Wang, Linghui Chen, Fudong Li, Quan Chen & Haiyan Liu  
+[Nat Commun 16, 10177 (2025)](https://www.nature.com/articles/s41467-025-65175-3) • [code](https://doi.org/10.5281/zenodo.17089342)
+
 ### 4.10 Bayesian-based
 
 **Inverse Protein Folding Using Deep Bayesian Optimization**
@@ -3075,6 +3090,10 @@ Jiawei Li, Xinxiu Dong
 **Swarms of Large Language Model Agents for Protein Sequence Design with Experimental Validation**  
 Fiona Y. Wang, Di Sheng Lee, David L. Kaplan, Markus J. Buehler  
 [arXiv:2511.22311](https://arxiv.org/abs/2511.22311v1) • [code](https://github.com/lamm-mit/ProteinSwarm)
+
+**Self Distillation Fine-Tuning of Protein Language Models Improves Versatility in Protein Design**  
+Amin Tavakoli, Raswanth Murugan, Ozan Gokdemir, Arvind Ramanathan, Frances Arnold, Anima Anandkumar  
+[arXiv:2512.09329](https://arxiv.org/abs/2512.09329v1)
 
 ### 5.5 Bayesian-based
 
