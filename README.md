@@ -10,19 +10,12 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.12.14:*
-+   Sequence and structural determinants of efficacious de novo chimeric antigen receptors
-    + [[bioRxiv 2025.12.12.694033](https://www.biorxiv.org/content/10.64898/2025.12.12.694033v1)] • [[code](https://github.com/clareaulab/denovo-cart-reproducibility)]
-+   Limitations of the refolding pipeline for de novo protein design
-    + [[bioRxiv 2025.12.09.693122](https://www.biorxiv.org/content/10.64898/2025.12.09.693122v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/12/11/2025.12.09.693122/DC1/embed/media-1.pdf)] • [[data](https://github.com/kt-korbeld/Limitations-refolding-pipeline-data)]
-+   Self Distillation Fine-Tuning of Protein Language Models Improves Versatility in Protein Design
-    + [[arXiv:2512.09329](https://arxiv.org/abs/2512.09329v1)]
-+   Enhancing functional proteins through multimodal inverse folding with ABACUS-T
-    + [[Nat Commun 16, 10177 (2025)](https://www.nature.com/articles/s41467-025-65175-3)] • [[code](https://doi.org/10.5281/zenodo.17089342)]
-+   De novo design of epitope-specific antibodies via a structure-driven computational workflow
-    + [[Nat Commun (2025)](https://www.nature.com/articles/s41467-025-67361-9)] • [[code](https://github.com/TencentAI4S/tfold)]
+*Papers last week, updated on 2025.12.20:*
++   Drug-like antibodies with low immunogenicity in human panels designed with Latent-X2
+    + [[technical report](https://www.latentlabs.com/wp-content/uploads/2025/12/Latent-X2-Technical-Report.pdf)] • [[website](https://www.latentlabs.com/latent-x2/)] • commercial
 
-
++   De novo design of protein competitors for small molecule immunosensing
+    + [[bioRxiv 2025.12.16.694474](https://www.biorxiv.org/content/10.64898/2025.12.16.694474v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/12/16/2025.12.16.694474/DC1/embed/media-1.pdf)]
 
 
 ---
@@ -1058,6 +1051,10 @@ Minchao Fang, Chentong Wang, Jungang Shi, Fangbai Lian, Qihan Jin, Zhe Wang, Yan
 Arthur Chow, Hoyin Chu, Ruofan Li, Benan Nalbant, Abdul Dozic, Laura Kida, Caleb Lareau  
 [bioRxiv 2025.12.12.694033](https://www.biorxiv.org/content/10.64898/2025.12.12.694033v1) • [code](https://github.com/clareaulab/denovo-cart-reproducibility)
 
+**De novo design of protein competitors for small molecule immunosensing**  
+Yosta de Stigter, Tallie Godschalk, Maarten Merkx  
+[bioRxiv 2025.12.16.694474](https://www.biorxiv.org/content/10.64898/2025.12.16.694474v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/12/16/2025.12.16.694474/DC1/embed/media-1.pdf)
+
 #### 2.1.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**
@@ -1207,6 +1204,10 @@ Jakub Lála, Ayham Al-Saffar, Stefano Angiolleti-Uberti
 **GeoEvoBuilder: A deep learning framework for efficient functional and thermostable protein design**  
 Jiale Liu, Zheng Guo and Luhua Lai  
 [Proceedings of the National Academy of Sciences 122.41 (2025)](https://www.pnas.org/doi/10.1073/pnas.2504117122) • [code](https://github.com/PKUliujl/GeoEvoBuilder)
+
+**Harnessing protein-folding algorithms to drug intrinsically disordered epitopes**  
+Jakub Lála, Stefano Angioletti-Uberti  
+[bioRxiv 2025.11.11.687846](https://www.biorxiv.org/content/10.1101/2025.11.11.687846v1)
 
 #### 2.4.3 Antiberta-based
 
@@ -3245,6 +3246,10 @@ Moksh Jain, Emmanuel Bengio, Alex-Hernandez Garcia, Jarrid Rector-Brooks, Bonave
 Zitai Kong, Yiheng Zhu, Yinlong Xu, Hanjing Zhou, Mingzhe Yin, Jialu Wu, Hongxia Xu, Chang-Yu Hsieh, Tingjun Hou, Jian Wu
 [arXiv:2504.10983](https://arxiv.org/abs/2504.10983)
 
+**Synergy of GFlowNet and Protein Language Model Makes a Diverse Antibody Designer**  
+Mingze Yin, Hanjing Zhou, Yiheng Zhu, Jialu Wu, Wei Wu, Mingyang Li, Kun Fu, Zheng Wang, Chang-Yu Hsieh, Tingjun Hou, Jian Wu  
+[Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 39. No. 21. 2025](https://ojs.aaai.org/index.php/AAAI/article/view/34370)
+
 **Multi-Objective-Guided Discrete Flow Matching for Controllable Biological Sequence Design**  
 Tong Chen, Yinuo Zhang, Sophia Tang, Pranam Chatterjee  
 [arXiv:2505.07086](https://arxiv.org/abs/2505.07086v2) • [model](https://huggingface.co/ChatterjeeLab/MOG-DFM)
@@ -4639,3 +4644,7 @@ Chai Discovery Team
 **Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design**  
 Latent Labs Team  
 [technical report](https://www.latentlabs.com/wp-content/uploads/2025/07/Latent-X-Technical-Report.pdf) • [website](https://www.latentlabs.com/latent-x/) • commercial
+
+**Drug-like antibodies with low immunogenicity in human panels designed with Latent-X2**  
+Latent Labs Team  
+[technical report](https://www.latentlabs.com/wp-content/uploads/2025/12/Latent-X2-Technical-Report.pdf) • [website](https://www.latentlabs.com/latent-x2/) • commercial
