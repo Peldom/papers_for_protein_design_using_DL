@@ -10,13 +10,19 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.12.20:*
-+   Drug-like antibodies with low immunogenicity in human panels designed with Latent-X2
-    + [[technical report](https://www.latentlabs.com/wp-content/uploads/2025/12/Latent-X2-Technical-Report.pdf)] • [[website](https://www.latentlabs.com/latent-x2/)] • commercial
-
-+   De novo design of protein competitors for small molecule immunosensing
-    + [[bioRxiv 2025.12.16.694474](https://www.biorxiv.org/content/10.64898/2025.12.16.694474v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/12/16/2025.12.16.694474/DC1/embed/media-1.pdf)]
-
+*Papers last week, updated on 2025.12.28:*
++   TCRdesign: an antigen-specific generative language model for de novo design of T-cell receptors
+    + [[Briefings in Bioinformatics, Volume 26, Issue 6, November 2025, bbaf691](https://academic.oup.com/bib/article/26/6/bbaf691/8405050)] • [[data](https://github.com/lixiaokun2020/TCRdesign)] • [[code](https://github.com/lixiaokun2020/TCRdesign)]
++   Protein design and RNA design: Perspectives
+    + [[Quantitative Biology 14.2 (2026)](https://onlinelibrary.wiley.com/doi/10.1002/qub2.70029)]
++   Transformation of Protein Design: From Traditional Approaches to AI-Driven Precision Engineering
+    + [[MedScien 1.1 (2025)](https://lseee.net/index.php/ms/article/view/1426)]
++   Harnessing advances in artificial intelligence for protein design
+    + [[Nature Chemical Biology (2025): 1-4](https://www.nature.com/articles/s41589-025-02110-z)]
++   Structure-Aware Antibody Design with Affinity-Optimized Inverse Folding
+    + [[arXiv:2512.17815](https://arxiv.org/abs/2512.17815)] • ESM-IF-based
++   De novo design of protein binders that target DELE1 to inhibit the mitochondrial stress response
+    + [[bioRxiv 2025.12.22.695711](https://www.biorxiv.org/content/10.64898/2025.12.22.695711v1)]
 
 ---
 
@@ -641,6 +647,18 @@ Zhangzhi(Fred) Peng
 Guohao Zhang,Chuanyang Liu, Jiajie Lu, Shaowei Zhang and Lingyun Zhu  
 [Biology 14.9 (2025): 1268](https://www.mdpi.com/2079-7737/14/9/1268)
 
+**Protein design and RNA design: Perspectives**  
+Xi Chen, Xu Dai, Peilong Lu  
+[Quantitative Biology 14.2 (2026)](https://onlinelibrary.wiley.com/doi/10.1002/qub2.70029)
+
+**Transformation of Protein Design: From Traditional Approaches to AI-Driven Precision Engineering**  
+Xin Fang  
+[MedScien 1.1 (2025)](https://lseee.net/index.php/ms/article/view/1426)
+
+**Harnessing advances in artificial intelligence for protein design**  
+Russell Johnson  
+[Nature Chemical Biology (2025): 1-4](https://www.nature.com/articles/s41589-025-02110-z)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**
@@ -843,8 +861,8 @@ Anders Lønstrup Hansen, Frederik Friis Theisen, Ramon Crehuet, Enrique Marcos, 
 
 **Implicit modeling of the conformational landscape and sequence allows scoring and generation of stable proteins**
 Yehlin Cho, Justas Dauparas, Kotaro Tsuboyama, Gabriel Rocklin, Sergey Ovchinnikov
-[bioRxiv 2024.12.20.629706](https://www.biorxiv.org/content/10.1101/2024.12.20.629706v1) • [code](https://github.com/yehlincho/Joint_Model_Stability) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/22/2024.12.20.629706/DC1/embed/media-1.pdf)
-
+[bioRxiv 2024.12.20.629706](https://www.biorxiv.org/content/10.1101/2024.12.20.629706v1)/[Nat Commun (2025)](https://www.nature.com/articles/s41467-025-66526-w) • [code](https://github.com/yehlincho/Joint_Model_Stability) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/22/2024.12.20.629706/DC1/embed/media-1.pdf)
+|
 #### 2.1.2 AlphaFold-based
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**
@@ -2236,6 +2254,10 @@ Alec Lourenço, Arjuna Subramanian, Ryan Spencer, Michael Anaya, Jiapei Miao, Wi
 Yanting Li, Jiyue Jiang, Zikang Wang, Ziqian Lin, Dongchen He, Yuheng Shan, Yanruisheng Shao, Jiayi Li, Xiangyu Shi, Jiuming Wang, Yanyu Chen, Yimin Fan, Han Li, Yu Li  
 [arXiv:2505.12511](https://arxiv.org/abs/2505.12511)
 
+**Structure-Aware Antibody Design with Affinity-Optimized Inverse Folding**  
+Xinyan Zhao, Yi-Ching Tang, Rivaaj Monsia, Victor J. Cantu, Ashwin Kumar Ramesh, Xiaozhong Liu, Zhiqiang An, Xiaoqian Jiang, Yejin Kim  
+[arXiv:2512.17815](https://arxiv.org/abs/2512.17815) • ESM-IF-based
+
 ### 4.8 ResNet-based
 
 **DenseCPD: improving the accuracy of neural-network-based computational protein sequence design with DenseNet**
@@ -3096,6 +3118,10 @@ Fiona Y. Wang, Di Sheng Lee, David L. Kaplan, Markus J. Buehler
 Amin Tavakoli, Raswanth Murugan, Ozan Gokdemir, Arvind Ramanathan, Frances Arnold, Anima Anandkumar  
 [arXiv:2512.09329](https://arxiv.org/abs/2512.09329v1)
 
+**TCRdesign: an antigen-specific generative language model for de novo design of T-cell receptors**  
+Xiaokun Li, Qiang Yang, Long Xu, Weihe Dong, Kuanquan Wang, Suyu Dong, Wei Wang, Gongning Luo, Xianyu Zhang, Tiansong Yang, Xin Gao, Guohua Wang  
+[Briefings in Bioinformatics, Volume 26, Issue 6, November 2025, bbaf691](https://academic.oup.com/bib/article/26/6/bbaf691/8405050) • [data](https://github.com/lixiaokun2020/TCRdesign) • [code](https://github.com/lixiaokun2020/TCRdesign)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -3701,7 +3727,7 @@ Yibo Zhu, Xiumin Shi, Jingjuan Zhang, Weizhong Sun, Lu Wang
 
 **ODesign: A World Model for Biomelecular Interaction Design**  
 ODesign Team  
-[Technical Report](https://odesign1.github.io/static/pdfs/technical_report.pdf) • [website](https://odesign.lglab.ac.cn/)
+[Technical Report](https://odesign1.github.io/static/pdfs/technical_report.pdf) • [website](https://odesign.lglab.ac.cn/) • [code](https://github.com/The-Institute-for-AI-Molecular-Design/ODesign)
 
 **BoltzGen: Toward Universal Binder Design**  
 Hannes Stark, Felix Faltings, MinGyu Choi, Yuxin Xie, Eunsu Hur, Timothy O’Donnell, Anton Bushuiev, Talip Uçar, Saro Passaro, Weian Mao, Mateo Reveiz, Roman Bushuiev, Tomáš Pluskal, Josef Sivic, Karsten Kreis, Arash Vahdat, Shamayeeta Ray, Jonathan T. Goldstein, Andrew Savinov, Jacob A. Hambalek, Anshika Gupta, Diego A. Taquiri-Diaz, Yaotian Zhang, A. Katherine Hatstat, Angelika Arada, Nam Hyeong Kim, Ethel Tackie-Yarboi, Dylan Boselli, Lee Schnaider, Chang C. Liu, Gene-Wei Li, Denes Hnisz, David M. Sabatini, William F. DeGrado, Jeremy Wohlwend, Gabriele Corso, Regina Barzilay, Tommi Jaakkola
@@ -4032,6 +4058,10 @@ Karla M. Castro, Joseph L. Watson, Jue Wang, Joshua Southern, Reyhaneh Ayardulab
 **Computational enzyme design by catalytic motif scaffolding**  
 Markus Braun, Adrian Tripp, Morakot Chakatok, Sigrid Kaltenbrunner, Celina Fischer, David Stoll, Aleksandar Bijelic, Wael Elaily, Massimo G. Totaro, Melanie Moser, Shlomo Y. Hoch, Horst Lechner, Federico Rossi, Matteo Aleotti, Mélanie Hall & Gustav Oberdorfer  
 [Nature (2025)](https://www.nature.com/articles/s41586-025-09747-9) • [code](https://github.com/mabr3112/riff_diff_protflow)
+
+**De novo design of protein binders that target DELE1 to inhibit the mitochondrial stress response**  
+Rui Yang, Kaiyuan Zheng, McGuire Metts, Yiluo Wang, Danyan Yin, Kevin P. Li, Agnieszka A. Prazmowska, David F. Kashatus, Brian Kuhlman, Jie Yang  
+[bioRxiv 2025.12.22.695711](https://www.biorxiv.org/content/10.64898/2025.12.22.695711v1)
 
 ### 6.4 CNN-based
 
