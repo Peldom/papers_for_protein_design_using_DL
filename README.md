@@ -10,19 +10,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2025.12.28:*
-+   TCRdesign: an antigen-specific generative language model for de novo design of T-cell receptors
-    + [[Briefings in Bioinformatics, Volume 26, Issue 6, November 2025, bbaf691](https://academic.oup.com/bib/article/26/6/bbaf691/8405050)] • [[data](https://github.com/lixiaokun2020/TCRdesign)] • [[code](https://github.com/lixiaokun2020/TCRdesign)]
-+   Protein design and RNA design: Perspectives
-    + [[Quantitative Biology 14.2 (2026)](https://onlinelibrary.wiley.com/doi/10.1002/qub2.70029)]
-+   Transformation of Protein Design: From Traditional Approaches to AI-Driven Precision Engineering
-    + [[MedScien 1.1 (2025)](https://lseee.net/index.php/ms/article/view/1426)]
-+   Harnessing advances in artificial intelligence for protein design
-    + [[Nature Chemical Biology (2025): 1-4](https://www.nature.com/articles/s41589-025-02110-z)]
-+   Structure-Aware Antibody Design with Affinity-Optimized Inverse Folding
-    + [[arXiv:2512.17815](https://arxiv.org/abs/2512.17815)] • ESM-IF-based
-+   De novo design of protein binders that target DELE1 to inhibit the mitochondrial stress response
-    + [[bioRxiv 2025.12.22.695711](https://www.biorxiv.org/content/10.64898/2025.12.22.695711v1)]
+*Papers last week, updated on 2026.1.3:*
++   SeedProteo: Accurate De Novo All-Atom Design of Protein Binders
+    + [[arXiv:2512.24192](http://arxiv.org/abs/2512.24192)] • [[github](https://seedfold.github.io/)]
++   De novo design of small molecule–regulated protein oligomers
+    + [[Science391,eady6017(2026)](https://www.science.org/doi/10.1126/science.ady6017)] • [[code](https://github.com/LongxingLab/Ligand_Induced_Oligomer)]
+
+
 
 ---
 
@@ -862,7 +856,7 @@ Anders Lønstrup Hansen, Frederik Friis Theisen, Ramon Crehuet, Enrique Marcos, 
 **Implicit modeling of the conformational landscape and sequence allows scoring and generation of stable proteins**
 Yehlin Cho, Justas Dauparas, Kotaro Tsuboyama, Gabriel Rocklin, Sergey Ovchinnikov
 [bioRxiv 2024.12.20.629706](https://www.biorxiv.org/content/10.1101/2024.12.20.629706v1)/[Nat Commun (2025)](https://www.nature.com/articles/s41467-025-66526-w) • [code](https://github.com/yehlincho/Joint_Model_Stability) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2024/12/22/2024.12.20.629706/DC1/embed/media-1.pdf)
-|
+
 #### 2.1.2 AlphaFold-based
 
 **End-to-end learning of multiple sequence alignments with differentiable Smith-Waterman**
@@ -1972,7 +1966,7 @@ Lucas P. Merlicek, Jannik Neumann, Abbie Lear, Vivian Degiorgi, Moor de Waal, Tu
 
 **AI-assisted protein design to rapidly convert antibody sequences to intrabodies targeting diverse peptides and histone modifications**
 Gabriel Galindo, Daiki Maejima, Jacob DeRoo, Scott R. Burlingham, Gretchen Fixen, Tatsuya Morisaki, Hallie P. Febvre, Ryan Hasbrook, Ning Zhao, Soham Ghosh, E. Handly Mayton, Christopher D. Snow, Brian J. Geiss, Yasuyuki Ohkawa, Yuko Sato, Hiroshi Kimura, Timothy J. Stasevich
-[bioRxiv 2025.02.06.636921](https://www.biorxiv.org/content/10.1101/2025.02.06.636921v2) • [code](https://github.com/jbderoo/scFv_Pmpnn_AF2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/02/09/2025.02.06.636921/DC1/embed/media-1.pdf) • ProteinMPNN-based
+[bioRxiv 2025.02.06.636921](https://www.biorxiv.org/content/10.1101/2025.02.06.636921v2)/[Sci. Adv.12,eadx8352(2026)](https://www.science.org/doi/10.1126/sciadv.adx8352) • [code](https://github.com/jbderoo/scFv_Pmpnn_AF2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/02/09/2025.02.06.636921/DC1/embed/media-1.pdf) • ProteinMPNN-based
 
 **Sidechain conditioning and modeling for full-atom protein sequence design with FAMPNN**
 Richard W. Shuai, Talal Widatalla, Po-Ssu Huang, Brian L. Hie
@@ -2109,6 +2103,10 @@ Amir Motmaen, Kevin M Jude, Nan Wang, Anastasia Minervina, David Feldman, Mauriz
 **Computational Design and Glycoengineering of Interferon-Lambda for Nasal Prophylaxis Against Respiratory Viruses**  
 Jeongwon Yun,  Seungju Yang,  Jae Hyuk Kwon,  Luiz Felipe Vecchietti,  Ji Hyun Choi,  Mi-ra Choi,  Keun Bon Ku,  Hyun-Joo Ro,  Kyun-Do Kim,  Meeyoung Cha,  Hyun Jung Chung,  Ji Eun Oh,  Ho Min Kim  
 [Adv. Sci. (2025)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202506764) • ProteinMPNN-based
+
+**De novo design of small molecule–regulated protein oligomers**  
+Qihan Jin, Yukai Wang, Dachuan Chen, Jinyang Liao, Zhanyuan Cui, Yuxuan Fan, Anping Zeng, Mingqi Xie, Longxing Cao  
+[Science391,eady6017(2026)](https://www.science.org/doi/10.1126/science.ady6017) • [code](https://github.com/LongxingLab/Ligand_Induced_Oligomer)
 
 ### 4.6 GAN-based
 
@@ -3745,6 +3743,10 @@ Xinheng He, Yijia Zhang, Haowei Lin, Xingang Peng, Xiangzhe Kong, Mingyu Li, Jia
 Guanlue Li, Xufeng Zhao, Fang Wu, Sören Laue  
 [arXiv:2511.16675](https://arxiv.org/abs/2511.16675v1) • [code](https://github.com/guanlueli/Pepbridge)
 
+**SeedProteo: Accurate De Novo All-Atom Design of Protein Binders**  
+Wei Qu, Yiming Ma, Fei Ye, Chan Lu, Yi Zhou, Kexin Zhang, Lan Wang, Minrui Gui, Quanquan Gu  
+[arXiv:2512.24192](http://arxiv.org/abs/2512.24192) • [github](https://seedfold.github.io/)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites** / **Scaffolding protein functional sites using deep learning**
@@ -4058,6 +4060,10 @@ Karla M. Castro, Joseph L. Watson, Jue Wang, Joshua Southern, Reyhaneh Ayardulab
 **Computational enzyme design by catalytic motif scaffolding**  
 Markus Braun, Adrian Tripp, Morakot Chakatok, Sigrid Kaltenbrunner, Celina Fischer, David Stoll, Aleksandar Bijelic, Wael Elaily, Massimo G. Totaro, Melanie Moser, Shlomo Y. Hoch, Horst Lechner, Federico Rossi, Matteo Aleotti, Mélanie Hall & Gustav Oberdorfer  
 [Nature (2025)](https://www.nature.com/articles/s41586-025-09747-9) • [code](https://github.com/mabr3112/riff_diff_protflow)
+
+**De novo design of protein nanoparticles with integrated functional motifs**  
+Cyrus M Haas, Sanela Rankovic, Hanul K Lewis, Kenneth D Carr, Connor Weidle, Sophie S Gerdes, Lily R Nuss, Felicitas Ruiz, Syed Moiz, Maggie Fiorelli, Emily Grey, Jackson McGowan, Nikhila Kumar, Adrian Creanga, Alex Kang, Hannah Nguyen, Yanqing Wang, Banumathi Sankaran, Annie Dosey, Rashmi Ravichandran, Asim K Bera, Elizabeth M Leaf, Cole A DeForest, Masaru Kanekiyo, Andrew J Borst, Neil P King  
+[bioRxiv 2025.12.19.695620](https://www.biorxiv.org/content/10.64898/2025.12.19.695620v2) • [code](https://github.com/kinglab-uiuc/DeNovoNano-2026)
 
 **De novo design of protein binders that target DELE1 to inhibit the mitochondrial stress response**  
 Rui Yang, Kaiyuan Zheng, McGuire Metts, Yiluo Wang, Danyan Yin, Kevin P. Li, Agnieszka A. Prazmowska, David F. Kashatus, Brian Kuhlman, Jie Yang  
