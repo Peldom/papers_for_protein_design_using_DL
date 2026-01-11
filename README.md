@@ -10,12 +10,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.1.3:*
-+   SeedProteo: Accurate De Novo All-Atom Design of Protein Binders
-    + [[arXiv:2512.24192](http://arxiv.org/abs/2512.24192)] • [[github](https://seedfold.github.io/)]
-+   De novo design of small molecule–regulated protein oligomers
-    + [[Science391,eady6017(2026)](https://www.science.org/doi/10.1126/science.ady6017)] • [[code](https://github.com/LongxingLab/Ligand_Induced_Oligomer)]
-
+*Papers last week, updated on 2026.1.11:*
++   De novo design of metalloproteases for targeted amyloid-β cleavage
+    + [[bioRxiv 2026.01.06.697903](https://www.biorxiv.org/content/10.64898/2026.01.06.697903v1)]
++   De novo protein ligand design including protein flexibility and conformational adaptation
+    + [[bioRxiv 2026.01.08.698398](https://www.biorxiv.org/content/10.64898/2026.01.08.698398v1)] • [[code](https:/github.com/JakobAgamia/AI-MCLig)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/01/08/2026.01.08.698398/DC1/embed/media-1.pdf)]
++   De novo design of dual-topology membrane transporters
+    + [[LangTaoSha Preprint Server](https://langtaosha.org.cn/index.php/lts/en/preprint/view/74)]
 
 
 ---
@@ -1123,6 +1124,12 @@ Preet Kalani, Vojtěch Spiwok
 Fandi Wu, Yu Zhao, JiaXiang Wu, Biaobin Jiang, Bing He, Longkai Huang, Chenchen Qin, Yang Xiao, Fan Yang, Rubo Wang, Ningqiao Huang, Huaxian Jia, Yuyi Liu, Houtim Lai, Tingyang Xu, Fang Wang, Zihan Wu, Yidong Song, Shaoning Li, Wei Liu, Yu Rong, Peilin Zhao & Jianhua Yao  
 [Nat Commun (2025)](https://www.nature.com/articles/s41467-025-67361-9) • [code](https://github.com/TencentAI4S/tfold)
 
+#### 2.1.11 Chai-based
+
+**De novo protein ligand design including protein flexibility and conformational adaptation**  
+Jakob Agamia, Martin Zacharias  
+[bioRxiv 2026.01.08.698398](https://www.biorxiv.org/content/10.64898/2026.01.08.698398v1) • [code](https:/github.com/JakobAgamia/AI-MCLig) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/01/08/2026.01.08.698398/DC1/embed/media-1.pdf)
+
 ### 2.2 CM-Align
 
 **AutoFoldFinder: An Automated Adaptive Optimization Toolkit for De Novo Protein Fold Design**
@@ -2108,6 +2115,10 @@ Jeongwon Yun,  Seungju Yang,  Jae Hyuk Kwon,  Luiz Felipe Vecchietti,  Ji Hyun C
 Qihan Jin, Yukai Wang, Dachuan Chen, Jinyang Liao, Zhanyuan Cui, Yuxuan Fan, Anping Zeng, Mingqi Xie, Longxing Cao  
 [Science391,eady6017(2026)](https://www.science.org/doi/10.1126/science.ady6017) • [code](https://github.com/LongxingLab/Ligand_Induced_Oligomer)
 
+**De novo design of dual-topology membrane transporters**  
+Xi Chen, Xiaofeng Zhou, Jiawei Zhou, Tengyu Xie, Yaning Li, Yuxuan Yan, Jing Huang, Zibo Chen, Dan Ma, Peilong Lu  
+[LangTaoSha Preprint Server](https://langtaosha.org.cn/index.php/lts/en/preprint/view/74)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**
@@ -3058,7 +3069,7 @@ Jimmy Zhang, Subbulakshmi Suresh, Shmuel Gleizer, Sophia Ewens, Aarya Venkat, Va
 
 **Improved multimodal protein language model-driven universal biomolecules-binding protein design with EiRA**  
 Wenwu Zeng, Haitao Zou, Xiaoyu Li, Xiaoqi Wang, Shaoliang Peng  
-[bioRxiv 2025.09.02.673615](https://www.biorxiv.org/content/10.1101/2025.09.02.673615v1) • [code](https://github.com/pengsl-lab/EiRA)
+[bioRxiv 2025.09.02.673615](https://www.biorxiv.org/content/10.1101/2025.09.02.673615v2) • [code](https://github.com/pengsl-lab/EiRA)
 
 **LSMTCR: A Scalable Multi-Architecture Model for Epitope-Specific T Cell Receptor de novo Design**  
 Ruihao Zhang, Xiao Liu  
@@ -3747,6 +3758,10 @@ Guanlue Li, Xufeng Zhao, Fang Wu, Sören Laue
 Wei Qu, Yiming Ma, Fei Ye, Chan Lu, Yi Zhou, Kexin Zhang, Lan Wang, Minrui Gui, Quanquan Gu  
 [arXiv:2512.24192](http://arxiv.org/abs/2512.24192) • [github](https://seedfold.github.io/)
 
+**De novo design of metalloproteases for targeted amyloid-β cleavage**  
+Yannan Qu, Chentong Wang, Hongli Zhu, Yanjun Wang, Longxing Cao  
+[bioRxiv 2026.01.06.697903](https://www.biorxiv.org/content/10.64898/2026.01.06.697903v1)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites** / **Scaffolding protein functional sites using deep learning**
@@ -3975,7 +3990,7 @@ Carlos Chacon-Sanchez, Nayim Gonzalez-Rodriguez, Oscar Llorca, Rafael Fernandez-
 
 **De novo Design of All-atom Biomolecular Interactions with RFdiffusion3**  
 Jasper Kenneth Veje Butcher, Rohith Krishna, Raktim Mitra, Rafael Isaac Brent, Yanjing Li, Nathaniel Corley, Paul Kim, Jonathan Funk, Simon Valentin Mathis, Saman Salike, Aiko Muraishi, Helen Eisenach, Tuscan Rock Thompson, Jie Chen, Yuliya Politanska, Enisha Sehgal, Brian Coventry, Odin Zhang, Bo Qiang, Kieran Didi, Maxwell Kazman, Frank DiMaio, David Baker  
-[bioRxiv 2025.09.18.676967](https://www.biorxiv.org/content/10.1101/2025.09.18.676967v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/09/18/2025.09.18.676967/DC1/embed/media-1.pdf) • [code](https://github.com/RosettaCommons/foundry)
+[bioRxiv 2025.09.18.676967](https://www.biorxiv.org/content/10.1101/2025.09.18.676967v2) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/09/18/2025.09.18.676967/DC1/embed/media-1.pdf) • [code](https://github.com/RosettaCommons/foundry)
 
 **AI-Guided Design of Cyclic Peptide Binders Targeting TREM2 Using CycleRFdiffusion and Experimental Validation**  
 Sungwoo Cho, Renjie Zhu, Katarzyna Kuncewicz, Hongliang Duan, Moustafa Gabr  
