@@ -10,13 +10,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.1.11:*
-+   De novo design of metalloproteases for targeted amyloid-β cleavage
-    + [[bioRxiv 2026.01.06.697903](https://www.biorxiv.org/content/10.64898/2026.01.06.697903v1)]
-+   De novo protein ligand design including protein flexibility and conformational adaptation
-    + [[bioRxiv 2026.01.08.698398](https://www.biorxiv.org/content/10.64898/2026.01.08.698398v1)] • [[code](https:/github.com/JakobAgamia/AI-MCLig)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/01/08/2026.01.08.698398/DC1/embed/media-1.pdf)]
-+   De novo design of dual-topology membrane transporters
-    + [[LangTaoSha Preprint Server](https://langtaosha.org.cn/index.php/lts/en/preprint/view/74)]
+*Papers last week, updated on 2026.1.18:*
++   Origin-1: a generative AI platform for de novo antibody design against novel epitopes
+    + [[bioRxiv 2026.01.14.699389](https://www.biorxiv.org/content/10.64898/2026.01.14.699389v1)] • [[code](https://github.com/AbSciBio/origin-1)]
++   TcrDesign: De novo design of epitope specific full-length T cell receptors
+    + [[bioRxiv 2026.01.15.699824](https://www.biorxiv.org/content/10.64898/2026.01.15.699824v1)] • [[code](https://github.com/XSLiuLab/TcrDesign)]
++   Advancing Protein Design via Multi-Agent Reinforcement Learning with Pareto-Based Collaborative Optimization
+    + [[bioRxiv 2026.01.13.699365](https://www.biorxiv.org/content/10.64898/2026.01.13.699365v1)]
 
 
 ---
@@ -1292,6 +1292,10 @@ Xuefeng Liu, Mingxuan Cao, Songhao Jiang, Xiao Luo, Xiaotian Duan, Mengdi Wang, 
 Joohwan Ko, Aristofanis Rontogiannis, Yih-En Andrew Ban, Axel Elaldi, Nicholas Franklin  
 [arXiv:2510.23786](https://arxiv.org/abs/2510.23786)
 
+**Advancing Protein Design via Multi-Agent Reinforcement Learning with Pareto-Based Collaborative Optimization**  
+Mingming Zhu, Jiahua Rao, Xiaoyu Chen, Qianmu Yuan, Yuedong Yang  
+[bioRxiv 2026.01.13.699365](https://www.biorxiv.org/content/10.64898/2026.01.13.699365v1)
+
 ## 3. Function to Scaffold
 
 > These models design backbone/scaffold/template in Cartesian coordinates, contact maps, distance maps and φ & ψ angles. Including conditional/unconditional generative models.
@@ -2118,6 +2122,10 @@ Qihan Jin, Yukai Wang, Dachuan Chen, Jinyang Liao, Zhanyuan Cui, Yuxuan Fan, Anp
 **De novo design of dual-topology membrane transporters**  
 Xi Chen, Xiaofeng Zhou, Jiawei Zhou, Tengyu Xie, Yaning Li, Yuxuan Yan, Jing Huang, Zibo Chen, Dan Ma, Peilong Lu  
 [LangTaoSha Preprint Server](https://langtaosha.org.cn/index.php/lts/en/preprint/view/74)
+
+**Origin-1: a generative AI platform for de novo antibody design against novel epitopes**  
+Simon Levine, Jonathan Edward King, Jacob Stern, David Grayson, Raymond Wang, Rui Yin, Umberto Lupo, Paulina Kulyte, Ryan Matthew Brand, Tristan Bertin, Robert Pfingsten, Jovan Cejovic, Chelsea Chung, Breanna K Luton, Andrew Hagemann, Robel Haile, Elliot Medina, Pankaj Panwar, Oleksii Dubrovskyi, Chase LaCombe, Zahra Anderson, Derrik Mildh, Scott Benjamin, Joe Kaiser, Joseph Ferron, Marta Sarrico, Alexandria Kershner, Apurva Mishra, Kai R Ejan, Emily K Marsh, Paul Bringas, Phetsamay Vilaychack, Kyra Chapman, Jacob Ripley, Muttappa Gowda, Kathryn M Collins, Cailen M McCloskey, Jeremiah S Joseph, Rylee Ripley, Shaheed A Abdulhaqq, Audree Feltner, Michael Guerin, Jeffrey Goby, Jesse Hendricks, Danielle Castillo, Sean McClain, Douglas Ganini, Derek Shpiel, James Mategko, Eder Cruz Garcia, Masoud Zabet-Moghaddam, John M Sutton, Zheyuan Guo, Sean M West, Janani S Iyer, Amir Shanehsazzadeh  
+[bioRxiv 2026.01.14.699389](https://www.biorxiv.org/content/10.64898/2026.01.14.699389v1) • [code](https://github.com/AbSciBio/origin-1)
 
 ### 4.6 GAN-based
 
@@ -3130,6 +3138,10 @@ Amin Tavakoli, Raswanth Murugan, Ozan Gokdemir, Arvind Ramanathan, Frances Arnol
 **TCRdesign: an antigen-specific generative language model for de novo design of T-cell receptors**  
 Xiaokun Li, Qiang Yang, Long Xu, Weihe Dong, Kuanquan Wang, Suyu Dong, Wei Wang, Gongning Luo, Xianyu Zhang, Tiansong Yang, Xin Gao, Guohua Wang  
 [Briefings in Bioinformatics, Volume 26, Issue 6, November 2025, bbaf691](https://academic.oup.com/bib/article/26/6/bbaf691/8405050) • [data](https://github.com/lixiaokun2020/TCRdesign) • [code](https://github.com/lixiaokun2020/TCRdesign)
+
+**TcrDesign: De novo design of epitope specific full-length T cell receptors**  
+Kaixuan Diao, Jing Chen, Xiangyu Zhao, Tao Wu, Die Qiu, Weiliang Wang, Haopeng Wang, Xue-Song Liu  
+[bioRxiv 2026.01.15.699824](https://www.biorxiv.org/content/10.64898/2026.01.15.699824v1) • [code](https://github.com/XSLiuLab/TcrDesign)
 
 ### 5.5 Bayesian-based
 
