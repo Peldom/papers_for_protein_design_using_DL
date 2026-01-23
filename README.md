@@ -10,14 +10,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.1.18:*
-+   Origin-1: a generative AI platform for de novo antibody design against novel epitopes
-    + [[bioRxiv 2026.01.14.699389](https://www.biorxiv.org/content/10.64898/2026.01.14.699389v1)] • [[code](https://github.com/AbSciBio/origin-1)]
-+   TcrDesign: De novo design of epitope specific full-length T cell receptors
-    + [[bioRxiv 2026.01.15.699824](https://www.biorxiv.org/content/10.64898/2026.01.15.699824v1)] • [[code](https://github.com/XSLiuLab/TcrDesign)]
-+   Advancing Protein Design via Multi-Agent Reinforcement Learning with Pareto-Based Collaborative Optimization
-    + [[bioRxiv 2026.01.13.699365](https://www.biorxiv.org/content/10.64898/2026.01.13.699365v1)]
-
+*Papers last week, updated on 2026.1.23:*
++   Zero-shot Deep Learning with Multi-Objective Optimization Improves Thermostability of Zearalenone Hydrolase and Xylanase
+    + [[New Biotechnology (2026)](https://www.sciencedirect.com/science/article/pii/S1871678426000099)]
++   High-PepBinder: A pLM-Guided Latent Diffusion Framework for Affinity-Aware Target-Specific Peptide Design
+    + [[bioRxiv 2026.01.12.69898](https://www.biorxiv.org/content/10.64898/2026.01.12.698988v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/01/19/2026.01.12.698988/DC1/embed/media-1.pdf)]
++   High-Affinity Protein Binder Design via Flow Matching and In Silico Maturation
+    + [[preprint](https://www.dropbox.com/scl/fi/9v6myel7uodrdsckwk5bd/Main_SI1_High-Affinity-Protein-Binder-Design-via-Flow-Matching-and-In-Silico-Maturation.pdf?rlkey=ohvrohvflnyq993mq24skjm2v&e=1&st=tr7t3x3a&dl=0)] • [[code](https://github.com/Mingchenchen/PPIFlow)]
++   De novo design of protein binders targeting the human sweet taste receptor as potential sweet proteins
+    + [[arXiv:2601.14574](https://arxiv.org/abs/2601.14574)]
 
 ---
 
@@ -1592,6 +1593,10 @@ Liyang Xie, Haoran Zhang, Zhendong Wang, Wesley Tansey, Mingyuan Zhou
 **Flows, straight but not so fast: Exploring the design space of Rectified Flows in Protein Design**  
 Junhua Chen, Simon Mathis, Charles Harris, Kieran Didi, Pietro Lio  
 [arXiv:2510.24732](https://arxiv.org/abs/2510.24732)
+
+**High-Affinity Protein Binder Design via Flow Matching and In Silico Maturation**  
+Qilin Yu, Liangyue Guo, Xiayan Qin, Xikun Huang, Baihui Tian, Hongzhun Wang, Yu Liu, Yunzhi Lang, Di Wang, Zhouhanyu Shen, Jie Lin, and Mingchen Chen  
+[preprint](https://www.dropbox.com/scl/fi/9v6myel7uodrdsckwk5bd/Main_SI1_High-Affinity-Protein-Binder-Design-via-Flow-Matching-and-In-Silico-Maturation.pdf?rlkey=ohvrohvflnyq993mq24skjm2v&e=1&st=tr7t3x3a&dl=0) • [code](https://github.com/Mingchenchen/PPIFlow)
 
 ### 3.7 Score-based
 
@@ -3544,6 +3549,10 @@ Marcelo D.T. Torres, Leo Tianlai Chen, Fangping Wan, Pranam Chatterjee, Cesar de
 Yongkang Wang, Menglu Li, Feng Huang, Minyao Qiu, Wen Zhang  
 [Advanced science (Weinheim, Baden-Wurttemberg, Germany)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202507457)
 
+**High-PepBinder: A pLM-Guided Latent Diffusion Framework for Affinity-Aware Target-Specific Peptide Design**  
+Qingyi Mao, Silong Zhai, Sen Cao, Renjie Zhu, Wen Xu, Chengyun Zhang, Ning Zhu, Jingjing Guo, Hongliang Duan  
+[bioRxiv 2026.01.12.69898](https://www.biorxiv.org/content/10.64898/2026.01.12.698988v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/01/19/2026.01.12.698988/DC1/embed/media-1.pdf)
+
 ### 5.13 GNN-based
 
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**
@@ -4010,7 +4019,7 @@ Sungwoo Cho, Renjie Zhu, Katarzyna Kuncewicz, Hongliang Duan, Moustafa Gabr
 
 **ProteinDJ: a high-performance and modular protein design pipeline**  
 Dylan Silke, Julie Iskander, Junqi Pan, Andrew P Thompson, Anthony T Papenfuss, Isabelle S Lucet, Joshua M Hardy  
-[bioRxiv 2025.09.24.678028](https://www.biorxiv.org/content/10.1101/2025.09.24.678028v1)
+[bioRxiv 2025.09.24.678028](https://www.biorxiv.org/content/10.1101/2025.09.24.678028v1)/[Protein Science. 2026](https://onlinelibrary.wiley.com/doi/10.1002/pro.70464)
 
 **Computational epitope profiling and AI-driven protein engineering enable rational design of multi-epitope vaccines against Mycobacterium tuberculosis**  
 Xinfeng Li, Xinyu Tao, Mingyue Zhong, Yiyao Wang, Heng Xue, Binda T. Andongma, Shan-Ho Chou, Hongping Wei, Jin He, Hang Yang  
@@ -4095,6 +4104,10 @@ Cyrus M Haas, Sanela Rankovic, Hanul K Lewis, Kenneth D Carr, Connor Weidle, Sop
 **De novo design of protein binders that target DELE1 to inhibit the mitochondrial stress response**  
 Rui Yang, Kaiyuan Zheng, McGuire Metts, Yiluo Wang, Danyan Yin, Kevin P. Li, Agnieszka A. Prazmowska, David F. Kashatus, Brian Kuhlman, Jie Yang  
 [bioRxiv 2025.12.22.695711](https://www.biorxiv.org/content/10.64898/2025.12.22.695711v1)
+
+**De novo design of protein binders targeting the human sweet taste receptor as potential sweet proteins**  
+Saisai Ding, Yi Zhang  
+[arXiv:2601.14574](https://arxiv.org/abs/2601.14574)
 
 ### 6.4 CNN-based
 
@@ -4587,6 +4600,10 @@ Lijuan Wang, Yuze Wang, Chen Qiu, Liwei Xiao, Xianliang Liu, Junjie Chen
 **Design of a Labile RNase A Using Protein Language Models**  
 Gabriel OngKiat Whye KongSi En PohFong Tian WongYiqi SeowWinston Koh  
 [ACS Synthetic Biology (2025)](https://pubs.acs.org/doi/10.1021/acssynbio.5c00287)
+
+**Zero-shot Deep Learning with Multi-Objective Optimization Improves Thermostability of Zearalenone Hydrolase and Xylanase**  
+Fan Wu, Rui Wu, Linghui Chen, Quan Chen, Haiyan Liu  
+[New Biotechnology (2026)](https://www.sciencedirect.com/science/article/pii/S1871678426000099)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
