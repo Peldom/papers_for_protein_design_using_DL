@@ -10,15 +10,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.1.23:*
-+   Zero-shot Deep Learning with Multi-Objective Optimization Improves Thermostability of Zearalenone Hydrolase and Xylanase
-    + [[New Biotechnology (2026)](https://www.sciencedirect.com/science/article/pii/S1871678426000099)]
-+   High-PepBinder: A pLM-Guided Latent Diffusion Framework for Affinity-Aware Target-Specific Peptide Design
-    + [[bioRxiv 2026.01.12.69898](https://www.biorxiv.org/content/10.64898/2026.01.12.698988v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/01/19/2026.01.12.698988/DC1/embed/media-1.pdf)]
-+   High-Affinity Protein Binder Design via Flow Matching and In Silico Maturation
-    + [[preprint](https://www.dropbox.com/scl/fi/9v6myel7uodrdsckwk5bd/Main_SI1_High-Affinity-Protein-Binder-Design-via-Flow-Matching-and-In-Silico-Maturation.pdf?rlkey=ohvrohvflnyq993mq24skjm2v&e=1&st=tr7t3x3a&dl=0)] • [[code](https://github.com/Mingchenchen/PPIFlow)]
-+   De novo design of protein binders targeting the human sweet taste receptor as potential sweet proteins
-    + [[arXiv:2601.14574](https://arxiv.org/abs/2601.14574)]
+*Papers last week, updated on 2026.1.31:*
++   TCRAD: An End-to-End Framework for Antigen-Targeted T Cell Receptor Design
+    + [[bioRxiv 2026.01.21.700513](https://www.biorxiv.org/content/10.64898/2026.01.21.700513v1)]
++   AI-driven peptide discovery for endometrial cancer: deep generative modeling and molecular simulation in the big data era
+    + [[J Comput Aided Mol Des 40, 47 (2026)](https://link.springer.com/article/10.1007/s10822-025-00735-9)]
++   Templating and confining calcium phosphate mineralization within designed protein assemblies
+    + [[bioRxiv 2026.01.14.699524](https://www.biorxiv.org/content/10.64898/2026.01.14.699524v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/01/14/2026.01.14.699524/DC1/embed/media-1.pdf)]
++   ProChoreo: De novo Binder Design from Conformational Ensembles with Generative Deep Learning
+    + [[bioRxiv 2026.01.23.701298](https://www.biorxiv.org/content/10.64898/2026.01.23.701298v1)]
++   De novo design of potent CRISPR–Cas13 inhibitors
+    + [[Nat Chem Biol (2026)](https://www.nature.com/articles/s41589-025-02136-3)]
 
 ---
 
@@ -339,6 +341,7 @@ Guides/Tutorials for beginners on GitHub:
 
 1. [how_to_create_a_protein](https://github.com/universvm/how_to_create_a_protein)
 2. [protein-design-tutorials](https://github.com/ProteinDesignLab/protein-design-tutorials)
+3. [AI-driven-protein-design](https://github.com/miangoar/AI-driven-protein-design/tree/main)
 
 Collection of Protein Design Labs:
 
@@ -2640,6 +2643,10 @@ Zishuo Zeng, Rufang Xu, Jin Guo, Xiaozhou Luo
 Siyuan Wang, Michael T. Bergman, Carol K. Hall, Fengqi You  
 [Journal of Chemical Information and Modeling 65.16 (2025)](https://pubs.acs.org/doi/10.1021/acs.jcim.5c01401)
 
+**AI-driven peptide discovery for endometrial cancer: deep generative modeling and molecular simulation in the big data era**  
+Israr Fatima, Abdur Rehman, Zhibo Wang, Hafeez Ur Rehman, Mohamed Aldaw, Dawood Ahmed Warraich, Yuxuan Meng, Yan Li & Mingzhi Liao  
+[J Comput Aided Mol Des 40, 47 (2026)](https://link.springer.com/article/10.1007/s10822-025-00735-9)
+
 ### 5.4 Transformer-based
 
 > Including protein large language models(pLLM) and autoregressive language models.
@@ -3148,6 +3155,10 @@ Xiaokun Li, Qiang Yang, Long Xu, Weihe Dong, Kuanquan Wang, Suyu Dong, Wei Wang,
 Kaixuan Diao, Jing Chen, Xiangyu Zhao, Tao Wu, Die Qiu, Weiliang Wang, Haopeng Wang, Xue-Song Liu  
 [bioRxiv 2026.01.15.699824](https://www.biorxiv.org/content/10.64898/2026.01.15.699824v1) • [code](https://github.com/XSLiuLab/TcrDesign)
 
+**TCRAD: An End-to-End Framework for Antigen-Targeted T Cell Receptor Design**  
+Chenao Li, Yaochi Guo, Xin Guan, Hui Chen, Yong Zhang, Pengyuan Yang, Jizhong Lou  
+[bioRxiv 2026.01.21.700513](https://www.biorxiv.org/content/10.64898/2026.01.21.700513v1)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -3396,6 +3407,10 @@ Yanshuo Chen, Zhengmian Hu, Yihan Wu, Ruibo Chen, Yongrui Jin, Marcus Zhan, Chen
 **Controllable Protein Design via Autoregressive Direct Coupling Analysis Conditioned on Principal Components**  
 Francesco Caredda, Andrea Pagnani, Paolo De Los Rios, Lisa Gennai  
 [bioRxiv 2025.08.18.669886](https://www.biorxiv.org/content/10.1101/2025.08.18.669886v1) • [code](https://github.com/francescocaredda/FeatureDCA.jl)
+
+**ProChoreo: De novo Binder Design from Conformational Ensembles with Generative Deep Learning**  
+Saisai Ding, Yi Zhang  
+[bioRxiv 2026.01.23.701298](https://www.biorxiv.org/content/10.64898/2026.01.23.701298v1)
 
 ### 5.11 Boltzmann-machine-based
 
@@ -4109,6 +4124,14 @@ Rui Yang, Kaiyuan Zheng, McGuire Metts, Yiluo Wang, Danyan Yin, Kevin P. Li, Agn
 Saisai Ding, Yi Zhang  
 [arXiv:2601.14574](https://arxiv.org/abs/2601.14574)
 
+**Templating and confining calcium phosphate mineralization within designed protein assemblies**  
+Le Tracy Yu, Harley Pyles, Xinqi Li, Andrew J. Borst, Neville P. Bethel, Paul S. Kwon, Connor Weidle, Ryan D. Kibler, Kenneth D. Carr, Yulai Liu, Stanislav Moroz, Shuai Zhang, James De Yoreo, David Baker  
+[bioRxiv 2026.01.14.699524](https://www.biorxiv.org/content/10.64898/2026.01.14.699524v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/01/14/2026.01.14.699524/DC1/embed/media-1.pdf)
+
+**De novo design of potent CRISPR–Cas13 inhibitors**  
+Cyntia Taveneau, Her Xiang Chai, Jovita D’Silva, Rebecca S. Bamert, Honglin Chen, Brooke K. Hayes, Roland W. Calvert, Jacob Purcell, Daniel J. Curwen, Fabian Munder, Lisandra L. Martin, Jeremy J. Barr, Joseph Rosenbluh, Mohamed Fareh, Rhys Grinter & Gavin J. Knott  
+[Nat Chem Biol (2026)](https://www.nature.com/articles/s41589-025-02136-3)
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**
@@ -4120,8 +4143,8 @@ Anthony Marchand, Stephen Buckley, Arne Schneuing, Martin Pacesa, Pablo Gainza, 
 [bioRxiv 2024.03.25.585721](https://www.biorxiv.org/content/10.1101/2024.03.25.585721v1)/[Nature (2025)](https://www.nature.com/articles/s41586-024-08435-4) • [Supplementary](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-024-08435-4/MediaObjects/41586_2024_8435_MOESM1_ESM.pdf) • [code](https://github.com/LPDI-EPFL/masif-neosurf) • [lecture](https://www.youtube.com/watch?v=setIzkcEAVs)
 
 **Mapping targetable sites on the human surfaceome for the design of novel binders**
-Petra E. M. Balbi, Ahmed Sadek, Anthony Marchand, Ta-Yi Yu, Jovan Damjanovic, Sandrine Georgeon, Joseph Schmidt, Simone Fulle, Che Yang, Hamed Khakzad, Bruno E. Correia
-[bioRxiv 2024.12.16.628626](https://www.biorxiv.org/content/10.1101/2024.12.16.628626v1)• [code](https://github.com/hamedkhakzad/SURFACE-Bind)
+Petra E. M. Balbi, Ahmed Sadek, Anthony Marchand, Ta-Yi Yu, Sandrine Georgeon, Joseph Schmidt, Simone Fulle, Che Yang, Hamed Khakzad, and Bruno E. Correia  
+[bioRxiv 2024.12.16.628626](https://www.biorxiv.org/content/10.1101/2024.12.16.628626v1)/[Proc. Natl. Acad. Sci.](https://www.pnas.org/doi/10.1073/pnas.2506269123) • [code](https://github.com/hamedkhakzad/SURFACE-Bind) • [wetbsite](https://surface-bind.inria.fr/)
 
 ### 6.5 GNN-based
 
