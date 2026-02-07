@@ -10,17 +10,18 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.1.31:*
-+   TCRAD: An End-to-End Framework for Antigen-Targeted T Cell Receptor Design
-    + [[bioRxiv 2026.01.21.700513](https://www.biorxiv.org/content/10.64898/2026.01.21.700513v1)]
-+   AI-driven peptide discovery for endometrial cancer: deep generative modeling and molecular simulation in the big data era
-    + [[J Comput Aided Mol Des 40, 47 (2026)](https://link.springer.com/article/10.1007/s10822-025-00735-9)]
-+   Templating and confining calcium phosphate mineralization within designed protein assemblies
-    + [[bioRxiv 2026.01.14.699524](https://www.biorxiv.org/content/10.64898/2026.01.14.699524v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/01/14/2026.01.14.699524/DC1/embed/media-1.pdf)]
-+   ProChoreo: De novo Binder Design from Conformational Ensembles with Generative Deep Learning
-    + [[bioRxiv 2026.01.23.701298](https://www.biorxiv.org/content/10.64898/2026.01.23.701298v1)]
-+   De novo design of potent CRISPR–Cas13 inhibitors
-    + [[Nat Chem Biol (2026)](https://www.nature.com/articles/s41589-025-02136-3)]
+*Papers last week, updated on 2026.2.7:*
++   Nab-paclitaxel fused with the de novo designed receptor binder exhibits enhanced tumor targeting and therapeutic efficacy
+    + [[bioRxiv 2026.01.28.702218](https://www.biorxiv.org/content/10.64898/2026.01.28.702218v1)]
++   AutoBinder Agent: An MCP-Based Agent for End-to-End Protein Binder Design
+    + [[arXiv:2602.00019](https://arxiv.org/abs/2602.00019)]
++   De novo protein design: a transformative frontier in clinical protein applications
+    + [[J Transl Med (2026)](https://link.springer.com/article/10.1186/s12967-026-07784-0)]
++   ProDCARL: Reinforcement Learning-Aligned Diffusion Models for De Novo Antimicrobial Peptide Design
+    + [[arXiv:2602.00157](https://arxiv.org/abs/2602.00157)]
++   Generative AI for Enzyme Design and Biocatalysis
+    + [[arXiv:2602.03779](https://arxiv.org/abs/2602.03779)]
+
 
 ---
 
@@ -658,6 +659,10 @@ Xin Fang
 Russell Johnson  
 [Nature Chemical Biology (2025): 1-4](https://www.nature.com/articles/s41589-025-02110-z)
 
+**De novo protein design: a transformative frontier in clinical protein applications**  
+Jie Gao, Zaiyong Zheng, Xueting Yu, Yamei Luo, Yang Yu & Chunxiang Zhang  
+[J Transl Med (2026)](https://link.springer.com/article/10.1186/s12967-026-07784-0)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**
@@ -821,6 +826,10 @@ Jiahui Zhoua, Meilan Huang
 **Structure Prediction and Computational Protein Design for Efficient Biocatalysts and Bioactive Proteins**
 Rebecca Buller, Jiri Damborsky, Donald Hilvert, Uwe Bornscheuer
 [Angewandte Chemie (International ed. in English)](https://onlinelibrary.wiley.com/doi/10.1002/anie.202421686)
+
+**Generative AI for Enzyme Design and Biocatalysis**  
+Lasse Middendorf, Noelia Ferruz  
+[arXiv:2602.03779](https://arxiv.org/abs/2602.03779)
 
 ## 2. Model-based design
 
@@ -2135,6 +2144,10 @@ Xi Chen, Xiaofeng Zhou, Jiawei Zhou, Tengyu Xie, Yaning Li, Yuxuan Yan, Jing Hua
 Simon Levine, Jonathan Edward King, Jacob Stern, David Grayson, Raymond Wang, Rui Yin, Umberto Lupo, Paulina Kulyte, Ryan Matthew Brand, Tristan Bertin, Robert Pfingsten, Jovan Cejovic, Chelsea Chung, Breanna K Luton, Andrew Hagemann, Robel Haile, Elliot Medina, Pankaj Panwar, Oleksii Dubrovskyi, Chase LaCombe, Zahra Anderson, Derrik Mildh, Scott Benjamin, Joe Kaiser, Joseph Ferron, Marta Sarrico, Alexandria Kershner, Apurva Mishra, Kai R Ejan, Emily K Marsh, Paul Bringas, Phetsamay Vilaychack, Kyra Chapman, Jacob Ripley, Muttappa Gowda, Kathryn M Collins, Cailen M McCloskey, Jeremiah S Joseph, Rylee Ripley, Shaheed A Abdulhaqq, Audree Feltner, Michael Guerin, Jeffrey Goby, Jesse Hendricks, Danielle Castillo, Sean McClain, Douglas Ganini, Derek Shpiel, James Mategko, Eder Cruz Garcia, Masoud Zabet-Moghaddam, John M Sutton, Zheyuan Guo, Sean M West, Janani S Iyer, Amir Shanehsazzadeh  
 [bioRxiv 2026.01.14.699389](https://www.biorxiv.org/content/10.64898/2026.01.14.699389v1) • [code](https://github.com/AbSciBio/origin-1)
 
+**Nab-paclitaxel fused with the de novo designed receptor binder exhibits enhanced tumor targeting and therapeutic efficacy**  
+Yuanying Qian, Weikang Yan, Fan Xu, Yali Liu, Fabao Chen, Yue Lu, Zihan Zhang, Ao Gu, Ruobing Yu, Zhen Fang, Yang Yu, Maolan Li, Longxing Cao, Yingbin Liu, Yongning He  
+[bioRxiv 2026.01.28.702218](https://www.biorxiv.org/content/10.64898/2026.01.28.702218v1)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**
@@ -2392,6 +2405,10 @@ Mengdi Liu, Xiaoxue Cheng, Zhangyang Gao, Hong Chang, Cheng Tan, Shiguang Shan, 
 **ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning**  
 Ziwen Wang, Jiajun Fan, Ruihan Guo, Thao Nguyen, Heng Ji, Ge Liu  
 [arXiv:2506.07459](https://arxiv.org/abs/2506.07459)
+
+**ProDCARL: Reinforcement Learning-Aligned Diffusion Models for De Novo Antimicrobial Peptide Design**  
+Fang Sheng, Mohammad Noaeen, Zahra Shakeri  
+[arXiv:2602.00157](https://arxiv.org/abs/2602.00157)
 
 ### 4.13 Train-method
 
@@ -4145,6 +4162,10 @@ Anthony Marchand, Stephen Buckley, Arne Schneuing, Martin Pacesa, Pablo Gainza, 
 **Mapping targetable sites on the human surfaceome for the design of novel binders**
 Petra E. M. Balbi, Ahmed Sadek, Anthony Marchand, Ta-Yi Yu, Sandrine Georgeon, Joseph Schmidt, Simone Fulle, Che Yang, Hamed Khakzad, and Bruno E. Correia  
 [bioRxiv 2024.12.16.628626](https://www.biorxiv.org/content/10.1101/2024.12.16.628626v1)/[Proc. Natl. Acad. Sci.](https://www.pnas.org/doi/10.1073/pnas.2506269123) • [code](https://github.com/hamedkhakzad/SURFACE-Bind) • [wetbsite](https://surface-bind.inria.fr/)
+
+**AutoBinder Agent: An MCP-Based Agent for End-to-End Protein Binder Design**  
+Fukang Ge, Jiarui Zhu, Linjie Zhang, Haowen Xiao, Xiangcheng Bao, Fangnan Xie, Danyang Chen, Yanrui Lu, Yuting Wang, Ziqian Guan, Lin Gu, Jinhao Bi, Yingying Zhu
+[arXiv:2602.00019](https://arxiv.org/abs/2602.00019)
 
 ### 6.5 GNN-based
 
