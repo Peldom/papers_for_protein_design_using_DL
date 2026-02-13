@@ -10,17 +10,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.2.7:*
-+   Nab-paclitaxel fused with the de novo designed receptor binder exhibits enhanced tumor targeting and therapeutic efficacy
-    + [[bioRxiv 2026.01.28.702218](https://www.biorxiv.org/content/10.64898/2026.01.28.702218v1)]
-+   AutoBinder Agent: An MCP-Based Agent for End-to-End Protein Binder Design
-    + [[arXiv:2602.00019](https://arxiv.org/abs/2602.00019)]
-+   De novo protein design: a transformative frontier in clinical protein applications
-    + [[J Transl Med (2026)](https://link.springer.com/article/10.1186/s12967-026-07784-0)]
-+   ProDCARL: Reinforcement Learning-Aligned Diffusion Models for De Novo Antimicrobial Peptide Design
-    + [[arXiv:2602.00157](https://arxiv.org/abs/2602.00157)]
-+   Generative AI for Enzyme Design and Biocatalysis
-    + [[arXiv:2602.03779](https://arxiv.org/abs/2602.03779)]
+*Papers last week, updated on 2026.2.13:*
++   Designing de novo TIM barrels: insights into stabilization, diversification, and functionalization strategies
+    + [[Biochem Soc Trans](https://portlandpress.com/biochemsoctrans/article/54/2/BST20253060/237195/Designing-de-novo-TIM-barrels-insights-into)]
++   Experimental Analyses of RFdiffusion Designed Miniproteins for Binding to SARS-CoV-2 Nucleocapsid Protein
+    + [[Protein Engineering, Design and Selection, 2026](https://academic.oup.com/peds/advance-article-abstract/doi/10.1093/protein/gzag004/8471194)]
++   SaDiT: Efficient Protein Backbone Design via Latent Structural Tokenization and Diffusion Transformers
+    + [[arXiv:2602.06706](https://arxiv.org/abs/2602.06706)]
++   AbFlow : End-to-end Paratope-Centric Antibody Design by Interaction Enhanced Flow Matching
+    + [[arXiv:2602.07084](https://arxiv.org/abs/2602.07084)] • [[code](https://github.com/WangWenda87/AbFlow)]
 
 
 ---
@@ -662,6 +660,10 @@ Russell Johnson
 **De novo protein design: a transformative frontier in clinical protein applications**  
 Jie Gao, Zaiyong Zheng, Xueting Yu, Yamei Luo, Yang Yu & Chunxiang Zhang  
 [J Transl Med (2026)](https://link.springer.com/article/10.1186/s12967-026-07784-0)
+
+**Designing de novo TIM barrels: insights into stabilization, diversification, and functionalization strategies**  
+Julian Beck, Sergio Romero-Romero  
+[Biochem Soc Trans](https://portlandpress.com/biochemsoctrans/article/54/2/BST20253060/237195/Designing-de-novo-TIM-barrels-insights-into)
 
 ### 1.2 Antibody design
 
@@ -1537,6 +1539,10 @@ Kevin Michalewicz, Chen Jin, Philip Alexander Teare, Tom Diethe, Mauricio Baraho
 **Torsion-Space Diffusion for Protein Backbone Generation with Geometric Refinement**  
 Lakshaditya Singh, Adwait Shelke, Divyansh Agrawal  
 [arXiv:2511.19184](https://arxiv.org/abs/2511.19184)
+
+**SaDiT: Efficient Protein Backbone Design via Latent Structural Tokenization and Diffusion Transformers**  
+Shentong Mo, Lanqing Li  
+[arXiv:2602.06706](https://arxiv.org/abs/2602.06706)
 
 ### 3.5 RL-based
 
@@ -4149,6 +4155,10 @@ Le Tracy Yu, Harley Pyles, Xinqi Li, Andrew J. Borst, Neville P. Bethel, Paul S.
 Cyntia Taveneau, Her Xiang Chai, Jovita D’Silva, Rebecca S. Bamert, Honglin Chen, Brooke K. Hayes, Roland W. Calvert, Jacob Purcell, Daniel J. Curwen, Fabian Munder, Lisandra L. Martin, Jeremy J. Barr, Joseph Rosenbluh, Mohamed Fareh, Rhys Grinter & Gavin J. Knott  
 [Nat Chem Biol (2026)](https://www.nature.com/articles/s41589-025-02136-3)
 
+**Experimental Analyses of RFdiffusion Designed Miniproteins for Binding to SARS-CoV-2 Nucleocapsid Protein**  
+Zeenat Khakerwala , Ashwani Kumar , Sujay S Gaikwad , Truptimayee Barik , Shweta Singh , Gagan Deep Gupta , Ravindra D Makde  
+[Protein Engineering, Design and Selection, 2026](https://academic.oup.com/peds/advance-article-abstract/doi/10.1093/protein/gzag004/8471194)
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**
@@ -4358,6 +4368,10 @@ Cooper Svajda, Joshua Yuan
 **Generative design and validation of therapeutic peptides for glioblastoma based on a potential target ATP5A**  
 Hao Qian, Pu You, Lin Zeng, Jingyuan Zhou, Dengdeng Huang, Kaicheng Li, Shikui Tu, Lei Xu
 [arXiv:2512.02030](https://arxiv.org/abs/2512.02030v1)
+
+**AbFlow : End-to-end Paratope-Centric Antibody Design by Interaction Enhanced Flow Matching**  
+Wenda Wang, Yang Zhang, Zhewei Wei, Wenbing Huang  
+[arXiv:2602.07084](https://arxiv.org/abs/2602.07084) • [code](https://github.com/WangWenda87/AbFlow)
 
 ### 6.9 AlphaFold-based
 
