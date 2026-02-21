@@ -10,16 +10,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.2.13:*
-+   Designing de novo TIM barrels: insights into stabilization, diversification, and functionalization strategies
-    + [[Biochem Soc Trans](https://portlandpress.com/biochemsoctrans/article/54/2/BST20253060/237195/Designing-de-novo-TIM-barrels-insights-into)]
-+   Experimental Analyses of RFdiffusion Designed Miniproteins for Binding to SARS-CoV-2 Nucleocapsid Protein
-    + [[Protein Engineering, Design and Selection, 2026](https://academic.oup.com/peds/advance-article-abstract/doi/10.1093/protein/gzag004/8471194)]
-+   SaDiT: Efficient Protein Backbone Design via Latent Structural Tokenization and Diffusion Transformers
-    + [[arXiv:2602.06706](https://arxiv.org/abs/2602.06706)]
-+   AbFlow : End-to-end Paratope-Centric Antibody Design by Interaction Enhanced Flow Matching
-    + [[arXiv:2602.07084](https://arxiv.org/abs/2602.07084)] • [[code](https://github.com/WangWenda87/AbFlow)]
-
+*Papers last week, updated on 2026.2.21:*
++   A Discrete Language of Protein Words for Functional Discovery and Design
+    + [[bioRxiv 2026.02.14.705947](https://www.biorxiv.org/content/10.64898/2026.02.14.705947v1)] • [[code](https://github.com/young55775/ProtWord)]
++   ProtFlow: Flow Matching-based Protein Sequence Design with Comprehensive Protein Semantic Distribution Learning and High-quality Generation
+    + [[bioRxiv 2026.02.14.705870](https://www.biorxiv.org/content/10.64898/2026.02.14.705870v1)] • [[code](https://github.com/HiracharleFranklin/ProtFlow)]
++   Exploring the limits of pre-trained embeddings in machine-guided protein design: a case study on predicting AAV vector viability
+    + [[arXiv:2602.14828](https://arxiv.org/abs/2602.14828)] • [[code](https://github.com/lasigeBioTM/AAV-embeddings)]
++   Harnessing deep learning to accelerate the development of antibodies and aptamers
+    + [[Acta Pharmaceutica Sinica B (2025)](https://www.sciencedirect.com/science/article/pii/S2211383525008251)]
++   Benchmarking Generative AI Protein Models Reveals Differences Between Structural and Sequence-based Approaches
+    + [[Genomics, Proteomics & Bioinformatics (2026)](https://academic.oup.com/gpb/advance-article/doi/10.1093/gpbjnl/qzag014/8487189)]
 
 ---
 
@@ -193,6 +194,10 @@ Kevin K. Yang, Sarah Alamdari, Alex J. Lee, Kaeli Kaymak-Loveless, Samir Char, G
 **Consistent Synthetic Sequences Unlock Structural Diversity in Fully Atomistic De Novo Protein Design**  
 Danny Reidenbach, Zhonglin Cao, Zuobai Zhang, Kieran Didi, Tomas Geffner, Guoqing Zhou, Jian Tang, Christian Dallago, Arash Vahdat, Emine Kucukbenli, Karsten Kreis  
 [arXiv:2512.01976](https://arxiv.org/abs/2512.01976)
+
+**Benchmarking Generative AI Protein Models Reveals Differences Between Structural and Sequence-based Approaches**  
+Alexander J Barnett , Rajendra KC , Pratikshya Pandey , Pamodha Somasiri , Kirsten A Fairfax , Sandy Hung , Alex W Hewitt  
+[Genomics, Proteomics & Bioinformatics (2026)](https://academic.oup.com/gpb/advance-article/doi/10.1093/gpbjnl/qzag014/8487189)
 
 ### 0.2 Structure Datasets, Benchmarks
 
@@ -746,6 +751,10 @@ Priyanka Ray Choudhury, Sai Kumar Mishra, Siddharth Yadav, Shubhi Singh, Puniti 
 **Artificial intelligence in antibody design and development: harnessing the power of computational approaches**  
 Soudabeh Kavousipour, Mahdi Barazesh, Shiva Mohammadi  
 [Medical & Biological Engineering & Computing (2025)](https://link.springer.com/article/10.1007/s11517-025-03429-4)
+
+**Harnessing deep learning to accelerate the development of antibodies and aptamers**
+Pan Tan, Song Li, Jin Huang, Ziyi Zhou, Liang Hong  
+[Acta Pharmaceutica Sinica B (2025)](https://www.sciencedirect.com/science/article/pii/S2211383525008251)
 
 ### 1.3 Peptide design
 
@@ -3344,6 +3353,10 @@ Tong Chen, Yinuo Zhang, Sophia Tang, Pranam Chatterjee
 Harish Srinivasan, Rongqing Yuan, Qian Cong, Jian Zhou  
 [bioRxiv 2025.11.30.691458](https://www.biorxiv.org/content/10.64898/2025.11.30.691458v1) • [code](https://github.com/jzhoulab/TriFlow)
 
+**ProtFlow: Flow Matching-based Protein Sequence Design with Comprehensive Protein Semantic Distribution Learning and High-quality Generation**  
+Zitai Kong, Yiheng Zhu, Yinlong Xu, Mingze Yin, Tingjun Hou, Jian Wu, Hongxia Xu, Chang-Yu Hsieh  
+[bioRxiv 2026.02.14.705870](https://www.biorxiv.org/content/10.64898/2026.02.14.705870v1) • [code](https://github.com/HiracharleFranklin/ProtFlow)
+
 ### 5.8 RNN-based
 
 **Deep learning to design nuclear-targeting abiotic miniproteins**
@@ -4662,6 +4675,14 @@ Gabriel OngKiat Whye KongSi En PohFong Tian WongYiqi SeowWinston Koh
 **Zero-shot Deep Learning with Multi-Objective Optimization Improves Thermostability of Zearalenone Hydrolase and Xylanase**  
 Fan Wu, Rui Wu, Linghui Chen, Quan Chen, Haiyan Liu  
 [New Biotechnology (2026)](https://www.sciencedirect.com/science/article/pii/S1871678426000099)
+
+**A Discrete Language of Protein Words for Functional Discovery and Design**  
+Zhengyang Guo, Zi Wang, Yongping Chai, Kaiming Xu, Ming Li, Wei Li, Guangshuo Ou  
+[bioRxiv 2026.02.14.705947](https://www.biorxiv.org/content/10.64898/2026.02.14.705947v1) • [code](https://github.com/young55775/ProtWord)
+
+**Exploring the limits of pre-trained embeddings in machine-guided protein design: a case study on predicting AAV vector viability**  
+Ana F. Rodrigues, Lucas Ferraz, Laura Balbi, Pedro Giesteira Cotovio, Catia Pesquita  
+[arXiv:2602.14828](https://arxiv.org/abs/2602.14828) • [code](https://github.com/lasigeBioTM/AAV-embeddings)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
