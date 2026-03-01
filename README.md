@@ -10,17 +10,12 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.2.21:*
-+   A Discrete Language of Protein Words for Functional Discovery and Design
-    + [[bioRxiv 2026.02.14.705947](https://www.biorxiv.org/content/10.64898/2026.02.14.705947v1)] • [[code](https://github.com/young55775/ProtWord)]
-+   ProtFlow: Flow Matching-based Protein Sequence Design with Comprehensive Protein Semantic Distribution Learning and High-quality Generation
-    + [[bioRxiv 2026.02.14.705870](https://www.biorxiv.org/content/10.64898/2026.02.14.705870v1)] • [[code](https://github.com/HiracharleFranklin/ProtFlow)]
-+   Exploring the limits of pre-trained embeddings in machine-guided protein design: a case study on predicting AAV vector viability
-    + [[arXiv:2602.14828](https://arxiv.org/abs/2602.14828)] • [[code](https://github.com/lasigeBioTM/AAV-embeddings)]
-+   Harnessing deep learning to accelerate the development of antibodies and aptamers
-    + [[Acta Pharmaceutica Sinica B (2025)](https://www.sciencedirect.com/science/article/pii/S2211383525008251)]
-+   Benchmarking Generative AI Protein Models Reveals Differences Between Structural and Sequence-based Approaches
-    + [[Genomics, Proteomics & Bioinformatics (2026)](https://academic.oup.com/gpb/advance-article/doi/10.1093/gpbjnl/qzag014/8487189)]
+*Papers last week, updated on 2026.3.1:*
++   Mesostructured Water Enhances Stability of ProteinMPNN-Designed Ubiquitin-Fold
+    + [[J. Am. Chem. Soc. 2026](https://pubs.acs.org/doi/10.1021/jacs.5c19875)] • ProteinMPNN-based
++   De novo design of GPCR exoframe modulators
+    + [[Nature (2026)](https://www.nature.com/articles/s41586-025-09957-1)]
+
 
 ---
 
@@ -2163,6 +2158,10 @@ Simon Levine, Jonathan Edward King, Jacob Stern, David Grayson, Raymond Wang, Ru
 Yuanying Qian, Weikang Yan, Fan Xu, Yali Liu, Fabao Chen, Yue Lu, Zihan Zhang, Ao Gu, Ruobing Yu, Zhen Fang, Yang Yu, Maolan Li, Longxing Cao, Yingbin Liu, Yongning He  
 [bioRxiv 2026.01.28.702218](https://www.biorxiv.org/content/10.64898/2026.01.28.702218v1)
 
+**Mesostructured Water Enhances Stability of ProteinMPNN-Designed Ubiquitin-Fold**  
+Lu-Yi Chen, Wei-Lin Lu, Tanvi Pathania, I-Hsuan Chu, Meng-Ru Ho, Wei-Chen Chuang, Yuan-Chao Lou, Ta I. Hung, Yohei Miyanoiri, Chia-en A. Chang, Kuen-Phon Wu  
+[J. Am. Chem. Soc. 2026](https://pubs.acs.org/doi/10.1021/jacs.5c19875) • ProteinMPNN-based
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**
@@ -3986,7 +3985,7 @@ Ljubica Mihaljević, David E. Kim, Helen E. Eisenach, Pooja D. Bandawane, Andrew
 
 **Inhibition of ice recrystallization with designed twistless helical repeat proteins**
 Robbert J. de Haas, Harley Pyles, Timothy F. Huddy, Jannick van Ossenbruggen, Chuanbao Zheng, Daniëlle van den Broek, Ann Carr, Asim K. Bera, Alex Kang, Evans Brackenbrough, Emily Joyce, Banumathi Sankaran, David Baker, Ilja K. Voets, Renko de Vries
-[bioRxiv 2025.03.09.642278](https://www.biorxiv.org/content/10.1101/2025.03.09.642278v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/13/2025.03.09.642278/DC1/embed/media-1.pdf) • [code](https://doi.org/10.5281/zenodo.13763849) • RFDiffusion/ProteinMPNN-based
+[bioRxiv 2025.03.09.642278](https://www.biorxiv.org/content/10.1101/2025.03.09.642278v1)/[Proceedings of the National Academy of Sciences 122.48 (2025)](https://www.pnas.org/doi/10.1073/pnas.2514871122) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/03/13/2025.03.09.642278/DC1/embed/media-1.pdf) • [code](https://doi.org/10.5281/zenodo.13763849) • RFDiffusion/ProteinMPNN-based
 
 **RoseTTAFold diffusion-guided short peptide design: a case study of binders against Keap1/Nrf2**
 Francesco Morena, Chiara Cencinia, Carla Emiliani, Sabata Martinoa
@@ -4171,6 +4170,14 @@ Cyntia Taveneau, Her Xiang Chai, Jovita D’Silva, Rebecca S. Bamert, Honglin Ch
 **Experimental Analyses of RFdiffusion Designed Miniproteins for Binding to SARS-CoV-2 Nucleocapsid Protein**  
 Zeenat Khakerwala , Ashwani Kumar , Sujay S Gaikwad , Truptimayee Barik , Shweta Singh , Gagan Deep Gupta , Ravindra D Makde  
 [Protein Engineering, Design and Selection, 2026](https://academic.oup.com/peds/advance-article-abstract/doi/10.1093/protein/gzag004/8471194)
+
+**Computational design of blue melanin with peptide motif scaffolding**  
+Di Sheng Lee, Bomi Park, Sergio Salgado, James Dolgin, David L. Kaplan  
+[bioRxiv 2026.02.02.703104](https://www.biorxiv.org/content/10.64898/2026.02.02.703104v1.full)
+
+**De novo design of GPCR exoframe modulators**  
+Shizhuo Cheng, Jia Guo, Yun-li Zhou, Xumei Luo, Gufang Zhang, Ya-zhi Zhang, Yixin Yang, Jiannan Xie, Ping Xu, Dan-dan Shen, Shaokun Zang, Huicui Yang, Xuechu Zhen, Min Zhang & Yan Zhang  
+[Nature (2026)](https://www.nature.com/articles/s41586-025-09957-1)
 
 ### 6.4 CNN-based
 
