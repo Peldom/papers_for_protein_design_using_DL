@@ -10,11 +10,13 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.3.1:*
-+   Mesostructured Water Enhances Stability of ProteinMPNN-Designed Ubiquitin-Fold
-    + [[J. Am. Chem. Soc. 2026](https://pubs.acs.org/doi/10.1021/jacs.5c19875)] • ProteinMPNN-based
-+   De novo design of GPCR exoframe modulators
-    + [[Nature (2026)](https://www.nature.com/articles/s41586-025-09957-1)]
+*Papers last week, updated on 2026.3.10:*
++   Assessment of Generative De Novo Peptide Design Methods for G Protein-Coupled Receptors
+    + [[bioRxiv 2026.02.26.708415](https://www.biorxiv.org/content/10.64898/2026.02.26.708415v1)]
++   An Energy Landscape Approach to Miniaturizing Enzymes using Protein Language Model Embeddings
+    + [[bioRxiv 2026.03.04.709378](https://www.biorxiv.org/content/10.64898/2026.03.04.709378v1)]
++   Rigidity-Aware Geometric Pretraining for Protein Design and Conformational Ensembles
+    + [[arXiv:2603.02406](https://arxiv.org/abs/2603.02406)]
 
 
 ---
@@ -296,6 +298,10 @@ Max Daniel Overath, Andreas Rygaard, Christian Peder Jacobsen, Valentas Brasas, 
 **Limitations of the refolding pipeline for de novo protein design**  
 Kerlen T. Korbeld, Vsevolod Viliuga, Maximilian J.L.J. Fürst  
 [bioRxiv 2025.12.09.693122](https://www.biorxiv.org/content/10.64898/2025.12.09.693122v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/12/11/2025.12.09.693122/DC1/embed/media-1.pdf) • [data](https://github.com/kt-korbeld/Limitations-refolding-pipeline-data)
+
+**Assessment of Generative De Novo Peptide Design Methods for G Protein-Coupled Receptors**  
+Hannes Junker, Clara T. Schoeder  
+[bioRxiv 2026.02.26.708415](https://www.biorxiv.org/content/10.64898/2026.02.26.708415v1)
 
 ### 0.3 Databases
 
@@ -1252,6 +1258,10 @@ Jakub Lála, Stefano Angioletti-Uberti
 **DyAb: sequence-based antibody design and property prediction in a low-data regime**
 Joshua Yao-Yu Lin, Jennifer L. Hofmann, Andrew Leaver-Fay, Wei-Ching Liang, Stefania Vasilaki, Edith Lee, Pedro O. Pinheiro, Natasa Tagasovska, James R. Kiefer, Yan Wu, Franziska Seeger, Richard Bonneau, Vladimir Gligorijevic, Andrew Watkins, Kyunghyun Cho, Nathan C. Frey
 [bioRxiv 2025.01.28.635353](https://www.biorxiv.org/content/10.1101/2025.01.28.635353v1) • [code](github.com/prescient-design/lobster) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/02/02/2025.01.28.635353/DC1/embed/media-1.pdf)
+
+**An Energy Landscape Approach to Miniaturizing Enzymes using Protein Language Model Embeddings**  
+Jakub Lála, Harsh Agrawal, Fanfei Dong, Jude Wells, Stefano Angioletti-Uberti  
+[bioRxiv 2026.03.04.709378](https://www.biorxiv.org/content/10.64898/2026.03.04.709378v1)
 
 ### 2.5 Sampling-algorithms
 
@@ -4393,6 +4403,10 @@ Hao Qian, Pu You, Lin Zeng, Jingyuan Zhou, Dengdeng Huang, Kaicheng Li, Shikui T
 Wenda Wang, Yang Zhang, Zhewei Wei, Wenbing Huang  
 [arXiv:2602.07084](https://arxiv.org/abs/2602.07084) • [code](https://github.com/WangWenda87/AbFlow)
 
+**Rigidity-Aware Geometric Pretraining for Protein Design and Conformational Ensembles**  
+Zhanghan Ni, Yanjing Li, Zeju Qiu, Bernhard Schölkopf, Hongyu Guo, Weiyang Liu, Shengchao Liu  
+[arXiv:2603.02406](https://arxiv.org/abs/2603.02406)
+
 ### 6.9 AlphaFold-based
 
 **CarbonNovo: Joint Design of Protein Structure and Sequence Using a Unified Energy-based Model**
@@ -4690,6 +4704,10 @@ Zhengyang Guo, Zi Wang, Yongping Chai, Kaiming Xu, Ming Li, Wei Li, Guangshuo Ou
 **Exploring the limits of pre-trained embeddings in machine-guided protein design: a case study on predicting AAV vector viability**  
 Ana F. Rodrigues, Lucas Ferraz, Laura Balbi, Pedro Giesteira Cotovio, Catia Pesquita  
 [arXiv:2602.14828](https://arxiv.org/abs/2602.14828) • [code](https://github.com/lasigeBioTM/AAV-embeddings)
+
+**Deep learning-guided evolutionary optimization for protein design**  
+Erik Hartman, Di Tang, Johan Malmström  
+[arXiv:2603.02753](https://arxiv.org/abs/2603.02753)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
