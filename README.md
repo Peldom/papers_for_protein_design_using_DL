@@ -10,13 +10,16 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.3.10:*
-+   Assessment of Generative De Novo Peptide Design Methods for G Protein-Coupled Receptors
-    + [[bioRxiv 2026.02.26.708415](https://www.biorxiv.org/content/10.64898/2026.02.26.708415v1)]
-+   An Energy Landscape Approach to Miniaturizing Enzymes using Protein Language Model Embeddings
-    + [[bioRxiv 2026.03.04.709378](https://www.biorxiv.org/content/10.64898/2026.03.04.709378v1)]
-+   Rigidity-Aware Geometric Pretraining for Protein Design and Conformational Ensembles
-    + [[arXiv:2603.02406](https://arxiv.org/abs/2603.02406)]
+*Papers last week, updated on 2026.3.13:*
++   De Novo Multi-Mechanism Antimicrobial Peptide Design via Multimodal Deep Learning
+    + [[Advanced science](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515835)] • [[code](https://github.com/haifangong/M3CAD)]
++   Miniprotein inhibitors of the Staphylococcus aureus efflux transporter NorA
+    + [[bioRxiv 2026.03.05.709893](https://www.biorxiv.org/content/10.64898/2026.03.05.709893v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/03/05/2026.03.05.709893/DC1/embed/media-1.pdf)]
++   De novo functional protein sequence generation: overcoming data scarcity through regeneration and large language models
+    + [[Briefings in Bioinformatics](https://academic.oup.com/bib/article/27/2/bbag095/8510708)] • [[data](https://github.com/ChenyuzZZ73/ProteinRG/data)]
++   Ligand-guided Sequence–structure Co-design of De Novo Functional Enzymes
+    + [[bioRxiv 2026.03.02.709205](https://www.biorxiv.org/content/10.64898/2026.03.02.709205v1)] • [[code](https://www.biorxiv.org/content/biorxiv/early/2026/03/04/2026.03.02.709205/DC1/embed/media-1.pdf)]
+
 
 
 ---
@@ -2608,7 +2611,9 @@ Anna Maria Díaz-Rovira, Jonathan Lotze, Gregor Hoffmann, Chiara Pallara, Alexis
 Divyanshu Shukla, Jonathan Martin, Faruck Morcos, Davit A. Potoyan  
 [bioRxiv 2025.09.18.676787](https://www.biorxiv.org/content/10.1101/2025.09.18.676787v1)
 
-
+**De Novo Multi-Mechanism Antimicrobial Peptide Design via Multimodal Deep Learning**  
+Xiaojuan Li, Haifan Gong, Yue Wang, Yinuo Zhao, Lixiang Li, Peijing Bao, Qingzhou Kong, Jialu Fu, Boyao Wan, Yumeng Zhang, Jinghui Zhang, Jiekun Ni, Zhongxue Han, Xueping Nan, Kunping Ju, Longfei Sun, Yuerui Ma, Huijun Chang, Mengqi Zheng, Yanbo Yu, Xiaoyun Yang, Xiuli Zuo, Haina Wang, Yanqing Li  
+[Advanced science](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515835) • [code](https://github.com/haifangong/M3CAD)
 
 ### 5.3 GAN-based
 
@@ -3199,6 +3204,10 @@ Kaixuan Diao, Jing Chen, Xiangyu Zhao, Tao Wu, Die Qiu, Weiliang Wang, Haopeng W
 **TCRAD: An End-to-End Framework for Antigen-Targeted T Cell Receptor Design**  
 Chenao Li, Yaochi Guo, Xin Guan, Hui Chen, Yong Zhang, Pengyuan Yang, Jizhong Lou  
 [bioRxiv 2026.01.21.700513](https://www.biorxiv.org/content/10.64898/2026.01.21.700513v1)
+
+**De novo functional protein sequence generation: overcoming data scarcity through regeneration and large language models**  
+Chenyu Ren, Daihai He, Jian Huang  
+[Briefings in Bioinformatics](https://academic.oup.com/bib/article/27/2/bbag095/8510708) • [data](https://github.com/ChenyuzZZ73/ProteinRG/data)
 
 ### 5.5 Bayesian-based
 
@@ -3911,7 +3920,7 @@ Anna Lauko, Samuel J Pellock, Ivan Anischanka, Kiera H Sumida, David Juergens, W
 
 **De novo design of Ras isoform selective binders**
 Jason Zhaoxing Zhang, Xinting Li, Caixuan Liu, Hanlun Jiang, Kejia Wu, David Baker
-[bioRxiv 2024.08.29.610300](https://www.biorxiv.org/content/10.1101/2024.08.29.610300v1)
+[bioRxiv 2024.08.29.610300](https://www.biorxiv.org/content/10.1101/2024.08.29.610300v1)/[Cell Chemical Biology](https://www.cell.com/cell-chemical-biology/fulltext/S2451-9456(26)00063-2)
 
 **Improved protein binder design using beta-pairing targeted RFdiffusion**
 Isaac Sappington, Martin Toul, David S. Lee, Stephanie A. Robinson, Inna Goreshnik, Clara McCurdy, Tung Ching Chan, Nic Buchholz, Buwei Huang, Dionne Vafeados, Mariana Garcia-Sanchez, Nicole Roullier, Matthias Glögl, Chris Kim, Joseph L. Watson, Susana Vázquez Torres, Koen H. G. Verschueren, Kenneth Verstraete, Cynthia S. Hinck, Melisa Benard-Valle, Brian Coventry, Jeremiah Nelson Sims, Green Ahn, Xinru Wang, Andrew P. Hinck, Timothy P. Jenkins, Hannele Ruohola-Baker, Steven M. Banik, Savvas N. Savvides, David Baker
@@ -4189,6 +4198,10 @@ Di Sheng Lee, Bomi Park, Sergio Salgado, James Dolgin, David L. Kaplan
 Shizhuo Cheng, Jia Guo, Yun-li Zhou, Xumei Luo, Gufang Zhang, Ya-zhi Zhang, Yixin Yang, Jiannan Xie, Ping Xu, Dan-dan Shen, Shaokun Zang, Huicui Yang, Xuechu Zhen, Min Zhang & Yan Zhang  
 [Nature (2026)](https://www.nature.com/articles/s41586-025-09957-1)
 
+**Miniprotein inhibitors of the Staphylococcus aureus efflux transporter NorA**  
+Priyanka Mishra, Adam Chazin-Gray, Gaëlle Lamon, David Kim, David Baker, Nathaniel J. Traaseth  
+[bioRxiv 2026.03.05.709893](https://www.biorxiv.org/content/10.64898/2026.03.05.709893v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/03/05/2026.03.05.709893/DC1/embed/media-1.pdf)
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**
@@ -4302,6 +4315,10 @@ Alex J. Li, Tanja Kortemme
 **Ab-initio amino acid sequence design from protein text description with ProtDAT**  
 Xiao-Yu Guo, Yi-Fan Li, Yuan Liu, Xiaoyong Pan & Hong-Bin Shen  
 [Nat Commun 16, 10544 (2025)](https://www.nature.com/articles/s41467-025-65562-w) • [code](https://github.com/GXY0116/ProtDAT/tree/v1.0.0) • [website](http://www.csbio.sjtu.edu.cn/bioinf2/ProtDAT/)
+
+**Ligand-guided Sequence–structure Co-design of De Novo Functional Enzymes**  
+Zhenqiao Song, Huichong Liu, Yunlong Zhao, Yang Yang, Lei Li  
+[bioRxiv 2026.03.02.709205](https://www.biorxiv.org/content/10.64898/2026.03.02.709205v1) • [code](https://www.biorxiv.org/content/biorxiv/early/2026/03/04/2026.03.02.709205/DC1/embed/media-1.pdf)
 
 ### 6.7 MLP-based
 
