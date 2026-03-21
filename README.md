@@ -10,15 +10,16 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.3.13:*
-+   De Novo Multi-Mechanism Antimicrobial Peptide Design via Multimodal Deep Learning
-    + [[Advanced science](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202515835)] • [[code](https://github.com/haifangong/M3CAD)]
-+   Miniprotein inhibitors of the Staphylococcus aureus efflux transporter NorA
-    + [[bioRxiv 2026.03.05.709893](https://www.biorxiv.org/content/10.64898/2026.03.05.709893v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/03/05/2026.03.05.709893/DC1/embed/media-1.pdf)]
-+   De novo functional protein sequence generation: overcoming data scarcity through regeneration and large language models
-    + [[Briefings in Bioinformatics](https://academic.oup.com/bib/article/27/2/bbag095/8510708)] • [[data](https://github.com/ChenyuzZZ73/ProteinRG/data)]
-+   Ligand-guided Sequence–structure Co-design of De Novo Functional Enzymes
-    + [[bioRxiv 2026.03.02.709205](https://www.biorxiv.org/content/10.64898/2026.03.02.709205v1)] • [[code](https://www.biorxiv.org/content/biorxiv/early/2026/03/04/2026.03.02.709205/DC1/embed/media-1.pdf)]
+*Papers last week, updated on 2026.3.21:*
++   Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute
+    + [[ICLR 2026 Oral](https://openreview.net/forum?id=qmCpJtFZra)]/[[wetlab paper](https://research.nvidia.com/labs/genair/proteina-complexa/assets/proteina_complexa_validation.pdf)] • [[code](https://github.com/NVIDIA-Digital-Bio/proteina-complexa)] • [[website](https://research.nvidia.com/labs/genair/proteina-complexa/)]
++   Functional protein design and enhancement with ontology reinforcement iteration
+    + [[Nat Commun (2026)](https://www.nature.com/articles/s41467-026-69855-6)] • [[code](https://github.com/TencentAI4S/ori)]
++   AI-enabled protein design facilitates future plant research and crop breeding
+    + [[Plant Physiology](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiag147/8528248)]
++   Design of miniprotein inhibitors targeting complement C9 to block membrane attack complex assembly
+    + [[Nat Commun (2026)](https://www.nature.com/articles/s41467-026-70667-x)]
+
 
 
 
@@ -64,7 +65,8 @@
   <a href="#34-diffusion-based">Diffusion-based</a> •
   <a href="#35-rl-based">RL-based</a> •
   <a href="#36-flow-based">Flow-based</a> •
-  <a href="#37-score-based">Score-based</a>
+  <a href="#37-score-based">Score-based</a> •
+  <a href="#38-autoregressive">Autoregressive</a>
   <br>
   <strong><a href="#4scaffold-to-sequence">4) Scaffold to Sequence</a></strong>
   <br>
@@ -198,6 +200,10 @@ Danny Reidenbach, Zhonglin Cao, Zuobai Zhang, Kieran Didi, Tomas Geffner, Guoqin
 **Benchmarking Generative AI Protein Models Reveals Differences Between Structural and Sequence-based Approaches**  
 Alexander J Barnett , Rajendra KC , Pratikshya Pandey , Pamodha Somasiri , Kirsten A Fairfax , Sandy Hung , Alex W Hewitt  
 [Genomics, Proteomics & Bioinformatics (2026)](https://academic.oup.com/gpb/advance-article/doi/10.1093/gpbjnl/qzag014/8487189)
+
+**AFD-INSTRUCTION: A Comprehensive Antibody Instruction Dataset with Functional Annotations for LLM-Based Understanding and Design**  
+Ling Luo, Wenbin Jiang, Hongyuan Chang, Xinkang Wang, Xushi Zhang, Yueting Xiong, Mengsha Tong, Rongshan Yu  
+[arXiv:2602.04916](https://arxiv.org/abs/2602.04916) • [code](https://github.com/dumbgoos/Afd-Instruction/) • [dataset](https://huggingface.co/datasets/LLMasterLL/AFD) • [website](https://afd-instruction.github.io/)
 
 ### 0.2 Structure Datasets, Benchmarks
 
@@ -673,6 +679,10 @@ Jie Gao, Zaiyong Zheng, Xueting Yu, Yamei Luo, Yang Yu & Chunxiang Zhang
 **Designing de novo TIM barrels: insights into stabilization, diversification, and functionalization strategies**  
 Julian Beck, Sergio Romero-Romero  
 [Biochem Soc Trans](https://portlandpress.com/biochemsoctrans/article/54/2/BST20253060/237195/Designing-de-novo-TIM-barrels-insights-into)
+
+**AI-enabled protein design facilitates future plant research and crop breeding**  
+Yuxuan Lou, Tianhao Wu, Fan Xia, Anwen Zhao, Xiangfeng Wang  
+[Plant Physiology](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiag147/8528248)
 
 ### 1.2 Antibody design
 
@@ -1643,6 +1653,12 @@ John D Boom, Matthew Greenig, Pietro Sormanni, Pietro Liò
 Tianyuan Zheng, Alessandro Rondina, Pietro Liò
 [arXiv:2411.18568](https://arxiv.org/abs/2411.18568) • [code](https://github.com/ECburx/PROTEVAL)
 
+### 3.8 Autoregressive
+
+**Protein Autoregressive Modeling via Multiscale Structure Generation**  
+Yanru Qu, Cheng-Yen Hsieh, Zaixiang Zheng, Ge Liu, Quanquan Gu
+[arXiv:2602.04883](https://arxiv.org/abs/2602.04883)
+
 ## 4.Scaffold to Sequence
 
 > Identify amino sequence from given backbone/scaffold/template constrains: torsion angles(φ & ψ), backbone angles(θ and τ), backbone dihedrals (φ, ψ & ω), backbone atoms (Cα, N, C, & O), Cα − Cα distance, unit direction vectors of Cα−Cα, Cα−N & Cα−C, etc(aka. inverse folding). Referred from [here](https://arxiv.org/abs/2202.01079). Energy-based models are also inculded for task of rotamer conformation(χ angles or atom coordinates) recovery.
@@ -2170,6 +2186,10 @@ Simon Levine, Jonathan Edward King, Jacob Stern, David Grayson, Raymond Wang, Ru
 **Nab-paclitaxel fused with the de novo designed receptor binder exhibits enhanced tumor targeting and therapeutic efficacy**  
 Yuanying Qian, Weikang Yan, Fan Xu, Yali Liu, Fabao Chen, Yue Lu, Zihan Zhang, Ao Gu, Ruobing Yu, Zhen Fang, Yang Yu, Maolan Li, Longxing Cao, Yingbin Liu, Yongning He  
 [bioRxiv 2026.01.28.702218](https://www.biorxiv.org/content/10.64898/2026.01.28.702218v1)
+
+**CyclicMPNN: Stable Cyclic Peptide Sequence Generation**  
+Andrew C. Powers, Yanapat Janthana, Parisa Hosseinzadeh  
+[bioRxiv 2026.01.31.702993](https://www.biorxiv.org/content/10.64898/2026.01.31.702993v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/01/31/2026.01.31.702993/DC1/embed/media-1.pdf) • [code](https://github.com/ParisaH-Lab/CyclicMPNN)
 
 **Mesostructured Water Enhances Stability of ProteinMPNN-Designed Ubiquitin-Fold**  
 Lu-Yi Chen, Wei-Lin Lu, Tanvi Pathania, I-Hsuan Chu, Meng-Ru Ho, Wei-Chen Chuang, Yuan-Chao Lou, Ta I. Hung, Yohei Miyanoiri, Chia-en A. Chang, Kuen-Phon Wu  
@@ -4202,6 +4222,10 @@ Shizhuo Cheng, Jia Guo, Yun-li Zhou, Xumei Luo, Gufang Zhang, Ya-zhi Zhang, Yixi
 Priyanka Mishra, Adam Chazin-Gray, Gaëlle Lamon, David Kim, David Baker, Nathaniel J. Traaseth  
 [bioRxiv 2026.03.05.709893](https://www.biorxiv.org/content/10.64898/2026.03.05.709893v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/03/05/2026.03.05.709893/DC1/embed/media-1.pdf)
 
+**Design of miniprotein inhibitors targeting complement C9 to block membrane attack complex assembly**  
+Bing He, Chenchen Qin, Yu Zhao, Long-Kai Huang, Zihan Wu, Fang Wang, Fandi Wu, Fan Yang & Jianhua Yao  
+[Nat Commun (2026)](https://www.nature.com/articles/s41467-026-70667-x)
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**
@@ -4423,6 +4447,10 @@ Wenda Wang, Yang Zhang, Zhewei Wei, Wenbing Huang
 **Rigidity-Aware Geometric Pretraining for Protein Design and Conformational Ensembles**  
 Zhanghan Ni, Yanjing Li, Zeju Qiu, Bernhard Schölkopf, Hongyu Guo, Weiyang Liu, Shengchao Liu  
 [arXiv:2603.02406](https://arxiv.org/abs/2603.02406)
+
+**Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute**  
+Kieran Didi, Zuobai Zhang, Guoqing Zhou, Danny Reidenbach, Zhonglin Cao, Sooyoung Cha, Tomas Geffner, Christian Dallago, Jian Tang, Michael M. Bronstein, Martin Steinegger, Emine Kucukbenli, Arash Vahdat, Karsten Kreis  
+[ICLR 2026 Oral](https://openreview.net/forum?id=qmCpJtFZra)/[wetlab paper](https://research.nvidia.com/labs/genair/proteina-complexa/assets/proteina_complexa_validation.pdf) • [code](https://github.com/NVIDIA-Digital-Bio/proteina-complexa) • [website](https://research.nvidia.com/labs/genair/proteina-complexa/)
 
 ### 6.9 AlphaFold-based
 
@@ -4725,6 +4753,10 @@ Ana F. Rodrigues, Lucas Ferraz, Laura Balbi, Pedro Giesteira Cotovio, Catia Pesq
 **Deep learning-guided evolutionary optimization for protein design**  
 Erik Hartman, Di Tang, Johan Malmström  
 [arXiv:2603.02753](https://arxiv.org/abs/2603.02753)
+
+**Functional protein design and enhancement with ontology reinforcement iteration**  
+Bing He, Chenchen Qin, Yu Zhao, Long-Kai Huang, Zihan Wu, Fang Wang, Fandi Wu, Fan Yang & Jianhua Yao  
+[Nat Commun (2026)](https://www.nature.com/articles/s41467-026-69855-6) • [code](https://github.com/TencentAI4S/ori)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
