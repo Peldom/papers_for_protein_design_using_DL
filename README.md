@@ -10,16 +10,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.3.21:*
-+   Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute
-    + [[ICLR 2026 Oral](https://openreview.net/forum?id=qmCpJtFZra)]/[[wetlab paper](https://research.nvidia.com/labs/genair/proteina-complexa/assets/proteina_complexa_validation.pdf)] • [[code](https://github.com/NVIDIA-Digital-Bio/proteina-complexa)] • [[website](https://research.nvidia.com/labs/genair/proteina-complexa/)]
-+   Functional protein design and enhancement with ontology reinforcement iteration
-    + [[Nat Commun (2026)](https://www.nature.com/articles/s41467-026-69855-6)] • [[code](https://github.com/TencentAI4S/ori)]
-+   AI-enabled protein design facilitates future plant research and crop breeding
-    + [[Plant Physiology](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiag147/8528248)]
-+   Design of miniprotein inhibitors targeting complement C9 to block membrane attack complex assembly
-    + [[Nat Commun (2026)](https://www.nature.com/articles/s41467-026-70667-x)]
-
+*Papers last week, updated on 2026.3.28:*
++   Frontiers and challenges in the design of binders for intrinsically disordered proteins
+    + [[Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/abs/pii/S0959440X26000382)]
++   Reinforcement-guided generative protein language models enable de novo design of highly diverse AAV capsids
+    + [[arXiv:2603.19473](https://arxiv.org/abs/2603.19473)] • [[code](https://github.com/liseda-lab/genAAV)]
++   CombinGym: a benchmark platform for machine learning-assisted design of combinatorial protein variants
+    + [[bioRxiv 2026.03.24.714074](https://www.biorxiv.org/content/10.64898/2026.03.24.714074v1)] • [[code](https://github.com/sitonglab/CombinGym)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/03/25/2026.03.24.714074/DC1/embed/media-1.pdf)] • [[website](https://www.combingym.org)]
++   Latent-Y: A Lab-Validated Autonomous Agent for De Novo Drug Design
+    + [[technical report](https://www.latentlabs.com/wp-content/uploads/2026/03/Latent-Y-Technical-Report.pdf)] • [[website](https://www.latentlabs.com/latent-y/)] • commercial
 
 
 
@@ -683,6 +682,10 @@ Julian Beck, Sergio Romero-Romero
 **AI-enabled protein design facilitates future plant research and crop breeding**  
 Yuxuan Lou, Tianhao Wu, Fan Xia, Anwen Zhao, Xiangfeng Wang  
 [Plant Physiology](https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiag147/8528248)
+
+**Frontiers and challenges in the design of binders for intrinsically disordered proteins**  
+Chentong Wang, Yanzhe Zhang, Minchao Fang, Zhangzhi Peng, Longxing Cao  
+[Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/abs/pii/S0959440X26000382)
 
 ### 1.2 Antibody design
 
@@ -3369,6 +3372,10 @@ Hanqun Cao, Marcelo D. T. Torres, Jingjie Zhang, Zijun Gao, Fang Wu, Chunbin Gu,
 Manvitha Ponnapati, Sapna Sinha, Brian Lynch, Edward S. Boyden, Joseph Jacobson  
 [bioRxiv 2025.09.27.678937](https://www.biorxiv.org/content/10.1101/2025.09.27.678937v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/09/29/2025.09.27.678937/DC1/embed/media-1.pdf)
 
+**Reinforcement-guided generative protein language models enable de novo design of highly diverse AAV capsids**  
+Lucas Ferraz, Ana F. Rodrigues, Pedro Giesteira Cotovio, Mafalda Ventura, Gabriela Silva, Ana Sofia Coroadinha, Miguel Machuqueiro, Catia Pesquita  
+[arXiv:2603.19473](https://arxiv.org/abs/2603.19473) • [code](https://github.com/liseda-lab/genAAV)
+
 ### 5.7 Flow-based
 
 **Biological Sequence Design with GFlowNets**
@@ -4218,6 +4225,10 @@ Di Sheng Lee, Bomi Park, Sergio Salgado, James Dolgin, David L. Kaplan
 Shizhuo Cheng, Jia Guo, Yun-li Zhou, Xumei Luo, Gufang Zhang, Ya-zhi Zhang, Yixin Yang, Jiannan Xie, Ping Xu, Dan-dan Shen, Shaokun Zang, Huicui Yang, Xuechu Zhen, Min Zhang & Yan Zhang  
 [Nature (2026)](https://www.nature.com/articles/s41586-025-09957-1)
 
+**Reprogramming CAR T-Cells with designed bioPROTACs**  
+Vivek S Peche, Sebastian Kenny, Tae Gun Kang, Brian Coventry, Tian Mi, Inna Goreshnik, Mariana Garcia Sanchez, Reid Martin, Macey Smith, Dionne Vafeados, Rahul S Kathayat, Yu Kaiwen, Zuo-Fei Yuan, Long Wu, Anthony High, Andrew Nemecek, Elizabeth Wickmann, Adeleye Adeshakin, Francesca Ferrara, Robert E Throm, Taosheng Chen, Benjamin Youngblood, David Baker, Stephen Gottschalk  
+[bioRxiv 2026.02.21.706835](https://www.biorxiv.org/content/10.64898/2026.02.21.706835v1)
+
 **Miniprotein inhibitors of the Staphylococcus aureus efflux transporter NorA**  
 Priyanka Mishra, Adam Chazin-Gray, Gaëlle Lamon, David Kim, David Baker, Nathaniel J. Traaseth  
 [bioRxiv 2026.03.05.709893](https://www.biorxiv.org/content/10.64898/2026.03.05.709893v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/03/05/2026.03.05.709893/DC1/embed/media-1.pdf)
@@ -4758,6 +4769,10 @@ Erik Hartman, Di Tang, Johan Malmström
 Bing He, Chenchen Qin, Yu Zhao, Long-Kai Huang, Zihan Wu, Fang Wang, Fandi Wu, Fan Yang & Jianhua Yao  
 [Nat Commun (2026)](https://www.nature.com/articles/s41467-026-69855-6) • [code](https://github.com/TencentAI4S/ori)
 
+**CombinGym: a benchmark platform for machine learning-assisted design of combinatorial protein variants**  
+Yongcan Chen, Lihao Fu, Xuchao Lu, Wenzhuo Li, Yuan Gao, Yibo Wang, Zhicheng Ruan, Tong Si  
+[bioRxiv 2026.03.24.714074](https://www.biorxiv.org/content/10.64898/2026.03.24.714074v1) • [code](https://github.com/sitonglab/CombinGym) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/03/25/2026.03.24.714074/DC1/embed/media-1.pdf) • [website](https://www.combingym.org)
+
 ### 7.2 Protein Language Models (pLM) and representation learning
 
 > More detailed protein representation learning list:
@@ -4881,3 +4896,7 @@ Latent Labs Team
 **Drug-like antibodies with low immunogenicity in human panels designed with Latent-X2**  
 Latent Labs Team  
 [technical report](https://www.latentlabs.com/wp-content/uploads/2025/12/Latent-X2-Technical-Report.pdf) • [website](https://www.latentlabs.com/latent-x2/) • commercial
+
+**Latent-Y: A Lab-Validated Autonomous Agent for De Novo Drug Design**  
+Latent Labs Team  
+[technical report](https://www.latentlabs.com/wp-content/uploads/2026/03/Latent-Y-Technical-Report.pdf) • [website](https://www.latentlabs.com/latent-y/) • commercial
