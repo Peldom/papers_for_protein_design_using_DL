@@ -10,15 +10,12 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.3.28:*
-+   Frontiers and challenges in the design of binders for intrinsically disordered proteins
-    + [[Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/abs/pii/S0959440X26000382)]
-+   Reinforcement-guided generative protein language models enable de novo design of highly diverse AAV capsids
-    + [[arXiv:2603.19473](https://arxiv.org/abs/2603.19473)] • [[code](https://github.com/liseda-lab/genAAV)]
-+   CombinGym: a benchmark platform for machine learning-assisted design of combinatorial protein variants
-    + [[bioRxiv 2026.03.24.714074](https://www.biorxiv.org/content/10.64898/2026.03.24.714074v1)] • [[code](https://github.com/sitonglab/CombinGym)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/03/25/2026.03.24.714074/DC1/embed/media-1.pdf)] • [[website](https://www.combingym.org)]
-+   Latent-Y: A Lab-Validated Autonomous Agent for De Novo Drug Design
-    + [[technical report](https://www.latentlabs.com/wp-content/uploads/2026/03/Latent-Y-Technical-Report.pdf)] • [[website](https://www.latentlabs.com/latent-y/)] • commercial
+*Papers last week, updated on 2026.04.04:*
++   Exploring the limits of pre-trained embeddings in machine-guided protein design: a case study on predicting AAV vector viability
+    + [[Sci Rep 16, 10974 (2026)](https://www.nature.com/articles/s41598-026-45458-5)]
++   GYDE: A collaborative drug discovery platform for AI-powered protein design and engineering
+    + [[bioRxiv 2026.03.24.714039](https://www.biorxiv.org/content/10.64898/2026.03.24.714039v1)]
+
 
 
 
@@ -53,7 +50,7 @@
   <a href="#21-structure-prediction-model-based">Structure Prediction Model-based</a> •
   <a href="#22-cm-align">CM-Align</a> •
   <a href="#23-msa-transformer-based">MSA transformer-based</a> •
-  <a href="#24-LLM-based">LLM-based</a> •
+  <a href="#24-llm-based">LLM-based</a> •
   <a href="#25-sampling-algorithms">Sampling-algorithms</a>
   <br>
   <strong><a href="#3-function-to-scaffold" class="large-link">3) Function to Scaffold</a></strong>
@@ -119,7 +116,8 @@
   <a href="#71-effects-of-mutation--fitness-landscape">Effects of mutations & Fitness Landscape</a>  •
   <a href="#72-protein-language-models-plm-and-representation-learning">Protein Language Model & Representation Learning</a>  •
   <a href="#73-molecular-design-models">Molecular Design Model</a> •
-  <a href="#74-unclassified">Unclassified</a>
+  <a href="#74-framework">Framework</a> •
+  <a href="#75-unclassified">Unclassified</a>
 </p>
 
 ---
@@ -1885,6 +1883,10 @@ Anonymous
 **Inverse folding for antibody sequence design using deep learning**
 Frédéric A. Dreyer, Daniel Cutting, Constantin Schneider, Henry Kenlay, Charlotte M. Deane
 [arXiv:2310.19513](https://arxiv.org/abs/2310.19513)
+
+**Small-molecule binding and sensing with a designed protein family**  
+Gyu Rie Lee, Samuel J. Pellock, Christoffer Norn, Doug Tischer, Justas Dauparas, Ivan Anischenko, Jaron A. M. Mercer, Alex Kang, Asim Bera, Hannah Nguyen, Inna Goreshnik, Dionne Vafeados, Nicole Roullier, Hannah L. Han, Brian Coventry, Hugh K. Haddox, David R. Liu, Andy Hsien-Wei Yeh, David Baker  
+[bioRxiv 2023.11.01.565201](https://www.biorxiv.org/content/10.1101/2023.11.01.565201v1)/[Nat Commun (2026)](https://www.nature.com/articles/s41467-026-70953-8)
 
 **De novo design of allosterically switchable protein assemblies**
 Arvind Pillai, Abbas Idris, Annika Philomin, Connor Weidle, Rebecca Skotheim, Philip J. Y. Leung, Adam Broerman, Cullen Demakis, Andrew J. Borst, Florian Praetorius, David Baker
@@ -4773,6 +4775,10 @@ Bing He, Chenchen Qin, Yu Zhao, Long-Kai Huang, Zihan Wu, Fang Wang, Fandi Wu, F
 Yongcan Chen, Lihao Fu, Xuchao Lu, Wenzhuo Li, Yuan Gao, Yibo Wang, Zhicheng Ruan, Tong Si  
 [bioRxiv 2026.03.24.714074](https://www.biorxiv.org/content/10.64898/2026.03.24.714074v1) • [code](https://github.com/sitonglab/CombinGym) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/03/25/2026.03.24.714074/DC1/embed/media-1.pdf) • [website](https://www.combingym.org)
 
+**Exploring the limits of pre-trained embeddings in machine-guided protein design: a case study on predicting AAV vector viability**  
+Ana F. Rodrigues, Lucas Ferraz, Laura Balbi, Pedro Giesteira Cotovio & Catia Pesquita  
+[Sci Rep 16, 10974 (2026)](https://www.nature.com/articles/s41598-026-45458-5)
+
 ### 7.2 Protein Language Models (pLM) and representation learning
 
 > More detailed protein representation learning list:
@@ -4871,7 +4877,17 @@ Zhang, Zaixi, et al
 Guan, Jiaqi, et al
 [International Conference on Learning Representations 11 (2023)](https://openreview.net/forum?id=kJqXEPXMsE0) • [code](https://github.com/guanjq/targetdiff)
 
-### 7.4 Unclassified
+### 7.4 Framework
+
+**ProteinMCP: An Agentic AI Framework for Autonomous Protein Engineering**  
+Xiaopeng Xu, Chenjie Feng, Chao Zha, Wenjia He, Maolin He, Bin Xiao, Xin Gao  
+[bioRxiv 2026.03.11.711149](https://www.biorxiv.org/content/10.64898/2026.03.11.711149v1) • [code](https://github.com/charlesxu90/ProteinMCP)
+
+**GYDE: A collaborative drug discovery platform for AI-powered protein design and engineering**  
+Thomas Down, Mateusz Warowny, April Walker, Luigi D’Ascenzo, Donald Lee, Zhenru Zhou, Shengya Cao, Travis W. Bainbridge, John M. Nicoludis, Seth F. Harris, Kiran Mukhyala  
+[bioRxiv 2026.03.24.714039](https://www.biorxiv.org/content/10.64898/2026.03.24.714039v1)
+
+### 7.5 Unclassified
 
 **De novo design of epitope-specific antibodies against soluble and multipass membrane proteins with high specificity, developability,and function**
 [Nabla Bio](https://www.nabla.bio/)
