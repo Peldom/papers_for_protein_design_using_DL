@@ -10,14 +10,19 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.04.04:*
-+   Exploring the limits of pre-trained embeddings in machine-guided protein design: a case study on predicting AAV vector viability
-    + [[Sci Rep 16, 10974 (2026)](https://www.nature.com/articles/s41598-026-45458-5)]
-+   GYDE: A collaborative drug discovery platform for AI-powered protein design and engineering
-    + [[bioRxiv 2026.03.24.714039](https://www.biorxiv.org/content/10.64898/2026.03.24.714039v1)]
-
-
-
+*Papers last week, updated on 2026.04.10:*
++   A Rapid and Universal Pipeline for High-Resolution GPCR Structure Determination through In Silico Construct Optimization and de novo Protein Design
+    + [[bioRxiv 2026.04.02.716066](https://www.biorxiv.org/content/10.64898/2026.04.02.716066v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/04/06/2026.04.02.716066/DC1/embed/media-1.pdf)]
++   General Multimodal Protein Design Enables DNA-Encoding of Chemistry
+    + [[arXiv:2604.05181](https://arxiv.org/abs/2604.05181)] • [[code](https://github.com/DISCO-design/DISCO)]
++   A Generative Neuro-Symbolic AI for Protein Sequence Design
+    + [[bioRxiv 2026.03.31.715526](https://www.biorxiv.org/content/10.64898/2026.03.31.715526v1)]
++   Protenix-v2: Broadening the Reach of Structure Prediction and Biomolecular Design
+    + [[preprint](https://github.com/bytedance/Protenix/blob/main/docs/PX2.pdf)]
++   Computational Design of Class II MHC Binding Peptide with Sequence-Based Evolution Information
+    + [[Bioinformatics Advances, 2026](https://academic.oup.com/bioinformaticsadvances/advance-article/doi/10.1093/bioadv/vbag090/8555605)] • [[code](https://github.com/yourh/DeepMHCII)]
++   Symmetric Self-play Online Preference Optimization for Protein Inverse Folding
+    + [[bioRxiv 2026.03.26.714453](https://www.biorxiv.org/content/10.64898/2026.03.26.714453v1)] • [[code](https://github.com/wwzll123/SSP)]
 
 ---
 
@@ -1107,6 +1112,10 @@ Arthur Chow, Hoyin Chu, Ruofan Li, Benan Nalbant, Abdul Dozic, Laura Kida, Caleb
 Yosta de Stigter, Tallie Godschalk, Maarten Merkx  
 [bioRxiv 2025.12.16.694474](https://www.biorxiv.org/content/10.64898/2025.12.16.694474v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/12/16/2025.12.16.694474/DC1/embed/media-1.pdf)
 
+**A Rapid and Universal Pipeline for High-Resolution GPCR Structure Determination through In Silico Construct Optimization and de novo Protein Design**  
+Asato Kojima, Kouki Kawakami, Naoya Kobayashi, Kazuhiro Kobayashi, Toshiki E. Matsui, Kohei Uemoto, Yuzhong Gu, Masahiro Fukuda, Hideaki E. Kato  
+[bioRxiv 2026.04.02.716066](https://www.biorxiv.org/content/10.64898/2026.04.02.716066v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/04/06/2026.04.02.716066/DC1/embed/media-1.pdf)
+
 #### 2.1.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**
@@ -1334,6 +1343,10 @@ Xuefeng Liu, Mingxuan Cao, Songhao Jiang, Xiao Luo, Xiaotian Duan, Mengdi Wang, 
 **Relaxed Sequence Sampling for Diverse Protein Design**  
 Joohwan Ko, Aristofanis Rontogiannis, Yih-En Andrew Ban, Axel Elaldi, Nicholas Franklin  
 [arXiv:2510.23786](https://arxiv.org/abs/2510.23786)
+
+**Controllable protein design with particle-based Feynman-Kac steering**  
+Erik Hartman, Jonas Wallin, Johan Malmström, Jimmy Olsson  
+[arXiv:2511.09216](https://arxiv.org/abs/2511.09216)
 
 **Advancing Protein Design via Multi-Agent Reinforcement Learning with Pareto-Based Collaborative Optimization**  
 Mingming Zhu, Jiahua Rao, Xiaoyu Chen, Qianmu Yuan, Yuedong Yang  
@@ -1586,6 +1599,10 @@ Frederic Renard, Cyprien Courtot, Alfredo Reichlin, Oliver Bent
 Fanhao Wang, Tiantian Zhang, Jintao Zhu, Xiaoling Zhang, Changsheng Zhang, Luhua Lai
 [bioRxiv 2025.01.18.633746](https://www.biorxiv.org/content/10.1101/2025.01.18.633746v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2025/01/19/2025.01.18.633746/DC1/embed/media-1.pdf)
 
+**Symmetric Self-play Online Preference Optimization for Protein Inverse Folding**  
+Wenwu Zeng, Xiaoyu Li, Haitao Zou, Yutao Dou, Xiongjun Zhao, Shaoliang Peng  
+[bioRxiv 2026.03.26.714453](https://www.biorxiv.org/content/10.64898/2026.03.26.714453v1) • [code](https://github.com/wwzll123/SSP)
+
 ### 3.6 Flow-based
 
 **SE(3)-Stochastic Flow Matching for Protein Backbone Generation**
@@ -1711,6 +1728,10 @@ Jody Mou, Benjamin Fry, Chun-Chen Yao, Nicholas Polizzi
 **SeqPredNN: a neural network that generates protein sequences that fold into specified tertiary structures**
 Lategan, F. Adriaan, Caroline Schreiber, and Hugh G. Patterton
 [BMC bioinformatics 24.1 (2023)](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05498-4) • [code](https://github.com/falategan/SeqPredNN)
+
+**A Generative Neuro-Symbolic AI for Protein Sequence Design**  
+Marianne Defresne, Delphine Dessaux, Samuel Buchet, Lucie Barthe, Liza Ammar-Khodja, Bessam Azizi, Valentin Durante, Gianluca Cioci, Simon de Givry, Alain Roussel, Luis Garcia-Alles, Thomas Schiex, Sophie Barbe  
+[bioRxiv 2026.03.31.715526](https://www.biorxiv.org/content/10.64898/2026.03.31.715526v1)
 
 ### 4.2 VAE-based
 
@@ -3234,6 +3255,10 @@ Chenao Li, Yaochi Guo, Xin Guan, Hui Chen, Yong Zhang, Pengyuan Yang, Jizhong Lo
 Chenyu Ren, Daihai He, Jian Huang  
 [Briefings in Bioinformatics](https://academic.oup.com/bib/article/27/2/bbag095/8510708) • [data](https://github.com/ChenyuzZZ73/ProteinRG/data)
 
+**Computational Design of Class II MHC Binding Peptide with Sequence-Based Evolution Information**  
+Ying Cao, Yuqing Li, Weitong Ren, Wenfei Li, Zhiqiang Yan  
+[Bioinformatics Advances, 2026](https://academic.oup.com/bioinformaticsadvances/advance-article/doi/10.1093/bioadv/vbag090/8555605) • [code](https://github.com/yourh/DeepMHCII)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -3880,6 +3905,14 @@ Wei Qu, Yiming Ma, Fei Ye, Chan Lu, Yi Zhou, Kexin Zhang, Lan Wang, Minrui Gui, 
 **De novo design of metalloproteases for targeted amyloid-β cleavage**  
 Yannan Qu, Chentong Wang, Hongli Zhu, Yanjun Wang, Longxing Cao  
 [bioRxiv 2026.01.06.697903](https://www.biorxiv.org/content/10.64898/2026.01.06.697903v1)
+
+**General Multimodal Protein Design Enables DNA-Encoding of Chemistry**  
+Jarrid Rector-Brooks, Théophile Lambert, Marta Skreta, Daniel Roth, Yueming Long, Zi-Qi Li, Xi Zhang, Miruna Cretu, Francesca-Zhoufan Li, Tanvi Ganapathy, Emily Jin, Avishek Joey Bose, Jason Yang, Kirill Neklyudov, Yoshua Bengio, Alexander Tong, Frances H. Arnold, Cheng-Hao Liu  
+[arXiv:2604.05181](https://arxiv.org/abs/2604.05181) • [code](https://github.com/DISCO-design/DISCO) • [website](https://disco-design.github.io/)
+
+**Protenix-v2: Broadening the Reach of Structure Prediction and Biomolecular Design**  
+Yuxuan Zhang, Chengyue Gong, Jinyuan Sun, Jiaqi Guan, Milong Ren, Song Xue, Hanyu Zhang, Wenzhi Ma, Zhenyu Liu, Xinshi Chen, Wenzhi Xiao  
+[preprint](https://github.com/bytedance/Protenix/blob/main/docs/PX2.pdf)
 
 ### 6.3 RoseTTAFold-based
 
