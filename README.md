@@ -10,19 +10,14 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.04.10:*
-+   A Rapid and Universal Pipeline for High-Resolution GPCR Structure Determination through In Silico Construct Optimization and de novo Protein Design
-    + [[bioRxiv 2026.04.02.716066](https://www.biorxiv.org/content/10.64898/2026.04.02.716066v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/04/06/2026.04.02.716066/DC1/embed/media-1.pdf)]
-+   General Multimodal Protein Design Enables DNA-Encoding of Chemistry
-    + [[arXiv:2604.05181](https://arxiv.org/abs/2604.05181)] • [[code](https://github.com/DISCO-design/DISCO)]
-+   A Generative Neuro-Symbolic AI for Protein Sequence Design
-    + [[bioRxiv 2026.03.31.715526](https://www.biorxiv.org/content/10.64898/2026.03.31.715526v1)]
-+   Protenix-v2: Broadening the Reach of Structure Prediction and Biomolecular Design
-    + [[preprint](https://github.com/bytedance/Protenix/blob/main/docs/PX2.pdf)]
-+   Computational Design of Class II MHC Binding Peptide with Sequence-Based Evolution Information
-    + [[Bioinformatics Advances, 2026](https://academic.oup.com/bioinformaticsadvances/advance-article/doi/10.1093/bioadv/vbag090/8555605)] • [[code](https://github.com/yourh/DeepMHCII)]
-+   Symmetric Self-play Online Preference Optimization for Protein Inverse Folding
-    + [[bioRxiv 2026.03.26.714453](https://www.biorxiv.org/content/10.64898/2026.03.26.714453v1)] • [[code](https://github.com/wwzll123/SSP)]
+*Papers last week, updated on 2026.04.17:*
++   CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching
+    + [[Journal of Molecular Graphics and Modelling (2026)](https://www.sciencedirect.com/science/article/abs/pii/S1093326326001270)]
++   Steering generative models for protein design: Aligning and conditioning strategies
+    + [[Current Opinion in Structural Biology 98 (2026)](https://www.sciencedirect.com/science/article/pii/S0959440X26000321)]
++   Generative design of intrinsically disordered protein regions with IDiom
+    + [[bioRxiv 2026.04.10.717777](https://www.biorxiv.org/content/10.64898/2026.04.10.717777v1)] • [[code](https://github.com/rotskoff-group/idiom)]
+
 
 ---
 
@@ -3259,6 +3254,10 @@ Chenyu Ren, Daihai He, Jian Huang
 Ying Cao, Yuqing Li, Weitong Ren, Wenfei Li, Zhiqiang Yan  
 [Bioinformatics Advances, 2026](https://academic.oup.com/bioinformaticsadvances/advance-article/doi/10.1093/bioadv/vbag090/8555605) • [code](https://github.com/yourh/DeepMHCII)
 
+**Generative design of intrinsically disordered protein regions with IDiom**  
+Jason X. Liu, Sebastian Ibarraran, Frank Hu, Abigail Park, Alexander R. Dunn, Grant M. Rotskoff  
+[bioRxiv 2026.04.10.717777](https://www.biorxiv.org/content/10.64898/2026.04.10.717777v1) • [code](https://github.com/rotskoff-group/idiom)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -3428,6 +3427,10 @@ Harish Srinivasan, Rongqing Yuan, Qian Cong, Jian Zhou
 **ProtFlow: Flow Matching-based Protein Sequence Design with Comprehensive Protein Semantic Distribution Learning and High-quality Generation**  
 Zitai Kong, Yiheng Zhu, Yinlong Xu, Mingze Yin, Tingjun Hou, Jian Wu, Hongxia Xu, Chang-Yu Hsieh  
 [bioRxiv 2026.02.14.705870](https://www.biorxiv.org/content/10.64898/2026.02.14.705870v1) • [code](https://github.com/HiracharleFranklin/ProtFlow)
+
+**CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching**  
+Jia Chen, Yongquan Jiang, Kuanping Gong, Yan Yang  
+[Journal of Molecular Graphics and Modelling (2026)](https://www.sciencedirect.com/science/article/abs/pii/S1093326326001270)
 
 ### 5.8 RNN-based
 
@@ -3701,6 +3704,10 @@ Minsu Kim, Federico Berto, Sungsoo Ahn, Jinkyoo Park
 **Towards deep learning sequence-structure co-generation for protein design**
 Chentong Wang, Sarah Alamdari, Carles Domingo-Enrich, Ava Amini, Kevin K. Yang
 [arXiv:2410.01773](https://arxiv.org/abs/2410.01773)/[Current Opinion in Structural Biology (2025)](https://www.sciencedirect.com/science/article/pii/S0959440X25000363)
+
+**Steering generative models for protein design: Aligning and conditioning strategies**  
+Stocco, Filippo, Michele Garibbo, and Noelia Ferruz  
+[Current Opinion in Structural Biology 98 (2026)](https://www.sciencedirect.com/science/article/pii/S0959440X26000321)
 
 ### 6.1 LSTM-based
 
@@ -4807,10 +4814,6 @@ Bing He, Chenchen Qin, Yu Zhao, Long-Kai Huang, Zihan Wu, Fang Wang, Fandi Wu, F
 **CombinGym: a benchmark platform for machine learning-assisted design of combinatorial protein variants**  
 Yongcan Chen, Lihao Fu, Xuchao Lu, Wenzhuo Li, Yuan Gao, Yibo Wang, Zhicheng Ruan, Tong Si  
 [bioRxiv 2026.03.24.714074](https://www.biorxiv.org/content/10.64898/2026.03.24.714074v1) • [code](https://github.com/sitonglab/CombinGym) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/03/25/2026.03.24.714074/DC1/embed/media-1.pdf) • [website](https://www.combingym.org)
-
-**Exploring the limits of pre-trained embeddings in machine-guided protein design: a case study on predicting AAV vector viability**  
-Ana F. Rodrigues, Lucas Ferraz, Laura Balbi, Pedro Giesteira Cotovio & Catia Pesquita  
-[Sci Rep 16, 10974 (2026)](https://www.nature.com/articles/s41598-026-45458-5)
 
 ### 7.2 Protein Language Models (pLM) and representation learning
 
