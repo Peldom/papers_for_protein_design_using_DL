@@ -10,13 +10,15 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.04.17:*
-+   CFlowAMP: Property controllable De Novo AMP design via integrating ESM-2 with conditional flow matching
-    + [[Journal of Molecular Graphics and Modelling (2026)](https://www.sciencedirect.com/science/article/abs/pii/S1093326326001270)]
-+   Steering generative models for protein design: Aligning and conditioning strategies
-    + [[Current Opinion in Structural Biology 98 (2026)](https://www.sciencedirect.com/science/article/pii/S0959440X26000321)]
-+   Generative design of intrinsically disordered protein regions with IDiom
-    + [[bioRxiv 2026.04.10.717777](https://www.biorxiv.org/content/10.64898/2026.04.10.717777v1)] • [[code](https://github.com/rotskoff-group/idiom)]
+*Papers last week, updated on 2026.04.25:*
++   Closing the loop: Experimentally validated methods in artificial intelligence–driven protein design
+    + [[Current Opinion in Structural Biology 98 (2026)](https://www.sciencedirect.com/science/article/pii/S0959440X26000540)]
++   Protein design, generative AI and biological security
+    + [[Frontiers in Microbiology 17 (2026)](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1817535/full)]
++   Generative design of intrinsically disordered proteins based on conditioned protein language models: Data is the limit
+    + [[bioRxiv 2026.04.14.718363](https://www.biorxiv.org/content/10.64898/2026.04.14.718363v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/04/16/2026.04.14.718363/DC1/embed/media-1.pdf)]
++   The Synthetic Epitope Atlas: High-Throughput Design and Validation of De Novo Antibody-Antigen Complexes
+    + [[bioRxiv 2026.04.17.719295](https://www.biorxiv.org/content/10.64898/2026.04.17.719295v2)]
 
 
 ---
@@ -684,6 +686,14 @@ Yuxuan Lou, Tianhao Wu, Fan Xia, Anwen Zhao, Xiangfeng Wang
 **Frontiers and challenges in the design of binders for intrinsically disordered proteins**  
 Chentong Wang, Yanzhe Zhang, Minchao Fang, Zhangzhi Peng, Longxing Cao  
 [Current Opinion in Structural Biology](https://www.sciencedirect.com/science/article/abs/pii/S0959440X26000382)
+
+**Closing the loop: Experimentally validated methods in artificial intelligence–driven protein design**  
+Clayton W. Kosonocky, Sarah Alamdari, Kevin K. Yang, Ava P. Amini  
+[Current Opinion in Structural Biology 98 (2026)](https://www.sciencedirect.com/science/article/pii/S0959440X26000540)
+
+**Protein design, generative AI and biological security**  
+Maximilian Brackmann, Sophie Reiners, Masja Hoogendoorn, Michel Moser  
+[Frontiers in Microbiology 17 (2026)](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1817535/full)
 
 ### 1.2 Antibody design
 
@@ -2436,6 +2446,10 @@ Amelia Villegas-Morcillo, Gijs J. Admiraal, Marcel J.T. Reinders, Jana M. Weber
 Yufeng Liu, Rui Wu, Xinyu Wang, Sheng Wang, Linghui Chen, Fudong Li, Quan Chen & Haiyan Liu  
 [Nat Commun 16, 10177 (2025)](https://www.nature.com/articles/s41467-025-65175-3) • [code](https://doi.org/10.5281/zenodo.17089342)
 
+**The Synthetic Epitope Atlas: High-Throughput Design and Validation of De Novo Antibody-Antigen Complexes**  
+Nicholas Altieri, Joseph L. Harman, David Noble, Natasha Murakowska, Alexander Eng, Kerry L. McGowan, Davis Goodnight, Lucian DiPeso, Colleen Shikany, Emily Engelhart, Leah J. Homad, Miranda C. Lahman, Shyam Gandhi, Mackenzie Goodwin, Kendrick Herbst, Charles Lin, Margot McMurray, Juliana Barrett, Aditya A. Agarwal, James Harrang, Ryan O. Emerson, Randolph M. Lopez, David A. Younger, Adrian W. Lange  
+[bioRxiv 2026.04.17.719295](https://www.biorxiv.org/content/10.64898/2026.04.17.719295v2)
+
 ### 4.10 Bayesian-based
 
 **Inverse Protein Folding Using Deep Bayesian Optimization**
@@ -3257,6 +3271,10 @@ Ying Cao, Yuqing Li, Weitong Ren, Wenfei Li, Zhiqiang Yan
 **Generative design of intrinsically disordered protein regions with IDiom**  
 Jason X. Liu, Sebastian Ibarraran, Frank Hu, Abigail Park, Alexander R. Dunn, Grant M. Rotskoff  
 [bioRxiv 2026.04.10.717777](https://www.biorxiv.org/content/10.64898/2026.04.10.717777v1) • [code](https://github.com/rotskoff-group/idiom)
+
+**Generative design of intrinsically disordered proteins based on conditioned protein language models: Data is the limit**  
+Laure Carrière, Alexandre Huyghe, Mátyás Pajkos, Pau Bernadó, Juan Cortés  
+[bioRxiv 2026.04.14.718363](https://www.biorxiv.org/content/10.64898/2026.04.14.718363v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/04/16/2026.04.14.718363/DC1/embed/media-1.pdf)
 
 ### 5.5 Bayesian-based
 
