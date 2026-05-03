@@ -10,15 +10,16 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.04.25:*
-+   Closing the loop: Experimentally validated methods in artificial intelligence–driven protein design
-    + [[Current Opinion in Structural Biology 98 (2026)](https://www.sciencedirect.com/science/article/pii/S0959440X26000540)]
-+   Protein design, generative AI and biological security
-    + [[Frontiers in Microbiology 17 (2026)](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1817535/full)]
-+   Generative design of intrinsically disordered proteins based on conditioned protein language models: Data is the limit
-    + [[bioRxiv 2026.04.14.718363](https://www.biorxiv.org/content/10.64898/2026.04.14.718363v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/04/16/2026.04.14.718363/DC1/embed/media-1.pdf)]
-+   The Synthetic Epitope Atlas: High-Throughput Design and Validation of De Novo Antibody-Antigen Complexes
-    + [[bioRxiv 2026.04.17.719295](https://www.biorxiv.org/content/10.64898/2026.04.17.719295v2)]
+*Papers last week, updated on 2026.05.03:*
++   The past, present and future of de novo protein design
+    + [[Nature 652, 1139–1152 (2026)](https://www.nature.com/articles/s41586-026-10328-7)]
++   Computational design of an ultrapotent deltacoronavirus miniprotein inhibitor
+    + [[Proceedings of the National Academy of Sciences 123.18 (2026)](https://www.pnas.org/doi/10.1073/pnas.2533456123)]
++   Controlled Protein Design via Statistical Energy Functions: A Rossmann Fold Case Study
+    + [[J. Chem. Inf. Model. 2026](https://pubs.acs.org/doi/10.1021/acs.jcim.6c00612)]
++   Generative design of sequence specific DNA binding proteins
+    + [[bioRxiv 2026.04.27.720408](https://www.biorxiv.org/content/10.64898/2026.04.27.720408v1)]
+
 
 
 ---
@@ -655,6 +656,10 @@ Filippo Stocco, Michele Garibbo, Noelia Ferruz
 Zhangzhi(Fred) Peng  
 [Serican Journal of Medicine 2.4 (2025)](https://journals.ku.edu/sjm/article/view/23410)
 
+**Protein design drives synthetic biology research of plant natural products**  
+Xiaopeng Zhang, Yinying Yao, Ye Wang, Yongshuo Ma, Yi Shang  
+[BioDesign Research (2025)](https://www.sciencedirect.com/science/article/pii/S2693125725000494)
+
 **The role of ai-driven de novo protein design in the exploration of the protein functional universe**  
 Guohao Zhang,Chuanyang Liu, Jiajie Lu, Shaowei Zhang and Lingyun Zhu  
 [Biology 14.9 (2025): 1268](https://www.mdpi.com/2079-7737/14/9/1268)
@@ -694,6 +699,10 @@ Clayton W. Kosonocky, Sarah Alamdari, Kevin K. Yang, Ava P. Amini
 **Protein design, generative AI and biological security**  
 Maximilian Brackmann, Sophie Reiners, Masja Hoogendoorn, Michel Moser  
 [Frontiers in Microbiology 17 (2026)](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2026.1817535/full)
+
+**The past, present and future of de novo protein design**  
+Wei Yang, Shunzhi Wang, Gyu Rie Lee, Jason Z. Zhang, Alexis Courbet, David Juergens, Xinru Wang, Thomas Schlichthaerle, Mohamad Abedi, Robert Ragotte, Linna An, Indrek Kalvet, Sam Pellock, Ljubica Mihaljevic, Cameron Glasscock, Arvind Pillai, Adam Broerman, Nathan Ennist, Ella Haefner, Nora McNamara-Bordewick, Ian Haydon, Lance Stewart, Gaurav Bhardwaj & David Baker  
+[Nature 652, 1139–1152 (2026)](https://www.nature.com/articles/s41586-026-10328-7)
 
 ### 1.2 Antibody design
 
@@ -1120,6 +1129,10 @@ Yosta de Stigter, Tallie Godschalk, Maarten Merkx
 **A Rapid and Universal Pipeline for High-Resolution GPCR Structure Determination through In Silico Construct Optimization and de novo Protein Design**  
 Asato Kojima, Kouki Kawakami, Naoya Kobayashi, Kazuhiro Kobayashi, Toshiki E. Matsui, Kohei Uemoto, Yuzhong Gu, Masahiro Fukuda, Hideaki E. Kato  
 [bioRxiv 2026.04.02.716066](https://www.biorxiv.org/content/10.64898/2026.04.02.716066v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/04/06/2026.04.02.716066/DC1/embed/media-1.pdf)
+
+**Computational design of an ultrapotent deltacoronavirus miniprotein inhibitor**  
+Nathan G. Avery, Courtney N. Yoshiyama, Ashley L. Taylor, Young-Jun Park, Daniel Asarnow, Lisa Perruzza, Jack T. Brown, Davide Corti, Fabio Benigni, Tyler N. Starr, and David Veesler  
+[Proceedings of the National Academy of Sciences 123.18 (2026)](https://www.pnas.org/doi/10.1073/pnas.2533456123)
 
 #### 2.1.3 DMPfold2-based
 
@@ -2226,6 +2239,10 @@ Andrew C. Powers, Yanapat Janthana, Parisa Hosseinzadeh
 Lu-Yi Chen, Wei-Lin Lu, Tanvi Pathania, I-Hsuan Chu, Meng-Ru Ho, Wei-Chen Chuang, Yuan-Chao Lou, Ta I. Hung, Yohei Miyanoiri, Chia-en A. Chang, Kuen-Phon Wu  
 [J. Am. Chem. Soc. 2026](https://pubs.acs.org/doi/10.1021/jacs.5c19875) • ProteinMPNN-based
 
+**A Hybrid Physics-Deep Learning Framework for Combinatorial De Novo Design of Small-Molecule Binding Proteins**  
+Connor V. Galvin, Amy B. Guo, Maple N. Chen, Isabella L. Alfonso, Dominic Grisingher, Simon Kretschmer, Divya Kranthi, Mark J. S. Kelly, Tanja Kortemme  
+[bioRxiv 2026.04.12.717919](https://www.biorxiv.org/content/10.64898/2026.04.12.717919v1) • [code](https://github.com/cvgalvin/CLAIRE)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**
@@ -2449,6 +2466,10 @@ Yufeng Liu, Rui Wu, Xinyu Wang, Sheng Wang, Linghui Chen, Fudong Li, Quan Chen &
 **The Synthetic Epitope Atlas: High-Throughput Design and Validation of De Novo Antibody-Antigen Complexes**  
 Nicholas Altieri, Joseph L. Harman, David Noble, Natasha Murakowska, Alexander Eng, Kerry L. McGowan, Davis Goodnight, Lucian DiPeso, Colleen Shikany, Emily Engelhart, Leah J. Homad, Miranda C. Lahman, Shyam Gandhi, Mackenzie Goodwin, Kendrick Herbst, Charles Lin, Margot McMurray, Juliana Barrett, Aditya A. Agarwal, James Harrang, Ryan O. Emerson, Randolph M. Lopez, David A. Younger, Adrian W. Lange  
 [bioRxiv 2026.04.17.719295](https://www.biorxiv.org/content/10.64898/2026.04.17.719295v2)
+
+**Controlled Protein Design via Statistical Energy Functions: A Rossmann Fold Case Study**  
+Lu Zhang, Chenchen Wang, Shenglin Hu  
+[J. Chem. Inf. Model. 2026](https://pubs.acs.org/doi/10.1021/acs.jcim.6c00612)
 
 ### 4.10 Bayesian-based
 
@@ -4296,6 +4317,10 @@ Priyanka Mishra, Adam Chazin-Gray, Gaëlle Lamon, David Kim, David Baker, Nathan
 **Design of miniprotein inhibitors targeting complement C9 to block membrane attack complex assembly**  
 Bing He, Chenchen Qin, Yu Zhao, Long-Kai Huang, Zihan Wu, Fang Wang, Fandi Wu, Fan Yang & Jianhua Yao  
 [Nat Commun (2026)](https://www.nature.com/articles/s41467-026-70667-x)
+
+**Generative design of sequence specific DNA binding proteins**  
+Enisha Sehgal, Yuliya Politanska, Raktim Mitra, Paul T. Kim, Nayim González Rodríguez, Tushar Warrier, Andrew Kubaney, Akira Morishita, Riley Quijano, Jasper Butcher, Rohith Krishna, Robert J. Pecoraro, Brian Belmont, Nicole Roullier, Inna Goreshnik, Dionne K Vafeados, Paul Kwon, Rachana Ramarao, Jussi Taipale, Cameron J. Glasscock, David Baker  
+[bioRxiv 2026.04.27.720408](https://www.biorxiv.org/content/10.64898/2026.04.27.720408v1)
 
 ### 6.4 CNN-based
 
