@@ -10,39 +10,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.05.22:*
-+   De Novo Design of Miniature and Efficient Metallo-Ketoreductases
-    + [[J. Am. Chem. Soc. 2026](https://pubs.acs.org/doi/10.1021/jacs.6c00732)]
-+   Generative Protein Design: From Deep Learning Algorithms to Translational Applications
-    + [[International Journal of Molecular Sciences 27.9 (2026)](https://www.mdpi.com/1422-0066/27/9/2859)]
-+   De Novo Design of Enantioselective Artificial Metalloenzyme Photocatalysts Containing Metal Polypyridine Cofactors
-    + [[chemrxiv (2026)](https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15002852/v1)]
-+   Contemporary data-driven innovations in peptide-based therapeutic design
-    + [[Briefings in Bioinformatics](https://academic.oup.com/bib/article/27/3/bbag220/8687186)]
-+   A-CODE: Fully Atomic Protein Co-Design with Unified Multimodal Diffusion
-    + [[arXiv:2605.03360](https://arxiv.org/abs/2605.03360)]
-+   ProtDBench: A Unified Benchmark of Protein Binder Design and Evaluation
-    + [[arXiv:2605.04118](https://arxiv.org/abs/2605.04118)]
-+   TD3B: Transition-Directed Discrete Diffusion for Allosteric Binder Generation
-    + [[arXiv:2605.09810](https://arxiv.org/abs/2605.09810)]
-+   Fast and Ultra-Capable Protein Design: Advancing the Frontier Through Atomistic SE(3)-Equivariance with Genie 3
-    + [[bioRxiv 2026.05.01.722168](https://www.biorxiv.org/content/10.64898/2026.05.01.722168v1)]
-+   The latest AI breakthroughs in structural biology: protein binder design and conformational state prediction
-    + [[Commun Biol 9, 627 (2026)](https://www.nature.com/articles/s42003-026-10112-3)]
-+   De novo masking domains that gate TNF-family ligand assembly and activity
-    + [[bioRxiv 2026.04.20.719557](https://www.biorxiv.org/content/10.64898/2026.04.20.719557v1)]
-+   De novo and scaffold-based design of GDF15 binders for cancer cachexia diagnostics and therapeutics
-    + [[Exp Mol Med (2026)](https://www.nature.com/articles/s12276-026-01727-x)]
-+   Artificial intelligence aided design of peptides with custom secondary structure motifs and reduced amino acid alphabets
-    + [[bioRxiv 2026.04.29.721096](https://www.biorxiv.org/content/10.64898/2026.04.29.721096v1)]
-+   De novo design of quasisymmetric two-component protein cages
-    + [[Nature (2026)](https://www.nature.com/articles/s41586-026-10464-0)]
-+   Proteo-R1: Reasoning Foundation Models for De Novo Protein Design
-    + [[arXiv:2605.02937](https://arxiv.org/abs/2605.02937)] • [[website](https://smiles724.github.io/r1/)]
-+   Towards A Generative Protein Evolution Machine with DPLM-Evo
-    + [[arXiv:2605.00182](https://arxiv.org/abs/2605.00182)]
-+   Pallatom-Ligand: an All-Atom Diffusion Model for Designing Ligand-Binding Proteins
-    + [[ICLR 2026 Poster](https://openreview.net/forum?id=uMD75SDTTA)]
+*Papers last week, updated on 2026.05.30:*
++   Design of one-component quasisymmetric protein nanocages
+    + [[Nature (2026)](https://www.nature.com/articles/s41586-026-10554-z)]
++   AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System。
+    + [[J. Am. Chem. Soc. 2026](https://pubs.acs.org/doi/10.1021/jacs.6c02343)]
++   ProtSeqGen: a novel deep learning model for protein sequence design
+    + [[BMC Bioinformatics (2026)](https://link.springer.com/article/10.1186/s12859-026-06482-4)]
++   Generative AI-driven enzyme engineering unlocks sustainable valorization of broccoli waste into sulforaphane
+    + [[Bioresource Technology (2026)](https://www.sciencedirect.com/science/article/abs/pii/S0960852426010709)]
++   Self-Improvement Imitation with Biologically Guided Search for Protein Design Under Oracle Budgets
+    + [[arXiv:2605.26690](https://arxiv.org/abs/2605.26690)] • [[code](https://github.com/grimmlab/SILO)]
 
 
 ---
@@ -1177,6 +1155,10 @@ Asato Kojima, Kouki Kawakami, Naoya Kobayashi, Kazuhiro Kobayashi, Toshiki E. Ma
 Nathan G. Avery, Courtney N. Yoshiyama, Ashley L. Taylor, Young-Jun Park, Daniel Asarnow, Lisa Perruzza, Jack T. Brown, Davide Corti, Fabio Benigni, Tyler N. Starr, and David Veesler  
 [Proceedings of the National Academy of Sciences 123.18 (2026)](https://www.pnas.org/doi/10.1073/pnas.2533456123)
 
+**AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System**。
+Tatsuki Nonomura, Brendan McKee, Anna Price, Mingguang Cui, Zaynah Yousuf, Faith Tran, Lian He, Tianlu Wang, Yubin Zhou  
+[J. Am. Chem. Soc. 2026](https://pubs.acs.org/doi/10.1021/jacs.6c02343)
+
 #### 2.1.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**
@@ -1412,6 +1394,10 @@ Erik Hartman, Jonas Wallin, Johan Malmström, Jimmy Olsson
 **Advancing Protein Design via Multi-Agent Reinforcement Learning with Pareto-Based Collaborative Optimization**  
 Mingming Zhu, Jiahua Rao, Xiaoyu Chen, Qianmu Yuan, Yuedong Yang  
 [bioRxiv 2026.01.13.699365](https://www.biorxiv.org/content/10.64898/2026.01.13.699365v1)
+
+**Self-Improvement Imitation with Biologically Guided Search for Protein Design Under Oracle Budgets**  
+Ashima Khanna, Dominik Grimm  
+[arXiv:2605.26690](https://arxiv.org/abs/2605.26690) • [code](https://github.com/grimmlab/SILO)
 
 ## 3. Function to Scaffold
 
@@ -2293,6 +2279,14 @@ Connor V. Galvin, Amy B. Guo, Maple N. Chen, Isabella L. Alfonso, Dominic Grisin
 **De novo and scaffold-based design of GDF15 binders for cancer cachexia diagnostics and therapeutics**  
 Jinsook Ahn, Ryeongeun Cho, Sohyun Kim, Dong Sun Lee & Ho Min Kim  
 [Exp Mol Med (2026)](https://www.nature.com/articles/s12276-026-01727-x)
+
+**ProtSeqGen: a novel deep learning model for protein sequence design**  
+Qiang Gao, Zhijin Li, Yang Deng, Zhiwei Ji  
+[BMC Bioinformatics (2026)](https://link.springer.com/article/10.1186/s12859-026-06482-4)
+
+**Generative AI-driven enzyme engineering unlocks sustainable valorization of broccoli waste into sulforaphane**  
+Hao Luo, Siyuan Guo, Yihong Bao, Shan Lu, Fengxia Lv, Ping Zhu  
+[Bioresource Technology (2026)](https://www.sciencedirect.com/science/article/abs/pii/S0960852426010709)
 
 ### 4.6 GAN-based
 
@@ -3352,6 +3346,10 @@ Jason X. Liu, Sebastian Ibarraran, Frank Hu, Abigail Park, Alexander R. Dunn, Gr
 Laure Carrière, Alexandre Huyghe, Mátyás Pajkos, Pau Bernadó, Juan Cortés  
 [bioRxiv 2026.04.14.718363](https://www.biorxiv.org/content/10.64898/2026.04.14.718363v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/04/16/2026.04.14.718363/DC1/embed/media-1.pdf)
 
+**Advancing Knotted Protein Design with ESM3: Guided Generation and Topological Insights**  
+Eva Marsalkova, Petr Simecek  
+[bioRxiv 2026.05.07.723606](https://www.biorxiv.org/content/10.64898/2026.05.07.723606v1)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -4408,6 +4406,10 @@ Yiling Xu, Yunhao Li, Hangwen Zheng, Elliot S. Delfosse, Yuxuan Gao, David Baker
 **De novo design of quasisymmetric two-component protein cages**  
 Shunzhi Wang, Ying Xie, David Chemielewski, Connor Weidle, Tong Shu, Green Ahn, Ryan D. Kibler, Cindy Hernandez, Wei Chen, David Camilo Duran, Ann Carr, Asim K. Bera, Sangmin Lee, Justin Decarreau, Alex Kang, Evans Brackenbrough, Emily Joyce, Kejia Wu, Andrew J. Borst, Andrew Favor, Buwei Huang, Frank DiMaio, Liam J. Holt & David Baker  
 [Nature (2026)](https://www.nature.com/articles/s41586-026-10464-0)
+
+**Design of one-component quasisymmetric protein nanocages**  
+Sangmin Lee, David Chmielewski, Shunzhi Wang, Ryan D. Kibler, Jisu Shin, Ann Carr, Young-Jun Park, David Veesler & David Baker  
+[Nature (2026)](https://www.nature.com/articles/s41586-026-10554-z)
 
 ### 6.4 CNN-based
 
