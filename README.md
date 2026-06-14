@@ -10,17 +10,19 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.05.30:*
-+   Design of one-component quasisymmetric protein nanocages
-    + [[Nature (2026)](https://www.nature.com/articles/s41586-026-10554-z)]
-+   AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System。
-    + [[J. Am. Chem. Soc. 2026](https://pubs.acs.org/doi/10.1021/jacs.6c02343)]
-+   ProtSeqGen: a novel deep learning model for protein sequence design
-    + [[BMC Bioinformatics (2026)](https://link.springer.com/article/10.1186/s12859-026-06482-4)]
-+   Generative AI-driven enzyme engineering unlocks sustainable valorization of broccoli waste into sulforaphane
-    + [[Bioresource Technology (2026)](https://www.sciencedirect.com/science/article/abs/pii/S0960852426010709)]
-+   Self-Improvement Imitation with Biologically Guided Search for Protein Design Under Oracle Budgets
-    + [[arXiv:2605.26690](https://arxiv.org/abs/2605.26690)] • [[code](https://github.com/grimmlab/SILO)]
+*Papers last week, updated on 2026.06.14:*
++   BioPipelines: Accessible Computational Protein and Ligand Design for Chemical Biologists
+    + [[Computational and Structural Biotechnology Journal (2026)](https://spj.science.org/doi/10.34133/csbj.0129)]
++   ProtGPT3: an Open-source family of Promptable and Aligned Protein Language Models
+    + [[bioRxiv 2026.06.04.730041](https://www.biorxiv.org/content/10.64898/2026.06.04.730041v1)] • [[model](https://huggingface.co/collections/AI4PD/protgpt3-family)]
++   Integrating Single-Cell Profiling with Generative AI for De Novo Design of MMP9 Protein Binders in Diffuse Large B-Cell Lymphoma
+    + [[Molecules 2026](https://www.mdpi.com/1420-3049/31/11/1969)]
++   AI-Driven De novo Design of HDAC6/EZH2 Dual-target Peptide Inhibitors for Epigenetic Cancer Therapy
+    + [[Combinatorial Chemistry & High Throughput Screening (2026)](https://www.eurekaselect.com/article/155944)]
++   Protein Design Enters the Artificial Intelligence Era: Foundations, Tools, and Emerging Paradigms
+    + [[Comput Struct Biotechnol J. 2026](https://spj.science.org/doi/10.34133/csbj.0105)]
++   Discriminator-Guided Inverse Folding for Multi-Property Protein Design
+    + [[Advanced Science (2026)](https://onlinelibrary.wiley.com/doi/10.1002/advs.20260105)] • [[code](https://github.com/aweqardf/ESM-IF1-DG)]
 
 
 ---
@@ -717,6 +719,10 @@ Shaotong Luo, Bo Zhou
 Ana F. Rodrigues, Lucas Ferraz, Catia Pesquita  
 [Biotechnology Advances (2026)](https://www.sciencedirect.com/science/article/pii/S073497502600131X)
 
+**Protein Design Enters the Artificial Intelligence Era: Foundations, Tools, and Emerging Paradigms**  
+Yanlin Mi, Arpit Shukla, Mark Tangney, Sabin Tabirca, and Venkata VB Yallapragada  
+[Comput Struct Biotechnol J. 2026](https://spj.science.org/doi/10.34133/csbj.0105)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**
@@ -1158,6 +1164,10 @@ Nathan G. Avery, Courtney N. Yoshiyama, Ashley L. Taylor, Young-Jun Park, Daniel
 **AI-Guided De Novo Design of a Caffeine-Induced Protein Dissociation System**。
 Tatsuki Nonomura, Brendan McKee, Anna Price, Mingguang Cui, Zaynah Yousuf, Faith Tran, Lian He, Tianlu Wang, Yubin Zhou  
 [J. Am. Chem. Soc. 2026](https://pubs.acs.org/doi/10.1021/jacs.6c02343)
+
+**SwitchCraft: Training-Free Multi-Event Video Generation with Attention Controls**  
+Qianxun Xu, Chenxi Song, Yujun Cai, Chi Zhang  
+[arXiv:2602.23956](https://arxiv.org/abs/2602.23956)
 
 #### 2.1.3 DMPfold2-based
 
@@ -1631,6 +1641,10 @@ Lakshaditya Singh, Adwait Shelke, Divyansh Agrawal
 **SaDiT: Efficient Protein Backbone Design via Latent Structural Tokenization and Diffusion Transformers**  
 Shentong Mo, Lanqing Li  
 [arXiv:2602.06706](https://arxiv.org/abs/2602.06706)
+
+**AlloGen: Conformation-Selective Binder Generation with Differential State Scoring**  
+Hanqun Cao, Zachary Quinn, Aastha Pal, Sumi Kimura, Jingjie Zhang, Pheng Ann Heng, Pranam Chatterjee  
+[arXiv:2606.05474](https://arxiv.org/abs/2606.05474)
 
 ### 3.5 RL-based
 
@@ -2287,6 +2301,10 @@ Qiang Gao, Zhijin Li, Yang Deng, Zhiwei Ji
 **Generative AI-driven enzyme engineering unlocks sustainable valorization of broccoli waste into sulforaphane**  
 Hao Luo, Siyuan Guo, Yihong Bao, Shan Lu, Fengxia Lv, Ping Zhu  
 [Bioresource Technology (2026)](https://www.sciencedirect.com/science/article/abs/pii/S0960852426010709)
+
+**Discriminator-Guided Inverse Folding for Multi-Property Protein Design**  
+Yuchuan Zheng, Chuyi Liu, Zhaoming Liu, Mao Su, Chenyu Tang, Xiang Zheng, Hao Zhang, Jingyuan Li  
+[Advanced Science (2026)](https://onlinelibrary.wiley.com/doi/10.1002/advs.20260105) • [code](https://github.com/aweqardf/ESM-IF1-DG)
 
 ### 4.6 GAN-based
 
@@ -3350,6 +3368,18 @@ Laure Carrière, Alexandre Huyghe, Mátyás Pajkos, Pau Bernadó, Juan Cortés
 Eva Marsalkova, Petr Simecek  
 [bioRxiv 2026.05.07.723606](https://www.biorxiv.org/content/10.64898/2026.05.07.723606v1)
 
+**Controllable protein design by prefix-tuning protein language models**  
+Jiawei Luo, Jiahao Li, Xianliang Liu, Yang Zhang, Qingcai Chen, Junjie Chen  
+[Journal of Chemical Information and Modeling 66.8 (2026)](https://pubs.acs.org/doi/10.1021/acs.jcim.5c03186)
+
+**AgentPLM: Agentic Protein Language Models with Reasoning-Augmented Decoding for Protein Sequence Design**  
+[Sahil Rahman, Maxx Richard Rahman](https://arxiv.org/abs/2606.02386)  
+[arXiv:2606.02386](https://arxiv.org/abs/2606.02386)
+
+**ProtGPT3: an Open-source family of Promptable and Aligned Protein Language Models**  
+Michele Garibbo, Gerard Boxó, Filippo Stocco, Ramiro Illanes-Vicioso, Lasse Middendorf, Noelia Ferruz  
+[bioRxiv 2026.06.04.730041](https://www.biorxiv.org/content/10.64898/2026.06.04.730041v1) • [model](https://huggingface.co/collections/AI4PD/protgpt3-family)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -4410,6 +4440,18 @@ Shunzhi Wang, Ying Xie, David Chemielewski, Connor Weidle, Tong Shu, Green Ahn, 
 **Design of one-component quasisymmetric protein nanocages**  
 Sangmin Lee, David Chmielewski, Shunzhi Wang, Ryan D. Kibler, Jisu Shin, Ann Carr, Young-Jun Park, David Veesler & David Baker  
 [Nature (2026)](https://www.nature.com/articles/s41586-026-10554-z)
+
+**AI-Driven De novo Design of HDAC6/EZH2 Dual-target Peptide Inhibitors for Epigenetic Cancer Therapy**  
+Yu Zhang, Si Chen, ShiJie Gai and Xiaoli Zhi  
+[Combinatorial Chemistry & High Throughput Screening (2026)](https://www.eurekaselect.com/article/155944)
+
+**BioPipelines: Accessible Computational Protein and Ligand Design for Chemical Biologists**  
+Gianluca Quargnali, Pablo Rivera-Fuentes  
+[Computational and Structural Biotechnology Journal (2026)](https://spj.science.org/doi/10.34133/csbj.0129)
+
+**Integrating Single-Cell Profiling with Generative AI for De Novo Design of MMP9 Protein Binders in Diffuse Large B-Cell Lymphoma**  
+Ziyang Miao, Siyi Zhu, Liwei Qin, Dawei Ma, Mingyang Lai, Pingping Xu, Yaping Jin, Huimin Cai, Shuai Zhao, and Yang Wang  
+[Molecules 2026](https://www.mdpi.com/1420-3049/31/11/1969)
 
 ### 6.4 CNN-based
 
