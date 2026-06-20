@@ -10,19 +10,16 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.06.14:*
-+   BioPipelines: Accessible Computational Protein and Ligand Design for Chemical Biologists
-    + [[Computational and Structural Biotechnology Journal (2026)](https://spj.science.org/doi/10.34133/csbj.0129)]
-+   ProtGPT3: an Open-source family of Promptable and Aligned Protein Language Models
-    + [[bioRxiv 2026.06.04.730041](https://www.biorxiv.org/content/10.64898/2026.06.04.730041v1)] • [[model](https://huggingface.co/collections/AI4PD/protgpt3-family)]
-+   Integrating Single-Cell Profiling with Generative AI for De Novo Design of MMP9 Protein Binders in Diffuse Large B-Cell Lymphoma
-    + [[Molecules 2026](https://www.mdpi.com/1420-3049/31/11/1969)]
-+   AI-Driven De novo Design of HDAC6/EZH2 Dual-target Peptide Inhibitors for Epigenetic Cancer Therapy
-    + [[Combinatorial Chemistry & High Throughput Screening (2026)](https://www.eurekaselect.com/article/155944)]
-+   Protein Design Enters the Artificial Intelligence Era: Foundations, Tools, and Emerging Paradigms
-    + [[Comput Struct Biotechnol J. 2026](https://spj.science.org/doi/10.34133/csbj.0105)]
-+   Discriminator-Guided Inverse Folding for Multi-Property Protein Design
-    + [[Advanced Science (2026)](https://onlinelibrary.wiley.com/doi/10.1002/advs.20260105)] • [[code](https://github.com/aweqardf/ESM-IF1-DG)]
+*Papers last week, updated on 2026.06.20:*
++   Promera: a unified model for biomolecular structure prediction, filtering, and design
+    + [[bioRxiv 2026.06.07.729267](https://www.biorxiv.org/content/10.64898/2026.06.07.729267v1)]
++   Membrane Protein Design: From Reprogramming Functions to AI-Guided De Novo Design Approaches
+    + [[Chem. Rev. 2026](https://pubs.acs.org/doi/10.1021/acs.chemrev.5c01105)]
++   Deep learning based design of buried hydrogen bond networks with HBDesigner
+    + [[bioRxiv 2026.06.08.730848](https://www.biorxiv.org/content/10.64898/2026.06.08.730848v1)] • [[code](https://github.com/RosettaCommons/HBDesigner)]
++   BoltzProt-1: Towards Efficient De Novo Binder Design with Good Developability
+    + [[technical report](https://boltz.bio/boltzprot1-technical-report.pdf)]
+
 
 
 ---
@@ -723,6 +720,10 @@ Ana F. Rodrigues, Lucas Ferraz, Catia Pesquita
 Yanlin Mi, Arpit Shukla, Mark Tangney, Sabin Tabirca, and Venkata VB Yallapragada  
 [Comput Struct Biotechnol J. 2026](https://spj.science.org/doi/10.34133/csbj.0105)
 
+**Membrane Protein Design: From Reprogramming Functions to AI-Guided De Novo Design Approaches**  
+Robert E. Jefferson, Patrick Barth  
+[Chem. Rev. 2026](https://pubs.acs.org/doi/10.1021/acs.chemrev.5c01105)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**
@@ -1196,6 +1197,10 @@ paper unavailable • [slides](https://pan.baidu.com/share/init?surl=4AOW_D9dwlv
 **Boltzdesign1: Inverting All-Atom Structure Prediction Model for Generalized Biomolecular Binder Design**
 Yehlin Cho, Martin Pacesa, Zhidian Zhang, Bruno E. Correia, Sergey Ovchinnikov
 [bioRxiv 2025.04.06.647261](https://www.biorxiv.org/content/10.1101/2025.04.06.647261v1) • [code](https://github.com/yehlincho/BoltzDesign1)
+
+**BoltzProt-1: Towards Efficient De Novo Binder Design with Good Developability**  
+Talip Uçar, Jack Bates, Yunguan Fu, Wenxian Shi, Hannes Stark, Demitri Nava, Luca Cavalleri, Jeremy Wohlwend, Gabriele Corso, Saro Passaro  
+[technical report](https://boltz.bio/boltzprot1-technical-report.pdf)
 
 #### 2.1.7 RareFold-based
 
@@ -2305,6 +2310,10 @@ Hao Luo, Siyuan Guo, Yihong Bao, Shan Lu, Fengxia Lv, Ping Zhu
 **Discriminator-Guided Inverse Folding for Multi-Property Protein Design**  
 Yuchuan Zheng, Chuyi Liu, Zhaoming Liu, Mao Su, Chenyu Tang, Xiang Zheng, Hao Zhang, Jingyuan Li  
 [Advanced Science (2026)](https://onlinelibrary.wiley.com/doi/10.1002/advs.20260105) • [code](https://github.com/aweqardf/ESM-IF1-DG)
+
+**Deep learning based design of buried hydrogen bond networks with HBDesigner**  
+Henry Dieckhaus, Brock T. Harvey, Tomiris Mulikova, Jessica T. Horenstein, Nathan I. Nicely, Nicholas Z. Randolph, Brian Kuhlman  
+[bioRxiv 2026.06.08.730848](https://www.biorxiv.org/content/10.64898/2026.06.08.730848v1) • [code](https://github.com/RosettaCommons/HBDesigner)
 
 ### 4.6 GAN-based
 
@@ -4062,6 +4071,10 @@ Chaoran Cheng, Jiaqi Guan, Milong Ren, Chengyue Gong, Cong Liu, Xinshi Chen, Ge 
 **Proteo-R1: Reasoning Foundation Models for De Novo Protein Design**  
 Fang Wu, Weihao Xuan, Heli Qi, Hanqun Cao, Heng-Jui Chang, Zeqi Zhou, Haokai Zhao, Ma Jian, Carl Ma, Yu-Chi Cheng, Kuan Pang, Xiangru Tang, Zehong Wang, Guanlue Li, Hanchen Wang, Kejun Ying, Pan Lu, Chiho Im, Seungju Han, Peng Xia, Tinson Xu, Yinxi Li, Deyao Zhu, Pheng-Ann Heng, Naoto Yokoya, Masashi Sugiyama, Li Erran Li, Jure Leskovec, Yejin Choi  
 [arXiv:2605.02937](https://arxiv.org/abs/2605.02937) • [website](https://smiles724.github.io/r1/)
+
+**Promera: a unified model for biomolecular structure prediction, filtering, and design**  
+Bowen Jing, Mihir Bafna, Daniel Diaz, Adam Klivans, Bonnie Berger  
+[bioRxiv 2026.06.07.729267](https://www.biorxiv.org/content/10.64898/2026.06.07.729267v1)
 
 ### 6.3 RoseTTAFold-based
 
