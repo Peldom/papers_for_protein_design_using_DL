@@ -10,16 +10,23 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.06.20:*
-+   Promera: a unified model for biomolecular structure prediction, filtering, and design
-    + [[bioRxiv 2026.06.07.729267](https://www.biorxiv.org/content/10.64898/2026.06.07.729267v1)]
-+   Membrane Protein Design: From Reprogramming Functions to AI-Guided De Novo Design Approaches
-    + [[Chem. Rev. 2026](https://pubs.acs.org/doi/10.1021/acs.chemrev.5c01105)]
-+   Deep learning based design of buried hydrogen bond networks with HBDesigner
-    + [[bioRxiv 2026.06.08.730848](https://www.biorxiv.org/content/10.64898/2026.06.08.730848v1)] • [[code](https://github.com/RosettaCommons/HBDesigner)]
-+   BoltzProt-1: Towards Efficient De Novo Binder Design with Good Developability
-    + [[technical report](https://boltz.bio/boltzprot1-technical-report.pdf)]
-
+*Papers last week, updated on 2026.06.27:*
++   Computational Redesign of an Antifreeze Protein Using Deep Learning
+    + [[bioRxiv 2026.06.21.733612](https://www.biorxiv.org/content/10.64898/2026.06.21.733612v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/06/24/2026.06.21.733612/DC1/embed/media-1.pdf)]
++   ComplexDesign: sequence-hallucination design of protein binders bridging multiple proteins
+    + [[bioRxiv 2026.06.21.733655](https://www.biorxiv.org/content/10.64898/2026.06.21.733655v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/06/24/2026.06.21.733655/DC1/embed/media-1.pdf)]
++   Efficient generation of epitope-targeted antibodies with Germinal
+    + [[Nat Biotechnol (2026)](https://www.nature.com/articles/s41587-026-03187-0)] • [[code](https://github.com/SantiagoMille/germinal)]
++   Emyx: Fast and efficient all-atom protein generation
+    + [[arXiv:2606.19377](https://arxiv.org/abs/2606.19377)]
++   Improved Stability and Brightness Following Iterative Redesign of a De Novo Biliprotein
+    + [[Biochemistry 2026](https://pubs.acs.org/doi/10.1021/acs.biochem.6c00166)]
++   Zero-shot design of drug-binding proteins via neural iterative selection−expansion
+    + [[Nature (2026)](https://www.nature.com/articles/s41586-026-10670-w)] • [[code](https://github.com/polizzilab/LASErMPNN)]
++   Controlling metal-carbonate phase, form, and function through de novo protein design
+    + [[bioRxiv 2026.06.10.730916](https://www.biorxiv.org/content/10.64898/2026.06.10.730916v1)]
++   Integrating Machine-learning and Ultra-high-throughput Screening for Enzyme spaces exploration
+    + [[bioRxiv 2026.06.23.733994](https://www.biorxiv.org/content/10.64898/2026.06.23.733994v1)]
 
 
 ---
@@ -1170,6 +1177,14 @@ Tatsuki Nonomura, Brendan McKee, Anna Price, Mingguang Cui, Zaynah Yousuf, Faith
 Qianxun Xu, Chenxi Song, Yujun Cai, Chi Zhang  
 [arXiv:2602.23956](https://arxiv.org/abs/2602.23956)
 
+**ComplexDesign: sequence-hallucination design of protein binders bridging multiple proteins**  
+Jing Xu, Milong Ren, Ning Qi, Xinru Zhang, Zaikai He, Chungong Yu, Dongbo Bu  
+[bioRxiv 2026.06.21.733655](https://www.biorxiv.org/content/10.64898/2026.06.21.733655v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/06/24/2026.06.21.733655/DC1/embed/media-1.pdf)
+
+**Efficient generation of epitope-targeted antibodies with Germinal**  
+Luis S. Mille-Fragoso, Claudia L. Driscoll, John N. Wang, Haoyu Dai, Talal Widatalla, Jim L. Zhang, Xiaowei Zhang, Bing Rao, Liang Feng, Brian L. Hie & Xiaojing J. Gao  
+[Nat Biotechnol (2026)](https://www.nature.com/articles/s41587-026-03187-0) • [code](https://github.com/SantiagoMille/germinal)
+
 #### 2.1.3 DMPfold2-based
 
 **Design in the DARK: Learning Deep Generative Models for De Novo Protein Design**
@@ -2315,6 +2330,18 @@ Yuchuan Zheng, Chuyi Liu, Zhaoming Liu, Mao Su, Chenyu Tang, Xiang Zheng, Hao Zh
 Henry Dieckhaus, Brock T. Harvey, Tomiris Mulikova, Jessica T. Horenstein, Nathan I. Nicely, Nicholas Z. Randolph, Brian Kuhlman  
 [bioRxiv 2026.06.08.730848](https://www.biorxiv.org/content/10.64898/2026.06.08.730848v1) • [code](https://github.com/RosettaCommons/HBDesigner)
 
+**Computational Redesign of an Antifreeze Protein Using Deep Learning**  
+Cianna Calia, Arthur J. Altunc, Rosemary J. Eufemio, Benjamin O. Alvarado, Jake D. Huynh, Eunkeu Oh, Michael D. Burkart, Konrad Meister, Francesco Paesani  
+[bioRxiv 2026.06.21.733612](https://www.biorxiv.org/content/10.64898/2026.06.21.733612v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/06/24/2026.06.21.733612/DC1/embed/media-1.pdf)
+
+**Zero-shot design of drug-binding proteins via neural iterative selection−expansion**  
+Benjamin Fry, Kaia Slaw & Nicholas F. Polizzi  
+[Nature (2026)](https://www.nature.com/articles/s41586-026-10670-w) • [code](https://github.com/polizzilab/LASErMPNN)
+
+**Integrating Machine-learning and Ultra-high-throughput Screening for Enzyme spaces exploration**  
+Yitao Ke, Yanzhe Zhang, Minchao Fang, Jingyang Zhao, Hongli Zhu, Zehui Xu, Longxing Cao  
+[bioRxiv 2026.06.23.733994](https://www.biorxiv.org/content/10.64898/2026.06.23.733994v1)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**
@@ -2455,6 +2482,10 @@ Anirudh Venkatraman, Gopinath Balaji, Veeresh Kande
 Alec Lourenço, Arjuna Subramanian, Ryan Spencer, Michael Anaya, Jiapei Miao, William Fu, Eric Chow, Matt Thomson
 [bioRxiv 2024.12.20.629847](https://www.biorxiv.org/content/10.1101/2024.12.20.629847v1) • ESM-IF-based
 
+**Redesign selective protein binders using contrastive decoding**  
+Ziwei Xie, Jinbo Xu  
+[bioRxiv 2026.05.09.722041](https://www.biorxiv.org/content/10.64898/2026.05.09.722041v1.full) • [code](https://github.com/zw2x/rednet_public)
+
 **DS-ProGen: A Dual-Structure Deep Language Model for Functional Protein Design**  
 Yanting Li, Jiyue Jiang, Zikang Wang, Ziqian Lin, Dongchen He, Yuheng Shan, Yanruisheng Shao, Jiayi Li, Xiangyu Shi, Jiuming Wang, Yanyu Chen, Yimin Fan, Han Li, Yu Li  
 [arXiv:2505.12511](https://arxiv.org/abs/2505.12511)
@@ -2462,6 +2493,10 @@ Yanting Li, Jiyue Jiang, Zikang Wang, Ziqian Lin, Dongchen He, Yuheng Shan, Yanr
 **Structure-Aware Antibody Design with Affinity-Optimized Inverse Folding**  
 Xinyan Zhao, Yi-Ching Tang, Rivaaj Monsia, Victor J. Cantu, Ashwin Kumar Ramesh, Xiaozhong Liu, Zhiqiang An, Xiaoqian Jiang, Yejin Kim  
 [arXiv:2512.17815](https://arxiv.org/abs/2512.17815) • ESM-IF-based
+
+**SurfDesign: Effective Protein Design on Molecular Surfaces**  
+Fang Wu, Shuting Jin, Xiangru Tang, Mark Gerstein, Xiangxiang Zeng, Yejin Choi, Jure Leskovec, Jinbo Xu  
+[arXiv:2606.07567](https://arxiv.org/abs/2606.07567)
 
 ### 4.8 ResNet-based
 
@@ -4074,7 +4109,7 @@ Fang Wu, Weihao Xuan, Heli Qi, Hanqun Cao, Heng-Jui Chang, Zeqi Zhou, Haokai Zha
 
 **Promera: a unified model for biomolecular structure prediction, filtering, and design**  
 Bowen Jing, Mihir Bafna, Daniel Diaz, Adam Klivans, Bonnie Berger  
-[bioRxiv 2026.06.07.729267](https://www.biorxiv.org/content/10.64898/2026.06.07.729267v1)
+[bioRxiv 2026.06.07.729267](https://www.biorxiv.org/content/10.64898/2026.06.07.729267v1) • [code](https://github.com/bjing2016/promera)
 
 ### 6.3 RoseTTAFold-based
 
@@ -4466,6 +4501,14 @@ Gianluca Quargnali, Pablo Rivera-Fuentes
 Ziyang Miao, Siyi Zhu, Liwei Qin, Dawei Ma, Mingyang Lai, Pingping Xu, Yaping Jin, Huimin Cai, Shuai Zhao, and Yang Wang  
 [Molecules 2026](https://www.mdpi.com/1420-3049/31/11/1969)
 
+**Generative design of programmable asymmetric β-barrel nanopores**  
+Annika Philomin, Ria Sonigra, Sagardip Majumder, Hsien-Jui (Michelin) Lin, Yanjing Li, Fanglie Xue, Ryan D. Kibler, Brian Coventry, Claire K. Baldus, Eva Trapido, Amelie Medeiros, Asim K. Bera, Alex Kang, Johnny Mendoza, Manish Kumar, Yi Yang, David Baker  
+[bioRxiv 2026.06.04.729630](https://www.biorxiv.org/content/10.64898/2026.06.04.729630v1)
+
+**Improved Stability and Brightness Following Iterative Redesign of a De Novo Biliprotein**
+Felix S. Morey-Burrows, Tingxiang Yang, Woody Ahern, David Baker, Andrew Hitchcock, Graham J. Leggett, Jenny Clark, Aneika C. Leney, C. Neil Hunter  
+[Biochemistry 2026](https://pubs.acs.org/doi/10.1021/acs.biochem.6c00166)
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**
@@ -4483,6 +4526,10 @@ Petra E. M. Balbi, Ahmed Sadek, Anthony Marchand, Ta-Yi Yu, Sandrine Georgeon, J
 **De Novo Design of Enantioselective Artificial Metalloenzyme Photocatalysts Containing Metal Polypyridine Cofactors**
 Sandip Mishra, , Declan Evans, Kingsley Bortey, Husayn Bootwala, Giovanni Gonzalez-Gutierrez, Ricardo Javier Vázquez, David Baker, Jared C Lewis
 [chemrxiv (2026)](https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15002852/v1)
+
+**Controlling metal-carbonate phase, form, and function through de novo protein design**  
+Paul S. Kwon, Xinqi Li, Le Tracy Yu, Harley Pyles, Todd H. Lewis, Connor Weidle, Andrew J. Borst, Catherine C. Bodinger, Alex Kang, Hannah Nguyen, Johnny Mendoza, Kenneth D. Carr, Brian Coventry, Yang Hsia, Zsombor Molnár, Dongsheng Li, Bo Zhang, Brandi M. Cossairt, Shuai Zhang, Asim K. Bera, James De Yoreo, David Baker  
+[bioRxiv 2026.06.10.730916](https://www.biorxiv.org/content/10.64898/2026.06.10.730916v1)
 
 **AutoBinder Agent: An MCP-Based Agent for End-to-End Protein Binder Design**  
 Fukang Ge, Jiarui Zhu, Linjie Zhang, Haowen Xiao, Xiangcheng Bao, Fangnan Xie, Danyang Chen, Yanrui Lu, Yuting Wang, Ziqian Guan, Lin Gu, Jinhao Bi, Yingying Zhu
@@ -4695,6 +4742,10 @@ Zhanghan Ni, Yanjing Li, Zeju Qiu, Bernhard Schölkopf, Hongyu Guo, Weiyang Liu,
 **Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute**  
 Kieran Didi, Zuobai Zhang, Guoqing Zhou, Danny Reidenbach, Zhonglin Cao, Sooyoung Cha, Tomas Geffner, Christian Dallago, Jian Tang, Michael M. Bronstein, Martin Steinegger, Emine Kucukbenli, Arash Vahdat, Karsten Kreis  
 [ICLR 2026 Oral](https://openreview.net/forum?id=qmCpJtFZra)/[wetlab paper](https://research.nvidia.com/labs/genair/proteina-complexa/assets/proteina_complexa_validation.pdf) • [code](https://github.com/NVIDIA-Digital-Bio/proteina-complexa) • [website](https://research.nvidia.com/labs/genair/proteina-complexa/)
+
+**Emyx: Fast and efficient all-atom protein generation**  
+Nicholas J. Williams, Ward Haddadin, Matteo P. Ferla, Constantin Schneider, Nicholas B. Woodall, Ruby Sedgwick, Christian D. Madsen, Andrew L. Hopkins, Edward O. Pyzer-Knapp  
+[arXiv:2606.19377](https://arxiv.org/abs/2606.19377)
 
 ### 6.9 AlphaFold-based
 
@@ -5143,3 +5194,7 @@ Latent Labs Team
 **Latent-Y: A Lab-Validated Autonomous Agent for De Novo Drug Design**  
 Latent Labs Team  
 [technical report](https://www.latentlabs.com/wp-content/uploads/2026/03/Latent-Y-Technical-Report.pdf) • [website](https://www.latentlabs.com/latent-y/) • commercial
+
+**Practical De Novo Nanobody Discovery with Tens of Experimental Candidates**  
+The MoleculeMind Team  
+[technical report](https://zenodo.org/records/20526590) • commercial
