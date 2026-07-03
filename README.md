@@ -11,22 +11,13 @@
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
 *Papers last week, updated on 2026.06.27:*
-+   Computational Redesign of an Antifreeze Protein Using Deep Learning
-    + [[bioRxiv 2026.06.21.733612](https://www.biorxiv.org/content/10.64898/2026.06.21.733612v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/06/24/2026.06.21.733612/DC1/embed/media-1.pdf)]
-+   ComplexDesign: sequence-hallucination design of protein binders bridging multiple proteins
-    + [[bioRxiv 2026.06.21.733655](https://www.biorxiv.org/content/10.64898/2026.06.21.733655v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/06/24/2026.06.21.733655/DC1/embed/media-1.pdf)]
-+   Efficient generation of epitope-targeted antibodies with Germinal
-    + [[Nat Biotechnol (2026)](https://www.nature.com/articles/s41587-026-03187-0)] • [[code](https://github.com/SantiagoMille/germinal)]
-+   Emyx: Fast and efficient all-atom protein generation
-    + [[arXiv:2606.19377](https://arxiv.org/abs/2606.19377)]
-+   Improved Stability and Brightness Following Iterative Redesign of a De Novo Biliprotein
-    + [[Biochemistry 2026](https://pubs.acs.org/doi/10.1021/acs.biochem.6c00166)]
-+   Zero-shot design of drug-binding proteins via neural iterative selection−expansion
-    + [[Nature (2026)](https://www.nature.com/articles/s41586-026-10670-w)] • [[code](https://github.com/polizzilab/LASErMPNN)]
-+   Controlling metal-carbonate phase, form, and function through de novo protein design
-    + [[bioRxiv 2026.06.10.730916](https://www.biorxiv.org/content/10.64898/2026.06.10.730916v1)]
-+   Integrating Machine-learning and Ultra-high-throughput Screening for Enzyme spaces exploration
-    + [[bioRxiv 2026.06.23.733994](https://www.biorxiv.org/content/10.64898/2026.06.23.733994v1)]
++   OpenGerminal: an open-source implementation of the Germinal antibody design pipeline
+    + [[bioRxiv 2026.06.25.734527](https://www.biorxiv.org/content/10.64898/2026.06.25.734527v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/06/29/2026.06.25.734527/DC1/embed/media-1.pdf)] • [[code](https://github.com/teaninja/OpenGerminal)]
++   Membrane protein solubilization and structure determination using de novo–designed proteins
+    + [[Science393,eadr3817(2026)](https://www.science.org/doi/10.1126/science.adr3817)]
++   De novo design and experimental characterization of bitter peptides
+    + [[npj Sci Food 10, 200 (2026)](https://www.nature.com/articles/s41538-026-00942-0)]
+
 
 
 ---
@@ -211,6 +202,10 @@ Alexander J Barnett , Rajendra KC , Pratikshya Pandey , Pamodha Somasiri , Kirst
 **AFD-INSTRUCTION: A Comprehensive Antibody Instruction Dataset with Functional Annotations for LLM-Based Understanding and Design**  
 Ling Luo, Wenbin Jiang, Hongyuan Chang, Xinkang Wang, Xushi Zhang, Yueting Xiong, Mengsha Tong, Rongshan Yu  
 [arXiv:2602.04916](https://arxiv.org/abs/2602.04916) • [code](https://github.com/dumbgoos/Afd-Instruction/) • [dataset](https://huggingface.co/datasets/LLMasterLL/AFD) • [website](https://afd-instruction.github.io/)
+
+**Benchmarking and behavioral characterization of LLM agents for protein design**  
+Jeonghyeon Kim, Philip Romero  
+[bioRxiv 2026.05.06.723381](https://www.biorxiv.org/content/10.64898/2026.05.06.723381v2) • [code](https://github.com/RomeroLab/BioDesignBench)
 
 ### 0.2 Structure Datasets, Benchmarks
 
@@ -1215,7 +1210,7 @@ Yehlin Cho, Martin Pacesa, Zhidian Zhang, Bruno E. Correia, Sergey Ovchinnikov
 
 **BoltzProt-1: Towards Efficient De Novo Binder Design with Good Developability**  
 Talip Uçar, Jack Bates, Yunguan Fu, Wenxian Shi, Hannes Stark, Demitri Nava, Luca Cavalleri, Jeremy Wohlwend, Gabriele Corso, Saro Passaro  
-[technical report](https://boltz.bio/boltzprot1-technical-report.pdf)
+[technical report](https://boltz.bio/boltzprot1-technical-report.pdf)/[bioRxiv 2026.06.23.733997](https://www.biorxiv.org/content/10.64898/2026.06.23.733997v1)
 
 #### 2.1.7 RareFold-based
 
@@ -2342,6 +2337,10 @@ Benjamin Fry, Kaia Slaw & Nicholas F. Polizzi
 Yitao Ke, Yanzhe Zhang, Minchao Fang, Jingyang Zhao, Hongli Zhu, Zehui Xu, Longxing Cao  
 [bioRxiv 2026.06.23.733994](https://www.biorxiv.org/content/10.64898/2026.06.23.733994v1)
 
+**OpenGerminal: an open-source implementation of the Germinal antibody design pipeline**  
+Bing Han, Sheng Li  
+[bioRxiv 2026.06.25.734527](https://www.biorxiv.org/content/10.64898/2026.06.25.734527v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/06/29/2026.06.25.734527/DC1/embed/media-1.pdf) • [code](https://github.com/teaninja/OpenGerminal)
+
 ### 4.6 GAN-based
 
 **De novo protein design for novel folds using guided conditional Wasserstein generative adversarial networks**
@@ -2671,6 +2670,14 @@ Derek M. Mason, Simon Friedensohn, Cédric R. Weber, Christian Jordi, Bastian Wa
 **Accelerated Engineering of ELP‐based Materials through Hybrid Biomimetic‐De Novo Predictive Molecular Design**
 Timo Laakko, Antti Korkealaakso, Burcu Firatligil Yildirir, Piotr Batys, Ville Liljeström, Ari Hokkanen, Nonappa, Merja Penttilä, Anssi Laukkanen, Ali Miserez, Caj Södergård, Pezhman Mohammadi
 [Advanced Materials (2024)](https://onlinelibrary.wiley.com/doi/10.1002/adma.202312299)
+
+**Deep learning-driven integrated pipeline for de novo design and synthesis of antimicrobial peptides**  
+Jiahui Liu, Yun Chen, Jian Tang, Xupu Xing, Jin-Shun Lin, Juping Sun, Xin-Hui Xing, Juan Li & Can Yang Zhang  
+[npj Drug Discov. 3, 15 (2026)](https://www.nature.com/articles/s44386-026-00045-6)
+
+**De novo design and experimental characterization of bitter peptides**  
+Alexandra Steuer, Francesco Ferri, Laura Eckrich, Julia Heidenkampf, Verena Karolin Mittermeier-Kleßinger, Silvia Schaefer, Maik Behrens, Noelia Ferruz, Corinna Dawid & Antonella Di Pizio  
+[npj Sci Food 10, 200 (2026)](https://www.nature.com/articles/s41538-026-00942-0)
 
 ### 5.2 VAE-based
 
@@ -4508,6 +4515,10 @@ Annika Philomin, Ria Sonigra, Sagardip Majumder, Hsien-Jui (Michelin) Lin, Yanji
 **Improved Stability and Brightness Following Iterative Redesign of a De Novo Biliprotein**
 Felix S. Morey-Burrows, Tingxiang Yang, Woody Ahern, David Baker, Andrew Hitchcock, Graham J. Leggett, Jenny Clark, Aneika C. Leney, C. Neil Hunter  
 [Biochemistry 2026](https://pubs.acs.org/doi/10.1021/acs.biochem.6c00166)
+
+**Membrane protein solubilization and structure determination using de novo–designed proteins**  
+Ljubica Mihaljević, David E. Kim, Pooja D. Bandawane, Helen E. Eisenach, Andrew J. Borst, Alexis Courbet, Connor Weidle, Kenneth D. Carr, Everton Bettin, Qiushi Liu, Aldo T. Trejos, Sagardip Majumder, Surabhi Kokane, Alexander Stevens, Edin Muratspahić, Thomas Schlichthaerle, Marc Expòsit, Xinting Li, Mila Lamb, Analisa Nicole Azcárraga Murray, Rashmi Ravichandran, Elizabeth C. Williams, Shuyuan Hu, Lynda Stuart, Linda Grillová, Nicholas R. Thomson, Michael Landreh, Pengxiang Chang, Lorenzo Giacani, Melissa J. Caimano, Kelly L. Hawley, Neil P. King, and David Baker  
+[Science393,eadr3817(2026)](https://www.science.org/doi/10.1126/science.adr3817)
 
 ### 6.4 CNN-based
 
