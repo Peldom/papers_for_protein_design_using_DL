@@ -10,15 +10,17 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.06.27:*
-+   OpenGerminal: an open-source implementation of the Germinal antibody design pipeline
-    + [[bioRxiv 2026.06.25.734527](https://www.biorxiv.org/content/10.64898/2026.06.25.734527v1)] • [[Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/06/29/2026.06.25.734527/DC1/embed/media-1.pdf)] • [[code](https://github.com/teaninja/OpenGerminal)]
-+   Membrane protein solubilization and structure determination using de novo–designed proteins
-    + [[Science393,eadr3817(2026)](https://www.science.org/doi/10.1126/science.adr3817)]
-+   De novo design and experimental characterization of bitter peptides
-    + [[npj Sci Food 10, 200 (2026)](https://www.nature.com/articles/s41538-026-00942-0)]
-
-
+*Papers last week, updated on 2026.07.14:*
++   HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion
+    + [[Chem. Sci. 2026](https://pubs.rsc.org/sc/article/doi/10.1039/d6sc02631a/1273946/HFGuidedDesign-de-novo-design-of-cyclic-peptide)] • [[code](https://github.com/hongliangduan/HFGuidedDesign)]
++   IgGM2: An All-Atom Foundation Model for Adaptive Immune Receptor Design
+    + [[bioRxiv 2026.07.09.737510](https://www.biorxiv.org/content/10.64898/2026.07.09.737510v1)]
++   De novo design of selective kinase modulators
+    + [[bioRxiv 2026.07.10.737808](https://www.biorxiv.org/content/10.64898/2026.07.10.737808v2)]
++   A generalizable interface-seeded framework for de novo design of functional oligomers
+    + [[bioRxiv 2026.07.02.736098](https://www.biorxiv.org/content/10.64898/2026.07.02.736098v1)]
++   Computational design of blue melanin by motif-scaffolding a pentapeptide-repeat protein
+    + [[Protein Science. 2026](https://onlinelibrary.wiley.com/doi/10.1002/pro.70718)]
 
 ---
 
@@ -3856,6 +3858,10 @@ Qingyi Mao, Silong Zhai, Sen Cao, Renjie Zhu, Wen Xu, Chengyun Zhang, Ning Zhu, 
 Xinyou Wang, Liang Hong, Jiasheng Ye, Zaixiang Zheng, Yu Li, Shujian Huang, Quanquan Gu  
 [arXiv:2605.00182](https://arxiv.org/abs/2605.00182)
 
+**HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion**  
+Haomeng Hu, Renjie Zhu, Ning Zhu, Chengyun Zhang, Tianfeng Shang, Chongyang Li, Jingjing Guo, Xudong Wang, Hongliang Duan  
+[Chem. Sci. 2026](https://pubs.rsc.org/sc/article/doi/10.1039/d6sc02631a/1273946/HFGuidedDesign-de-novo-design-of-cyclic-peptide) • [code](https://github.com/hongliangduan/HFGuidedDesign)
+
 ### 5.13 GNN-based
 
 **Generative Pretrained Autoregressive Transformer Graph Neural Network applied to the Analysis and Discovery of Novel Proteins**
@@ -4520,6 +4526,18 @@ Felix S. Morey-Burrows, Tingxiang Yang, Woody Ahern, David Baker, Andrew Hitchco
 Ljubica Mihaljević, David E. Kim, Pooja D. Bandawane, Helen E. Eisenach, Andrew J. Borst, Alexis Courbet, Connor Weidle, Kenneth D. Carr, Everton Bettin, Qiushi Liu, Aldo T. Trejos, Sagardip Majumder, Surabhi Kokane, Alexander Stevens, Edin Muratspahić, Thomas Schlichthaerle, Marc Expòsit, Xinting Li, Mila Lamb, Analisa Nicole Azcárraga Murray, Rashmi Ravichandran, Elizabeth C. Williams, Shuyuan Hu, Lynda Stuart, Linda Grillová, Nicholas R. Thomson, Michael Landreh, Pengxiang Chang, Lorenzo Giacani, Melissa J. Caimano, Kelly L. Hawley, Neil P. King, and David Baker  
 [Science393,eadr3817(2026)](https://www.science.org/doi/10.1126/science.adr3817)
 
+**De novo design of selective kinase modulators**  
+Magnus S. Bauer, Saurav Kumar, Mia S. Donald Paladino, Dongyang Li, Kody A. Klupt, Matthias Glögl, Ana María Fernández-Escamilla, Thomas Schlichthaerle, Edin Muratspahić, Xinru Wang, Ludwig Schmiderer, Sebastian Kenny, Brian Coventry, Bulat Faezov, Wei Chen, Alexander F. Shida, Gyu Rie Lee, Yang Hsia, Ryan D. Kibler, Michael B. Elowitz, Daniel Lietha, Behnam Nabet, David Baker  
+[bioRxiv 2026.07.10.737808](https://www.biorxiv.org/content/10.64898/2026.07.10.737808v2)
+
+**A generalizable interface-seeded framework for de novo design of functional oligomers**  
+Ho Yeung Chim, Mubarak Olanrewaju Idris, Dominic Rieger, Phillip Schlegel, Nicolas Manuel Goldbach, Miguel Atienza Juanatey, Bhoomika Basu Mallik, Stephen Buckley, Samrat Basak, Sandrine Georgeon, Kelvin Lau, Florence Pojer, Leonard Kaysser, Philip Tinnefeld, Clara T. Schoeder, Bruno E. Correia, Alena Khmelinskaia  
+[bioRxiv 2026.07.02.736098](https://www.biorxiv.org/content/10.64898/2026.07.02.736098v1)
+
+**Computational design of blue melanin by motif-scaffolding a pentapeptide-repeat protein**  
+Di Sheng Lee, Bomi Park, Sergio Salgado, James Dolgin, David L. Kaplan  
+[Protein Science. 2026](https://onlinelibrary.wiley.com/doi/10.1002/pro.70718)
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**
@@ -4791,6 +4809,10 @@ Yu Kong, Jiale Shi, Fandi Wu, Ting Zhao, Rubo Wang, Xiaoyi Zhu, Qingyuan Xu, Yid
 **CONFIDE: Hallucination Assessment for Reliable Biomolecular Structure Prediction and Design**  
 Zijun Gao, Mutian He, Shijia Sun, Hanqun Cao, Jingjie Zhang, Zihao Luo, Xiaorui Wang, Xiaojun Yao, Chang-Yu Hsieh, Chunbin Gu, Pheng Ann Heng  
 [arXiv:2512.02033](https://arxiv.org/abs/2512.02033) • [code](https://github.com/zjgao02/CONFIDE)
+
+**IgGM2: An All-Atom Foundation Model for Adaptive Immune Receptor Design**  
+Jian Ma, Fandi Wu, Lin Yao, Jing Gao, Rubo Wang, Qifeng Li, Nianzu Yang, Songlin Jiang, Dawei Huang, Xiaoyong Pan, Yiheng Zhu, Tingjun Hou, Jianhua Yao, Junchi Yan  
+[bioRxiv 2026.07.09.737510](https://www.biorxiv.org/content/10.64898/2026.07.09.737510v1)
 
 ## 7. Other tasks
 
