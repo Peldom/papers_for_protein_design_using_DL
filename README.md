@@ -10,17 +10,22 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.07.14:*
-+   HFGuidedDesign: de novo design of cyclic peptide binders via structure-guided discrete diffusion
-    + [[Chem. Sci. 2026](https://pubs.rsc.org/sc/article/doi/10.1039/d6sc02631a/1273946/HFGuidedDesign-de-novo-design-of-cyclic-peptide)] • [[code](https://github.com/hongliangduan/HFGuidedDesign)]
-+   IgGM2: An All-Atom Foundation Model for Adaptive Immune Receptor Design
-    + [[bioRxiv 2026.07.09.737510](https://www.biorxiv.org/content/10.64898/2026.07.09.737510v1)]
-+   De novo design of selective kinase modulators
-    + [[bioRxiv 2026.07.10.737808](https://www.biorxiv.org/content/10.64898/2026.07.10.737808v2)]
-+   A generalizable interface-seeded framework for de novo design of functional oligomers
-    + [[bioRxiv 2026.07.02.736098](https://www.biorxiv.org/content/10.64898/2026.07.02.736098v1)]
-+   Computational design of blue melanin by motif-scaffolding a pentapeptide-repeat protein
-    + [[Protein Science. 2026](https://onlinelibrary.wiley.com/doi/10.1002/pro.70718)]
+*Papers last week, updated on 2026.07.20:*
++   A De Novo CO2 Reductase Featuring a Cysteine-Ligated Cobalt Porphyrin Cofactor
+    + [[J. Am. Chem. Soc. 2026](https://pubs.acs.org/doi/10.1021/jacs.6c07615)]
++   Enhancing machine learning-based binder design with high-throughput screening: A comparison of mRNA and yeast display technologies
+    + [[Protein Science. 2026](https://onlinelibrary.wiley.com/doi/10.1002/pro.70696)]
++   Artificial intelligence advancements in monoclonal antibody development technology
+    + [[Front. Immunol](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1802038/full)]
++   Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives
+    + [[Probiotics & Antimicro. Prot. (2026)](https://link.springer.com/article/10.1007/s12602-026-11131-6)]
++   De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging
+    + [[Science](https://www.science.org/doi/10.1126/science.aeb0822)]
++   De novo design of ligand binding and sensing with a physics based generative approach
+    + [[bioRxiv 2026.07.13.738243](https://www.biorxiv.org/content/10.64898/2026.07.13.738243v1)]
++   Vilya-1: An all-atom foundation model for macrocycle structure prediction and design
+    + [[arXiv:2607.09998](https://arxiv.org/abs/2607.09998)]
+
 
 ---
 
@@ -728,6 +733,10 @@ Yanlin Mi, Arpit Shukla, Mark Tangney, Sabin Tabirca, and Venkata VB Yallapragad
 Robert E. Jefferson, Patrick Barth  
 [Chem. Rev. 2026](https://pubs.acs.org/doi/10.1021/acs.chemrev.5c01105)
 
+**Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives**  
+Wenjuan Zhao, Xiuwu Pan, Wei Yang, Zichang Liu, Xiyi Wei, Anqi Lin, Bufu Tang, Lin Zhang, Mingjia Xiao, Qing Zeng, Quan Cheng, Weiming Mou, Xiaofan Lu, Kai Miao, Peng Luo, Xin-gang Cui & Wen-jin Chen  
+[Probiotics & Antimicro. Prot. (2026)](https://link.springer.com/article/10.1007/s12602-026-11131-6)
+
 ### 1.2 Antibody design
 
 **A review of deep learning methods for antibodies**
@@ -813,6 +822,10 @@ Soudabeh Kavousipour, Mahdi Barazesh, Shiva Mohammadi
 **Harnessing deep learning to accelerate the development of antibodies and aptamers**
 Pan Tan, Song Li, Jin Huang, Ziyi Zhou, Liang Hong  
 [Acta Pharmaceutica Sinica B (2025)](https://www.sciencedirect.com/science/article/pii/S2211383525008251)
+
+**Artificial intelligence advancements in monoclonal antibody development technology**  
+Ammar M, Samsonov M, Gurylina E and Bayzigitov D  
+[Front. Immunol](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1802038/full)
 
 ### 1.3 Peptide design
 
@@ -2342,6 +2355,10 @@ Yitao Ke, Yanzhe Zhang, Minchao Fang, Jingyang Zhao, Hongli Zhu, Zehui Xu, Longx
 **OpenGerminal: an open-source implementation of the Germinal antibody design pipeline**  
 Bing Han, Sheng Li  
 [bioRxiv 2026.06.25.734527](https://www.biorxiv.org/content/10.64898/2026.06.25.734527v1) • [Supplementary](https://www.biorxiv.org/content/biorxiv/early/2026/06/29/2026.06.25.734527/DC1/embed/media-1.pdf) • [code](https://github.com/teaninja/OpenGerminal)
+
+**De novo design of ligand binding and sensing with a physics based generative approach**  
+Yanzhe Zhang, Yitao Ke, Rui Zhi, Qihan Jin, Yiqing Feng, Chentong Wang, Minchao Fang, Jinyang Liao, Dachuan Chen, Jiao Liu, Longxing Cao  
+[bioRxiv 2026.07.13.738243](https://www.biorxiv.org/content/10.64898/2026.07.13.738243v1)
 
 ### 4.6 GAN-based
 
@@ -4124,6 +4141,10 @@ Fang Wu, Weihao Xuan, Heli Qi, Hanqun Cao, Heng-Jui Chang, Zeqi Zhou, Haokai Zha
 Bowen Jing, Mihir Bafna, Daniel Diaz, Adam Klivans, Bonnie Berger  
 [bioRxiv 2026.06.07.729267](https://www.biorxiv.org/content/10.64898/2026.06.07.729267v1) • [code](https://github.com/bjing2016/promera)
 
+**Vilya-1: An all-atom foundation model for macrocycle structure prediction and design**  
+Vilya Research: Pascal Sturmfels, Milad Salem, Naozumi Hiranuma, Stephen Rettie, Xiaoliang Pan, Benjamin D. Sellers, Adam P. Moyer, Patrick J. Salveson, Ivan Anishchanka
+[arXiv:2607.09998](https://arxiv.org/abs/2607.09998)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites** / **Scaffolding protein functional sites using deep learning**
@@ -4538,6 +4559,18 @@ Ho Yeung Chim, Mubarak Olanrewaju Idris, Dominic Rieger, Phillip Schlegel, Nicol
 Di Sheng Lee, Bomi Park, Sergio Salgado, James Dolgin, David L. Kaplan  
 [Protein Science. 2026](https://onlinelibrary.wiley.com/doi/10.1002/pro.70718)
 
+**A De Novo CO2 Reductase Featuring a Cysteine-Ligated Cobalt Porphyrin Cofactor**  
+Emily J. Radley, Alessia C. Andrews, Indrek Kalvet, Yunling Deng, Elizabeth L. Bell, Colin W. Levy, Mary Ortmayer, Derren J. Heyes, Clare F. Megarity, Reyes Núñez-Franco, Amy E. Hutton, Yi Lu, David Baker, Anthony P. Green  
+[J. Am. Chem. Soc. 2026](https://pubs.acs.org/doi/10.1021/jacs.6c07615)
+
+**Enhancing machine learning-based binder design with high-throughput screening: A comparison of mRNA and yeast display technologies**  
+Zhiyuan Yao, McGuire Metts, Avery K. Huber, Jingjing Li, Tomoaki Kinjo, Henry Dieckhaus, Amrita Nallathambi, Albert A. Bowers, Brian Kuhlman  
+[Protein Science. 2026](https://onlinelibrary.wiley.com/doi/10.1002/pro.70696)
+
+**De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging**  
+Long Tran, Steffen Klein, David Juergens, Shajesh Sharma, Justin Decarreau, Gyu Rie Lee, Yujia Wang, Wei Chen, Asim K. Bera, Alex Kang, Jon Woods, Emily Joyce, Dionne K Vafeados, Nicole Roullier, Xinting Li, Bingxu Liu, Yang Bo, Edin Muratspahić, Tim A. Brown, Jonathan B. Grimm, Ronak Patel, Luke D. Lavis, Julia Mahamid, Linna An, and David Baker  
+[Science](https://www.science.org/doi/10.1126/science.aeb0822)
+
 ### 6.4 CNN-based
 
 **De Novo Design of Site-specific Protein Binders Using Surface Fingerprints**
@@ -4775,6 +4808,10 @@ Kieran Didi, Zuobai Zhang, Guoqing Zhou, Danny Reidenbach, Zhonglin Cao, Sooyoun
 **Emyx: Fast and efficient all-atom protein generation**  
 Nicholas J. Williams, Ward Haddadin, Matteo P. Ferla, Constantin Schneider, Nicholas B. Woodall, Ruby Sedgwick, Christian D. Madsen, Andrew L. Hopkins, Edward O. Pyzer-Knapp  
 [arXiv:2606.19377](https://arxiv.org/abs/2606.19377)
+
+**Variable-Length Generative Protein Design via Generalized Poisson Flow**. 
+Chaoran Cheng, Zhanghan Ni, Yanru Qu, Yuxin Chen, Ruihan Guo, Jiajun Fan, Ge Liu
+[arXiv:2607.09039](https://arxiv.org/abs/2607.09039)
 
 ### 6.9 AlphaFold-based
 
