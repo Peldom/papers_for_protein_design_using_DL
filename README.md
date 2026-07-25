@@ -10,21 +10,22 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.07.20:*
-+   A De Novo CO2 Reductase Featuring a Cysteine-Ligated Cobalt Porphyrin Cofactor
-    + [[J. Am. Chem. Soc. 2026](https://pubs.acs.org/doi/10.1021/jacs.6c07615)]
-+   Enhancing machine learning-based binder design with high-throughput screening: A comparison of mRNA and yeast display technologies
-    + [[Protein Science. 2026](https://onlinelibrary.wiley.com/doi/10.1002/pro.70696)]
-+   Artificial intelligence advancements in monoclonal antibody development technology
-    + [[Front. Immunol](https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1802038/full)]
-+   Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives
-    + [[Probiotics & Antimicro. Prot. (2026)](https://link.springer.com/article/10.1007/s12602-026-11131-6)]
-+   De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging
-    + [[Science](https://www.science.org/doi/10.1126/science.aeb0822)]
-+   De novo design of ligand binding and sensing with a physics based generative approach
-    + [[bioRxiv 2026.07.13.738243](https://www.biorxiv.org/content/10.64898/2026.07.13.738243v1)]
-+   Vilya-1: An all-atom foundation model for macrocycle structure prediction and design
-    + [[arXiv:2607.09998](https://arxiv.org/abs/2607.09998)]
+*Papers last week, updated on 2026.07.25:*
++   De Novo Design of Protein Nanopores: From Minimal Peptides to AI-Driven Design
+    + [[Chem. Rev. (2026)](https://pubs.acs.org/chreay/article-abstract/doi/10.1021/acs.chemrev.5c00990/5221890/De-Novo-Design-of-Protein-Nanopores-From-Minimal)]
++   Deep Learning for Proteins Notebook Series Teaches AI for Biomolecular Structure Prediction and Design
+    + [[The Biophysicist. 2026](https://thebiophysicist.kglmeridian.com/view/journals/biop/7/1/article-p16.xml)]
++   De Novo Design of Protein Switches with Diffusion-Based Ensemble Sampling
+    + [[bioRxiv 2026.07.20.739027](https://www.biorxiv.org/content/10.64898/2026.07.20.739027v1)]
++   Antigen-specific Antibody Multi-modal Foundation Model for Functional Antibody Design
+    + [[arXiv:2607.20057](https://arxiv.org/abs/2607.20057)] • [[code](https://github.com/XL-S224/AAMFM)]
++   ABOPD: Antibody CDR Design via On-Policy Distillation
+    + [[arXiv:2607.18835](https://arxiv.org/abs/2607.18835)]
++   Programming protein shape as an explicit design layer via CAD blueprint-guided diffusion
+    + [[bioRxiv 2026.07.22.740177](https://www.biorxiv.org/content/10.64898/2026.07.22.740177v1)] • [[code](https://github.com/yilunqi/Shape-conditioned-protein-design)]
++   Programmable design of synthetic plant immune receptors for pathogen protein recognition
+    + [[Science](https://www.science.org/doi/10.1126/science.aee1792)]
+
 
 
 ---
@@ -369,6 +370,7 @@ Guides/Tutorials for beginners on GitHub:
 1. [how_to_create_a_protein](https://github.com/universvm/how_to_create_a_protein)
 2. [protein-design-tutorials](https://github.com/ProteinDesignLab/protein-design-tutorials)
 3. [AI-driven-protein-design](https://github.com/miangoar/AI-driven-protein-design/tree/main)
+4. [Deep Learning for Proteins Notebook Series Teaches AI for Biomolecular Structure Prediction and Design](https://thebiophysicist.kglmeridian.com/view/journals/biop/7/1/article-p16.xml)
 
 Collection of Protein Design Labs:
 
@@ -736,6 +738,10 @@ Robert E. Jefferson, Patrick Barth
 **Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives**  
 Wenjuan Zhao, Xiuwu Pan, Wei Yang, Zichang Liu, Xiyi Wei, Anqi Lin, Bufu Tang, Lin Zhang, Mingjia Xiao, Qing Zeng, Quan Cheng, Weiming Mou, Xiaofan Lu, Kai Miao, Peng Luo, Xin-gang Cui & Wen-jin Chen  
 [Probiotics & Antimicro. Prot. (2026)](https://link.springer.com/article/10.1007/s12602-026-11131-6)
+
+**De Novo Design of Protein Nanopores: From Minimal Peptides to AI-Driven Design**  
+Anastassia A. Vorobieva, Rituparna Samanta, Toon Van Thillo  
+[Chem. Rev. (2026)](https://pubs.acs.org/chreay/article-abstract/doi/10.1021/acs.chemrev.5c00990/5221890/De-Novo-Design-of-Protein-Nanopores-From-Minimal)
 
 ### 1.2 Antibody design
 
@@ -1194,6 +1200,10 @@ Jing Xu, Milong Ren, Ning Qi, Xinru Zhang, Zaikai He, Chungong Yu, Dongbo Bu
 **Efficient generation of epitope-targeted antibodies with Germinal**  
 Luis S. Mille-Fragoso, Claudia L. Driscoll, John N. Wang, Haoyu Dai, Talal Widatalla, Jim L. Zhang, Xiaowei Zhang, Bing Rao, Liang Feng, Brian L. Hie & Xiaojing J. Gao  
 [Nat Biotechnol (2026)](https://www.nature.com/articles/s41587-026-03187-0) • [code](https://github.com/SantiagoMille/germinal)
+
+**Programmable design of synthetic plant immune receptors for pathogen protein recognition**  
+Haocheng Zhu, Dandan Jiang, Qiao Zhang, Kang Zhang, Kevin Tianmeng Zhao, Jin-Long Qiu, and Caixia Gao  
+[Science](https://www.science.org/doi/10.1126/science.aee1792)
 
 #### 2.1.3 DMPfold2-based
 
@@ -1675,6 +1685,10 @@ Shentong Mo, Lanqing Li
 **AlloGen: Conformation-Selective Binder Generation with Differential State Scoring**  
 Hanqun Cao, Zachary Quinn, Aastha Pal, Sumi Kimura, Jingjie Zhang, Pheng Ann Heng, Pranam Chatterjee  
 [arXiv:2606.05474](https://arxiv.org/abs/2606.05474)
+
+**De Novo Design of Protein Switches with Diffusion-Based Ensemble Sampling**  
+Alireza Omidi, Jiajun He, Jennifer M. Bui, Jörg Gsponer, Saifuddin Syed  
+[bioRxiv 2026.07.20.739027](https://www.biorxiv.org/content/10.64898/2026.07.20.739027v1)
 
 ### 3.5 RL-based
 
@@ -3450,6 +3464,10 @@ Jiawei Luo, Jiahao Li, Xianliang Liu, Yang Zhang, Qingcai Chen, Junjie Chen
 Michele Garibbo, Gerard Boxó, Filippo Stocco, Ramiro Illanes-Vicioso, Lasse Middendorf, Noelia Ferruz  
 [bioRxiv 2026.06.04.730041](https://www.biorxiv.org/content/10.64898/2026.06.04.730041v1) • [model](https://huggingface.co/collections/AI4PD/protgpt3-family)
 
+**Antigen-specific Antibody Multi-modal Foundation Model for Functional Antibody Design**  
+Xiaoliang Shi, Zichen Wang, Runze Ma, Zhongyue Zhang, Shuangjia Zheng  
+[arXiv:2607.20057](https://arxiv.org/abs/2607.20057) • [code](https://github.com/XL-S224/AAMFM)
+
 ### 5.5 Bayesian-based
 
 **Optimistic Games for Combinatorial Bayesian Optimization with Applications to Protein Design**
@@ -4145,6 +4163,10 @@ Bowen Jing, Mihir Bafna, Daniel Diaz, Adam Klivans, Bonnie Berger
 Vilya Research: Pascal Sturmfels, Milad Salem, Naozumi Hiranuma, Stephen Rettie, Xiaoliang Pan, Benjamin D. Sellers, Adam P. Moyer, Patrick J. Salveson, Ivan Anishchanka
 [arXiv:2607.09998](https://arxiv.org/abs/2607.09998)
 
+**ABOPD: Antibody CDR Design via On-Policy Distillation**  
+Zhuo Yang, Jiaying He, Jiaqing Xie, Daolang Wang, Xipeng Qiu, Yuxin Wang, Tianfan Fu, Beilun Wang  
+[arXiv:2607.18835](https://arxiv.org/abs/2607.18835)
+
 ### 6.3 RoseTTAFold-based
 
 **Deep learning methods for designing proteins scaffolding functional sites** / **Scaffolding protein functional sites using deep learning**
@@ -4570,6 +4592,10 @@ Zhiyuan Yao, McGuire Metts, Avery K. Huber, Jingjing Li, Tomoaki Kinjo, Henry Di
 **De novo design of orthogonal far-red, orange, and green fluorophore-binding proteins for multiplexed imaging**  
 Long Tran, Steffen Klein, David Juergens, Shajesh Sharma, Justin Decarreau, Gyu Rie Lee, Yujia Wang, Wei Chen, Asim K. Bera, Alex Kang, Jon Woods, Emily Joyce, Dionne K Vafeados, Nicole Roullier, Xinting Li, Bingxu Liu, Yang Bo, Edin Muratspahić, Tim A. Brown, Jonathan B. Grimm, Ronak Patel, Luke D. Lavis, Julia Mahamid, Linna An, and David Baker  
 [Science](https://www.science.org/doi/10.1126/science.aeb0822)
+
+**Programming protein shape as an explicit design layer via CAD blueprint-guided diffusion**  
+Yilun Qi, Guoxun Zhang, Klaus Yserentant, Sonya Lee, Artem Lyubimov, Kyrellos Ibrahim, Giuseppe Cimicata, James S Fraser, Bo Huang, Tanja Kortemme  
+[bioRxiv 2026.07.22.740177](https://www.biorxiv.org/content/10.64898/2026.07.22.740177v1) • [code](https://github.com/yilunqi/Shape-conditioned-protein-design)
 
 ### 6.4 CNN-based
 
