@@ -933,7 +933,7 @@ Lasse Middendorf, Noelia Ferruz
 
 ### 2.1 Structure Prediction Model-based
 
-### 2.1.1 trRosetta-based
+#### 2.1.1 trRosetta-based
 
 **Design of proteins presenting discontinuous functional sites using deep learning**
 Doug Tischer, Sidney Lisanza, Jue Wang, Runze Dong,  View ORCID ProfileIvan Anishchenko, Lukas F. Milles, Sergey Ovchinnikov, David Baker
