@@ -1449,6 +1449,12 @@ Mingming Zhu, Jiahua Rao, Xiaoyu Chen, Qianmu Yuan, Yuedong Yang
 Ashima Khanna, Dominik Grimm  
 [arXiv:2605.26690](https://arxiv.org/abs/2605.26690) • [code](https://github.com/grimmlab/SILO)
 
+### 2.6 General-LLM-based
+
+**Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints**  
+Thomas MacDougall, Maksim Kuznetsov, Roman Schutski, Rim Shayakhmetov, Maxim Malkov, Vladimir Aladinskiy, Alex Aliper, Alex Zhavoronkov  
+[arXiv:2607.18144](https://arxiv.org/abs/2607.18144)
+
 ## 3. Function to Scaffold
 
 > These models design backbone/scaffold/template in Cartesian coordinates, contact maps, distance maps and φ & ψ angles. Including conditional/unconditional generative models.
