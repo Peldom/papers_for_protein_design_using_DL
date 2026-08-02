@@ -10,22 +10,11 @@
 >2. More de novo protein design paper list at [Wangchentong](https://github.com/Wangchentong)'s GitHub repo: [paper_for_denovo_protein_design](https://github.com/Wangchentong/paper_for_denovo_protein_design)  
 >3. Our notes of these papers are shared in a **[Zhihu Column](https://www.zhihu.com/column/c_1475864742820929537)** (simplified Chinese/English), more suggested notes at [RosettAI](https://www.zhihu.com/column/rosettastudy)   -->
 
-*Papers last week, updated on 2026.07.25:*
-+   De Novo Design of Protein Nanopores: From Minimal Peptides to AI-Driven Design
-    + [[Chem. Rev. (2026)](https://pubs.acs.org/chreay/article-abstract/doi/10.1021/acs.chemrev.5c00990/5221890/De-Novo-Design-of-Protein-Nanopores-From-Minimal)]
-+   Deep Learning for Proteins Notebook Series Teaches AI for Biomolecular Structure Prediction and Design
-    + [[The Biophysicist. 2026](https://thebiophysicist.kglmeridian.com/view/journals/biop/7/1/article-p16.xml)]
-+   De Novo Design of Protein Switches with Diffusion-Based Ensemble Sampling
-    + [[bioRxiv 2026.07.20.739027](https://www.biorxiv.org/content/10.64898/2026.07.20.739027v1)]
-+   Antigen-specific Antibody Multi-modal Foundation Model for Functional Antibody Design
-    + [[arXiv:2607.20057](https://arxiv.org/abs/2607.20057)] • [[code](https://github.com/XL-S224/AAMFM)]
-+   ABOPD: Antibody CDR Design via On-Policy Distillation
-    + [[arXiv:2607.18835](https://arxiv.org/abs/2607.18835)]
-+   Programming protein shape as an explicit design layer via CAD blueprint-guided diffusion
-    + [[bioRxiv 2026.07.22.740177](https://www.biorxiv.org/content/10.64898/2026.07.22.740177v1)] • [[code](https://github.com/yilunqi/Shape-conditioned-protein-design)]
-+   Programmable design of synthetic plant immune receptors for pathogen protein recognition
-    + [[Science](https://www.science.org/doi/10.1126/science.aee1792)]
-
+*Papers last week, updated on 2026.08.02:*
++   Generative artificial intelligence for enzyme design and biocatalysis
+    + [[Current Opinion in Chemical Biology](https://www.sciencedirect.com/science/article/pii/S1367593126000773)]
++   The Human Bindome: A Proteome-scale Atlas of Designed Binder Candidates
+    + [[bioRxiv 2026.07.30.741542](https://www.biorxiv.org/content/10.64898/2026.07.30.741542v1)] • [[code](https://github.com/wejulius/Bindome)] • [[website](https://bindome.epfl.ch)]
 
 
 ---
@@ -927,6 +916,10 @@ Rebecca Buller, Jiri Damborsky, Donald Hilvert, Uwe Bornscheuer
 Lasse Middendorf, Noelia Ferruz  
 [arXiv:2602.03779](https://arxiv.org/abs/2602.03779)
 
+**Generative artificial intelligence for enzyme design and biocatalysis**  
+Lasse Middendorf, Noelia Ferruz  
+[Current Opinion in Chemical Biology](https://www.sciencedirect.com/science/article/pii/S1367593126000773)
+
 ## 2. Model-based design
 
 > Invert trained models with optimize algorithms through iterations for sequence design. Inverted structure prediction models are known as **Hallucination**.
@@ -1204,6 +1197,10 @@ Luis S. Mille-Fragoso, Claudia L. Driscoll, John N. Wang, Haoyu Dai, Talal Widat
 **Programmable design of synthetic plant immune receptors for pathogen protein recognition**  
 Haocheng Zhu, Dandan Jiang, Qiao Zhang, Kang Zhang, Kevin Tianmeng Zhao, Jin-Long Qiu, and Caixia Gao  
 [Science](https://www.science.org/doi/10.1126/science.aee1792)
+
+**The Human Bindome: A Proteome-scale Atlas of Designed Binder Candidates**  
+Julius Wenckstern, Anna M. Diaz-Rovira, Julia Kuhn, Arvid Ban, Rahma Hamdani, Roser Pruano-Milla, Evgenia Elizarova, Sandrine Georgeon, Kaiden Thompson, Matthias Hinterndorfer, Devanarayanan Siva Sankar, Maximilian Dunnebacke, David Desscan, Sreenath Nair, Marcelo Querino Lima Afonso, Jennifer Fleming, Sameer Velankar, Andrea Ablasser, Paola Picotti, Georg Winter, Mikko Taipale, Bruno E. Correia  
+[bioRxiv 2026.07.30.741542](https://www.biorxiv.org/content/10.64898/2026.07.30.741542v1) • [code](https://github.com/wejulius/Bindome) • [website](https://bindome.epfl.ch)
 
 #### 2.1.3 DMPfold2-based
 
@@ -1836,7 +1833,7 @@ Lategan, F. Adriaan, Caroline Schreiber, and Hugh G. Patterton
 
 **A Generative Neuro-Symbolic AI for Protein Sequence Design**  
 Marianne Defresne, Delphine Dessaux, Samuel Buchet, Lucie Barthe, Liza Ammar-Khodja, Bessam Azizi, Valentin Durante, Gianluca Cioci, Simon de Givry, Alain Roussel, Luis Garcia-Alles, Thomas Schiex, Sophie Barbe  
-[bioRxiv 2026.03.31.715526](https://www.biorxiv.org/content/10.64898/2026.03.31.715526v1)
+[bioRxiv 2026.03.31.715526](https://www.biorxiv.org/content/10.64898/2026.03.31.715526v1)/[Advanced Science (2026)](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.76464) • [code](https://github.com/effiedes/EffieDes)
 
 ### 4.2 VAE-based
 
@@ -4129,7 +4126,7 @@ Wei Qu, Yiming Ma, Fei Ye, Chan Lu, Yi Zhou, Kexin Zhang, Lan Wang, Minrui Gui, 
 
 **De novo design of metalloproteases for targeted amyloid-β cleavage**  
 Yannan Qu, Chentong Wang, Hongli Zhu, Yanjun Wang, Longxing Cao  
-[bioRxiv 2026.01.06.697903](https://www.biorxiv.org/content/10.64898/2026.01.06.697903v1)
+[bioRxiv 2026.01.06.697903](https://www.biorxiv.org/content/10.64898/2026.01.06.697903v1)/[Vita (2026)](https://www.vita-journal.com/vita/EN/10.15302/vita.2026.07.005)
 
 **General Multimodal Protein Design Enables DNA-Encoding of Chemistry**  
 Jarrid Rector-Brooks, Théophile Lambert, Marta Skreta, Daniel Roth, Yueming Long, Zi-Qi Li, Xi Zhang, Miruna Cretu, Francesca-Zhoufan Li, Tanvi Ganapathy, Emily Jin, Avishek Joey Bose, Jason Yang, Kirill Neklyudov, Yoshua Bengio, Alexander Tong, Frances H. Arnold, Cheng-Hao Liu  
