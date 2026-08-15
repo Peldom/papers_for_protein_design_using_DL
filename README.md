@@ -3607,7 +3607,11 @@ Manvitha Ponnapati, Sapna Sinha, Brian Lynch, Edward S. Boyden, Joseph Jacobson
 
 **Reinforcement-guided generative protein language models enable de novo design of highly diverse AAV capsids**  
 Lucas Ferraz, Ana F. Rodrigues, Pedro Giesteira Cotovio, Mafalda Ventura, Gabriela Silva, Ana Sofia Coroadinha, Miguel Machuqueiro, Catia Pesquita  
-[arXiv:2603.19473](https://arxiv.org/abs/2603.19473) • [code](https://github.com/liseda-lab/genAAV)
+[arXiv:2603.19473](https://arxiv.org/abs/2603.19473) • [code](https://github.com/liseda-lab/genAAV)  
+
+**Aligning protein-generative models to experimental fitness with ProteinDPO**  
+Widatalla, T., Borah, A.A., King, S.H. et al.  
+[Nat Methods (2026)](https://doi.org/10.1038/s41592-026-03137-3) • [code](https://github.com/evo-design/protein-dpo)  
 
 ### 5.7 Flow-based
 
