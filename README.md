@@ -926,7 +926,7 @@ Lasse Middendorf, Noelia Ferruz
 
 ### 2.1 Structure Prediction Model-based
 
-### 2.1.1 trRosetta-based
+#### 2.1.1 trRosetta-based
 
 **Design of proteins presenting discontinuous functional sites using deep learning**
 Doug Tischer, Sidney Lisanza, Jue Wang, Runze Dong,  View ORCID ProfileIvan Anishchenko, Lukas F. Milles, Sergey Ovchinnikov, David Baker
@@ -1445,6 +1445,12 @@ Mingming Zhu, Jiahua Rao, Xiaoyu Chen, Qianmu Yuan, Yuedong Yang
 **Self-Improvement Imitation with Biologically Guided Search for Protein Design Under Oracle Budgets**  
 Ashima Khanna, Dominik Grimm  
 [arXiv:2605.26690](https://arxiv.org/abs/2605.26690) • [code](https://github.com/grimmlab/SILO)
+
+### 2.6 General-LLM-based
+
+**Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints**  
+Thomas MacDougall, Maksim Kuznetsov, Roman Schutski, Rim Shayakhmetov, Maxim Malkov, Vladimir Aladinskiy, Alex Aliper, Alex Zhavoronkov  
+[arXiv:2607.18144](https://arxiv.org/abs/2607.18144)
 
 ## 3. Function to Scaffold
 
